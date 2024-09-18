@@ -1,0 +1,147 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1186/1471-2105-10-S6-S3",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/hogenom",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:Necd0de368ac145f793401a44f328f3ca"
+        },
+        {
+          "@id": "_:N52300ae54b0941f8afe4aa3d87606a31"
+        },
+        {
+          "@id": "_:Ne17356a4ca544e72bc84245a7565f913"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N8b049b2bbabc42b5a6cfb022ca0a73eb"
+        },
+        {
+          "@id": "_:N03de0e63380f4428aee7ee4a14c84062"
+        },
+        {
+          "@id": "_:Na608e8b1731248bdad1bf4bfee7d1ccb"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Web service",
+        "Database portal"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3293"
+        },
+        {
+          "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_0797"
+        },
+        {
+          "@id": "edam:topic_0623"
+        },
+        {
+          "@id": "edam:topic_0194"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/1471-2105-10-S6-S3"
+      },
+      "sc:description": "It allows selection of sets of homologous genes among species, and visualisation of multiple alignments and phylogenetic trees. It is useful for comparative sequence analysis, phylogeny, molecular evolution studies and to get a view of what is known about a peculiar gene family.",
+      "sc:featureList": {
+        "@id": "edam:operation_0224"
+      },
+      "sc:name": "HOGENOM",
+      "sc:operatingSystem": [
+        "Mac",
+        "Windows",
+        "Linux"
+      ],
+      "sc:softwareHelp": [
+        {
+          "@id": "http://doua.prabi.fr/databases/hogenom/home.php?contents=methods"
+        },
+        {
+          "@id": "http://prodom.prabi.fr/prodom/2006.1/documentation/hogenom.html"
+        }
+      ],
+      "sc:url": "http://pbil.univ-lyon1.fr/databases/hogenom3.html"
+    },
+    {
+      "@id": "_:Necd0de368ac145f793401a44f328f3ca",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3021"
+      },
+      "sc:name": "UniProt accession"
+    },
+    {
+      "@id": "_:N52300ae54b0941f8afe4aa3d87606a31",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3021"
+      },
+      "sc:name": "UniProt accession"
+    },
+    {
+      "@id": "_:Ne17356a4ca544e72bc84245a7565f913",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3021"
+      },
+      "sc:name": "UniProt accession"
+    },
+    {
+      "@id": "_:N8b049b2bbabc42b5a6cfb022ca0a73eb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Sequence"
+    },
+    {
+      "@id": "_:N03de0e63380f4428aee7ee4a14c84062",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0872"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Phylogenetic tree"
+    },
+    {
+      "@id": "_:Na608e8b1731248bdad1bf4bfee7d1ccb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Sequence"
+    }
+  ]
+}

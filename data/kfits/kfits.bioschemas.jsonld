@@ -1,0 +1,64 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/kfits",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Dana Reichmann",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Web application"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0821"
+        },
+        {
+          "@id": "edam:topic_3375"
+        },
+        {
+          "@id": "edam:topic_3292"
+        },
+        {
+          "@id": "edam:topic_0078"
+        },
+        {
+          "@id": "edam:topic_3306"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btx577"
+      },
+      "sc:description": "Framework for fitting and cleaning outliers in kinetic measurements.",
+      "sc:featureList": {
+        "@id": "edam:operation_3695"
+      },
+      "sc:name": "Kfits",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://github.com/odedrim/kfits/"
+      },
+      "sc:url": "http://kfits.reichmannlab.com/fitter/"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btx577",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btr182",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/cyclus3d",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N9923694cabd743b5a211352c58fa94e2"
+      },
+      "bsc:output": {
+        "@id": "_:Ncda08785f6d145a68419f15f4a004d26"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Desktop application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0602"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btr182"
+      },
+      "sc:description": "Cytoscape plugin for identifying functional modules in integrated networks composed of multiple interaction types.",
+      "sc:featureList": {
+        "@id": "edam:operation_3083"
+      },
+      "sc:name": "CyClus3D",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:provider": "ugent.be",
+      "sc:softwareHelp": {
+        "@id": "http://bioinformatics.psb.ugent.be/software/details/CyClus3D"
+      },
+      "sc:softwareVersion": "1",
+      "sc:url": "http://bioinformatics.psb.ugent.be/software/details/CyClus3D"
+    },
+    {
+      "@id": "_:Ncda08785f6d145a68419f15f4a004d26",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:name": "Image"
+    },
+    {
+      "@id": "_:N9923694cabd743b5a211352c58fa94e2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2600"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3477"
+      },
+      "sc:name": "Pathway or network"
+    }
+  ]
+}

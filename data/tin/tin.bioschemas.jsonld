@@ -1,0 +1,101 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/tin",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Bjarne Johannessen",
+      "bsc:input": {
+        "@id": "_:N60381a9c236e4e7cb085733ed2427871"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:N8d846456683246c2acd976379772fabb"
+        },
+        {
+          "@id": "_:N3077430c6f734f49a76f2859af3f7ee4"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Library"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2640"
+        },
+        {
+          "@id": "edam:topic_0203"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.4137/CIN.S31363"
+      },
+      "sc:description": "This package implements a set of agents for transcriptome instability analysis based on exon expression profiles. Deviating exon usage is studied in the context of splicing factors to analyse to what degree transcriptome instability is correlated to splicing factor expression. In the transcriptome instability correlation analysis, the data is compared to both random permutations of alternative splicing scores and expression of random gene sets.",
+      "sc:featureList": {
+        "@id": "edam:operation_2940"
+      },
+      "sc:license": "Artistic-2.0",
+      "sc:name": "TIN",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/TIN.html"
+      },
+      "sc:softwareVersion": "1.6.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/TIN.html"
+    },
+    {
+      "@id": "_:N8d846456683246c2acd976379772fabb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3508"
+      },
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:N3077430c6f734f49a76f2859af3f7ee4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1669"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3508"
+      },
+      "sc:name": "P-value"
+    },
+    {
+      "@id": "_:N60381a9c236e4e7cb085733ed2427871",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2603"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1638"
+      },
+      "sc:name": "Gene expression data"
+    },
+    {
+      "@id": "https://doi.org/10.4137/CIN.S31363",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

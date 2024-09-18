@@ -1,0 +1,133 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/sim-xl",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:N58374c15cdf2474a9fea2163585c6185"
+        },
+        {
+          "@id": "_:N5ae3a61ca5f242dfa2ea82a64cef94ef"
+        },
+        {
+          "@id": "_:N32ceb7760a894f41866bfd799db5a936"
+        }
+      ],
+      "bsc:output": {
+        "@id": "_:N6879f7f0026a45428a41355c31027299"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Desktop application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0121"
+        },
+        {
+          "@id": "edam:topic_2814"
+        },
+        {
+          "@id": "edam:topic_3520"
+        },
+        {
+          "@id": "edam:topic_0128"
+        }
+      ],
+      "sc:citation": "pubmed:25638023",
+      "sc:description": "Spectrum Identification Machine for Cross-Linked Peptides.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2406"
+        },
+        {
+          "@id": "edam:operation_3083"
+        },
+        {
+          "@id": "edam:operation_0531"
+        },
+        {
+          "@id": "edam:operation_2949"
+        },
+        {
+          "@id": "edam:operation_3092"
+        },
+        {
+          "@id": "edam:operation_3694"
+        },
+        {
+          "@id": "edam:operation_0338"
+        },
+        {
+          "@id": "edam:operation_3441"
+        }
+      ],
+      "sc:name": "SIM-XL",
+      "sc:operatingSystem": "Windows",
+      "sc:softwareHelp": {
+        "@id": "http://patternlabforproteomics.org/sim-xl/Work.html"
+      },
+      "sc:url": "http://patternlabforproteomics.org/sim-xl"
+    },
+    {
+      "@id": "_:N58374c15cdf2474a9fea2163585c6185",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0944"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3651"
+        },
+        {
+          "@id": "edam:format_3244"
+        }
+      ],
+      "sc:name": "Peptide mass fingerprint"
+    },
+    {
+      "@id": "_:N5ae3a61ca5f242dfa2ea82a64cef94ef",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1233"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence set (protein)"
+    },
+    {
+      "@id": "_:N32ceb7760a894f41866bfd799db5a936",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0943"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3712"
+      },
+      "sc:name": "Mass spectrometry spectra"
+    },
+    {
+      "@id": "_:N6879f7f0026a45428a41355c31027299",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0906"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3247"
+      },
+      "sc:name": "Protein interaction data"
+    }
+  ]
+}

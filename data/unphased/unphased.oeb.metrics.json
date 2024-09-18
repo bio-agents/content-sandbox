@@ -1,0 +1,255 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:unphased/app/sites.google.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-11-19T09:07:27.609063Z",
+        "@type": "metrics",
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 449,
+                            "citations": [
+                                {
+                                    "count": 6,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 54,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 62,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 56,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 49,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 52,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 42,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 35,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 35,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 22,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1159/000119108",
+                            "pmcid": "PMC2386559",
+                            "pmid": "18382088",
+                            "ref_count": 43,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1992"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1993"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1996"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1997"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2007"
+                                }
+                            ],
+                            "title": "Likelihood-based association analysis for nuclear families and unrelated subjects with missing genotype data.",
+                            "year": 2008
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 610,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T09:07:27.537523Z",
+                "last_month_access": {
+                    "average_access_time": 617,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path=%2Ffdudbridge%2Fsoftware%2Funphased-3-1"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://accounts.google.com/ServiceLogin?service=jotspot&passive=1209600&continue=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/fdudbridge/software/unphased-3-1&followup=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/fdudbridge/software/unphased-3-1"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://accounts.google.com/v3/signin/identifier?dsh=S50478397%3A1668848847108105&continue=https%3A%2F%2Fsites.google.com%2Fsite%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2Ffdudbridge%2Fsoftware%2Funphased-3-1&followup=https%3A%2F%2Fsites.google.com%2Fsite%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2Ffdudbridge%2Fsoftware%2Funphased-3-1&passive=1209600&service=jotspot&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=ARgdvAtwmL-A9Z3dHddFFsz-fmLJGgorRhzsE8M60Rrru7_yXQpQQenlJ6xurDrovPUs5fFJlVnT"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": false
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/unphased",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-11-19T08:58:31.672966Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 644,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T08:58:31.611333Z",
+                "last_month_access": {
+                    "average_access_time": 649,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path=%2Ffdudbridge%2Fsoftware%2Funphased-3-1"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://accounts.google.com/ServiceLogin?service=jotspot&passive=1209600&continue=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/fdudbridge/software/unphased-3-1&followup=https://sites.google.com/site/sites/system/errors/WebspaceNotFound?path%3D/fdudbridge/software/unphased-3-1"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://accounts.google.com/v3/signin/identifier?dsh=S-1475468087%3A1668848311190960&continue=https%3A%2F%2Fsites.google.com%2Fsite%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2Ffdudbridge%2Fsoftware%2Funphased-3-1&followup=https%3A%2F%2Fsites.google.com%2Fsite%2Fsites%2Fsystem%2Ferrors%2FWebspaceNotFound%3Fpath%3D%2Ffdudbridge%2Fsoftware%2Funphased-3-1&passive=1209600&service=jotspot&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=ARgdvAuKRD5c7XI-XKeEHIlY-pljKFfBtmU1Wv60sSeFLQP6o8yRq6NmSpV7nh5Xr3UV50u6YS5s"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

@@ -1,0 +1,48 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.agents/j-circos",
+  "@type": "sc:SoftwareApplication",
+  "bioagents:primaryContact": [
+    "Colleen Nelson",
+    "Jiyuan An"
+  ],
+  "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+  "sc:additionalType": "Desktop application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_3512"
+    },
+    {
+      "@id": "edam:topic_0097"
+    },
+    {
+      "@id": "edam:topic_0092"
+    }
+  ],
+  "sc:citation": "pubmed:25540184",
+  "sc:description": "Circos plot agent that is an interactive visualization agent that can plot Circos figures, as well as being able to dynamically add data to the figure, and providing information for specific data points using mouse hover display and zoom in/out functions.",
+  "sc:featureList": {
+    "@id": "edam:operation_0570"
+  },
+  "sc:name": "J-Circos",
+  "sc:operatingSystem": [
+    "Windows",
+    "Linux",
+    "Mac"
+  ],
+  "sc:softwareHelp": {
+    "@id": "http://www.australianprostatecentre.org/SoftwareAttachments/manual_jcircosv2.pdf"
+  },
+  "sc:url": "http://www.australianprostatecentre.org/research/software/jcircos"
+}

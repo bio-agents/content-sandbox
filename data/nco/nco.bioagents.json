@@ -1,0 +1,48 @@
+{
+    "additionDate": "2021-05-26T21:04:15Z",
+    "bioagentsCURIE": "bioagents:nco",
+    "bioagentsID": "nco",
+    "description": "The NCO agentkit manipulates and analyzes data stored in netCDF-accessible formats, including DAP, HDF4, and HDF5.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://nco.sourceforge.net/nco.html"
+        },
+        {
+            "type": [
+                "User manual"
+            ],
+            "url": "http://nco.sourceforge.net/nco.pdf"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "homepage": "http://nco.sourceforge.net/",
+    "language": [
+        "C"
+    ],
+    "lastUpdate": "2021-07-29T19:19:03Z",
+    "license": "BSD-3-Clause",
+    "link": [
+        {
+            "type": [
+                "Issue tracker"
+            ],
+            "url": "https://github.com/nco/nco/issues"
+        },
+        {
+            "type": [
+                "Repository"
+            ],
+            "url": "https://github.com/nco/nco"
+        }
+    ],
+    "name": "NCO agentkit",
+    "owner": "Kigaard",
+    "agentType": [
+        "Suite"
+    ]
+}

@@ -1,0 +1,88 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gkv402",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/ngl_viewer",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Alexander Rose",
+      "bsc:input": {
+        "@id": "_:Nf6b27f8eef5f42fcbf8efe6e42e74730"
+      },
+      "bsc:output": {
+        "@id": "_:N23b4021af8c64fd08d260d1421c80d9a"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Library",
+        "Command-line agent",
+        "Web application"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0092"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gkv402"
+      },
+      "sc:description": "Web application for molecular visualization. It is employed to display molecules like proteins and DNA/RNA with a variety of representations.",
+      "sc:featureList": {
+        "@id": "edam:operation_0570"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "MIT",
+      "sc:name": "NGL VIewer",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:provider": "weirdbyte.de",
+      "sc:softwareHelp": {
+        "@id": "https://github.com/arose/ngl"
+      },
+      "sc:softwareVersion": "0.7.1a",
+      "sc:url": "https://github.com/arose/ngl"
+    },
+    {
+      "@id": "_:Nf6b27f8eef5f42fcbf8efe6e42e74730",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0883"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1477"
+        },
+        {
+          "@id": "edam:format_1476"
+        }
+      ],
+      "sc:name": "Structure"
+    },
+    {
+      "@id": "_:N23b4021af8c64fd08d260d1421c80d9a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1710"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3603"
+      },
+      "sc:name": "Structure image"
+    }
+  ]
+}

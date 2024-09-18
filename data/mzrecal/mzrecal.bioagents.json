@@ -1,0 +1,146 @@
+{
+    "accessibility": "Open access",
+    "additionDate": "2020-08-25T10:41:01Z",
+    "bioagentsCURIE": "bioagents:mzrecal",
+    "bioagentsID": "mzrecal",
+    "confidence_flag": "agent",
+    "cost": "Free of charge",
+    "description": "Recalibrate mass spectrometry datasets using peptides identified by MS/MS",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "https://github.com/524D/mzrecal/blob/master/README.md"
+        }
+    ],
+    "download": [
+        {
+            "note": "Pre-build binaries for Linux (x86_64) and Windows",
+            "type": "Binaries",
+            "url": "https://github.com/524D/mzrecal/releases"
+        }
+    ],
+    "editPermission": {
+        "authors": [
+            "n.m.palmblad@lumc.nl"
+        ],
+        "type": "group"
+    },
+    "iechorCommunity": [
+        "Proteomics"
+    ],
+    "iechorNode": [
+        "Netherlands"
+    ],
+    "iechorPlatform": [
+        "Agents"
+    ],
+    "function": [
+        {
+            "cmd": "mzrecal",
+            "input": [
+                {
+                    "data": {
+                        "term": "Mass spectrum",
+                        "uri": "http://edamontology.org/data_0943"
+                    },
+                    "format": [
+                        {
+                            "term": "mzML",
+                            "uri": "http://edamontology.org/format_3244"
+                        }
+                    ]
+                },
+                {
+                    "data": {
+                        "term": "Peptide identification",
+                        "uri": "http://edamontology.org/data_0945"
+                    },
+                    "format": [
+                        {
+                            "term": "mzIdentML",
+                            "uri": "http://edamontology.org/format_3247"
+                        }
+                    ]
+                }
+            ],
+            "operation": [
+                {
+                    "term": "Mass spectra calibration",
+                    "uri": "http://edamontology.org/operation_3627"
+                }
+            ],
+            "output": [
+                {
+                    "data": {
+                        "term": "Mass spectrum",
+                        "uri": "http://edamontology.org/data_0943"
+                    },
+                    "format": [
+                        {
+                            "term": "mzML",
+                            "uri": "http://edamontology.org/format_3244"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "homepage": "https://github.com/524D/mzrecal/",
+    "language": [
+        "Other"
+    ],
+    "lastUpdate": "2021-06-14T09:37:52Z",
+    "license": "MIT",
+    "link": [
+        {
+            "type": [
+                "Issue tracker"
+            ],
+            "url": "https://github.com/524D/mzrecal/issues"
+        },
+        {
+            "type": [
+                "Repository"
+            ],
+            "url": "https://github.com/524D/mzrecal/"
+        }
+    ],
+    "maturity": "Emerging",
+    "name": "mzRecal",
+    "operatingSystem": [
+        "Linux",
+        "Windows"
+    ],
+    "owner": "robm",
+    "publication": [
+        {
+            "doi": "10.1093/bioinformatics/btab056",
+            "pmid": "33538780",
+            "type": [
+                "Primary"
+            ],
+            "version": "1.0.1"
+        }
+    ],
+    "relation": [
+        {
+            "bioagentsID": "recal2",
+            "type": "isNewVersionOf"
+        }
+    ],
+    "agentType": [
+        "Command-line agent"
+    ],
+    "topic": [
+        {
+            "term": "Proteomics",
+            "uri": "http://edamontology.org/topic_0121"
+        }
+    ],
+    "validated": 1,
+    "version": [
+        "1.1.0"
+    ]
+}

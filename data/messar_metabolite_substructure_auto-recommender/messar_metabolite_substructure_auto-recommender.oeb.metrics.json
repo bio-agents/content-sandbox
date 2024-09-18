@@ -1,0 +1,117 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/messar_metabolite_substructure_auto-recommender",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-09-17T04:38:15.928868Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            50,
+                            132
+                        ],
+                        "status": 503
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-09-17T04:38:15.856021Z",
+                "last_month_access": {
+                    "average_access_time": 7041,
+                    "downtime_days": 30,
+                    "uptime_days": 0
+                },
+                "license": false,
+                "operational": 202,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://daniellyz200608105.shinyapps.io/MESSAR"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://daniellyz200608105.shinyapps.io/MESSAR/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:messar_metabolite_substructure_auto-recommender/undefined/messar.biodatamining.be",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-09-17T09:16:35.245115Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            50,
+                            132
+                        ],
+                        "status": 503
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-09-17T09:16:35.211207Z",
+                "last_month_access": {
+                    "downtime_days": 30,
+                    "uptime_days": 0
+                },
+                "license": false,
+                "operational": 202,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://daniellyz200608105.shinyapps.io/MESSAR"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://daniellyz200608105.shinyapps.io/MESSAR/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

@@ -1,0 +1,89 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/advanced_pdb_search",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Gerard Kleywegt",
+      "bsc:output": [
+        {
+          "@id": "_:Nd7bc500156d24908857509362a31bba5"
+        },
+        {
+          "@id": "_:N52b4dd1861f94d908e0b84e25a7b5e9e"
+        },
+        {
+          "@id": "_:Nfe3c50ed58304536863dcb11055a396e"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_2814"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gkv1352"
+      },
+      "sc:description": "Search the PDB.",
+      "sc:featureList": {
+        "@id": "edam:operation_0339"
+      },
+      "sc:name": "Advanced PDB search",
+      "sc:operatingSystem": [
+        "Mac",
+        "Windows",
+        "Linux"
+      ],
+      "sc:provider": "EMBL-EBI",
+      "sc:softwareHelp": [
+        {
+          "@id": "http://www.ebi.ac.uk/about/terms-of-use"
+        },
+        {
+          "@id": "http://www.ebi.ac.uk/pdbe-srv/view/search?search_type=advanced"
+        }
+      ],
+      "sc:softwareVersion": "1",
+      "sc:url": "http://www.ebi.ac.uk/pdbe-srv/view/search?search_type=advanced"
+    },
+    {
+      "@id": "_:Nd7bc500156d24908857509362a31bba5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0883"
+      },
+      "sc:name": "Structure"
+    },
+    {
+      "@id": "_:N52b4dd1861f94d908e0b84e25a7b5e9e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1537"
+      },
+      "sc:name": "Protein structure report"
+    },
+    {
+      "@id": "_:Nfe3c50ed58304536863dcb11055a396e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2080"
+      },
+      "sc:name": "Database search results"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkv1352",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

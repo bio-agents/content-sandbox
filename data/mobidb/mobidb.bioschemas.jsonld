@@ -1,0 +1,150 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gku982",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/mobidb",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": {
+        "@id": "https://orcid.org/0000-0003-4525-7793"
+      },
+      "bsc:input": [
+        {
+          "@id": "_:N00f2dd14567b4ac88741e163b8ff50aa"
+        },
+        {
+          "@id": "_:Ncced73f2799849b9af440f43a5273d9b"
+        }
+      ],
+      "bsc:output": {
+        "@id": "_:N9f55795cb1374ebdbfa44524ad35576a"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Web API",
+        "Web application",
+        "Database portal"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3538"
+        },
+        {
+          "@id": "edam:topic_2814"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/nar/gku982"
+        },
+        "pubmed:29136219",
+        "pubmed:22661649",
+        {
+          "@id": "https://doi.org/10.1093/bioinformatics/bts327"
+        },
+        {
+          "@id": "https://doi.org/10.1093/nar/gkx1071"
+        },
+        "pubmed:33237329",
+        {
+          "@id": "https://doi.org/10.1093/nar/gkaa1058"
+        },
+        "pmcid:PMC7779018",
+        "pubmed:25361972"
+      ],
+      "sc:description": "Database of protein disorder and mobility annotations.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2406"
+        },
+        {
+          "@id": "edam:operation_0224"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "CC-BY-4.0",
+      "sc:name": "MobiDB",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:provider": "University of Padua, Department of Biomedical Sciences, BioComputing UP lab",
+      "sc:softwareHelp": [
+        {
+          "@id": "https://mobidb.org/help/apidoc"
+        },
+        {
+          "@id": "https://mobidb.org/about/mobidb"
+        }
+      ],
+      "sc:softwareVersion": "4",
+      "sc:url": "https://mobidb.org/"
+    },
+    {
+      "@id": "_:N00f2dd14567b4ac88741e163b8ff50aa",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3021"
+      },
+      "sc:name": "UniProt accession"
+    },
+    {
+      "@id": "_:Ncced73f2799849b9af440f43a5273d9b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2007"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1964"
+      },
+      "sc:name": "UniProt keyword"
+    },
+    {
+      "@id": "_:N9f55795cb1374ebdbfa44524ad35576a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1255"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2331"
+        },
+        {
+          "@id": "edam:format_3464"
+        }
+      ],
+      "sc:name": "Sequence features"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-4525-7793",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bts327",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkaa1058",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkx1071",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

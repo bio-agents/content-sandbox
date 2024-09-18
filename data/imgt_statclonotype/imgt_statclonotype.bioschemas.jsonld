@@ -1,0 +1,112 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/IMGT_StatClonotype",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N16aca25737bf4699bbac4144a33d9685"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:N97bd6105849642e1ac4c036698dc9119"
+        },
+        {
+          "@id": "_:Nc74311d1d6cd4bafb95c924b41d70a22"
+        },
+        {
+          "@id": "_:Naee53d1b6bb04844a58194f862d5ed38"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3930"
+        },
+        {
+          "@id": "edam:topic_3948"
+        }
+      ],
+      "sc:author": "Safa Aouinti",
+      "sc:citation": [
+        "pubmed:26731095",
+        "pubmed:26540440"
+      ],
+      "sc:description": "IMGT/StatClnotype is the IMGT® agent for statistical analysis of sets from IMGT/HighV-QUEST output.  IMGT/StatClonotype uses a generic statistical procedure for identifying significant changes in IG and TR differences of proportions of IMGT clonotypes (AA) diversity and expression. It uses the IMGT gene and allele nomenclature and it is based on IMGT-ONTOLOGY concepts.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2238"
+        },
+        {
+          "@id": "edam:operation_0315"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:name": "IMGT StatClonotype",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:softwareHelp": [
+        {
+          "@id": "http://www.imgt.org/StatClonotype/IMGTStatClonotypeDoc.html#upgrade"
+        },
+        {
+          "@id": "http://www.imgt.org/StatClonotype/IMGTStatClonotypeDoc.html"
+        }
+      ],
+      "sc:url": "http://www.imgt.org/StatClonotype/"
+    },
+    {
+      "@id": "_:N97bd6105849642e1ac4c036698dc9119",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:Nc74311d1d6cd4bafb95c924b41d70a22",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:Naee53d1b6bb04844a58194f862d5ed38",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1636"
+      },
+      "sc:name": "Heat map"
+    },
+    {
+      "@id": "_:N16aca25737bf4699bbac4144a33d9685",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2955"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3752"
+      },
+      "sc:name": "Sequence report"
+    }
+  ]
+}

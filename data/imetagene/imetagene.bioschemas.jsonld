@@ -1,0 +1,124 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/imetagene",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Audrey Lemacon",
+      "bsc:input": {
+        "@id": "_:N2af5d675ffe345d49a46051c2737d082"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:N8566db4dda6b4d73ad2e783cd9cedda6"
+        },
+        {
+          "@id": "_:N1d9334647aa14df594b3499e89a053f9"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Library"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3678"
+        },
+        {
+          "@id": "edam:topic_3168"
+        },
+        {
+          "@id": "edam:topic_3053"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1371/journal.pcbi.1004751"
+      },
+      "sc:description": "This package provide a graphical user interface to the metagene package. This will allow people with minimal R experience to easily complete metagene analysis.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2945"
+        },
+        {
+          "@id": "edam:operation_2430"
+        }
+      ],
+      "sc:license": "Artistic-2.0",
+      "sc:name": "Imetagene",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/Imetagene.html"
+      },
+      "sc:softwareVersion": "1.4.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/Imetagene.html"
+    },
+    {
+      "@id": "_:N2af5d675ffe345d49a46051c2737d082",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2572"
+        },
+        {
+          "@id": "edam:format_3003"
+        }
+      ],
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:N8566db4dda6b4d73ad2e783cd9cedda6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3508"
+        },
+        {
+          "@id": "edam:format_3603"
+        }
+      ],
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:N1d9334647aa14df594b3499e89a053f9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2082"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3603"
+        },
+        {
+          "@id": "edam:format_3508"
+        }
+      ],
+      "sc:name": "Matrix"
+    },
+    {
+      "@id": "https://doi.org/10.1371/journal.pcbi.1004751",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

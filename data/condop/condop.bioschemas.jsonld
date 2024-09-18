@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/condop",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": [
+        "Roberto Tagliaferri",
+        "Paola Galdi",
+        "Angela Serra"
+      ],
+      "bsc:input": {
+        "@id": "_:N6f6ad808835240a6972ec39b1a8e1ad8"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3070"
+      },
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1186/1471-2105-15-145"
+        },
+        "pubmed:24884724",
+        "pmcid:PMC4235196"
+      ],
+      "sc:description": "R package for CONdition-Dependent Operon Predictions. It is a agent in R to identify from RNA-seq transcriptome profiles operons expressed in a condition/transcriptome-specific manner, based on a Random Forest classifier.",
+      "sc:featureList": {
+        "@id": "edam:operation_2409"
+      },
+      "sc:name": "CONDOP",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:provider": "IECHOR-ITA-SALERNO",
+      "sc:softwareHelp": {
+        "@id": "https://cran.r-project.org/web/packages/CONDOP/CONDOP.pdf"
+      },
+      "sc:softwareVersion": "1",
+      "sc:url": "https://cran.r-project.org/web/packages/CONDOP/index.html"
+    },
+    {
+      "@id": "_:N6f6ad808835240a6972ec39b1a8e1ad8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2603"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Gene expression data"
+    },
+    {
+      "@id": "https://doi.org/10.1186/1471-2105-15-145",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

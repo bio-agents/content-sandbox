@@ -1,0 +1,99 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/ega",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N6ab9430ef75d46f8b4a0428f57a27d7c"
+      },
+      "bsc:output": {
+        "@id": "_:Nca17693ff36b4627993cd5cc6c21e0f1"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Web API",
+        "Database portal",
+        "Web application"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3325"
+        },
+        {
+          "@id": "edam:topic_3263"
+        },
+        {
+          "@id": "edam:topic_0625"
+        },
+        {
+          "@id": "edam:topic_3366"
+        },
+        {
+          "@id": "edam:topic_0607"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1038/ng.3312"
+      },
+      "sc:description": "European genome-phenome Archive (EGA) - service for permanent archiving and sharing of all types of personally identifiable genetic and phenotypic data resulting from biomedical research projects.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3436"
+        },
+        {
+          "@id": "edam:operation_3431"
+        },
+        {
+          "@id": "edam:operation_0224"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:name": "EGA",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:provider": "EMBL-EBI Databases",
+      "sc:softwareHelp": {
+        "@id": "https://ega-archive.org/"
+      },
+      "sc:url": "https://ega-archive.org/"
+    },
+    {
+      "@id": "_:N6ab9430ef75d46f8b4a0428f57a27d7c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2383"
+      },
+      "sc:name": "EGA accession"
+    },
+    {
+      "@id": "_:Nca17693ff36b4627993cd5cc6c21e0f1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2531"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Experiment report"
+    },
+    {
+      "@id": "https://doi.org/10.1038/ng.3312",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

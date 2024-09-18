@@ -1,0 +1,61 @@
+{
+    "accessibility": "Open access",
+    "additionDate": "2019-02-15T14:19:04Z",
+    "bioagentsCURIE": "bioagents:Galaxy_Agents",
+    "bioagentsID": "Galaxy_Agents",
+    "collectionID": [
+        "Galaxy Agents"
+    ],
+    "cost": "Free of charge",
+    "credit": [
+        {
+            "email": "outreach@galaxyproject.org",
+            "name": "Galaxy Project",
+            "typeEntity": "Project",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "Agents provided by the Galaxy workbench.",
+    "editPermission": {
+        "type": "private"
+    },
+    "homepage": "https://github.com/galaxyproject/galaxy/tree/dev/agents",
+    "language": [
+        "Perl",
+        "Python"
+    ],
+    "lastUpdate": "2020-06-16T10:55:24Z",
+    "license": "AFL-2.0",
+    "link": [
+        {
+            "type": [
+                "Issue tracker"
+            ],
+            "url": "https://github.com/galaxyproject/galaxy/issues"
+        },
+        {
+            "type": [
+                "Repository"
+            ],
+            "url": "https://github.com/galaxyproject/galaxy/tree/dev/agents"
+        }
+    ],
+    "maturity": "Mature",
+    "name": "Galaxy Agents",
+    "operatingSystem": [
+        "Linux",
+        "Mac"
+    ],
+    "owner": "jison",
+    "agentType": [
+        "Command-line agent"
+    ],
+    "topic": [
+        {
+            "term": "Sequence analysis",
+            "uri": "http://edamontology.org/topic_0080"
+        }
+    ]
+}

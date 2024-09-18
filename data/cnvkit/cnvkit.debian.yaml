@@ -1,0 +1,48 @@
+package: cnvkit
+distribution: debian
+release: sid
+component: main
+version: 0.9.8
+source: cnvkit
+homepage: http://cnvkit.readthedocs.org
+license: unknown
+blend: debian-med
+description_md5: 0b8ab5ba6be9de3379277ab7a92a7b5d
+registries:
+- entry: OMICS_11538
+  name: OMICagents
+- entry: cnvkit
+  name: bio.agents
+- entry: cnvkit
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1371/journal.pcbi.1004873
+popcon:
+- insts: 30
+  olde: 20
+  recent: 6
+  vote: 4
+descr:
+- package: cnvkit
+  description: Copy number variant detection from targeted DNA sequencing
+  long_description: " A command-line agentkit and Python library for detecting copy\
+    \ number variants\n and alterations genome-wide from targeted DNA sequencing.\
+    \ It is designed for\n use with hybrid capture, including both whole-exome and\
+    \ custom target panels,\n and short-read sequencing platforms such as Illumina\
+    \ and Ion Torrent.\n"
+  release: sid
+  description_md5: 0b8ab5ba6be9de3379277ab7a92a7b5d
+  license: unknown
+  blend: debian-med
+- package: cnvkit
+  description: Kopier nummervariantregistrering fra målrettet DNA-sekventering
+  long_description: " Et værktøjssæt for kommandolinjen og Pythonbibliotek til at\
+    \ registrere\n kopinummervarianter og ændringer på tværs af genomet fra målrettet\
+    \ DNA-\n sekventering. Er designet for brug med hybrid optagelse, inklusive både\n\
+    \ whole-exome og tilpassede målpaneler, og kort-læs sekventeringsplatforme\n såsom\
+    \ Illumina og Ion Torrent.\n"
+  release: sid
+  description_md5: 0b8ab5ba6be9de3379277ab7a92a7b5d
+  license: unknown
+  blend: debian-med

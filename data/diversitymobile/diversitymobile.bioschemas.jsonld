@@ -1,0 +1,165 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/DiversityMobile",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "SNSB IT Center",
+      "bsc:input": [
+        {
+          "@id": "_:Na9f607b2469843f6aa35223bf8806de0"
+        },
+        {
+          "@id": "_:Nd42b06e51fd54b52a9e58540151b6116"
+        },
+        {
+          "@id": "_:N23f870130b184c5b86e4e0271e6b2f1a"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N592edd4e8064466ba5aa2f296c9868fb"
+        },
+        {
+          "@id": "_:Nc700a070d86e4fca9729b10ef2383d96"
+        },
+        {
+          "@id": "_:N4764f8ab32354b949e6d79cba0b7e79b"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Web API",
+        "Web service"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3050"
+        },
+        {
+          "@id": "edam:topic_3070"
+        },
+        {
+          "@id": "edam:topic_3071"
+        }
+      ],
+      "sc:author": "University of Bayreuth, Chair of Databases and Information Systems",
+      "sc:contributor": "Universität Bayreuth, Department of Mycology",
+      "sc:description": "DiversityMobile (DWB-DM) is an smartphone app for biologists, ecologists and registered citizen scientists being experienced in recording observation data in the field. Data are entered into the app database which follows the Diversity Workbench (DWB) information model. Mechanisms of automated recording and storage of GPS data and manual recording of multimedia data are included. Data entry might be done offline. The DM virtual environment covers webservices for bidirectional data transfer with an institutional data repository. Features include the recording of research data and metadata with automatic inclusion of GPS data, recording of multimedia data (images, audio, video), data transfer from and to an institutional data repository via Wi-Fi. DM webservices are ready to download standardised pick lists with names of organisms, geographic maps and already available metadata of individual research projects. DM webservices are also used to upload research data to the data repository.",
+      "sc:featureList": {
+        "@id": "edam:operation_2409"
+      },
+      "sc:funder": "Deutsche Forschungsgemeinschaft (DFG)",
+      "sc:isAccessibleForFree": true,
+      "sc:license": "GPL-2.0",
+      "sc:name": "DiversityMobile",
+      "sc:operatingSystem": "Windows",
+      "sc:softwareHelp": [
+        {
+          "@id": "https://diversityworkbench.net/Portal/DiversityMobile"
+        },
+        {
+          "@id": "http://www.diversitymobile.net/wiki/DiversityMobile_User_Manuals_WP"
+        }
+      ],
+      "sc:url": "https://diversityworkbench.net/Portal/DiversityMobile"
+    },
+    {
+      "@id": "_:N592edd4e8064466ba5aa2f296c9868fb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3707"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3706"
+        }
+      ],
+      "sc:name": "Biodiversity data"
+    },
+    {
+      "@id": "_:Nc700a070d86e4fca9729b10ef2383d96",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3579"
+      },
+      "sc:name": "Image"
+    },
+    {
+      "@id": "_:N4764f8ab32354b949e6d79cba0b7e79b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3736"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3706"
+        }
+      ],
+      "sc:name": "Ecological data"
+    },
+    {
+      "@id": "_:Na9f607b2469843f6aa35223bf8806de0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3736"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3706"
+        }
+      ],
+      "sc:name": "Ecological data"
+    },
+    {
+      "@id": "_:Nd42b06e51fd54b52a9e58540151b6116",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3707"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3706"
+        }
+      ],
+      "sc:name": "Biodiversity data"
+    },
+    {
+      "@id": "_:N23f870130b184c5b86e4e0271e6b2f1a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3579"
+      },
+      "sc:name": "Image"
+    }
+  ]
+}

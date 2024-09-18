@@ -1,0 +1,89 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1021/acs.jproteome.8b00767",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/tomahaqcompanion",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:N0751bfba9f5640089792968ee26f5d42"
+        },
+        {
+          "@id": "_:Ne27fe52ebc334f5e996b37e67b4632a8"
+        }
+      ],
+      "bsc:output": {
+        "@id": "_:N426e1601b3a04bbe8c1faa57030c56f6"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Desktop application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0121"
+      },
+      "sc:citation": [
+        "pubmed:30501201",
+        {
+          "@id": "https://doi.org/10.1021/acs.jproteome.8b00767"
+        }
+      ],
+      "sc:description": "Desktop application that enables rapid creation of TOMAHAQ methods and analysis of TOMAHAQ data.",
+      "sc:featureList": {
+        "@id": "edam:operation_2430"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "GPL-3.0",
+      "sc:name": "TomahaqCompanion",
+      "sc:operatingSystem": "Windows",
+      "sc:softwareHelp": {
+        "@id": "https://github.com/CMRose3355/TomahaqCompanionProgram/tree/master/StarterKit"
+      },
+      "sc:softwareVersion": "1.0.2",
+      "sc:url": "https://github.com/CMRose3355/TomahaqCompanionProgram"
+    },
+    {
+      "@id": "_:N0751bfba9f5640089792968ee26f5d42",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0943"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3712"
+      },
+      "sc:name": "Mass spectrometry spectra"
+    },
+    {
+      "@id": "_:Ne27fe52ebc334f5e996b37e67b4632a8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2974"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3752"
+      },
+      "sc:name": "Protein sequence (raw)"
+    },
+    {
+      "@id": "_:N426e1601b3a04bbe8c1faa57030c56f6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:name": "Data"
+    }
+  ]
+}

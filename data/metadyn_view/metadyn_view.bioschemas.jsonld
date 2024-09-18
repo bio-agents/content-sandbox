@@ -1,0 +1,88 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1016/j.cpc.2015.08.037",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/metadyn_view",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Vojtech Spiwok",
+      "bsc:input": {
+        "@id": "_:N408b6cf18181457093db4127456f4c0a"
+      },
+      "bsc:output": {
+        "@id": "_:Nb4f97d5442ba43d3905e48a7085134f4"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3332"
+      },
+      "sc:author": [
+        "Petr Hosek",
+        "Vojtech Spiwok"
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1016/j.cpc.2015.08.037"
+      },
+      "sc:contributor": "Czech Science Foundation 15-17269S",
+      "sc:description": "An interactive web viewer of metadynamics results.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0244"
+        },
+        {
+          "@id": "edam:operation_2476"
+        }
+      ],
+      "sc:funder": "Czech Science Foundation 15-17269S",
+      "sc:isAccessibleForFree": true,
+      "sc:name": "Metadyn View",
+      "sc:operatingSystem": "Linux",
+      "sc:provider": [
+        "IECHOR-CZ",
+        "University of Chemistry and Technology Prague, Czech Republic"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://metadyn.vscht.cz"
+      },
+      "sc:softwareVersion": "1.0",
+      "sc:url": "http://metadyn.vscht.cz"
+    },
+    {
+      "@id": "_:N408b6cf18181457093db4127456f4c0a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0889"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Structural profile"
+    },
+    {
+      "@id": "_:Nb4f97d5442ba43d3905e48a7085134f4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1636"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Heat map"
+    }
+  ]
+}

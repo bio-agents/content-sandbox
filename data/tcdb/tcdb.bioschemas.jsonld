@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/tcdb",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Prof. Milton H. Saier, Jr",
+      "bsc:input": {
+        "@id": "_:Ne5e39dd706304c7c88bd63c42776e8e6"
+      },
+      "bsc:output": {
+        "@id": "_:N280a18ca4bae49efa18d2a4d9f48cc4e"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0820"
+        },
+        {
+          "@id": "edam:topic_0623"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/nar/gkt1097"
+        },
+        "pubmed:24225317",
+        "pmcid:PMC3964967"
+      ],
+      "sc:description": "A comprehensive IUBMB approved classification system for membrane transport proteins known as the Transporter Classification (TC) system. The TC system is analogous to the Enzyme Commission (EC) system for classification of enzymes, but incorporates phylogenetic information additionally.",
+      "sc:featureList": {
+        "@id": "edam:operation_0224"
+      },
+      "sc:name": "Transport classification database (TCDB)",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://www.tcdb.org/faq.php"
+      },
+      "sc:url": "http://www.tcdb.org/"
+    },
+    {
+      "@id": "_:Ne5e39dd706304c7c88bd63c42776e8e6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2756"
+      },
+      "sc:name": "TCID"
+    },
+    {
+      "@id": "_:N280a18ca4bae49efa18d2a4d9f48cc4e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1277"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Protein features"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkt1097",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

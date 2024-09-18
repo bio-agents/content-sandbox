@@ -1,0 +1,139 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/passion",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-11-05T09:46:00.944540Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 1110,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 503
+                    },
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-05T09:46:00.858831Z",
+                "last_month_access": {
+                    "average_access_time": 2152,
+                    "downtime_days": 30,
+                    "uptime_days": 0
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://flagship.erc.monash.edu/PASSION/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:passion/undefined/flagship.erc.monash.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-11-05T10:34:02.843596Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "manual": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 16,
+                            "citations": [
+                                {
+                                    "count": 4,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btaa522",
+                            "pmid": "32426818",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "PASSION: an ensemble neural network approach for identifying the binding sites of RBPs on circRNAs.",
+                            "year": 2020
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 979,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-05T10:34:02.812356Z",
+                "last_month_access": {
+                    "average_access_time": 994,
+                    "downtime_days": 29,
+                    "uptime_days": 1
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://flagship.erc.monash.edu/PASSION/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btq395",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/lemone",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Tom Michoel",
+      "bsc:input": {
+        "@id": "_:N55e0357acb024fae98763d9ec7630e02"
+      },
+      "bsc:output": {
+        "@id": "_:N1b64d8acfe61447eac7eb5d30b023b0f"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0602"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btq395"
+      },
+      "sc:description": "A software package for Learning Module Networks from gene expression data.",
+      "sc:featureList": {
+        "@id": "edam:operation_1781"
+      },
+      "sc:name": "LeMoNe",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:provider": "PSB",
+      "sc:softwareHelp": {
+        "@id": "http://bioinformatics.psb.ugent.be/software/details/LeMoNe"
+      },
+      "sc:softwareVersion": "1.0",
+      "sc:url": "http://bioinformatics.psb.ugent.be/software/details/LeMoNe"
+    },
+    {
+      "@id": "_:N55e0357acb024fae98763d9ec7630e02",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0928"
+      },
+      "sc:name": "Gene expression profile"
+    },
+    {
+      "@id": "_:N1b64d8acfe61447eac7eb5d30b023b0f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2984"
+      },
+      "sc:name": "Pathway or network report"
+    }
+  ]
+}

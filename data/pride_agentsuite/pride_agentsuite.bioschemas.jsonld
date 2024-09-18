@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1101/152579",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/pride_agentsuite",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N96a87847ca294e31942ab3e9caeaf401"
+      },
+      "bsc:output": {
+        "@id": "_:N1e357dc34b0940048c40e4c4b70b6c25"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Desktop application",
+        "Suite"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3520"
+        },
+        {
+          "@id": "edam:topic_0219"
+        },
+        {
+          "@id": "edam:topic_0121"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1101/152579"
+      },
+      "sc:description": "A selection of agents and libraries for interacting with data in PRIDE.",
+      "sc:featureList": {
+        "@id": "edam:operation_3431"
+      },
+      "sc:name": "PRIDE Agentsuite",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://code.google.com/archive/p/pride-agentsuite/"
+      },
+      "sc:url": "https://github.com/PRIDE-Agentsuite"
+    },
+    {
+      "@id": "_:N96a87847ca294e31942ab3e9caeaf401",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3244"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N1e357dc34b0940048c40e4c4b70b6c25",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2332"
+      },
+      "sc:name": "Data"
+    }
+  ]
+}

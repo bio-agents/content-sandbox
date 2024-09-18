@@ -1,0 +1,101 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1021/pr200664h",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/jtraml",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N3c32e918780044eeb4333143ad30c1cc"
+      },
+      "bsc:output": {
+        "@id": "_:N01281353b9b14a77b8a8e14459c7964c"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Web application",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0121"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1021/pr200664h"
+      },
+      "sc:description": "Java implementation of the PSI-MS Transitions Markup Language (TraML) specification.",
+      "sc:featureList": {
+        "@id": "edam:operation_3434"
+      },
+      "sc:name": "Jtraml",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:provider": "ugent.be",
+      "sc:softwareHelp": {
+        "@id": "https://github.com/compomics/jtraml"
+      },
+      "sc:softwareVersion": "1.0.4",
+      "sc:url": "https://github.com/compomics/jtraml"
+    },
+    {
+      "@id": "_:N01281353b9b14a77b8a8e14459c7964c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3475"
+        },
+        {
+          "@id": "edam:format_3246"
+        },
+        {
+          "@id": "edam:format_1628"
+        }
+      ],
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N3c32e918780044eeb4333143ad30c1cc",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3475"
+        },
+        {
+          "@id": "edam:format_3246"
+        },
+        {
+          "@id": "edam:format_1628"
+        }
+      ],
+      "sc:name": "Mass spectrometry data"
+    }
+  ]
+}

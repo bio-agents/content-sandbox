@@ -1,0 +1,100 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/scenic",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Stein Aerts",
+      "bsc:input": {
+        "@id": "_:Na3cf1c7791b24a37a5b2bc86766cdcb9"
+      },
+      "bsc:output": {
+        "@id": "_:Nf961fd032093406e93db32560b885a3b"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Plug-in",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3170"
+        },
+        {
+          "@id": "edam:topic_0749"
+        },
+        {
+          "@id": "edam:topic_0203"
+        },
+        {
+          "@id": "edam:topic_0602"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:32561888",
+        {
+          "@id": "https://doi.org/10.1038/nmeth.4463"
+        }
+      ],
+      "sc:description": "A computational method for simultaneous gene regulatory network reconstruction and cell-state identification from single-cell RNA-seq data.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2495"
+        },
+        {
+          "@id": "edam:operation_3680"
+        },
+        {
+          "@id": "edam:operation_1781"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Other",
+      "sc:name": "SCENIC",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://htmlpreview.github.io/?https://github.com/aertslab/SCENIC/blob/master/vignettes/SCENIC_Intro.html"
+      },
+      "sc:softwareVersion": "1.1.2",
+      "sc:url": "http://scenic.aertslab.org"
+    },
+    {
+      "@id": "_:Nf961fd032093406e93db32560b885a3b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2032"
+      },
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:Na3cf1c7791b24a37a5b2bc86766cdcb9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3112"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Gene expression matrix"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nmeth.4463",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

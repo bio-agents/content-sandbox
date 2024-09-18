@@ -1,0 +1,88 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/reportingagents",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": [
+        "Jessica L. Larson",
+        "Gabriel Becker",
+        "Jason A. Hackney"
+      ],
+      "bsc:input": {
+        "@id": "_:Nf13b24dc2ca348bf90d875fbf5e3b418"
+      },
+      "bsc:output": {
+        "@id": "_:N452d5027b2ee4318820d58be633e37fa"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Library"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3316"
+      },
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/bioinformatics/btt551"
+        },
+        "pmcid:PMC5994940",
+        "pubmed:24078713"
+      ],
+      "sc:description": "This software package enables users to easily display reports of analysis results generated from sources such as microarray and sequencing data. The package allows users to create HTML pages that may be viewed on a web browser such as Safari, or in other formats readable by programs such as Excel. Users can generate tables with sortable and filterable columns, make and display plots, and link table entries to other data sources such as NCBI or larger plots within the HTML page.",
+      "sc:featureList": {
+        "@id": "edam:operation_0571"
+      },
+      "sc:license": "Artistic-2.0",
+      "sc:name": "ReportingAgents",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/ReportingAgents.html"
+      },
+      "sc:softwareVersion": "2.14.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/ReportingAgents.html"
+    },
+    {
+      "@id": "_:Nf13b24dc2ca348bf90d875fbf5e3b418",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2603"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2332"
+      },
+      "sc:name": "Gene expression data"
+    },
+    {
+      "@id": "_:N452d5027b2ee4318820d58be633e37fa",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1270"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Feature table"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btt551",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

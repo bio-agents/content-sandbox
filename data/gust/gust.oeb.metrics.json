@@ -1,0 +1,378 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/gust",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-11-19T09:44:25.036519Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": false,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 475,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 133,
+                        "serie": [
+                            6,
+                            2,
+                            1,
+                            3,
+                            1,
+                            10,
+                            1,
+                            9,
+                            3,
+                            1,
+                            2,
+                            2,
+                            2,
+                            1,
+                            11,
+                            10,
+                            4,
+                            4,
+                            1,
+                            8,
+                            2,
+                            2,
+                            5,
+                            13,
+                            2,
+                            1,
+                            1,
+                            1,
+                            4,
+                            6,
+                            2,
+                            3,
+                            6,
+                            2,
+                            1
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 50,
+                        "serie": [
+                            1,
+                            1,
+                            1,
+                            2,
+                            3,
+                            1,
+                            1,
+                            2,
+                            1,
+                            2,
+                            1,
+                            2,
+                            2,
+                            1,
+                            1,
+                            2,
+                            1,
+                            2,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            2,
+                            1,
+                            1,
+                            4,
+                            1
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T09:44:24.90706Z",
+                "last_month_access": {
+                    "average_access_time": 581,
+                    "downtime_days": 10,
+                    "uptime_days": 20
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:gust/lib/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-11-19T09:44:25.288584Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": false,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 7,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btz851",
+                            "pmcid": "PMC7703750",
+                            "pmid": "32176769",
+                            "ref_count": 42,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1994"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2019"
+                                }
+                            ],
+                            "title": "Somatic selection distinguishes oncogenes and tumor suppressor genes.",
+                            "year": 2020
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 496,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 133,
+                        "serie": [
+                            6,
+                            2,
+                            1,
+                            3,
+                            1,
+                            10,
+                            1,
+                            9,
+                            3,
+                            1,
+                            2,
+                            2,
+                            2,
+                            1,
+                            11,
+                            10,
+                            4,
+                            4,
+                            1,
+                            8,
+                            2,
+                            2,
+                            5,
+                            13,
+                            2,
+                            1,
+                            1,
+                            1,
+                            4,
+                            6,
+                            2,
+                            3,
+                            6,
+                            2,
+                            1
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 50,
+                        "serie": [
+                            1,
+                            1,
+                            1,
+                            2,
+                            3,
+                            1,
+                            1,
+                            2,
+                            1,
+                            2,
+                            1,
+                            2,
+                            2,
+                            1,
+                            1,
+                            2,
+                            1,
+                            2,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            2,
+                            1,
+                            1,
+                            4,
+                            1
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T09:44:24.961978Z",
+                "last_month_access": {
+                    "average_access_time": 479,
+                    "downtime_days": 10,
+                    "uptime_days": 20
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": null
+            }
+        }
+    }
+]

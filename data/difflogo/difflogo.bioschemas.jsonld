@@ -1,0 +1,159 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1186/s12859-015-0767-x",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/difflogo",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": {
+        "@id": "http://orcid.org/0000-0001-8032-9890"
+      },
+      "bsc:input": [
+        {
+          "@id": "_:N8a3bf536edd64e7589b4a6206552d770"
+        },
+        {
+          "@id": "_:Nd233a2891798436f9d01fff93df488b1"
+        },
+        {
+          "@id": "_:N1efb46effc704d3a946de8944cf589e1"
+        },
+        {
+          "@id": "_:Na9c3ea46da654dbea2194167331d9ded"
+        }
+      ],
+      "bsc:output": {
+        "@id": "_:N5735b6701cb6475f90ea5626d4498fe2"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Library",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0622"
+      },
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1186/s12859-015-0767-x"
+        },
+        "pmcid:PMC4650857",
+        "pubmed:26577052"
+      ],
+      "sc:description": "Easy-to-use agent to visualize motif differences.",
+      "sc:featureList": {
+        "@id": "edam:operation_0362"
+      },
+      "sc:license": "GPL-2.0",
+      "sc:name": "DiffLogo",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/DiffLogo.html"
+      },
+      "sc:softwareVersion": "1.4.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/DiffLogo.html"
+    },
+    {
+      "@id": "_:N8a3bf536edd64e7589b4a6206552d770",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2976"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1919"
+        },
+        {
+          "@id": "edam:format_3033"
+        }
+      ],
+      "sc:name": "Protein sequence"
+    },
+    {
+      "@id": "_:Nd233a2891798436f9d01fff93df488b1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3495"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1919"
+        },
+        {
+          "@id": "edam:format_3033"
+        }
+      ],
+      "sc:name": "RNA sequence"
+    },
+    {
+      "@id": "_:N1efb46effc704d3a946de8944cf589e1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2082"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1919"
+        },
+        {
+          "@id": "edam:format_3033"
+        }
+      ],
+      "sc:name": "Matrix"
+    },
+    {
+      "@id": "_:Na9c3ea46da654dbea2194167331d9ded",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3494"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3033"
+        },
+        {
+          "@id": "edam:format_1919"
+        }
+      ],
+      "sc:name": "DNA sequence"
+    },
+    {
+      "@id": "_:N5735b6701cb6475f90ea5626d4498fe2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3603"
+        },
+        {
+          "@id": "edam:format_3508"
+        }
+      ],
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "http://orcid.org/0000-0001-8032-9890",
+      "@type": "schema:Person"
+    }
+  ]
+}

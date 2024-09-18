@@ -1,0 +1,96 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/netmhcii",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": {
+        "@id": "http://orcid.org/0000-0001-7885-4311"
+      },
+      "bsc:input": {
+        "@id": "_:N8c77258a836d49cd8c7fed074f38cdca"
+      },
+      "bsc:output": {
+        "@id": "_:N54e9a2c7181345e483efa78a22c2a46b"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Web application",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3534"
+      },
+      "sc:citation": [
+        "pmcid:PMC2753847",
+        {
+          "@id": "https://doi.org/10.1186/1471-2105-10-296"
+        },
+        "pubmed:19765293"
+      ],
+      "sc:description": "Predict binding of peptides to HLA-DR, HLA-DQ, HLA-DP and mouse MHC class II alleles using articial neuron networks.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2575"
+        },
+        {
+          "@id": "edam:operation_0416"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Other",
+      "sc:name": "NetMHCII",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux"
+      ],
+      "sc:provider": "CBS",
+      "sc:softwareHelp": {
+        "@id": "http://www.cbs.dtu.dk/services/NetMHCII/instructions.php"
+      },
+      "sc:softwareVersion": "2.2",
+      "sc:url": "http://www.cbs.dtu.dk/services/NetMHCII/"
+    },
+    {
+      "@id": "_:N54e9a2c7181345e483efa78a22c2a46b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1277"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Protein features"
+    },
+    {
+      "@id": "_:N8c77258a836d49cd8c7fed074f38cdca",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence"
+    },
+    {
+      "@id": "https://doi.org/10.1186/1471-2105-10-296",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "http://orcid.org/0000-0001-7885-4311",
+      "@type": "schema:Person"
+    }
+  ]
+}

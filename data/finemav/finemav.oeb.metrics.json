@@ -1,0 +1,340 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/finemav",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-11-19T10:54:26.948307Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 474,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 45,
+                        "serie": [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            3,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            2,
+                            1,
+                            1,
+                            4,
+                            8,
+                            1,
+                            4,
+                            1,
+                            1,
+                            2
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 119,
+                        "serie": [
+                            3,
+                            2,
+                            3,
+                            5,
+                            14,
+                            4,
+                            1,
+                            2,
+                            15,
+                            12,
+                            4,
+                            1,
+                            4,
+                            3,
+                            26,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            2,
+                            1,
+                            2,
+                            4,
+                            5
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T10:54:26.91159Z",
+                "last_month_access": {
+                    "average_access_time": 645,
+                    "downtime_days": 16,
+                    "uptime_days": 14
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT2650631S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:finemav/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-11-19T10:54:27.343394Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "manual": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1186/s12859-021-04506-9",
+                            "pmcid": "PMC8684245",
+                            "pmid": "34922440",
+                            "ref_count": 44,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1985"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1989"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2020"
+                                }
+                            ],
+                            "title": "Prioritising positively selected variants in whole-genome sequencing data using FineMAV.",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 439,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 45,
+                        "serie": [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            3,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            2,
+                            1,
+                            1,
+                            4,
+                            8,
+                            1,
+                            4,
+                            1,
+                            1,
+                            2
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 119,
+                        "serie": [
+                            3,
+                            2,
+                            3,
+                            5,
+                            14,
+                            4,
+                            1,
+                            2,
+                            15,
+                            12,
+                            4,
+                            1,
+                            4,
+                            3,
+                            26,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            2,
+                            1,
+                            2,
+                            4,
+                            5
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T10:54:26.881285Z",
+                "last_month_access": {
+                    "average_access_time": 625,
+                    "downtime_days": 16,
+                    "uptime_days": 14
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT2650631S"
+            }
+        }
+    }
+]

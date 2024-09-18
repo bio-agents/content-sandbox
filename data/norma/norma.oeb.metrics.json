@@ -1,0 +1,116 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:norma:1/web/bib.fleming.gr",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-07-16T08:51:38.400424Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1101/2020.03.05.978585",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "NORMA-The network makeup artist: a web agent for network annotation visualization",
+                            "year": 2020
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 179,
+                        "serie": [
+                            43,
+                            136
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-07-16T08:51:38.353332Z",
+                "last_month_access": {
+                    "average_access_time": 4473,
+                    "downtime_days": 29,
+                    "uptime_days": 0
+                },
+                "license": false,
+                "operational": 408,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/norma",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-07-16T08:51:38.412281Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 179,
+                        "serie": [
+                            43,
+                            136
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-07-16T08:51:38.35347Z",
+                "last_month_access": {
+                    "average_access_time": 3759,
+                    "downtime_days": 29,
+                    "uptime_days": 0
+                },
+                "license": false,
+                "operational": 408,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

@@ -1,0 +1,13 @@
+description: This BioConductor module provides methods for filtering genes from microarray
+  experiments. It contains some basic functions for filtering genes.
+edam:
+  topics: null
+  version: unknown
+homepage: https://bioconductor.org/packages/genefilter/
+identifiers:
+  bioconda: bioconductor-genefilter
+  bioagents: genefilter
+  debian: r-bioc-genefilter
+  omicagents: OMICS_29382
+summary: methods for filtering genes from microarray experiments
+version: 1.72.0

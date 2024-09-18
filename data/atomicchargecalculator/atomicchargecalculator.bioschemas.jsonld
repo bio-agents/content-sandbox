@@ -1,0 +1,149 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1186/s13321-015-0099-x",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/atomicchargecalculator",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": [
+        "Primary Contact",
+        "David Sehnal",
+        "Crina Maria Ionescu"
+      ],
+      "bsc:input": [
+        {
+          "@id": "_:Na800d715b1ab45c8ad1315fba7bb28a6"
+        },
+        {
+          "@id": "_:N2733bbb512ba4129a64bc7bbd5fa40d5"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Ncfc2187afe0f4e50bf5764763a980d63"
+        },
+        {
+          "@id": "_:Nbf52c9847cc74d62b449eae4c90b4e59"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Web application"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3332"
+        },
+        {
+          "@id": "edam:topic_0081"
+        },
+        {
+          "@id": "edam:topic_2258"
+        }
+      ],
+      "sc:author": "David Sehnal",
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/s13321-015-0099-x"
+      },
+      "sc:contributor": [
+        "Lukáš Pravda",
+        "Crina Maria Ionescu",
+        "Stanislav Geidl"
+      ],
+      "sc:description": "A web application for the calculation and analysis of atomic charges in both large biomolecular complexes and small drug-like molecules.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0570"
+        },
+        {
+          "@id": "edam:operation_2238"
+        },
+        {
+          "@id": "edam:operation_2480"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:name": "AtomicChargeCalculator",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:provider": [
+        "IECHOR-CZ",
+        "Masaryk University, Brno, Czech Republic"
+      ],
+      "sc:softwareHelp": [
+        {
+          "@id": "http://www.jcheminf.com/content/7/1/50/citation"
+        },
+        {
+          "@id": "http://webchem.ncbr.muni.cz/Wiki/ChargeCalculator:UserManual"
+        }
+      ],
+      "sc:softwareVersion": "1.0",
+      "sc:url": "http://ncbr.muni.cz/ACC"
+    },
+    {
+      "@id": "_:Ncfc2187afe0f4e50bf5764763a980d63",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2085"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Structure report"
+    },
+    {
+      "@id": "_:Nbf52c9847cc74d62b449eae4c90b4e59",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1917"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Atomic property"
+    },
+    {
+      "@id": "_:Na800d715b1ab45c8ad1315fba7bb28a6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1460"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1476"
+        },
+        {
+          "@id": "edam:format_1477"
+        }
+      ],
+      "sc:name": "Protein structure"
+    },
+    {
+      "@id": "_:N2733bbb512ba4129a64bc7bbd5fa40d5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1463"
+      },
+      "sc:name": "Small molecule structure"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.13140/RG.2.1.3547.6561",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/cuneiform",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Jörgen Brandt",
+      "bsc:input": {
+        "@id": "_:N431ed0af87a245deb311edae9653c6fc"
+      },
+      "bsc:output": {
+        "@id": "_:Nfd4549d3fbe94a8999353809f804b67b"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Workbench",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0769"
+        },
+        {
+          "@id": "edam:topic_0091"
+        },
+        {
+          "@id": "edam:topic_3366"
+        },
+        {
+          "@id": "edam:topic_3307"
+        }
+      ],
+      "sc:author": "Jörgen Brandt",
+      "sc:citation": {
+        "@id": "https://doi.org/10.13140/RG.2.1.3547.6561"
+      },
+      "sc:contributor": [
+        "Marc Bux",
+        "Ulf Leser"
+      ],
+      "sc:description": "A functional scientific workflow language for large scale scientific data analysis. It enables integration of external agents written in any language and automatic parallelization of execution.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3760"
+        },
+        {
+          "@id": "edam:operation_2409"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Apache-2.0",
+      "sc:name": "Cuneiform",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux"
+      ],
+      "sc:provider": [
+        "Humboldt-Universität zu Berlin",
+        "hu-berlin.de"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://www.cuneiform-lang.org/doc"
+      },
+      "sc:softwareVersion": "2.0.3",
+      "sc:url": "http://www.cuneiform-lang.org"
+    },
+    {
+      "@id": "_:Nfd4549d3fbe94a8999353809f804b67b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1050"
+      },
+      "sc:name": "File name"
+    },
+    {
+      "@id": "_:N431ed0af87a245deb311edae9653c6fc",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0949"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2032"
+      },
+      "sc:name": "Workflow metadata"
+    }
+  ]
+}

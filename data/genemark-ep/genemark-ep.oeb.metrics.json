@@ -1,0 +1,125 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/genemark-ep",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-08-27T08:40:50.159005Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 375,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 176,
+                        "serie": [
+                            24,
+                            107,
+                            39,
+                            6
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 4,
+                        "serie": [
+                            1,
+                            2,
+                            1
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-08-27T08:20:36.387399Z",
+                "last_month_access": {
+                    "average_access_time": 531,
+                    "downtime_days": 1,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:genemark-ep/web/topaz.gatech.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-08-27T08:40:50.201206Z",
+        "@type": "metrics",
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1101/2019.12.31.891218",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "GeneMark-EP and -EP+: eukaryotic gene prediction with self-training in the space of genes and proteins",
+                            "year": 2020
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 375,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 176,
+                        "serie": [
+                            24,
+                            107,
+                            39,
+                            6
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 4,
+                        "serie": [
+                            1,
+                            2,
+                            1
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-08-27T08:20:36.387399Z",
+                "last_month_access": {
+                    "average_access_time": 531,
+                    "downtime_days": 1,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

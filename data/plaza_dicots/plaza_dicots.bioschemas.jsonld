@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/plaza_dicots",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Klaas",
+      "bsc:input": {
+        "@id": "_:N058b8e9c43a84c63a9ec73bec81c622a"
+      },
+      "bsc:output": {
+        "@id": "_:Nfce6b9783014473b8f377d87a47ab15d"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0797"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gku986"
+      },
+      "sc:description": "Access point for plant comparative genomics.",
+      "sc:featureList": {
+        "@id": "edam:operation_2945"
+      },
+      "sc:name": "PLAZA dicots",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:provider": "PSB",
+      "sc:softwareHelp": {
+        "@id": "https://bioinformatics.psb.ugent.be/plaza/documentation/"
+      },
+      "sc:softwareVersion": "3.0",
+      "sc:url": "http://bioinformatics.psb.ugent.be/plaza/versions/plaza_v3_dicots/"
+    },
+    {
+      "@id": "_:N058b8e9c43a84c63a9ec73bec81c622a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0842"
+      },
+      "sc:name": "Identifier"
+    },
+    {
+      "@id": "_:Nfce6b9783014473b8f377d87a47ab15d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0872"
+      },
+      "sc:name": "Phylogenetic tree"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gku986",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

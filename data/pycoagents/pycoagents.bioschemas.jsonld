@@ -1,0 +1,54 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/pycoagents",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Ciaran Welsh",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0092"
+        },
+        {
+          "@id": "edam:topic_3524"
+        },
+        {
+          "@id": "edam:topic_0602"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/bty409"
+      },
+      "sc:description": "Python package aimed at providing a high level interface to COPASI tasks with an emphasis on model calibration.",
+      "sc:featureList": {
+        "@id": "edam:operation_3763"
+      },
+      "sc:name": "PyCoAgents",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://pycoagents.readthedocs.io/en/copasiversion21/"
+      },
+      "sc:url": "https://github.com/CiaranWelsh/pycoagents"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bty409",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

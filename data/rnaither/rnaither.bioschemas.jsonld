@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btp014",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/rnaither",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Lars Kaderali",
+      "bsc:input": {
+        "@id": "_:Nee588eb0376144c6ba0851f740659769"
+      },
+      "bsc:output": {
+        "@id": "_:N79b6b9c66e6b4b298fe7802603c6042d"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Library"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3316"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btp014"
+      },
+      "sc:description": "This agent analyzes cell-based RNAi screens, including quality assessment, customizable normalization and statistical tests, leading to lists of significant genes and biological processes.",
+      "sc:featureList": {
+        "@id": "edam:operation_2478"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Artistic-2.0",
+      "sc:name": "RNAither",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/RNAither.html"
+      },
+      "sc:softwareVersion": "2.22.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/RNAither.html"
+    },
+    {
+      "@id": "_:Nee588eb0376144c6ba0851f740659769",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3495"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2078"
+      },
+      "sc:name": "RNA sequence"
+    },
+    {
+      "@id": "_:N79b6b9c66e6b4b298fe7802603c6042d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3604"
+      },
+      "sc:name": "Plot"
+    }
+  ]
+}

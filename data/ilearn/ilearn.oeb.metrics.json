@@ -1,0 +1,342 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:ilearn/web/ilearn.erc.monash.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-11-19T05:03:10.883559Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": true,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "manual": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 60,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 17,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 26,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1093/bib/bbz041",
+                            "pmid": "31067315",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "iLearn: an integrated platform and meta-learner for feature engineering, machine-learning analysis and modeling of DNA, RNA and protein sequence data.",
+                            "year": 2020
+                        }
+                    ]
+                }
+            ],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 3,
+                        "serie": [
+                            3
+                        ],
+                        "status": 403
+                    },
+                    {
+                        "days": 158,
+                        "serie": [
+                            41,
+                            49,
+                            68
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 7,
+                        "serie": [
+                            7
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 15,
+                        "serie": [
+                            6,
+                            9
+                        ],
+                        "status": 301
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T05:03:10.606355Z",
+                "last_month_access": {
+                    "average_access_time": 1532,
+                    "downtime_days": 12,
+                    "uptime_days": 18
+                },
+                "license": false,
+                "operational": 301,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://ifeatureomega.erc.monash.edu/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:ilearn/cmd/ilearn.erc.monash.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-11-19T05:02:25.850034Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": true,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "manual": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 60,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 17,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 26,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1093/bib/bbz041",
+                            "pmid": "31067315",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "iLearn: an integrated platform and meta-learner for feature engineering, machine-learning analysis and modeling of DNA, RNA and protein sequence data.",
+                            "year": 2020
+                        }
+                    ]
+                }
+            ],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 3,
+                        "serie": [
+                            3
+                        ],
+                        "status": 403
+                    },
+                    {
+                        "days": 158,
+                        "serie": [
+                            41,
+                            49,
+                            68
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 7,
+                        "serie": [
+                            7
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 15,
+                        "serie": [
+                            6,
+                            9
+                        ],
+                        "status": 301
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T05:02:25.550355Z",
+                "last_month_access": {
+                    "average_access_time": 1454,
+                    "downtime_days": 12,
+                    "uptime_days": 18
+                },
+                "license": false,
+                "operational": 301,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://ifeatureomega.erc.monash.edu/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/ilearn",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-11-19T05:02:09.229498Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 3,
+                        "serie": [
+                            3
+                        ],
+                        "status": 403
+                    },
+                    {
+                        "days": 158,
+                        "serie": [
+                            41,
+                            49,
+                            68
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 7,
+                        "serie": [
+                            7
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 15,
+                        "serie": [
+                            6,
+                            9
+                        ],
+                        "status": 301
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T05:02:09.166294Z",
+                "last_month_access": {
+                    "average_access_time": 2326,
+                    "downtime_days": 12,
+                    "uptime_days": 18
+                },
+                "license": false,
+                "operational": 301,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://ifeatureomega.erc.monash.edu/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

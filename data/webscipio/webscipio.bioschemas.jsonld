@@ -1,0 +1,65 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.agents/webscipio",
+  "@type": "sc:SoftwareApplication",
+  "bioagents:primaryContact": "Dr. Martin Kollmar",
+  "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0114"
+    },
+    {
+      "@id": "edam:topic_0621"
+    },
+    {
+      "@id": "edam:topic_0623"
+    },
+    {
+      "@id": "edam:topic_3512"
+    }
+  ],
+  "sc:citation": [
+    "pubmed:18801164",
+    "pubmed:23677611",
+    "pubmed:18554390",
+    "pubmed:21798037",
+    "pubmed:21718515"
+  ],
+  "sc:description": "Scipio is a agent to determine the precise exon-intron gene structure given a protein sequence and a genome. It identifies splice sites and is able to cope with sequencing errors and genes spanning several contigs. The output contains information about discrepancies that may result from sequencing errors. Scipio has also successfully been used to find homologous genes in related species. WebScipio, allows to search for mutually exclusive spliced exons and tandemly arrayed gene duplicates.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_2454"
+    },
+    {
+      "@id": "edam:operation_0474"
+    },
+    {
+      "@id": "edam:operation_3092"
+    },
+    {
+      "@id": "edam:operation_0224"
+    }
+  ],
+  "sc:name": "WebScipio",
+  "sc:operatingSystem": [
+    "Windows",
+    "Linux",
+    "Mac"
+  ],
+  "sc:softwareHelp": {
+    "@id": "https://www.webscipio.org/help/webscipio"
+  },
+  "sc:url": "http://www.webscipio.org"
+}

@@ -1,0 +1,135 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1146/annurev-genet-120213-092023",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/mirgen",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Bastian Fromm",
+      "bsc:input": [
+        {
+          "@id": "_:N52a07536db6f4630ac65362a84c07c52"
+        },
+        {
+          "@id": "_:Nd47a61cb1b9b4af78d75bd1d60834153"
+        },
+        {
+          "@id": "_:N7649d79da9134c3e97c5758d5c17bf6e"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N1d68d1b7e86f497eb06513d7c871c4e7"
+        },
+        {
+          "@id": "_:N9fbedefe32e745b291d8cce30713f95c"
+        },
+        {
+          "@id": "_:N2360c4929c3747d7945bfb44a75e1ddd"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0659"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1146/annurev-genet-120213-092023"
+      },
+      "sc:description": "A miRBase derived database for microRNA genes that have been validated and annotated. Currently microRNA genes are available for human, mouse, chicken and zebrafish and can be browsed, blasted and downloaded.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0564"
+        },
+        {
+          "@id": "edam:operation_0224"
+        },
+        {
+          "@id": "edam:operation_2422"
+        }
+      ],
+      "sc:name": "MirGeneDB",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:provider": "UiO",
+      "sc:softwareHelp": {
+        "@id": "http://mirgenedb.org/"
+      },
+      "sc:url": "http://mirgenedb.org/"
+    },
+    {
+      "@id": "_:N52a07536db6f4630ac65362a84c07c52",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1869"
+      },
+      "sc:name": "Organism identifier"
+    },
+    {
+      "@id": "_:Nd47a61cb1b9b4af78d75bd1d60834153",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1097"
+      },
+      "sc:name": "Sequence accession (nucleic acid)"
+    },
+    {
+      "@id": "_:N7649d79da9134c3e97c5758d5c17bf6e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1097"
+      },
+      "sc:name": "Sequence accession (nucleic acid)"
+    },
+    {
+      "@id": "_:N1d68d1b7e86f497eb06513d7c871c4e7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3495"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "RNA sequence"
+    },
+    {
+      "@id": "_:N9fbedefe32e745b291d8cce30713f95c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0880"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "RNA secondary structure"
+    },
+    {
+      "@id": "_:N2360c4929c3747d7945bfb44a75e1ddd",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3134"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Gene transcript report"
+    }
+  ]
+}

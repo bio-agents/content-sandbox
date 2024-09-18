@@ -1,0 +1,77 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/wiff2dta",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:Ne768ddf7a61c4ad3b22c6cc26a594f49"
+      },
+      "bsc:output": {
+        "@id": "_:N1f648d7479f34add977ca536720d9ee1"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3520"
+        },
+        {
+          "@id": "edam:topic_0121"
+        }
+      ],
+      "sc:citation": "pubmed:15507135",
+      "sc:description": "Converts ABI WIFF to .dta.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0335"
+        },
+        {
+          "@id": "edam:operation_1812"
+        }
+      ],
+      "sc:name": "wiff2dta",
+      "sc:operatingSystem": [
+        "Linux",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://sourceforge.net/p/protms/wiki/Home/"
+      },
+      "sc:url": "http://sourceforge.net/projects/protms"
+    },
+    {
+      "@id": "_:Ne768ddf7a61c4ad3b22c6cc26a594f49",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0943"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3710"
+      },
+      "sc:name": "Mass spectrometry spectra"
+    },
+    {
+      "@id": "_:N1f648d7479f34add977ca536720d9ee1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0943"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3652"
+      },
+      "sc:name": "Mass spectrometry spectra"
+    }
+  ]
+}

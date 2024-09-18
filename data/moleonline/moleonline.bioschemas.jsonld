@@ -1,0 +1,203 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gky309",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/moleonline",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": [
+        "Karel Berka",
+        "Primary contact",
+        "David Sehnal"
+      ],
+      "bsc:input": [
+        {
+          "@id": "_:N07f2179845964808a5c5ce69b8bd6e5b"
+        },
+        {
+          "@id": "_:Na357fbb361e34549881ae0fa780dd1da"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N18ab6958710c478b87b06b214a208532"
+        },
+        {
+          "@id": "_:Nacdfa2adf77643d7b2974301c6b26869"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0166"
+        },
+        {
+          "@id": "edam:topic_0123"
+        },
+        {
+          "@id": "edam:topic_0820"
+        },
+        {
+          "@id": "edam:topic_0821"
+        },
+        {
+          "@id": "edam:topic_0128"
+        }
+      ],
+      "sc:author": [
+        "Karel Berka",
+        "Michal Otyepka",
+        "David Sehnal",
+        "Ondřej Hanák"
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/nar/gks363"
+        },
+        {
+          "@id": "https://doi.org/10.1093/nar/gky309"
+        }
+      ],
+      "sc:contributor": [
+        "Pavel Banáš",
+        "Deepti Jaiswal",
+        "European Regional Development Fund",
+        "Crina-Maria Ionescu",
+        "Czech Science foundation",
+        "European Social Fund",
+        "Jaroslav Koča",
+        "Palacky University",
+        "Veronika Navrátilová",
+        "Radka Svobodová Vařeková",
+        "Ministry of Education of the Czech Republic"
+      ],
+      "sc:description": "Provides a direct access to MOLE functionality and enables on-line and easy-to-use interactive channel analysis.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2241"
+        },
+        {
+          "@id": "edam:operation_0250"
+        },
+        {
+          "@id": "edam:operation_1816"
+        },
+        {
+          "@id": "edam:operation_0245"
+        },
+        {
+          "@id": "edam:operation_0570"
+        }
+      ],
+      "sc:funder": [
+        "Palacky University",
+        "European Social Fund",
+        "Ministry of Education of the Czech Republic",
+        "Czech Science foundation",
+        "European Regional Development Fund"
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "CC-BY-NC-3.0",
+      "sc:name": "MOLEonline",
+      "sc:operatingSystem": [
+        "Mac",
+        "Windows",
+        "Linux"
+      ],
+      "sc:provider": [
+        "Palacký University Olomouc, Czech Republic",
+        "IECHOR-CZ",
+        "Masaryk University Brno, Czech Republic"
+      ],
+      "sc:softwareHelp": [
+        {
+          "@id": "http://mole.upol.cz/documentation/"
+        },
+        {
+          "@id": "http://mole.upol.cz/about"
+        },
+        {
+          "@id": "https://mole.upol.cz/about"
+        }
+      ],
+      "sc:softwareVersion": "3.0",
+      "sc:url": "https://mole.upol.cz/"
+    },
+    {
+      "@id": "_:N07f2179845964808a5c5ce69b8bd6e5b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1127"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1476"
+      },
+      "sc:name": "PDB ID"
+    },
+    {
+      "@id": "_:Na357fbb361e34549881ae0fa780dd1da",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1460"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1476"
+        },
+        {
+          "@id": "edam:format_1477"
+        }
+      ],
+      "sc:name": "Protein structure"
+    },
+    {
+      "@id": "_:N18ab6958710c478b87b06b214a208532",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1539"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Protein structural quality report"
+    },
+    {
+      "@id": "_:Nacdfa2adf77643d7b2974301c6b26869",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1460"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3464"
+        },
+        {
+          "@id": "edam:format_1476"
+        },
+        {
+          "@id": "edam:format_1475"
+        }
+      ],
+      "sc:name": "Protein structure"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gks363",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

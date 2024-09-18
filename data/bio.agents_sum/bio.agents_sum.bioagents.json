@@ -1,0 +1,132 @@
+{
+    "additionDate": "2018-02-16T09:11:30Z",
+    "bioagentsCURIE": "bioagents:bio.agents_sum",
+    "bioagentsID": "bio.agents_sum",
+    "collectionID": [
+        "CEITEC",
+        "IECHOR-CZ"
+    ],
+    "cost": "Free of charge",
+    "credit": [
+        {
+            "email": "karel.berka@upol.cz",
+            "name": "Karel Berka",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Contributor"
+            ]
+        },
+        {
+            "email": "karel.berka@upol.cz",
+            "name": "Karel Berka",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Developer"
+            ]
+        },
+        {
+            "email": "karel.berka@upol.cz",
+            "name": "Radka Svobodová Vařeková",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        },
+        {
+            "email": "tomas.racek@ceitec.muni.cz",
+            "name": "Karel Berka",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        },
+        {
+            "name": "CEITEC-MU",
+            "typeEntity": "Institute",
+            "typeRole": [
+                "Maintainer"
+            ]
+        },
+        {
+            "name": "IECHOR-CZ",
+            "typeEntity": "Consortium",
+            "typeRole": [
+                "Provider"
+            ]
+        }
+    ],
+    "description": "Local views over bio.agents data with information about publications and citations.",
+    "editPermission": {
+        "type": "private"
+    },
+    "iechorNode": [
+        "Czech Republic"
+    ],
+    "iechorPlatform": [
+        "Agents"
+    ],
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Service discovery",
+                    "uri": "http://edamontology.org/operation_3761"
+                }
+            ],
+            "output": [
+                {
+                    "data": {
+                        "term": "Resource metadata",
+                        "uri": "http://edamontology.org/data_2337"
+                    },
+                    "format": [
+                        {
+                            "term": "SVG",
+                            "uri": "http://edamontology.org/format_3604"
+                        },
+                        {
+                            "term": "docx",
+                            "uri": "http://edamontology.org/format_3506"
+                        },
+                        {
+                            "term": "xlsx",
+                            "uri": "http://edamontology.org/format_3620"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "homepage": "http://ncbr.muni.cz/bioagentssum",
+    "language": [
+        "JavaScript"
+    ],
+    "lastUpdate": "2020-11-03T13:25:20Z",
+    "license": "MIT",
+    "link": [
+        {
+            "type": [
+                "Repository"
+            ],
+            "url": "https://github.com/bio-agents/bioagentsSum"
+        }
+    ],
+    "maturity": "Emerging",
+    "name": "bio.agents Sum",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "IECHOR-CZ",
+    "agentType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Informatics",
+            "uri": "http://edamontology.org/topic_0605"
+        }
+    ],
+    "validated": 1
+}

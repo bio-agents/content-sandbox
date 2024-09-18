@@ -1,0 +1,91 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/BIOINFORMATICS/BTAB714",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/graph-pka",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:N29e7939044e94c8fbbcbd0517c046f61"
+        },
+        {
+          "@id": "_:Ncf2dc1b10c2640cdb35b58d23c7dad1e"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3474"
+        },
+        {
+          "@id": "edam:topic_3047"
+        },
+        {
+          "@id": "edam:topic_0154"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:34643666",
+        "pmcid:PMC8756178",
+        {
+          "@id": "https://doi.org/10.1093/BIOINFORMATICS/BTAB714"
+        }
+      ],
+      "sc:description": "Multi-instance learning of graph neural networks for aqueous pKa prediction.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3642"
+        },
+        {
+          "@id": "edam:operation_4009"
+        },
+        {
+          "@id": "edam:operation_3891"
+        },
+        {
+          "@id": "edam:operation_3629"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:name": "Graph-pKa",
+      "sc:operatingSystem": [
+        "Mac",
+        "Windows",
+        "Linux"
+      ],
+      "sc:url": "https://pka.simm.ac.cn/"
+    },
+    {
+      "@id": "_:N29e7939044e94c8fbbcbd0517c046f61",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2301"
+      },
+      "sc:name": "SMILES string"
+    },
+    {
+      "@id": "_:Ncf2dc1b10c2640cdb35b58d23c7dad1e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1463"
+      },
+      "sc:name": "Small molecule structure"
+    }
+  ]
+}

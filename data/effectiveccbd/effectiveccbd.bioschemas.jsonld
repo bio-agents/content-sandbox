@@ -1,0 +1,86 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/effectiveccbd",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:Nc99dd0a5cf674409a5f74cc7fe68ecf4"
+      },
+      "bsc:output": {
+        "@id": "_:Na8b296a323d44a6b9303745ec1c04da5"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3510"
+        },
+        {
+          "@id": "edam:topic_0080"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:21071416",
+        {
+          "@id": "https://doi.org/10.1093/nar/gkq1154"
+        },
+        "pmcid:PMC3013723"
+      ],
+      "sc:description": "Prediction of Type-III secreted proteins by recognition of chaperone-binding sites.",
+      "sc:featureList": {
+        "@id": "edam:operation_2464"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:name": "EffectiveCCBD",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:provider": "AT-CUBE",
+      "sc:softwareHelp": {
+        "@id": "http://www.effectivedb.org/method/effectiveccbd"
+      },
+      "sc:softwareVersion": "1.0",
+      "sc:url": "http://www.effectivedb.org/method/effectiveccbd"
+    },
+    {
+      "@id": "_:Na8b296a323d44a6b9303745ec1c04da5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0896"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Protein report"
+    },
+    {
+      "@id": "_:Nc99dd0a5cf674409a5f74cc7fe68ecf4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2976"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Protein sequence"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkq1154",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

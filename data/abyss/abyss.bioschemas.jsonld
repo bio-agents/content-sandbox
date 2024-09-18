@@ -1,0 +1,99 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1101/gr.089532.108",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/abyss",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Shaun Jackman",
+      "bsc:input": {
+        "@id": "_:Ncd3309d5397c43f5ab102146b6512b9b"
+      },
+      "bsc:output": {
+        "@id": "_:N75cb4794c9d04c0483491965be0e3f3c"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0196"
+      },
+      "sc:author": "Shaun Jackman",
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1101/gr.214346.116"
+        },
+        {
+          "@id": "https://doi.org/10.1101/gr.089532.108"
+        }
+      ],
+      "sc:description": "De novo genome sequence assembler.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0525"
+        },
+        {
+          "@id": "edam:operation_0524"
+        }
+      ],
+      "sc:name": "ABySS",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux"
+      ],
+      "sc:provider": [
+        "BC Cancer Agency Genome Sciences Centre",
+        "bcgsc.ca"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://github.com/bcgsc/abyss#abyss"
+      },
+      "sc:softwareVersion": "1.9.0",
+      "sc:url": "https://github.com/bcgsc/abyss/"
+    },
+    {
+      "@id": "_:N75cb4794c9d04c0483491965be0e3f3c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0925"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence assembly"
+    },
+    {
+      "@id": "_:Ncd3309d5397c43f5ab102146b6512b9b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3497"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1930"
+        },
+        {
+          "@id": "edam:format_1929"
+        }
+      ],
+      "sc:name": "DNA sequence (raw)"
+    },
+    {
+      "@id": "https://doi.org/10.1101/gr.214346.116",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

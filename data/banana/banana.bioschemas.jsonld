@@ -1,0 +1,123 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1017/CBO9781139151405",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1017/CBO9781139151399",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/banana",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:Nacea8637c2ff4f5c9a1e6516be751036"
+        },
+        {
+          "@id": "_:N74bc67749acf4a5e89b8c1ffe017b023"
+        }
+      ],
+      "bsc:output": {
+        "@id": "_:N3084ff6e71c44aeda0a56eff5a68fdd1"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0097"
+      },
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1017/CBO9781139151399"
+        },
+        {
+          "@id": "https://doi.org/10.1017/CBO9781139151405"
+        },
+        {
+          "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2"
+        }
+      ],
+      "sc:contributor": [
+        "EMBOSS Contributors",
+        "UK MRC",
+        "UK BBSRC",
+        "Wellcome Trust"
+      ],
+      "sc:description": "Plot bending and curvature data for B-DNA.",
+      "sc:featureList": {
+        "@id": "edam:operation_0461"
+      },
+      "sc:funder": [
+        "UK BBSRC",
+        "Wellcome Trust",
+        "UK MRC"
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "GPL-3.0",
+      "sc:name": "banana",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:provider": [
+        "EMBOSS",
+        "EMBL-EBI"
+      ],
+      "sc:softwareHelp": [
+        {
+          "@id": "http://emboss.open-bio.org/html/use/pr02s04.html"
+        },
+        {
+          "@id": "http://emboss.open-bio.org/rel/rel6/apps/banana.html"
+        },
+        {
+          "@id": "http://emboss.open-bio.org/html/dev/ch01s01.html"
+        }
+      ],
+      "sc:softwareVersion": "r6",
+      "sc:url": "http://emboss.open-bio.org/rel/rel6/apps/banana.html"
+    },
+    {
+      "@id": "_:N3084ff6e71c44aeda0a56eff5a68fdd1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0912"
+      },
+      "sc:name": "Nucleic acid property"
+    },
+    {
+      "@id": "_:Nacea8637c2ff4f5c9a1e6516be751036",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0849"
+      },
+      "sc:name": "Sequence record"
+    },
+    {
+      "@id": "_:N74bc67749acf4a5e89b8c1ffe017b023",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1590"
+      },
+      "sc:name": "DNA base trimer roll angles data"
+    }
+  ]
+}

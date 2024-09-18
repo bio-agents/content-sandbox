@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btm404",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/ClustalW2_Phylogeny_API_EBI",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N0af7c45b8f5c4691920c7366c8a9f676"
+      },
+      "bsc:output": {
+        "@id": "_:Nedd1e956cc434334bbbee9e6083ae476"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web API",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3293"
+        },
+        {
+          "@id": "edam:topic_0080"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btm404"
+      },
+      "sc:description": "Create Neighbor-joining or UPGMA phylogentic trees from a multiple sequence alignment using ClustalW.",
+      "sc:featureList": {
+        "@id": "edam:operation_0323"
+      },
+      "sc:name": "ClustalW2 Phylogeny API EBI",
+      "sc:operatingSystem": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://www.ebi.ac.uk/Agents/webservices/services/phylogeny/clustalw2_phylogeny_rest"
+      },
+      "sc:softwareVersion": "1",
+      "sc:url": "https://www.ebi.ac.uk/seqdb/confluence/pages/viewpage.action?pageId=54651945"
+    },
+    {
+      "@id": "_:N0af7c45b8f5c4691920c7366c8a9f676",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:Nedd1e956cc434334bbbee9e6083ae476",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0872"
+      },
+      "sc:name": "Phylogenetic tree"
+    }
+  ]
+}

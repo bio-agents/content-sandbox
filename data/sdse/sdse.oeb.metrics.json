@@ -1,0 +1,145 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:sdse/app/bioinfo2.ugr.es",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-07-16T07:12:58.429668Z",
+        "@type": "metrics",
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 2,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "1993"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2011"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/5.1.47",
+                            "pmid": "2924171",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "SDSE: a software package to simulate the evolution of a pair of DNA sequences.",
+                            "year": 1989
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 179,
+                        "serie": [
+                            43,
+                            136
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-07-16T07:05:47.505607Z",
+                "last_month_access": {
+                    "average_access_time": 813,
+                    "downtime_days": 29,
+                    "uptime_days": 0
+                },
+                "license": false,
+                "operational": 408,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioinfo2.ugr.es/oliver/sdse/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": false
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/sdse",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-07-16T07:05:47.576036Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 179,
+                        "serie": [
+                            43,
+                            136
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-07-16T07:05:47.505607Z",
+                "last_month_access": {
+                    "average_access_time": 183,
+                    "downtime_days": 29,
+                    "uptime_days": 0
+                },
+                "license": false,
+                "operational": 408,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioinfo2.ugr.es/oliver/sdse/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

@@ -1,0 +1,58 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.7717/PEERJ.7838",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/unfold-eeg",
+      "@type": "sc:SoftwareApplication",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3300"
+        },
+        {
+          "@id": "edam:topic_3304"
+        },
+        {
+          "@id": "edam:topic_3382"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:31660265",
+        "pmcid:PMC6815663",
+        {
+          "@id": "https://doi.org/10.7717/PEERJ.7838"
+        }
+      ],
+      "sc:description": "an integrated agentbox for overlap correction, non-linear modeling, and regression-based EEG analysis.\n\nA matlab EEG agentbox to perform overlap correction and non-linear & linear regression.\n\nEEG Deconvolution Agentbox — Unfold EEG Agentbox.\n\nUnfold - EEG Deconvolution Agentbox.\n\nA agentbox for deconvolution of overlapping EEG (Pupil, LFP etc.) signals and (non)-linear modeling.\n\nA agentbox for deconvolution of overlapping EEG signals and (non)-linear modeling.\n\ngit clone https://github.com/unfoldagentbox/unfold.\n\nIf you use the agentbox, please cite us as: Ehinger BV & Dimigen O, Unfold: An integrated agentbox for overlap correction, non-linear modeling, and regression-based EEG analysis, bioRxiv, https://doi.org/10.1101/360156.\n\nModel specification using R-style formulas (EEG~1+face+age).",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0408"
+        },
+        {
+          "@id": "edam:operation_3629"
+        },
+        {
+          "@id": "edam:operation_3659"
+        }
+      ],
+      "sc:license": "GPL-3.0",
+      "sc:name": "unfold",
+      "sc:url": "http://www.unfoldagentbox.org"
+    }
+  ]
+}

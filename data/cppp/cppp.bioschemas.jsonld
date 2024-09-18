@@ -1,0 +1,75 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1186/1471-2164-15-S6-S10",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/cppp",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": [
+        "Gianluca Della Vedova",
+        "Paola Bonizzoni"
+      ],
+      "bsc:input": {
+        "@id": "_:N65e245ac76634efdb16fbe46b64a36b3"
+      },
+      "bsc:output": {
+        "@id": "_:N30686fff74d84aaab3fe99ace13d7a66"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3293"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/1471-2164-15-S6-S10"
+      },
+      "sc:description": "This agent computes a Persistent Phylogeny from a binary character matrix.",
+      "sc:featureList": {
+        "@id": "edam:operation_3478"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "GPL-3.0",
+      "sc:name": "Cppp",
+      "sc:operatingSystem": "Linux",
+      "sc:provider": "IECHOR-ITA-BICOCCA",
+      "sc:softwareHelp": {
+        "@id": "https://algolab.eu/research/cppp/"
+      },
+      "sc:softwareVersion": "1",
+      "sc:url": "http://algolab.eu/research/cppp/"
+    },
+    {
+      "@id": "_:N30686fff74d84aaab3fe99ace13d7a66",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0872"
+      },
+      "sc:name": "Phylogenetic tree"
+    },
+    {
+      "@id": "_:N65e245ac76634efdb16fbe46b64a36b3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1427"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Phylogenetic discrete data"
+    }
+  ]
+}

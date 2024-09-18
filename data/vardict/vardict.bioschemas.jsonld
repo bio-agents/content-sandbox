@@ -1,0 +1,62 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gkw227",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/vardict",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N6442db8b4e484a5aa9fb7de37391bd23"
+      },
+      "bsc:output": {
+        "@id": "_:N321c21c8d4d5466c85b46d190d20a66e"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gkw227"
+      },
+      "sc:description": "VarDict is an ultra sensitive variant caller for both single and paired sample variant calling from BAM files. VarDict implements several novel features such as amplicon bias aware variant calling from targeted sequencing experiments, rescue of long indels by realigning bwa soft clipped reads and better scalability than many Java based variant callers.",
+      "sc:featureList": {
+        "@id": "edam:operation_3227"
+      },
+      "sc:name": "vardict",
+      "sc:url": "https://github.com/AstraZeneca-NGS/VarDict"
+    },
+    {
+      "@id": "_:N6442db8b4e484a5aa9fb7de37391bd23",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2572"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:N321c21c8d4d5466c85b46d190d20a66e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3498"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3016"
+      },
+      "sc:name": "Sequence variations"
+    }
+  ]
+}

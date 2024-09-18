@@ -1,0 +1,132 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1186/s40168-018-0460-1",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/mgx",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N0895cf8afee14539925820bb7e2a1a4d"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:Nd58059b8d2ce4f6f84385782da9ef19a"
+        },
+        {
+          "@id": "_:N6b59a36d4e304b0085c40ee50a5628db"
+        },
+        {
+          "@id": "_:N683c21ce56c84b8d8ddfd9b1e8ffe126"
+        },
+        {
+          "@id": "_:N0fdcc1e32c1a4464a99125cf63ba6aa8"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Workbench",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3174"
+      },
+      "sc:citation": [
+        "pubmed:29690922",
+        {
+          "@id": "https://doi.org/10.1186/s40168-018-0460-1"
+        }
+      ],
+      "sc:description": "Open source client/server framework for the analysis of shotgun metagenome data. Flexible analysis workflows based on the Conveyor workflow engine provide the user with a wide range of recent algorithms for taxonomic, functional and statistical analysis. The ability to integrate own datasources and custom analysis pipelines enables researchers to address highly specific study aims and generate high-quality charts as well as interactive visualizations.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3460"
+        },
+        {
+          "@id": "edam:operation_0346"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "AGPL-3.0",
+      "sc:name": "MGX",
+      "sc:operatingSystem": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "sc:provider": "bigi",
+      "sc:softwareHelp": {
+        "@id": "https://mgx-metagenomics.github.io/"
+      },
+      "sc:softwareVersion": "1",
+      "sc:url": "https://mgx-metagenomics.github.io/"
+    },
+    {
+      "@id": "_:Nd58059b8d2ce4f6f84385782da9ef19a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:N6b59a36d4e304b0085c40ee50a5628db",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:N683c21ce56c84b8d8ddfd9b1e8ffe126",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2600"
+      },
+      "sc:name": "Pathway or network"
+    },
+    {
+      "@id": "_:N0fdcc1e32c1a4464a99125cf63ba6aa8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3028"
+      },
+      "sc:name": "Taxonomy"
+    },
+    {
+      "@id": "_:N0895cf8afee14539925820bb7e2a1a4d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2975"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1927"
+        },
+        {
+          "@id": "edam:format_3284"
+        },
+        {
+          "@id": "edam:format_1930"
+        },
+        {
+          "@id": "edam:format_1929"
+        },
+        {
+          "@id": "edam:format_1936"
+        }
+      ],
+      "sc:name": "Nucleic acid sequence (raw)"
+    }
+  ]
+}

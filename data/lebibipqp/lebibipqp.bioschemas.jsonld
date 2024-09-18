@@ -1,0 +1,148 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1186/s12859-015-0692-z",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/lebibipqp",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Jean-Pierre Flandrois",
+      "bsc:input": [
+        {
+          "@id": "_:N607535234b6e4f8e8e927d15ece21f9f"
+        },
+        {
+          "@id": "_:Nd60d1f68b4c24ed8a4c5b89ed9e8fd44"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N0dbd50b15e2043bbb2177f278edd7cbd"
+        },
+        {
+          "@id": "_:Nbb98b648817a44b5bd95a87f8c672ef1"
+        },
+        {
+          "@id": "_:N97ad849fd4124675931885fb34968c66"
+        },
+        {
+          "@id": "_:N74e800c3cff84d3d9719241c42d7d978"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0621"
+        },
+        {
+          "@id": "edam:topic_0084"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/s12859-015-0692-z"
+      },
+      "sc:description": "The BioInformatics Prokaryotes Quick Phylogeny is designed to reconstruct the phylogeny of an Archaea or a Bacteria from its nucleic acid sequence. It is also giving the useful informations if species identification is needed.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0338"
+        },
+        {
+          "@id": "edam:operation_0567"
+        },
+        {
+          "@id": "edam:operation_0258"
+        },
+        {
+          "@id": "edam:operation_0292"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:name": "leBIBIpqp",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:provider": "IFB IECHOR-FR",
+      "sc:softwareHelp": {
+        "@id": "https://umr5558-bibiserv.univ-lyon1.fr/BIBIDOCNEW/index.html#lebibi-qbpp-documentation"
+      },
+      "sc:softwareVersion": "6.0",
+      "sc:url": "https://umr5558-bibiserv.univ-lyon1.fr/lebibi/lebibi.cgi"
+    },
+    {
+      "@id": "_:N0dbd50b15e2043bbb2177f278edd7cbd",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0857"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1333"
+      },
+      "sc:name": "Sequence search results"
+    },
+    {
+      "@id": "_:Nbb98b648817a44b5bd95a87f8c672ef1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3272"
+      },
+      "sc:name": "Species tree"
+    },
+    {
+      "@id": "_:N97ad849fd4124675931885fb34968c66",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:N74e800c3cff84d3d9719241c42d7d978",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1984"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:N607535234b6e4f8e8e927d15ece21f9f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence"
+    },
+    {
+      "@id": "_:Nd60d1f68b4c24ed8a4c5b89ed9e8fd44",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1056"
+      },
+      "sc:name": "Database name"
+    }
+  ]
+}

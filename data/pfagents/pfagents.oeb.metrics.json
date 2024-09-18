@@ -1,0 +1,1466 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:pfagents/web/web.expasy.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-11-19T06:51:45.581409Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 46,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": "1994"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "1996"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "1997"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2015"
+                                }
+                            ],
+                            "doi": "10.1002/PRO.5560030118",
+                            "pmcid": "PMC2142471",
+                            "pmid": "7511453",
+                            "ref_count": 10,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1984"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1987"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1989"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "1992"
+                                }
+                            ],
+                            "title": "Improving the sensitivity of the sequence profile method",
+                            "year": 1994
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 599,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 165,
+                        "serie": [
+                            6,
+                            6,
+                            1,
+                            5,
+                            4,
+                            1,
+                            1,
+                            3,
+                            2,
+                            2,
+                            6,
+                            3,
+                            2,
+                            1,
+                            112,
+                            10
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 18,
+                        "serie": [
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T06:51:45.486099Z",
+                "last_month_access": {
+                    "average_access_time": 519,
+                    "downtime_days": 1,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/sib-swiss/pfagents3"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/pfagents",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-11-19T06:51:44.205707Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 108,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 161,
+                        "serie": [
+                            2,
+                            12,
+                            5,
+                            1,
+                            2,
+                            1,
+                            1,
+                            3,
+                            1,
+                            2,
+                            2,
+                            3,
+                            1,
+                            2,
+                            1,
+                            112,
+                            10
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 22,
+                        "serie": [
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            2,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            2,
+                            2,
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T06:51:36.582122Z",
+                "last_month_access": {
+                    "average_access_time": 509,
+                    "downtime_days": 1,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://web.expasy.org/pfagents/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://github.com/sib-swiss/pfagents3"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:pfagents:2.3.5/cmd/web.expasy.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T09:34:03.144356Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 787,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 67,
+                        "serie": [
+                            1,
+                            1,
+                            3,
+                            1,
+                            3,
+                            2,
+                            2,
+                            1,
+                            1,
+                            1,
+                            2,
+                            2,
+                            3,
+                            1,
+                            2,
+                            2,
+                            1,
+                            1,
+                            1,
+                            2,
+                            2,
+                            3,
+                            1,
+                            1,
+                            1,
+                            1,
+                            9,
+                            8,
+                            1,
+                            3,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 116,
+                        "serie": [
+                            8,
+                            8,
+                            2,
+                            2,
+                            1,
+                            1,
+                            2,
+                            2,
+                            1,
+                            2,
+                            3,
+                            1,
+                            3,
+                            1,
+                            2,
+                            2,
+                            2,
+                            5,
+                            1,
+                            2,
+                            3,
+                            2,
+                            13,
+                            5,
+                            5,
+                            2,
+                            3,
+                            1,
+                            3,
+                            6,
+                            3,
+                            2,
+                            4,
+                            5,
+                            8
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T09:34:02.999862Z",
+                "last_month_access": {
+                    "average_access_time": 697,
+                    "downtime_days": 23,
+                    "uptime_days": 7
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/sib-swiss/pfagents3"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:pfagents:3.2.10/cmd/web.expasy.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T10:25:59.647137Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 40,
+                        "serie": [
+                            3,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            2,
+                            2,
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 143,
+                        "serie": [
+                            1,
+                            2,
+                            4,
+                            1,
+                            3,
+                            2,
+                            3,
+                            2,
+                            1,
+                            2,
+                            3,
+                            4,
+                            17,
+                            1,
+                            14,
+                            1,
+                            2,
+                            1,
+                            11,
+                            3,
+                            6,
+                            3,
+                            8,
+                            12,
+                            2,
+                            3,
+                            4,
+                            1,
+                            5,
+                            12,
+                            4,
+                            2,
+                            3
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T10:25:59.365121Z",
+                "last_month_access": {
+                    "average_access_time": 1019,
+                    "downtime_days": 25,
+                    "uptime_days": 5
+                },
+                "license": false,
+                "operational": 429,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/sib-swiss/pfagents3"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:pfagents/web/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-11-19T10:31:21.855594Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": false,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 46,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": "1994"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "1996"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "1997"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2015"
+                                }
+                            ],
+                            "doi": "10.1002/PRO.5560030118",
+                            "pmcid": "PMC2142471",
+                            "pmid": "7511453",
+                            "ref_count": 10,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1984"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1987"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1989"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "1992"
+                                }
+                            ],
+                            "title": "Improving the sensitivity of the sequence profile method",
+                            "year": 1994
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 6,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1093/BIOINFORMATICS/BTT129",
+                            "pmcid": "PMC3634184",
+                            "pmid": "23505298",
+                            "ref_count": 8,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2013"
+                                }
+                            ],
+                            "title": "pfsearchV3: a code acceleration and heuristic to search PROSITE profiles",
+                            "year": 2013
+                        }
+                    ]
+                }
+            ],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 40,
+                        "serie": [
+                            3,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            2,
+                            2,
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 143,
+                        "serie": [
+                            1,
+                            2,
+                            4,
+                            1,
+                            3,
+                            2,
+                            3,
+                            2,
+                            1,
+                            2,
+                            3,
+                            4,
+                            17,
+                            1,
+                            14,
+                            1,
+                            2,
+                            1,
+                            11,
+                            3,
+                            6,
+                            3,
+                            8,
+                            12,
+                            2,
+                            3,
+                            4,
+                            1,
+                            5,
+                            12,
+                            4,
+                            2,
+                            3
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T10:25:59.365121Z",
+                "last_month_access": {
+                    "average_access_time": 1019,
+                    "downtime_days": 25,
+                    "uptime_days": 5
+                },
+                "license": false,
+                "operational": 429,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/sib-swiss/pfagents3"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:pfagents/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-11-19T10:31:21.668446Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": false,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 46,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": "1994"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "1996"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "1997"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2015"
+                                }
+                            ],
+                            "doi": "10.1002/PRO.5560030118",
+                            "pmcid": "PMC2142471",
+                            "pmid": "7511453",
+                            "ref_count": 10,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1984"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1987"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1989"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "1992"
+                                }
+                            ],
+                            "title": "Improving the sensitivity of the sequence profile method",
+                            "year": 1994
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 6,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2020"
+                                }
+                            ],
+                            "doi": "10.1093/BIOINFORMATICS/BTT129",
+                            "pmcid": "PMC3634184",
+                            "pmid": "23505298",
+                            "ref_count": 8,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2013"
+                                }
+                            ],
+                            "title": "pfsearchV3: a code acceleration and heuristic to search PROSITE profiles",
+                            "year": 2013
+                        }
+                    ]
+                }
+            ],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 40,
+                        "serie": [
+                            3,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            2,
+                            2,
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 143,
+                        "serie": [
+                            1,
+                            2,
+                            4,
+                            1,
+                            3,
+                            2,
+                            3,
+                            2,
+                            1,
+                            2,
+                            3,
+                            4,
+                            17,
+                            1,
+                            14,
+                            1,
+                            2,
+                            1,
+                            11,
+                            3,
+                            6,
+                            3,
+                            8,
+                            12,
+                            2,
+                            3,
+                            4,
+                            1,
+                            5,
+                            12,
+                            4,
+                            2,
+                            3
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T10:25:59.365121Z",
+                "last_month_access": {
+                    "average_access_time": 1019,
+                    "downtime_days": 25,
+                    "uptime_days": 5
+                },
+                "license": false,
+                "operational": 429,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/sib-swiss/pfagents3"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:pfagents:3.2.11/cmd/web.expasy.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T10:45:23.520181Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 718,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 89,
+                        "serie": [
+                            3,
+                            6,
+                            2,
+                            2,
+                            2,
+                            1,
+                            2,
+                            1,
+                            4,
+                            1,
+                            1,
+                            1,
+                            5,
+                            2,
+                            7,
+                            2,
+                            1,
+                            1,
+                            2,
+                            2,
+                            1,
+                            4,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            3,
+                            1,
+                            2,
+                            2,
+                            7,
+                            1,
+                            3,
+                            2,
+                            1,
+                            6
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 94,
+                        "serie": [
+                            3,
+                            1,
+                            3,
+                            1,
+                            1,
+                            1,
+                            3,
+                            3,
+                            3,
+                            1,
+                            8,
+                            1,
+                            1,
+                            3,
+                            6,
+                            2,
+                            1,
+                            1,
+                            4,
+                            2,
+                            2,
+                            2,
+                            5,
+                            3,
+                            1,
+                            1,
+                            3,
+                            12,
+                            3,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            3,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T10:45:23.239906Z",
+                "last_month_access": {
+                    "average_access_time": 776,
+                    "downtime_days": 8,
+                    "uptime_days": 22
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/sib-swiss/pfagents3"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:pfagents:3.2.12/cmd/web.expasy.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T10:51:06.375972Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 136,
+                        "serie": [
+                            6,
+                            17,
+                            1,
+                            1,
+                            1,
+                            15,
+                            10,
+                            7,
+                            1,
+                            1,
+                            2,
+                            3,
+                            5,
+                            21,
+                            7,
+                            13,
+                            7,
+                            4,
+                            3,
+                            2,
+                            2,
+                            6,
+                            1
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 47,
+                        "serie": [
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            4,
+                            1,
+                            2,
+                            5,
+                            3,
+                            1,
+                            1,
+                            2,
+                            3,
+                            11,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T10:51:06.320849Z",
+                "last_month_access": {
+                    "average_access_time": 781,
+                    "downtime_days": 7,
+                    "uptime_days": 23
+                },
+                "license": false,
+                "operational": 429,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/sib-swiss/pfagents3"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    }
+]

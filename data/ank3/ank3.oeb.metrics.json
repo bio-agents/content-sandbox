@@ -1,0 +1,94 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/ank3",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-10-29T01:14:14.923455Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 160,
+                        "serie": [
+                            45,
+                            5,
+                            11,
+                            3,
+                            9,
+                            78,
+                            4,
+                            1,
+                            1,
+                            1,
+                            2
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 22,
+                        "serie": [
+                            4,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            2,
+                            5,
+                            1,
+                            3
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-10-29T01:14:14.861198Z",
+                "last_month_access": {
+                    "downtime_days": 28,
+                    "uptime_days": 0
+                },
+                "license": false,
+                "operational": 429,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    }
+]

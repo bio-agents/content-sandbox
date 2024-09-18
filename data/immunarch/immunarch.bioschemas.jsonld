@@ -1,0 +1,109 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.3367200",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/immunarch",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N09c1c07a33894498900fe3087248f160"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:N817b153096854a61ba1746aadd3414a7"
+        },
+        {
+          "@id": "_:Na9d3de25bc7e4a0aaab75ddd057fe6ce"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_2830"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.5281/zenodo.3367200"
+      },
+      "sc:description": "R package designed to analyse T-cell receptor (TCR) and B-cell receptor (BCR) repertoires",
+      "sc:featureList": {
+        "@id": "edam:operation_2403"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Apache-2.0",
+      "sc:name": "immunarch",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": [
+        {
+          "@id": "https://immunarch.com/articles/web_only/v6_diversity.html"
+        },
+        {
+          "@id": "https://immunarch.com/articles/web_only/v7_fixvis.html"
+        },
+        {
+          "@id": "https://immunarch.com/articles/v2_data.html"
+        },
+        {
+          "@id": "https://immunarch.com/articles/web_only/v8_tracking.html"
+        },
+        {
+          "@id": "https://immunarch.com/articles/web_only/v4_overlap.html"
+        },
+        {
+          "@id": "https://immunarch.com/articles/web_only/v9_kmers.html"
+        }
+      ],
+      "sc:url": "https://immunarch.com"
+    },
+    {
+      "@id": "_:N817b153096854a61ba1746aadd3414a7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2333"
+      },
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:Na9d3de25bc7e4a0aaab75ddd057fe6ce",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:N09c1c07a33894498900fe3087248f160",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1383"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3033"
+      },
+      "sc:name": "Sequence alignment (nucleic acid)"
+    }
+  ]
+}

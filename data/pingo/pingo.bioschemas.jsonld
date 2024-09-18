@@ -1,0 +1,97 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btr045",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/pingo",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Steven Maere",
+      "bsc:input": [
+        {
+          "@id": "_:N08ee7f25d8964fd8a5b2a3a5914fa8ca"
+        },
+        {
+          "@id": "_:N8571476d80184d4c97c1fc4801d1ad3c"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N846945b148654249b9cb07e39baded54"
+        },
+        {
+          "@id": "_:Ne9b3403ec88c41a183f1cdb53b93f144"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Desktop application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0085"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btr045"
+      },
+      "sc:description": "Java-based agent to easily find unknown genes in a network that are significantly associated with user-defined target Gene Ontology (GO) categories.",
+      "sc:featureList": {
+        "@id": "edam:operation_3501"
+      },
+      "sc:name": "PiNGO",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:provider": "PSB",
+      "sc:softwareHelp": {
+        "@id": "https://www.psb.ugent.be/esb/PiNGO/User_Guide.html"
+      },
+      "sc:softwareVersion": "1.11",
+      "sc:url": "http://www.psb.ugent.be/esb/PiNGO/Home.html"
+    },
+    {
+      "@id": "_:N846945b148654249b9cb07e39baded54",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1025"
+      },
+      "sc:name": "Gene identifier"
+    },
+    {
+      "@id": "_:Ne9b3403ec88c41a183f1cdb53b93f144",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1669"
+      },
+      "sc:name": "P-value"
+    },
+    {
+      "@id": "_:N08ee7f25d8964fd8a5b2a3a5914fa8ca",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1082"
+      },
+      "sc:name": "Pathway or network identifier"
+    },
+    {
+      "@id": "_:N8571476d80184d4c97c1fc4801d1ad3c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2338"
+      },
+      "sc:name": "Ontology identifier"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/comparems2",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": {
+        "@id": "http://orcid.org/0000-0002-5865-8994"
+      },
+      "bsc:input": {
+        "@id": "_:N2252dd923e8a4ed98c5db40e9f7e826e"
+      },
+      "bsc:output": {
+        "@id": "_:Nd8def7611b66479a8c5d074e5e71a1b0"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3172"
+        },
+        {
+          "@id": "edam:topic_0121"
+        },
+        {
+          "@id": "edam:topic_0084"
+        },
+        {
+          "@id": "edam:topic_3520"
+        }
+      ],
+      "sc:author": "Magnus Palmblad",
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1002/rcm.6162"
+        },
+        "pubmed:26864526",
+        "pubmed:22368051"
+      ],
+      "sc:description": "A simple agent developed to compare, globally, all MS/MS spectra between two datasets (in Mascot Generic Format or MGF).",
+      "sc:featureList": {
+        "@id": "edam:operation_2424"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "GPL-2.0",
+      "sc:name": "compareMS2",
+      "sc:operatingSystem": "Linux",
+      "sc:provider": "lumc.nl",
+      "sc:softwareHelp": {
+        "@id": "http://www.ms-utils.org/compareMS2.html"
+      },
+      "sc:softwareVersion": "1",
+      "sc:url": "http://www.ms-utils.org/compareMS2.html"
+    },
+    {
+      "@id": "_:Nd8def7611b66479a8c5d074e5e71a1b0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0953"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3651"
+      },
+      "sc:name": "Version information"
+    },
+    {
+      "@id": "_:N2252dd923e8a4ed98c5db40e9f7e826e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0953"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3651"
+      },
+      "sc:name": "Version information"
+    },
+    {
+      "@id": "http://orcid.org/0000-0002-5865-8994",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1002/rcm.6162",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

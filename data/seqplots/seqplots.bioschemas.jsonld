@@ -1,0 +1,133 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.12688/wellcomeopenres.10004.1",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/seqplots",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Przemyslaw Stempor",
+      "bsc:input": [
+        {
+          "@id": "_:Na27f3d0d81154c2cae7e9c74a361984d"
+        },
+        {
+          "@id": "_:N9b55c276be4c48adbf4d302d8113b570"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N66b28ca65bc741998a8acb27248edec5"
+        },
+        {
+          "@id": "_:N620c5b88353b4e5d8e6d220d04020058"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Library",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0622"
+        },
+        {
+          "@id": "edam:topic_0092"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.12688/wellcomeopenres.10004.1"
+      },
+      "sc:description": "Agent for plotting NGS based experiments' signal tracks, e.g. reads coverage from ChIP-seq, RNA-seq and DNA accessibility assays like DNase-seq and MNase-seq, over user specified genomic features, e.g. promoters, gene bodies, etc. It can also calculate sequence motif density profiles from a reference genome.",
+      "sc:featureList": {
+        "@id": "edam:operation_0564"
+      },
+      "sc:license": "GPL-3.0",
+      "sc:name": "seqplots",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/seqplots.html"
+      },
+      "sc:softwareVersion": "1.12.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/seqplots.html"
+    },
+    {
+      "@id": "_:N66b28ca65bc741998a8acb27248edec5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1636"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3508"
+      },
+      "sc:name": "Heat map"
+    },
+    {
+      "@id": "_:N620c5b88353b4e5d8e6d220d04020058",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3508"
+      },
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:Na27f3d0d81154c2cae7e9c74a361984d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3002"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3003"
+        },
+        {
+          "@id": "edam:format_2305"
+        },
+        {
+          "@id": "edam:format_3005"
+        }
+      ],
+      "sc:name": "Annotation track"
+    },
+    {
+      "@id": "_:N9b55c276be4c48adbf4d302d8113b570",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1270"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3003"
+        },
+        {
+          "@id": "edam:format_2305"
+        },
+        {
+          "@id": "edam:format_3005"
+        }
+      ],
+      "sc:name": "Feature table"
+    }
+  ]
+}

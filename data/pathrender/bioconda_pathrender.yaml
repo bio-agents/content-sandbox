@@ -1,0 +1,11 @@
+bioagents_id: pathrender
+description: build graphs from pathway databases, render them by Rgraphviz.
+home: https://bioconductor.org/packages/3.12/bioc/html/pathRender.html
+identifiers:
+- bioagents:pathrender
+- doi:10.1038/nmeth.3252
+license: LGPL
+license_file: /lib/R/share/licenses/LGPL-3
+name: bioconductor-pathrender
+summary: Render molecular pathways
+version: 1.58.0

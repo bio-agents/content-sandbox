@@ -1,0 +1,69 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.7717/PEERJ.10555",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/macrel",
+      "@type": "sc:SoftwareApplication",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Library",
+        "Web application",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3174"
+        },
+        {
+          "@id": "edam:topic_3474"
+        },
+        {
+          "@id": "edam:topic_3520"
+        },
+        {
+          "@id": "edam:topic_3697"
+        },
+        {
+          "@id": "edam:topic_0154"
+        }
+      ],
+      "sc:citation": [
+        "pmcid:PMC7751412",
+        {
+          "@id": "https://doi.org/10.7717/PEERJ.10555"
+        },
+        "pubmed:33384902"
+      ],
+      "sc:description": "Antimicrobial peptide screening in genomes and metagenomes.\n\nMacrel: (Meta)genomic AMP Classification and Retrieval.\n\nPipeline to mine antimicrobial peptides (AMPs) from (meta)genomes.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0310"
+        },
+        {
+          "@id": "edam:operation_2422"
+        },
+        {
+          "@id": "edam:operation_3663"
+        }
+      ],
+      "sc:license": "GPL-3.0",
+      "sc:name": "Macrel",
+      "sc:url": "https://big-data-biology.org/software/macrel"
+    }
+  ]
+}

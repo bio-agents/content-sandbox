@@ -1,0 +1,98 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/binche",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Pablo Moreno",
+      "bsc:input": {
+        "@id": "_:N4efcc492450f427fbbbe11e22ed0e15e"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:Nfe55dbde26e7428da206d87513159fd1"
+        },
+        {
+          "@id": "_:Nf97ebb6115004a6b9340d860ced571a4"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0154"
+        },
+        {
+          "@id": "edam:topic_2258"
+        }
+      ],
+      "sc:author": [
+        "ChEBI team",
+        "Pablo Moreno"
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/s12859-015-0486-3"
+      },
+      "sc:description": "Chemical class enrichment analysis based on the ChEBI ontology.",
+      "sc:featureList": {
+        "@id": "edam:operation_3502"
+      },
+      "sc:name": "BiNChE",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:provider": "EMBL-EBI",
+      "sc:softwareHelp": [
+        {
+          "@id": "http://www.ebi.ac.uk/about/terms-of-use"
+        },
+        {
+          "@id": "http://www.ebi.ac.uk/chebi/aboutChebiForward.do"
+        }
+      ],
+      "sc:softwareVersion": "1",
+      "sc:url": "http://www.ebi.ac.uk/chebi/agents/binche/"
+    },
+    {
+      "@id": "_:N4efcc492450f427fbbbe11e22ed0e15e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1174"
+      },
+      "sc:name": "ChEBI ID"
+    },
+    {
+      "@id": "_:Nfe55dbde26e7428da206d87513159fd1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2600"
+      },
+      "sc:name": "Pathway or network"
+    },
+    {
+      "@id": "_:Nf97ebb6115004a6b9340d860ced571a4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0962"
+      },
+      "sc:name": "Small molecule report"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s12859-015-0486-3",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

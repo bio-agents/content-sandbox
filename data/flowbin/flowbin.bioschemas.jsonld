@@ -1,0 +1,141 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/flowbin",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Kieran O'Neill",
+      "bsc:input": {
+        "@id": "_:N9966a6825420425a96569462a01b1817"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:N460c8510abf04712bd0fffedbca2e755"
+        },
+        {
+          "@id": "_:Nae4b3d5a77ac4b8d8a4bf7a416d6ae19"
+        },
+        {
+          "@id": "_:Nd6246851236f44a78fefb9a6e0b7fba0"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Library",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3306"
+        },
+        {
+          "@id": "edam:topic_3361"
+        },
+        {
+          "@id": "edam:topic_3071"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btv008"
+      },
+      "sc:description": "Software to combine flow cytometry data that has been multiplexed into multiple tubes with common markers between them, by establishing common bins across tubes in terms of the common markers, then determining expression within each tube for each bin in terms of the tube-specific markers.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2424"
+        },
+        {
+          "@id": "edam:operation_0337"
+        },
+        {
+          "@id": "edam:operation_2409"
+        }
+      ],
+      "sc:license": "Artistic-2.0",
+      "sc:name": "flowBin",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/flowBin.html"
+      },
+      "sc:softwareVersion": "1.10.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/flowBin.html"
+    },
+    {
+      "@id": "_:N9966a6825420425a96569462a01b1817",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3108"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Experimental measurement"
+    },
+    {
+      "@id": "_:N460c8510abf04712bd0fffedbca2e755",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3547"
+        }
+      ],
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:Nae4b3d5a77ac4b8d8a4bf7a416d6ae19",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3547"
+        }
+      ],
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:Nd6246851236f44a78fefb9a6e0b7fba0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1636"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Heat map"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btv008",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

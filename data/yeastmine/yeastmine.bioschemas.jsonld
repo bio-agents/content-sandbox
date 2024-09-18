@@ -1,0 +1,135 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bts577",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/YeastMine",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:N32100d6dbdae4a6d8cabc86a5a2bef63"
+        },
+        {
+          "@id": "_:N2d44ad809d9746d988d887e73ac9ef1e"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Ne9e60d3201e84cea88cc0223767adcdb"
+        },
+        {
+          "@id": "_:Nbaffe59534a24b46bc955dfe1b622b3c"
+        },
+        {
+          "@id": "_:N2db3f1a35f7143a0976232c3f30f5256"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Database portal",
+        "Web application",
+        "Web service"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3071"
+        },
+        {
+          "@id": "edam:topic_0622"
+        },
+        {
+          "@id": "edam:topic_0121"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/bts577"
+      },
+      "sc:description": "Search and retrieve S. cerevisiae data, populated by SGD and powered by InterMine",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2422"
+        },
+        {
+          "@id": "edam:operation_0224"
+        },
+        {
+          "@id": "edam:operation_2436"
+        },
+        {
+          "@id": "edam:operation_0337"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "LGPL-2.1",
+      "sc:name": "YeastMine",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": [
+        {
+          "@id": "https://flymine.readthedocs.io/en/latest/"
+        },
+        {
+          "@id": "http://intermine.readthedocs.org/en/latest/web-services/"
+        }
+      ],
+      "sc:softwareVersion": "Data Updated on: Nov-19-2019",
+      "sc:url": "https://yeastmine.yeastgenome.org/yeastmine"
+    },
+    {
+      "@id": "_:Ne9e60d3201e84cea88cc0223767adcdb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3786"
+      },
+      "sc:name": "Query script"
+    },
+    {
+      "@id": "_:Nbaffe59534a24b46bc955dfe1b622b3c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1255"
+      },
+      "sc:name": "Sequence features"
+    },
+    {
+      "@id": "_:N2db3f1a35f7143a0976232c3f30f5256",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3753"
+      },
+      "sc:name": "Over-representation data"
+    },
+    {
+      "@id": "_:N32100d6dbdae4a6d8cabc86a5a2bef63",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2353"
+      },
+      "sc:name": "Ontology data"
+    },
+    {
+      "@id": "_:N2d44ad809d9746d988d887e73ac9ef1e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1255"
+      },
+      "sc:name": "Sequence features"
+    }
+  ]
+}

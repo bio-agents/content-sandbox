@@ -1,0 +1,125 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1021/pr0604054",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/myrimatch",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:N1825e29f6b0a42edaf81d07743a70598"
+        },
+        {
+          "@id": "_:N2af1cdade9c24df98bb06e85c11511d8"
+        }
+      ],
+      "bsc:output": {
+        "@id": "_:Na17e703da2da4da8b4efc46923cb374b"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3520"
+        },
+        {
+          "@id": "edam:topic_0121"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1021/pr0604054"
+      },
+      "sc:description": "Another free MS/MS search engine.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3649"
+        },
+        {
+          "@id": "edam:operation_3631"
+        },
+        {
+          "@id": "edam:operation_3647"
+        },
+        {
+          "@id": "edam:operation_3215"
+        },
+        {
+          "@id": "edam:operation_3646"
+        }
+      ],
+      "sc:name": "MyriMatch",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://medschool.vanderbilt.edu/msrc-bioinformatics/myrimatch-source"
+      },
+      "sc:url": "https://medschool.vanderbilt.edu/msrc-bioinformatics/myrimatch-source"
+    },
+    {
+      "@id": "_:N1825e29f6b0a42edaf81d07743a70598",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1233"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence set (protein)"
+    },
+    {
+      "@id": "_:N2af1cdade9c24df98bb06e85c11511d8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0943"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3834"
+        },
+        {
+          "@id": "edam:format_3654"
+        },
+        {
+          "@id": "edam:format_3651"
+        },
+        {
+          "@id": "edam:format_3712"
+        },
+        {
+          "@id": "edam:format_3710"
+        },
+        {
+          "@id": "edam:format_3244"
+        }
+      ],
+      "sc:name": "Mass spectrometry spectra"
+    },
+    {
+      "@id": "_:Na17e703da2da4da8b4efc46923cb374b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0945"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3655"
+      },
+      "sc:name": "Peptide identification"
+    }
+  ]
+}

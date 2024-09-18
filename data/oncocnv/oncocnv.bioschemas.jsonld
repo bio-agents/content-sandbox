@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.agents/oncocnv",
+  "@type": "sc:SoftwareApplication",
+  "bioagents:primaryContact": "Valentina Boeva",
+  "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+  "sc:additionalType": "Command-line agent",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0654"
+    },
+    {
+      "@id": "edam:topic_3572"
+    },
+    {
+      "@id": "edam:topic_3168"
+    }
+  ],
+  "sc:citation": "pubmed:25016581",
+  "sc:description": "Package to detect copy number changes in Deep Sequencing data developed by OncoDNA.",
+  "sc:featureList": {
+    "@id": "edam:operation_3435"
+  },
+  "sc:name": "ONCOCNV",
+  "sc:operatingSystem": [
+    "Linux",
+    "Mac",
+    "Windows"
+  ],
+  "sc:softwareHelp": {
+    "@id": "https://github.com/BoevaLab/ONCOCNV/"
+  },
+  "sc:url": "https://oncocnv.curie.fr/"
+}

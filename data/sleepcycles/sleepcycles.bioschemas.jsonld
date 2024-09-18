@@ -1,0 +1,65 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/sleepcycles",
+      "@type": "sc:SoftwareApplication",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3300"
+        },
+        {
+          "@id": "edam:topic_3304"
+        },
+        {
+          "@id": "edam:topic_3382"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1016/J.MEX.2021.101318"
+        },
+        "pubmed:34434837",
+        "pmcid:PMC8374325"
+      ],
+      "sc:description": "Detects Sleep Cycles according to modified Feinberg & Floyd (1979) criteria.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0337"
+        },
+        {
+          "@id": "edam:operation_3454"
+        },
+        {
+          "@id": "edam:operation_3359"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "GPL-3.0",
+      "sc:name": "SleepCycles",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:url": "https://github.com/ChristineBlume/SleepCycles"
+    },
+    {
+      "@id": "https://doi.org/10.1016/J.MEX.2021.101318",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

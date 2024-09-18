@@ -1,0 +1,102 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "http://orcid.org/0000-0001-6742-3911",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://bio.agents/mendelian",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": [
+        {
+          "@id": "http://orcid.org/0000-0001-6742-3911"
+        },
+        "Filip Van Nieuwerburgh"
+      ],
+      "bsc:input": {
+        "@id": "_:Nda7f0b295e314aa7a0b718f6eb5aa9b2"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:Nc804aecacddf4c5d92ea7b9c60272f37"
+        },
+        {
+          "@id": "_:Nf22f32ee3d1f42b7ab2eccba7253291f"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0199"
+        },
+        {
+          "@id": "edam:topic_3325"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/s12859-015-0822-7"
+      },
+      "sc:description": "R-package for heuristic variant filtering.",
+      "sc:featureList": {
+        "@id": "edam:operation_3227"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "GPL-2.0",
+      "sc:name": "Mendelian",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:provider": "ugent.be",
+      "sc:softwareHelp": {
+        "@id": "https://github.com/BartBroeckx/Mendelian"
+      },
+      "sc:url": "https://github.com/BartBroeckx/Mendelian"
+    },
+    {
+      "@id": "_:Nc804aecacddf4c5d92ea7b9c60272f37",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3498"
+      },
+      "sc:name": "Sequence variations"
+    },
+    {
+      "@id": "_:Nf22f32ee3d1f42b7ab2eccba7253291f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0916"
+      },
+      "sc:name": "Gene report"
+    },
+    {
+      "@id": "_:Nda7f0b295e314aa7a0b718f6eb5aa9b2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3498"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3016"
+      },
+      "sc:name": "Sequence variations"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s12859-015-0822-7",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

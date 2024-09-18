@@ -1,0 +1,91 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1371/journal.ppat.1000376",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "http://orcid.org/0000-0002-7496-7578",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://bio.agents/effectivet3",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N87887004ee41426abb52eb93cb8f9bde"
+      },
+      "bsc:output": {
+        "@id": "_:N0360cb34b0fa447aad86d2ed236155a3"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Web application"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0080"
+      },
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1371/journal.ppat.1000376"
+        },
+        "pmcid:PMC2669295",
+        "pubmed:19390696"
+      ],
+      "sc:contributor": {
+        "@id": "http://orcid.org/0000-0002-7496-7578"
+      },
+      "sc:description": "Prediction of putative Type-III secreted proteins.",
+      "sc:featureList": {
+        "@id": "edam:operation_2995"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:name": "EffectiveT3",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:provider": "AT-CUBE",
+      "sc:softwareHelp": {
+        "@id": "http://www.effectivedb.org/method/effectivet3"
+      },
+      "sc:softwareVersion": "2.0.1",
+      "sc:url": "http://www.effectivedb.org/method/effectivet3"
+    },
+    {
+      "@id": "_:N0360cb34b0fa447aad86d2ed236155a3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0896"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Protein report"
+    },
+    {
+      "@id": "_:N87887004ee41426abb52eb93cb8f9bde",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2976"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Protein sequence"
+    }
+  ]
+}

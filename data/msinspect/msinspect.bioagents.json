@@ -1,0 +1,85 @@
+{
+    "additionDate": "2018-03-05T20:52:40Z",
+    "bioagentsCURIE": "bioagents:msinspect",
+    "bioagentsID": "msinspect",
+    "collectionID": [
+        "Proteomics"
+    ],
+    "credit": [
+        {
+            "email": "mmcintos@fhcrc.org",
+            "name": "Martin McIntosh",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "A software platform for rapidly creating computational agents for mass spectrometry-based proteomics.",
+    "editPermission": {
+        "authors": [
+            "proteomics.bio.agents"
+        ],
+        "type": "group"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Spectral analysis",
+                    "uri": "http://edamontology.org/operation_3214"
+                }
+            ]
+        }
+    ],
+    "homepage": "https://github.com/dhmay/msInspect",
+    "language": [
+        "Java",
+        "R"
+    ],
+    "lastUpdate": "2019-03-26T08:26:13Z",
+    "name": "msInspect",
+    "owner": "jison",
+    "publication": [
+        {
+            "doi": "10.1021/pr900169w",
+            "metadata": {
+                "abstract": "We describe and demonstrate the proteomics computational agentkit provided in the open-source msInspect software distribution. The agentkit includes modules written in Java and in the R statistical programming language to aid the rapid development of proteomics software applications. It contains agents for processing and manipulating standard MS data files, including signal processing of LC-MS data and parsing of MS/MS search results, as well as for modeling proteomics data structures, creating charts, and other common tasks. We present this agentkit's capability to rapidly develop new computational agents by presenting an example application, Qurate, a graphical agent for manually curating isotopically labeled peptide quantitative events. © 2009 American Chemical Society.",
+                "authors": [
+                    {
+                        "name": "Fang Q."
+                    },
+                    {
+                        "name": "Fitzgibbon M."
+                    },
+                    {
+                        "name": "Law W."
+                    },
+                    {
+                        "name": "May D."
+                    },
+                    {
+                        "name": "McIntosh M."
+                    }
+                ],
+                "citationCount": 21,
+                "date": "2009-06-05T00:00:00Z",
+                "journal": "Journal of Proteome Research",
+                "title": "Software platform for rapidly creating computational agents for mass spectrometry-based proteomics"
+            },
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "agentType": [
+        "Suite"
+    ],
+    "topic": [
+        {
+            "term": "Proteomics",
+            "uri": "http://edamontology.org/topic_0121"
+        }
+    ],
+    "validated": 1
+}

@@ -1,0 +1,53 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btr490",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/mev",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Contact Form",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Desktop application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3170"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btr490"
+      },
+      "sc:description": "Visualisation of genomic data, Differential Gene Expression based on DEGseq, DESeq and edgeR",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0337"
+        },
+        {
+          "@id": "edam:operation_0291"
+        }
+      ],
+      "sc:license": "Artistic-2.0",
+      "sc:name": "MeV",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://mev.tm4.org/#/datasets/tutorials"
+      },
+      "sc:url": "http://mev.tm4.org/#/welcome"
+    }
+  ]
+}

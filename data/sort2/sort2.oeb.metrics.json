@@ -1,0 +1,208 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:sort2/web/genome.cs.nthu.edu.tw",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-08-27T07:29:30.744577Z",
+        "@type": "metrics",
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true,
+                "help": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 10,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2019"
+                                }
+                            ],
+                            "doi": "10.1093/nar/gkq520",
+                            "pmcid": "PMC2896082",
+                            "pmid": "20538651",
+                            "ref_count": 35,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1989"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "1996"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2010"
+                                }
+                            ],
+                            "title": "SoRT2: a agent for sorting genomes and reconstructing phylogenetic trees by reversals, generalized transpositions and translocations.",
+                            "year": 2010
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 165,
+                        "serie": [
+                            141,
+                            1,
+                            16,
+                            4,
+                            3
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 15,
+                        "serie": [
+                            6,
+                            3,
+                            2,
+                            4
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-08-27T07:11:49.342096Z",
+                "last_month_access": {
+                    "average_access_time": 2671,
+                    "downtime_days": 30,
+                    "uptime_days": 0
+                },
+                "license": false,
+                "operational": 404,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/sort2",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-08-27T07:11:49.459933Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 165,
+                        "serie": [
+                            141,
+                            1,
+                            16,
+                            4,
+                            3
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 15,
+                        "serie": [
+                            6,
+                            3,
+                            2,
+                            4
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-08-27T07:11:49.342096Z",
+                "last_month_access": {
+                    "average_access_time": 1586,
+                    "downtime_days": 30,
+                    "uptime_days": 0
+                },
+                "license": false,
+                "operational": 404,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

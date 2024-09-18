@@ -1,0 +1,117 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gkm788",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/pubmeth",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Pubmeth Support",
+      "bsc:input": [
+        {
+          "@id": "_:Nca559b267fce4ee6975ea57e8d48dd30"
+        },
+        {
+          "@id": "_:Ndd126bf0de774babaee885cc0b989cc7"
+        },
+        {
+          "@id": "_:Nfe6b5cb16b2f44a49a2602948b812f15"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Na8ababd4692f4d5c8116ffff0db5e369"
+        },
+        {
+          "@id": "_:Nb2705bbae3664f15909b236c64b37a24"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0654"
+        },
+        {
+          "@id": "edam:topic_2640"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gkm788"
+      },
+      "sc:description": "An annotated and reviewed database of methylation in cancer. It is based on automated textmining of literature and is afterwards manually curated and annotated.",
+      "sc:featureList": {
+        "@id": "edam:operation_0224"
+      },
+      "sc:name": "PubMeth reviewed methylation database in cancer",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://www.pubmeth.org"
+      },
+      "sc:url": "http://www.pubmeth.org"
+    },
+    {
+      "@id": "_:Nca559b267fce4ee6975ea57e8d48dd30",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0976"
+      },
+      "sc:name": "Identifier (by type of data)"
+    },
+    {
+      "@id": "_:Ndd126bf0de774babaee885cc0b989cc7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1026"
+      },
+      "sc:name": "Gene symbol"
+    },
+    {
+      "@id": "_:Nfe6b5cb16b2f44a49a2602948b812f15",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1026"
+      },
+      "sc:name": "Gene symbol"
+    },
+    {
+      "@id": "_:Na8ababd4692f4d5c8116ffff0db5e369",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0916"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Gene report"
+    },
+    {
+      "@id": "_:Nb2705bbae3664f15909b236c64b37a24",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0916"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Gene report"
+    }
+  ]
+}

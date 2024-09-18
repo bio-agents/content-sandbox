@@ -1,0 +1,133 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/geecc",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Markus Boenn",
+      "bsc:input": [
+        {
+          "@id": "_:Naf9ff69ba3a340ab8ec042418740a05d"
+        },
+        {
+          "@id": "_:N744bf24c3fc44b50bfb1c2ad60f40fb7"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N75b9ae51fdc24c08ba7e7a55d487f3b7"
+        },
+        {
+          "@id": "_:N016d89d317ad4321a05c2ea780f51527"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Library",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3572"
+        },
+        {
+          "@id": "edam:topic_0203"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1038/nmeth.3252"
+      },
+      "sc:description": "Use log-linear models to perform hypergeometric and chi-squared tests for gene set enrichments for two (based on contingency tables) or three categories (contingency cubes). Categories can be differentially expressed genes, GO terms, sequence length, GC content, chromosomal position, phylostrata, divergence-strata, etc.",
+      "sc:featureList": {
+        "@id": "edam:operation_2436"
+      },
+      "sc:license": "GPL-2.0",
+      "sc:name": "geecc",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/geecc.html"
+      },
+      "sc:softwareVersion": "1.8.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/geecc.html"
+    },
+    {
+      "@id": "_:N75b9ae51fdc24c08ba7e7a55d487f3b7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1636"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3604"
+        },
+        {
+          "@id": "edam:format_3508"
+        },
+        {
+          "@id": "edam:format_3579"
+        }
+      ],
+      "sc:name": "Heat map"
+    },
+    {
+      "@id": "_:N016d89d317ad4321a05c2ea780f51527",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3509"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3604"
+        },
+        {
+          "@id": "edam:format_3579"
+        },
+        {
+          "@id": "edam:format_3508"
+        }
+      ],
+      "sc:name": "Ontology mapping"
+    },
+    {
+      "@id": "_:Naf9ff69ba3a340ab8ec042418740a05d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2353"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Ontology data"
+    },
+    {
+      "@id": "_:N744bf24c3fc44b50bfb1c2ad60f40fb7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0928"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Gene expression profile"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nmeth.3252",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

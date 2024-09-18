@@ -1,0 +1,108 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1002/pro.3290",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1038/msb.2011.75",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/clustalo",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Clustal helpdesk",
+      "bsc:input": {
+        "@id": "_:N91e36cae530840598149fbcef4e51cfc"
+      },
+      "bsc:output": {
+        "@id": "_:N337b7a97ceca4bfc86b81db7542210c2"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Library"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0080"
+      },
+      "sc:citation": [
+        "pmcid:PMC5734385",
+        {
+          "@id": "https://doi.org/10.1038/msb.2011.75"
+        },
+        "pmcid:PMC3261699",
+        {
+          "@id": "https://doi.org/10.1002/0471250953.bi0313s48"
+        },
+        {
+          "@id": "https://doi.org/10.1002/pro.3290"
+        }
+      ],
+      "sc:description": "Multiple sequence alignment software. The name is occassionally spelled as ClustalOmega, Clustal Ω, ClustalΩ, Clustal O, ClustalO.",
+      "sc:featureList": {
+        "@id": "edam:operation_0492"
+      },
+      "sc:funder": "Science Foundation Ireland",
+      "sc:isAccessibleForFree": true,
+      "sc:license": "GPL-2.0",
+      "sc:name": "Clustal Omega",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": [
+        {
+          "@id": "http://www.clustal.org/omega/#Documentation"
+        },
+        {
+          "@id": "http://www.clustal.org/omega/README"
+        },
+        {
+          "@id": "http://www.clustal.org/omega/INSTALL"
+        }
+      ],
+      "sc:softwareVersion": "1.0 - 1.2",
+      "sc:url": "http://www.clustal.org/omega/"
+    },
+    {
+      "@id": "_:N91e36cae530840598149fbcef4e51cfc",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence"
+    },
+    {
+      "@id": "_:N337b7a97ceca4bfc86b81db7542210c2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "https://doi.org/10.1002/0471250953.bi0313s48",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

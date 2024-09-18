@@ -1,0 +1,114 @@
+{
+    "accessibility": "Open access",
+    "additionDate": "2023-09-18T11:55:41.488018Z",
+    "bioagentsCURIE": "bioagents:synbioagents",
+    "bioagentsID": "synbioagents",
+    "confidence_flag": "agent",
+    "cost": "Free of charge",
+    "credit": [
+        {
+            "email": "qnhu@sibs.ac.cn",
+            "name": "Qian-Nan Hu",
+            "typeEntity": "Person"
+        }
+    ],
+    "description": "A catalog of agents for synthetic biology.",
+    "editPermission": {
+        "type": "public"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Data retrieval",
+                    "uri": "http://edamontology.org/operation_2422"
+                },
+                {
+                    "term": "Database search",
+                    "uri": "http://edamontology.org/operation_2421"
+                },
+                {
+                    "term": "Deposition",
+                    "uri": "http://edamontology.org/operation_3431"
+                },
+                {
+                    "term": "Information extraction",
+                    "uri": "http://edamontology.org/operation_3907"
+                }
+            ]
+        }
+    ],
+    "homepage": "https://synbioagents.lifesynther.com/",
+    "lastUpdate": "2023-09-18T11:55:41.490558Z",
+    "license": "Freeware",
+    "name": "SynBioAgents",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "Pub2Agents",
+    "publication": [
+        {
+            "doi": "10.1186/S12859-023-05281-5",
+            "metadata": {
+                "abstract": "Background: The rapid development of synthetic biology relies heavily on the use of databases and computational agents, which are also developing rapidly. While many agent registries have been created to facilitate agent retrieval, sharing, and reuse, no relatively comprehensive agent registry or catalog addresses all aspects of synthetic biology. Results: We constructed SynBioAgents, a comprehensive collection of synthetic biology databases, computational agents, and experimental methods, as a one-stop facility for searching and selecting synthetic biology agents. SynBioAgents includes databases, computational agents, and methods extracted from reviews via SCIentific Table Extraction, a scientific table-extraction agent that we built. Approximately 57% of the resources that we located and included in SynBioAgents are not mentioned in bio.agents, the dominant agent registry. To improve users’ understanding of the agents and to enable them to make better choices, the agents are grouped into nine modules (each with subdivisions) based on their potential biosynthetic applications. Detailed comparisons of similar agents in every classification are included. The URLs, descriptions, source references, and the number of citations of the agents are also integrated into the system. Conclusions: SynBioAgents is freely available at https://synbioagents.lifesynther.com/. It provides end-users and developers with a useful resource of categorized synthetic biology databases, agents, and methods to facilitate agent retrieval and selection.",
+                "authors": [
+                    {
+                        "name": "Cai P."
+                    },
+                    {
+                        "name": "Gong L."
+                    },
+                    {
+                        "name": "Han M."
+                    },
+                    {
+                        "name": "Hu Q.-N."
+                    },
+                    {
+                        "name": "Liu D."
+                    },
+                    {
+                        "name": "Liu S."
+                    },
+                    {
+                        "name": "Xing H."
+                    },
+                    {
+                        "name": "Zhang D."
+                    }
+                ],
+                "date": "2023-12-01T00:00:00Z",
+                "journal": "BMC Bioinformatics",
+                "title": "SynBioAgents: a one-stop facility for searching and selecting synthetic biology agents"
+            },
+            "pmcid": "PMC10111727",
+            "pmid": "37069545",
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "agentType": [
+        "Database portal"
+    ],
+    "topic": [
+        {
+            "term": "Computational biology",
+            "uri": "http://edamontology.org/topic_3307"
+        },
+        {
+            "term": "Literature and language",
+            "uri": "http://edamontology.org/topic_3068"
+        },
+        {
+            "term": "Synthetic biology",
+            "uri": "http://edamontology.org/topic_3895"
+        },
+        {
+            "term": "Workflows",
+            "uri": "http://edamontology.org/topic_0769"
+        }
+    ]
+}

@@ -1,0 +1,154 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/mole_pymol_plugin",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": [
+        "David Sehnal",
+        "Karel Berka",
+        "Lukáš Pravda",
+        "Primary Contact"
+      ],
+      "bsc:input": [
+        {
+          "@id": "_:N9243f688c5344883b059414f81395c7a"
+        },
+        {
+          "@id": "_:N10eac25697104bd79283db2cff8d184f"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Ne60377ba425443038c7e459dd36f0129"
+        },
+        {
+          "@id": "_:N3707dde5711a46d2b00bd96efbc4a8d1"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Plug-in",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0820"
+        },
+        {
+          "@id": "edam:topic_0166"
+        },
+        {
+          "@id": "edam:topic_0154"
+        },
+        {
+          "@id": "edam:topic_0123"
+        },
+        {
+          "@id": "edam:topic_0821"
+        },
+        {
+          "@id": "edam:topic_0128"
+        }
+      ],
+      "sc:author": "Lukáš Pravda",
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/1758-2946-5-39"
+      },
+      "sc:description": "Plugin for MOLE 2.0 contains extended options for channel starting point automatic detection, for filtering of obtained channels to select only the relevant channels and allows estimation of basic physicochemical properties of channels.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0570"
+        },
+        {
+          "@id": "edam:operation_0245"
+        },
+        {
+          "@id": "edam:operation_0250"
+        },
+        {
+          "@id": "edam:operation_1816"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Other",
+      "sc:name": "MOLE PyMOL plugin",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:provider": [
+        "Palacký University Olomouc, Czech Republic",
+        "Masaryk University Brno, Czech Republic",
+        "IECHOR-CZ"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://www.jcheminf.com/content/5/1/39/citation"
+      },
+      "sc:softwareVersion": "2.0",
+      "sc:url": "http://webchem.ncbr.muni.cz/Platform/AppsBin/Mole/2.13.9.6/Mole2_pymol.zip"
+    },
+    {
+      "@id": "_:Ne60377ba425443038c7e459dd36f0129",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1539"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Protein structural quality report"
+    },
+    {
+      "@id": "_:N3707dde5711a46d2b00bd96efbc4a8d1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1460"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1476"
+        },
+        {
+          "@id": "edam:format_1475"
+        }
+      ],
+      "sc:name": "Protein structure"
+    },
+    {
+      "@id": "_:N9243f688c5344883b059414f81395c7a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1127"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1476"
+      },
+      "sc:name": "PDB ID"
+    },
+    {
+      "@id": "_:N10eac25697104bd79283db2cff8d184f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1460"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1476"
+      },
+      "sc:name": "Protein structure"
+    },
+    {
+      "@id": "https://doi.org/10.1186/1758-2946-5-39",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

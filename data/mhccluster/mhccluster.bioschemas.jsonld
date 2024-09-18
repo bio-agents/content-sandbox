@@ -1,0 +1,105 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/mhccluster",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": {
+        "@id": "http://orcid.org/0000-0001-7885-4311"
+      },
+      "bsc:input": {
+        "@id": "_:Nd32021869f2a470f9c100eb5f577090e"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:N344ee759f79349ac9138cb6da7cbd7db"
+        },
+        {
+          "@id": "_:Na71a8e2174bb4eefa0a89ae064f83fe0"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_2830"
+      },
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1007/s00251-013-0714-9"
+        },
+        "pmcid:PMC3750724",
+        "pubmed:23775223"
+      ],
+      "sc:description": "Functional cluster of MHC class I molecules (MHCI) based on their predicted binding specificity.",
+      "sc:featureList": {
+        "@id": "edam:operation_3459"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Other",
+      "sc:name": "MHCcluster",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:provider": "CBS",
+      "sc:softwareHelp": {
+        "@id": "http://www.cbs.dtu.dk/services/MHCcluster-2.0/instructions.php"
+      },
+      "sc:softwareVersion": "2.0",
+      "sc:url": "http://cbs.dtu.dk/services/MHCcluster/"
+    },
+    {
+      "@id": "_:N344ee759f79349ac9138cb6da7cbd7db",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1636"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2333"
+      },
+      "sc:name": "Heat map"
+    },
+    {
+      "@id": "_:Na71a8e2174bb4eefa0a89ae064f83fe0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0872"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2006"
+      },
+      "sc:name": "Phylogenetic tree"
+    },
+    {
+      "@id": "_:Nd32021869f2a470f9c100eb5f577090e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1353"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence motif"
+    },
+    {
+      "@id": "https://doi.org/10.1007/s00251-013-0714-9",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "http://orcid.org/0000-0001-7885-4311",
+      "@type": "schema:Person"
+    }
+  ]
+}

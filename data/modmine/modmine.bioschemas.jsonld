@@ -1,0 +1,135 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/ModMine",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:Nf4f0a332560a4d41ba85468cb1c40675"
+        },
+        {
+          "@id": "_:N7342570af35a43baa0b81b16d97cbfb8"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N21c8c6f4402248808516cf2c040e48ba"
+        },
+        {
+          "@id": "_:N4b0b6a041d8f4cbc9b43d6749806cf86"
+        },
+        {
+          "@id": "_:N93322c8f218740ce9c88d3e24c63dbba"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Web application",
+        "Database portal",
+        "Web service"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0121"
+        },
+        {
+          "@id": "edam:topic_0622"
+        },
+        {
+          "@id": "edam:topic_3071"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/bts577"
+      },
+      "sc:description": "A data warehouse for the modENCODE project",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0224"
+        },
+        {
+          "@id": "edam:operation_2422"
+        },
+        {
+          "@id": "edam:operation_2436"
+        },
+        {
+          "@id": "edam:operation_0337"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "LGPL-2.1",
+      "sc:name": "ModMine",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": [
+        {
+          "@id": "http://intermine.readthedocs.org/en/latest/web-services/"
+        },
+        {
+          "@id": "https://flymine.readthedocs.io/en/latest/"
+        }
+      ],
+      "sc:softwareVersion": "33 28JUL2014",
+      "sc:url": "http://intermine.modencode.org/release-33"
+    },
+    {
+      "@id": "_:N21c8c6f4402248808516cf2c040e48ba",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1255"
+      },
+      "sc:name": "Sequence features"
+    },
+    {
+      "@id": "_:N4b0b6a041d8f4cbc9b43d6749806cf86",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3753"
+      },
+      "sc:name": "Over-representation data"
+    },
+    {
+      "@id": "_:N93322c8f218740ce9c88d3e24c63dbba",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3786"
+      },
+      "sc:name": "Query script"
+    },
+    {
+      "@id": "_:Nf4f0a332560a4d41ba85468cb1c40675",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2353"
+      },
+      "sc:name": "Ontology data"
+    },
+    {
+      "@id": "_:N7342570af35a43baa0b81b16d97cbfb8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1255"
+      },
+      "sc:name": "Sequence features"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bts577",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

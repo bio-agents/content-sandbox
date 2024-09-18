@@ -1,0 +1,110 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.263965",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/virtualscreening",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Pau Andrio",
+      "bsc:input": [
+        {
+          "@id": "_:N6eff6ad1c8a04b23a96a2d54ebe3f4c7"
+        },
+        {
+          "@id": "_:Naee4a9e5c59e4f0783c8b8280b450a6e"
+        }
+      ],
+      "bsc:output": {
+        "@id": "_:N3cbce3b99c49441794874e0315de717d"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Workflow",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3344"
+        },
+        {
+          "@id": "edam:topic_3307"
+        },
+        {
+          "@id": "edam:topic_3314"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.5281/zenodo.263965"
+      },
+      "sc:description": "VirtualScreening is a Python package inheriting from pymdsetup to perform virtual screening on a set of predefined targets.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2425"
+        },
+        {
+          "@id": "edam:operation_2426"
+        },
+        {
+          "@id": "edam:operation_2423"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Apache-2.0",
+      "sc:name": "BioExcel Virtual Screening pipeline",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://github.com/bioexcel/virtualscreening/blob/master/README.md"
+      },
+      "sc:softwareVersion": "Alpha",
+      "sc:url": "https://github.com/bioexcel/virtualscreening"
+    },
+    {
+      "@id": "_:N6eff6ad1c8a04b23a96a2d54ebe3f4c7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0883"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3816"
+      },
+      "sc:name": "Structure"
+    },
+    {
+      "@id": "_:Naee4a9e5c59e4f0783c8b8280b450a6e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1460"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1476"
+      },
+      "sc:name": "Protein structure"
+    },
+    {
+      "@id": "_:N3cbce3b99c49441794874e0315de717d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1460"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1476"
+      },
+      "sc:name": "Protein structure"
+    }
+  ]
+}

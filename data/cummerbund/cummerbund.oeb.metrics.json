@@ -1,0 +1,2034 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:cummerbund:2.22.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T03:07:47.477189Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 6550,
+                            "citations": [
+                                {
+                                    "count": 34,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 204,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 373,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 619,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 836,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1005,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1017,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 905,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 691,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 687,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 179,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1038/nprot.2012.016",
+                            "pmcid": "PMC3334321",
+                            "pmid": "22383036",
+                            "ref_count": 45,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1992"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2011"
+                                }
+                            ],
+                            "title": "Differential gene and transcript expression analysis of RNA-seq experiments with TopHat and Cufflinks.",
+                            "year": 2012
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 212,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-11-19T03:07:47.205273Z",
+                "last_month_access": {
+                    "average_access_time": 169,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:cummerbund:2.12.1/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T02:52:13.631748Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 6550,
+                            "citations": [
+                                {
+                                    "count": 34,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 204,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 373,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 619,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 836,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1005,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1017,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 905,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 691,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 687,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 179,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1038/nprot.2012.016",
+                            "pmcid": "PMC3334321",
+                            "pmid": "22383036",
+                            "ref_count": 45,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1992"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2011"
+                                }
+                            ],
+                            "title": "Differential gene and transcript expression analysis of RNA-seq experiments with TopHat and Cufflinks.",
+                            "year": 2012
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 52,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-11-19T02:27:35.330871Z",
+                "last_month_access": {
+                    "average_access_time": 149,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:cummerbund:2.18.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T02:53:30.848764Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 138,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-11-19T02:30:34.081126Z",
+                "last_month_access": {
+                    "average_access_time": 139,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:cummerbund:2.8.2/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T02:58:14.666902Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 6550,
+                            "citations": [
+                                {
+                                    "count": 34,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 204,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 373,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 619,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 836,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1005,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1017,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 905,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 691,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 687,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 179,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1038/nprot.2012.016",
+                            "pmcid": "PMC3334321",
+                            "pmid": "22383036",
+                            "ref_count": 45,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1992"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2011"
+                                }
+                            ],
+                            "title": "Differential gene and transcript expression analysis of RNA-seq experiments with TopHat and Cufflinks.",
+                            "year": 2012
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 52,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-11-19T02:27:35.330871Z",
+                "last_month_access": {
+                    "average_access_time": 149,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:cummerbund:2.20.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T02:58:43.374435Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 227,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-11-19T02:30:48.462044Z",
+                "last_month_access": {
+                    "average_access_time": 132,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:cummerbund:2.16.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T03:11:29.988179Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 52,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-11-19T02:27:35.330871Z",
+                "last_month_access": {
+                    "average_access_time": 149,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:cummerbund:2.16.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-11-19T03:05:13.600980Z",
+        "@type": "metrics",
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "manual": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 6550,
+                            "citations": [
+                                {
+                                    "count": 34,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 204,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 373,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 619,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 836,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1005,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1017,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 905,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 691,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 687,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 179,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1038/nprot.2012.016",
+                            "pmcid": "PMC3334321",
+                            "pmid": "22383036",
+                            "ref_count": 45,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1992"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2011"
+                                }
+                            ],
+                            "title": "Differential gene and transcript expression analysis of RNA-seq experiments with TopHat and Cufflinks.",
+                            "year": 2012
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 52,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-11-19T02:27:35.330871Z",
+                "last_month_access": {
+                    "average_access_time": 149,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:cummerbund:2.16.0/lib/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-11-19T03:03:53.449768Z",
+        "@type": "metrics",
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "manual": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 6550,
+                            "citations": [
+                                {
+                                    "count": 34,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 204,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 373,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 619,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 836,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1005,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1017,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 905,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 691,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 687,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 179,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1038/nprot.2012.016",
+                            "pmcid": "PMC3334321",
+                            "pmid": "22383036",
+                            "ref_count": 45,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1992"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2011"
+                                }
+                            ],
+                            "title": "Differential gene and transcript expression analysis of RNA-seq experiments with TopHat and Cufflinks.",
+                            "year": 2012
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 52,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-11-19T02:27:35.330871Z",
+                "last_month_access": {
+                    "average_access_time": 149,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/cummerbund",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-11-19T03:07:43.683419Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 52,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-11-19T02:27:35.330871Z",
+                "last_month_access": {
+                    "average_access_time": 149,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/galaxy:cummerbund:2.16.0/workflow/agentshed.g2.bx.psu.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "galaxy",
+        "@timestamp": "2022-11-19T02:56:51.034484Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T02:56:50.959412Z",
+                "last_month_access": {
+                    "average_access_time": 869,
+                    "downtime_days": 30,
+                    "uptime_days": 0
+                },
+                "license": false,
+                "operational": 408,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:cummerbund:2.24.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T10:12:21.669677Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 6550,
+                            "citations": [
+                                {
+                                    "count": 34,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 204,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 373,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 619,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 836,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1005,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1017,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 905,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 691,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 687,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 179,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1038/nprot.2012.016",
+                            "pmcid": "PMC3334321",
+                            "pmid": "22383036",
+                            "ref_count": 45,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1992"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2011"
+                                }
+                            ],
+                            "title": "Differential gene and transcript expression analysis of RNA-seq experiments with TopHat and Cufflinks.",
+                            "year": 2012
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 124,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T10:12:21.421937Z",
+                "last_month_access": {
+                    "average_access_time": 141,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:cummerbund:2.26.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T10:12:34.319403Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 6550,
+                            "citations": [
+                                {
+                                    "count": 34,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 204,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 373,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 619,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 836,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1005,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1017,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 905,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 691,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 687,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 179,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1038/nprot.2012.016",
+                            "pmcid": "PMC3334321",
+                            "pmid": "22383036",
+                            "ref_count": 45,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1992"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2011"
+                                }
+                            ],
+                            "title": "Differential gene and transcript expression analysis of RNA-seq experiments with TopHat and Cufflinks.",
+                            "year": 2012
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 120,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T10:12:34.272531Z",
+                "last_month_access": {
+                    "average_access_time": 177,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:cummerbund:2.30.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T10:15:28.649311Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 6550,
+                            "citations": [
+                                {
+                                    "count": 34,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 204,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 373,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 619,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 836,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1005,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1017,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 905,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 691,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 687,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 179,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1038/nprot.2012.016",
+                            "pmcid": "PMC3334321",
+                            "pmid": "22383036",
+                            "ref_count": 45,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1992"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2011"
+                                }
+                            ],
+                            "title": "Differential gene and transcript expression analysis of RNA-seq experiments with TopHat and Cufflinks.",
+                            "year": 2012
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 131,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T10:15:28.199292Z",
+                "last_month_access": {
+                    "average_access_time": 148,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:cummerbund:2.32.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T10:15:47.746372Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 6550,
+                            "citations": [
+                                {
+                                    "count": 34,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 204,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 373,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 619,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 836,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1005,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1017,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 905,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 691,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 687,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 179,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1038/nprot.2012.016",
+                            "pmcid": "PMC3334321",
+                            "pmid": "22383036",
+                            "ref_count": 45,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1992"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2011"
+                                }
+                            ],
+                            "title": "Differential gene and transcript expression analysis of RNA-seq experiments with TopHat and Cufflinks.",
+                            "year": 2012
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 125,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T10:15:47.703579Z",
+                "last_month_access": {
+                    "average_access_time": 143,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:cummerbund:2.28.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T10:17:49.291298Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 6550,
+                            "citations": [
+                                {
+                                    "count": 34,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 204,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 373,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 619,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 836,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1005,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1017,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 905,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 691,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 687,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 179,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1038/nprot.2012.016",
+                            "pmcid": "PMC3334321",
+                            "pmid": "22383036",
+                            "ref_count": 45,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1992"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2011"
+                                }
+                            ],
+                            "title": "Differential gene and transcript expression analysis of RNA-seq experiments with TopHat and Cufflinks.",
+                            "year": 2012
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 138,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T10:17:49.245641Z",
+                "last_month_access": {
+                    "average_access_time": 137,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:cummerbund:2.34.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T10:19:54.105465Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 6550,
+                            "citations": [
+                                {
+                                    "count": 34,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 204,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 373,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 619,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 836,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1005,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1017,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 905,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 691,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 687,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 179,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1038/nprot.2012.016",
+                            "pmcid": "PMC3334321",
+                            "pmid": "22383036",
+                            "ref_count": 45,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1992"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2011"
+                                }
+                            ],
+                            "title": "Differential gene and transcript expression analysis of RNA-seq experiments with TopHat and Cufflinks.",
+                            "year": 2012
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 133,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T10:19:53.828478Z",
+                "last_month_access": {
+                    "average_access_time": 139,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:cummerbund:2.36.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T10:32:26.967453Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 6550,
+                            "citations": [
+                                {
+                                    "count": 34,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 204,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 373,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 619,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 836,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1005,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1017,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 905,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 691,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 687,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 179,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1038/nprot.2012.016",
+                            "pmcid": "PMC3334321",
+                            "pmid": "22383036",
+                            "ref_count": 45,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1992"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2011"
+                                }
+                            ],
+                            "title": "Differential gene and transcript expression analysis of RNA-seq experiments with TopHat and Cufflinks.",
+                            "year": 2012
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 143,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T10:32:26.724096Z",
+                "last_month_access": {
+                    "average_access_time": 143,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:cummerbund:2.40.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T11:07:17.553620Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 6550,
+                            "citations": [
+                                {
+                                    "count": 34,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 204,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 373,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 619,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 836,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1005,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1017,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 905,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 691,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 687,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 179,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1038/nprot.2012.016",
+                            "pmcid": "PMC3334321",
+                            "pmid": "22383036",
+                            "ref_count": 45,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1992"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2011"
+                                }
+                            ],
+                            "title": "Differential gene and transcript expression analysis of RNA-seq experiments with TopHat and Cufflinks.",
+                            "year": 2012
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 124,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 10,
+                        "serie": [
+                            10
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T11:07:17.321059Z",
+                "last_month_access": {
+                    "average_access_time": 138,
+                    "downtime_days": 0,
+                    "uptime_days": 10
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

@@ -1,0 +1,158 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1038/nmeth.3252",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/meal",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Carlos Ruiz",
+      "bsc:input": {
+        "@id": "_:N7f901790cc8041bd96df6edc72b515a0"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:N94aa44d71e5a445abde3212e14531235"
+        },
+        {
+          "@id": "_:Nf18aee514eae427485bddeb2bb7ac56f"
+        },
+        {
+          "@id": "_:N7b1b8da47a0b40f5bbc18b46cc2b3b2c"
+        },
+        {
+          "@id": "_:Ndb5ae29cf239446ab283654635b379ec"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Library",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2885"
+        },
+        {
+          "@id": "edam:topic_0092"
+        },
+        {
+          "@id": "edam:topic_3518"
+        },
+        {
+          "@id": "edam:topic_0203"
+        },
+        {
+          "@id": "edam:topic_3295"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1038/nmeth.3252"
+      },
+      "sc:description": "Package to integrate methylation and expression data. It can also perform methylation or expression analysis alone. Several plotting functionalities are included as well as a new region analysis based on redundancy analysis. Effect of SNPs on a region can also be estimated.",
+      "sc:featureList": {
+        "@id": "edam:operation_3204"
+      },
+      "sc:license": "Artistic-2.0",
+      "sc:name": "MEAL",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/MEAL.html"
+      },
+      "sc:softwareVersion": "1.4.2",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/MEAL.html"
+    },
+    {
+      "@id": "_:N94aa44d71e5a445abde3212e14531235",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2082"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3033"
+        },
+        {
+          "@id": "edam:format_3547"
+        }
+      ],
+      "sc:name": "Matrix"
+    },
+    {
+      "@id": "_:Nf18aee514eae427485bddeb2bb7ac56f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_3033"
+        }
+      ],
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:N7b1b8da47a0b40f5bbc18b46cc2b3b2c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1772"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_3033"
+        }
+      ],
+      "sc:name": "Score"
+    },
+    {
+      "@id": "_:Ndb5ae29cf239446ab283654635b379ec",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1669"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_3033"
+        }
+      ],
+      "sc:name": "P-value"
+    },
+    {
+      "@id": "_:N7f901790cc8041bd96df6edc72b515a0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3111"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3033"
+      },
+      "sc:name": "Processed microarray data"
+    }
+  ]
+}

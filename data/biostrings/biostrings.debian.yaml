@@ -1,0 +1,13 @@
+description: Memory efficient string containers, string matching algorithms, and other
+  utilities, for fast manipulation of large biological sequences or set of sequences.
+edam:
+  topics: null
+  version: unknown
+homepage: https://bioconductor.org/packages/Biostrings/
+identifiers:
+  bioconda: bioconductor-biostrings
+  bioagents: biostrings
+  debian: r-bioc-biostrings
+  omicagents: OMICS_29386
+summary: GNU R string objects representing biological sequences
+version: 2.58.0

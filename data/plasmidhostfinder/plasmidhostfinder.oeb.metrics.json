@@ -1,0 +1,113 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:plasmidhostfinder/web/cge.cbs.dtu.dk",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-10-08T09:43:46.538175Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1101/2021.09.27.462084",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "PlasmidHostFinder: Prediction of plasmid hosts using random forest",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 5,
+                        "serie": [
+                            5
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 177,
+                        "serie": [
+                            177
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-10-08T09:43:46.486382Z",
+                "last_month_access": {
+                    "average_access_time": 400,
+                    "downtime_days": 5,
+                    "uptime_days": 24
+                },
+                "license": false,
+                "operational": 408,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/plasmidhostfinder",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-10-08T09:43:46.513336Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 5,
+                        "serie": [
+                            5
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 177,
+                        "serie": [
+                            177
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-10-08T09:43:46.486382Z",
+                "last_month_access": {
+                    "average_access_time": 423,
+                    "downtime_days": 5,
+                    "uptime_days": 24
+                },
+                "license": false,
+                "operational": 408,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

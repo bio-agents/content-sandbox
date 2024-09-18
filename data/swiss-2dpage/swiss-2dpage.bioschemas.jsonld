@@ -1,0 +1,226 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1002/pmic.200300830",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/swiss-2dpage",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:Nfb4b29dd76204a4d9bbf86e40c431a2d"
+        },
+        {
+          "@id": "_:Nf0cd1bc7827f4491975de06dc712f664"
+        },
+        {
+          "@id": "_:N2d2d5e48800244c09c72b1deae6daf8e"
+        },
+        {
+          "@id": "_:Nd639d3cabec6451685da10fbc7fbb251"
+        },
+        {
+          "@id": "_:Na576c62c81af4e4aa495681cfad0a772"
+        },
+        {
+          "@id": "_:N8c122246e0e741bf938bd08125215fa9"
+        },
+        {
+          "@id": "_:N0e19243897854aac80eca6ca0c80ee45"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Nbe1a063ec9614ec0a290c0115fb913d5"
+        },
+        {
+          "@id": "_:N998033448dd4425980cd7b9a8b352815"
+        },
+        {
+          "@id": "_:Naf5a594a01cf49868fb319489a6f69c3"
+        },
+        {
+          "@id": "_:N73c8eccf83424159ade8143c119d5dd6"
+        },
+        {
+          "@id": "_:N87f6acc52e064f9b8993921682d43e21"
+        },
+        {
+          "@id": "_:N1a6c953b0e6b4ac1b7ba1aabc3366310"
+        },
+        {
+          "@id": "_:N23fb23e7f0f4436bb6336db6c4db07fe"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0121"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1002/pmic.200300830"
+      },
+      "sc:contributor": "SIB Swiss Institute of Bioinformatics",
+      "sc:description": "Data on proteins identified on various 2-D PAGE and SDS-PAGE reference maps.",
+      "sc:featureList": {
+        "@id": "edam:operation_0224"
+      },
+      "sc:name": "SWISS-2DPAGE",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://world-2dpage.expasy.org/swiss-2dpage/docs/manch2d.html"
+      },
+      "sc:url": "http://www.expasy.org/ch2d/"
+    },
+    {
+      "@id": "_:Nfb4b29dd76204a4d9bbf86e40c431a2d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2791"
+      },
+      "sc:name": "Reference map name (SWISS-2DPAGE)"
+    },
+    {
+      "@id": "_:Nf0cd1bc7827f4491975de06dc712f664",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2791"
+      },
+      "sc:name": "Reference map name (SWISS-2DPAGE)"
+    },
+    {
+      "@id": "_:N2d2d5e48800244c09c72b1deae6daf8e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2374"
+      },
+      "sc:name": "Spot serial number"
+    },
+    {
+      "@id": "_:Nd639d3cabec6451685da10fbc7fbb251",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3021"
+      },
+      "sc:name": "UniProt accession"
+    },
+    {
+      "@id": "_:Na576c62c81af4e4aa495681cfad0a772",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2374"
+      },
+      "sc:name": "Spot serial number"
+    },
+    {
+      "@id": "_:N8c122246e0e741bf938bd08125215fa9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0989"
+      },
+      "sc:name": "Protein identifier"
+    },
+    {
+      "@id": "_:N0e19243897854aac80eca6ca0c80ee45",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3021"
+      },
+      "sc:name": "UniProt accession"
+    },
+    {
+      "@id": "_:Nbe1a063ec9614ec0a290c0115fb913d5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2531"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Experiment report"
+    },
+    {
+      "@id": "_:N998033448dd4425980cd7b9a8b352815",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2531"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Experiment report"
+    },
+    {
+      "@id": "_:Naf5a594a01cf49868fb319489a6f69c3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2531"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Experiment report"
+    },
+    {
+      "@id": "_:N73c8eccf83424159ade8143c119d5dd6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2531"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Experiment report"
+    },
+    {
+      "@id": "_:N87f6acc52e064f9b8993921682d43e21",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2531"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Experiment report"
+    },
+    {
+      "@id": "_:N1a6c953b0e6b4ac1b7ba1aabc3366310",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2531"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Experiment report"
+    },
+    {
+      "@id": "_:N23fb23e7f0f4436bb6336db6c4db07fe",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2531"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Experiment report"
+    }
+  ]
+}

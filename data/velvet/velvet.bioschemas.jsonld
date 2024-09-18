@@ -1,0 +1,139 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/velvet",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Daniel Zerbino",
+      "bsc:input": [
+        {
+          "@id": "_:N185ed35ebabe4d328d1ec8bc0c0185d9"
+        },
+        {
+          "@id": "_:N4f25c63c083042afae5efba5135687fa"
+        },
+        {
+          "@id": "_:Nbc33cbc04da9432992acd1a66f6d1998"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N50092f80e3ec454b96457e8716009b5e"
+        },
+        {
+          "@id": "_:N7e000c0778d94fdfa50c2a1cc4d6c2f7"
+        },
+        {
+          "@id": "_:N478ac91cb8654f9e87b985610c8eef76"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0196"
+      },
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1101/gr.074492.107"
+        },
+        "pubmed:18349386"
+      ],
+      "sc:description": "A de novo genomic assembler specially designed for short read sequencing technologies, such as Solexa or 454 or SOLiD.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0335"
+        },
+        {
+          "@id": "edam:operation_0524"
+        }
+      ],
+      "sc:license": "GPL-3.0",
+      "sc:name": "Velvet",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://github.com/dzerbino/velvet/blob/master/Manual.pdf"
+      },
+      "sc:url": "https://github.com/dzerbino/velvet"
+    },
+    {
+      "@id": "_:N50092f80e3ec454b96457e8716009b5e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0925"
+      },
+      "sc:name": "Sequence assembly"
+    },
+    {
+      "@id": "_:N7e000c0778d94fdfa50c2a1cc4d6c2f7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:name": "Sequence"
+    },
+    {
+      "@id": "_:N478ac91cb8654f9e87b985610c8eef76",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2337"
+      },
+      "sc:name": "Resource metadata"
+    },
+    {
+      "@id": "_:N185ed35ebabe4d328d1ec8bc0c0185d9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2337"
+      },
+      "sc:name": "Resource metadata"
+    },
+    {
+      "@id": "_:N4f25c63c083042afae5efba5135687fa",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1929"
+        },
+        {
+          "@id": "edam:format_1930"
+        },
+        {
+          "@id": "edam:format_2573"
+        },
+        {
+          "@id": "edam:format_2572"
+        }
+      ],
+      "sc:name": "Sequence"
+    },
+    {
+      "@id": "_:Nbc33cbc04da9432992acd1a66f6d1998",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:name": "Sequence"
+    },
+    {
+      "@id": "https://doi.org/10.1101/gr.074492.107",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

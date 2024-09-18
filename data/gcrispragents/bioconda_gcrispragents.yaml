@@ -1,0 +1,14 @@
+bioagents_id: gcrispragents
+description: Set of agents for evaluating pooled high-throughput screening experiments,
+  typically employing CRISPR/Cas9 or shRNA expression cassettes. Contains methods
+  for interrogating library and cassette behavior within an experiment, identifying
+  differentially abundant cassettes, aggregating signals to identify candidate targets
+  for empirical validation, hypothesis testing, and comprehensive reporting.
+home: https://bioconductor.org/packages/3.12/bioc/html/gCrisprAgents.html
+identifiers:
+- bioagents:gcrispragents
+- doi:10.1038/nmeth.3252
+license: Artistic-2.0
+name: bioconductor-gcrispragents
+summary: Suite of Functions for Pooled Crispr Screen QC and Analysis
+version: 1.18.0

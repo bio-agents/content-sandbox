@@ -1,0 +1,101 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/multimed",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Simina M. Boca",
+      "bsc:input": {
+        "@id": "_:N987efcbd024346b3a515e717e8f8748b"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:Nbd97f58feabc42799bf50e9cf840cffc"
+        },
+        {
+          "@id": "_:N00e5c56f63094049873163191ef9bf51"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Library",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2640"
+        },
+        {
+          "@id": "edam:topic_2269"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btt633"
+      },
+      "sc:description": "Implements permutation method with joint correction for testing multiple mediators.",
+      "sc:featureList": {
+        "@id": "edam:operation_3658"
+      },
+      "sc:license": "GPL-2.0",
+      "sc:name": "MultiMed",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/MultiMed.html"
+      },
+      "sc:softwareVersion": "1.8.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/MultiMed.html"
+    },
+    {
+      "@id": "_:N987efcbd024346b3a515e717e8f8748b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2082"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3033"
+      },
+      "sc:name": "Matrix"
+    },
+    {
+      "@id": "_:Nbd97f58feabc42799bf50e9cf840cffc",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1669"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3033"
+      },
+      "sc:name": "P-value"
+    },
+    {
+      "@id": "_:N00e5c56f63094049873163191ef9bf51",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0951"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3033"
+      },
+      "sc:name": "Statistical estimate score"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btt633",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

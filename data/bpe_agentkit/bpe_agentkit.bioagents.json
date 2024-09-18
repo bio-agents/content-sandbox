@@ -1,0 +1,72 @@
+{
+    "additionDate": "2017-08-03T19:05:03Z",
+    "bioagentsCURIE": "bioagents:bpe_agentkit",
+    "bioagentsID": "bpe_agentkit",
+    "credit": [
+        {
+            "email": "vibin@iitg.ernet.in",
+            "name": "Dr. Vibin Ramakrishnan",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://www.iitg.ac.in/bpeagentkit/Contact.html"
+        }
+    ],
+    "description": "This agentkit consists of 5 independent programs, that can be incorporated in a pipeline of various protein structure files. The programs include agents for chirality check for amino acids (ProChiral), contact map generation (CoMa), data redundancy (DaRe), hydrogen bond potential energy (HyPE) and electrostatic interaction energy (EsInE).",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://www.iitg.ac.in/bpeagentkit/"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Protein sequence analysis",
+                    "uri": "http://edamontology.org/operation_2479"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.iitg.ac.in/bpeagentkit/",
+    "lastUpdate": "2019-02-28T10:54:34Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/bpe-agentkit-basic-protein-engineering-agentkit.html"
+        }
+    ],
+    "name": "bPE agentkit",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "pmid": "26396658"
+        }
+    ],
+    "agentType": [
+        "Command-line agent"
+    ],
+    "topic": [
+        {
+            "term": "Protein structure analysis",
+            "uri": "http://edamontology.org/topic_2814"
+        },
+        {
+            "term": "Small molecules",
+            "uri": "http://edamontology.org/topic_0154"
+        }
+    ],
+    "validated": 1
+}

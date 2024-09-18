@@ -1,0 +1,40 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.agents/solexaagents",
+  "@type": "sc:SoftwareApplication",
+  "bioagents:primaryContact": "SeqWare Support",
+  "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+  "sc:additionalType": "Suite",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0077"
+    },
+    {
+      "@id": "edam:topic_3168"
+    },
+    {
+      "@id": "edam:topic_0080"
+    }
+  ],
+  "sc:description": "Project to create a agent set to work with a Solexa genome sequencer. It includes multiple components including a LIMS system, pipeline and other agents to support end-users and researchers setting up a Solexa environment.",
+  "sc:featureList": {
+    "@id": "edam:operation_2403"
+  },
+  "sc:name": "SolexaAgents",
+  "sc:operatingSystem": "Linux",
+  "sc:softwareHelp": {
+    "@id": "https://github.com/SeqWare/seqware/blob/develop/README.md"
+  },
+  "sc:url": "https://github.com/SeqWare"
+}

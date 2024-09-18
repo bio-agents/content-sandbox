@@ -1,0 +1,159 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "http://orcid.org/0000-0002-3170-4890",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkx120",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/rcas",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": {
+        "@id": "http://orcid.org/0000-0002-3170-4890"
+      },
+      "bsc:input": [
+        {
+          "@id": "_:N89ff94ce51db4f35887d2a4977c8f0e4"
+        },
+        {
+          "@id": "_:N7c7a34132e584262893baf20164874b7"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Ndf66e441cabb4e4682051d05358d66da"
+        },
+        {
+          "@id": "_:N8355f341826d40afa73655932fd3530f"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Library",
+        "Workflow"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0203"
+        },
+        {
+          "@id": "edam:topic_3308"
+        },
+        {
+          "@id": "edam:topic_0092"
+        },
+        {
+          "@id": "edam:topic_3518"
+        },
+        {
+          "@id": "edam:topic_0659"
+        },
+        {
+          "@id": "edam:topic_3053"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:28334930",
+        {
+          "@id": "https://doi.org/10.1093/nar/gkx120"
+        },
+        "pmcid:PMC5449606"
+      ],
+      "sc:description": "Automated system that provides dynamic genome annotations for custom input files that contain transcriptomic regions, which can be peak regions detected by CLIP-Seq analysis (that detect protein-RNA interactions), RNA modifications (alias the epitranscriptome), CAGE-tag locations, or any other collection of target regions at the level of the transcriptome. It is designed as a reporting agent for the functional analysis of RNA-binding sites detected by high-throughput experiments.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3501"
+        },
+        {
+          "@id": "edam:operation_0337"
+        },
+        {
+          "@id": "edam:operation_0531"
+        },
+        {
+          "@id": "edam:operation_0362"
+        },
+        {
+          "@id": "edam:operation_3194"
+        }
+      ],
+      "sc:license": "Artistic-2.0",
+      "sc:name": "RCAS",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:softwareHelp": [
+        {
+          "@id": "https://github.com/BIMSBbioinfo/RCAS"
+        },
+        {
+          "@id": "http://bioconductor.org/packages/release/bioc/html/RCAS.html"
+        }
+      ],
+      "sc:softwareVersion": "1.4.2",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/RCAS.html"
+    },
+    {
+      "@id": "_:N89ff94ce51db4f35887d2a4977c8f0e4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3002"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2306"
+      },
+      "sc:name": "Annotation track"
+    },
+    {
+      "@id": "_:N7c7a34132e584262893baf20164874b7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2012"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3585"
+      },
+      "sc:name": "Sequence coordinates"
+    },
+    {
+      "@id": "_:Ndf66e441cabb4e4682051d05358d66da",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3754"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "GO-term enrichment data"
+    },
+    {
+      "@id": "_:N8355f341826d40afa73655932fd3530f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Report"
+    }
+  ]
+}

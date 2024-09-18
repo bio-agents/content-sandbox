@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/dgva",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "DGVa Helpdesk",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Database portal",
+        "Web application"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3366"
+        },
+        {
+          "@id": "edam:topic_3325"
+        },
+        {
+          "@id": "edam:topic_0622"
+        },
+        {
+          "@id": "edam:topic_3175"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:23193291",
+        {
+          "@id": "https://doi.org/10.1093/nar/gks1213"
+        },
+        "pmcid:PMC3531204"
+      ],
+      "sc:description": "The Database of Genomic Variants archive ((DGVa) is a repository that provides archiving, accessioning and distribution of publicly available genomic structural variants, in all species.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2422"
+        },
+        {
+          "@id": "edam:operation_3228"
+        },
+        {
+          "@id": "edam:operation_3431"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:name": "DGVa",
+      "sc:operatingSystem": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://www.ebi.ac.uk/training/online/course/dgva-quick-tour"
+      },
+      "sc:url": "http://www.ebi.ac.uk/dgva"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gks1213",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

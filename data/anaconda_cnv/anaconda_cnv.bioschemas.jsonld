@@ -1,0 +1,54 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1186/s12859-017-1833-3",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/anaconda_cnv",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": [
+        "Xiaohua Jiang",
+        "Yuanwei Zhang"
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3676"
+        },
+        {
+          "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_3175"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/s12859-017-1833-3"
+      },
+      "sc:description": "An automated pipeline for somatic copy number variation detection and annotation from tumor exome sequencing data.",
+      "sc:featureList": {
+        "@id": "edam:operation_3233"
+      },
+      "sc:name": "Anaconda",
+      "sc:operatingSystem": "Linux",
+      "sc:softwareHelp": {
+        "@id": "https://mcg.ustc.edu.cn/bsc/ANACONDA/index.html"
+      },
+      "sc:url": "https://mcg.ustc.edu.cn/bsc/ANACONDA/"
+    }
+  ]
+}

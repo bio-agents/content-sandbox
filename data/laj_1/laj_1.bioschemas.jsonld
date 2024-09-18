@@ -1,0 +1,204 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/laj_1",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Galaxy Support Team",
+      "bsc:input": [
+        {
+          "@id": "_:N3fee71fc93164b73be8df0bf93d234ec"
+        },
+        {
+          "@id": "_:Nb1ab7a139392459495b9c4f6989feb78"
+        },
+        {
+          "@id": "_:Ne646ad5be3524366885b796cef55c6bf"
+        },
+        {
+          "@id": "_:Nd32dcddd4cfe4ff7bdb2b11c2f9edd97"
+        },
+        {
+          "@id": "_:Nc4b8c5e2ee874de09ed8cb3a1ed519e5"
+        },
+        {
+          "@id": "_:N6425fa19930d45e68ad6db4a1c07ce5a"
+        },
+        {
+          "@id": "_:Nb2962df6f64c44ca85bd4029d24b8fcb"
+        },
+        {
+          "@id": "_:N84cce02eb9534067866534cab7d009a3"
+        }
+      ],
+      "bsc:output": {
+        "@id": "_:N3a5f0c3ba5e748af881be8f1897793fc"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3473"
+        },
+        {
+          "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_0092"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/nar/gkw343"
+        },
+        {
+          "@id": "https://doi.org/10.7490/f1000research.1114334.1"
+        }
+      ],
+      "sc:description": "Pairwise Alignment Viewer.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2421"
+        },
+        {
+          "@id": "edam:operation_3763"
+        },
+        {
+          "@id": "edam:operation_0564"
+        },
+        {
+          "@id": "edam:operation_2403"
+        }
+      ],
+      "sc:name": "laj_1",
+      "sc:operatingSystem": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://galaxy.pasteur.fr/root?agent_id=laj_1"
+      },
+      "sc:softwareVersion": "1.3.1",
+      "sc:url": "https://github.com/galaxyproject/galaxy/tree/dev/agents"
+    },
+    {
+      "@id": "_:N3fee71fc93164b73be8df0bf93d234ec",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:Nb1ab7a139392459495b9c4f6989feb78",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:Ne646ad5be3524366885b796cef55c6bf",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:Nd32dcddd4cfe4ff7bdb2b11c2f9edd97",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:Nc4b8c5e2ee874de09ed8cb3a1ed519e5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N6425fa19930d45e68ad6db4a1c07ce5a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1381"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3014"
+      },
+      "sc:name": "Sequence alignment (pair)"
+    },
+    {
+      "@id": "_:Nb2962df6f64c44ca85bd4029d24b8fcb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N84cce02eb9534067866534cab7d009a3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N3a5f0c3ba5e748af881be8f1897793fc",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    }
+  ]
+}

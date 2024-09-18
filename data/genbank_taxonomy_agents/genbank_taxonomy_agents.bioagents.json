@@ -1,0 +1,64 @@
+{
+    "accessibility": "Open access",
+    "additionDate": "2019-02-15T14:08:00Z",
+    "bioagentsCURIE": "bioagents:GenBank_taxonomy_agents",
+    "bioagentsID": "GenBank_taxonomy_agents",
+    "collectionID": [
+        "GenBank taxonomy agents"
+    ],
+    "cost": "Free of charge",
+    "description": "Utilities for manipulations and visualization tasks on GenBank taxonomic information.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "https://github.com/spond/gb_taxonomy_agents/blob/master/README.md"
+        }
+    ],
+    "download": [
+        {
+            "type": "Source code",
+            "url": "https://github.com/spond/gb_taxonomy_agents/releases"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "homepage": "https://github.com/spond/gb_taxonomy_agents",
+    "language": [
+        "C"
+    ],
+    "lastUpdate": "2020-06-16T10:55:24Z",
+    "license": "MIT",
+    "link": [
+        {
+            "type": [
+                "Issue tracker"
+            ],
+            "url": "https://github.com/spond/gb_taxonomy_agents/issues"
+        },
+        {
+            "type": [
+                "Repository"
+            ],
+            "url": "https://github.com/spond/gb_taxonomy_agents"
+        }
+    ],
+    "maturity": "Mature",
+    "name": "GenBank taxonomy agents",
+    "operatingSystem": [
+        "Linux",
+        "Mac"
+    ],
+    "owner": "jison",
+    "agentType": [
+        "Suite"
+    ],
+    "topic": [
+        {
+            "term": "Taxonomy",
+            "uri": "http://edamontology.org/topic_0637"
+        }
+    ]
+}

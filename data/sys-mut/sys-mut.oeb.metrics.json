@@ -1,0 +1,312 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:sys-mut/script/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-11-19T10:33:27.641430Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": true,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1101/2021.09.03.458896",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "SYS-Mut: Decoding the Functional Significance of Rare Somatic Mutations in Cancer",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 464,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 56,
+                        "serie": [
+                            1,
+                            1,
+                            5,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            3,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            2,
+                            1,
+                            3,
+                            2,
+                            1,
+                            2,
+                            1,
+                            1,
+                            2,
+                            1,
+                            3,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            3,
+                            1,
+                            1
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 127,
+                        "serie": [
+                            1,
+                            2,
+                            2,
+                            4,
+                            5,
+                            6,
+                            3,
+                            1,
+                            1,
+                            1,
+                            5,
+                            1,
+                            2,
+                            3,
+                            1,
+                            8,
+                            1,
+                            5,
+                            1,
+                            3,
+                            6,
+                            2,
+                            2,
+                            3,
+                            3,
+                            3,
+                            6,
+                            3,
+                            8,
+                            1,
+                            6,
+                            1,
+                            1,
+                            2,
+                            3,
+                            12,
+                            2,
+                            7
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T10:33:27.58359Z",
+                "last_month_access": {
+                    "average_access_time": 542,
+                    "downtime_days": 24,
+                    "uptime_days": 6
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/sys-mut",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-11-19T10:33:27.668124Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 521,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 56,
+                        "serie": [
+                            1,
+                            1,
+                            5,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            3,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            2,
+                            1,
+                            3,
+                            2,
+                            1,
+                            2,
+                            1,
+                            1,
+                            2,
+                            1,
+                            3,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            3,
+                            1,
+                            1
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 127,
+                        "serie": [
+                            1,
+                            2,
+                            2,
+                            4,
+                            5,
+                            6,
+                            3,
+                            1,
+                            1,
+                            1,
+                            5,
+                            1,
+                            2,
+                            3,
+                            1,
+                            8,
+                            1,
+                            5,
+                            1,
+                            3,
+                            6,
+                            2,
+                            2,
+                            3,
+                            3,
+                            3,
+                            6,
+                            3,
+                            8,
+                            1,
+                            6,
+                            1,
+                            1,
+                            2,
+                            3,
+                            12,
+                            2,
+                            7
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T10:33:27.611725Z",
+                "last_month_access": {
+                    "average_access_time": 570,
+                    "downtime_days": 24,
+                    "uptime_days": 6
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    }
+]

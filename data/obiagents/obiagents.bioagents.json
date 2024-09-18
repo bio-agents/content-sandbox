@@ -1,0 +1,116 @@
+{
+    "additionDate": "2017-08-03T18:52:54Z",
+    "bioagentsCURIE": "bioagents:obiagents",
+    "bioagentsID": "obiagents",
+    "credit": [
+        {
+            "email": "eric.coissac@inria.fr",
+            "name": "Eric Coissac",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://metabarcoding.org/obiagents"
+        }
+    ],
+    "description": "Set of python programs developed to simplify the manipulation of sequence files. They were mainly designed to help us for analyzing Next Generation Sequencer outputs (454 or Illumina) in the context of DNA Metabarcoding.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://metabarcoding.org//obiagents/doc/welcome.html#installing-the-obiagents"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Sequence analysis",
+                    "uri": "http://edamontology.org/operation_2403"
+                }
+            ]
+        },
+        {
+            "operation": [
+                {
+                    "term": "Sequence analysis",
+                    "uri": "http://edamontology.org/operation_2403"
+                }
+            ]
+        }
+    ],
+    "homepage": "https://git.metabarcoding.org/obiagents/obiagents/wikis/home",
+    "language": [
+        "Python"
+    ],
+    "lastUpdate": "2018-12-10T12:58:51Z",
+    "link": [
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/obiagents-scripts-and-library-for-sequence-analysis.html"
+        }
+    ],
+    "name": "OBIAgents",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "metadata": {
+                "abstract": "© 2016 John Wiley & Sons Ltd.DNA metabarcoding offers new perspectives in biodiversity research. This recently developed approach to ecosystem study relies heavily on the use of next-generation sequencing (NGS) and thus calls upon the ability to deal with huge sequence data sets. The obiagents package satisfies this requirement thanks to a set of programs specifically designed for analysing NGS data in a DNA metabarcoding context. Their capacity to filter and edit sequences while taking into account taxonomic annotation helps to set up tailor-made analysis pipelines for a broad range of DNA metabarcoding applications, including biodiversity surveys or diet analyses. The obiagents package is distributed as an open source software available on the following website: http://metabarcoding.org/obiagents. A Galaxy wrapper is available on the GenOuest core facility agentshed: http://agentshed.genouest.org.",
+                "authors": [
+                    {
+                        "name": "Bonin A."
+                    },
+                    {
+                        "name": "Boyer F."
+                    },
+                    {
+                        "name": "Coissac E."
+                    },
+                    {
+                        "name": "Le Bras Y."
+                    },
+                    {
+                        "name": "Mercier C."
+                    },
+                    {
+                        "name": "Taberlet P."
+                    }
+                ],
+                "citationCount": 366,
+                "date": "2016-01-01T00:00:00Z",
+                "journal": "Molecular Ecology Resources",
+                "title": "obiagents: A unix-inspired software package for DNA metabarcoding"
+            },
+            "pmid": "25959493"
+        }
+    ],
+    "agentType": [
+        "Command-line agent"
+    ],
+    "topic": [
+        {
+            "term": "DNA",
+            "uri": "http://edamontology.org/topic_0654"
+        },
+        {
+            "term": "Sequence analysis",
+            "uri": "http://edamontology.org/topic_0080"
+        },
+        {
+            "term": "Sequencing",
+            "uri": "http://edamontology.org/topic_3168"
+        }
+    ],
+    "validated": 1
+}

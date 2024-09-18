@@ -1,0 +1,14 @@
+bioagents_id: yarn
+description: Expedite large RNA-Seq analyses using a combination of previously developed
+  agents. YARN is meant to make it easier for the user in performing basic mis-annotation
+  quality control, filtering, and condition-aware normalization. YARN leverages many
+  Bioconductor agents and statistical techniques to account for the large heterogeneity
+  and sparsity found in very large RNA-seq experiments.
+home: https://bioconductor.org/packages/3.12/bioc/html/yarn.html
+identifiers:
+- bioagents:yarn
+- doi:10.1101/086587
+license: Artistic-2.0
+name: bioconductor-yarn
+summary: 'YARN: Robust Multi-Condition RNA-Seq Preprocessing and Normalization'
+version: 1.16.0

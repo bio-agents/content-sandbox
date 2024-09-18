@@ -1,0 +1,458 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/mugvre",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": {
+        "@id": "https://orcid.org/0000-0002-6797-8746"
+      },
+      "bsc:input": [
+        {
+          "@id": "_:N128ab593765a46339864f93b1bb77a20"
+        },
+        {
+          "@id": "_:Nc4ee3350c27a45628de7e4859c4fb3ec"
+        },
+        {
+          "@id": "_:N35b2a19ea6e942afb378bbe315dc9c7b"
+        },
+        {
+          "@id": "_:N2fca3c1d91ea4eafaf0f072028c1f673"
+        },
+        {
+          "@id": "_:N66caed7493164dbaa8dea80559f8f417"
+        },
+        {
+          "@id": "_:N911a6e266d4c465899d62bac11edc9b0"
+        },
+        {
+          "@id": "_:N79d459ad221448828bede48076f59584"
+        },
+        {
+          "@id": "_:Nab39c5df78714cd09e2f6b58cd0ce552"
+        },
+        {
+          "@id": "_:N27a264ae604c485fb58056a8a527676c"
+        },
+        {
+          "@id": "_:N41c2e21c2c84492499ca645f59a69c1a"
+        },
+        {
+          "@id": "_:N56964e7a2dfc4b7ab603f57b19b4e788"
+        },
+        {
+          "@id": "_:N4808c1a8b368488bb6bdf6b637e8f080"
+        },
+        {
+          "@id": "_:Nfad4c29052624b81b0f5b7b6411fe6db"
+        },
+        {
+          "@id": "_:Nf7583b0e4ee64fcdacabd9e5d1fcd75f"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N11b67eea8da14de68430b70464730d60"
+        },
+        {
+          "@id": "_:Na868ffad514a48b388cfae511cb1a198"
+        },
+        {
+          "@id": "_:N9464301bb91b43afbf4372b2b254055f"
+        },
+        {
+          "@id": "_:N8facdbcddded4f86be5c1f1a16956445"
+        },
+        {
+          "@id": "_:N236beffe12754fda86f176ed8de004e8"
+        },
+        {
+          "@id": "_:Nf948f6fca14c4b2491c14a6a3f5e74b3"
+        },
+        {
+          "@id": "_:N36b38ff3a84241269c2ae055a37c76eb"
+        },
+        {
+          "@id": "_:N3aee7ec13bf14957a6a187055e6fdc30"
+        },
+        {
+          "@id": "_:N82fb9e9778ef4b10aadd697e3ed23c58"
+        },
+        {
+          "@id": "_:Nc472d6b9bd9c41e2b066176d693fc5e5"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Web application",
+        "Workbench"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0097"
+        },
+        {
+          "@id": "edam:topic_2275"
+        },
+        {
+          "@id": "edam:topic_3169"
+        },
+        {
+          "@id": "edam:topic_3176"
+        }
+      ],
+      "sc:author": "Multiscale Complex Genomics Community",
+      "sc:citation": {
+        "@id": "https://doi.org/10.1101/602474"
+      },
+      "sc:contributor": {
+        "@id": "http://orcid.org/0000-0002-0566-7723"
+      },
+      "sc:description": "The MuG Virtual Research Environment is an analysis platform for 3D/4D genomics analyses. It integrates genomics agents for chromatin dynamics data.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0478"
+        },
+        {
+          "@id": "edam:operation_0570"
+        },
+        {
+          "@id": "edam:operation_3900"
+        },
+        {
+          "@id": "edam:operation_3925"
+        },
+        {
+          "@id": "edam:operation_2481"
+        },
+        {
+          "@id": "edam:operation_2426"
+        },
+        {
+          "@id": "edam:operation_0337"
+        },
+        {
+          "@id": "edam:operation_0292"
+        },
+        {
+          "@id": "edam:operation_1781"
+        },
+        {
+          "@id": "edam:operation_0432"
+        },
+        {
+          "@id": "edam:operation_2478"
+        },
+        {
+          "@id": "edam:operation_3927"
+        },
+        {
+          "@id": "edam:operation_3454"
+        },
+        {
+          "@id": "edam:operation_2476"
+        },
+        {
+          "@id": "edam:operation_3198"
+        },
+        {
+          "@id": "edam:operation_0475"
+        },
+        {
+          "@id": "edam:operation_3222"
+        },
+        {
+          "@id": "edam:operation_0279"
+        },
+        {
+          "@id": "edam:operation_0564"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Apache-2.0",
+      "sc:name": "MuGVRE",
+      "sc:softwareHelp": [
+        {
+          "@id": "https://www.multiscalegenomics.eu/MuGVRE/training/"
+        },
+        {
+          "@id": "http://vre.multiscalegenomics.eu/help/starting.php"
+        },
+        {
+          "@id": "https://www.multiscalegenomics.eu/MuGVRE/terms-of-use/"
+        }
+      ],
+      "sc:softwareVersion": "1.0",
+      "sc:url": "https://www.multiscalegenomics.eu/"
+    },
+    {
+      "@id": "_:N128ab593765a46339864f93b1bb77a20",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0883"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1476"
+      },
+      "sc:name": "Structure"
+    },
+    {
+      "@id": "_:Nc4ee3350c27a45628de7e4859c4fb3ec",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0905"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1930"
+      },
+      "sc:name": "Protein interaction raw data"
+    },
+    {
+      "@id": "_:N35b2a19ea6e942afb378bbe315dc9c7b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2012"
+      },
+      "sc:name": "Sequence coordinates"
+    },
+    {
+      "@id": "_:N2fca3c1d91ea4eafaf0f072028c1f673",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2977"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2200"
+      },
+      "sc:name": "Nucleic acid sequence"
+    },
+    {
+      "@id": "_:N66caed7493164dbaa8dea80559f8f417",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3002"
+      },
+      "sc:name": "Annotation track"
+    },
+    {
+      "@id": "_:N911a6e266d4c465899d62bac11edc9b0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0883"
+      },
+      "sc:name": "Structure"
+    },
+    {
+      "@id": "_:N79d459ad221448828bede48076f59584",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0905"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2572"
+      },
+      "sc:name": "Protein interaction raw data"
+    },
+    {
+      "@id": "_:Nab39c5df78714cd09e2f6b58cd0ce552",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1929"
+        },
+        {
+          "@id": "edam:format_1930"
+        }
+      ],
+      "sc:name": "Sequence"
+    },
+    {
+      "@id": "_:N27a264ae604c485fb58056a8a527676c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1461"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1476"
+      },
+      "sc:name": "Protein-ligand complex"
+    },
+    {
+      "@id": "_:N41c2e21c2c84492499ca645f59a69c1a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1460"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1476"
+      },
+      "sc:name": "Protein structure"
+    },
+    {
+      "@id": "_:N56964e7a2dfc4b7ab603f57b19b4e788",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3210"
+      },
+      "sc:name": "Genome index"
+    },
+    {
+      "@id": "_:N4808c1a8b368488bb6bdf6b637e8f080",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1255"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2305"
+      },
+      "sc:name": "Sequence features"
+    },
+    {
+      "@id": "_:Nfad4c29052624b81b0f5b7b6411fe6db",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3869"
+      },
+      "sc:name": "Simulation"
+    },
+    {
+      "@id": "_:Nf7583b0e4ee64fcdacabd9e5d1fcd75f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0905"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2572"
+      },
+      "sc:name": "Protein interaction raw data"
+    },
+    {
+      "@id": "_:N11b67eea8da14de68430b70464730d60",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3870"
+      },
+      "sc:name": "Trajectory data"
+    },
+    {
+      "@id": "_:Na868ffad514a48b388cfae511cb1a198",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2572"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:N9464301bb91b43afbf4372b2b254055f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1460"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1476"
+      },
+      "sc:name": "Protein structure"
+    },
+    {
+      "@id": "_:N8facdbcddded4f86be5c1f1a16956445",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2877"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1476"
+      },
+      "sc:name": "Protein complex"
+    },
+    {
+      "@id": "_:N236beffe12754fda86f176ed8de004e8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3002"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2305"
+      },
+      "sc:name": "Annotation track"
+    },
+    {
+      "@id": "_:Nf948f6fca14c4b2491c14a6a3f5e74b3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3872"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_4002"
+      },
+      "sc:name": "Topology data"
+    },
+    {
+      "@id": "_:N36b38ff3a84241269c2ae055a37c76eb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2084"
+      },
+      "sc:name": "Nucleic acid report"
+    },
+    {
+      "@id": "_:N3aee7ec13bf14957a6a187055e6fdc30",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3870"
+      },
+      "sc:name": "Trajectory data"
+    },
+    {
+      "@id": "_:N82fb9e9778ef4b10aadd697e3ed23c58",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0906"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_4002"
+      },
+      "sc:name": "Protein interaction data"
+    },
+    {
+      "@id": "_:Nc472d6b9bd9c41e2b066176d693fc5e5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1276"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3003"
+      },
+      "sc:name": "Nucleic acid features"
+    },
+    {
+      "@id": "http://orcid.org/0000-0002-0566-7723",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-6797-8746",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1101/602474",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/ws_snps_and_go",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": [
+        "Rita Casadio",
+        {
+          "@id": "http://orcid.org/0000-0002-2323-0963"
+        }
+      ],
+      "bsc:input": [
+        {
+          "@id": "_:N73a86183495d4f3389cb14c59405b530"
+        },
+        {
+          "@id": "_:Nfe62a1e0cc214e0fa78452e6808dfe32"
+        },
+        {
+          "@id": "_:N35c0af90a70a4088b0761dcac7f66a47"
+        },
+        {
+          "@id": "_:N50fa159ba3a44ee7b587295fb0cc8f40"
+        }
+      ],
+      "bsc:output": {
+        "@id": "_:Nbc64d350ea63448eaf8eff00a13420a3"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Web service",
+        "Web application"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0123"
+        },
+        {
+          "@id": "edam:topic_3325"
+        },
+        {
+          "@id": "edam:topic_0634"
+        }
+      ],
+      "sc:author": [
+        {
+          "@id": "http://orcid.org/0000-0002-2323-0963"
+        },
+        "IECHOR-ITA-BOLOGNA"
+      ],
+      "sc:citation": [
+        "pubmed:19514061",
+        "pubmed:23819482",
+        {
+          "@id": "https://doi.org/10.1186/1471-2105-12-S4-S3"
+        },
+        "pubmed:21992054",
+        {
+          "@id": "https://doi.org/10.1002/humu.21047"
+        },
+        "pmcid:PMC3194195"
+      ],
+      "sc:description": "A web server for predicting disease associated variations from protein sequence and structure.",
+      "sc:featureList": {
+        "@id": "edam:operation_3225"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:name": "WS-SNPs and GO",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://snps.biofold.org/snps-and-go/"
+      },
+      "sc:url": "http://snps.biofold.org/snps-and-go"
+    },
+    {
+      "@id": "_:N73a86183495d4f3389cb14c59405b530",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2209"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Mutation ID"
+    },
+    {
+      "@id": "_:Nfe62a1e0cc214e0fa78452e6808dfe32",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1467"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Protein chain"
+    },
+    {
+      "@id": "_:N35c0af90a70a4088b0761dcac7f66a47",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1176"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "GO concept ID"
+    },
+    {
+      "@id": "_:N50fa159ba3a44ee7b587295fb0cc8f40",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1127"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "PDB ID"
+    },
+    {
+      "@id": "_:Nbc64d350ea63448eaf8eff00a13420a3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1622"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Disease report"
+    },
+    {
+      "@id": "https://doi.org/10.1002/humu.21047",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1186/1471-2105-12-S4-S3",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "http://orcid.org/0000-0002-2323-0963",
+      "@type": "schema:Person"
+    }
+  ]
+}

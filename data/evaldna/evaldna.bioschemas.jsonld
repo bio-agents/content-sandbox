@@ -1,0 +1,91 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1186/S12859-021-04480-2",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/evaldna",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:Na09e9094289247488044b79dd84d15d9"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3175"
+        },
+        {
+          "@id": "edam:topic_0621"
+        },
+        {
+          "@id": "edam:topic_3500"
+        },
+        {
+          "@id": "edam:topic_3474"
+        },
+        {
+          "@id": "edam:topic_0196"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1186/S12859-021-04480-2"
+        },
+        "pmcid:PMC8627028",
+        "pubmed:34837948"
+      ],
+      "sc:description": "A machine learning-based agent for the comprehensive evaluation of mammalian genome assembly quality.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0525"
+        },
+        {
+          "@id": "edam:operation_0524"
+        },
+        {
+          "@id": "edam:operation_0523"
+        },
+        {
+          "@id": "edam:operation_3216"
+        },
+        {
+          "@id": "edam:operation_3180"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "GPL-3.0",
+      "sc:name": "EvalDNA",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:url": "https://github.com/bioinfoMMS/EvalDNA"
+    },
+    {
+      "@id": "_:Na09e9094289247488044b79dd84d15d9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2977"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Nucleic acid sequence"
+    }
+  ]
+}

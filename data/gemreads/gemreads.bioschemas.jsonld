@@ -1,0 +1,187 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/gemreads",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Galaxy Support Team",
+      "bsc:input": [
+        {
+          "@id": "_:N98b834be75c04757b8a3890daafbb4fc"
+        },
+        {
+          "@id": "_:N368c65876d9a4df08fd3941dd8b8e393"
+        },
+        {
+          "@id": "_:N188cbf44c9834e3d8e861a9e5a0afe8f"
+        },
+        {
+          "@id": "_:Na23aecdad83d46c0b604317035e616ef"
+        },
+        {
+          "@id": "_:N12ae34ec6e1b46908f5a982d58432fd2"
+        },
+        {
+          "@id": "_:N37308bd405d6460fadcb789404e189ab"
+        },
+        {
+          "@id": "_:N5734b9ab06ca43c5bd3f6af1b0a7e284"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Nf5734274c304435fa9d561698b988cc6"
+        },
+        {
+          "@id": "_:Nb0c6d9a99af541e980520eb3ce18434c"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3168"
+      },
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.7490/f1000research.1114334.1"
+        },
+        {
+          "@id": "https://doi.org/10.1093/nar/gkw343"
+        }
+      ],
+      "sc:description": "Simulate Illumina and 454 reads.",
+      "sc:featureList": {
+        "@id": "edam:operation_2426"
+      },
+      "sc:name": "gemreads",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://sourceforge.net/projects/gemsim/files/?source=navbar"
+      },
+      "sc:softwareVersion": "1.6",
+      "sc:url": "https://sourceforge.net/projects/gemsim/"
+    },
+    {
+      "@id": "_:Nf5734274c304435fa9d561698b988cc6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1930"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:Nb0c6d9a99af541e980520eb3ce18434c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1930"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N98b834be75c04757b8a3890daafbb4fc",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N368c65876d9a4df08fd3941dd8b8e393",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:N188cbf44c9834e3d8e861a9e5a0afe8f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:Na23aecdad83d46c0b604317035e616ef",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N12ae34ec6e1b46908f5a982d58432fd2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N37308bd405d6460fadcb789404e189ab",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N5734b9ab06ca43c5bd3f6af1b0a7e284",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

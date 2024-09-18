@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.agents/iedb-ar",
+  "@type": "sc:SoftwareApplication",
+  "bioagents:primaryContact": "IEDB Support",
+  "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0102"
+    },
+    {
+      "@id": "edam:topic_0081"
+    },
+    {
+      "@id": "edam:topic_2830"
+    },
+    {
+      "@id": "edam:topic_0082"
+    }
+  ],
+  "sc:citation": [
+    "pubmed:18515843",
+    "pubmed:22610854"
+  ],
+  "sc:description": "The Immune Epitope Database Analysis Resource (IEDB-AR) is a collection of agents for the prediction and analysis of immune epitopes. Agents include B-cell and T-cell epitope prediction and epitope analysis agents. peptide:MHC-I binding and T-cell epitope agents have been added, mapping of discontinuous epitopes onto 3D structures was also added.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_2429"
+    },
+    {
+      "@id": "edam:operation_0416"
+    }
+  ],
+  "sc:name": "IEDB-AR",
+  "sc:operatingSystem": [
+    "Mac",
+    "Windows",
+    "Linux"
+  ],
+  "sc:softwareHelp": {
+    "@id": "http://agents.immuneepitope.org/main/agents-api/"
+  },
+  "sc:url": "http://agents.immuneepitope.org"
+}

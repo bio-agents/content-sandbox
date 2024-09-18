@@ -1,0 +1,101 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/gaia",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "S. Morganella",
+      "bsc:input": {
+        "@id": "_:Nc8f9fd7719274ce58015635cc468008a"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:N811c1b1f95c44fd381bcb8f772cca9ad"
+        },
+        {
+          "@id": "_:Naa09d382b82146758258095e8622dd30"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Library",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2269"
+        },
+        {
+          "@id": "edam:topic_0199"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1038/nmeth.3252"
+      },
+      "sc:description": "This package allows to assess the statistical significance of chromosomal aberrations.",
+      "sc:featureList": {
+        "@id": "edam:operation_3225"
+      },
+      "sc:license": "GPL-2.0",
+      "sc:name": "gaia",
+      "sc:operatingSystem": [
+        "Mac",
+        "Windows",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/gaia.html"
+      },
+      "sc:softwareVersion": "2.18.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/gaia.html"
+    },
+    {
+      "@id": "_:N811c1b1f95c44fd381bcb8f772cca9ad",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1772"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Score"
+    },
+    {
+      "@id": "_:Naa09d382b82146758258095e8622dd30",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1017"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Sequence range"
+    },
+    {
+      "@id": "_:Nc8f9fd7719274ce58015635cc468008a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1017"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Sequence range"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nmeth.3252",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

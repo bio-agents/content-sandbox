@@ -1,0 +1,45 @@
+package: sweed
+distribution: debian
+release: sid
+component: main
+version: 3.2.1
+source: sweed
+homepage: https://sco.h-its.org/exelixis/web/software/sweed/
+license: unknown
+blend: debian-med
+description_md5: 8ff0c702fca9de5362a10d068b3e3bc3
+registries:
+- entry: OMICS_08598
+  name: OMICagents
+- entry: sweed
+  name: bio.agents
+bib:
+- key: doi
+  value: 10.1093/molbev/mst112
+popcon:
+- insts: 35
+  olde: 33
+  recent: 1
+  vote: 1
+descr:
+- package: sweed
+  description: assessment of SNPs for their evolutionary advantage
+  long_description: " Biological sequences are available in ever increasing abundance\
+    \ across\n ever larger populations for ever increasing fractions of the genome.\
+    \ This\n agent sorts the SNPs for their active or passive contribution to a genetic\n\
+    \ drift, i.e. to see particular sequences at a higher fraction over time.\n"
+  release: sid
+  description_md5: 8ff0c702fca9de5362a10d068b3e3bc3
+  license: unknown
+  blend: debian-med
+- package: sweed
+  description: Vurdering af SNP'er for deres evolutionære fordele
+  long_description: " Biologiske sekvenser er tilgængelige i stadig større udbredelse\
+    \ på tværs af\n stadig større populationer for stadig stigende fraktioner af genomet.\n\
+    \ Dette værktøj sorterer SNP'erne for deres aktive eller passive bidrag til\n\
+    \ en genetisk drift, d.v.s. for at se bestemte sekvenser over en større del\n\
+    \ af tiden.\n"
+  release: sid
+  description_md5: 8ff0c702fca9de5362a10d068b3e3bc3
+  license: unknown
+  blend: debian-med

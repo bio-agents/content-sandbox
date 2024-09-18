@@ -1,0 +1,107 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/transclust",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": {
+        "@id": "http://orcid.org/0000-0002-0282-0462"
+      },
+      "bsc:input": {
+        "@id": "_:Nd703eaff9f03488c9b35bc6e0c529564"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:N762485b704ca41cdbbe3dfee94ad7371"
+        },
+        {
+          "@id": "_:Na70ab61601924ba4b133a20888af6a78"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Web application",
+        "Desktop application"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0080"
+      },
+      "sc:author": "Jan Baumbach",
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1038/nmeth0610-419"
+        },
+        "pubmed:20508635"
+      ],
+      "sc:description": "Comprehensive clustering agent that incorporates the hidden transitive nature occuring e.g. within biomedical data sets. It is based on Weighted Transitive Graph Projection problem.",
+      "sc:featureList": {
+        "@id": "edam:operation_0291"
+      },
+      "sc:name": "TransClust",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:provider": "bmb.sdu.dk",
+      "sc:softwareHelp": {
+        "@id": "https://transclust.compbio.sdu.dk/main_page/general_description.php"
+      },
+      "sc:softwareVersion": "1",
+      "sc:url": "https://transclust.compbio.sdu.dk/main_page/index.php"
+    },
+    {
+      "@id": "_:N762485b704ca41cdbbe3dfee94ad7371",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1916"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Alignment"
+    },
+    {
+      "@id": "_:Na70ab61601924ba4b133a20888af6a78",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2161"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2333"
+      },
+      "sc:name": "Sequence similarity plot"
+    },
+    {
+      "@id": "_:Nd703eaff9f03488c9b35bc6e0c529564",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2730"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "COGEME unisequence ID"
+    },
+    {
+      "@id": "http://orcid.org/0000-0002-0282-0462",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nmeth0610-419",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

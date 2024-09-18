@@ -1,0 +1,108 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/exms",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:N9b6a9d1a06894299aca7640307482429"
+        },
+        {
+          "@id": "_:Nfd12d9ffebfe4dfda7c627403c7f97a2"
+        }
+      ],
+      "bsc:output": {
+        "@id": "_:Ncc137a54a6ce483a9e4a5b0d198ddf36"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Desktop application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0121"
+        },
+        {
+          "@id": "edam:topic_3520"
+        }
+      ],
+      "sc:citation": "pubmed:21952778",
+      "sc:description": "MATLAB program for analyzing H/D-exchange data.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0404"
+        },
+        {
+          "@id": "edam:operation_3215"
+        },
+        {
+          "@id": "edam:operation_3629"
+        },
+        {
+          "@id": "edam:operation_3648"
+        },
+        {
+          "@id": "edam:operation_3441"
+        }
+      ],
+      "sc:name": "ExMS",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://hx2.med.upenn.edu/EXms/ExMS%20Quick%20Guide.txt"
+      },
+      "sc:url": "http://hx2.med.upenn.edu/download.html"
+    },
+    {
+      "@id": "_:N9b6a9d1a06894299aca7640307482429",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0943"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3654"
+      },
+      "sc:name": "Mass spectrometry spectra"
+    },
+    {
+      "@id": "_:Nfd12d9ffebfe4dfda7c627403c7f97a2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0945"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3468"
+      },
+      "sc:name": "Peptide identification"
+    },
+    {
+      "@id": "_:Ncc137a54a6ce483a9e4a5b0d198ddf36",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2955"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3468"
+        }
+      ],
+      "sc:name": "Sequence report"
+    }
+  ]
+}

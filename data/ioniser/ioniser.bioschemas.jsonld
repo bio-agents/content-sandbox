@@ -1,0 +1,88 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/ioniser",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Mike Smith",
+      "bsc:input": {
+        "@id": "_:N71e26dc03254454bbc2a85a2b1cc563f"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:N3a0c4f208ef64abe8d659242b4049e73"
+        },
+        {
+          "@id": "_:Nc4269ebf921641fb9323021b1176ed5d"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3168"
+      },
+      "sc:author": "Mike Smith",
+      "sc:description": "Agents for the quality assessment of Oxford Nanopore MinION data. It extracts summary statistics from a set of fast5 files and can be used either before or after base calling. In addition to standard summaries of the read-types produced, it provides a number of plots for visualising metrics relative to experiment run time or spatially over the surface of a flowcell.",
+      "sc:featureList": {
+        "@id": "edam:operation_3218"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "MIT",
+      "sc:name": "IONiseR",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:provider": [
+        "EMBL Heidelberg",
+        "hdhub"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/vignettes/IONiseR/inst/doc/IONiseR.html"
+      },
+      "sc:url": "http://bioconductor.org/packages/IONiseR/"
+    },
+    {
+      "@id": "_:N3a0c4f208ef64abe8d659242b4049e73",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:Nc4269ebf921641fb9323021b1176ed5d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2887"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1930"
+      },
+      "sc:name": "Nucleic acid sequence record"
+    },
+    {
+      "@id": "_:N71e26dc03254454bbc2a85a2b1cc563f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3108"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2333"
+      },
+      "sc:name": "Experimental measurement"
+    }
+  ]
+}

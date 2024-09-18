@@ -1,0 +1,110 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/alientrimmer",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Alexis Criscuolo",
+      "bsc:input": [
+        {
+          "@id": "_:N91b60e4dc5d144a9983c917e5780e644"
+        },
+        {
+          "@id": "_:N5b16f5ae3e4d44358223657283433ce0"
+        }
+      ],
+      "bsc:output": {
+        "@id": "_:Nb0fed6463e1a48a58c1868b18c06fd49"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0080"
+      },
+      "sc:author": "Alexis Criscuolo",
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1016/j.ygeno.2013.07.011"
+        },
+        "pubmed:23912058",
+        "pubmed:24860597",
+        {
+          "@id": "https://doi.org/10.7490/f1000research.1114334.1"
+        }
+      ],
+      "sc:description": "Trimming and clipping FASTQ-formatted read files.",
+      "sc:featureList": {
+        "@id": "edam:operation_2478"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "GPL-2.0",
+      "sc:name": "AlienTrimmer",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:provider": [
+        "Institut Pasteur",
+        "Bioinformatics and Biostatistics Hub"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://research.pasteur.fr/en/software/alientrimmer/"
+      },
+      "sc:softwareVersion": "0.4.0",
+      "sc:url": "https://research.pasteur.fr/en/software/alientrimmer/"
+    },
+    {
+      "@id": "_:N91b60e4dc5d144a9983c917e5780e644",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3497"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "DNA sequence (raw)"
+    },
+    {
+      "@id": "_:N5b16f5ae3e4d44358223657283433ce0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3497"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1930"
+      },
+      "sc:name": "DNA sequence (raw)"
+    },
+    {
+      "@id": "_:Nb0fed6463e1a48a58c1868b18c06fd49",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3497"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1930"
+      },
+      "sc:name": "DNA sequence (raw)"
+    },
+    {
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.ygeno.2013.07.011",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

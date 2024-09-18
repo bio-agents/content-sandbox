@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1016/j.gene.2007.05.018",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/ccap",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N2b6da91c271e4a5fa99fd2269f9b35cf"
+      },
+      "bsc:output": {
+        "@id": "_:N320e890147ca46cb9fc144bb92f8dbe8"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_2229"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1016/j.gene.2007.05.018"
+      },
+      "sc:description": "Culture collection of algae and protozoa.",
+      "sc:featureList": {
+        "@id": "edam:operation_0224"
+      },
+      "sc:name": "Culture collection of algae and protozoa (CCAP)",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://www.ccap.ac.uk/index.htm"
+      },
+      "sc:url": "http://www.ccap.ac.uk/index.htm"
+    },
+    {
+      "@id": "_:N2b6da91c271e4a5fa99fd2269f9b35cf",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2778"
+      },
+      "sc:name": "CCAP strain number"
+    },
+    {
+      "@id": "_:N320e890147ca46cb9fc144bb92f8dbe8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0963"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Cell line report"
+    }
+  ]
+}

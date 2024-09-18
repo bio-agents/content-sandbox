@@ -1,0 +1,408 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:shapeshifter:0.0.3/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T10:11:03.769771Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 43,
+                        "serie": [
+                            1,
+                            1,
+                            1,
+                            1,
+                            5,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            2,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            2,
+                            2,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 140,
+                        "serie": [
+                            5,
+                            4,
+                            11,
+                            1,
+                            7,
+                            1,
+                            2,
+                            2,
+                            4,
+                            1,
+                            1,
+                            2,
+                            2,
+                            2,
+                            3,
+                            3,
+                            10,
+                            4,
+                            1,
+                            2,
+                            4,
+                            3,
+                            5,
+                            3,
+                            2,
+                            25,
+                            1,
+                            7,
+                            5,
+                            4,
+                            1,
+                            5,
+                            1,
+                            6
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T10:11:03.661755Z",
+                "last_month_access": {
+                    "average_access_time": 2296,
+                    "downtime_days": 23,
+                    "uptime_days": 7
+                },
+                "license": false,
+                "operational": 429,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/srp33/ExpressionAble"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/shapeshifter",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-11-19T10:11:03.761767Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 43,
+                        "serie": [
+                            1,
+                            1,
+                            1,
+                            1,
+                            5,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            2,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            2,
+                            2,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 140,
+                        "serie": [
+                            5,
+                            4,
+                            11,
+                            1,
+                            7,
+                            1,
+                            2,
+                            2,
+                            4,
+                            1,
+                            1,
+                            2,
+                            2,
+                            2,
+                            3,
+                            3,
+                            10,
+                            4,
+                            1,
+                            2,
+                            4,
+                            3,
+                            5,
+                            3,
+                            2,
+                            25,
+                            1,
+                            7,
+                            5,
+                            4,
+                            1,
+                            5,
+                            1,
+                            6
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T10:11:03.661755Z",
+                "last_month_access": {
+                    "average_access_time": 2263,
+                    "downtime_days": 23,
+                    "uptime_days": 7
+                },
+                "license": false,
+                "operational": 429,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/srp33/ExpressionAble"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:shapeshifter:1.1.1/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T10:18:56.202502Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 16,
+                        "serie": [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 167,
+                        "serie": [
+                            32,
+                            3,
+                            1,
+                            2,
+                            9,
+                            1,
+                            29,
+                            10,
+                            4,
+                            9,
+                            5,
+                            28,
+                            16,
+                            6,
+                            5,
+                            1,
+                            6
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T10:11:03.661755Z",
+                "last_month_access": {
+                    "average_access_time": 651,
+                    "downtime_days": 26,
+                    "uptime_days": 4
+                },
+                "license": false,
+                "operational": 429,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/srp33/ExpressionAble"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    }
+]

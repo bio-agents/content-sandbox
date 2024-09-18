@@ -1,0 +1,636 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gkt263",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1371/journal.pcbi.1002195",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "http://orcid.org/0000-0001-6676-4706",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gky448",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkr367",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/hmmer3",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": {
+        "@id": "http://orcid.org/0000-0001-6676-4706"
+      },
+      "bsc:input": [
+        {
+          "@id": "_:N5001e9d0d5b44ca4813ac333fff1878b"
+        },
+        {
+          "@id": "_:N306aec701368456e8b4d824c4c6b9b9f"
+        },
+        {
+          "@id": "_:N39858667fc0a4421a6e4e126247efc35"
+        },
+        {
+          "@id": "_:N46b7af3e0da84816a3000eda54244451"
+        },
+        {
+          "@id": "_:N9aae3c35c976404cb5f13d46ec2b912a"
+        },
+        {
+          "@id": "_:Nc43de010d6204c6c830635068e65e65a"
+        },
+        {
+          "@id": "_:Naf8606ac2f27433c84b526bf6f4f287f"
+        },
+        {
+          "@id": "_:Ne734800938c84c0b927f7bf1f2c916c6"
+        },
+        {
+          "@id": "_:N0cc28e95e35242c688d2ec5afcd6e521"
+        },
+        {
+          "@id": "_:Nec07446f16834a45be6c420895f70d51"
+        },
+        {
+          "@id": "_:Na3cc3f2a6ada4d668975b867fe467925"
+        },
+        {
+          "@id": "_:Nd31cba9ed08649aaa769640089e49bb7"
+        },
+        {
+          "@id": "_:N567cc53d03b340de888b45b23d2edd1d"
+        },
+        {
+          "@id": "_:Nb3b034547bff47389f3d846591dafcc5"
+        },
+        {
+          "@id": "_:N9177de12a08b47eba4543a6121c91e16"
+        },
+        {
+          "@id": "_:N6a2524e96bc04565a7aee3344da0f82f"
+        },
+        {
+          "@id": "_:N51cf26604b9d45bf992a0faaf2bc15dc"
+        },
+        {
+          "@id": "_:N30fcf7dc37c34df58eb148daac9f9fd1"
+        },
+        {
+          "@id": "_:N659e5a474a464254908d7fbbee0b699e"
+        },
+        {
+          "@id": "_:N9af555b3221d4fdda30e33320461fce5"
+        },
+        {
+          "@id": "_:Ncf40226e7cd1452cb1b8767f423f31e8"
+        },
+        {
+          "@id": "_:Na2fec83725a74ad3b29d573db34eaaf0"
+        },
+        {
+          "@id": "_:N10e64365c6424a78bc9b70a578dde247"
+        },
+        {
+          "@id": "_:Ndf39499c5d1c4867929101744b2ea730"
+        },
+        {
+          "@id": "_:Nfacf2358e80f4e1ba5f4662fa5d126c9"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Ne7bd8e0901794c4b9d40b54fa4f61b24"
+        },
+        {
+          "@id": "_:N6797f9368c644ed6873132c871d76a56"
+        },
+        {
+          "@id": "_:N8c6294a9e63e42baa5383e88d43d4629"
+        },
+        {
+          "@id": "_:N4fa64dea451648fb9f5c7bb128e48d90"
+        },
+        {
+          "@id": "_:N102ee5231ebd4f369561deb6bd83b3be"
+        },
+        {
+          "@id": "_:N1944d76c183941e1ae854f513949815c"
+        },
+        {
+          "@id": "_:N5a0d21c123884c31b9a54792f26643a0"
+        },
+        {
+          "@id": "_:N644bc67ac11d4ed08335804f0f1c37a8"
+        },
+        {
+          "@id": "_:N028b4f812bc6489185f36c1dd027ed19"
+        },
+        {
+          "@id": "_:N5a7d1a90efab447db8dd66acaeaaed41"
+        },
+        {
+          "@id": "_:Nf5bdebe0434a48c6ae8012d0a0011d63"
+        },
+        {
+          "@id": "_:Na0ebcedc5dc14ec88464f4897b192223"
+        },
+        {
+          "@id": "_:Ne4c43c7d3af94ee9b27bb19763acf919"
+        },
+        {
+          "@id": "_:N23560be3b4d64681b6285dcd13f9fde1"
+        },
+        {
+          "@id": "_:N6203445f80004328b8d19dd4ce975687"
+        },
+        {
+          "@id": "_:N68412b1968664c568883b9a60fcbe1b8"
+        },
+        {
+          "@id": "_:N29526a8c3ef64a2b930df5c44a0da178"
+        },
+        {
+          "@id": "_:N8abe8096d4474f868c10582197fe0467"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Web application"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_0623"
+        },
+        {
+          "@id": "edam:topic_0160"
+        }
+      ],
+      "sc:citation": [
+        "pmcid:PMC3197634",
+        "pmcid:PMC3125773",
+        {
+          "@id": "https://doi.org/10.1093/nar/gky448"
+        },
+        "pubmed:23598997",
+        {
+          "@id": "https://doi.org/10.1371/journal.pcbi.1002195"
+        },
+        {
+          "@id": "https://doi.org/10.1093/nar/gkr367"
+        },
+        "pubmed:22039361",
+        "pmcid:PMC3695513",
+        "pubmed:29905871",
+        "pubmed:21593126",
+        {
+          "@id": "https://doi.org/10.1093/nar/gkt263"
+        }
+      ],
+      "sc:description": "This agent is used for searching sequence databases for homologs of protein sequences, and for making protein sequence alignments. It implements methods using probabilistic models called profile hidden Markov models. The new HMMER3 project, HMMER is now as fast as BLAST for protein search.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0336"
+        },
+        {
+          "@id": "edam:operation_0296"
+        },
+        {
+          "@id": "edam:operation_0492"
+        },
+        {
+          "@id": "edam:operation_0338"
+        },
+        {
+          "@id": "edam:operation_0230"
+        },
+        {
+          "@id": "edam:operation_2238"
+        },
+        {
+          "@id": "edam:operation_3434"
+        },
+        {
+          "@id": "edam:operation_2421"
+        },
+        {
+          "@id": "edam:operation_2422"
+        },
+        {
+          "@id": "edam:operation_3481"
+        },
+        {
+          "@id": "edam:operation_0335"
+        }
+      ],
+      "sc:license": "Other",
+      "sc:name": "HMMER3",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:softwareHelp": [
+        {
+          "@id": "http://hmmer.org/documentation.html"
+        },
+        {
+          "@id": "http://eddylab.org/software/hmmer3/3.1b2/Userguide.pdf"
+        }
+      ],
+      "sc:softwareVersion": "3.1b1",
+      "sc:url": "http://hmmer.org/"
+    },
+    {
+      "@id": "_:N5001e9d0d5b44ca4813ac333fff1878b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1364"
+      },
+      "sc:name": "Hidden Markov model"
+    },
+    {
+      "@id": "_:N306aec701368456e8b4d824c4c6b9b9f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0850"
+      },
+      "sc:name": "Sequence set"
+    },
+    {
+      "@id": "_:N39858667fc0a4421a6e4e126247efc35",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1364"
+      },
+      "sc:name": "Hidden Markov model"
+    },
+    {
+      "@id": "_:N46b7af3e0da84816a3000eda54244451",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0850"
+      },
+      "sc:name": "Sequence set"
+    },
+    {
+      "@id": "_:N9aae3c35c976404cb5f13d46ec2b912a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2976"
+      },
+      "sc:name": "Protein sequence"
+    },
+    {
+      "@id": "_:Nc43de010d6204c6c830635068e65e65a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1364"
+      },
+      "sc:name": "Hidden Markov model"
+    },
+    {
+      "@id": "_:Naf8606ac2f27433c84b526bf6f4f287f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:Ne734800938c84c0b927f7bf1f2c916c6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1364"
+      },
+      "sc:name": "Hidden Markov model"
+    },
+    {
+      "@id": "_:N0cc28e95e35242c688d2ec5afcd6e521",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2977"
+      },
+      "sc:name": "Nucleic acid sequence"
+    },
+    {
+      "@id": "_:Nec07446f16834a45be6c420895f70d51",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1364"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1370"
+      },
+      "sc:name": "Hidden Markov model"
+    },
+    {
+      "@id": "_:Na3cc3f2a6ada4d668975b867fe467925",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1233"
+      },
+      "sc:name": "Sequence set (protein)"
+    },
+    {
+      "@id": "_:Nd31cba9ed08649aaa769640089e49bb7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0957"
+      },
+      "sc:name": "Database metadata"
+    },
+    {
+      "@id": "_:N567cc53d03b340de888b45b23d2edd1d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1364"
+      },
+      "sc:name": "Hidden Markov model"
+    },
+    {
+      "@id": "_:Nb3b034547bff47389f3d846591dafcc5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1364"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3329"
+      },
+      "sc:name": "Hidden Markov model"
+    },
+    {
+      "@id": "_:N9177de12a08b47eba4543a6121c91e16",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1364"
+      },
+      "sc:name": "Hidden Markov model"
+    },
+    {
+      "@id": "_:N6a2524e96bc04565a7aee3344da0f82f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1364"
+      },
+      "sc:name": "Hidden Markov model"
+    },
+    {
+      "@id": "_:N51cf26604b9d45bf992a0faaf2bc15dc",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2976"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1936"
+        },
+        {
+          "@id": "edam:format_1927"
+        },
+        {
+          "@id": "edam:format_1929"
+        },
+        {
+          "@id": "edam:format_1963"
+        }
+      ],
+      "sc:name": "Protein sequence"
+    },
+    {
+      "@id": "_:N30fcf7dc37c34df58eb148daac9f9fd1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1234"
+      },
+      "sc:name": "Sequence set (nucleic acid)"
+    },
+    {
+      "@id": "_:N659e5a474a464254908d7fbbee0b699e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0968"
+      },
+      "sc:name": "Keyword"
+    },
+    {
+      "@id": "_:N9af555b3221d4fdda30e33320461fce5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3494"
+      },
+      "sc:name": "DNA sequence"
+    },
+    {
+      "@id": "_:Ncf40226e7cd1452cb1b8767f423f31e8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1364"
+      },
+      "sc:name": "Hidden Markov model"
+    },
+    {
+      "@id": "_:Na2fec83725a74ad3b29d573db34eaaf0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2977"
+      },
+      "sc:name": "Nucleic acid sequence"
+    },
+    {
+      "@id": "_:N10e64365c6424a78bc9b70a578dde247",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2976"
+      },
+      "sc:name": "Protein sequence"
+    },
+    {
+      "@id": "_:Ndf39499c5d1c4867929101744b2ea730",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1233"
+      },
+      "sc:name": "Sequence set (protein)"
+    },
+    {
+      "@id": "_:Nfacf2358e80f4e1ba5f4662fa5d126c9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:Ne7bd8e0901794c4b9d40b54fa4f61b24",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2080"
+      },
+      "sc:name": "Database search results"
+    },
+    {
+      "@id": "_:N6797f9368c644ed6873132c871d76a56",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:N8c6294a9e63e42baa5383e88d43d4629",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1364"
+      },
+      "sc:name": "Hidden Markov model"
+    },
+    {
+      "@id": "_:N4fa64dea451648fb9f5c7bb128e48d90",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2080"
+      },
+      "sc:name": "Database search results"
+    },
+    {
+      "@id": "_:N102ee5231ebd4f369561deb6bd83b3be",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1364"
+      },
+      "sc:name": "Hidden Markov model"
+    },
+    {
+      "@id": "_:N1944d76c183941e1ae854f513949815c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1364"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3329"
+      },
+      "sc:name": "Hidden Markov model"
+    },
+    {
+      "@id": "_:N5a0d21c123884c31b9a54792f26643a0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:N644bc67ac11d4ed08335804f0f1c37a8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1916"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1961"
+      },
+      "sc:name": "Alignment"
+    },
+    {
+      "@id": "_:N028b4f812bc6489185f36c1dd027ed19",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0955"
+      },
+      "sc:name": "Data index"
+    },
+    {
+      "@id": "_:N5a7d1a90efab447db8dd66acaeaaed41",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:name": "Sequence"
+    },
+    {
+      "@id": "_:Nf5bdebe0434a48c6ae8012d0a0011d63",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:Na0ebcedc5dc14ec88464f4897b192223",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:name": "Sequence"
+    },
+    {
+      "@id": "_:Ne4c43c7d3af94ee9b27bb19763acf919",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0857"
+      },
+      "sc:name": "Sequence search results"
+    },
+    {
+      "@id": "_:N23560be3b4d64681b6285dcd13f9fde1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0857"
+      },
+      "sc:name": "Sequence search results"
+    },
+    {
+      "@id": "_:N6203445f80004328b8d19dd4ce975687",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0857"
+      },
+      "sc:name": "Sequence search results"
+    },
+    {
+      "@id": "_:N68412b1968664c568883b9a60fcbe1b8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2080"
+      },
+      "sc:name": "Database search results"
+    },
+    {
+      "@id": "_:N29526a8c3ef64a2b930df5c44a0da178",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:N8abe8096d4474f868c10582197fe0467",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1361"
+      },
+      "sc:name": "Position frequency matrix"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+    "additionDate": "2022-05-16T13:26:15.720803Z",
+    "bioagentsCURIE": "bioagents:skm",
+    "bioagentsID": "skm",
+    "cost": "Free of charge",
+    "credit": [
+        {
+            "email": "carissarobyn.bleker@nib.si",
+            "name": "Carissa Bleker",
+            "orcidid": "https://orcid.org/0000-0003-1617-7145",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Developer",
+                "Maintainer"
+            ]
+        },
+        {
+            "name": "Kristina Gruden",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Contributor"
+            ]
+        },
+        {
+            "name": "Živa Ramšak",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Contributor"
+            ]
+        },
+        {
+            "name": "National Institute of Biology, Department of Biotechnology and Systems Biology",
+            "typeEntity": "Institute",
+            "typeRole": [
+                "Provider"
+            ],
+            "url": "http://www.nib.si/"
+        },
+        {
+            "name": "Vid Podpečan",
+            "typeRole": [
+                "Developer"
+            ]
+        }
+    ],
+    "description": "Stress Knowledge Map:  A compilation of knowledge on mechanisms underlying responses of plants to stress, the so called stress signalling network.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "https://skm.nib.si/documentation"
+        }
+    ],
+    "editPermission": {
+        "authors": [
+            "zagor"
+        ],
+        "type": "group"
+    },
+    "iechorCommunity": [
+        "Plant Sciences"
+    ],
+    "iechorNode": [
+        "Slovenia"
+    ],
+    "function": [
+        {
+            "input": [
+                {
+                    "data": {
+                        "term": "Gene name",
+                        "uri": "http://edamontology.org/data_2299"
+                    }
+                }
+            ],
+            "operation": [
+                {
+                    "term": "Database search",
+                    "uri": "http://edamontology.org/operation_2421"
+                }
+            ],
+            "output": [
+                {
+                    "data": {
+                        "term": "Database search results",
+                        "uri": "http://edamontology.org/data_2080"
+                    }
+                }
+            ]
+        }
+    ],
+    "homepage": "https://skm.nib.si/",
+    "lastUpdate": "2022-06-01T18:47:15.786597Z",
+    "link": [
+        {
+            "type": [
+                "Other"
+            ],
+            "url": "https://skm.nib.si/contact"
+        }
+    ],
+    "maturity": "Emerging",
+    "name": "SKM",
+    "owner": "carissa",
+    "relation": [
+        {
+            "bioagentsID": "gomapman",
+            "type": "uses"
+        },
+        {
+            "bioagentsID": "newt-ve",
+            "type": "uses"
+        }
+    ],
+    "agentType": [
+        "Database portal",
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Molecular interactions, pathways and networks",
+            "uri": "http://edamontology.org/topic_0602"
+        },
+        {
+            "term": "Plant biology",
+            "uri": "http://edamontology.org/topic_0780"
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/remedy",
+      "@type": "sc:SoftwareApplication",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Web application"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3303"
+        },
+        {
+          "@id": "edam:topic_3934"
+        },
+        {
+          "@id": "edam:topic_0089"
+        },
+        {
+          "@id": "edam:topic_3379"
+        },
+        {
+          "@id": "edam:topic_3395"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/DATABASE/BAAB038"
+        },
+        "pubmed:34156448",
+        "pmcid:PMC8218701"
+      ],
+      "sc:description": "A platform for integrating and sharing published stem cell research data with a focus on iPSC trials.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3436"
+        },
+        {
+          "@id": "edam:operation_0337"
+        },
+        {
+          "@id": "edam:operation_2428"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "CC-BY-NC-4.0",
+      "sc:name": "ReMeDy",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:url": "https://remedy.mssm.edu/"
+    },
+    {
+      "@id": "https://doi.org/10.1093/DATABASE/BAAB038",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

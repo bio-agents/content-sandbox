@@ -1,0 +1,247 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:cipres/web/www.phylo.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-11-19T03:19:10.750577Z",
+        "@type": "metrics",
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "api": true,
+                "general": true,
+                "help": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 881,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 19,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 33,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 59,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 57,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 64,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 82,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 113,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 110,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 146,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 127,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 70,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1109/GCE.2010.5676129",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Creating the CIPRES Science Gateway for inference of large phylogenetic trees",
+                            "year": 2010
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 161,
+                            "citations": [
+                                {
+                                    "count": 4,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 21,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 27,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 28,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 36,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 24,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.4137/ebo.s21501",
+                            "pmcid": "PMC4362911",
+                            "pmid": "25861210",
+                            "ref_count": 25,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2014"
+                                }
+                            ],
+                            "title": "A RESTful API for Access to Phylogenetic Agents via the CIPRES Science Gateway.",
+                            "year": 2015
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 1244,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-11-19T03:19:10.450535Z",
+                "last_month_access": {
+                    "average_access_time": 1178,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/cipres",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-11-19T03:19:30.683430Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 1244,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-11-19T03:19:10.450535Z",
+                "last_month_access": {
+                    "average_access_time": 1178,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

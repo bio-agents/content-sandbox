@@ -1,0 +1,101 @@
+name: launch a test bio.agents server and perform import tests
+
+on:
+  workflow_dispatch:
+
+jobs:
+
+  runbioagents:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: checkout contents registry
+      #if: github.actor == github.event.repository.owner.login
+      uses: actions/checkout@v2
+      with:
+        path: content
+    - name: checkout bio.agents registry
+      uses: actions/checkout@v2
+      with:
+        # Repository name with owner. For example, actions/checkout
+        # Default: ${{ github.repository }}
+        repository: 'bio-agents/bioagentsRegistry'
+        path: bioagentsRegistry
+    - name: Shutdown Ubuntu MySQL (SUDO)
+      run: sudo service mysql stop # Shutdown the Default MySQL, "sudo" is necessary, please not remove it
+    - name: Add dummy email backend to django settings
+      working-directory: bioagentsRegistry
+      run: |
+        echo "EMAIL_BACKEND = 'django.core.mail.backends.dummy.EmailBackend'" >> backend/iechorapp/settings.py
+    - name: build docker containers for bio.agents registry
+      working-directory: bioagentsRegistry
+      run: |
+        docker-compose build
+    - name: start docker containers for bio.agents registry
+      working-directory: bioagentsRegistry
+      run: |
+        docker-compose up -d
+    - name: copy wait for mysql script
+      working-directory: content
+      run: |
+        docker cp scripts/runbioagents/wait_mysql.sh bioagents-mysql:/root
+    - name: chmod to executable wait for mysql script
+      run: |
+        docker exec bioagents-mysql chmod +x /root/wait_mysql.sh
+    - name: execute wait for mysql script
+      run: |
+        docker exec bioagents-mysql /root/wait_mysql.sh
+    - name: test that bio.agents registry is up and running
+      run: |
+        wget --spider http://localhost:8000
+    - name: list running containers
+      run: |
+        docker ps -a
+    - name: test that bio.agents registry database is up and running through the HTTP API...
+      run: |
+        wget --spider http://localhost:8000/api/t || :
+    - name: copy database init SQL
+      working-directory: bioagentsRegistry
+      run: |
+        docker cp initial_db.sql bioagents-mysql:/root
+    #- name: copy "modified" database init script
+    #  working-directory: content
+    #  run: |
+    #      docker cp scripts/runbioagents/load_initial_db.sh bioagents-mysql:/root
+    - name: load DB with initial data
+      working-directory: bioagentsRegistry
+      run: |
+        docker exec bioagents-mysql mysql -h mysql -P 3306 --protocol tcp --user=iechor --password=123 iechor < initial_db.sql
+    - name: create and run django migrations
+      run: |
+        docker exec bioagents-backend python manage.py makemigrations
+        docker exec bioagents-backend python manage.py migrate
+    - name: update EDAM
+      run: |
+        docker exec bioagents-backend bash /iechor/application/backend/data/edam/update_edam.sh
+    - name: purge and reload elasticsearch
+      run: |
+        docker exec bioagents-backend python manage.py es_purge
+        docker exec bioagents-backend python manage.py es_regenerate
+    - name: test that bio.agents registry is up and running
+      run: |
+        wget --spider http://localhost:8000
+    - name: copy createsuperuser script
+      working-directory: content
+      run: |
+        docker cp scripts/runbioagents/createsuperuser.sh bioagents-backend:/root
+    - name: chmod to executable createsuperuser script
+      run: |
+        docker exec bioagents-backend chmod +x /root/createsuperuser.sh
+    - name: run createsuperuser script
+      run: |
+        docker exec bioagents-backend /root/createsuperuser.sh
+    - name: Install dependencies
+      working-directory: content
+      run: |
+        pip3 install -r scripts/runbioagents/requirements.txt
+    - name: upload agents
+      working-directory: content
+      run: |
+        python3 scripts/runbioagents/agents_upload.py uploadbot botbotbot

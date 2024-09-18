@@ -1,0 +1,174 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://orcid.org/0000-0003-2827-9261",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41587-020-0439-x",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-1541-042X",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-2707-7940",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-4101-2502",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://bio.agents/nf-core-atacseq",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": [
+        {
+          "@id": "https://orcid.org/0000-0003-2707-7940"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-4101-2502"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-2827-9261"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-1541-042X"
+        }
+      ],
+      "bsc:input": {
+        "@id": "_:N906b87756694409db5bdc9b13a589c6b"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:N7d0db5c10c7c4616b9c14b15dc1a4bc6"
+        },
+        {
+          "@id": "_:N6291ef29245442ff895818dec6b18cec"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Workflow",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3176"
+        },
+        {
+          "@id": "edam:topic_3308"
+        },
+        {
+          "@id": "edam:topic_0769"
+        },
+        {
+          "@id": "edam:topic_3125"
+        },
+        {
+          "@id": "edam:topic_0097"
+        }
+      ],
+      "sc:author": {
+        "@id": "https://orcid.org/0000-0003-2707-7940"
+      },
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1038/s41587-020-0439-x"
+        },
+        "pubmed:32055031"
+      ],
+      "sc:description": "nfcore/atacseq is a bioinformatics analysis pipeline used for ATAC-seq data.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0475"
+        },
+        {
+          "@id": "edam:operation_0438"
+        },
+        {
+          "@id": "edam:operation_0432"
+        },
+        {
+          "@id": "edam:operation_3900"
+        },
+        {
+          "@id": "edam:operation_0279"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "MIT",
+      "sc:name": "nf-core-atacseq",
+      "sc:operatingSystem": "Linux",
+      "sc:softwareHelp": [
+        {
+          "@id": "https://github.com/nf-core/atacseq/blob/master/LICENSE"
+        },
+        {
+          "@id": "https://nf-co.re/atacseq/usage"
+        },
+        {
+          "@id": "https://nf-co.re/atacseq"
+        }
+      ],
+      "sc:softwareVersion": [
+        "1.2.0",
+        "1.1.0",
+        "1.0.0",
+        "1.2.1"
+      ],
+      "sc:url": "https://nf-co.re/atacseq"
+    },
+    {
+      "@id": "_:N7d0db5c10c7c4616b9c14b15dc1a4bc6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3002"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3006"
+      },
+      "sc:name": "Annotation track"
+    },
+    {
+      "@id": "_:N6291ef29245442ff895818dec6b18cec",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1383"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2572"
+        },
+        {
+          "@id": "edam:format_3327"
+        }
+      ],
+      "sc:name": "Nucleic acid sequence alignment"
+    },
+    {
+      "@id": "_:N906b87756694409db5bdc9b13a589c6b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3494"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1930"
+      },
+      "sc:name": "DNA sequence"
+    }
+  ]
+}

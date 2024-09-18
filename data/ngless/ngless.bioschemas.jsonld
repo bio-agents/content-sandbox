@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/NGLess",
+      "@type": "sc:SoftwareApplication",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3174"
+      },
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1186/s40168-019-0684-8"
+        },
+        "pmcid:PMC6547473",
+        "pubmed:31159881"
+      ],
+      "sc:description": "NGLess is a domain-specific language for NGS (next-generation sequencing data) processing with a focus on metagenomics",
+      "sc:isAccessibleForFree": true,
+      "sc:license": "MIT",
+      "sc:name": "NGLess",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://ngless.embl.de"
+      },
+      "sc:softwareVersion": "1.0.1",
+      "sc:url": "https://ngless.embl.de"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s40168-019-0684-8",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

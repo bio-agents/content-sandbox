@@ -1,0 +1,145 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/gaggle",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Christopher Bare",
+      "bsc:input": [
+        {
+          "@id": "_:Ndefa4d8589f64c9db9d5d04d40985d53"
+        },
+        {
+          "@id": "_:N59f39b69582c41ee92757e94f628245c"
+        },
+        {
+          "@id": "_:N8cf11bd27d334012a919546a3fab7ccc"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Ncbe2761ddcd84262beaf424e9ef6b763"
+        },
+        {
+          "@id": "_:N569d9d5a6c5f419e8285d3c44ac0d88f"
+        },
+        {
+          "@id": "_:N75b663bc3f4948a5a4570b67c31d3676"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Library"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3366"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/1471-2105-7-176"
+      },
+      "sc:description": "This package contains functions enabling data exchange between R and Gaggle enabled bioinformatics software, including Cytoscape, Firegoose and Gaggle Genome Browser.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2422"
+        },
+        {
+          "@id": "edam:operation_2409"
+        }
+      ],
+      "sc:license": "GPL-2.0",
+      "sc:name": "gaggle",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/gaggle.html"
+      },
+      "sc:softwareVersion": "1.42.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/gaggle.html"
+    },
+    {
+      "@id": "_:Ndefa4d8589f64c9db9d5d04d40985d53",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2600"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Pathway or network"
+    },
+    {
+      "@id": "_:N59f39b69582c41ee92757e94f628245c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0842"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Identifier"
+    },
+    {
+      "@id": "_:N8cf11bd27d334012a919546a3fab7ccc",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2082"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Matrix"
+    },
+    {
+      "@id": "_:Ncbe2761ddcd84262beaf424e9ef6b763",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0842"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Identifier"
+    },
+    {
+      "@id": "_:N569d9d5a6c5f419e8285d3c44ac0d88f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2600"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Pathway or network"
+    },
+    {
+      "@id": "_:N75b663bc3f4948a5a4570b67c31d3676",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2082"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Matrix"
+    },
+    {
+      "@id": "https://doi.org/10.1186/1471-2105-7-176",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

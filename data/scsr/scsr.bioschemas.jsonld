@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1038/nmeth.3252",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/scsr",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": [
+        "Andrea Franceschini",
+        "Christian von Mering",
+        "Roger Meier"
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Library",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0659"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1038/nmeth.3252"
+      },
+      "sc:description": "Corrects genome-wide siRNA screens for seed mediated off-target effect. Suitable functions to identify the effective seeds/miRNAs and to visualize their effect are also provided in the package.",
+      "sc:featureList": {
+        "@id": "edam:operation_0231"
+      },
+      "sc:license": "GPL-2.0",
+      "sc:name": "scsR",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/scsR.html"
+      },
+      "sc:softwareVersion": "1.10.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/scsR.html"
+    }
+  ]
+}

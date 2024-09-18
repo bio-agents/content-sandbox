@@ -1,0 +1,142 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/multi-q",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:Nc8dd114f8d9749e0b1d585b2f6fc8ec4"
+        },
+        {
+          "@id": "_:N34c2a9359dd3455cbe28ee910144e5e5"
+        },
+        {
+          "@id": "_:Ned30635d58a648d596c4adaba36f59ea"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Nf0895c173f6643529f449d02fba3ebc2"
+        },
+        {
+          "@id": "_:Nf38fb92cb679465bbad7d579e119ab28"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Desktop application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0121"
+        },
+        {
+          "@id": "edam:topic_3520"
+        }
+      ],
+      "sc:citation": "pubmed:16944945",
+      "sc:description": "Agent for multiplexed iTRAQ-based quantitation.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3635"
+        },
+        {
+          "@id": "edam:operation_3639"
+        },
+        {
+          "@id": "edam:operation_3215"
+        },
+        {
+          "@id": "edam:operation_3630"
+        },
+        {
+          "@id": "edam:operation_0335"
+        },
+        {
+          "@id": "edam:operation_3648"
+        }
+      ],
+      "sc:name": "Multi-Q",
+      "sc:operatingSystem": "Windows",
+      "sc:softwareHelp": {
+        "@id": "http://ms.iis.sinica.edu.tw/COmics/Software_Multi-Q.html"
+      },
+      "sc:url": "http://ms.iis.sinica.edu.tw/Multi-Q/"
+    },
+    {
+      "@id": "_:Nf0895c173f6643529f449d02fba3ebc2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2603"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2332"
+        },
+        {
+          "@id": "edam:format_3752"
+        }
+      ],
+      "sc:name": "Expression data"
+    },
+    {
+      "@id": "_:Nf38fb92cb679465bbad7d579e119ab28",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0943"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3654"
+      },
+      "sc:name": "Mass spectrometry spectra"
+    },
+    {
+      "@id": "_:Nc8dd114f8d9749e0b1d585b2f6fc8ec4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0945"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3747"
+        },
+        {
+          "@id": "edam:format_3655"
+        }
+      ],
+      "sc:name": "Peptide identification"
+    },
+    {
+      "@id": "_:N34c2a9359dd3455cbe28ee910144e5e5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0943"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3710"
+      },
+      "sc:name": "Mass spectrometry spectra"
+    },
+    {
+      "@id": "_:Ned30635d58a648d596c4adaba36f59ea",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0943"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3654"
+      },
+      "sc:name": "Mass spectrometry spectra"
+    }
+  ]
+}

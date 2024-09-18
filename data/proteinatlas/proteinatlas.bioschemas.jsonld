@@ -1,0 +1,174 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/proteinatlas",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Support",
+      "bsc:input": [
+        {
+          "@id": "_:N57a1314d639a4f76b43bfc0055e67a26"
+        },
+        {
+          "@id": "_:N248988b8253f4e0cb91ca56dc2305b87"
+        },
+        {
+          "@id": "_:N06c2cdb76aef4e1fbe827e655834e688"
+        },
+        {
+          "@id": "_:Nc059f131eb544693ab65fd0eea3022ad"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N5f536bf972554075a4d949ec4b106259"
+        },
+        {
+          "@id": "_:N228bafebedf24f8fa96d481722338ade"
+        },
+        {
+          "@id": "_:Ndea14a23e154458db8aa209560b5cadd"
+        },
+        {
+          "@id": "_:Nc9fb8cd0903f4df29079dbfd8e3379aa"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_1317"
+        },
+        {
+          "@id": "edam:topic_2640"
+        },
+        {
+          "@id": "edam:topic_0203"
+        },
+        {
+          "@id": "edam:topic_0140"
+        },
+        {
+          "@id": "edam:topic_0623"
+        },
+        {
+          "@id": "edam:topic_0621"
+        },
+        {
+          "@id": "edam:topic_2815"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1126/science.1260419"
+      },
+      "sc:description": "Database with millions of high-resolution images. Expression and localization of proteins in a large variety of normal human tissues, cancer cells and cell lines with the aid of immunohistochemistry (IHC) images and immunofluorescence (IF) confocal microscopy images.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0337"
+        },
+        {
+          "@id": "edam:operation_0224"
+        }
+      ],
+      "sc:name": "The Human Protein Atlas",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:provider": "bils.se",
+      "sc:softwareHelp": {
+        "@id": "http://www.proteinatlas.org/about"
+      },
+      "sc:url": "http://www.proteinatlas.org/"
+    },
+    {
+      "@id": "_:N57a1314d639a4f76b43bfc0055e67a26",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1026"
+      },
+      "sc:name": "Gene symbol"
+    },
+    {
+      "@id": "_:N248988b8253f4e0cb91ca56dc2305b87",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0968"
+      },
+      "sc:name": "Keyword"
+    },
+    {
+      "@id": "_:N06c2cdb76aef4e1fbe827e655834e688",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2772"
+      },
+      "sc:name": "HPA antibody id"
+    },
+    {
+      "@id": "_:Nc059f131eb544693ab65fd0eea3022ad",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1033"
+      },
+      "sc:name": "Ensembl gene ID"
+    },
+    {
+      "@id": "_:N5f536bf972554075a4d949ec4b106259",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0916"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Gene report"
+    },
+    {
+      "@id": "_:N228bafebedf24f8fa96d481722338ade",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0916"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Gene report"
+    },
+    {
+      "@id": "_:Ndea14a23e154458db8aa209560b5cadd",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2603"
+      },
+      "sc:name": "Gene expression data"
+    },
+    {
+      "@id": "_:Nc9fb8cd0903f4df29079dbfd8e3379aa",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0916"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Gene report"
+    },
+    {
+      "@id": "https://doi.org/10.1126/science.1260419",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

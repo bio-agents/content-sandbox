@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.agents/pboost",
+  "@type": "sc:SoftwareApplication",
+  "bioagents:primaryContact": [
+    "Ling Sing Yung",
+    "Weichuan Yu"
+  ],
+  "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+  "sc:additionalType": "Desktop application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0080"
+    },
+    {
+      "@id": "edam:topic_3053"
+    },
+    {
+      "@id": "edam:topic_0622"
+    },
+    {
+      "@id": "edam:topic_0602"
+    }
+  ],
+  "sc:citation": "pubmed:25535244",
+  "sc:description": "GPU based agent for parallel permutation tests in genome-wide association studies.",
+  "sc:featureList": {
+    "@id": "edam:operation_2478"
+  },
+  "sc:name": "PBOOST",
+  "sc:operatingSystem": [
+    "Windows",
+    "Linux"
+  ],
+  "sc:softwareHelp": {
+    "@id": "http://bioinformatics.ust.hk/"
+  },
+  "sc:url": "http://bioinformatics.ust.hk/"
+}

@@ -1,0 +1,79 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1016/S0022-2836(05)80360-2",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/ensembl_sequence_search_blast",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Andrew Yates",
+      "bsc:input": {
+        "@id": "_:N6a427e88b4b74fe4af7e7f25adddbddb"
+      },
+      "bsc:output": {
+        "@id": "_:Nf5e197d2d5fe45a69733c727855b9e9b"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0080"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1016/S0022-2836(05)80360-2"
+      },
+      "sc:description": "Sequence similarity searching against genomic, cds, cdna and protein sequence. BLAT is available for genomic sequence and WU-Blast is used for BLASTing.",
+      "sc:featureList": {
+        "@id": "edam:operation_0346"
+      },
+      "sc:name": "Ensembl Sequence Search BLAST",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:provider": "EMBL-EBI",
+      "sc:softwareHelp": [
+        {
+          "@id": "http://www.ebi.ac.uk/about/terms-of-use"
+        },
+        {
+          "@id": "http://www.ensembl.org/Multi/blastview"
+        }
+      ],
+      "sc:softwareVersion": "1",
+      "sc:url": "http://www.ensembl.org/Multi/blastview"
+    },
+    {
+      "@id": "_:N6a427e88b4b74fe4af7e7f25adddbddb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:name": "Sequence"
+    },
+    {
+      "@id": "_:Nf5e197d2d5fe45a69733c727855b9e9b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0857"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Sequence search results"
+    }
+  ]
+}

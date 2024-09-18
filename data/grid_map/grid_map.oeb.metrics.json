@@ -1,0 +1,128 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:grid_map:3.0a-beta/app/cbr.jic.ac.uk",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-11-05T04:43:48.709763Z",
+        "@type": "metrics",
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "ref_count": 0,
+                            "refs": []
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 4,
+                        "serie": [
+                            4
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 179,
+                        "serie": [
+                            179
+                        ],
+                        "status": 302
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-11-05T04:43:48.659679Z",
+                "last_month_access": {
+                    "downtime_days": 30,
+                    "uptime_days": 0
+                },
+                "license": false,
+                "operational": 408,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://cbr.jic.ac.uk/dicks/software/Grid_Map/index.html"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": false
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/grid_map",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-11-05T04:45:34.344197Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 4,
+                        "serie": [
+                            4
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 179,
+                        "serie": [
+                            179
+                        ],
+                        "status": 302
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-11-05T04:43:48.659679Z",
+                "last_month_access": {
+                    "downtime_days": 30,
+                    "uptime_days": 0
+                },
+                "license": false,
+                "operational": 408,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://cbr.jic.ac.uk/dicks/software/Grid_Map/index.html"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

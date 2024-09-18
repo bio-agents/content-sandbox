@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/skm",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:Ncceffc4ba3364236a64bf11c70fc9a1a"
+      },
+      "bsc:output": {
+        "@id": "_:N5e457da0d7d84191aad5f53642bf25ef"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Database portal",
+        "Web application"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0602"
+        },
+        {
+          "@id": "edam:topic_0780"
+        }
+      ],
+      "sc:author": [
+        "Vid Podpečan",
+        {
+          "@id": "https://orcid.org/0000-0003-1617-7145"
+        }
+      ],
+      "sc:contributor": [
+        "Kristina Gruden",
+        "Živa Ramšak"
+      ],
+      "sc:description": "Stress Knowledge Map:  A compilation of knowledge on mechanisms underlying responses of plants to stress, the so called stress signalling network.",
+      "sc:featureList": {
+        "@id": "edam:operation_2421"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:name": "SKM",
+      "sc:provider": "National Institute of Biology, Department of Biotechnology and Systems Biology",
+      "sc:softwareHelp": {
+        "@id": "https://skm.nib.si/documentation"
+      },
+      "sc:url": "https://skm.nib.si/"
+    },
+    {
+      "@id": "_:Ncceffc4ba3364236a64bf11c70fc9a1a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2299"
+      },
+      "sc:name": "Gene name"
+    },
+    {
+      "@id": "_:N5e457da0d7d84191aad5f53642bf25ef",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2080"
+      },
+      "sc:name": "Database search results"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-1617-7145",
+      "@type": "schema:Person"
+    }
+  ]
+}

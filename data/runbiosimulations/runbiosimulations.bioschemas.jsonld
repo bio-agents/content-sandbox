@@ -1,0 +1,116 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/runbiosimulations",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N56acd502d7d04c26b26c6c3249769cb1"
+      },
+      "bsc:output": {
+        "@id": "_:N5ebc3b934d7443888e49f65d5e7cf900"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3524"
+        },
+        {
+          "@id": "edam:topic_3307"
+        },
+        {
+          "@id": "edam:topic_2259"
+        }
+      ],
+      "sc:author": [
+        {
+          "@id": "https://orcid.org/0000-0002-3746-9676"
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-5801-5510"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-2605-5080"
+        }
+      ],
+      "sc:description": "runBioSimulations is a web application for executing a broad range of modeling studies and visualizing their results. runBioSimulations uses BioSimulators to supports a broad range of modeling frameworks (e.g., logical, constraint-based, kinetic), simulation algorithms (e.g., CVODE, FBA, SSA), and modeling formats (e.g., BNGL, SBML). runBioSimulations also provides a REST API for programmatic access to the same simulation capabilities.",
+      "sc:featureList": {
+        "@id": "edam:operation_2426"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "MIT",
+      "sc:name": "runBioSimulations",
+      "sc:softwareHelp": [
+        {
+          "@id": "https://api.biosimulations.org"
+        },
+        {
+          "@id": "https://docs.biosimulations.org/developers/conduct/"
+        },
+        {
+          "@id": "https://docs.biosimulations.org/community/contributing/"
+        },
+        {
+          "@id": "https://docs.biosimulations.org"
+        },
+        {
+          "@id": "https://docs.biosimulations.org/users/faqs/"
+        },
+        {
+          "@id": "https://docs.biosimulations.org/about/terms/"
+        }
+      ],
+      "sc:url": "https://run.biosimulations.org"
+    },
+    {
+      "@id": "_:N56acd502d7d04c26b26c6c3249769cb1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3869"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3686"
+      },
+      "sc:name": "Simulation"
+    },
+    {
+      "@id": "_:N5ebc3b934d7443888e49f65d5e7cf900",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3869"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3590"
+        },
+        {
+          "@id": "edam:format_3508"
+        }
+      ],
+      "sc:name": "Simulation"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-5801-5510",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-3746-9676",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-2605-5080",
+      "@type": "schema:Person"
+    }
+  ]
+}

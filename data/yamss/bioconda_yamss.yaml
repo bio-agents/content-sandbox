@@ -1,0 +1,11 @@
+bioagents_id: yamss
+description: Agents to analyze and visualize high-throughput metabolomics data aquired
+  using chromatography-mass spectrometry. These agents preprocess data in a way that
+  enables reliable and powerful differential analysis.
+home: https://bioconductor.org/packages/3.12/bioc/html/yamss.html
+identifiers:
+- bioagents:yamss
+license: Artistic-2.0
+name: bioconductor-yamss
+summary: Agents for high-throughput metabolomics
+version: 1.16.0

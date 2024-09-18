@@ -1,0 +1,201 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:a3d-database/db/biocomp.chem.uw.edu.pl",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-09-03T09:33:17.748460Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1101/2021.11.17.468872",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "A3D Database: Structure-based Protein Aggregation Predictions for the Human Proteome",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 735,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 19,
+                        "serie": [
+                            6,
+                            13
+                        ],
+                        "status": 500
+                    },
+                    {
+                        "days": 137,
+                        "serie": [
+                            112,
+                            22,
+                            3
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-09-03T09:33:17.723676Z",
+                "last_month_access": {
+                    "average_access_time": 718,
+                    "downtime_days": 14,
+                    "uptime_days": 14
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/a3d-database",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-09-03T09:33:17.184895Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 247,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 19,
+                        "serie": [
+                            6,
+                            13
+                        ],
+                        "status": 500
+                    },
+                    {
+                        "days": 137,
+                        "serie": [
+                            112,
+                            22,
+                            3
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-09-03T09:33:17.157234Z",
+                "last_month_access": {
+                    "average_access_time": 772,
+                    "downtime_days": 14,
+                    "uptime_days": 14
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:a3d-database/web/biocomp.chem.uw.edu.pl",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-09-03T09:33:17.215218Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1101/2021.11.17.468872",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "A3D Database: Structure-based Protein Aggregation Predictions for the Human Proteome",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 247,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 19,
+                        "serie": [
+                            6,
+                            13
+                        ],
+                        "status": 500
+                    },
+                    {
+                        "days": 137,
+                        "serie": [
+                            112,
+                            22,
+                            3
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-09-03T09:33:17.157234Z",
+                "last_month_access": {
+                    "average_access_time": 676,
+                    "downtime_days": 14,
+                    "uptime_days": 14
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

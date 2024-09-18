@@ -1,0 +1,78 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1101/049619",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/fgmp",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Ousmane Cissé",
+      "bsc:input": {
+        "@id": "_:Na9f701e44a9a4bf998fd9f4499baa4d1"
+      },
+      "bsc:output": {
+        "@id": "_:Nf347a6ad1c564d4da5bb6d3d80af526f"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0097"
+        },
+        {
+          "@id": "edam:topic_0797"
+        },
+        {
+          "@id": "edam:topic_0196"
+        }
+      ],
+      "sc:author": "Ousmane Cissé",
+      "sc:citation": {
+        "@id": "https://doi.org/10.1101/049619"
+      },
+      "sc:contributor": "Jason Stajich",
+      "sc:description": "Genome completeness assessment agent focused on Fungi",
+      "sc:featureList": {
+        "@id": "edam:operation_3180"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "MIT",
+      "sc:name": "FGMP",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareVersion": "1.0.0",
+      "sc:url": "http://github.com/stajichlab/FGMP"
+    },
+    {
+      "@id": "_:Nf347a6ad1c564d4da5bb6d3d80af526f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3181"
+      },
+      "sc:name": "Sequence assembly report"
+    },
+    {
+      "@id": "_:Na9f701e44a9a4bf998fd9f4499baa4d1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0925"
+      },
+      "sc:name": "Sequence assembly"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/map4",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-09-03T08:48:10.664744Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 331,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 176,
+                        "serie": [
+                            69,
+                            3,
+                            14,
+                            51,
+                            19,
+                            5,
+                            9,
+                            6
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 7,
+                        "serie": [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-09-03T08:48:10.566653Z",
+                "last_month_access": {
+                    "average_access_time": 2163,
+                    "downtime_days": 3,
+                    "uptime_days": 25
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://tm.gdb.agents/map4/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:map4/cmd/tm.gdb.agents",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-09-03T08:48:10.629651Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.26434/chemrxiv.11994630.v1",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "One Molecular Fingerprint to Rule them All: Drugs, Biomolecules, and the Metabolome",
+                            "year": 2020
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 256,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 176,
+                        "serie": [
+                            69,
+                            3,
+                            14,
+                            51,
+                            19,
+                            5,
+                            9,
+                            6
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 7,
+                        "serie": [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-09-03T08:48:10.563997Z",
+                "last_month_access": {
+                    "average_access_time": 2013,
+                    "downtime_days": 3,
+                    "uptime_days": 25
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://tm.gdb.agents/map4/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

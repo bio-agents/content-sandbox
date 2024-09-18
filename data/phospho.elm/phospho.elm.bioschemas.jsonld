@@ -1,0 +1,57 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.agents/phospho.elm",
+  "@type": "sc:SoftwareApplication",
+  "bioagents:primaryContact": [
+    "Toby Gibson - project coordinator",
+    "Holger Dinkel - software development, web design",
+    "Francesca Diella - database curator, web design"
+  ],
+  "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+  "sc:additionalType": "Database portal",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0602"
+    },
+    {
+      "@id": "edam:topic_0081"
+    },
+    {
+      "@id": "edam:topic_0080"
+    },
+    {
+      "@id": "edam:topic_3068"
+    }
+  ],
+  "sc:citation": "pubmed:21062810",
+  "sc:description": "It is a relational database designed to store in vivo and in vitro phosphorylation data extracted from the scientific literature and phosphoproteomic analyses. The resource comprises serine, threonine and tyrosine non-redundant phosphorylation sites. New features include: structural disorder/order and accessibility information and a conservation score. Additionally, the conservation of the phosphosites can be visualized directly on the multiple sequence alignment used for the score calculation.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_0448"
+    },
+    {
+      "@id": "edam:operation_0492"
+    }
+  ],
+  "sc:name": "Phospho.ELM",
+  "sc:operatingSystem": [
+    "Linux",
+    "Windows",
+    "Mac"
+  ],
+  "sc:softwareHelp": {
+    "@id": "http://phospho.elm.eu.org/help.html"
+  },
+  "sc:url": "http://phospho.elm.eu.org"
+}

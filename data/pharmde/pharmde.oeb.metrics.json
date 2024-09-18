@@ -1,0 +1,204 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:pharmde/web/pharmde.computpharm.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-09-17T09:19:20.880900Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "faq": true,
+                "general": true,
+                "manual": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1016/j.ijpharm.2021.120962",
+                            "pmid": "34339812",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "PharmDE: A new expert system for drug-excipient compatibility evaluation.",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 815,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 173,
+                        "serie": [
+                            37,
+                            65,
+                            29,
+                            36,
+                            6
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 10,
+                        "serie": [
+                            1,
+                            1,
+                            7,
+                            1
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-09-17T09:19:20.840282Z",
+                "last_month_access": {
+                    "average_access_time": 1241,
+                    "downtime_days": 1,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/pharmde",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-09-17T09:19:20.657414Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 1053,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 173,
+                        "serie": [
+                            37,
+                            65,
+                            29,
+                            36,
+                            6
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 10,
+                        "serie": [
+                            1,
+                            1,
+                            7,
+                            1
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-09-17T09:19:20.622085Z",
+                "last_month_access": {
+                    "average_access_time": 1475,
+                    "downtime_days": 1,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:pharmde/db/pharmde.computpharm.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-09-17T09:19:20.926262Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "faq": true,
+                "general": true,
+                "manual": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1016/j.ijpharm.2021.120962",
+                            "pmid": "34339812",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "PharmDE: A new expert system for drug-excipient compatibility evaluation.",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 811,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 173,
+                        "serie": [
+                            37,
+                            65,
+                            29,
+                            36,
+                            6
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 10,
+                        "serie": [
+                            1,
+                            1,
+                            7,
+                            1
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-09-17T09:19:20.892717Z",
+                "last_month_access": {
+                    "average_access_time": 1102,
+                    "downtime_days": 1,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

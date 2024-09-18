@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/MOAD",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Heather A. Carlson",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0154"
+        },
+        {
+          "@id": "edam:topic_3336"
+        },
+        {
+          "@id": "edam:topic_3068"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1016/J.JMB.2019.05.024"
+        },
+        "pubmed:31125569",
+        "pmcid:PMC6589129"
+      ],
+      "sc:description": "Mother of All Databases (MOAD) - Polypharmacology Agents and Their Utility in Drug Repurposing.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2950"
+        },
+        {
+          "@id": "edam:operation_2575"
+        },
+        {
+          "@id": "edam:operation_0482"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Unlicense",
+      "sc:name": "MOAD",
+      "sc:operatingSystem": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "sc:softwareHelp": [
+        {
+          "@id": "http://www.bindingmoad.org/"
+        },
+        {
+          "@id": "http://www.bindingmoad.org/Home/faq"
+        }
+      ],
+      "sc:url": "http://www.BindingMOAD.org"
+    },
+    {
+      "@id": "https://doi.org/10.1016/J.JMB.2019.05.024",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

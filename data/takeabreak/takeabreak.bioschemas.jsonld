@@ -1,0 +1,78 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1007/978-3-319-07953-0_10",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/takeabreak",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Claire Lemaitre",
+      "bsc:input": {
+        "@id": "_:Nef0aa7241c7241aebfdaf4eb256b0e83"
+      },
+      "bsc:output": {
+        "@id": "_:Ndc0450a76dd7447190935a9629a13fa5"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0199"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1007/978-3-319-07953-0_10"
+      },
+      "sc:description": "A agent that can detect inversion breakpoints directly from raw NGS reads.",
+      "sc:featureList": {
+        "@id": "edam:operation_3197"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:name": "TakeABreak",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:provider": "GenOuest",
+      "sc:softwareHelp": {
+        "@id": "http://colibread.inria.fr/software/takeabreak/"
+      },
+      "sc:softwareVersion": "1.1.0",
+      "sc:url": "http://colibread.inria.fr/software/takeabreak/"
+    },
+    {
+      "@id": "_:Ndc0450a76dd7447190935a9629a13fa5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2977"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Nucleic acid sequence"
+    },
+    {
+      "@id": "_:Nef0aa7241c7241aebfdaf4eb256b0e83",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2975"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2182"
+      },
+      "sc:name": "Nucleic acid sequence (raw)"
+    }
+  ]
+}

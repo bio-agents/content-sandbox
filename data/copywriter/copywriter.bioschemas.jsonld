@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/copywriter",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Thomas Kuilman",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Library"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0080"
+      },
+      "sc:citation": [
+        "pubmed:25887352",
+        "pmcid:PMC4396974",
+        {
+          "@id": "https://doi.org/10.1186/s13059-015-0617-1"
+        }
+      ],
+      "sc:description": "This agent extracts DNA copy number information from targeted sequencing by utilizing off-target reads. It allows extracting uniformly distributed copy number information, and it can be applied to sequencing data obtained from various techniques including chromatin immunoprecipitation and target enrichment on small gene panels. Thereby, this agent constitutes a widely applicable alternative to available copy number detection agents.",
+      "sc:featureList": {
+        "@id": "edam:operation_3233"
+      },
+      "sc:license": "GPL-2.0",
+      "sc:name": "CopywriteR",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/CopywriteR.html"
+      },
+      "sc:softwareVersion": "2.6.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/CopywriteR.html"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s13059-015-0617-1",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

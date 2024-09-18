@@ -1,0 +1,59 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1186/s12859-018-2215-1",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/dinamo",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Chadi Saad",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Library"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3169"
+        },
+        {
+          "@id": "edam:topic_0160"
+        },
+        {
+          "@id": "edam:topic_3168"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/s12859-018-2215-1"
+      },
+      "sc:description": "The DiNAMO software implements an exhaustive algorithm to detect over-represented IUPAC motifs in a set of DNA sequences.",
+      "sc:featureList": {
+        "@id": "edam:operation_0238"
+      },
+      "sc:license": "GPL-3.0",
+      "sc:name": "DiNAMO",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://github.com/bonsai-team/DiNAMO/blob/master/README.md"
+      },
+      "sc:url": "https://github.com/bonsai-team/DiNAMO"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1371/journal.pcbi.1002350",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/seq2pathway",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": [
+        "Ana Marija Sokovic",
+        "Xinan Yang"
+      ],
+      "bsc:input": {
+        "@id": "_:N6fdddaa308eb4a5fa7b090c73f4e678f"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:Nab034d77252b48129dc7056c5fe2da93"
+        },
+        {
+          "@id": "_:N2a346e0243a4441dabc81df6f6c842f7"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Library"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3517"
+        },
+        {
+          "@id": "edam:topic_3169"
+        },
+        {
+          "@id": "edam:topic_3170"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:22291585",
+        "pmcid:PMC3266878",
+        {
+          "@id": "https://doi.org/10.1371/journal.pcbi.1002350"
+        }
+      ],
+      "sc:description": "This functional gene-set agent for the analysis of NGS data consists of \"seq2gene\" and \"gene2path\" components. The seq2gene component links sequence-level measurements of genomic regions (including SNPs or point mutation coordinates) to gene-level scores, and the gene2path feature summarizes gene scores to pathway-scores for each sample.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3680"
+        },
+        {
+          "@id": "edam:operation_2497"
+        }
+      ],
+      "sc:license": "GPL-2.0",
+      "sc:name": "seq2pathway",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/seq2pathway.html"
+      },
+      "sc:softwareVersion": "1.6.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/seq2pathway.html"
+    },
+    {
+      "@id": "_:Nab034d77252b48129dc7056c5fe2da93",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2725"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3033"
+      },
+      "sc:name": "Ensembl transcript ID"
+    },
+    {
+      "@id": "_:N2a346e0243a4441dabc81df6f6c842f7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1772"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3033"
+      },
+      "sc:name": "Score"
+    },
+    {
+      "@id": "_:N6fdddaa308eb4a5fa7b090c73f4e678f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2012"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3033"
+      },
+      "sc:name": "Sequence coordinates"
+    }
+  ]
+}

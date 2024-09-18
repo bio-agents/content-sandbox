@@ -1,0 +1,91 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/tcm-blast",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N26a6ea8dc6cb494e869085f028db1d15"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Web application",
+        "Database portal"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3303"
+        },
+        {
+          "@id": "edam:topic_0602"
+        },
+        {
+          "@id": "edam:topic_0780"
+        },
+        {
+          "@id": "edam:topic_3673"
+        },
+        {
+          "@id": "edam:topic_3172"
+        }
+      ],
+      "sc:citation": [
+        "pmcid:PMC8285853",
+        "pubmed:34273956",
+        {
+          "@id": "https://doi.org/10.1186/S12870-021-03096-1"
+        }
+      ],
+      "sc:description": "TCM-Blast for traditional Chinese medicine genome alignment with integrated resources.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3182"
+        },
+        {
+          "@id": "edam:operation_2421"
+        },
+        {
+          "@id": "edam:operation_0495"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Not licensed",
+      "sc:name": "TCM-Blast",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://viroblast.pungentdb.org.cn/TCM-Blast/docs/viroblasthelp.html"
+      },
+      "sc:url": "http://viroblast.pungentdb.org.cn/TCM-Blast/viroblast.php"
+    },
+    {
+      "@id": "_:N26a6ea8dc6cb494e869085f028db1d15",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3786"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Query script"
+    },
+    {
+      "@id": "https://doi.org/10.1186/S12870-021-03096-1",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/protomata",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "GenOuest",
+      "bsc:input": [
+        {
+          "@id": "_:N5b9f4bc751a44ab8b7672f1bf17012c7"
+        },
+        {
+          "@id": "_:N7f8085b7c7b24091b023359a60d81cb2"
+        },
+        {
+          "@id": "_:N3a49d653ecac420582e291c33891f6d8"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Nfff00ec7284e4d4d97c2904b6adadd5b"
+        },
+        {
+          "@id": "_:Nd410c568f3f04e87a84fa2cd7867b7a1"
+        },
+        {
+          "@id": "_:N78774b5a7d6e464f9efea0a67982edf5"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Web application"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0080"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1007/11564096_50"
+      },
+      "sc:description": "Motif search and discovery in protein sequences.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0239"
+        },
+        {
+          "@id": "edam:operation_0238"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "CECILL-2.0",
+      "sc:name": "Protomata",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:provider": "GenOuest",
+      "sc:softwareHelp": {
+        "@id": "http://agents.genouest.org/agents/protomata/help"
+      },
+      "sc:softwareVersion": "2.0",
+      "sc:url": "http://agents.genouest.org/agents/protomata/"
+    },
+    {
+      "@id": "_:Nfff00ec7284e4d4d97c2904b6adadd5b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1384"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2554"
+      },
+      "sc:name": "Sequence alignment (protein)"
+    },
+    {
+      "@id": "_:Nd410c568f3f04e87a84fa2cd7867b7a1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0858"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Sequence signature matches"
+    },
+    {
+      "@id": "_:N78774b5a7d6e464f9efea0a67982edf5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2071"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2068"
+      },
+      "sc:name": "Sequence motif (protein)"
+    },
+    {
+      "@id": "_:N5b9f4bc751a44ab8b7672f1bf17012c7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2976"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Protein sequence"
+    },
+    {
+      "@id": "_:N7f8085b7c7b24091b023359a60d81cb2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2071"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2068"
+      },
+      "sc:name": "Sequence motif (protein)"
+    },
+    {
+      "@id": "_:N3a49d653ecac420582e291c33891f6d8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2976"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Protein sequence"
+    },
+    {
+      "@id": "https://doi.org/10.1007/11564096_50",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

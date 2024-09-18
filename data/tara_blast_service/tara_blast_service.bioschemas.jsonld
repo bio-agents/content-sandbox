@@ -1,0 +1,65 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/TARA_BLAST_Service",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N3c811b9f5749437b931846f93107ec21"
+      },
+      "bsc:output": {
+        "@id": "_:Naf4c2ea239c54e87ab0d6bd9bad5b753"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0622"
+        },
+        {
+          "@id": "edam:topic_0080"
+        }
+      ],
+      "sc:description": "BLAST service for the entire “TARA OCEANS” collection, an international project to which many researchers of the institute cooperated. It includes assembled sequences of prokaryotic and eukaryotic fractions.",
+      "sc:featureList": {
+        "@id": "edam:operation_0346"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Unlicense",
+      "sc:name": "TARA BLAST Service",
+      "sc:operatingSystem": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "sc:url": "http://bioinfo.szn.it/tara-oceans-data-blast-service/"
+    },
+    {
+      "@id": "_:Naf4c2ea239c54e87ab0d6bd9bad5b753",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0857"
+      },
+      "sc:name": "Sequence search results"
+    },
+    {
+      "@id": "_:N3c811b9f5749437b931846f93107ec21",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:name": "Sequence"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.agents/metamix",
+  "@type": "sc:SoftwareApplication",
+  "bioagents:primaryContact": "Sofia Morfopoulou",
+  "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+  "sc:additionalType": "Command-line agent",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_3796"
+    },
+    {
+      "@id": "edam:topic_3174"
+    },
+    {
+      "@id": "edam:topic_2269"
+    }
+  ],
+  "sc:citation": "pubmed:26002885",
+  "sc:description": "Bayesian mixture model framework for resolving complex metagenomic mixtures.",
+  "sc:featureList": {
+    "@id": "edam:operation_3200"
+  },
+  "sc:name": "metaMix",
+  "sc:operatingSystem": [
+    "Windows",
+    "Linux",
+    "Mac"
+  ],
+  "sc:softwareHelp": {
+    "@id": "https://cran.r-project.org/web/packages/metaMix/metaMix.pdf"
+  },
+  "sc:url": "http://cran.r-project.org/web/packages/metaMix/"
+}

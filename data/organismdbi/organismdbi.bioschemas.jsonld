@@ -1,0 +1,160 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/organismdbi",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Biocore Data Team",
+      "bsc:input": [
+        {
+          "@id": "_:N87dfd4fe288b4aed95863c5e0afd54aa"
+        },
+        {
+          "@id": "_:Nac2906577b0f42abb47456af93fc7c2c"
+        },
+        {
+          "@id": "_:Nf0d1a4ffdb5f43dba8632074a4aa5a31"
+        },
+        {
+          "@id": "_:Nb50a71cec5ba43c180a4a0bb61c1f785"
+        }
+      ],
+      "bsc:output": {
+        "@id": "_:Nf1547b6f9f4c453dbeced4226d921ce3"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Library",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3489"
+        },
+        {
+          "@id": "edam:topic_3473"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1038/nmeth.3252"
+      },
+      "sc:description": "The package enables a simple unified interface to several annotation packages each of which has its own schema by taking advantage of the fact that each of these packages implements a select methods.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2422"
+        },
+        {
+          "@id": "edam:operation_3561"
+        },
+        {
+          "@id": "edam:operation_0361"
+        },
+        {
+          "@id": "edam:operation_2421"
+        }
+      ],
+      "sc:license": "Artistic-2.0",
+      "sc:name": "OrganismDbi",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/OrganismDbi.html"
+      },
+      "sc:softwareVersion": "1.16.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/OrganismDbi.html"
+    },
+    {
+      "@id": "_:N87dfd4fe288b4aed95863c5e0afd54aa",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2909"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3033"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Organism name"
+    },
+    {
+      "@id": "_:Nac2906577b0f42abb47456af93fc7c2c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1056"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3033"
+        }
+      ],
+      "sc:name": "Database name"
+    },
+    {
+      "@id": "_:Nf0d1a4ffdb5f43dba8632074a4aa5a31",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0989"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3033"
+        }
+      ],
+      "sc:name": "Protein identifier"
+    },
+    {
+      "@id": "_:Nb50a71cec5ba43c180a4a0bb61c1f785",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1025"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3033"
+        }
+      ],
+      "sc:name": "Gene identifier"
+    },
+    {
+      "@id": "_:Nf1547b6f9f4c453dbeced4226d921ce3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2080"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3033"
+      },
+      "sc:name": "Database search results"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nmeth.3252",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+bioagents_id: cqn
+description: A normalization agent for RNA-Seq data, implementing the conditional quantile
+  normalization method.
+home: https://bioconductor.org/packages/3.12/bioc/html/cqn.html
+identifiers:
+- bioagents:cqn
+license: Artistic-2.0
+name: bioconductor-cqn
+summary: Conditional quantile normalization
+version: 1.36.0

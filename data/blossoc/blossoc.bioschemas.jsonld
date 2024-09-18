@@ -1,0 +1,92 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1186/1471-2105-7-454",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/blossoc",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Thomas Mailund",
+      "bsc:input": [
+        {
+          "@id": "_:N7a20348d851c499fa1db6c17a1996206"
+        },
+        {
+          "@id": "_:Ne1b0438510f74b4584c15802ba347454"
+        }
+      ],
+      "bsc:output": {
+        "@id": "_:N6fa866cbeb6346f5a409fe3f4b8d02fd"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0102"
+      },
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1534/genetics.108.092643"
+        },
+        {
+          "@id": "https://doi.org/10.1186/1471-2105-7-454"
+        }
+      ],
+      "sc:description": "Block-Association Mapping.",
+      "sc:featureList": {
+        "@id": "edam:operation_0488"
+      },
+      "sc:name": "Blossoc",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux"
+      ],
+      "sc:provider": "birc.au.dk",
+      "sc:softwareHelp": {
+        "@id": "http://www.daimi.au.dk/~mailund/Blossoc/"
+      },
+      "sc:softwareVersion": "1.4.0",
+      "sc:url": "http://www.daimi.au.dk/~mailund/Blossoc/"
+    },
+    {
+      "@id": "_:N7a20348d851c499fa1db6c17a1996206",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1863"
+      },
+      "sc:name": "Haplotype map"
+    },
+    {
+      "@id": "_:Ne1b0438510f74b4584c15802ba347454",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2012"
+      },
+      "sc:name": "Sequence coordinates"
+    },
+    {
+      "@id": "_:N6fa866cbeb6346f5a409fe3f4b8d02fd",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:name": "Image"
+    },
+    {
+      "@id": "https://doi.org/10.1534/genetics.108.092643",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btv335",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/fourcseq",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Felix A. Klein",
+      "bsc:input": [
+        {
+          "@id": "_:N22a7e0d6dcc1407595b68091516acee8"
+        },
+        {
+          "@id": "_:Nf7e5b967e98049f2ba1f5559adf2480f"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N493729b74bdb4617b641bf311b12d603"
+        },
+        {
+          "@id": "_:Nf518fe260bc144f7997f5376bcf22950"
+        },
+        {
+          "@id": "_:N0e93149b38024a938209af93bea4625b"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Library",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3168"
+      },
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/bioinformatics/btv335"
+        },
+        "pmcid:PMC4576695",
+        "pubmed:26034064"
+      ],
+      "sc:description": "R package dedicated to the analysis of (multiplexed) 4C sequencing data. It provides a pipeline to detect specific interactions between DNA elements and identify differential interactions between conditions. The statistical analysis in R starts with individual bam files for each sample as inputs. To obtain these files, the package contains a python script to demultiplex libraries and trim off primer sequences. With a standard alignment software the required bam files can be then be generated.",
+      "sc:featureList": {
+        "@id": "edam:operation_2478"
+      },
+      "sc:license": "GPL-3.0",
+      "sc:name": "FourCSeq",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/FourCSeq.html"
+      },
+      "sc:softwareVersion": "1.8.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/FourCSeq.html"
+    },
+    {
+      "@id": "_:N493729b74bdb4617b641bf311b12d603",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2955"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Sequence report"
+    },
+    {
+      "@id": "_:Nf518fe260bc144f7997f5376bcf22950",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1017"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Sequence range"
+    },
+    {
+      "@id": "_:N0e93149b38024a938209af93bea4625b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:N22a7e0d6dcc1407595b68091516acee8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0849"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2572"
+        },
+        {
+          "@id": "edam:format_1929"
+        }
+      ],
+      "sc:name": "Sequence record"
+    },
+    {
+      "@id": "_:Nf7e5b967e98049f2ba1f5559adf2480f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1383"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2572"
+        },
+        {
+          "@id": "edam:format_1929"
+        }
+      ],
+      "sc:name": "Sequence alignment (nucleic acid)"
+    }
+  ]
+}

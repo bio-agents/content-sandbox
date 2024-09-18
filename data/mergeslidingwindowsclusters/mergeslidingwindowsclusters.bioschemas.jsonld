@@ -1,0 +1,246 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/mergeslidingwindowsclusters",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Galaxy Support Team",
+      "bsc:input": [
+        {
+          "@id": "_:Nd0bb5c68b6f94dde8ac165a6a7d791f1"
+        },
+        {
+          "@id": "_:Ne18a7c193e5c4498b3c3feb67552fa2f"
+        },
+        {
+          "@id": "_:N88124b0d84ae4b789e172b281ca5f98f"
+        },
+        {
+          "@id": "_:N936d9d5385194443acc7d68c3584a555"
+        },
+        {
+          "@id": "_:Ne17702357c2844b4b2dad39990e37351"
+        },
+        {
+          "@id": "_:Ne9b00bbfbd9143cd85c41bb81f1e5b67"
+        },
+        {
+          "@id": "_:N0802b7ceab994fb7ad9276e1dc719ffb"
+        },
+        {
+          "@id": "_:Nca4181ba6bd14c5c835b4676434aca0d"
+        },
+        {
+          "@id": "_:N143f3d44ddf547ec9a38b6deb348ff1f"
+        },
+        {
+          "@id": "_:N20819f59f7434e2e8546e6c46df0a5ad"
+        },
+        {
+          "@id": "_:Nfa0c3b97343f4073aeb3db6773a83ec6"
+        },
+        {
+          "@id": "_:N935cf8bc6e3e4cb884956bdfe653684a"
+        }
+      ],
+      "bsc:output": {
+        "@id": "_:Nea4245b3079e44db843985b09edd1755"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_3365"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/nar/gkw343"
+        },
+        {
+          "@id": "https://doi.org/10.7490/f1000research.1114334.1"
+        }
+      ],
+      "sc:description": "Merges two files containing the results of a sliding windows clustering.",
+      "sc:featureList": {
+        "@id": "edam:operation_2409"
+      },
+      "sc:name": "mergeslidingwindowsclusters",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://galaxyproject.org/support/"
+      },
+      "sc:softwareVersion": "1.0.0",
+      "sc:url": "https://urgi.versailles.inra.fr/Agents/REPET"
+    },
+    {
+      "@id": "_:Nd0bb5c68b6f94dde8ac165a6a7d791f1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:Ne18a7c193e5c4498b3c3feb67552fa2f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2306"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N88124b0d84ae4b789e172b281ca5f98f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1975"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N936d9d5385194443acc7d68c3584a555",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3002"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3003"
+      },
+      "sc:name": "Annotation track"
+    },
+    {
+      "@id": "_:Ne17702357c2844b4b2dad39990e37351",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0924"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2573"
+      },
+      "sc:name": "Sequence trace"
+    },
+    {
+      "@id": "_:Ne9b00bbfbd9143cd85c41bb81f1e5b67",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0924"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2573"
+      },
+      "sc:name": "Sequence trace"
+    },
+    {
+      "@id": "_:N0802b7ceab994fb7ad9276e1dc719ffb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:Nca4181ba6bd14c5c835b4676434aca0d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2305"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N143f3d44ddf547ec9a38b6deb348ff1f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2305"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N20819f59f7434e2e8546e6c46df0a5ad",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1975"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:Nfa0c3b97343f4073aeb3db6773a83ec6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2306"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N935cf8bc6e3e4cb884956bdfe653684a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3002"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3003"
+      },
+      "sc:name": "Annotation track"
+    },
+    {
+      "@id": "_:Nea4245b3079e44db843985b09edd1755",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1975"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

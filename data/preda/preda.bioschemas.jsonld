@@ -1,0 +1,168 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/preda",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Francesco Ferrari",
+      "bsc:input": [
+        {
+          "@id": "_:Nd43f670a7ac141b28d6eb99dcc630062"
+        },
+        {
+          "@id": "_:N11106b9581e943e8bd0574b74ae54818"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Nb06b3ec0463d4fc5ab5c61724c381c8e"
+        },
+        {
+          "@id": "_:N5f680c5206bc47f592d1fd090586b253"
+        },
+        {
+          "@id": "_:N7956ead7ff3347d19074b244666d8768"
+        },
+        {
+          "@id": "_:N7564490812d84f5899b96bd0a207a35f"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Library",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2640"
+        },
+        {
+          "@id": "edam:topic_0085"
+        },
+        {
+          "@id": "edam:topic_3055"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btr404"
+      },
+      "sc:description": "Package for the position related analysis of quantitative functional genomics data.",
+      "sc:featureList": {
+        "@id": "edam:operation_3223"
+      },
+      "sc:license": "GPL-2.0",
+      "sc:name": "PREDA",
+      "sc:operatingSystem": [
+        "Mac",
+        "Windows",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/PREDA.html"
+      },
+      "sc:softwareVersion": "1.20.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/PREDA.html"
+    },
+    {
+      "@id": "_:Nd43f670a7ac141b28d6eb99dcc630062",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2012"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3033"
+      },
+      "sc:name": "Sequence coordinates"
+    },
+    {
+      "@id": "_:N11106b9581e943e8bd0574b74ae54818",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3112"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3033"
+      },
+      "sc:name": "Gene expression matrix"
+    },
+    {
+      "@id": "_:Nb06b3ec0463d4fc5ab5c61724c381c8e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2012"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_3033"
+        }
+      ],
+      "sc:name": "Sequence coordinates"
+    },
+    {
+      "@id": "_:N5f680c5206bc47f592d1fd090586b253",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2166"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3033"
+        },
+        {
+          "@id": "edam:format_3547"
+        }
+      ],
+      "sc:name": "Sequence composition plot"
+    },
+    {
+      "@id": "_:N7956ead7ff3347d19074b244666d8768",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1288"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_3033"
+        }
+      ],
+      "sc:name": "Genome map"
+    },
+    {
+      "@id": "_:N7564490812d84f5899b96bd0a207a35f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1772"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_3033"
+        }
+      ],
+      "sc:name": "Score"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btr404",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

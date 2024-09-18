@@ -1,0 +1,135 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bts438",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/ibbig",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Aedin Culhane",
+      "bsc:input": {
+        "@id": "_:N2dcc8567e190496d8742ef5d3f094d58"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:Nfc1271aae51445f48a565ae72536d810"
+        },
+        {
+          "@id": "_:N0783c1ea76444609820810c632944dc5"
+        },
+        {
+          "@id": "_:N6d85d08cb7ab496699bd9e356c295edc"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Library",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0203"
+        },
+        {
+          "@id": "edam:topic_3473"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/bts438"
+      },
+      "sc:description": "A bi-clustering algorithm which is optimizes for binary data analysis. It is applied to meta-gene set analysis of large numbers of gene expression datasets. The iterative algorithm extracts groups of phenotypes from multiple studies that are associated with similar gene sets. The agent does not require prior knowledge of the number or scale of clusters and allows discovery of clusters with diverse sizes.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0313"
+        },
+        {
+          "@id": "edam:operation_3224"
+        }
+      ],
+      "sc:license": "Artistic-2.0",
+      "sc:name": "iBBiG",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/iBBiG.html"
+      },
+      "sc:softwareVersion": "1.18.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/iBBiG.html"
+    },
+    {
+      "@id": "_:N2dcc8567e190496d8742ef5d3f094d58",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2082"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3033"
+      },
+      "sc:name": "Matrix"
+    },
+    {
+      "@id": "_:Nfc1271aae51445f48a565ae72536d810",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1772"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3547"
+        }
+      ],
+      "sc:name": "Score"
+    },
+    {
+      "@id": "_:N0783c1ea76444609820810c632944dc5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3547"
+        }
+      ],
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:N6d85d08cb7ab496699bd9e356c295edc",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3547"
+        }
+      ],
+      "sc:name": "Report"
+    }
+  ]
+}

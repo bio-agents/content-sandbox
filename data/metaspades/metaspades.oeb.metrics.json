@@ -1,0 +1,1524 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaspades:3.13.1/cmd/cab.spbu.ru",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T06:13:15.890205Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": false,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 991,
+                            "citations": [
+                                {
+                                    "count": 17,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 73,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 126,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 223,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 287,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 264,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                }
+                            ],
+                            "doi": "10.1101/gr.213959.116",
+                            "pmcid": "PMC5411777",
+                            "pmid": "28298430",
+                            "ref_count": 77,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 13,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2016"
+                                }
+                            ],
+                            "title": "metaSPAdes: a new versatile metagenomic assembler.",
+                            "year": 2017
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 1393,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            82,
+                            100
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-11-19T03:20:14.835541Z",
+                "last_month_access": {
+                    "average_access_time": 2347,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT180862S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaspades:3.11.1/cmd/cab.spbu.ru",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T06:10:44.374803Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 9127,
+                            "citations": [
+                                {
+                                    "count": 3,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 27,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 115,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 341,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 697,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 991,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1231,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 1516,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 1502,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 2019,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 685,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1089/cmb.2012.0021",
+                            "pmcid": "PMC3342519",
+                            "pmid": "22506599",
+                            "ref_count": 42,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2011"
+                                }
+                            ],
+                            "title": "SPAdes: a new genome assembly algorithm and its applications to single-cell sequencing.",
+                            "year": 2012
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 1393,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            82,
+                            100
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-11-19T03:20:14.835541Z",
+                "last_month_access": {
+                    "average_access_time": 2347,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaspades:3.12.0/cmd/cab.spbu.ru",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T06:07:48.856474Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": false,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 991,
+                            "citations": [
+                                {
+                                    "count": 17,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 73,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 126,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 223,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 287,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 264,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                }
+                            ],
+                            "doi": "10.1101/gr.213959.116",
+                            "pmcid": "PMC5411777",
+                            "pmid": "28298430",
+                            "ref_count": 77,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 13,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2016"
+                                }
+                            ],
+                            "title": "metaSPAdes: a new versatile metagenomic assembler.",
+                            "year": 2017
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 1393,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            82,
+                            100
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-11-19T03:20:14.835541Z",
+                "last_month_access": {
+                    "average_access_time": 2347,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT180862S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaspades:3.13.0/cmd/cab.spbu.ru",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T06:13:35.042025Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": false,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 991,
+                            "citations": [
+                                {
+                                    "count": 17,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 73,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 126,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 223,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 287,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 264,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                }
+                            ],
+                            "doi": "10.1101/gr.213959.116",
+                            "pmcid": "PMC5411777",
+                            "pmid": "28298430",
+                            "ref_count": 77,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 13,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2016"
+                                }
+                            ],
+                            "title": "metaSPAdes: a new versatile metagenomic assembler.",
+                            "year": 2017
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 1393,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            82,
+                            100
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-11-19T03:20:14.835541Z",
+                "last_month_access": {
+                    "average_access_time": 2347,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT180862S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaspades:3.5.0/cmd/cab.spbu.ru",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T06:12:25.302385Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 9127,
+                            "citations": [
+                                {
+                                    "count": 3,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 27,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 115,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 341,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 697,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 991,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1231,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 1516,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 1502,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 2019,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 685,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1089/cmb.2012.0021",
+                            "pmcid": "PMC3342519",
+                            "pmid": "22506599",
+                            "ref_count": 42,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2011"
+                                }
+                            ],
+                            "title": "SPAdes: a new genome assembly algorithm and its applications to single-cell sequencing.",
+                            "year": 2012
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 1393,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            82,
+                            100
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-11-19T03:20:14.835541Z",
+                "last_month_access": {
+                    "average_access_time": 2347,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaspades:3.9.1/cmd/cab.spbu.ru",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T06:12:02.012360Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 991,
+                            "citations": [
+                                {
+                                    "count": 17,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 73,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 126,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 223,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 287,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 264,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                }
+                            ],
+                            "doi": "10.1101/gr.213959.116",
+                            "pmcid": "PMC5411777",
+                            "pmid": "28298430",
+                            "ref_count": 77,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 13,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2016"
+                                }
+                            ],
+                            "title": "metaSPAdes: a new versatile metagenomic assembler.",
+                            "year": 2017
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 1393,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            82,
+                            100
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-11-19T03:20:14.835541Z",
+                "last_month_access": {
+                    "average_access_time": 2347,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:metaspades:3.11.0/cmd/cab.spbu.ru",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T06:10:50.726476Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 1393,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            82,
+                            100
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-11-19T03:20:14.835541Z",
+                "last_month_access": {
+                    "average_access_time": 2347,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:metaspades:3.9.0/web/cab.spbu.ru",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-11-19T06:10:13.582559Z",
+        "@type": "metrics",
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "manual": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 9127,
+                            "citations": [
+                                {
+                                    "count": 3,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 27,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 115,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 341,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 697,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 991,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1231,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 1516,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 1502,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 2019,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 685,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1089/cmb.2012.0021",
+                            "pmcid": "PMC3342519",
+                            "pmid": "22506599",
+                            "ref_count": 42,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2011"
+                                }
+                            ],
+                            "title": "SPAdes: a new genome assembly algorithm and its applications to single-cell sequencing.",
+                            "year": 2012
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 1015,
+                            "citations": [
+                                {
+                                    "count": 28,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 197,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 277,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 208,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 149,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 122,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 34,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1093/nar/gkw343",
+                            "pmcid": "PMC4987906",
+                            "pmid": "27137889",
+                            "ref_count": 21,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2016"
+                                }
+                            ],
+                            "title": "The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2016 update.",
+                            "year": 2016
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.7490/f1000research.1114334.1",
+                            "ref_count": 0,
+                            "refs": []
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 1393,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            82,
+                            100
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-11-19T03:20:14.835541Z",
+                "last_month_access": {
+                    "average_access_time": 2347,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/galaxy:metaspades:3.9.0/workflow/agentshed.g2.bx.psu.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "galaxy",
+        "@timestamp": "2022-11-19T06:15:24.238025Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 2083,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 24,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 100,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 296,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 556,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 780,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 326,
+                                    "year": "2018"
+                                }
+                            ],
+                            "doi": "10.1089/cmb.2012.0021",
+                            "pmcid": "PMC3342519",
+                            "pmid": "22506599",
+                            "ref_count": 36,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2011"
+                                }
+                            ],
+                            "title": "SPAdes: a new genome assembly algorithm and its applications to single-cell sequencing.",
+                            "year": 2012
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T06:15:24.174274Z",
+                "last_month_access": {
+                    "average_access_time": 886,
+                    "downtime_days": 30,
+                    "uptime_days": 0
+                },
+                "license": false,
+                "operational": 408,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/metaspades",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-11-19T06:13:00.742509Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 1393,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            82,
+                            100
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-11-19T03:20:14.835541Z",
+                "last_month_access": {
+                    "average_access_time": 2347,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

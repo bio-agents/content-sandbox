@@ -1,0 +1,53 @@
+softwares:
+  harvest-agents:
+    labels:
+      about.copyright: 2014 Brian Ondov, Todd Treangen, and Adam Phillippy
+      about.home: http://harvest.readthedocs.org/en/latest/content/harvest-agents.html
+      about.license: BSD-3-clause
+      about.license_file: /usr/share/doc/harvest-agents/copyright
+      about.summary: archiving and postprocessing for reference-compressed genomic
+        multi-alignments
+      about.tags: ''
+      base_image: biocontainers/biocontainers:vdebian-buster-backports_cv1
+      container: harvest-agents
+      extra.binaries: /usr/bin/harvestagents
+      software: harvest-agents
+      software.version: 1.3-4-deb
+      upstream.version: '1.3'
+      version: '1'
+    software: harvest-agents
+    versions:
+    - labels:
+        about.copyright: 2014 Brian Ondov, Todd Treangen, and Adam Phillippy
+        about.home: http://harvest.readthedocs.org/en/latest/content/harvest-agents.html
+        about.license: BSD-3-clause
+        about.license_file: /usr/share/doc/harvest-agents/copyright
+        about.summary: archiving and postprocessing for reference-compressed genomic
+          multi-alignments
+        about.tags: ''
+        base_image: biocontainers/biocontainers:vdebian-buster-backports_cv1
+        container: harvest-agents
+        extra.binaries: /usr/bin/harvestagents
+        software: harvest-agents
+        software.version: 1.3-4-deb
+        upstream.version: '1.3'
+        version: '1'
+      type: Container file
+      url: biocontainers/harvest-agents:1.3-4-deb-1
+      version: 1.3-4-deb-1
+    - labels:
+        about.copyright: 2014 Brian Ondov, Todd Treangen, and Adam Phillippy
+        about.home: http://harvest.readthedocs.org/en/latest/content/harvest-agents.html
+        about.license: BSD-3-clause
+        about.license_file: /usr/share/doc/harvest-agents/copyright
+        about.summary: archiving and postprocessing for reference-compressed genomic
+          multi-alignments
+        about.tags: ''
+        container: harvest-agents
+        extra.binaries: /usr/bin/harvestagents
+        software: harvest-agents
+        software.version: 1.3-1-deb
+        version: '1'
+      type: Container file
+      url: biocontainers/harvest-agents:1.3-1-deb-1
+      version: 1.3-1-deb-1

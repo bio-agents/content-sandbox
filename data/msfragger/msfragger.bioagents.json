@@ -1,0 +1,124 @@
+{
+    "accessibility": "Open access",
+    "additionDate": "2018-06-11T09:48:30Z",
+    "bioagentsCURIE": "bioagents:msfragger",
+    "bioagentsID": "msfragger",
+    "collectionID": [
+        "Proteomics"
+    ],
+    "cost": "Free of charge",
+    "credit": [
+        {
+            "email": "nesvi@umich.edu",
+            "name": "Alexey Nesvizhskii",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "A database search agent for performing mass spectometry data similarity comparisons. For that it uses a fragment ion indexing method.",
+    "download": [
+        {
+            "type": "Source code",
+            "url": "http://www.nesvilab.org/software"
+        }
+    ],
+    "editPermission": {
+        "authors": [
+            "proteomics.bio.agents"
+        ],
+        "type": "group"
+    },
+    "function": [
+        {
+            "input": [
+                {
+                    "data": {
+                        "term": "Spectrum",
+                        "uri": "http://edamontology.org/data_3483"
+                    },
+                    "format": [
+                        {
+                            "term": "Mass spectrometry data format",
+                            "uri": "http://edamontology.org/format_3245"
+                        }
+                    ]
+                }
+            ],
+            "operation": [
+                {
+                    "term": "Database search",
+                    "uri": "http://edamontology.org/operation_2421"
+                },
+                {
+                    "term": "Spectral library search",
+                    "uri": "http://edamontology.org/operation_3801"
+                }
+            ],
+            "output": [
+                {
+                    "data": {
+                        "term": "Database search results",
+                        "uri": "http://edamontology.org/data_2080"
+                    }
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.nesvilab.org/software",
+    "language": [
+        "Java"
+    ],
+    "lastUpdate": "2020-06-16T10:55:21Z",
+    "maturity": "Mature",
+    "name": "MSFragger",
+    "owner": "IECHOR-EE",
+    "publication": [
+        {
+            "doi": "10.1038/nmeth.4256",
+            "metadata": {
+                "abstract": "© 2017 Nature America, Inc. part of Springer Nature. All rights reserved.There is a need to better understand and handle the 'dark matter' of proteomics-the vast diversity of post-translational and chemical modifications that are unaccounted in a typical mass spectrometry-based analysis and thus remain unidentified. We present a fragment-ion indexing method, and its implementation in peptide identification agent MSFragger, that enables a more than 100-fold improvement in speed over most existing proteome database search agents. Using several large proteomic data sets, we demonstrate how MSFragger empowers the open database search concept for comprehensive identification of peptides and all their modified forms, uncovering dramatic differences in modification rates across experimental samples and conditions. We further illustrate its utility using protein-RNA cross-linked peptide data and using affinity purification experiments where we observe, on average, a 300% increase in the number of identified spectra for enriched proteins. We also discuss the benefits of open searching for improved false discovery rate estimation in proteomics.",
+                "authors": [
+                    {
+                        "name": "Avtonomov D.M."
+                    },
+                    {
+                        "name": "Kong A.T."
+                    },
+                    {
+                        "name": "Leprevost F.V."
+                    },
+                    {
+                        "name": "Mellacheruvu D."
+                    },
+                    {
+                        "name": "Nesvizhskii A.I."
+                    }
+                ],
+                "citationCount": 225,
+                "date": "2017-04-27T00:00:00Z",
+                "journal": "Nature Methods",
+                "title": "MSFragger: Ultrafast and comprehensive peptide identification in mass spectrometry-based proteomics"
+            }
+        }
+    ],
+    "agentType": [
+        "Script"
+    ],
+    "topic": [
+        {
+            "term": "Protein modifications",
+            "uri": "http://edamontology.org/topic_0601"
+        },
+        {
+            "term": "Proteomics",
+            "uri": "http://edamontology.org/topic_0121"
+        },
+        {
+            "term": "Proteomics experiment",
+            "uri": "http://edamontology.org/topic_3520"
+        }
+    ],
+    "validated": 1
+}

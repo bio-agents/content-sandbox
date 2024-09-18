@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1038/nmeth.3252",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/bader",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Andreas Neudecker",
+      "bsc:input": {
+        "@id": "_:N8a717d5f299a41058794d8b3f8c9f87c"
+      },
+      "bsc:output": {
+        "@id": "_:Na3af1b4e8a294821ad5793f31054ca43"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Library"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3170"
+        },
+        {
+          "@id": "edam:topic_2269"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1038/nmeth.3252"
+      },
+      "sc:description": "For RNA sequencing count data, this agent fits a Bayesian hierarchical model. Its algorithm returns the posterior probability of differential expression for each gene between two groups A and B. The joint posterior distribution of the variables in the model can be returned in the form of posterior samples, which can be used for further down-stream analyses such as gene set enrichment.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3563"
+        },
+        {
+          "@id": "edam:operation_3223"
+        }
+      ],
+      "sc:license": "GPL-2.0",
+      "sc:name": "BADER",
+      "sc:operatingSystem": [
+        "Mac",
+        "Windows",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/BADER.html"
+      },
+      "sc:softwareVersion": "1.12.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/BADER.html"
+    },
+    {
+      "@id": "_:Na3af1b4e8a294821ad5793f31054ca43",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1772"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Score"
+    },
+    {
+      "@id": "_:N8a717d5f299a41058794d8b3f8c9f87c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2084"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Nucleic acid report"
+    }
+  ]
+}

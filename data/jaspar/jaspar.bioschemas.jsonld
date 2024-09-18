@@ -1,0 +1,300 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gkj115",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkh012",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkx1126",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "http://orcid.org/0000-0001-5127-5459",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkm955",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkp950",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkv1176",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btx804",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkt997",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/jaspar",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": [
+        "Boris Lenhard",
+        {
+          "@id": "http://orcid.org/0000-0001-5127-5459"
+        },
+        "Wyeth Wasserman",
+        "Albin Sandelin"
+      ],
+      "bsc:input": [
+        {
+          "@id": "_:Nd87269a0511d448fa8d0ff8fafd87ed6"
+        },
+        {
+          "@id": "_:Nf54e4d6b40f64504a50dad1027e0b6e9"
+        },
+        {
+          "@id": "_:Nde0be2c6f9514dbbb4a6093313d1e168"
+        },
+        {
+          "@id": "_:N7a3dfe048f484c86b0c88bb104f39bec"
+        },
+        {
+          "@id": "_:Ne6e77bc4f24341e2867ce3f0cf3756b7"
+        },
+        {
+          "@id": "_:N72e62a3d5fc2444fbfd76a34f2f0baf0"
+        },
+        {
+          "@id": "_:N343a283da113413fbc197526e8247619"
+        },
+        {
+          "@id": "_:N8cdb1bb57155486fab2e0aa56c0631b9"
+        },
+        {
+          "@id": "_:Nf6b4754ccdaf4c6fa459d737271dfdb2"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N3a62b78991f3406d87f31f0467970cd5"
+        },
+        {
+          "@id": "_:Nf851b5b874a84073acd7043bc7ef719b"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Web API",
+        "Web application",
+        "Database portal"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0749"
+        },
+        {
+          "@id": "edam:topic_0204"
+        },
+        {
+          "@id": "edam:topic_0622"
+        },
+        {
+          "@id": "edam:topic_2815"
+        },
+        {
+          "@id": "edam:topic_0621"
+        },
+        {
+          "@id": "edam:topic_0780"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:29253085",
+        "pubmed:18006571",
+        {
+          "@id": "https://doi.org/10.1093/nar/gkv1176"
+        },
+        {
+          "@id": "https://doi.org/10.1093/nar/gkt997"
+        },
+        "pubmed:26531826",
+        {
+          "@id": "https://doi.org/10.1093/bioinformatics/btx804"
+        },
+        {
+          "@id": "https://doi.org/10.1093/nar/gkh012"
+        },
+        {
+          "@id": "https://doi.org/10.1093/nar/gkj115"
+        },
+        {
+          "@id": "https://doi.org/10.1093/nar/gkm955"
+        },
+        "pubmed:14681366",
+        {
+          "@id": "https://doi.org/10.1093/nar/gkp950"
+        },
+        "pubmed:16381983",
+        "pubmed:19906716",
+        {
+          "@id": "https://doi.org/10.1093/nar/gkx1126"
+        },
+        "pubmed:24194598"
+      ],
+      "sc:description": "The high-quality transcription factor binding profile database.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0445"
+        },
+        {
+          "@id": "edam:operation_2421"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "CC-BY-4.0",
+      "sc:name": "JASPAR",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:softwareHelp": [
+        {
+          "@id": "http://jaspar.genereg.net/api/v1/docs/"
+        },
+        {
+          "@id": "http://jaspar.genereg.net/faq/"
+        },
+        {
+          "@id": "http://jaspar.genereg.net/docs/"
+        }
+      ],
+      "sc:url": "http://jaspar.genereg.net/"
+    },
+    {
+      "@id": "_:Nd87269a0511d448fa8d0ff8fafd87ed6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3671"
+      },
+      "sc:name": "Text"
+    },
+    {
+      "@id": "_:Nf54e4d6b40f64504a50dad1027e0b6e9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1077"
+      },
+      "sc:name": "Transcription factor identifier"
+    },
+    {
+      "@id": "_:Nde0be2c6f9514dbbb4a6093313d1e168",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1868"
+      },
+      "sc:name": "Taxon"
+    },
+    {
+      "@id": "_:N7a3dfe048f484c86b0c88bb104f39bec",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2755"
+      },
+      "sc:name": "Transcription factor name"
+    },
+    {
+      "@id": "_:Ne6e77bc4f24341e2867ce3f0cf3756b7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2732"
+      },
+      "sc:name": "Family name"
+    },
+    {
+      "@id": "_:N72e62a3d5fc2444fbfd76a34f2f0baf0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3494"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "DNA sequence"
+    },
+    {
+      "@id": "_:N343a283da113413fbc197526e8247619",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1119"
+      },
+      "sc:name": "JASPAR profile ID"
+    },
+    {
+      "@id": "_:N8cdb1bb57155486fab2e0aa56c0631b9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2291"
+      },
+      "sc:name": "UniProt ID"
+    },
+    {
+      "@id": "_:Nf6b4754ccdaf4c6fa459d737271dfdb2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1045"
+      },
+      "sc:name": "Species name"
+    },
+    {
+      "@id": "_:N3a62b78991f3406d87f31f0467970cd5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1119"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3475"
+        },
+        {
+          "@id": "edam:format_3752"
+        },
+        {
+          "@id": "edam:format_1367"
+        },
+        {
+          "@id": "edam:format_3750"
+        },
+        {
+          "@id": "edam:format_3464"
+        }
+      ],
+      "sc:name": "JASPAR profile ID"
+    },
+    {
+      "@id": "_:Nf851b5b874a84073acd7043bc7ef719b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1119"
+      },
+      "sc:name": "JASPAR profile ID"
+    }
+  ]
+}

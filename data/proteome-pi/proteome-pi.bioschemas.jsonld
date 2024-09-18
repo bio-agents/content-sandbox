@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/proteome-pi",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": {
+        "@id": "http://orcid.org/0000-0001-8187-1980"
+      },
+      "bsc:input": {
+        "@id": "_:Nbd999790b7114567af9c6848503d713e"
+      },
+      "bsc:output": {
+        "@id": "_:N6592bd0a7c384657aaa1acb33f76b0a9"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0123"
+        },
+        {
+          "@id": "edam:topic_3520"
+        },
+        {
+          "@id": "edam:topic_0121"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/nar/gkw978"
+        },
+        "pmcid:PMC5210655",
+        "pubmed:27789699"
+      ],
+      "sc:description": "The database of pre-computed isoelectric points for proteomes from different model organisms (5029 species). Goals of the database include making statistical comparisons of the various prediction methods (18 algorithms implemented) as well as facilitating biological investigation of protein isoelectric point space.",
+      "sc:featureList": {
+        "@id": "edam:operation_2479"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "CC-BY-4.0",
+      "sc:name": "Proteome-pI",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://isoelectricpointdb.org/statistics.html"
+      },
+      "sc:softwareVersion": "1.0",
+      "sc:url": "http://isoelectricpointdb.org/"
+    },
+    {
+      "@id": "_:N6592bd0a7c384657aaa1acb33f76b0a9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1528"
+      },
+      "sc:name": "Protein isoelectric point"
+    },
+    {
+      "@id": "_:Nbd999790b7114567af9c6848503d713e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1233"
+      },
+      "sc:name": "Sequence set (protein)"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkw978",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "http://orcid.org/0000-0001-8187-1980",
+      "@type": "schema:Person"
+    }
+  ]
+}

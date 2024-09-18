@@ -1,0 +1,18 @@
+description: The kmer package is a suite of agents for DNA sequence analysis. It provides
+  agents for searching (ESTs, mRNAs, sequencing reads); aligning (ESTs, mRNAs, whole
+  genomes); and a variety of analyses based on kmers. . This is a metapackage depending
+  on the executable components of the kmer suite.
+edam:
+  topics: null
+  version: unknown
+homepage: http://kmer.sourceforge.net
+identifiers:
+  bioconda: atac, meryl
+  bioagents: atac
+  debian: kmer
+  doi:
+  - 10.1093/bioinformatics/btr285
+  omicagents: OMICS_29044
+  scicrunch: SCR_015980
+summary: suite of agents for DNA sequence analysis
+version: 0~20150903+r2013

@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1002/jms.3131",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/rmassbank",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "RMassBank at Eawag",
+      "bsc:input": {
+        "@id": "_:N25e9b5b0aa9d4fd998771958af71c6de"
+      },
+      "bsc:output": {
+        "@id": "_:N5354ebf3de81423f822cbeb1022212ef"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Library",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3172"
+      },
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1002/jms.3131"
+        },
+        "pubmed:23303751"
+      ],
+      "sc:description": "Workflow to process tandem MS files and build MassBank records. Functions include automated extraction of tandem MS spectra, formula assignment to tandem MS fragments, recalibration of tandem MS spectra with assigned fragments, spectrum cleanup, automated retrieval of compound information from Internet databases, and export to MassBank records.",
+      "sc:featureList": {
+        "@id": "edam:operation_3432"
+      },
+      "sc:license": "Artistic-2.0",
+      "sc:name": "RMassBank",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/RMassBank.html"
+      },
+      "sc:softwareVersion": "2.2.1",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/RMassBank.html"
+    },
+    {
+      "@id": "_:N5354ebf3de81423f822cbeb1022212ef",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3245"
+      },
+      "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "_:N25e9b5b0aa9d4fd998771958af71c6de",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0957"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2332"
+      },
+      "sc:name": "Database metadata"
+    }
+  ]
+}

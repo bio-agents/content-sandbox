@@ -1,0 +1,67 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/mum",
+      "@type": "sc:SoftwareApplication",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Script",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3175"
+        },
+        {
+          "@id": "edam:topic_0780"
+        },
+        {
+          "@id": "edam:topic_0196"
+        },
+        {
+          "@id": "edam:topic_0622"
+        },
+        {
+          "@id": "edam:topic_0621"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/BIOINFORMATICS/BTAA115"
+        },
+        "pubmed:32096823"
+      ],
+      "sc:description": "Accurate detection of all SV types through whole-genome alignment.\n\nMUM&Co is a simple bash script that uses Whole Genome Alignment information provided by MUMmer (v3 and v4) to detect variants.\n\nDeletions (novel and mobile), insertions (novel and mobile) and tandem duplications (>50bp).",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3216"
+        },
+        {
+          "@id": "edam:operation_3182"
+        },
+        {
+          "@id": "edam:operation_0524"
+        }
+      ],
+      "sc:license": "GPL-3.0",
+      "sc:name": "MUM",
+      "sc:url": "https://github.com/SAMtoBAM/MUMandCo"
+    },
+    {
+      "@id": "https://doi.org/10.1093/BIOINFORMATICS/BTAA115",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

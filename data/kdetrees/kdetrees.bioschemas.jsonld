@@ -1,0 +1,48 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.agents/kdetrees",
+  "@type": "sc:SoftwareApplication",
+  "bioagents:primaryContact": "Grady Weyenberg",
+  "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+  "sc:additionalType": "Command-line agent",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0080"
+    },
+    {
+      "@id": "edam:topic_3299"
+    },
+    {
+      "@id": "edam:topic_0084"
+    },
+    {
+      "@id": "edam:topic_3293"
+    }
+  ],
+  "sc:citation": "pubmed:24764459",
+  "sc:description": "Non-parametric method for estimating distributions of phylogenetic trees, with the goal of identifying trees that are significantly different from the rest of the trees in the sample.",
+  "sc:featureList": {
+    "@id": "edam:operation_0324"
+  },
+  "sc:name": "kdetrees",
+  "sc:operatingSystem": [
+    "Windows",
+    "Mac",
+    "Linux"
+  ],
+  "sc:softwareHelp": {
+    "@id": "https://github.com/grady/kdetrees/tree/master/man"
+  },
+  "sc:url": "https://github.com/grady/kdetrees"
+}

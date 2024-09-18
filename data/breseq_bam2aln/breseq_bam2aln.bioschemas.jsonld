@@ -1,0 +1,132 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1186/1471-2164-15-1039",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/breseq_bam2aln",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Galaxy Support Team",
+      "bsc:input": [
+        {
+          "@id": "_:Nd5706a6b4e9d46c7987c4c4791d7e710"
+        },
+        {
+          "@id": "_:Nad92a084106444a59c44656348d7d674"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N86bca3d6efa24dba856fe766b125781a"
+        },
+        {
+          "@id": "_:N4fd4ba8310de4ee2bd9f1cf131a13c5a"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_3168"
+        },
+        {
+          "@id": "edam:topic_0102"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.7490/f1000research.1114334.1"
+        },
+        {
+          "@id": "https://doi.org/10.1093/nar/gkw343"
+        },
+        {
+          "@id": "https://doi.org/10.1186/1471-2164-15-1039"
+        }
+      ],
+      "sc:description": "Display reads aligned to the specified region or regions.",
+      "sc:featureList": {
+        "@id": "edam:operation_0292"
+      },
+      "sc:name": "breseq_bam2aln",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://galaxy.pasteur.fr/root?agent_id=agentshed.pasteur.fr%2Frepos%2Fmvalade%2Fbreseq%2Fbreseq_bam2aln%2F0.26"
+      },
+      "sc:softwareVersion": "0.26",
+      "sc:url": "http://barricklab.org/twiki/bin/view/Lab/AgentsBacterialGenomeResequencing"
+    },
+    {
+      "@id": "_:Nd5706a6b4e9d46c7987c4c4791d7e710",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0924"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2572"
+      },
+      "sc:name": "Sequence trace"
+    },
+    {
+      "@id": "_:Nad92a084106444a59c44656348d7d674",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:N86bca3d6efa24dba856fe766b125781a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N4fd4ba8310de4ee2bd9f1cf131a13c5a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Report"
+    },
+    {
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

@@ -1,0 +1,1627 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/desalt",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-11-05T09:37:27.793274Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 492,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 128,
+                        "serie": [
+                            32,
+                            1,
+                            5,
+                            2,
+                            2,
+                            2,
+                            1,
+                            2,
+                            3,
+                            7,
+                            2,
+                            2,
+                            3,
+                            12,
+                            3,
+                            1,
+                            1,
+                            1,
+                            2,
+                            3,
+                            1,
+                            12,
+                            8,
+                            8,
+                            6,
+                            5,
+                            1
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 55,
+                        "serie": [
+                            1,
+                            1,
+                            1,
+                            4,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            2,
+                            4,
+                            1,
+                            1,
+                            1,
+                            2,
+                            4,
+                            2,
+                            6,
+                            3,
+                            8,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-05T09:37:27.641621Z",
+                "last_month_access": {
+                    "average_access_time": 627,
+                    "downtime_days": 5,
+                    "uptime_days": 25
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT1880557S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:desalt:1.4/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-05T09:41:33.113580Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 437,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 68,
+                        "serie": [
+                            1,
+                            2,
+                            7,
+                            2,
+                            4,
+                            1,
+                            1,
+                            1,
+                            2,
+                            3,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            5,
+                            2,
+                            2,
+                            1,
+                            4,
+                            1,
+                            2,
+                            1,
+                            2,
+                            1,
+                            2,
+                            3,
+                            1,
+                            1,
+                            1,
+                            5,
+                            1,
+                            2
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 115,
+                        "serie": [
+                            1,
+                            1,
+                            8,
+                            1,
+                            3,
+                            1,
+                            3,
+                            2,
+                            1,
+                            14,
+                            2,
+                            5,
+                            1,
+                            7,
+                            3,
+                            2,
+                            3,
+                            2,
+                            3,
+                            13,
+                            3,
+                            3,
+                            1,
+                            2,
+                            12,
+                            2,
+                            1,
+                            1,
+                            3,
+                            2,
+                            1,
+                            1,
+                            3,
+                            4
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-05T09:41:32.982639Z",
+                "last_month_access": {
+                    "average_access_time": 460,
+                    "downtime_days": 16,
+                    "uptime_days": 14
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:desalt:1.5/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-05T09:41:33.589169Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 575,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 67,
+                        "serie": [
+                            1,
+                            2,
+                            7,
+                            2,
+                            4,
+                            1,
+                            1,
+                            1,
+                            2,
+                            3,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            5,
+                            2,
+                            2,
+                            1,
+                            4,
+                            1,
+                            2,
+                            1,
+                            2,
+                            1,
+                            2,
+                            3,
+                            1,
+                            1,
+                            1,
+                            4,
+                            1,
+                            2
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 116,
+                        "serie": [
+                            1,
+                            1,
+                            8,
+                            1,
+                            3,
+                            1,
+                            3,
+                            2,
+                            1,
+                            14,
+                            2,
+                            5,
+                            1,
+                            7,
+                            3,
+                            2,
+                            3,
+                            2,
+                            3,
+                            13,
+                            3,
+                            3,
+                            1,
+                            2,
+                            12,
+                            2,
+                            1,
+                            1,
+                            3,
+                            2,
+                            2,
+                            1,
+                            3,
+                            4
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-05T09:41:33.476746Z",
+                "last_month_access": {
+                    "average_access_time": 400,
+                    "downtime_days": 17,
+                    "uptime_days": 13
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:desalt:1.3/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-05T09:41:33.113237Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 437,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 66,
+                        "serie": [
+                            1,
+                            2,
+                            7,
+                            2,
+                            4,
+                            1,
+                            1,
+                            1,
+                            2,
+                            3,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            5,
+                            2,
+                            2,
+                            1,
+                            4,
+                            1,
+                            2,
+                            1,
+                            2,
+                            1,
+                            2,
+                            3,
+                            1,
+                            1,
+                            1,
+                            3,
+                            1,
+                            2
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 117,
+                        "serie": [
+                            1,
+                            1,
+                            8,
+                            1,
+                            3,
+                            1,
+                            3,
+                            2,
+                            1,
+                            14,
+                            2,
+                            5,
+                            1,
+                            7,
+                            3,
+                            2,
+                            3,
+                            2,
+                            3,
+                            13,
+                            3,
+                            3,
+                            1,
+                            2,
+                            12,
+                            2,
+                            1,
+                            1,
+                            3,
+                            2,
+                            3,
+                            1,
+                            3,
+                            4
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-05T09:41:32.982639Z",
+                "last_month_access": {
+                    "average_access_time": 285,
+                    "downtime_days": 18,
+                    "uptime_days": 12
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:desalt:1.5.1/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-05T09:41:39.645203Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 575,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 68,
+                        "serie": [
+                            1,
+                            2,
+                            7,
+                            2,
+                            4,
+                            1,
+                            1,
+                            1,
+                            2,
+                            3,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            5,
+                            2,
+                            2,
+                            1,
+                            4,
+                            1,
+                            2,
+                            1,
+                            2,
+                            1,
+                            2,
+                            3,
+                            1,
+                            1,
+                            1,
+                            5,
+                            1,
+                            2
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 115,
+                        "serie": [
+                            1,
+                            1,
+                            8,
+                            1,
+                            3,
+                            1,
+                            3,
+                            2,
+                            1,
+                            14,
+                            2,
+                            5,
+                            1,
+                            7,
+                            3,
+                            2,
+                            3,
+                            2,
+                            3,
+                            13,
+                            3,
+                            3,
+                            1,
+                            2,
+                            12,
+                            2,
+                            1,
+                            1,
+                            3,
+                            2,
+                            1,
+                            1,
+                            3,
+                            4
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-05T09:41:33.476746Z",
+                "last_month_access": {
+                    "average_access_time": 428,
+                    "downtime_days": 16,
+                    "uptime_days": 14
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:desalt:1.5.2/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-05T09:41:39.634983Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 575,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 68,
+                        "serie": [
+                            1,
+                            2,
+                            7,
+                            2,
+                            4,
+                            1,
+                            1,
+                            1,
+                            2,
+                            3,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            5,
+                            2,
+                            2,
+                            1,
+                            4,
+                            1,
+                            2,
+                            1,
+                            2,
+                            1,
+                            2,
+                            3,
+                            1,
+                            1,
+                            1,
+                            5,
+                            1,
+                            2
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 115,
+                        "serie": [
+                            1,
+                            1,
+                            8,
+                            1,
+                            3,
+                            1,
+                            3,
+                            2,
+                            1,
+                            14,
+                            2,
+                            5,
+                            1,
+                            7,
+                            3,
+                            2,
+                            3,
+                            2,
+                            3,
+                            13,
+                            3,
+                            3,
+                            1,
+                            2,
+                            12,
+                            2,
+                            1,
+                            1,
+                            3,
+                            2,
+                            1,
+                            1,
+                            3,
+                            4
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-05T09:41:33.476746Z",
+                "last_month_access": {
+                    "average_access_time": 428,
+                    "downtime_days": 16,
+                    "uptime_days": 14
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:desalt:1.5.3/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-05T09:42:06.990912Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 575,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 68,
+                        "serie": [
+                            1,
+                            2,
+                            7,
+                            2,
+                            4,
+                            1,
+                            1,
+                            1,
+                            2,
+                            3,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            5,
+                            2,
+                            2,
+                            1,
+                            4,
+                            1,
+                            2,
+                            1,
+                            2,
+                            1,
+                            2,
+                            3,
+                            1,
+                            1,
+                            1,
+                            5,
+                            1,
+                            2
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 115,
+                        "serie": [
+                            1,
+                            1,
+                            8,
+                            1,
+                            3,
+                            1,
+                            3,
+                            2,
+                            1,
+                            14,
+                            2,
+                            5,
+                            1,
+                            7,
+                            3,
+                            2,
+                            3,
+                            2,
+                            3,
+                            13,
+                            3,
+                            3,
+                            1,
+                            2,
+                            12,
+                            2,
+                            1,
+                            1,
+                            3,
+                            2,
+                            1,
+                            1,
+                            3,
+                            4
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-05T09:41:33.476746Z",
+                "last_month_access": {
+                    "average_access_time": 428,
+                    "downtime_days": 16,
+                    "uptime_days": 14
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:desalt:1.5.4/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-05T09:42:27.586633Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 575,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 68,
+                        "serie": [
+                            1,
+                            2,
+                            7,
+                            2,
+                            4,
+                            1,
+                            1,
+                            1,
+                            2,
+                            3,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            5,
+                            2,
+                            2,
+                            1,
+                            4,
+                            1,
+                            2,
+                            1,
+                            2,
+                            1,
+                            2,
+                            3,
+                            1,
+                            1,
+                            1,
+                            5,
+                            1,
+                            2
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 115,
+                        "serie": [
+                            1,
+                            1,
+                            8,
+                            1,
+                            3,
+                            1,
+                            3,
+                            2,
+                            1,
+                            14,
+                            2,
+                            5,
+                            1,
+                            7,
+                            3,
+                            2,
+                            3,
+                            2,
+                            3,
+                            13,
+                            3,
+                            3,
+                            1,
+                            2,
+                            12,
+                            2,
+                            1,
+                            1,
+                            3,
+                            2,
+                            1,
+                            1,
+                            3,
+                            4
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-05T09:41:33.476746Z",
+                "last_month_access": {
+                    "average_access_time": 428,
+                    "downtime_days": 16,
+                    "uptime_days": 14
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:desalt:1.5.5/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-05T09:42:36.504024Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 575,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 68,
+                        "serie": [
+                            1,
+                            2,
+                            7,
+                            2,
+                            4,
+                            1,
+                            1,
+                            1,
+                            2,
+                            3,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            5,
+                            2,
+                            2,
+                            1,
+                            4,
+                            1,
+                            2,
+                            1,
+                            2,
+                            1,
+                            2,
+                            3,
+                            1,
+                            1,
+                            1,
+                            5,
+                            1,
+                            2
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 115,
+                        "serie": [
+                            1,
+                            1,
+                            8,
+                            1,
+                            3,
+                            1,
+                            3,
+                            2,
+                            1,
+                            14,
+                            2,
+                            5,
+                            1,
+                            7,
+                            3,
+                            2,
+                            3,
+                            2,
+                            3,
+                            13,
+                            3,
+                            3,
+                            1,
+                            2,
+                            12,
+                            2,
+                            1,
+                            1,
+                            3,
+                            2,
+                            1,
+                            1,
+                            3,
+                            4
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-05T09:41:33.476746Z",
+                "last_month_access": {
+                    "average_access_time": 428,
+                    "downtime_days": 16,
+                    "uptime_days": 14
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:desalt:1.5.6/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-05T09:42:45.469903Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 492,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 126,
+                        "serie": [
+                            9,
+                            22,
+                            1,
+                            5,
+                            2,
+                            2,
+                            2,
+                            1,
+                            2,
+                            3,
+                            7,
+                            2,
+                            2,
+                            2,
+                            12,
+                            3,
+                            1,
+                            1,
+                            1,
+                            2,
+                            3,
+                            1,
+                            12,
+                            8,
+                            8,
+                            6,
+                            5,
+                            1
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 57,
+                        "serie": [
+                            1,
+                            1,
+                            1,
+                            1,
+                            4,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            2,
+                            4,
+                            1,
+                            2,
+                            1,
+                            2,
+                            4,
+                            2,
+                            6,
+                            3,
+                            8,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-05T09:37:27.641621Z",
+                "last_month_access": {
+                    "average_access_time": 630,
+                    "downtime_days": 5,
+                    "uptime_days": 25
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:desalt/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-11-05T09:44:23.649143Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": false,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 13,
+                            "citations": [
+                                {
+                                    "count": 8,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1186/s13059-019-1895-9",
+                            "pmcid": "PMC6913027",
+                            "pmid": "31842925",
+                            "ref_count": 50,
+                            "refs": [
+                                {
+                                    "count": 6,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2019"
+                                }
+                            ],
+                            "title": "deSALT: fast and accurate long transcriptomic read alignment with de Bruijn graph-based index.",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 492,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 126,
+                        "serie": [
+                            9,
+                            22,
+                            1,
+                            5,
+                            2,
+                            2,
+                            2,
+                            1,
+                            2,
+                            3,
+                            7,
+                            2,
+                            2,
+                            2,
+                            12,
+                            3,
+                            1,
+                            1,
+                            1,
+                            2,
+                            3,
+                            1,
+                            12,
+                            8,
+                            8,
+                            6,
+                            5,
+                            1
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 57,
+                        "serie": [
+                            1,
+                            1,
+                            1,
+                            1,
+                            4,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            2,
+                            4,
+                            1,
+                            2,
+                            1,
+                            2,
+                            4,
+                            2,
+                            6,
+                            3,
+                            8,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-05T09:37:27.641621Z",
+                "last_month_access": {
+                    "average_access_time": 630,
+                    "downtime_days": 5,
+                    "uptime_days": 25
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    }
+]

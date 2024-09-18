@@ -1,0 +1,102 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btr709",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1186/gb-2009-10-12-r139",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/multi_experiment_matrix",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Priit Adler",
+      "bsc:input": {
+        "@id": "_:N208177ceec3249dc9fe3244216524702"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:N91d075011399418e9efdb736c3981efc"
+        },
+        {
+          "@id": "_:N2f0b71ea8fd74dae92a0fd262f52222c"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3366"
+        },
+        {
+          "@id": "edam:topic_0085"
+        },
+        {
+          "@id": "edam:topic_0092"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1186/gb-2009-10-12-r139"
+        },
+        {
+          "@id": "https://doi.org/10.1093/bioinformatics/btr709"
+        }
+      ],
+      "sc:description": "Web based agent for performing co-expression queries over large collections of gene expression experiments. It provides access to several hundreds of publicly available gene expression datasets of different tissues, diseases and conditions, arranged by the species and microarray platform types. The main user input is the name or ID of a query gene (various syononyms are accepted) and the choice of the collection of microarray experiments to be used in the co-expression query.",
+      "sc:featureList": {
+        "@id": "edam:operation_0313"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:name": "Multi Experiment Matrix",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:provider": "IECHOR-EE",
+      "sc:softwareHelp": {
+        "@id": "https://biit.cs.ut.ee/mem/#intro"
+      },
+      "sc:softwareVersion": "1",
+      "sc:url": "http://biit.cs.ut.ee/mem"
+    },
+    {
+      "@id": "_:N91d075011399418e9efdb736c3981efc",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1636"
+      },
+      "sc:name": "Heat map"
+    },
+    {
+      "@id": "_:N2f0b71ea8fd74dae92a0fd262f52222c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3111"
+      },
+      "sc:name": "Processed microarray data"
+    },
+    {
+      "@id": "_:N208177ceec3249dc9fe3244216524702",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2109"
+      },
+      "sc:name": "Identifier (hybrid)"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/IMGT_Collier-de-Perles",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N75f16c7f2d214484a893a4cd71003a3c"
+      },
+      "bsc:output": {
+        "@id": "_:N6b3d1c4dfef24e5796e7ebfb28a7b27e"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0804"
+      },
+      "sc:citation": [
+        "pubmed:11862387",
+        "pubmed:21632776",
+        "pubmed:18208865",
+        "pubmed:25378316"
+      ],
+      "sc:description": "IMGT/Collier-de-Perles is the IMGT® agent to draw standardized IMGT 2D graphical representations, or IMGT Colliers de Perles, of variable (V), constant (C), groove (G) domains, starting from the user own domain amino acid sequences. IMGT Colliers de Perles are based on amino acid sequences gapped according to the IMGT-ONTOLOGY concept of IMGT unique numbering.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2409"
+        },
+        {
+          "@id": "edam:operation_2945"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:name": "IMGT Collier-de-Perles",
+      "sc:operatingSystem": [
+        "Mac",
+        "Windows",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://www.imgt.org/3Dstructure-DB/doc/IMGTCollier-de-Perles.shtml"
+      },
+      "sc:url": "http://www.imgt.org/3Dstructure-DB/cgi/Collier-de-Perles.cgi"
+    },
+    {
+      "@id": "_:N75f16c7f2d214484a893a4cd71003a3c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2976"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Protein sequence"
+    },
+    {
+      "@id": "_:N6b3d1c4dfef24e5796e7ebfb28a7b27e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Image"
+    }
+  ]
+}

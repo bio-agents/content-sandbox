@@ -1,0 +1,59 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/quantiprot",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Witold Dyrka",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0078"
+        },
+        {
+          "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_3510"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1186/s12859-017-1751-4"
+        },
+        "pmcid:PMC5512976",
+        "pubmed:28716000"
+      ],
+      "sc:description": "Provides a simple and consistent interface to multiple methods for quantitative characterization of protein sequences. The package can be used to calculate dozens of characteristics directly from sequences or using physico-chemical properties of amino acids.",
+      "sc:featureList": {
+        "@id": "edam:operation_2479"
+      },
+      "sc:license": "MIT",
+      "sc:name": "quantiprot",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://git.e-science.pl/wdyrka/quantiprot/blob/master/docs/manual.md"
+      },
+      "sc:url": "https://git.e-science.pl/wdyrka/quantiprot"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s12859-017-1751-4",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1186/1471-2105-10-87",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/deconagents",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N9e336ee6c4bf46f0980dcc998b875c89"
+      },
+      "bsc:output": {
+        "@id": "_:Nb42d20ab7cc64db8a0f363d60b5cf128"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Desktop application"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3520"
+        },
+        {
+          "@id": "edam:topic_0121"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1186/1471-2105-10-87"
+        },
+        "pubmed:10757168",
+        "pubmed:19292916"
+      ],
+      "sc:description": "Advanced peak picking of MS and LC-MS(/MS) data using THRASH and other algorithms.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3629"
+        },
+        {
+          "@id": "edam:operation_3694"
+        },
+        {
+          "@id": "edam:operation_3632"
+        },
+        {
+          "@id": "edam:operation_3215"
+        },
+        {
+          "@id": "edam:operation_3203"
+        }
+      ],
+      "sc:name": "DeconAgents",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:softwareHelp": [
+        {
+          "@id": "https://omics.pnl.gov/sites/default/files/software/DeconAgents_Tutorial.pdf"
+        },
+        {
+          "@id": "https://omics.pnl.gov/software/deconagents-decon2ls"
+        }
+      ],
+      "sc:url": "http://omics.pnl.gov/software/DeconAgents.php"
+    },
+    {
+      "@id": "_:Nb42d20ab7cc64db8a0f363d60b5cf128",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0944"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1637"
+        },
+        {
+          "@id": "edam:format_3752"
+        }
+      ],
+      "sc:name": "Peptide mass fingerprint"
+    },
+    {
+      "@id": "_:N9e336ee6c4bf46f0980dcc998b875c89",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0943"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3654"
+        },
+        {
+          "@id": "edam:format_3244"
+        },
+        {
+          "@id": "edam:format_3710"
+        },
+        {
+          "@id": "edam:format_3712"
+        }
+      ],
+      "sc:name": "Mass spectrometry spectra"
+    }
+  ]
+}

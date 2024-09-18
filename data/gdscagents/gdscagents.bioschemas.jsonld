@@ -1,0 +1,58 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btx744",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/gdscagents",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": [
+        "Thomas Cokelaer",
+        "Mathew J Garnett",
+        "Julio Saez-Rodriguez"
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2640"
+        },
+        {
+          "@id": "edam:topic_3373"
+        },
+        {
+          "@id": "edam:topic_0208"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btx744"
+      },
+      "sc:description": "Mining pharmacogenomic interactions in cancer.",
+      "sc:featureList": {
+        "@id": "edam:operation_2949"
+      },
+      "sc:name": "GDSCAgents",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://gdscagents.readthedocs.io/en/master/"
+      },
+      "sc:url": "http://gdscagents.readthedocs.io/en/master/"
+    }
+  ]
+}

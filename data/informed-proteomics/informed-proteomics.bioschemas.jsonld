@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/informed-proteomics",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N5e16c72a50414a89bdbaf91cee4b0230"
+      },
+      "bsc:output": {
+        "@id": "_:N0a93d9f79a4749ceba96290e6581d2ad"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3520"
+        },
+        {
+          "@id": "edam:topic_0078"
+        },
+        {
+          "@id": "edam:topic_3047"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1038/nmeth.4388"
+      },
+      "sc:description": "A suite for top-down proteomics analysis that consists of an LC-MS feature-finding algorithm, a database search algorithm, and an interactive results viewer.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3767"
+        },
+        {
+          "@id": "edam:operation_3694"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Apache-2.0",
+      "sc:name": "Informed-Proteomics",
+      "sc:operatingSystem": "Windows",
+      "sc:softwareHelp": {
+        "@id": "https://github.com/PNNL-Comp-Mass-Spec/Informed-Proteomics/wiki"
+      },
+      "sc:url": "https://github.com/PNNL-Comp-Mass-Spec/Informed-Proteomics"
+    },
+    {
+      "@id": "_:N5e16c72a50414a89bdbaf91cee4b0230",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3483"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3244"
+      },
+      "sc:name": "Spectrum"
+    },
+    {
+      "@id": "_:N0a93d9f79a4749ceba96290e6581d2ad",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2032"
+      },
+      "sc:name": "Report"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nmeth.4388",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

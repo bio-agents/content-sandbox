@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/hmmgene",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:Nffc9380572044a04be6fa52e84c3ffb6"
+      },
+      "bsc:output": {
+        "@id": "_:Nf0be67a3f454409b896d415cba649bcf"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Web application",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0160"
+      },
+      "sc:citation": [
+        "pubmed:16249266",
+        {
+          "@id": "https://doi.org/10.1093/bioinformatics/bti701"
+        },
+        "pubmed:12783628"
+      ],
+      "sc:description": "Prediction of vertebrate and C. elegans genes.",
+      "sc:featureList": {
+        "@id": "edam:operation_2423"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Other",
+      "sc:name": "HMMgene",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:provider": "CBS",
+      "sc:softwareHelp": {
+        "@id": "http://www.cbs.dtu.dk/services/HMMgene/hmmgene1_1.php"
+      },
+      "sc:softwareVersion": "1.1",
+      "sc:url": "http://cbs.dtu.dk/services/HMMgene/"
+    },
+    {
+      "@id": "_:Nffc9380572044a04be6fa52e84c3ffb6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence"
+    },
+    {
+      "@id": "_:Nf0be67a3f454409b896d415cba649bcf",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1277"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2305"
+      },
+      "sc:name": "Protein features"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bti701",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

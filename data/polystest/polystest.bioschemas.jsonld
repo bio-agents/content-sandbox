@@ -1,0 +1,146 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/PolySTest",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N2bd94501c865446399e4800ff4fe8f6b"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:N393c67bfc8114eb0861606f0005df1bb"
+        },
+        {
+          "@id": "_:N680af758540445ca98e1c7c69ba81f1e"
+        },
+        {
+          "@id": "_:Ncf6f05deeb424806995df7c03baa8175"
+        },
+        {
+          "@id": "_:Nac532322005b483c9168e80ab42d33b1"
+        },
+        {
+          "@id": "_:N16854757116141cabcd01797e4e2caa8"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3520"
+        },
+        {
+          "@id": "edam:topic_2269"
+        },
+        {
+          "@id": "edam:topic_0121"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1101/765818"
+      },
+      "sc:description": "Robust statistical testing of quantitative proteomics data. The agent comprises and combines different tests and includes a new method for combined statistics of quantitative and missing values.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3741"
+        },
+        {
+          "@id": "edam:operation_3664"
+        }
+      ],
+      "sc:license": "GPL-2.0",
+      "sc:name": "PolySTest",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac"
+      ],
+      "sc:url": "http://computproteomics.bmb.sdu.dk/Apps/PolySTest"
+    },
+    {
+      "@id": "_:N393c67bfc8114eb0861606f0005df1bb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1669"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3752"
+      },
+      "sc:name": "P-value"
+    },
+    {
+      "@id": "_:N680af758540445ca98e1c7c69ba81f1e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3905"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3604"
+      },
+      "sc:name": "Histogram"
+    },
+    {
+      "@id": "_:Ncf6f05deeb424806995df7c03baa8175",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1636"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3604"
+      },
+      "sc:name": "Heat map"
+    },
+    {
+      "@id": "_:Nac532322005b483c9168e80ab42d33b1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0928"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3752"
+      },
+      "sc:name": "Gene expression profile"
+    },
+    {
+      "@id": "_:N16854757116141cabcd01797e4e2caa8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3932"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3752"
+      },
+      "sc:name": "Q-value"
+    },
+    {
+      "@id": "_:N2bd94501c865446399e4800ff4fe8f6b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2603"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3751"
+        },
+        {
+          "@id": "edam:format_3752"
+        }
+      ],
+      "sc:name": "Expression data"
+    },
+    {
+      "@id": "https://doi.org/10.1101/765818",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

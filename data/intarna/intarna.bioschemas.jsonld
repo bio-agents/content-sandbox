@@ -1,0 +1,174 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gku359",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "http://orcid.org/0000-0001-8231-3323",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://bio.agents/intarna",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": [
+        "Patrick Wright",
+        {
+          "@id": "http://orcid.org/0000-0001-8231-3323"
+        }
+      ],
+      "bsc:input": {
+        "@id": "_:N6da0df24da2a4f6599243153f60b5937"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:N22367da05c944353b58f58cee3af5018"
+        },
+        {
+          "@id": "_:N4c81d96fe3e24242bf73e6b9a3caa849"
+        },
+        {
+          "@id": "_:N5cda4ac01f7048fab9051bcda8af906f"
+        },
+        {
+          "@id": "_:N8bfbc2e594f545e6a058e6568816f16f"
+        },
+        {
+          "@id": "_:Nba2200f1f0cf4ee3b06e6cd5b06d49f5"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0080"
+      },
+      "sc:author": "Patrick Wright",
+      "sc:citation": [
+        "pubmed:24838564",
+        "pmcid:PMC4086077",
+        {
+          "@id": "https://doi.org/10.1093/nar/gku359"
+        }
+      ],
+      "sc:description": "sRNA target prediction.",
+      "sc:featureList": {
+        "@id": "edam:operation_0278"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:name": "IntaRNA - RNA-RNA interaction",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:provider": [
+        "rnateam",
+        "University Freiburg"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://rna.informatik.uni-freiburg.de/Help.jsp"
+      },
+      "sc:softwareVersion": "1.2.5",
+      "sc:url": "http://rna.informatik.uni-freiburg.de/IntaRNA/"
+    },
+    {
+      "@id": "_:N22367da05c944353b58f58cee3af5018",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1270"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2331"
+        },
+        {
+          "@id": "edam:format_3508"
+        }
+      ],
+      "sc:name": "Feature table"
+    },
+    {
+      "@id": "_:N4c81d96fe3e24242bf73e6b9a3caa849",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_3466"
+        },
+        {
+          "@id": "edam:format_3508"
+        }
+      ],
+      "sc:name": "Image"
+    },
+    {
+      "@id": "_:N5cda4ac01f7048fab9051bcda8af906f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3466"
+        },
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_3508"
+        }
+      ],
+      "sc:name": "Image"
+    },
+    {
+      "@id": "_:N8bfbc2e594f545e6a058e6568816f16f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1270"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Feature table"
+    },
+    {
+      "@id": "_:Nba2200f1f0cf4ee3b06e6cd5b06d49f5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1270"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Feature table"
+    },
+    {
+      "@id": "_:N6da0df24da2a4f6599243153f60b5937",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3495"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "RNA sequence"
+    }
+  ]
+}

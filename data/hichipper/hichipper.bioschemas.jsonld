@@ -1,0 +1,119 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/hichipper",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Caleb Lareau",
+      "bsc:input": {
+        "@id": "_:N4b0b1a6af7ab486b9411e462e7b63fff"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:Naf55269fb85d4b1491fe432a475f5f2b"
+        },
+        {
+          "@id": "_:N46d6fe71dc5b46c5948fec29acd2b4e3"
+        },
+        {
+          "@id": "_:Nd2804131354a463bb5972ea45d08c85e"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0097"
+        },
+        {
+          "@id": "edam:topic_3656"
+        },
+        {
+          "@id": "edam:topic_0607"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1101/192302"
+      },
+      "sc:description": "A Python package for HiChIP data processing and quality control pipeline.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0279"
+        },
+        {
+          "@id": "edam:operation_2428"
+        },
+        {
+          "@id": "edam:operation_0570"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "MIT",
+      "sc:name": "hichipper",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://hichipper.readthedocs.io/en/latest/"
+      },
+      "sc:url": "http://aryee.mgh.harvard.edu/hichipper/"
+    },
+    {
+      "@id": "_:Naf55269fb85d4b1491fe432a475f5f2b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3547"
+      },
+      "sc:name": "Image"
+    },
+    {
+      "@id": "_:N46d6fe71dc5b46c5948fec29acd2b4e3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:Nd2804131354a463bb5972ea45d08c85e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0889"
+      },
+      "sc:name": "Structural profile"
+    },
+    {
+      "@id": "_:N4b0b1a6af7ab486b9411e462e7b63fff",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2977"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3750"
+      },
+      "sc:name": "Nucleic acid sequence"
+    },
+    {
+      "@id": "https://doi.org/10.1101/192302",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

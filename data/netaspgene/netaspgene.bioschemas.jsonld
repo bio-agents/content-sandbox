@@ -1,0 +1,102 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1016/j.fgb.2008.09.010",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/netaspgene",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N8f306296db9a4fb5a4332dfbc37dbba7"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:Nb9b8fe8d7ef74a51a1d3653ce6cdb774"
+        },
+        {
+          "@id": "_:N8114c27d68f64b959405c262bce28b63"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3512"
+        },
+        {
+          "@id": "edam:topic_0080"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1016/j.fgb.2008.09.010"
+        },
+        "pubmed:18948220"
+      ],
+      "sc:description": "Predictions of splice sites in Aspergillus fumigatus and other Aspergillus species DNA sequences.",
+      "sc:featureList": {
+        "@id": "edam:operation_0433"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Other",
+      "sc:name": "NetAspGene",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:provider": "CBS",
+      "sc:softwareHelp": {
+        "@id": "http://www.cbs.dtu.dk/services/NetAspGene/instructions.php"
+      },
+      "sc:softwareVersion": "1.0",
+      "sc:url": "http://cbs.dtu.dk/services/NetAspGene/"
+    },
+    {
+      "@id": "_:N8f306296db9a4fb5a4332dfbc37dbba7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence"
+    },
+    {
+      "@id": "_:Nb9b8fe8d7ef74a51a1d3653ce6cdb774",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1277"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Protein features"
+    },
+    {
+      "@id": "_:N8114c27d68f64b959405c262bce28b63",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2955"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2333"
+      },
+      "sc:name": "Sequence report"
+    }
+  ]
+}

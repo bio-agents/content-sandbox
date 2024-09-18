@@ -1,0 +1,59 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/facets",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Venkatraman E. Seshan",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3305"
+        },
+        {
+          "@id": "edam:topic_2640"
+        },
+        {
+          "@id": "edam:topic_3574"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/nar/gkw520"
+        },
+        "pubmed:27270079",
+        "pmcid:PMC5027494"
+      ],
+      "sc:description": "FACETS is an ASCN agent and open-source software with a broad application to whole genome, whole-exome, as well as targeted panel sequencing platforms.",
+      "sc:featureList": {
+        "@id": "edam:operation_0240"
+      },
+      "sc:license": "Other",
+      "sc:name": "FACETS",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxtc2tmYWNldHN8Z3g6MTQ5M2I2YTEyNjZlMTJmOA"
+      },
+      "sc:url": "https://sites.google.com/site/mskfacets/"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkw520",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

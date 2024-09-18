@@ -1,0 +1,37 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.agents/maker-p",
+  "@type": "sc:SoftwareApplication",
+  "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+  "sc:additionalType": "Command-line agent",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0219"
+    },
+    {
+      "@id": "edam:topic_3168"
+    }
+  ],
+  "sc:description": "Pipeline designed to annotate novel plant genomes and is build on the MAKER annotation agent. The MAKER-P pipeline generates species-specific repeat libraries, as well as structural annotations of protein coding genes, non-coding RNAs, and pseudogenes.",
+  "sc:featureList": {
+    "@id": "edam:operation_0362"
+  },
+  "sc:license": "Artistic-2.0",
+  "sc:name": "MAKER-P",
+  "sc:operatingSystem": "Linux",
+  "sc:softwareHelp": {
+    "@id": "http://weatherby.genetics.utah.edu/MAKER/wiki/index.php/Main_Page"
+  },
+  "sc:url": "http://www.yandell-lab.org/software/maker-p.html"
+}

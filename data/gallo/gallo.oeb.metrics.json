@@ -1,0 +1,411 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/gallo",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-11-19T09:39:26.332547Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 380,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 102,
+                        "serie": [
+                            2,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            3,
+                            2,
+                            1,
+                            3,
+                            2,
+                            3,
+                            1,
+                            1,
+                            5,
+                            2,
+                            9,
+                            2,
+                            7,
+                            4,
+                            2,
+                            1,
+                            1,
+                            2,
+                            2,
+                            1,
+                            1,
+                            2,
+                            1,
+                            12,
+                            2,
+                            1,
+                            1,
+                            1,
+                            3,
+                            4,
+                            1,
+                            2,
+                            1,
+                            4,
+                            1,
+                            2
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 81,
+                        "serie": [
+                            1,
+                            3,
+                            1,
+                            4,
+                            1,
+                            2,
+                            10,
+                            1,
+                            1,
+                            3,
+                            2,
+                            2,
+                            2,
+                            1,
+                            1,
+                            2,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            4,
+                            1,
+                            2,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            3,
+                            2,
+                            1,
+                            4,
+                            1,
+                            2,
+                            1,
+                            1,
+                            3,
+                            2
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T09:39:26.176313Z",
+                "last_month_access": {
+                    "average_access_time": 551,
+                    "downtime_days": 15,
+                    "uptime_days": 15
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:gallo/lib/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-11-19T09:39:26.849134Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "manual": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 18,
+                            "citations": [
+                                {
+                                    "count": 7,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1093/gigascience/giaa149",
+                            "pmcid": "PMC7772745",
+                            "pmid": "33377911",
+                            "ref_count": 25,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1991"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2019"
+                                }
+                            ],
+                            "title": "GALLO: An R package for genomic annotation and integration of multiple data sources in livestock for positional candidate loci. ",
+                            "year": 2020
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 442,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 102,
+                        "serie": [
+                            2,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            3,
+                            2,
+                            1,
+                            3,
+                            2,
+                            3,
+                            1,
+                            1,
+                            5,
+                            2,
+                            9,
+                            2,
+                            7,
+                            4,
+                            2,
+                            1,
+                            1,
+                            2,
+                            2,
+                            1,
+                            1,
+                            2,
+                            1,
+                            12,
+                            2,
+                            1,
+                            1,
+                            1,
+                            3,
+                            4,
+                            1,
+                            2,
+                            1,
+                            4,
+                            1,
+                            2
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 81,
+                        "serie": [
+                            1,
+                            3,
+                            1,
+                            4,
+                            1,
+                            2,
+                            10,
+                            1,
+                            1,
+                            3,
+                            2,
+                            2,
+                            2,
+                            1,
+                            1,
+                            2,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            4,
+                            1,
+                            2,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            3,
+                            2,
+                            1,
+                            4,
+                            1,
+                            2,
+                            1,
+                            1,
+                            3,
+                            2
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T09:39:26.304307Z",
+                "last_month_access": {
+                    "average_access_time": 430,
+                    "downtime_days": 15,
+                    "uptime_days": 15
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": null
+            }
+        }
+    }
+]

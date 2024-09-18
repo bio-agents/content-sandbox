@@ -1,0 +1,131 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1016/j.jpba.2018.02.046",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/ceu_mass_mediator",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:N90fa10b437a44d218288a6042d1d4444"
+        },
+        {
+          "@id": "_:N89d397a50b504c6aa3ff451e8168b27a"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N3123e7423dc74b88886098c0c827e42c"
+        },
+        {
+          "@id": "_:N593df4a5d1b4405cb12ed15a6a9cd1de"
+        },
+        {
+          "@id": "_:Nc53136f569404ec1b542e4d14b4036dc"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3172"
+      },
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1016/j.jpba.2018.02.046"
+        },
+        "pubmed:29547800"
+      ],
+      "sc:description": "Agent for looking up metabolites in different databases (Kegg, HMDB, LipidMaps, Metlin and MINE) from experimental masses obtained by mass spectrometry.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2421"
+        },
+        {
+          "@id": "edam:operation_0226"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Unlicense",
+      "sc:name": "CEU Mass Mediator",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://ceumass.eps.uspceu.es/mediator/resources/CMM_manual_version_3.0.pdf"
+      },
+      "sc:softwareVersion": "3.0",
+      "sc:url": "http://ceumass.eps.uspceu.es/"
+    },
+    {
+      "@id": "_:N3123e7423dc74b88886098c0c827e42c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2639"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "PubChem ID"
+    },
+    {
+      "@id": "_:N593df4a5d1b4405cb12ed15a6a9cd1de",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1772"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Score"
+    },
+    {
+      "@id": "_:Nc53136f569404ec1b542e4d14b4036dc",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2622"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Compound ID (HMDB)"
+    },
+    {
+      "@id": "_:N90fa10b437a44d218288a6042d1d4444",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0943"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Mass spectrometry spectra"
+    },
+    {
+      "@id": "_:N89d397a50b504c6aa3ff451e8168b27a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0844"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Molecular mass"
+    }
+  ]
+}

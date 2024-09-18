@@ -1,0 +1,96 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/msimageview",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:Na18232d84d494f3a8a9ce4ec5de73fb7"
+      },
+      "bsc:output": {
+        "@id": "_:N7256ce4c6f824ed6970a07be909b0f3f"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Desktop application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0121"
+        },
+        {
+          "@id": "edam:topic_3391"
+        },
+        {
+          "@id": "edam:topic_3520"
+        },
+        {
+          "@id": "edam:topic_3383"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1016/j.mad.2004.09.032"
+      },
+      "sc:description": "Generate images from WIFF data and export to imzML.",
+      "sc:featureList": {
+        "@id": "edam:operation_0335"
+      },
+      "sc:name": "MSImageView",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://ms-imaging.org/wp/msimageview/"
+      },
+      "sc:url": "https://ms-imaging.org/wp/msimageview/"
+    },
+    {
+      "@id": "_:Na18232d84d494f3a8a9ce4ec5de73fb7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0943"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3710"
+      },
+      "sc:name": "Mass spectrometry spectra"
+    },
+    {
+      "@id": "_:N7256ce4c6f824ed6970a07be909b0f3f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3603"
+        },
+        {
+          "@id": "edam:format_3591"
+        },
+        {
+          "@id": "edam:format_3579"
+        },
+        {
+          "@id": "edam:format_3682"
+        }
+      ],
+      "sc:name": "Image"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.mad.2004.09.032",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

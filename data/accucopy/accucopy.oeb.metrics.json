@@ -1,0 +1,117 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/accucopy",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-09-03T08:37:29.367069Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 5649,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 15,
+                        "serie": [
+                            15
+                        ],
+                        "status": 502
+                    },
+                    {
+                        "days": 168,
+                        "serie": [
+                            166,
+                            2
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-09-03T08:37:29.302978Z",
+                "last_month_access": {
+                    "average_access_time": 2215,
+                    "downtime_days": 15,
+                    "uptime_days": 13
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:accucopy/cmd/www.yfish.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-09-03T08:37:29.295650Z",
+        "@type": "metrics",
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1101/2020.01.02.892364",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Accucopy: Accurate and Fast Inference of Allele-specific Copy Number Alterations from Low-coverage Low-purity Tumor Sequencing Data",
+                            "year": 2020
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 5464,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 15,
+                        "serie": [
+                            15
+                        ],
+                        "status": 502
+                    },
+                    {
+                        "days": 168,
+                        "serie": [
+                            166,
+                            2
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-09-03T08:37:29.24704Z",
+                "last_month_access": {
+                    "average_access_time": 1811,
+                    "downtime_days": 15,
+                    "uptime_days": 13
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

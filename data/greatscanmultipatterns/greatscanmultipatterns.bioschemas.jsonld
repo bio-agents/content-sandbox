@@ -1,0 +1,133 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gkw384",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/greatscanmultipatterns",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "MEGA team",
+      "bsc:input": [
+        {
+          "@id": "_:N274210b2c8274cc09171de947dee2767"
+        },
+        {
+          "@id": "_:N4177878bfc3248c3800adf78ee989069"
+        },
+        {
+          "@id": "_:Ndc258a175aff4aabb0ccfe67c9fc2832"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Nad919ed6ae394131b3ed62334f52381a"
+        },
+        {
+          "@id": "_:Nfdf91e1c80af4d9c8732fa097679623b"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Web application",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0092"
+        },
+        {
+          "@id": "edam:topic_2259"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gkw384"
+      },
+      "sc:contributor": "François Bucchini",
+      "sc:description": "This agent performs, in a systematic way, an automated analysis of regular arrangements in organisms having multiple chromosomes, for different transcription factors (or regulators, conditions) at the same time. It reports and allows identification of periodic regions of target genes for the different conditions, on each chromosome.",
+      "sc:featureList": {
+        "@id": "edam:operation_2945"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:name": "GREAT:SCAN:multipatterns",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:provider": [
+        "issb.genopole.fr",
+        "Institute of Systems and Synthetic Biology"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://absynth.issb.genopole.fr/Bioinformatics/agents/GREAT/help#integrated_help"
+      },
+      "sc:softwareVersion": "1",
+      "sc:url": "https://absynth.issb.genopole.fr/Bioinformatics/agents/GREAT/index"
+    },
+    {
+      "@id": "_:Nad919ed6ae394131b3ed62334f52381a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:Nfdf91e1c80af4d9c8732fa097679623b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1772"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "Score"
+    },
+    {
+      "@id": "_:N274210b2c8274cc09171de947dee2767",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1893"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1964"
+      },
+      "sc:name": "Locus ID"
+    },
+    {
+      "@id": "_:N4177878bfc3248c3800adf78ee989069",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2755"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1964"
+      },
+      "sc:name": "Transcription factor name"
+    },
+    {
+      "@id": "_:Ndc258a175aff4aabb0ccfe67c9fc2832",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1016"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1964"
+      },
+      "sc:name": "Sequence position"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btw127",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/snphood",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Christian Arnold",
+      "bsc:input": {
+        "@id": "_:Neda0f198ae324cdc9d2a2a3eb58eaa2d"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:Nf484b7b061b44afe9f4874442908984c"
+        },
+        {
+          "@id": "_:N15685a2eebc14ef096cba7b6d7471802"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Library"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3169"
+        },
+        {
+          "@id": "edam:topic_0092"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btw127"
+      },
+      "sc:description": "This R package investigates and visualizes the local neighborhood of a set of SNPs of interest for NGS data such as chromatin marks or TF binding sites from ChIP-Seq or RNA-Seq experiments. It comprises a set of easy-to-use functions to extract, normalize and summarize reads for a genomic region.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3435"
+        },
+        {
+          "@id": "edam:operation_3432"
+        }
+      ],
+      "sc:license": "GPL-3.0",
+      "sc:name": "SNPhood",
+      "sc:operatingSystem": [
+        "Mac",
+        "Windows",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/SNPhood.html"
+      },
+      "sc:softwareVersion": "1.4.1",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/SNPhood.html"
+    },
+    {
+      "@id": "_:Neda0f198ae324cdc9d2a2a3eb58eaa2d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2572"
+        },
+        {
+          "@id": "edam:format_3003"
+        }
+      ],
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:Nf484b7b061b44afe9f4874442908984c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3547"
+      },
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:N15685a2eebc14ef096cba7b6d7471802",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1669"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3547"
+      },
+      "sc:name": "P-value"
+    }
+  ]
+}

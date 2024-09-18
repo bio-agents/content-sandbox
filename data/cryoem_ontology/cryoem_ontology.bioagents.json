@@ -1,0 +1,32 @@
+{
+    "accessibility": "Open access",
+    "additionDate": "2020-10-05T10:58:27Z",
+    "bioagentsCURIE": "bioagents:cryoem_ontology",
+    "bioagentsID": "cryoem_ontology",
+    "collectionID": [
+        "Ontology"
+    ],
+    "confidence_flag": "agent",
+    "cost": "Free of charge",
+    "description": "Ontology to describe data and workflows in Cryo Electron Microscopy",
+    "editPermission": {
+        "type": "private"
+    },
+    "iechorNode": [
+        "Spain"
+    ],
+    "homepage": "http://bioportal.bioontology.org/ontologies/CRYOEM",
+    "lastUpdate": "2020-10-05T11:07:05Z",
+    "maturity": "Mature",
+    "name": "CryoEM Ontology",
+    "owner": "coss",
+    "agentType": [
+        "Ontology"
+    ],
+    "topic": [
+        {
+            "term": "Electron microscopy",
+            "uri": "http://edamontology.org/topic_0611"
+        }
+    ]
+}

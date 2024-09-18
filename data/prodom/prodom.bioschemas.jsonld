@@ -1,0 +1,180 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/prodom",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:N0990ec64c4ef441a81b4ed1545b73638"
+        },
+        {
+          "@id": "_:Nca6d0222d8ff438681c345f2c7a988ac"
+        },
+        {
+          "@id": "_:N951ccd930c39490da85cdabe4f6fa827"
+        },
+        {
+          "@id": "_:Nd2cf2bdc0fd4403ab48e4fc2f2fb4409"
+        },
+        {
+          "@id": "_:Ne888658ae180463487992dd4f7476e99"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Nea45d11920444030a3747e9c7b376645"
+        },
+        {
+          "@id": "_:Neae263fb38134a8d8a91b4046665fe9e"
+        },
+        {
+          "@id": "_:N48f39675dfda4bd8bac4ef253985107c"
+        },
+        {
+          "@id": "_:Na6cd20f84bca45cdba73bc4455ea8ee4"
+        },
+        {
+          "@id": "_:N9a6724e2f24e4ea7a2f2e663f26e2838"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0736"
+        },
+        {
+          "@id": "edam:topic_0623"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/28.1.267"
+      },
+      "sc:description": "A comprehensive set of protein domain families automatically generated from the UniProt Knowledge Database.",
+      "sc:featureList": {
+        "@id": "edam:operation_0224"
+      },
+      "sc:name": "ProDom protein domain database",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://prodom.prabi.fr/prodom/current/documentation/help.php"
+      },
+      "sc:url": "http://prodom.prabi.fr/prodom/current/html/home.php"
+    },
+    {
+      "@id": "_:N0990ec64c4ef441a81b4ed1545b73638",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1142"
+      },
+      "sc:name": "ProDom accession number"
+    },
+    {
+      "@id": "_:Nca6d0222d8ff438681c345f2c7a988ac",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1142"
+      },
+      "sc:name": "ProDom accession number"
+    },
+    {
+      "@id": "_:N951ccd930c39490da85cdabe4f6fa827",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1142"
+      },
+      "sc:name": "ProDom accession number"
+    },
+    {
+      "@id": "_:Nd2cf2bdc0fd4403ab48e4fc2f2fb4409",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1142"
+      },
+      "sc:name": "ProDom accession number"
+    },
+    {
+      "@id": "_:Ne888658ae180463487992dd4f7476e99",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1142"
+      },
+      "sc:name": "ProDom accession number"
+    },
+    {
+      "@id": "_:Nea45d11920444030a3747e9c7b376645",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1276"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Nucleic acid features"
+    },
+    {
+      "@id": "_:Neae263fb38134a8d8a91b4046665fe9e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0872"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Phylogenetic tree"
+    },
+    {
+      "@id": "_:N48f39675dfda4bd8bac4ef253985107c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0907"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Protein family report"
+    },
+    {
+      "@id": "_:Na6cd20f84bca45cdba73bc4455ea8ee4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1384"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Sequence alignment (protein)"
+    },
+    {
+      "@id": "_:N9a6724e2f24e4ea7a2f2e663f26e2838",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1384"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Sequence alignment (protein)"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/28.1.267",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

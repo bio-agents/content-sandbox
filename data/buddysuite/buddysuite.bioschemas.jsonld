@@ -1,0 +1,70 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/molbev/msx089",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/buddysuite",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Andreas D. Baxevanis",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3168"
+        },
+        {
+          "@id": "edam:topic_3293"
+        },
+        {
+          "@id": "edam:topic_0097"
+        },
+        {
+          "@id": "edam:topic_0080"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:28333216",
+        "pmcid:PMC5850830",
+        {
+          "@id": "https://doi.org/10.1093/molbev/msx089"
+        }
+      ],
+      "sc:description": "Collection of four independent, yet interrelated, command line programs that facilitate each step in the workflow of sequence discovery, curation, alignment, and phylogenetic reconstruction.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3478"
+        },
+        {
+          "@id": "edam:operation_2403"
+        },
+        {
+          "@id": "edam:operation_0292"
+        }
+      ],
+      "sc:name": "BuddySuite",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://github.com/biologyguy/BuddySuite/wiki"
+      },
+      "sc:url": "https://research.nhgri.nih.gov/software/BuddySuite/"
+    }
+  ]
+}

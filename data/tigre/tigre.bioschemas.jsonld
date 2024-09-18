@@ -1,0 +1,124 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/tigre",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Antti Honkela",
+      "bsc:input": {
+        "@id": "_:N4344f25966b242de83bc738c6cc21fb6"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:Nb4144225e49b435fb6a393193cb6c7e6"
+        },
+        {
+          "@id": "_:Neb85701ee4f344b7bd6026efda7d620c"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Library",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3518"
+        },
+        {
+          "@id": "edam:topic_0749"
+        },
+        {
+          "@id": "edam:topic_0203"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/bioinformatics/btn278"
+        },
+        "pubmed:18689843"
+      ],
+      "sc:contributor": {
+        "@id": "http://orcid.org/0000-0001-8649-1290"
+      },
+      "sc:description": "This package implements our methodology of Gaussian process differential equation models for analysis of gene expression time series from single input motif networks. The package can be used for inferring unobserved transcription factor (TF) protein concentrations from expression measurements of known target genes, or for ranking candidate targets of a TF.",
+      "sc:featureList": {
+        "@id": "edam:operation_3565"
+      },
+      "sc:license": "GPL-3.0",
+      "sc:name": "tigre",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/tigre.html"
+      },
+      "sc:softwareVersion": "1.28.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/tigre.html"
+    },
+    {
+      "@id": "_:Nb4144225e49b435fb6a393193cb6c7e6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3111"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3475"
+        },
+        {
+          "@id": "edam:format_3547"
+        }
+      ],
+      "sc:name": "Processed microarray data"
+    },
+    {
+      "@id": "_:Neb85701ee4f344b7bd6026efda7d620c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_3475"
+        }
+      ],
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:N4344f25966b242de83bc738c6cc21fb6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2603"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1638"
+      },
+      "sc:name": "Gene expression data"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btn278",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "http://orcid.org/0000-0001-8649-1290",
+      "@type": "schema:Person"
+    }
+  ]
+}

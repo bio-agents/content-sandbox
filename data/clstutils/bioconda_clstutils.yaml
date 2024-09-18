@@ -1,0 +1,12 @@
+bioagents_id: clstutils
+description: Agents for performing taxonomic assignment based on phylogeny using pplacer
+  and clst.
+home: https://bioconductor.org/packages/3.12/bioc/html/clstutils.html
+identifiers:
+- bioagents:clstutils
+- doi:10.1038/nmeth.3252
+license: GPL-3
+license_file: /lib/R/share/licenses/GPL-3
+name: bioconductor-clstutils
+summary: Agents for performing taxonomic assignment.
+version: 1.38.0

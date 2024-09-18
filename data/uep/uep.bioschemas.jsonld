@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btaa708",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/uep",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:Na914c6bb9ff8466a883899b0c290b873"
+      },
+      "bsc:output": {
+        "@id": "_:Nb0ba24122d6b4c7891cd93c401a80391"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0091"
+        },
+        {
+          "@id": "edam:topic_2814"
+        }
+      ],
+      "sc:author": "Pep Amengual",
+      "sc:citation": [
+        "pubmed:32761082",
+        {
+          "@id": "https://doi.org/10.1093/bioinformatics/btaa708"
+        }
+      ],
+      "sc:description": "An open-source and fast classifier for predicting the impact of mutations in protein–protein complexes",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2423"
+        },
+        {
+          "@id": "edam:operation_2492"
+        }
+      ],
+      "sc:name": "UEP",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac"
+      ],
+      "sc:provider": "V. Guallar Lab: Electronic and Atomic Protein Modelling @ Barcelona Supercomputer Center",
+      "sc:url": "https://github.com/pepamengual/UEP"
+    },
+    {
+      "@id": "_:Nb0ba24122d6b4c7891cd93c401a80391",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2856"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3752"
+      },
+      "sc:name": "Structural distance matrix"
+    },
+    {
+      "@id": "_:Na914c6bb9ff8466a883899b0c290b873",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2877"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1476"
+      },
+      "sc:name": "Protein complex"
+    }
+  ]
+}

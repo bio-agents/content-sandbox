@@ -1,0 +1,69 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/mlst-db",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:Nc05bc8d715cc4103a4973bfb2081094a"
+      },
+      "bsc:output": {
+        "@id": "_:N647988dbb03b44f89c013bc03ce686da"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0199"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/1471-2105-5-86"
+      },
+      "sc:description": "Chlamydia trachomatis multilocus sequence typing (MLST) database.",
+      "sc:featureList": {
+        "@id": "edam:operation_0224"
+      },
+      "sc:name": "MLST-DB",
+      "sc:operatingSystem": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "sc:provider": "bils.se",
+      "sc:softwareHelp": {
+        "@id": "http://mlstdb.bmc.uu.se/"
+      },
+      "sc:url": "http://mlstdb.bmc.uu.se/"
+    },
+    {
+      "@id": "_:N647988dbb03b44f89c013bc03ce686da",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1255"
+      },
+      "sc:name": "Sequence features"
+    },
+    {
+      "@id": "_:Nc05bc8d715cc4103a4973bfb2081094a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:name": "Sequence"
+    },
+    {
+      "@id": "https://doi.org/10.1186/1471-2105-5-86",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/MTiAutoDock",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Maria A. Miteva",
+      "bsc:input": [
+        {
+          "@id": "_:Nc256a915baaa499b8dac74ae69f05aee"
+        },
+        {
+          "@id": "_:N3a5ec7da16a04c42a35ab7c7bdeec1f8"
+        }
+      ],
+      "bsc:output": {
+        "@id": "_:N522af3787d084467aef013099bc578a9"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3534"
+      },
+      "sc:citation": "pubmed:25855812",
+      "sc:description": "Docking into a user-defined binding site or blind docking using AutoDock 4.2.",
+      "sc:featureList": {
+        "@id": "edam:operation_0482"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Freeware",
+      "sc:name": "MTiAutoDock",
+      "sc:softwareHelp": {
+        "@id": "https://bioserv.rpbs.univ-paris-diderot.fr/services/MTiOpenScreen"
+      },
+      "sc:softwareVersion": "1.0",
+      "sc:url": "https://mobyle.rpbs.univ-paris-diderot.fr/cgi-bin/portal.py#forms::MTiAutoDock"
+    },
+    {
+      "@id": "_:Nc256a915baaa499b8dac74ae69f05aee",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1463"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3816"
+        },
+        {
+          "@id": "edam:format_3814"
+        }
+      ],
+      "sc:name": "Small molecule structure"
+    },
+    {
+      "@id": "_:N3a5ec7da16a04c42a35ab7c7bdeec1f8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1460"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3816"
+        },
+        {
+          "@id": "edam:format_1476"
+        }
+      ],
+      "sc:name": "Protein structure"
+    },
+    {
+      "@id": "_:N522af3787d084467aef013099bc578a9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1461"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1476"
+      },
+      "sc:name": "Protein-ligand complex"
+    }
+  ]
+}

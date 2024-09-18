@@ -1,0 +1,268 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/k2mem",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-11-19T10:52:11.719835Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 52,
+                        "serie": [
+                            2,
+                            3,
+                            2,
+                            3,
+                            3,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            12,
+                            3,
+                            1,
+                            2,
+                            2,
+                            4,
+                            1
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 131,
+                        "serie": [
+                            1,
+                            10,
+                            1,
+                            14,
+                            6,
+                            3,
+                            4,
+                            24,
+                            3,
+                            3,
+                            7,
+                            2,
+                            7,
+                            3,
+                            3,
+                            4,
+                            1,
+                            2,
+                            7,
+                            14,
+                            4,
+                            1,
+                            2,
+                            1,
+                            4
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T10:52:11.66798Z",
+                "last_month_access": {
+                    "average_access_time": 588,
+                    "downtime_days": 20,
+                    "uptime_days": 10
+                },
+                "license": false,
+                "operational": 429,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT354955S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:k2mem/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-11-19T10:52:11.930020Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": false,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 1,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1109/tcbb.2021.3117406",
+                            "pmid": "34606462",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "K2Mem: Discovering Discriminative K-mers From Sequencing Data for Metagenomic Reads Classification.",
+                            "year": 2022
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 53,
+                        "serie": [
+                            2,
+                            3,
+                            2,
+                            3,
+                            3,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            12,
+                            3,
+                            1,
+                            1,
+                            2,
+                            2,
+                            4,
+                            1
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 130,
+                        "serie": [
+                            1,
+                            10,
+                            1,
+                            14,
+                            6,
+                            3,
+                            4,
+                            24,
+                            3,
+                            3,
+                            7,
+                            2,
+                            7,
+                            3,
+                            3,
+                            4,
+                            1,
+                            2,
+                            7,
+                            12,
+                            1,
+                            4,
+                            1,
+                            2,
+                            1,
+                            4
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T10:52:11.66798Z",
+                "last_month_access": {
+                    "average_access_time": 544,
+                    "downtime_days": 19,
+                    "uptime_days": 11
+                },
+                "license": false,
+                "operational": 429,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT354955S"
+            }
+        }
+    }
+]

@@ -1,0 +1,77 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://orcid.org/0000-0002-0941-4168",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://bio.agents/asimulator",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": [
+        {
+          "@id": "https://orcid.org/0000-0002-5393-2413"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-0941-4168"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Script",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3512"
+        },
+        {
+          "@id": "edam:topic_3320"
+        },
+        {
+          "@id": "edam:topic_0102"
+        },
+        {
+          "@id": "edam:topic_3170"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:33647976",
+        {
+          "@id": "https://doi.org/10.1093/BIOINFORMATICS/BTAB142"
+        }
+      ],
+      "sc:description": "ASimulatoR is a agent for splice-aware RNA-Seq data simulation.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0232"
+        },
+        {
+          "@id": "edam:operation_3680"
+        },
+        {
+          "@id": "edam:operation_0264"
+        }
+      ],
+      "sc:license": "LGPL-3.0",
+      "sc:name": "ASimulatoR",
+      "sc:url": "https://github.com/biomedbigdata/ASimulatoR"
+    },
+    {
+      "@id": "https://doi.org/10.1093/BIOINFORMATICS/BTAB142",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-5393-2413",
+      "@type": "schema:Person"
+    }
+  ]
+}

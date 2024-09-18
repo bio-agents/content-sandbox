@@ -1,0 +1,122 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/gcmodeller",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:Nc854fcafc0504c829a80ef8d51398a2b"
+      },
+      "bsc:output": {
+        "@id": "_:N5264cf9ff9b24b0ba94c54175c839e5f"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Bioinformatics portal",
+        "Workflow",
+        "Command-line agent",
+        "Library",
+        "Suite"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3298"
+        },
+        {
+          "@id": "edam:topic_2259"
+        },
+        {
+          "@id": "edam:topic_3172"
+        },
+        {
+          "@id": "edam:topic_3955"
+        }
+      ],
+      "sc:description": "GCModeller: genomics CAD(Computer Assistant Design) Modeller System",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3566"
+        },
+        {
+          "@id": "edam:operation_3929"
+        },
+        {
+          "@id": "edam:operation_2436"
+        },
+        {
+          "@id": "edam:operation_0491"
+        },
+        {
+          "@id": "edam:operation_0571"
+        },
+        {
+          "@id": "edam:operation_2437"
+        },
+        {
+          "@id": "edam:operation_3463"
+        },
+        {
+          "@id": "edam:operation_3182"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "GPL-3.0",
+      "sc:name": "GCModeller",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:url": "https://gcmodeller.org/"
+    },
+    {
+      "@id": "_:N5264cf9ff9b24b0ba94c54175c839e5f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3779"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2585"
+        },
+        {
+          "@id": "edam:format_3033"
+        }
+      ],
+      "sc:name": "Annotated text"
+    },
+    {
+      "@id": "_:Nc854fcafc0504c829a80ef8d51398a2b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3770"
+        },
+        {
+          "@id": "edam:format_1333"
+        },
+        {
+          "@id": "edam:format_2182"
+        },
+        {
+          "@id": "edam:format_2200"
+        }
+      ],
+      "sc:name": "Sequence"
+    }
+  ]
+}

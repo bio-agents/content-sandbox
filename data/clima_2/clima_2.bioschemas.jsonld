@@ -1,0 +1,117 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/clima_2",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": [
+        {
+          "@id": "http://orcid.org/0000-0003-4694-3883"
+        },
+        "Barbara Parodi"
+      ],
+      "bsc:input": [
+        {
+          "@id": "_:Ne85139f3ca2d481590a4b5b13467f2c4"
+        },
+        {
+          "@id": "_:N38be92b61ab04ad795b7e4249bfdb9c5"
+        },
+        {
+          "@id": "_:N9a0e35ec0c884a4c8775c67678dfb8a0"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Database portal",
+        "Web application"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2815"
+        },
+        {
+          "@id": "edam:topic_3571"
+        },
+        {
+          "@id": "edam:topic_3340"
+        }
+      ],
+      "sc:author": "Paolo Romano",
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/nar/gkn730"
+        },
+        "pmcid:PMC2686526",
+        "pubmed:18927105"
+      ],
+      "sc:contributor": [
+        "Paola Visconti",
+        "Ottavia Aresu"
+      ],
+      "sc:description": "Cell Line Integrated Molecular Authentication database and Identification agent. It represents a reference for validated molecular authentication of human cell lines independently from the platforms used.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2421"
+        },
+        {
+          "@id": "edam:operation_3431"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:name": "CLIMA 2",
+      "sc:operatingSystem": "Linux",
+      "sc:provider": "USMI",
+      "sc:softwareHelp": {
+        "@id": "http://bioinformatics.hsanmartino.it/clima2/"
+      },
+      "sc:url": "http://bioinformatics.hsanmartino.it/clima2/"
+    },
+    {
+      "@id": "_:Ne85139f3ca2d481590a4b5b13467f2c4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1691"
+      },
+      "sc:name": "Email address"
+    },
+    {
+      "@id": "_:N38be92b61ab04ad795b7e4249bfdb9c5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2892"
+      },
+      "sc:name": "Cell type name"
+    },
+    {
+      "@id": "_:N9a0e35ec0c884a4c8775c67678dfb8a0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkn730",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "http://orcid.org/0000-0003-4694-3883",
+      "@type": "schema:Person"
+    }
+  ]
+}

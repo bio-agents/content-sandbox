@@ -1,0 +1,191 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:survivalgwas_power:v1.5/app/www.liverpool.ac.uk",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-11-19T08:51:08.339809Z",
+        "@type": "metrics",
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "training_material": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 4,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1186/s12859-016-1407-9",
+                            "pmcid": "PMC5146816",
+                            "pmid": "27931206",
+                            "ref_count": 9,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                }
+                            ],
+                            "title": "SurvivalGWAS_Power: a user friendly agent for power calculations in pharmacogenetic studies with \"time to event\" outcomes.",
+                            "year": 2016
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 564,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 12,
+                        "serie": [
+                            12
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 171,
+                        "serie": [
+                            69,
+                            102
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T08:51:08.270877Z",
+                "last_month_access": {
+                    "average_access_time": 1074,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "http://www.liverpool.ac.uk/population-health/research/groups/statistical-genetics/survival-gwas/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.liverpool.ac.uk/population-health/research/groups/statistical-genetics/survival-gwas/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/survivalgwas_power",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-11-19T08:36:14.536686Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 570,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 12,
+                        "serie": [
+                            12
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 171,
+                        "serie": [
+                            69,
+                            102
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T08:36:14.237016Z",
+                "last_month_access": {
+                    "average_access_time": 806,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "http://www.liverpool.ac.uk/population-health/research/groups/statistical-genetics/survival-gwas/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.liverpool.ac.uk/population-health/research/groups/statistical-genetics/survival-gwas/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

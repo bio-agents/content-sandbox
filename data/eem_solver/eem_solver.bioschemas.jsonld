@@ -1,0 +1,88 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1002/jcc.20344",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/eem_solver",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Radka Svobodová Vařeková",
+      "bsc:input": {
+        "@id": "_:Ne47811bb59154e3fb76ec98c0103a8de"
+      },
+      "bsc:output": {
+        "@id": "_:N9c384e1605394bb3b1f7fbaa65aa069d"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2258"
+        },
+        {
+          "@id": "edam:topic_3332"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1002/jcc.20344"
+      },
+      "sc:description": "Calculates partial atomic charges for small organic molecules, drug-like molecules. The agent is deprecated, we recommend the use of AtomicChargeCalculator.",
+      "sc:featureList": {
+        "@id": "edam:operation_2480"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:name": "EEM Solver",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:provider": "IECHOR-CZ",
+      "sc:softwareHelp": [
+        {
+          "@id": "http://onlinelibrary.wiley.com/enhanced/exportCitation/doi/10.1002/jcc.20344"
+        },
+        {
+          "@id": "http://www.ncbr.muni.cz/~n19n/eem_abeem/licence.htm"
+        },
+        {
+          "@id": "http://www.ncbr.muni.cz/~n19n/eem_abeem/manual.htm"
+        }
+      ],
+      "sc:softwareVersion": "1.0",
+      "sc:url": "http://ncbr.muni.cz/~svobodova/eem_abeem"
+    },
+    {
+      "@id": "_:Ne47811bb59154e3fb76ec98c0103a8de",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1463"
+      },
+      "sc:name": "Small molecule structure"
+    },
+    {
+      "@id": "_:N9c384e1605394bb3b1f7fbaa65aa069d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1917"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Atomic property"
+    }
+  ]
+}

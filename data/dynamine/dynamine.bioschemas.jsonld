@@ -1,0 +1,94 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gku270",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1038/ncomms3741",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/dynamine",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Wim Vranken",
+      "bsc:input": {
+        "@id": "_:N90cf42b81afd4cec937decfd3b6e0532"
+      },
+      "bsc:output": {
+        "@id": "_:Nd1f38cbee52941d3992c1cc10cac9b16"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Web application",
+        "Web API"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0123"
+        },
+        {
+          "@id": "edam:topic_3306"
+        },
+        {
+          "@id": "edam:topic_3538"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/nar/gku270"
+        },
+        {
+          "@id": "https://doi.org/10.1038/ncomms3741"
+        }
+      ],
+      "sc:description": "Protein backbone dynamics prediction from sequence.",
+      "sc:featureList": {
+        "@id": "edam:operation_2423"
+      },
+      "sc:name": "DynaMine",
+      "sc:operatingSystem": [
+        "Mac",
+        "Windows",
+        "Linux"
+      ],
+      "sc:provider": "vub.ac.be",
+      "sc:softwareHelp": {
+        "@id": "http://dynamine.ibsquare.be/help/"
+      },
+      "sc:softwareVersion": "1",
+      "sc:url": "http://dynamine.ibsquare.be/"
+    },
+    {
+      "@id": "_:Nd1f38cbee52941d3992c1cc10cac9b16",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1277"
+      },
+      "sc:name": "Protein features"
+    },
+    {
+      "@id": "_:N90cf42b81afd4cec937decfd3b6e0532",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2974"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Protein sequence (raw)"
+    }
+  ]
+}

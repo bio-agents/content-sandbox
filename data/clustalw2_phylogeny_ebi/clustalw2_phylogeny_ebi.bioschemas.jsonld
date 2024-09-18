@@ -1,0 +1,92 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/clustalw2_phylogeny_ebi",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Job Dispatcher",
+      "bsc:input": {
+        "@id": "_:N16e59ba150a348d3a4f391ddc799031f"
+      },
+      "bsc:output": {
+        "@id": "_:N23a88dd8d1414477a47c0a92821fadab"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Web application",
+        "Web service"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3293"
+      },
+      "sc:author": "Des Higgins",
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/bioinformatics/btm404"
+        },
+        {
+          "@id": "https://doi.org/10.1093/nar/gkac240"
+        }
+      ],
+      "sc:description": "Phylogenetic tree generation from an alignment using neighbor-joining or UPGMA.",
+      "sc:featureList": {
+        "@id": "edam:operation_0323"
+      },
+      "sc:name": "ClustalW2 Phylogeny (EBI)",
+      "sc:operatingSystem": [
+        "Mac",
+        "Windows",
+        "Linux"
+      ],
+      "sc:provider": [
+        "University College Dublin",
+        "EMBL-EBI"
+      ],
+      "sc:softwareHelp": [
+        {
+          "@id": "http://www.ebi.ac.uk/Agents/phylogeny/clustalw2_phylogeny/"
+        },
+        {
+          "@id": "http://www.ebi.ac.uk/about/terms-of-use"
+        }
+      ],
+      "sc:softwareVersion": "Retired",
+      "sc:url": "http://www.ebi.ac.uk/Agents/phylogeny/clustalw2_phylogeny/"
+    },
+    {
+      "@id": "_:N23a88dd8d1414477a47c0a92821fadab",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0872"
+      },
+      "sc:name": "Phylogenetic tree"
+    },
+    {
+      "@id": "_:N16e59ba150a348d3a4f391ddc799031f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkac240",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btm404",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

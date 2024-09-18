@@ -1,0 +1,76 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/plant.annot",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:Ncb866009d33e49f59fe3e4fa18c70cce"
+        },
+        {
+          "@id": "_:Na314be0532244455b2e47b2e64e118ad"
+        }
+      ],
+      "bsc:output": {
+        "@id": "_:Nbea8eb9139714b8bbbcde3d963070cab"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Suite",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0780"
+      },
+      "sc:description": "Gene annotation pipeline for plant genomes",
+      "sc:featureList": {
+        "@id": "edam:operation_0362"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "MIT",
+      "sc:name": "plant.annot",
+      "sc:operatingSystem": "Linux",
+      "sc:softwareVersion": "1",
+      "sc:url": "https://github.com/PGSB-HMGU/plant.annot"
+    },
+    {
+      "@id": "_:Nbea8eb9139714b8bbbcde3d963070cab",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1270"
+      },
+      "sc:name": "Feature table"
+    },
+    {
+      "@id": "_:Ncb866009d33e49f59fe3e4fa18c70cce",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3494"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "DNA sequence"
+    },
+    {
+      "@id": "_:Na314be0532244455b2e47b2e64e118ad",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2603"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1930"
+      },
+      "sc:name": "Expression data"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/remodiscovery",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:N8159006c3e7d4e0a80baed4b16b97351"
+        },
+        {
+          "@id": "_:N6deecc7462b84be5877e3132deca3cdf"
+        },
+        {
+          "@id": "_:N838558e516e64cefbb3b22bb4b30640c"
+        }
+      ],
+      "bsc:output": {
+        "@id": "_:N0b30fc5af42e49b5b2c3747963cfc3ac"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0602"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/gb-2006-7-5-r37"
+      },
+      "sc:description": "Inferring transcriptional module networks from ChIP-chip-, motif- and microarray data.",
+      "sc:featureList": {
+        "@id": "edam:operation_3439"
+      },
+      "sc:name": "ReMoDiscovery",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac"
+      ],
+      "sc:provider": "ugent.be",
+      "sc:softwareHelp": {
+        "@id": "http://bioinformatics.intec.ugent.be/kmarchal/Supplementary_Information_Lemmens_2006/Index.html"
+      },
+      "sc:softwareVersion": "1",
+      "sc:url": "http://bioinformatics.intec.ugent.be/kmarchal/Supplementary_Information_Lemmens_2006/Index.html"
+    },
+    {
+      "@id": "_:N0b30fc5af42e49b5b2c3747963cfc3ac",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2070"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2333"
+      },
+      "sc:name": "Sequence motif (nucleic acid)"
+    },
+    {
+      "@id": "_:N8159006c3e7d4e0a80baed4b16b97351",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2600"
+      },
+      "sc:name": "Pathway or network"
+    },
+    {
+      "@id": "_:N6deecc7462b84be5877e3132deca3cdf",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2070"
+      },
+      "sc:name": "Sequence motif (nucleic acid)"
+    },
+    {
+      "@id": "_:N838558e516e64cefbb3b22bb4b30640c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2603"
+      },
+      "sc:name": "Gene expression data"
+    },
+    {
+      "@id": "https://doi.org/10.1186/gb-2006-7-5-r37",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

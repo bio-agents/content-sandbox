@@ -1,0 +1,63 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/aCLImatise",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:Nfefd1fc28c3343aa87569da11ed0be81"
+      },
+      "bsc:output": {
+        "@id": "_:N9442da46339b4eba9402197bb15e275e"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0091"
+      },
+      "sc:description": "aCLImatise is a Python library and command-line utility for parsing the help output of a command-line agent and then outputting a description of the agent in a more structured format, for example a Common Workflow Language agent definition.",
+      "sc:featureList": {
+        "@id": "edam:operation_1812"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "GPL-3.0",
+      "sc:name": "aCLImatise",
+      "sc:operatingSystem": "Linux",
+      "sc:softwareHelp": {
+        "@id": "https://aclimatise.github.io/CliHelpParser/"
+      },
+      "sc:softwareVersion": "2.2.0",
+      "sc:url": "https://github.com/aCLImatise/CliHelpParser"
+    },
+    {
+      "@id": "_:N9442da46339b4eba9402197bb15e275e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2526"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3857"
+      },
+      "sc:name": "Text data"
+    },
+    {
+      "@id": "_:Nfefd1fc28c3343aa87569da11ed0be81",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2526"
+      },
+      "sc:name": "Text data"
+    }
+  ]
+}

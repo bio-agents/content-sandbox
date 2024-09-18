@@ -1,0 +1,65 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/ndexr",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": [
+        "Florian Auer",
+        "Alex Ishkin",
+        "Dexter Pratt",
+        "Frank Kramer"
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0602"
+        },
+        {
+          "@id": "edam:topic_3077"
+        },
+        {
+          "@id": "edam:topic_0219"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btx683"
+      },
+      "sc:description": "This package offers an interface to NDEx servers, e.g. the public server at http://ndexbio.org/. It can retrieve and save networks via the API. Networks are offered as RCX object and as igraph representation.",
+      "sc:featureList": {
+        "@id": "edam:operation_0224"
+      },
+      "sc:name": "ndexr",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:softwareHelp": [
+        {
+          "@id": "https://github.com/frankkramer-lab/ndexr"
+        },
+        {
+          "@id": "http://bioconductor.org/packages/release/bioc/manuals/ndexr/man/ndexr.pdf"
+        }
+      ],
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/ndexr.html"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btx683",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

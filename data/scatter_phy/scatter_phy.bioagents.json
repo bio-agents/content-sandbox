@@ -1,0 +1,45 @@
+{
+    "additionDate": "2020-01-09T18:22:42Z",
+    "bioagentsCURIE": "bioagents:SCATTER_PHY",
+    "bioagentsID": "SCATTER_PHY",
+    "confidence_flag": "agent",
+    "description": "An Open Source Physical Layer for the DARPA Spectrum Collaboration Challenge.",
+    "editPermission": {
+        "type": "public"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Peak detection",
+                    "uri": "http://edamontology.org/operation_3215"
+                }
+            ]
+        }
+    ],
+    "homepage": "https://github.com/zz4fap/scatter-phy",
+    "language": [
+        "C",
+        "MATLAB",
+        "Python"
+    ],
+    "lastUpdate": "2021-01-16T12:55:13Z",
+    "name": "SCATTER PHY",
+    "owner": "Pub2Agents",
+    "publication": [
+        {
+            "doi": "10.20944/PREPRINTS201910.0115.V1"
+        }
+    ],
+    "topic": [
+        {
+            "term": "Machine learning",
+            "uri": "http://edamontology.org/topic_3474"
+        },
+        {
+            "term": "Physics",
+            "uri": "http://edamontology.org/topic_3318"
+        }
+    ],
+    "validated": 1
+}

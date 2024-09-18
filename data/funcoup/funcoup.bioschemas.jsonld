@@ -1,0 +1,70 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gkt984",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/funcoup",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N3eb997fa467044bc8cdbaa8f9c7a9c6e"
+      },
+      "bsc:output": {
+        "@id": "_:N66890934a5ad40a187b96fb65e379cb0"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0602"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gkt984"
+      },
+      "sc:description": "Global networks of functional coupling in eukaryotes from comprehensive data integration.",
+      "sc:featureList": {
+        "@id": "edam:operation_2949"
+      },
+      "sc:name": "FunCoup",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:provider": "bils.se",
+      "sc:softwareHelp": {
+        "@id": "http://funcoup.sbc.su.se/help/"
+      },
+      "sc:softwareVersion": "1",
+      "sc:url": "http://funcoup.sbc.su.se/"
+    },
+    {
+      "@id": "_:N3eb997fa467044bc8cdbaa8f9c7a9c6e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2299"
+      },
+      "sc:name": "Gene name"
+    },
+    {
+      "@id": "_:N66890934a5ad40a187b96fb65e379cb0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1277"
+      },
+      "sc:name": "Protein features"
+    }
+  ]
+}

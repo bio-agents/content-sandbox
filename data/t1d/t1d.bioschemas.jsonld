@@ -1,0 +1,46 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/T1D",
+      "@type": "sc:SoftwareApplication",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3418"
+        },
+        {
+          "@id": "edam:topic_3390"
+        },
+        {
+          "@id": "edam:topic_3379"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.2196/13724"
+        },
+        "pmcid:PMC6701161",
+        "pubmed:31389338"
+      ],
+      "sc:description": "> VERY_LOW CONFIDENCE! | > CORRECT NAME OF TOOL COULD ALSO BE 'mDAD', 'T1DAgentkit.org' | Designing Online and Mobile Diabetes Education for Fathers of Children With Type 1 Diabetes | T1D Agentkit – Manage Diabetes Better | Research QuestionBlog Post FeedbackTech Support | This field is for validation purposes and should be left unchanged",
+      "sc:name": "T1D",
+      "sc:url": "http://T1DAgentkit.org"
+    },
+    {
+      "@id": "https://doi.org/10.2196/13724",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

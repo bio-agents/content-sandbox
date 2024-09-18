@@ -1,0 +1,105 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/dexma",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Juan Antonio Villatoro-García",
+      "bsc:input": [
+        {
+          "@id": "_:Nc000b615f439497aba3b0694b06b2f0a"
+        },
+        {
+          "@id": "_:Nb3021f015a9d4e9a8e98b30aa3f9eafa"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Nf60077b6344d427daeeb37621d6a7f01"
+        },
+        {
+          "@id": "_:N533007a72f9143e084862540dca8cd09"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3308"
+        },
+        {
+          "@id": "edam:topic_0091"
+        }
+      ],
+      "sc:author": "Juan Antonio Villatoro-García",
+      "sc:description": "Performing all the steps of gene expression meta-analysis considering the possible existence of missing genes. It provides the necessary functions to be able to perform the different methods of gene expression meta-analysis. In addition, it contains functions to apply quality controls, download GEO datasets and show graphical representations of the results.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3223"
+        },
+        {
+          "@id": "edam:operation_3436"
+        },
+        {
+          "@id": "edam:operation_0531"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "GPL-2.0",
+      "sc:name": "DExMA",
+      "sc:softwareHelp": [
+        {
+          "@id": "https://bioconductor.org/packages/release/bioc/manuals/DExMA/man/DExMA.pdf"
+        },
+        {
+          "@id": "https://bioconductor.org/packages/release/bioc/vignettes/DExMA/inst/doc/DExMA.pdf"
+        }
+      ],
+      "sc:softwareVersion": "1.4.2",
+      "sc:url": "https://bioconductor.org/packages/release/bioc/html/DExMA.html"
+    },
+    {
+      "@id": "_:Nf60077b6344d427daeeb37621d6a7f01",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3112"
+      },
+      "sc:name": "Gene expression matrix"
+    },
+    {
+      "@id": "_:N533007a72f9143e084862540dca8cd09",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1636"
+      },
+      "sc:name": "Heat map"
+    },
+    {
+      "@id": "_:Nc000b615f439497aba3b0694b06b2f0a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1147"
+      },
+      "sc:name": "GEO accession number"
+    },
+    {
+      "@id": "_:Nb3021f015a9d4e9a8e98b30aa3f9eafa",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3112"
+      },
+      "sc:name": "Gene expression matrix"
+    }
+  ]
+}

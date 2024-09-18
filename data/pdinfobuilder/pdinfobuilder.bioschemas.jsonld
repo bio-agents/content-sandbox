@@ -1,0 +1,93 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/pdinfobuilder",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Benilton Carvalho",
+      "bsc:input": {
+        "@id": "_:N66eea3ee7c4843f9bc208663204be637"
+      },
+      "bsc:output": {
+        "@id": "_:Nf6933527bd26478fa1cabf50e57c5bb4"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Library",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2885"
+        },
+        {
+          "@id": "edam:topic_3518"
+        },
+        {
+          "@id": "edam:topic_3489"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btq431"
+      },
+      "sc:description": "Builds platform design information packages. These consist of a SQLite database containing feature-level data such as x, y position on chip and featureSet ID. The database also incorporates featureSet-level annotation data. The products of this packages are used by the oligo pkg.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3436"
+        },
+        {
+          "@id": "edam:operation_2495"
+        }
+      ],
+      "sc:license": "Artistic-2.0",
+      "sc:name": "pdInfoBuilder",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/pdInfoBuilder.html"
+      },
+      "sc:softwareVersion": "1.38.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/pdInfoBuilder.html"
+    },
+    {
+      "@id": "_:N66eea3ee7c4843f9bc208663204be637",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3110"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1638"
+      },
+      "sc:name": "Raw microarray data"
+    },
+    {
+      "@id": "_:Nf6933527bd26478fa1cabf50e57c5bb4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3111"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3621"
+      },
+      "sc:name": "Processed microarray data"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btq431",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

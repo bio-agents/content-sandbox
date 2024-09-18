@@ -1,0 +1,126 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1038/nbt.2377",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/msconvert",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Matt Chambers",
+      "bsc:input": {
+        "@id": "_:Ne05b73a903094ad3aaeef17fb8992758"
+      },
+      "bsc:output": {
+        "@id": "_:N164ce1f1128c4d6bbb2f2bfb9da50900"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Desktop application",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0121"
+        },
+        {
+          "@id": "edam:topic_3520"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1038/nbt.2377"
+        },
+        "pmcid:PMC3471674",
+        "pubmed:23051804"
+      ],
+      "sc:description": "msConvert is a command-line utility for converting between various mass spectrometry data formats, including from raw data from several commercial companies (with vendor libraries, Windows-only). For Windows users, there is also a GUI, msConvertGUI.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3695"
+        },
+        {
+          "@id": "edam:operation_0335"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Apache-2.0",
+      "sc:name": "msConvert",
+      "sc:operatingSystem": "Windows",
+      "sc:provider": "lumc.nl",
+      "sc:softwareHelp": {
+        "@id": "http://proteowizard.sourceforge.net/IntroductoryTutorial.shtml"
+      },
+      "sc:softwareVersion": "3.0",
+      "sc:url": "http://proteowizard.sourceforge.net/agents.shtml"
+    },
+    {
+      "@id": "_:N164ce1f1128c4d6bbb2f2bfb9da50900",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0943"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3712"
+        },
+        {
+          "@id": "edam:format_3654"
+        },
+        {
+          "@id": "edam:format_3244"
+        },
+        {
+          "@id": "edam:format_3651"
+        },
+        {
+          "@id": "edam:format_3247"
+        }
+      ],
+      "sc:name": "Mass spectrum"
+    },
+    {
+      "@id": "_:Ne05b73a903094ad3aaeef17fb8992758",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0943"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3244"
+        },
+        {
+          "@id": "edam:format_3654"
+        },
+        {
+          "@id": "edam:format_3651"
+        },
+        {
+          "@id": "edam:format_3712"
+        },
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3247"
+        }
+      ],
+      "sc:name": "Mass spectrum"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1038/s41592-018-0002-6",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/picky",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Chia-Lin Wei",
+      "bsc:input": [
+        {
+          "@id": "_:N1da32a6698c44a068923ade5d96b9f96"
+        },
+        {
+          "@id": "_:N75be97ce87cb427a805e86c428e7ae97"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N15dec293d58f4933a589692693f8a72a"
+        },
+        {
+          "@id": "_:Nc4c51d675a3e4a6bb51afa730039417e"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3168"
+        },
+        {
+          "@id": "edam:topic_0199"
+        },
+        {
+          "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_2640"
+        },
+        {
+          "@id": "edam:topic_0769"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1038/s41592-018-0002-6"
+      },
+      "sc:description": "A pipeline for detecting structural variants from third generation long read sequencing data (works on Oxford Nanopore and PacBio).",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3228"
+        },
+        {
+          "@id": "edam:operation_0253"
+        },
+        {
+          "@id": "edam:operation_0292"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:name": "Picky",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://github.com/TheJacksonLaboratory/Picky/wiki"
+      },
+      "sc:url": "https://github.com/TheJacksonLaboratory/Picky"
+    },
+    {
+      "@id": "_:N1da32a6698c44a068923ade5d96b9f96",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3497"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1930"
+      },
+      "sc:name": "DNA sequence (raw)"
+    },
+    {
+      "@id": "_:N75be97ce87cb427a805e86c428e7ae97",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2093"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Data reference"
+    },
+    {
+      "@id": "_:N15dec293d58f4933a589692693f8a72a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1383"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2573"
+      },
+      "sc:name": "Sequence alignment (nucleic acid)"
+    },
+    {
+      "@id": "_:Nc4c51d675a3e4a6bb51afa730039417e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3498"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3016"
+      },
+      "sc:name": "Sequence variations"
+    }
+  ]
+}

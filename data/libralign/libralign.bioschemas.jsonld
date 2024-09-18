@@ -1,0 +1,120 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/libralign",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Ben Stöver",
+      "bsc:input": {
+        "@id": "_:N2fedbd6f10a54692bbf15d1f5ea0f574"
+      },
+      "bsc:output": {
+        "@id": "_:Nae0e9c8dd6d54fbfb2b0a68b019dae66"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3307"
+        },
+        {
+          "@id": "edam:topic_3070"
+        },
+        {
+          "@id": "edam:topic_0080"
+        }
+      ],
+      "sc:author": "Ben Stöever",
+      "sc:contributor": "Kai Müller",
+      "sc:description": "A Java GUI component library for displaying and editing multiple sequence alignments and attached data.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3081"
+        },
+        {
+          "@id": "edam:operation_0564"
+        }
+      ],
+      "sc:funder": "German Reseach Foundation",
+      "sc:isAccessibleForFree": true,
+      "sc:license": "LGPL-3.0",
+      "sc:name": "LibrAlign",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": [
+        {
+          "@id": "http://bioinfweb.info/LibrAlign/Documentation/API/Latest/"
+        },
+        {
+          "@id": "http://bioinfweb.info/LibrAlign/License"
+        },
+        {
+          "@id": "http://r.bioinfweb.info/LibrAlignSwingDemo"
+        },
+        {
+          "@id": "http://bioinfweb.info/LibrAlign/Documentation"
+        }
+      ],
+      "sc:softwareVersion": "0.8.0",
+      "sc:url": "http://bioinfweb.info/LibrAlign/"
+    },
+    {
+      "@id": "_:Nae0e9c8dd6d54fbfb2b0a68b019dae66",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1385"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1912"
+        },
+        {
+          "@id": "edam:format_2924"
+        },
+        {
+          "@id": "edam:format_3160"
+        },
+        {
+          "@id": "edam:format_1929"
+        }
+      ],
+      "sc:name": "Sequence alignment (hybrid)"
+    },
+    {
+      "@id": "_:N2fedbd6f10a54692bbf15d1f5ea0f574",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1385"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1912"
+        },
+        {
+          "@id": "edam:format_2924"
+        },
+        {
+          "@id": "edam:format_1929"
+        },
+        {
+          "@id": "edam:format_3160"
+        }
+      ],
+      "sc:name": "Sequence alignment (hybrid)"
+    }
+  ]
+}

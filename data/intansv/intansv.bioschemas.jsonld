@@ -1,0 +1,138 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1038/nmeth.3252",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/intansv",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Wen Yao",
+      "bsc:input": [
+        {
+          "@id": "_:N6cac8f4ce8b64c0683378210a5ef774b"
+        },
+        {
+          "@id": "_:N5dd6895b5ff547a79cc8370e3439fe15"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Ncdd9fbf137e94098b5a12eb49307220c"
+        },
+        {
+          "@id": "_:N28aee59f52bf453b9323c8d63e775e2e"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Library",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3053"
+        },
+        {
+          "@id": "edam:topic_0092"
+        },
+        {
+          "@id": "edam:topic_3175"
+        },
+        {
+          "@id": "edam:topic_3168"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1038/nmeth.3252"
+      },
+      "sc:description": "This package provides efficient agents to read and integrate structural variations predicted by popular softwares. Annotation and visulation of structural variations are also implemented in the package.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0361"
+        },
+        {
+          "@id": "edam:operation_2518"
+        }
+      ],
+      "sc:license": "Artistic-2.0",
+      "sc:name": "intansv",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/intansv.html"
+      },
+      "sc:softwareVersion": "1.12.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/intansv.html"
+    },
+    {
+      "@id": "_:N6cac8f4ce8b64c0683378210a5ef774b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1027"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Gene ID (NCBI)"
+    },
+    {
+      "@id": "_:N5dd6895b5ff547a79cc8370e3439fe15",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1383"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Sequence alignment (nucleic acid)"
+    },
+    {
+      "@id": "_:Ncdd9fbf137e94098b5a12eb49307220c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1288"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3033"
+        },
+        {
+          "@id": "edam:format_3547"
+        }
+      ],
+      "sc:name": "Genome map"
+    },
+    {
+      "@id": "_:N28aee59f52bf453b9323c8d63e775e2e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0954"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3033"
+        },
+        {
+          "@id": "edam:format_3547"
+        }
+      ],
+      "sc:name": "Database cross-mapping"
+    }
+  ]
+}

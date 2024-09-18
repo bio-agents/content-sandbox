@@ -1,0 +1,57 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/chronic_vs_clinic",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Pavel Skums",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Script",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3474"
+        },
+        {
+          "@id": "edam:topic_3382"
+        },
+        {
+          "@id": "edam:topic_3305"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1101/642108"
+      },
+      "sc:description": "Analysis of Heterogeneous Genomic Samples Using Image Normalization and Machine Learning.",
+      "sc:featureList": {
+        "@id": "edam:operation_0487"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Unlicense",
+      "sc:name": "chronic vs clinic",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://bitbucket.org/adv_bio_coll/chronic_vs_clinic/src/master/README.md"
+      },
+      "sc:url": "https://bitbucket.org/adv_bio_coll/chronic_vs_clinic"
+    },
+    {
+      "@id": "https://doi.org/10.1101/642108",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

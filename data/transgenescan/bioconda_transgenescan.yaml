@@ -1,0 +1,11 @@
+bioagents_id: transgenescan
+home: https://github.com/COL-IU/TransGeneScan
+identifiers:
+- bioagents:TransGeneScan
+- doi:10.1186/1471-2105-15-S9-S8
+license: file
+license_file: LICENSE
+name: transgenescan
+summary: Software agent for finding genes in assembled transcripts from metatranscriptomic
+  sequences.
+version: 1.2.1

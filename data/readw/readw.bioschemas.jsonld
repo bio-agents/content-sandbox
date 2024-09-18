@@ -1,0 +1,73 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/readw",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:Nff0f1fc6b21141a3a7650f04a61c89a6"
+      },
+      "bsc:output": {
+        "@id": "_:N268c557e3918436289e84ca517e96ada"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0121"
+        },
+        {
+          "@id": "edam:topic_3520"
+        }
+      ],
+      "sc:description": "Converts Xcalibur native acquisition files to mzXML.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_1812"
+        },
+        {
+          "@id": "edam:operation_0335"
+        }
+      ],
+      "sc:name": "ReAdW",
+      "sc:operatingSystem": "Windows",
+      "sc:softwareHelp": {
+        "@id": "http://agents.proteomecenter.org/wiki/index.php?title=Software:ReAdW"
+      },
+      "sc:url": "http://agents.proteomecenter.org/ReAdW.php"
+    },
+    {
+      "@id": "_:Nff0f1fc6b21141a3a7650f04a61c89a6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0943"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3712"
+      },
+      "sc:name": "Mass spectrometry spectra"
+    },
+    {
+      "@id": "_:N268c557e3918436289e84ca517e96ada",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0943"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3654"
+      },
+      "sc:name": "Mass spectrometry spectra"
+    }
+  ]
+}

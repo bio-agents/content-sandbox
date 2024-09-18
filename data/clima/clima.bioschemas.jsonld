@@ -1,0 +1,152 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/clima",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Paolo Romano",
+      "bsc:input": [
+        {
+          "@id": "_:Na7c18911e9184179ab45afe934ff612b"
+        },
+        {
+          "@id": "_:N3e93bfd80d3f463b9ac60d2d3ef96196"
+        },
+        {
+          "@id": "_:Nc46d86d2b7e148be90c24aa5c305f3e7"
+        },
+        {
+          "@id": "_:N84509e9a2ee24b65a2d3eb22fb15d585"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N036bf83b784942808464d0eb47046b32"
+        },
+        {
+          "@id": "_:N7fe8b8479aed49a69ce409a0a56d5844"
+        },
+        {
+          "@id": "_:N1f737b67485147d3972b74f52daa6629"
+        },
+        {
+          "@id": "_:N2d84df5977794160aceaf15c3ad14253"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_2229"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gkn730"
+      },
+      "sc:description": "Cell line integrated molecular authentication.",
+      "sc:featureList": {
+        "@id": "edam:operation_0224"
+      },
+      "sc:name": "CLIMA",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:provider": "IRCSS AOU San Martino IST",
+      "sc:softwareHelp": {
+        "@id": "http://bioinformatics.hsanmartino.it/clima/help.php"
+      },
+      "sc:url": "http://bioinformatics.hsanmartino.it/clima/"
+    },
+    {
+      "@id": "_:Na7c18911e9184179ab45afe934ff612b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2317"
+      },
+      "sc:name": "Cell line name (exact)"
+    },
+    {
+      "@id": "_:N3e93bfd80d3f463b9ac60d2d3ef96196",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2319"
+      },
+      "sc:name": "Cell line name (no punctuation)"
+    },
+    {
+      "@id": "_:Nc46d86d2b7e148be90c24aa5c305f3e7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2318"
+      },
+      "sc:name": "Cell line name (truncated)"
+    },
+    {
+      "@id": "_:N84509e9a2ee24b65a2d3eb22fb15d585",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2320"
+      },
+      "sc:name": "Cell line name (assonant)"
+    },
+    {
+      "@id": "_:N036bf83b784942808464d0eb47046b32",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0963"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Cell line report"
+    },
+    {
+      "@id": "_:N7fe8b8479aed49a69ce409a0a56d5844",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0963"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Cell line report"
+    },
+    {
+      "@id": "_:N1f737b67485147d3972b74f52daa6629",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0963"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Cell line report"
+    },
+    {
+      "@id": "_:N2d84df5977794160aceaf15c3ad14253",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0963"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Cell line report"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkn730",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

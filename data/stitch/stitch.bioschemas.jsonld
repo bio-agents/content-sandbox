@@ -1,0 +1,226 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/stitch",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Michael Kuhn",
+      "bsc:input": [
+        {
+          "@id": "_:Ndc3805e8c42e48ccbc86616346c029b6"
+        },
+        {
+          "@id": "_:N4f2cfa10fff5431cbe32830cc045e82b"
+        },
+        {
+          "@id": "_:N342a846afd374f70a4776fa53e285bce"
+        },
+        {
+          "@id": "_:N5099a33480f4469ab5687b468770c665"
+        },
+        {
+          "@id": "_:N6c8d6a78588a417faa5a97b27aacd0f5"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N78f12556de9e4d3fb8f6fbef70340c7c"
+        },
+        {
+          "@id": "_:N7036b6dafb464d72b224c83f86c6a0b6"
+        },
+        {
+          "@id": "_:N1d868b6a570f49259061acb42d219243"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Web application",
+        "Database portal",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3314"
+        },
+        {
+          "@id": "edam:topic_0602"
+        },
+        {
+          "@id": "edam:topic_3344"
+        }
+      ],
+      "sc:author": "Michael Kuhn",
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/nar/gkm795"
+        },
+        "pubmed:22075997",
+        "pmcid:PMC2238848",
+        "pubmed:18084021",
+        "pubmed:19897548",
+        "pubmed:24293645"
+      ],
+      "sc:contributor": [
+        "TUD",
+        "EMBL",
+        "SUND-KU",
+        "BMBF",
+        "EMBO",
+        "CPR",
+        "EC FP6"
+      ],
+      "sc:description": "Resource to explore known and predicted interactions of chemicals and proteins. Chemicals are linked to other chemicals and proteins by evidence derived from experiments, databases and the literature.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2421"
+        },
+        {
+          "@id": "edam:operation_2497"
+        },
+        {
+          "@id": "edam:operation_2423"
+        },
+        {
+          "@id": "edam:operation_3083"
+        }
+      ],
+      "sc:funder": [
+        "EC FP6",
+        "EMBO",
+        "TUD",
+        "EMBL",
+        "BMBF",
+        "SUND-KU",
+        "CPR"
+      ],
+      "sc:name": "STITCH",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:provider": "HD-HuB",
+      "sc:softwareHelp": {
+        "@id": "http://stitch.embl.de/cgi/show_info_page.pl?UserId=pRfi11Qlkhnx&sessionId=sEfmbh_T7QLq"
+      },
+      "sc:url": "http://stitch.embl.de/"
+    },
+    {
+      "@id": "_:N78f12556de9e4d3fb8f6fbef70340c7c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2600"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3547"
+        }
+      ],
+      "sc:name": "Pathway or network"
+    },
+    {
+      "@id": "_:N7036b6dafb464d72b224c83f86c6a0b6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2042"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Evidence"
+    },
+    {
+      "@id": "_:N1d868b6a570f49259061acb42d219243",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0954"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Database cross-mapping"
+    },
+    {
+      "@id": "_:Ndc3805e8c42e48ccbc86616346c029b6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2976"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2546"
+      },
+      "sc:name": "Protein sequence"
+    },
+    {
+      "@id": "_:N4f2cfa10fff5431cbe32830cc045e82b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2299"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Gene name"
+    },
+    {
+      "@id": "_:N342a846afd374f70a4776fa53e285bce",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1463"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1199"
+        },
+        {
+          "@id": "edam:format_1196"
+        },
+        {
+          "@id": "edam:format_3468"
+        }
+      ],
+      "sc:name": "Small molecule structure"
+    },
+    {
+      "@id": "_:N5099a33480f4469ab5687b468770c665",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1009"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Protein name"
+    },
+    {
+      "@id": "_:N6c8d6a78588a417faa5a97b27aacd0f5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0990"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Compound name"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkm795",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

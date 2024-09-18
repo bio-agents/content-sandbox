@@ -1,0 +1,152 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/rcpi",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": {
+        "@id": "http://orcid.org/0000-0002-0250-5673"
+      },
+      "bsc:input": [
+        {
+          "@id": "_:Nbb98eb2188894da9a76feb751bf92048"
+        },
+        {
+          "@id": "_:Nd78b76e154fb4660a3da5eff0479ccf0"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N1a1c5b6a14f0489eb2c8ccbf4de4b132"
+        },
+        {
+          "@id": "_:N53ce55d07b784b4da1ad0031f94ff705"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Library",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2258"
+        },
+        {
+          "@id": "edam:topic_0078"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:25246429",
+        {
+          "@id": "https://doi.org/10.1093/bioinformatics/btu624"
+        }
+      ],
+      "sc:description": "This molecular informatics agentkit offers a comprehensive integration of bioinformatics and chemoinformatics agents for drug discovery.",
+      "sc:featureList": {
+        "@id": "edam:operation_0482"
+      },
+      "sc:license": "Artistic-2.0",
+      "sc:name": "Rcpi",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/Rcpi.html"
+      },
+      "sc:softwareVersion": "1.10.6",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/Rcpi.html"
+    },
+    {
+      "@id": "_:Nbb98eb2188894da9a76feb751bf92048",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1463"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1929"
+        },
+        {
+          "@id": "edam:format_1196"
+        },
+        {
+          "@id": "edam:format_1476"
+        }
+      ],
+      "sc:name": "Small molecule structure"
+    },
+    {
+      "@id": "_:Nd78b76e154fb4660a3da5eff0479ccf0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2976"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1196"
+        },
+        {
+          "@id": "edam:format_1929"
+        },
+        {
+          "@id": "edam:format_1476"
+        }
+      ],
+      "sc:name": "Protein sequence"
+    },
+    {
+      "@id": "_:N1a1c5b6a14f0489eb2c8ccbf4de4b132",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3033"
+        },
+        {
+          "@id": "edam:format_3547"
+        }
+      ],
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:N53ce55d07b784b4da1ad0031f94ff705",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2854"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3033"
+        },
+        {
+          "@id": "edam:format_3547"
+        }
+      ],
+      "sc:name": "Position-specific scoring matrix"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btu624",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "http://orcid.org/0000-0002-0250-5673",
+      "@type": "schema:Person"
+    }
+  ]
+}

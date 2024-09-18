@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gku830",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/virusmentha",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": [
+        "Alberto Calderone",
+        "Luana Licata"
+      ],
+      "bsc:output": {
+        "@id": "_:N23bba3355f0949c6be5bfc2865c7d957"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0781"
+        },
+        {
+          "@id": "edam:topic_0128"
+        }
+      ],
+      "sc:author": "Alberto Calderone",
+      "sc:citation": [
+        "pubmed:25217587",
+        {
+          "@id": "https://doi.org/10.1093/nar/gku830"
+        },
+        "pmcid:PMC4384001"
+      ],
+      "sc:contributor": "Gianni Cesareni",
+      "sc:description": "This agent archives evidence about viral interactions collected from different manually curated protein-protein interaction databases that have adhered to the IMEx consortium.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3083"
+        },
+        {
+          "@id": "edam:operation_2421"
+        }
+      ],
+      "sc:name": "VirusMentha",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:provider": [
+        "Molecular Genetic Group, University of Rome \"Tor Vergata\", Rome, Italy",
+        "IECHOR-ITA-TORVERGATA"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://virusmentha.uniroma2.it/about.php#userguide"
+      },
+      "sc:softwareVersion": "1",
+      "sc:url": "http://virusmentha.uniroma2.it/"
+    },
+    {
+      "@id": "_:N23bba3355f0949c6be5bfc2865c7d957",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0906"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3158"
+      },
+      "sc:name": "Protein interaction data"
+    }
+  ]
+}

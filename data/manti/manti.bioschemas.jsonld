@@ -1,0 +1,70 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1021/ACS.ANALCHEM.1C00310",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/manti",
+      "@type": "sc:SoftwareApplication",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Script",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0154"
+        },
+        {
+          "@id": "edam:topic_0749"
+        },
+        {
+          "@id": "edam:topic_0121"
+        },
+        {
+          "@id": "edam:topic_0601"
+        },
+        {
+          "@id": "edam:topic_3510"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1021/ACS.ANALCHEM.1C00310"
+        },
+        "pubmed:33729755",
+        "pmcid:PMC8027985"
+      ],
+      "sc:description": "MANTI is an agent for automated annotation of protein N-termini for rapid interpretation of N-terminome data sets.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3646"
+        },
+        {
+          "@id": "edam:operation_3755"
+        },
+        {
+          "@id": "edam:operation_3642"
+        }
+      ],
+      "sc:license": "Artistic-2.0",
+      "sc:name": "MANTI",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:url": "https://MANTI.sourceforge.io"
+    }
+  ]
+}

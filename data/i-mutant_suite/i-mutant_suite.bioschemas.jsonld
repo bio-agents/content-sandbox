@@ -1,0 +1,172 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/i-mutant_suite",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Emidio Capriotti",
+      "bsc:input": [
+        {
+          "@id": "_:N74f80809f6f548eab1dfcdc3eccedbb2"
+        },
+        {
+          "@id": "_:N461686cefb384f3ea08a7fa90b93a0e5"
+        },
+        {
+          "@id": "_:N3f3f8392f2164188823fe3e48a067d8d"
+        },
+        {
+          "@id": "_:N122d0d7866a644b0bbcd238013ff3cde"
+        },
+        {
+          "@id": "_:N2ffed388058947e3ba3d4065f3be60c1"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N1fbb77a13fe744b787c546838764045a"
+        },
+        {
+          "@id": "_:Nef8fbb41af8a4d9f884e71e52b7c8dd6"
+        },
+        {
+          "@id": "_:N16b77f33907c4372aa33ac6307d46928"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0082"
+        },
+        {
+          "@id": "edam:topic_0130"
+        },
+        {
+          "@id": "edam:topic_2885"
+        },
+        {
+          "@id": "edam:topic_0199"
+        },
+        {
+          "@id": "edam:topic_2814"
+        },
+        {
+          "@id": "edam:topic_0078"
+        }
+      ],
+      "sc:citation": "pubmed:15980478",
+      "sc:description": "Predictor of effects of single point protein mutation on its stability from protein sequences or structures.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0250"
+        },
+        {
+          "@id": "edam:operation_2406"
+        }
+      ],
+      "sc:name": "I-MUTANT Suite",
+      "sc:operatingSystem": [
+        "Mac",
+        "Windows",
+        "Linux"
+      ],
+      "sc:provider": "IECHOR-ITA-BOLOGNA",
+      "sc:softwareHelp": {
+        "@id": "http://gpcr2.biocomp.unibo.it/~emidio/I-Mutant3.0/I-MutantSuite_Help.html"
+      },
+      "sc:softwareVersion": "3.0",
+      "sc:url": "http://gpcr2.biocomp.unibo.it/cgi/predictors/I-Mutant3.0/I-Mutant3.0.cgi"
+    },
+    {
+      "@id": "_:N1fbb77a13fe744b787c546838764045a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1537"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Protein structure report"
+    },
+    {
+      "@id": "_:Nef8fbb41af8a4d9f884e71e52b7c8dd6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1622"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Disease report"
+    },
+    {
+      "@id": "_:N16b77f33907c4372aa33ac6307d46928",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1537"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Protein structure report"
+    },
+    {
+      "@id": "_:N74f80809f6f548eab1dfcdc3eccedbb2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2974"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Protein sequence (raw)"
+    },
+    {
+      "@id": "_:N461686cefb384f3ea08a7fa90b93a0e5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2974"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Protein sequence (raw)"
+    },
+    {
+      "@id": "_:N3f3f8392f2164188823fe3e48a067d8d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1742"
+      },
+      "sc:name": "PDB residue number"
+    },
+    {
+      "@id": "_:N122d0d7866a644b0bbcd238013ff3cde",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1127"
+      },
+      "sc:name": "PDB ID"
+    },
+    {
+      "@id": "_:N2ffed388058947e3ba3d4065f3be60c1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1467"
+      },
+      "sc:name": "Protein chain"
+    }
+  ]
+}

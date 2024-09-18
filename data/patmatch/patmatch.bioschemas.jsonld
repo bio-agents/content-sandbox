@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.agents/patmatch",
+  "@type": "sc:SoftwareApplication",
+  "bioagents:primaryContact": "PatchMatch Support",
+  "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_3168"
+    },
+    {
+      "@id": "edam:topic_0154"
+    },
+    {
+      "@id": "edam:topic_0654"
+    }
+  ],
+  "sc:citation": "pubmed:15980466",
+  "sc:description": "PatMatch is a pattern matching agent that allows you to search for short (<20 residues) nucleotide or peptide sequences and can accomodate ambiguous/degenerate patterns.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_0235"
+    },
+    {
+      "@id": "edam:operation_2479"
+    },
+    {
+      "@id": "edam:operation_2421"
+    }
+  ],
+  "sc:name": "PatMatch",
+  "sc:operatingSystem": [
+    "Mac",
+    "Linux",
+    "Windows"
+  ],
+  "sc:url": "http://www.arabidopsis.org/cgi-bin/patmatch/nph-patmatch.pl"
+}

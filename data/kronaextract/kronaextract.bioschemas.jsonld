@@ -1,0 +1,128 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/kronaextract",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Galaxy Support Team",
+      "bsc:input": {
+        "@id": "_:N43c29cf458394638865f90a8a3eb143b"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:N45e616f0373b41d093f3c8e8fd89cd9f"
+        },
+        {
+          "@id": "_:Nfbb68ad418d94c1f92871a7edd5e2140"
+        },
+        {
+          "@id": "_:N5050cd39b83d43f9bd041f267d56eedb"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_3299"
+        },
+        {
+          "@id": "edam:topic_0637"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/nar/gkw343"
+        },
+        {
+          "@id": "https://doi.org/10.7490/f1000research.1114334.1"
+        }
+      ],
+      "sc:description": "Extract from krona xml file (obtained by rankoptimizer), list of reads and blast offset for a given taxonomic name.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2403"
+        },
+        {
+          "@id": "edam:operation_3198"
+        }
+      ],
+      "sc:name": "kronaextract",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://galaxy.pasteur.fr/root?agent_id=agentshed.pasteur.fr%2Frepos%2Fodoppelt%2Ftaxonomy_analysis%2FkronaExtract%2F0.0.2"
+      },
+      "sc:softwareVersion": "0.0.2",
+      "sc:url": "https://galaxy.pasteur.fr/agent_runner?agent_id=agentshed.pasteur.fr/repos/odoppelt/taxonomy_analysis/kronaExtract/0.0.2"
+    },
+    {
+      "@id": "_:N45e616f0373b41d093f3c8e8fd89cd9f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:Nfbb68ad418d94c1f92871a7edd5e2140",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N5050cd39b83d43f9bd041f267d56eedb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N43c29cf458394638865f90a8a3eb143b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2332"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

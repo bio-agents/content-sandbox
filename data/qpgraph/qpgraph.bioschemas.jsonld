@@ -1,0 +1,152 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1534/genetics.114.169573",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/qpgraph",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": {
+        "@id": "http://orcid.org/0000-0003-2229-4508"
+      },
+      "bsc:input": {
+        "@id": "_:Ne95037a94a0743dc95b5c3bfd3b42f45"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:N6a206c1cf5294ce0b4df123a99560f5b"
+        },
+        {
+          "@id": "_:N23c845fe0df7418aa3d1554deff42dc3"
+        },
+        {
+          "@id": "_:N284fdfdda0b648b6a1f56cdf6cacaad3"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Library",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3053"
+        },
+        {
+          "@id": "edam:topic_3518"
+        },
+        {
+          "@id": "edam:topic_3308"
+        },
+        {
+          "@id": "edam:topic_0622"
+        },
+        {
+          "@id": "edam:topic_2885"
+        },
+        {
+          "@id": "edam:topic_0203"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1534/genetics.114.169573"
+        },
+        "pubmed:25271303",
+        "pmcid:PMC4256758"
+      ],
+      "sc:description": "Estimate gene and eQTL networks from high-throughput expression and genotyping assays.",
+      "sc:featureList": {
+        "@id": "edam:operation_3232"
+      },
+      "sc:license": "GPL-2.0",
+      "sc:name": "qpgraph",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/qpgraph.html"
+      },
+      "sc:softwareVersion": "2.8.2",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/qpgraph.html"
+    },
+    {
+      "@id": "_:Ne95037a94a0743dc95b5c3bfd3b42f45",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3111"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3033"
+      },
+      "sc:name": "Processed microarray data"
+    },
+    {
+      "@id": "_:N6a206c1cf5294ce0b4df123a99560f5b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1772"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3033"
+        },
+        {
+          "@id": "edam:format_3547"
+        }
+      ],
+      "sc:name": "Score"
+    },
+    {
+      "@id": "_:N23c845fe0df7418aa3d1554deff42dc3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1669"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3033"
+        },
+        {
+          "@id": "edam:format_3547"
+        }
+      ],
+      "sc:name": "P-value"
+    },
+    {
+      "@id": "_:N284fdfdda0b648b6a1f56cdf6cacaad3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3033"
+        },
+        {
+          "@id": "edam:format_3547"
+        }
+      ],
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "http://orcid.org/0000-0003-2229-4508",
+      "@type": "schema:Person"
+    }
+  ]
+}

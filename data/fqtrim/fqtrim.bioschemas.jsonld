@@ -1,0 +1,54 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.593893",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/fqtrim",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Geo Pertea",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3511"
+        },
+        {
+          "@id": "edam:topic_0654"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.5281/zenodo.593893"
+      },
+      "sc:description": "Utility for filtering and trimming high-throughput next-gen reads.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3192"
+        },
+        {
+          "@id": "edam:operation_3695"
+        }
+      ],
+      "sc:name": "fqtrim",
+      "sc:operatingSystem": "Linux",
+      "sc:softwareHelp": {
+        "@id": "http://ccb.jhu.edu/software/fqtrim/index.shtml"
+      },
+      "sc:softwareVersion": "0.95",
+      "sc:url": "http://ccb.jhu.edu/software/fqtrim/index.shtml"
+    }
+  ]
+}

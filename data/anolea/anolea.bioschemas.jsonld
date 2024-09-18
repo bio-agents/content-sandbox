@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.agents/anolea",
+  "@type": "sc:SoftwareApplication",
+  "bioagents:primaryContact": "Francisco Melo Ledermann",
+  "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_2275"
+    },
+    {
+      "@id": "edam:topic_2814"
+    }
+  ],
+  "sc:citation": "pubmed:9322034",
+  "sc:description": "Server to assess the quality of a three dimensional protein structure. It uses a statistical potential at the atomic level and gives an energy profile as ouput. Also, the user can choose to have a molecular graphical output representation of the energy profile.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_2426"
+    },
+    {
+      "@id": "edam:operation_3658"
+    },
+    {
+      "@id": "edam:operation_0321"
+    }
+  ],
+  "sc:name": "ANOLEA",
+  "sc:operatingSystem": [
+    "Mac",
+    "Linux",
+    "Windows"
+  ],
+  "sc:softwareHelp": {
+    "@id": "http://melolab.org/anolea/index.html"
+  },
+  "sc:url": "http://melolab.org/anolea/index.html"
+}

@@ -1,0 +1,99 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1101/033142",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/sequenceserver",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": [
+        "Anurag Priyam",
+        "Yannick Wurm"
+      ],
+      "bsc:input": {
+        "@id": "_:Nb5958d3ee8f144ad85b1e58d48fa1fb6"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:Ncf43bf00c1164784b6916b3b30e325de"
+        },
+        {
+          "@id": "_:N2c1a39cb8bb542cca58ee66feec6d1f1"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0091"
+      },
+      "sc:author": "WurmLab",
+      "sc:citation": {
+        "@id": "https://doi.org/10.1101/033142"
+      },
+      "sc:description": "BLAST is the most commonly used bioinformatics agent. But setting it up for private data and using it is counter-intuitive. We developed this agent to make BLAST easy to use.",
+      "sc:featureList": {
+        "@id": "edam:operation_0346"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "AGPL-3.0",
+      "sc:name": "SequenceServer",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": [
+        {
+          "@id": "http://www.sequenceserver.com/#cite"
+        },
+        {
+          "@id": "http://www.sequenceserver.com/#installation-and-configuration"
+        }
+      ],
+      "sc:softwareVersion": "1.0.9",
+      "sc:url": "http://www.sequenceserver.com"
+    },
+    {
+      "@id": "_:Nb5958d3ee8f144ad85b1e58d48fa1fb6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2200"
+      },
+      "sc:name": "Sequence"
+    },
+    {
+      "@id": "_:Ncf43bf00c1164784b6916b3b30e325de",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0867"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Sequence alignment report"
+    },
+    {
+      "@id": "_:N2c1a39cb8bb542cca58ee66feec6d1f1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0857"
+      },
+      "sc:name": "Sequence search results"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1038/ncomms13642",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/igdiscover",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N28387889d43f4b6dab3e1f6d353253ce"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:Nf53a525790f740f1a39bcd2e0ab46dae"
+        },
+        {
+          "@id": "_:N7c479ad28bc64bba85d433c6a8ce0e5a"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0097"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1038/ncomms13642"
+      },
+      "sc:description": "Analyzes antibody repertoires and discovers new V genes from high-throughput sequencing reads. Heavy chains, kappa and lambda light chains are supported (to discover VH, VK and VL genes).",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3663"
+        },
+        {
+          "@id": "edam:operation_0314"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "MIT",
+      "sc:name": "IgDiscover",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://docs.igdiscover.se/"
+      },
+      "sc:softwareVersion": "0.6.0",
+      "sc:url": "http://igdiscover.se/"
+    },
+    {
+      "@id": "_:Nf53a525790f740f1a39bcd2e0ab46dae",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0928"
+      },
+      "sc:name": "Gene expression profile"
+    },
+    {
+      "@id": "_:N7c479ad28bc64bba85d433c6a8ce0e5a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2977"
+      },
+      "sc:name": "DNA sequence"
+    },
+    {
+      "@id": "_:N28387889d43f4b6dab3e1f6d353253ce",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3496"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1929"
+        },
+        {
+          "@id": "edam:format_1930"
+        }
+      ],
+      "sc:name": "RNA sequence (raw)"
+    }
+  ]
+}

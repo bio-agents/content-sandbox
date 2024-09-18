@@ -1,0 +1,142 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/massxpert",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:Nca7db67f544947af928dbc96b12ed1d7"
+        },
+        {
+          "@id": "_:Nc15da838f2904e26a0c7599d2d325134"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Nbae04095c9234591bc1041b5f4d2bef1"
+        },
+        {
+          "@id": "_:N0184e52674d841188975aa687de7984f"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Desktop application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3511"
+        },
+        {
+          "@id": "edam:topic_0123"
+        },
+        {
+          "@id": "edam:topic_3520"
+        },
+        {
+          "@id": "edam:topic_0622"
+        },
+        {
+          "@id": "edam:topic_3292"
+        },
+        {
+          "@id": "edam:topic_0601"
+        },
+        {
+          "@id": "edam:topic_0121"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btp504"
+      },
+      "sc:description": "Agent for analysis of polymer and peptide/protein mass spectra.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3024"
+        },
+        {
+          "@id": "edam:operation_0365"
+        },
+        {
+          "@id": "edam:operation_0417"
+        },
+        {
+          "@id": "edam:operation_2426"
+        },
+        {
+          "@id": "edam:operation_0564"
+        },
+        {
+          "@id": "edam:operation_3023"
+        },
+        {
+          "@id": "edam:operation_2929"
+        },
+        {
+          "@id": "edam:operation_0239"
+        }
+      ],
+      "sc:name": "massXpert",
+      "sc:softwareVersion": "massXpert 2",
+      "sc:url": "http://www.massxpert.org"
+    },
+    {
+      "@id": "_:Nca7db67f544947af928dbc96b12ed1d7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2976"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2332"
+      },
+      "sc:name": "Protein sequence"
+    },
+    {
+      "@id": "_:Nc15da838f2904e26a0c7599d2d325134",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0977"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2332"
+      },
+      "sc:name": "Agent identifier"
+    },
+    {
+      "@id": "_:Nbae04095c9234591bc1041b5f4d2bef1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0977"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2332"
+      },
+      "sc:name": "Agent identifier"
+    },
+    {
+      "@id": "_:N0184e52674d841188975aa687de7984f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2976"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2332"
+      },
+      "sc:name": "Protein sequence"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btp504",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

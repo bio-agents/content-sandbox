@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/raw2mzdb",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Alexandre Burel",
+      "bsc:input": {
+        "@id": "_:Nf5385ee7652341c4a8442595b96100dc"
+      },
+      "bsc:output": {
+        "@id": "_:N5dcf6e484c544adebe7ceffdc1d0ae4f"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0121"
+      },
+      "sc:author": [
+        "David Bouyssié",
+        "Alexandre Burel"
+      ],
+      "sc:citation": [
+        "pubmed:25505153",
+        "pmcid:PMC4349994"
+      ],
+      "sc:contributor": "ProFI",
+      "sc:description": "An extension of the ProteoWizard framework enabling the support of the mzDB format. This agents is supported by the Proteomics French Infrastructure ProFI.",
+      "sc:featureList": {
+        "@id": "edam:operation_3434"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Apache-2.0",
+      "sc:name": "raw2mzDB",
+      "sc:operatingSystem": "Windows",
+      "sc:softwareHelp": {
+        "@id": "https://github.com/mzdb/pwiz-mzdb/blob/master/README.md"
+      },
+      "sc:softwareVersion": "0.9.9",
+      "sc:url": "https://github.com/mzdb/pwiz-mzdb"
+    },
+    {
+      "@id": "_:N5dcf6e484c544adebe7ceffdc1d0ae4f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0943"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3621"
+      },
+      "sc:name": "Mass spectrometry spectra"
+    },
+    {
+      "@id": "_:Nf5385ee7652341c4a8442595b96100dc",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0943"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3244"
+        },
+        {
+          "@id": "edam:format_3712"
+        },
+        {
+          "@id": "edam:format_3710"
+        }
+      ],
+      "sc:name": "Mass spectrometry spectra"
+    }
+  ]
+}

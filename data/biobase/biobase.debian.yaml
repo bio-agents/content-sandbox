@@ -1,0 +1,19 @@
+description: Biobase is part of the Bioconductor project, and is used by many other
+  packages. Biobase contains standardized data structures to represent genomic data,
+  and functions that are needed by many other packages or which replace R functions.
+  . Bioconductor is a project to develop innovative software agents for use in computational
+  biology. It is based on the R language. You should already be quite familiar with
+  R before using Bioconductor. Bioconductor packages provide flexible interactive
+  agents for carrying out a number of different computational tasks.
+edam:
+  topics: null
+  version: unknown
+homepage: https://bioconductor.org/packages/Biobase/
+identifiers:
+  bioagents: biobase
+  debian: r-bioc-biobase
+  doi:
+  - 10.1186/gb-2004-5-10-r80
+  omicagents: OMICS_29442
+summary: base functions for Bioconductor
+version: 2.50.0

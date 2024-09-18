@@ -1,0 +1,133 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/i-mutant",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Emidio Capriotti",
+      "bsc:input": [
+        {
+          "@id": "_:N1876e4b5a57c491d996246d6a3e46fa1"
+        },
+        {
+          "@id": "_:Ned2fc63dffa3480bbee3e8ae61cc65d2"
+        },
+        {
+          "@id": "_:N76656f90672d45bb8fe4c754835b7b76"
+        },
+        {
+          "@id": "_:N11d55da5cf934938a474580b5ce87d9e"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Ne6f1ce18c7db421abff79014db867686"
+        },
+        {
+          "@id": "_:N48394e15ac2744f7afb490fe49043a3d"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2885"
+        },
+        {
+          "@id": "edam:topic_0130"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gki375"
+      },
+      "sc:description": "Neural Network based Predictor of Protein stability Changes upon Single Point Mutation from the Protein Structure.",
+      "sc:featureList": {
+        "@id": "edam:operation_2406"
+      },
+      "sc:name": "I-MUTANT",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:provider": "IECHOR-ITA-BOLOGNA",
+      "sc:softwareHelp": {
+        "@id": "http://folding.biofold.org/i-mutant//pages/I-Mutant2.0_Tutorial.html"
+      },
+      "sc:softwareVersion": "2.0",
+      "sc:url": "http://folding.biofold.org/i-mutant/i-mutant2.0.html"
+    },
+    {
+      "@id": "_:Ne6f1ce18c7db421abff79014db867686",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1537"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Protein structure report"
+    },
+    {
+      "@id": "_:N48394e15ac2744f7afb490fe49043a3d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1537"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Protein structure report"
+    },
+    {
+      "@id": "_:N1876e4b5a57c491d996246d6a3e46fa1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1467"
+      },
+      "sc:name": "Protein chain"
+    },
+    {
+      "@id": "_:Ned2fc63dffa3480bbee3e8ae61cc65d2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1127"
+      },
+      "sc:name": "PDB ID"
+    },
+    {
+      "@id": "_:N76656f90672d45bb8fe4c754835b7b76",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1742"
+      },
+      "sc:name": "PDB residue number"
+    },
+    {
+      "@id": "_:N11d55da5cf934938a474580b5ce87d9e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2974"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Protein sequence (raw)"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gki375",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

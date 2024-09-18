@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/mzXML2Search",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N21ca16fd69184f7998faf890a2a963f0"
+      },
+      "bsc:output": {
+        "@id": "_:N7ff7386d1a9947c9915ecf9846e40ecb"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0121"
+        },
+        {
+          "@id": "edam:topic_3520"
+        }
+      ],
+      "sc:description": "Converts mzXML and mzML files to SEQUEST dta, MASCOT mgf, and Micromass pkl files. Comes with the current version of TPP.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0335"
+        },
+        {
+          "@id": "edam:operation_1812"
+        }
+      ],
+      "sc:license": "LGPL-2.0",
+      "sc:name": "mzXML2Search",
+      "sc:url": "http://agents.proteomecenter.org/wiki/index.php?title=Software:MzXML2Search"
+    },
+    {
+      "@id": "_:N21ca16fd69184f7998faf890a2a963f0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0943"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3654"
+        },
+        {
+          "@id": "edam:format_3244"
+        }
+      ],
+      "sc:name": "Mass spectrometry spectra"
+    },
+    {
+      "@id": "_:N7ff7386d1a9947c9915ecf9846e40ecb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0943"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3652"
+        },
+        {
+          "@id": "edam:format_3651"
+        },
+        {
+          "@id": "edam:format_3653"
+        }
+      ],
+      "sc:name": "Mass spectrometry spectra"
+    }
+  ]
+}

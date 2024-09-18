@@ -1,0 +1,92 @@
+{
+    "additionDate": "2018-07-13T09:00:29Z",
+    "bioagentsCURIE": "bioagents:rgmql",
+    "bioagentsID": "rgmql",
+    "collectionID": [
+        "BioConductor"
+    ],
+    "credit": [
+        {
+            "email": "simonepallotta@hotmail.com",
+            "name": "Simone Pallotta",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "This package brings the GenoMetric Query Language functionalities into the R environment. It is a high-level, declarative language to manage heterogeneous genomic datasets for biomedical purposes, using simple queries to process genomic regions and their metadata and properties. It adopts algorithms efficiently designed for big data using cloud-computing technologies allowing GMQL to run on modern infrastructures, in order to achieve scalability and high performance.",
+    "documentation": [
+        {
+            "type": [
+                "User manual"
+            ],
+            "url": "http://bioconductor.org/packages/release/bioc/manuals/RGMQL/man/RGMQL.pdf"
+        }
+    ],
+    "download": [
+        {
+            "type": "Software package",
+            "url": "http://bioconductor.org/packages/release/bioc/src/contrib/RGMQL_1.0.0.tar.gz"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Query and retrieval",
+                    "uri": "http://edamontology.org/operation_0224"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://bioconductor.org/packages/release/bioc/html/RGMQL.html",
+    "language": [
+        "R"
+    ],
+    "lastUpdate": "2018-12-10T12:59:00Z",
+    "license": "Artistic-2.0",
+    "link": [
+        {
+            "type": [
+                "Mirror"
+            ],
+            "url": "http://bioconductor.org/packages/RGMQL/"
+        },
+        {
+            "type": [
+                "Mirror"
+            ],
+            "url": "http://www.bioinformatics.deib.polimi.it/genomic_computing/GMQL/"
+        },
+        {
+            "type": [
+                "Repository"
+            ],
+            "url": "https://git.bioconductor.org/packages/RGMQL"
+        }
+    ],
+    "name": "RGMQL",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "shadi.m",
+    "agentType": [
+        "Library"
+    ],
+    "topic": [
+        {
+            "term": "Data mining",
+            "uri": "http://edamontology.org/topic_3473"
+        }
+    ],
+    "validated": 1,
+    "version": [
+        "1.0.0"
+    ]
+}

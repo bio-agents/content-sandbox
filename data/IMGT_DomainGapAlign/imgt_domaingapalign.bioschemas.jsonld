@@ -1,0 +1,86 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/IMGT_DomainGapAlign",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:Na19cd79dbf424fc0911da89d765c1078"
+      },
+      "bsc:output": {
+        "@id": "_:N924591b4afd64b159fc17b5d52810f0c"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0804"
+        },
+        {
+          "@id": "edam:topic_3930"
+        },
+        {
+          "@id": "edam:topic_3948"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:19900967",
+        "pubmed:21632775",
+        "pubmed:25378316"
+      ],
+      "sc:description": "IMGT/DomainGapAlign is the IMGT® agent for the analysis of amino acid sequences of variable (V), constant (C) or groove (G) domains. Analysis is based on the IMGT-ONTOLOGY concepts.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0491"
+        },
+        {
+          "@id": "edam:operation_2479"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:name": "IMGT DomainGapAlign",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://www.imgt.org/3Dstructure-DB/doc/IMGTDomainGapAlign.shtml"
+      },
+      "sc:url": "http://www.imgt.org/3Dstructure-DB/cgi/DomainGapAlign.cgi"
+    },
+    {
+      "@id": "_:N924591b4afd64b159fc17b5d52810f0c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3154"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Protein alignment"
+    },
+    {
+      "@id": "_:Na19cd79dbf424fc0911da89d765c1078",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2976"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Protein sequence"
+    }
+  ]
+}

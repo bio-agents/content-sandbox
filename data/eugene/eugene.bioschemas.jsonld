@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.2174/157489308784340702",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/eugene",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Yves Van de Peer",
+      "bsc:input": {
+        "@id": "_:Nbb8ebdfe31c548b1a059afcca3a0b070"
+      },
+      "bsc:output": {
+        "@id": "_:N1568044fd14a4f88b3052fa39bb95cb1"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0080"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.2174/157489308784340702"
+      },
+      "sc:description": "Gene prediction software for eukaryotic organisms. It is currently mainly tuned for plant and fungal genomes.",
+      "sc:featureList": {
+        "@id": "edam:operation_0362"
+      },
+      "sc:name": "EuGene",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:provider": "PSB",
+      "sc:softwareHelp": {
+        "@id": "http://bioinformatics.psb.ugent.be/webagents/EuGene/"
+      },
+      "sc:softwareVersion": "1",
+      "sc:url": "http://bioinformatics.psb.ugent.be/webagents/EuGene/"
+    },
+    {
+      "@id": "_:Nbb8ebdfe31c548b1a059afcca3a0b070",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2977"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Nucleic acid sequence"
+    },
+    {
+      "@id": "_:N1568044fd14a4f88b3052fa39bb95cb1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3002"
+      },
+      "sc:name": "Annotation track"
+    }
+  ]
+}

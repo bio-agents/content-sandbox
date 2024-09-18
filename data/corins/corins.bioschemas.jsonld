@@ -1,0 +1,57 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1101/2020.06.29.178541",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/corins",
+      "@type": "sc:SoftwareApplication",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0199"
+        },
+        {
+          "@id": "edam:topic_0130"
+        },
+        {
+          "@id": "edam:topic_0128"
+        },
+        {
+          "@id": "edam:topic_0154"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1101/2020.06.29.178541"
+      },
+      "sc:description": "CoRINs (Comparator of Residue Interaction Networks) is a web agent for comparing multiple residue interaction networks (RINs) that generates easy to understand results through interactive tables, graphics and downloable text files. CoRINs reports may be useful in the evaluation of protein conformational variation, as an additional agent to validate models from homology modeling, or to assess the putative impacts of a mutation on the protein structure and activity, by identifying its effects on the protein network.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0477"
+        },
+        {
+          "@id": "edam:operation_3925"
+        },
+        {
+          "@id": "edam:operation_0321"
+        }
+      ],
+      "sc:name": "CoRINs",
+      "sc:url": "https://github.com/LasisUFRN/CoRINs"
+    }
+  ]
+}

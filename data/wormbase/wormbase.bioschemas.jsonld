@@ -1,0 +1,129 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/wormbase",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Support",
+      "bsc:input": [
+        {
+          "@id": "_:N5564f37940f7498599913f173817b844"
+        },
+        {
+          "@id": "_:N82e1f9532f704d5bb66737b023582d29"
+        },
+        {
+          "@id": "_:N58d665f6f48345fb8b6ba19b192194ae"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N461d5e4ffab243da837afaeff0df8e31"
+        },
+        {
+          "@id": "_:Nf70e2dd82a734e89b36d3f90fc77c78d"
+        },
+        {
+          "@id": "_:Nfba17e8796274586ba78c122f13f685c"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Database portal",
+        "Web API"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0621"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gkt1063"
+      },
+      "sc:description": "Caenorhabditis elegans genome database. International consortium of biologists and computer scientists dedicated to providing the research community with accurate, current, accessible information concerning the genetics, genomics and biology of C. elegans and related nematodes. Founded in 2000, the Consortium is led by Paul Sternberg of CalTech, Paul Kersey of the EBI, Matt Berriman of the Wellcome Trust Sanger Institute, and Lincoln Stein of the Ontario Institute for Cancer Research.",
+      "sc:featureList": {
+        "@id": "edam:operation_0224"
+      },
+      "sc:name": "WormBase",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://www.wormbase.org/about/userguide/for_developers/api-rest#01--10"
+      },
+      "sc:url": "http://www.wormbase.org/"
+    },
+    {
+      "@id": "_:N5564f37940f7498599913f173817b844",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2295"
+      },
+      "sc:name": "Gene ID"
+    },
+    {
+      "@id": "_:N82e1f9532f704d5bb66737b023582d29",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0989"
+      },
+      "sc:name": "Protein identifier"
+    },
+    {
+      "@id": "_:N58d665f6f48345fb8b6ba19b192194ae",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1026"
+      },
+      "sc:name": "Gene symbol"
+    },
+    {
+      "@id": "_:N461d5e4ffab243da837afaeff0df8e31",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0916"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Gene report"
+    },
+    {
+      "@id": "_:Nf70e2dd82a734e89b36d3f90fc77c78d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0916"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Gene report"
+    },
+    {
+      "@id": "_:Nfba17e8796274586ba78c122f13f685c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0916"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Gene report"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkt1063",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

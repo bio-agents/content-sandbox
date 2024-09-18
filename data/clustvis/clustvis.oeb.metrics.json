@@ -1,0 +1,303 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:clustvis:1/web/biit.cs.ut.ee",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-11-19T02:48:36.632697Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": false,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true,
+                "help": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 1144,
+                            "citations": [
+                                {
+                                    "count": 6,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 54,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 92,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 193,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 259,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 300,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 240,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1093/nar/gkv468",
+                            "pmcid": "PMC4489295",
+                            "pmid": "25969447",
+                            "ref_count": 26,
+                            "refs": [
+                                {
+                                    "count": 2,
+                                    "year": "1936"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1993"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1996"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2014"
+                                }
+                            ],
+                            "title": "ClustVis: a web agent for visualizing clustering of multivariate data using Principal Component Analysis and heatmap.",
+                            "year": 2015
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 6312,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 15,
+                        "serie": [
+                            1,
+                            1,
+                            1,
+                            1,
+                            3,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 502
+                    },
+                    {
+                        "days": 168,
+                        "serie": [
+                            9,
+                            6,
+                            6,
+                            24,
+                            18,
+                            12,
+                            6,
+                            28,
+                            2,
+                            16,
+                            2,
+                            11,
+                            18,
+                            10
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T02:48:35.864275Z",
+                "last_month_access": {
+                    "average_access_time": 24801,
+                    "downtime_days": 2,
+                    "uptime_days": 28
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://biit.cs.ut.ee/clustvis"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://biit.cs.ut.ee/clustvis/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true,
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT19607899S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/clustvis",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-11-19T02:48:53.659238Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 20340,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 15,
+                        "serie": [
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1
+                        ],
+                        "status": 502
+                    },
+                    {
+                        "days": 168,
+                        "serie": [
+                            6,
+                            2,
+                            4,
+                            10,
+                            5,
+                            3,
+                            18,
+                            9,
+                            59,
+                            16,
+                            14,
+                            7,
+                            12,
+                            3
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T02:48:53.459147Z",
+                "last_month_access": {
+                    "average_access_time": 27012,
+                    "downtime_days": 4,
+                    "uptime_days": 26
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://biit.cs.ut.ee/clustvis"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://biit.cs.ut.ee/clustvis/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

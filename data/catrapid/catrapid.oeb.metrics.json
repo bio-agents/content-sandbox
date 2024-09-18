@@ -1,0 +1,423 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:catrapid/web/s.tartaglialab.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-11-19T02:47:04.536579Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 127,
+                            "citations": [
+                                {
+                                    "count": 6,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 27,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btt495",
+                            "pmcid": "PMC3810848",
+                            "pmid": "23975767",
+                            "ref_count": 25,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2013"
+                                }
+                            ],
+                            "title": "catRAPID omics: a web server for large-scale prediction of protein-RNA interactions.",
+                            "year": 2013
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 177,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 151,
+                        "serie": [
+                            6,
+                            7,
+                            6,
+                            5,
+                            15,
+                            6,
+                            5,
+                            19,
+                            23,
+                            3,
+                            8,
+                            7,
+                            28,
+                            2,
+                            11
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 27,
+                        "serie": [
+                            3,
+                            1,
+                            2,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            8,
+                            1,
+                            2
+                        ],
+                        "status": 504
+                    },
+                    {
+                        "days": 5,
+                        "serie": [
+                            5
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-11-19T02:40:41.992111Z",
+                "last_month_access": {
+                    "average_access_time": 256,
+                    "downtime_days": 3,
+                    "uptime_days": 27
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://s.tartaglialab.com:443/page/catrapid_group"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:catrapid/cmd/s.tartaglialab.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-11-19T02:40:42.150964Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 127,
+                            "citations": [
+                                {
+                                    "count": 6,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 27,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btt495",
+                            "pmcid": "PMC3810848",
+                            "pmid": "23975767",
+                            "ref_count": 25,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2013"
+                                }
+                            ],
+                            "title": "catRAPID omics: a web server for large-scale prediction of protein-RNA interactions.",
+                            "year": 2013
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 177,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 151,
+                        "serie": [
+                            6,
+                            7,
+                            6,
+                            5,
+                            15,
+                            6,
+                            5,
+                            19,
+                            23,
+                            3,
+                            8,
+                            7,
+                            28,
+                            2,
+                            11
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 27,
+                        "serie": [
+                            3,
+                            1,
+                            2,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            8,
+                            1,
+                            2
+                        ],
+                        "status": 504
+                    },
+                    {
+                        "days": 5,
+                        "serie": [
+                            5
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-11-19T02:40:41.992111Z",
+                "last_month_access": {
+                    "average_access_time": 256,
+                    "downtime_days": 3,
+                    "uptime_days": 27
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://s.tartaglialab.com:443/page/catrapid_group"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/catrapid",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-11-19T02:43:37.521152Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 177,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 151,
+                        "serie": [
+                            6,
+                            7,
+                            6,
+                            5,
+                            15,
+                            6,
+                            5,
+                            19,
+                            23,
+                            3,
+                            8,
+                            7,
+                            28,
+                            2,
+                            11
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 27,
+                        "serie": [
+                            3,
+                            1,
+                            2,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            8,
+                            1,
+                            2
+                        ],
+                        "status": 504
+                    },
+                    {
+                        "days": 5,
+                        "serie": [
+                            5
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-11-19T02:40:41.992111Z",
+                "last_month_access": {
+                    "average_access_time": 256,
+                    "downtime_days": 3,
+                    "uptime_days": 27
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://s.tartaglialab.com:443/page/catrapid_group"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

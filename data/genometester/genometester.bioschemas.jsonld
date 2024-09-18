@@ -1,0 +1,76 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1186/1471-2105-7-172",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/genometester",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Reidar Andreson",
+      "bsc:input": {
+        "@id": "_:N28bfb70f40114b5ebe4ac146ec512908"
+      },
+      "bsc:output": {
+        "@id": "_:Nd360d919388445f69d8fe300f187fe7f"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0080"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/1471-2105-7-172"
+      },
+      "sc:description": "Analyse whether PCR primers have excessive number of binding sites in large genomes, how many PCR products would be amplified in the reaction and where are they located.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0338"
+        },
+        {
+          "@id": "edam:operation_0307"
+        }
+      ],
+      "sc:name": "GenomeTester",
+      "sc:operatingSystem": [
+        "Mac",
+        "Windows",
+        "Linux"
+      ],
+      "sc:provider": "IECHOR-EE",
+      "sc:softwareHelp": {
+        "@id": "http://bioinfo.ut.ee/genometester/"
+      },
+      "sc:softwareVersion": "1",
+      "sc:url": "http://bioinfo.ut.ee/genometester"
+    },
+    {
+      "@id": "_:N28bfb70f40114b5ebe4ac146ec512908",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1240"
+      },
+      "sc:name": "PCR primers"
+    },
+    {
+      "@id": "_:Nd360d919388445f69d8fe300f187fe7f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1276"
+      },
+      "sc:name": "Nucleic acid features"
+    }
+  ]
+}

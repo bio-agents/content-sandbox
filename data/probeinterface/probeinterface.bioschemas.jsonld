@@ -1,0 +1,68 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/probeinterface",
+      "@type": "sc:SoftwareApplication",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3077"
+        },
+        {
+          "@id": "edam:topic_0632"
+        },
+        {
+          "@id": "edam:topic_3300"
+        },
+        {
+          "@id": "edam:topic_3304"
+        }
+      ],
+      "sc:citation": [
+        "pmcid:PMC8887962",
+        {
+          "@id": "https://doi.org/10.3389/FNINF.2022.823056"
+        },
+        "pubmed:35242020"
+      ],
+      "sc:description": "A Python package to handle the layout, geometry, and wiring of silicon probes for extracellular electrophysiology experiments.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0335"
+        },
+        {
+          "@id": "edam:operation_1812"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "MIT",
+      "sc:name": "ProbeInterface",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://probeinterface.readthedocs.io/en/main/"
+      },
+      "sc:url": "https://gin.g-node.org/spikeinterface/probeinterface_library"
+    },
+    {
+      "@id": "https://doi.org/10.3389/FNINF.2022.823056",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

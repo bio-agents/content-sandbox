@@ -1,0 +1,135 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/JointvetchMine",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:N6998bba5ddbd4376853f0adb102c7c74"
+        },
+        {
+          "@id": "_:Ndfad52114f54438fb8938b8041976a9f"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Nb10cae1ae82b41ec9d261563611abc32"
+        },
+        {
+          "@id": "_:N7409640cc9f846d2b92fe8ffae4bf6f8"
+        },
+        {
+          "@id": "_:N40d84879ac434533b5406ba59c08cdaf"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Web service",
+        "Database portal",
+        "Web application"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0622"
+        },
+        {
+          "@id": "edam:topic_3071"
+        },
+        {
+          "@id": "edam:topic_0121"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/bts577"
+      },
+      "sc:description": "Aeschynomene evenia genomic data from the Legume Information System",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2422"
+        },
+        {
+          "@id": "edam:operation_2436"
+        },
+        {
+          "@id": "edam:operation_0224"
+        },
+        {
+          "@id": "edam:operation_0337"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "LGPL-2.1",
+      "sc:name": "JointvetchMine",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": [
+        {
+          "@id": "https://flymine.readthedocs.io/en/latest/"
+        },
+        {
+          "@id": "http://intermine.readthedocs.org/en/latest/web-services/"
+        }
+      ],
+      "sc:softwareVersion": "2.1",
+      "sc:url": "https://mines.legumeinfo.org/jointvetchmine"
+    },
+    {
+      "@id": "_:N6998bba5ddbd4376853f0adb102c7c74",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1255"
+      },
+      "sc:name": "Sequence features"
+    },
+    {
+      "@id": "_:Ndfad52114f54438fb8938b8041976a9f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2353"
+      },
+      "sc:name": "Ontology data"
+    },
+    {
+      "@id": "_:Nb10cae1ae82b41ec9d261563611abc32",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3786"
+      },
+      "sc:name": "Query script"
+    },
+    {
+      "@id": "_:N7409640cc9f846d2b92fe8ffae4bf6f8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3753"
+      },
+      "sc:name": "Over-representation data"
+    },
+    {
+      "@id": "_:N40d84879ac434533b5406ba59c08cdaf",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1255"
+      },
+      "sc:name": "Sequence features"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bts577",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

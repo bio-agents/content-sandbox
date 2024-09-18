@@ -1,0 +1,175 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gkv468",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/clustvis",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Tauno Metsalu",
+      "bsc:input": [
+        {
+          "@id": "_:Nc3a68e63d4d84558b2e939afd32b20ff"
+        },
+        {
+          "@id": "_:Nd01b283c5a924df5b0bc8f42731ff260"
+        },
+        {
+          "@id": "_:N39603387acfc49bfae12bfe1003d9b2e"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N062f24cdda97474186730122e65648b9"
+        },
+        {
+          "@id": "_:N60df700e33c841df913cb41d483c5262"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2269"
+        },
+        {
+          "@id": "edam:topic_0092"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gkv468"
+      },
+      "sc:description": "Web agent which allows users to upload their own data and easily create Principal Component Analysis (PCA) plots and heatmaps. Data can be uploaded as a file or by copy-pasteing it to the text box.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2939"
+        },
+        {
+          "@id": "edam:operation_0313"
+        },
+        {
+          "@id": "edam:operation_0531"
+        },
+        {
+          "@id": "edam:operation_2942"
+        },
+        {
+          "@id": "edam:operation_2238"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "GPL-3.0",
+      "sc:name": "ClustVis",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:provider": "IECHOR-EE",
+      "sc:softwareHelp": {
+        "@id": "https://biit.cs.ut.ee/clustvis/"
+      },
+      "sc:softwareVersion": "1",
+      "sc:url": "http://biit.cs.ut.ee/clustvis"
+    },
+    {
+      "@id": "_:N062f24cdda97474186730122e65648b9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1636"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3604"
+        },
+        {
+          "@id": "edam:format_3466"
+        },
+        {
+          "@id": "edam:format_3508"
+        }
+      ],
+      "sc:name": "Heat map"
+    },
+    {
+      "@id": "_:N60df700e33c841df913cb41d483c5262",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3604"
+        },
+        {
+          "@id": "edam:format_3466"
+        },
+        {
+          "@id": "edam:format_3508"
+        }
+      ],
+      "sc:name": "Image"
+    },
+    {
+      "@id": "_:Nc3a68e63d4d84558b2e939afd32b20ff",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3111"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3033"
+        }
+      ],
+      "sc:name": "Processed microarray data"
+    },
+    {
+      "@id": "_:Nd01b283c5a924df5b0bc8f42731ff260",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0928"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3033"
+        }
+      ],
+      "sc:name": "Gene expression profile"
+    },
+    {
+      "@id": "_:N39603387acfc49bfae12bfe1003d9b2e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3113"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3033"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Sample annotation"
+    }
+  ]
+}

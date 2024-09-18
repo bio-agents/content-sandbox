@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1038/nmeth.4663",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/apt",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Howard Y Chang",
+      "bsc:input": {
+        "@id": "_:Ndefd5befb4204828913925bef2d5a09a"
+      },
+      "bsc:output": {
+        "@id": "_:N866bd115a96c4d64b0faa6cd55c693a9"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0602"
+        },
+        {
+          "@id": "edam:topic_1317"
+        },
+        {
+          "@id": "edam:topic_3295"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1038/nmeth.4663"
+      },
+      "sc:description": "A agent for designing primers and identifying accurate normalization controls for ATAC-qPCR.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2480"
+        },
+        {
+          "@id": "edam:operation_2419"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:name": "ATAC Primer Agent (APT)",
+      "sc:softwareHelp": {
+        "@id": "https://github.com/ChangLab/ATACPrimerAgent"
+      },
+      "sc:url": "https://github.com/ChangLab/ATACPrimerAgent"
+    },
+    {
+      "@id": "_:Ndefd5befb4204828913925bef2d5a09a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2977"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2572"
+      },
+      "sc:name": "Nucleic acid sequence"
+    },
+    {
+      "@id": "_:N866bd115a96c4d64b0faa6cd55c693a9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3003"
+      },
+      "sc:name": "Report"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/muxquant",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:N4e6e9e6c9f064ee1bb2708a35b95aaed"
+        },
+        {
+          "@id": "_:N29258c15f84749a2a3e33d36d02002dc"
+        }
+      ],
+      "bsc:output": {
+        "@id": "_:N18b39a5c8468442fb148cab09fa89814"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3520"
+        },
+        {
+          "@id": "edam:topic_0121"
+        }
+      ],
+      "sc:citation": "pubmed:18189342",
+      "sc:description": "Multiplexed quantitiave proteomics using differential stable isotope labeling.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3635"
+        },
+        {
+          "@id": "edam:operation_3632"
+        },
+        {
+          "@id": "edam:operation_3630"
+        },
+        {
+          "@id": "edam:operation_3705"
+        },
+        {
+          "@id": "edam:operation_3715"
+        }
+      ],
+      "sc:license": "GPL-3.0",
+      "sc:name": "muxQuant",
+      "sc:operatingSystem": "Windows",
+      "sc:softwareHelp": {
+        "@id": "http://ms-utils.org/muxQuant/"
+      },
+      "sc:url": "http://www.ms-utils.org/muxQuant"
+    },
+    {
+      "@id": "_:N18b39a5c8468442fb148cab09fa89814",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2603"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Expression data"
+    },
+    {
+      "@id": "_:N4e6e9e6c9f064ee1bb2708a35b95aaed",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0945"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3655"
+      },
+      "sc:name": "Peptide identification"
+    },
+    {
+      "@id": "_:N29258c15f84749a2a3e33d36d02002dc",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0943"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3654"
+      },
+      "sc:name": "Mass spectrometry spectra"
+    }
+  ]
+}

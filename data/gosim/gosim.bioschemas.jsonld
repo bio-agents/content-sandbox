@@ -1,0 +1,154 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/gosim",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Holger Froehlich",
+      "bsc:input": {
+        "@id": "_:Nb8871cd042b6411094d50b529dea8ceb"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:N238d65ba1d9448e3ba8bf345d9540afd"
+        },
+        {
+          "@id": "_:Nbad0f430fcd9414591ff49f638df6983"
+        },
+        {
+          "@id": "_:Ne90adc261a544c62a819f34c7af9b6f0"
+        },
+        {
+          "@id": "_:Ndfb06b8f8b3b4f59b82a012ce571d1ff"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Library",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3572"
+        },
+        {
+          "@id": "edam:topic_0089"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/1471-2105-8-166"
+      },
+      "sc:description": "This package implements several functions useful for computing similarities between GO terms and gene products based on their GO annotation. Moreover it allows for computing a GO enrichment analysis.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3352"
+        },
+        {
+          "@id": "edam:operation_2436"
+        }
+      ],
+      "sc:license": "GPL-2.0",
+      "sc:name": "GOSim",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/GOSim.html"
+      },
+      "sc:softwareVersion": "1.12.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/GOSim.html"
+    },
+    {
+      "@id": "_:Nb8871cd042b6411094d50b529dea8ceb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1027"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Gene ID (NCBI)"
+    },
+    {
+      "@id": "_:N238d65ba1d9448e3ba8bf345d9540afd",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2872"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3547"
+        }
+      ],
+      "sc:name": "ID list"
+    },
+    {
+      "@id": "_:Nbad0f430fcd9414591ff49f638df6983",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:Ne90adc261a544c62a819f34c7af9b6f0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0582"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3547"
+        }
+      ],
+      "sc:name": "Ontology"
+    },
+    {
+      "@id": "_:Ndfb06b8f8b3b4f59b82a012ce571d1ff",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1772"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3547"
+        }
+      ],
+      "sc:name": "Score"
+    },
+    {
+      "@id": "https://doi.org/10.1186/1471-2105-8-166",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

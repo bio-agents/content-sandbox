@@ -1,0 +1,68 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1261/rna.069708.118",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/OPTIMIR",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Florian Thibord",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3518"
+        },
+        {
+          "@id": "edam:topic_0659"
+        },
+        {
+          "@id": "edam:topic_3170"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:30819774",
+        {
+          "@id": "https://doi.org/10.1261/rna.069708.118"
+        },
+        "pmcid:PMC6521604"
+      ],
+      "sc:description": "Algorithm for integrating available genome-wide genotype data into miRNA sequence alignment analysis.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3196"
+        },
+        {
+          "@id": "edam:operation_0415"
+        },
+        {
+          "@id": "edam:operation_3792"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "GPL-3.0",
+      "sc:name": "OPTIMIR",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://github.com/FlorianThibord/OptimiR/blob/master/README.md"
+      },
+      "sc:url": "https://github.com/FlorianThibord/OptimiR"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/signalink3",
+      "@type": "sc:SoftwareApplication",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0602"
+        },
+        {
+          "@id": "edam:topic_0601"
+        },
+        {
+          "@id": "edam:topic_3500"
+        },
+        {
+          "@id": "edam:topic_0749"
+        },
+        {
+          "@id": "edam:topic_0659"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/NAR/GKAB909"
+        },
+        "pmcid:PMC8728204",
+        "pubmed:34634810"
+      ],
+      "sc:description": "A multi-layered resource to uncover tissue-specific signaling networks.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3216"
+        },
+        {
+          "@id": "edam:operation_1781"
+        },
+        {
+          "@id": "edam:operation_0417"
+        },
+        {
+          "@id": "edam:operation_0533"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:name": "SignaLink3",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:url": "http://signalink.org/"
+    },
+    {
+      "@id": "https://doi.org/10.1093/NAR/GKAB909",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

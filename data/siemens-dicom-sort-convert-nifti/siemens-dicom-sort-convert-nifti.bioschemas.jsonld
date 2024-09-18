@@ -1,0 +1,51 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.agents/siemens-dicom-sort-convert-nifti",
+  "@type": "sc:SoftwareApplication",
+  "bioagents:primaryContact": "Simon Robinson",
+  "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+  "sc:additionalType": "Library",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_3070"
+    },
+    {
+      "@id": "edam:topic_3444"
+    },
+    {
+      "@id": "edam:topic_3304"
+    }
+  ],
+  "sc:description": "Converts Siemens MRI DICOM data into NIfTI format, and/or anonymises and sorts into scan directories",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_0335"
+    },
+    {
+      "@id": "edam:operation_3283"
+    },
+    {
+      "@id": "edam:operation_3802"
+    }
+  ],
+  "sc:isAccessibleForFree": true,
+  "sc:name": "Siemens DICOM sort and convert to NIfTI",
+  "sc:operatingSystem": [
+    "Windows",
+    "Mac",
+    "Linux"
+  ],
+  "sc:softwareVersion": "1.27",
+  "sc:url": "https://www.mathworks.com/matlabcentral/fileexchange/22508-siemens-dicom-sort-and-convert-to-nifti"
+}

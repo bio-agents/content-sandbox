@@ -1,0 +1,139 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gkq211",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/quasr",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Michael Stadler",
+      "bsc:input": {
+        "@id": "_:Nc63d26323bbb4155807864ae3a30b614"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:N5701fca23bc6485fbc0d23f3dab70bfb"
+        },
+        {
+          "@id": "_:Ncf211140fa524447b55c2c5351c086c4"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Library"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3168"
+        },
+        {
+          "@id": "edam:topic_0769"
+        },
+        {
+          "@id": "edam:topic_3053"
+        },
+        {
+          "@id": "edam:topic_3169"
+        },
+        {
+          "@id": "edam:topic_3170"
+        },
+        {
+          "@id": "edam:topic_3518"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/nar/gkq211"
+        },
+        "pubmed:20371516",
+        "pmcid:PMC2919714"
+      ],
+      "sc:description": "This package provides a framework for the quantification and analysis of Short Reads. It covers a complete workflow starting from raw sequence reads, over creation of alignments and quality control plots, to the quantification of genomic regions of interest.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2238"
+        },
+        {
+          "@id": "edam:operation_3198"
+        },
+        {
+          "@id": "edam:operation_3219"
+        }
+      ],
+      "sc:license": "GPL-2.0",
+      "sc:name": "QuasR",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/QuasR.html"
+      },
+      "sc:softwareVersion": "1.14.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/QuasR.html"
+    },
+    {
+      "@id": "_:Nc63d26323bbb4155807864ae3a30b614",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1383"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2573"
+        },
+        {
+          "@id": "edam:format_1957"
+        },
+        {
+          "@id": "edam:format_2572"
+        },
+        {
+          "@id": "edam:format_1929"
+        },
+        {
+          "@id": "edam:format_1930"
+        }
+      ],
+      "sc:name": "Sequence alignment (nucleic acid)"
+    },
+    {
+      "@id": "_:N5701fca23bc6485fbc0d23f3dab70bfb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1383"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3327"
+      },
+      "sc:name": "Sequence alignment (nucleic acid)"
+    },
+    {
+      "@id": "_:Ncf211140fa524447b55c2c5351c086c4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2012"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3327"
+      },
+      "sc:name": "Sequence coordinates"
+    }
+  ]
+}

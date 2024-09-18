@@ -1,0 +1,176 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/hpolabeler",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-11-05T10:08:05.305853Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 3,
+                        "serie": [
+                            3
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 21,
+                        "serie": [
+                            12,
+                            9
+                        ],
+                        "status": 503
+                    },
+                    {
+                        "days": 155,
+                        "serie": [
+                            27,
+                            9,
+                            110,
+                            2,
+                            7
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 4,
+                        "serie": [
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-05T10:08:05.252472Z",
+                "last_month_access": {
+                    "average_access_time": 2604,
+                    "downtime_days": 23,
+                    "uptime_days": 7
+                },
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://issubmission.sjtu.edu.cn/hpolabeler/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:hpolabeler/web/issubmission.sjtu.edu.cn",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-11-05T10:08:05.290798Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 5,
+                            "citations": [
+                                {
+                                    "count": 3,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btaa284",
+                            "pmid": "32379868",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "HPOLabeler: improving prediction of human protein-phenotype associations by learning to rank.",
+                            "year": 2020
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 3,
+                        "serie": [
+                            3
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 21,
+                        "serie": [
+                            12,
+                            9
+                        ],
+                        "status": 503
+                    },
+                    {
+                        "days": 155,
+                        "serie": [
+                            27,
+                            9,
+                            110,
+                            2,
+                            7
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 4,
+                        "serie": [
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-05T10:08:05.236646Z",
+                "last_month_access": {
+                    "average_access_time": 2102,
+                    "downtime_days": 23,
+                    "uptime_days": 7
+                },
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://issubmission.sjtu.edu.cn/hpolabeler/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

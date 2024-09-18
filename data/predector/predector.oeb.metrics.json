@@ -1,0 +1,286 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:predector:5.80/cmd/ftp.ncbi.nlm.nih.gov",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T06:57:38.305094Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 404
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-11-19T04:06:00.64347Z",
+                "last_month_access": {
+                    "downtime_days": 30,
+                    "uptime_days": 0
+                },
+                "license": false,
+                "operational": 404,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:predector/app/www.montefiore.ulg.ac.be",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-11-19T07:03:52.473382Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "manual": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 60,
+                            "citations": [
+                                {
+                                    "count": 4,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1016/j.bbrc.2007.03.180",
+                            "pmid": "17451648",
+                            "ref_count": 11,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2006"
+                                }
+                            ],
+                            "title": "PREDetector: a new agent to identify regulatory elements in bacterial genomes.",
+                            "year": 2007
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            162,
+                            20
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 302
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-11-19T07:03:52.400327Z",
+                "last_month_access": {
+                    "average_access_time": 1283,
+                    "downtime_days": 1,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 408,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://www.montefiore.ulg.ac.be/~hiard/PreDetector/PreDetector.php"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.montefiore.uliege.be/~hiard/PreDetector/PreDetector.php"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://people.montefiore.uliege.be/hiard/PreDetector/PreDetector.php"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/predector",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-11-19T07:12:06.216945Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 181,
+                        "serie": [
+                            36,
+                            129,
+                            16
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 2,
+                        "serie": [
+                            1,
+                            1
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-11-19T07:03:52.400327Z",
+                "last_month_access": {
+                    "average_access_time": 968,
+                    "downtime_days": 1,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 408,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://www.montefiore.ulg.ac.be/~hiard/PreDetector/PreDetector.php"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.montefiore.uliege.be/~hiard/PreDetector/PreDetector.php"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://people.montefiore.uliege.be/hiard/PreDetector/PreDetector.php"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

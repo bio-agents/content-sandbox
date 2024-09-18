@@ -1,0 +1,72 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/dictybase",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N7bbb06f95b75435c944713f935b3560b"
+      },
+      "bsc:output": {
+        "@id": "_:N1b8501b80d4146599c7ec5d413fee0f7"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0621"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1007/978-1-62703-302-2_4"
+      },
+      "sc:description": "Database for the biology and genomics of the social amoeba Dictyostelium discoideum.",
+      "sc:featureList": {
+        "@id": "edam:operation_0224"
+      },
+      "sc:name": "dictyBase",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:provider": "Center for Genetic Medicine, Northwestern University",
+      "sc:softwareHelp": {
+        "@id": "http://dictybase.org/tutorial/"
+      },
+      "sc:url": "http://dictybase.org/"
+    },
+    {
+      "@id": "_:N1b8501b80d4146599c7ec5d413fee0f7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0916"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Gene report"
+    },
+    {
+      "@id": "_:N7bbb06f95b75435c944713f935b3560b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2295"
+      },
+      "sc:name": "Gene ID"
+    },
+    {
+      "@id": "https://doi.org/10.1007/978-1-62703-302-2_4",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/facopy",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "David Mosen-Ansorena",
+      "bsc:input": [
+        {
+          "@id": "_:N9ed70c00387648af8ec894e48b6c82a4"
+        },
+        {
+          "@id": "_:Na5256c1e837c4f52ae442201db79d6cc"
+        },
+        {
+          "@id": "_:N8db261ea70504ca9b0f63fdda0826a20"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N8096d8e56a984189b830d6005d64c93b"
+        },
+        {
+          "@id": "_:Nd5621ba4fbca46f68dcc466a80701c5d"
+        },
+        {
+          "@id": "_:Ncee698df73ce4fadb3f3c614691dee0e"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Library",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3298"
+        },
+        {
+          "@id": "edam:topic_2640"
+        },
+        {
+          "@id": "edam:topic_0199"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/1471-2105-13-192"
+      },
+      "sc:description": "Package for fine-tuned cancer CNA association modeling. Association is measured directly at the genomic features of interest and, in the case of genes, downstream gene-set enrichment analysis can be performed thanks to novel internal processing of the data. The software opens a way to systematically scrutinize the differences in CNA distribution across tumoral phenotypes, such as those that relate to tumor type, location and progression.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3197"
+        },
+        {
+          "@id": "edam:operation_2436"
+        }
+      ],
+      "sc:license": "CC-BY-NC-4.0",
+      "sc:name": "facopy",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/facopy.html"
+      },
+      "sc:softwareVersion": "1.8.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/facopy.html"
+    },
+    {
+      "@id": "_:N8096d8e56a984189b830d6005d64c93b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0920"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Genotype/phenotype report"
+    },
+    {
+      "@id": "_:Nd5621ba4fbca46f68dcc466a80701c5d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2353"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3547"
+        }
+      ],
+      "sc:name": "Ontology data"
+    },
+    {
+      "@id": "_:Ncee698df73ce4fadb3f3c614691dee0e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3547"
+        }
+      ],
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:N9ed70c00387648af8ec894e48b6c82a4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3498"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_1920"
+        }
+      ],
+      "sc:name": "Sequence variations"
+    },
+    {
+      "@id": "_:Na5256c1e837c4f52ae442201db79d6cc",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1276"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1920"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Nucleic acid features"
+    },
+    {
+      "@id": "_:N8db261ea70504ca9b0f63fdda0826a20",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0920"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_1920"
+        }
+      ],
+      "sc:name": "Genotype/phenotype report"
+    },
+    {
+      "@id": "https://doi.org/10.1186/1471-2105-13-192",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

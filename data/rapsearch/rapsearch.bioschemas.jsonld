@@ -1,0 +1,40 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.agents/rapsearch",
+  "@type": "sc:SoftwareApplication",
+  "bioagents:primaryContact": [
+    "Yongan Zhao",
+    "Yuzhen Ye"
+  ],
+  "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+  "sc:additionalType": "Command-line agent",
+  "sc:applicationSubCategory": {
+    "@id": "edam:topic_3174"
+  },
+  "sc:citation": "pubmed:21575167",
+  "sc:description": "Fast protein similarity search agent for short reads that utilizes a reduced amino acid alphabet and suffix array to detect seeds of flexible length.",
+  "sc:featureList": {
+    "@id": "edam:operation_0292"
+  },
+  "sc:license": "GPL-3.0",
+  "sc:name": "RAPSearch",
+  "sc:operatingSystem": [
+    "Linux",
+    "Mac"
+  ],
+  "sc:softwareHelp": {
+    "@id": "https://github.com/zhaoyanswill/RAPSearch2"
+  },
+  "sc:url": "http://omics.informatics.indiana.edu/mg/RAPSearch2/"
+}

@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1101/gr.3672305",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/yeast_gene_order_browser",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N799e821f8ac74dc49beba389c29e43a7"
+      },
+      "bsc:output": {
+        "@id": "_:N23d0b4c3a0f44089b32f0feedbfc7723"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0102"
+        },
+        {
+          "@id": "edam:topic_0621"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1101/gr.3672305"
+        },
+        "pubmed:16169922",
+        "pmcid:PMC1240090"
+      ],
+      "sc:description": "Agent for visualising the syntenic context of any gene from several yeast genomes.",
+      "sc:featureList": {
+        "@id": "edam:operation_0224"
+      },
+      "sc:name": "Yeast gene order browser",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://ygob.ucd.ie/browser/help.html"
+      },
+      "sc:url": "http://ygob.ucd.ie/"
+    },
+    {
+      "@id": "_:N23d0b4c3a0f44089b32f0feedbfc7723",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0916"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Gene report"
+    },
+    {
+      "@id": "_:N799e821f8ac74dc49beba389c29e43a7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1026"
+      },
+      "sc:name": "Gene symbol"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/IAMBEE",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": {
+        "@id": "https://orcid.org/0000-0002-9998-2408"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Web application",
+        "Web service"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0602"
+        },
+        {
+          "@id": "edam:topic_0199"
+        },
+        {
+          "@id": "edam:topic_0625"
+        }
+      ],
+      "sc:citation": [
+        "pmcid:PMC6602435",
+        "pubmed:31127271",
+        {
+          "@id": "https://doi.org/10.1093/NAR/GKZ451"
+        }
+      ],
+      "sc:description": "Identification of Adaptive Mutations in Bacterial Evolution Experiments (IAMBEE) - web server designed for network-based genotype-phenotype mapping of clonal populations that display the same focal phenotype.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3280"
+        },
+        {
+          "@id": "edam:operation_3216"
+        },
+        {
+          "@id": "edam:operation_3196"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Unlicense",
+      "sc:name": "IAMBEE",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioinformatics.intec.ugent.be/iambee/tutorial"
+      },
+      "sc:url": "http://bioinformatics.intec.ugent.be/iambee/"
+    },
+    {
+      "@id": "https://doi.org/10.1093/NAR/GKZ451",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-9998-2408",
+      "@type": "schema:Person"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/normalyzer",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N4fc30e4564324e30ad19f670a7768e48"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:N630dad653f5d4a648428989683989aba"
+        },
+        {
+          "@id": "_:N949d3eacba4f446c8dccec5af87ce57a"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Web application",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3071"
+      },
+      "sc:citation": "pubmed:24766612",
+      "sc:description": "A agent for overviewing the effects of different normalisation methods on omics data.",
+      "sc:featureList": {
+        "@id": "edam:operation_3435"
+      },
+      "sc:name": "Normalyzer",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://quantitativeproteomics.org/normalyzer"
+      },
+      "sc:url": "http://quantitativeproteomics.org/normalyzer"
+    },
+    {
+      "@id": "_:N4fc30e4564324e30ad19f670a7768e48",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3112"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Gene expression matrix"
+    },
+    {
+      "@id": "_:N630dad653f5d4a648428989683989aba",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2082"
+      },
+      "sc:name": "Matrix"
+    },
+    {
+      "@id": "_:N949d3eacba4f446c8dccec5af87ce57a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3508"
+      },
+      "sc:name": "Report"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1111/J.1364-3703.2005.00317.X",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/cogeme",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:N1d6115f9b36f4a0fa5edbb8b746abe39"
+        },
+        {
+          "@id": "_:N41423614e4ab4db8b0e26a8d76d40375"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N1fb9e171d49841d0a1ac5819dded0d3d"
+        },
+        {
+          "@id": "_:Nc8160e44b4864fa3ad0f7ad313daade7"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3512"
+        },
+        {
+          "@id": "edam:topic_0621"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1111/J.1364-3703.2005.00317.X"
+      },
+      "sc:description": "Phytopathogenic fungi and oomycete EST database.",
+      "sc:featureList": {
+        "@id": "edam:operation_0224"
+      },
+      "sc:name": "COGEME",
+      "sc:operatingSystem": [
+        "Mac",
+        "Windows",
+        "Linux"
+      ],
+      "sc:provider": "University of Exeter",
+      "sc:softwareHelp": {
+        "@id": "http://cogeme.ex.ac.uk/function.html"
+      },
+      "sc:url": "http://cogeme.ex.ac.uk/"
+    },
+    {
+      "@id": "_:N1fb9e171d49841d0a1ac5819dded0d3d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0849"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Sequence record"
+    },
+    {
+      "@id": "_:Nc8160e44b4864fa3ad0f7ad313daade7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0849"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Sequence record"
+    },
+    {
+      "@id": "_:N1d6115f9b36f4a0fa5edbb8b746abe39",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2730"
+      },
+      "sc:name": "COGEME unisequence ID"
+    },
+    {
+      "@id": "_:N41423614e4ab4db8b0e26a8d76d40375",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2729"
+      },
+      "sc:name": "COGEME EST ID"
+    }
+  ]
+}

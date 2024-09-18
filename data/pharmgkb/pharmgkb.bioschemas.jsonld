@@ -1,0 +1,94 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1038/clpt.2012.96",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/pharmgkb",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:Nd1a1e97149764ee4b9eb00cfcfccaa99"
+      },
+      "bsc:output": {
+        "@id": "_:N4b9fecfbdce54389a2934ec66518e596"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Web application",
+        "Database portal"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0208"
+        },
+        {
+          "@id": "edam:topic_0202"
+        },
+        {
+          "@id": "edam:topic_0625"
+        },
+        {
+          "@id": "edam:topic_3325"
+        },
+        {
+          "@id": "edam:topic_2815"
+        }
+      ],
+      "sc:citation": [
+        "pmcid:PMC3660037",
+        {
+          "@id": "https://doi.org/10.1038/clpt.2012.96"
+        },
+        "pubmed:22992668"
+      ],
+      "sc:description": "Database on the impact of human genetic variations on drug response. PharmGKB curates primary genotype and phenotype data, annotate gene variants and gene-drug-disease relationships via literature review, and summarize important PGx genes and drug pathways.",
+      "sc:featureList": {
+        "@id": "edam:operation_0224"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "CC-BY-NC-SA-4.0",
+      "sc:name": "PharmGKB",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://www.pharmgkb.org/page/overview"
+      },
+      "sc:url": "http://www.pharmgkb.org"
+    },
+    {
+      "@id": "_:N4b9fecfbdce54389a2934ec66518e596",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0916"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Gene report"
+    },
+    {
+      "@id": "_:Nd1a1e97149764ee4b9eb00cfcfccaa99",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2649"
+      },
+      "sc:name": "PharmGKB ID"
+    }
+  ]
+}

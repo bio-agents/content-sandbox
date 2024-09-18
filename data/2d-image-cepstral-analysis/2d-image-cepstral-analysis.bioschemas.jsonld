@@ -1,0 +1,51 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.agents/2d-image-cepstral-analysis",
+  "@type": "sc:SoftwareApplication",
+  "bioagents:primaryContact": "Pavel Paunov",
+  "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+  "sc:additionalType": "Library",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_3070"
+    },
+    {
+      "@id": "edam:topic_3382"
+    },
+    {
+      "@id": "edam:topic_3344"
+    },
+    {
+      "@id": "edam:topic_3474"
+    }
+  ],
+  "sc:description": "Two dimensional cepstral spectrum. The present function calculates the cepstral spectrum of image either gray scale or RGB colored. This spectrum is useful for analysis of an image and suitable for pre-processing of an image for machine learning purposes.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_3443"
+    },
+    {
+      "@id": "edam:operation_3860"
+    }
+  ],
+  "sc:isAccessibleForFree": true,
+  "sc:name": "2D Image cepstral analysis",
+  "sc:operatingSystem": [
+    "Mac",
+    "Linux",
+    "Windows"
+  ],
+  "sc:softwareVersion": "1.0.0.0",
+  "sc:url": "https://www.mathworks.com/matlabcentral/fileexchange/51004-2d-image-cepstral-analysis"
+}

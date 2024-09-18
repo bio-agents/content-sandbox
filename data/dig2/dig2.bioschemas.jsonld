@@ -1,0 +1,67 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/dig2",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N912f8b3e20434026a842b1bd3c01e06f"
+      },
+      "bsc:output": {
+        "@id": "_:N91aecbf2f39e43da8c4d381914c33f91"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0121"
+      },
+      "sc:description": "Simple but flexible in silico digester of protein sequences in the FASTA format. It allows for almost any enzyme to be simulated, including \"MS/MS\" enzymes to generate CID or ECD/ETD fragments.",
+      "sc:featureList": {
+        "@id": "edam:operation_0422"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "GPL-3.0",
+      "sc:name": "dig2",
+      "sc:operatingSystem": "Linux",
+      "sc:provider": "bmb.sdu.dk",
+      "sc:softwareHelp": {
+        "@id": "http://www.ms-utils.org/dig2/dig2.html"
+      },
+      "sc:softwareVersion": "1",
+      "sc:url": "http://www.ms-utils.org/dig2/dig2.html"
+    },
+    {
+      "@id": "_:N91aecbf2f39e43da8c4d381914c33f91",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1238"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Proteolytic digest"
+    },
+    {
+      "@id": "_:N912f8b3e20434026a842b1bd3c01e06f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1193"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1332"
+      },
+      "sc:name": "Agent name (FASTA)"
+    }
+  ]
+}

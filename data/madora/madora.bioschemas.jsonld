@@ -1,0 +1,78 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/madora",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Daniel Georgiev",
+      "bsc:output": {
+        "@id": "_:N8ff2bc0973354ae89dabc3c7c22ce626"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2640"
+        },
+        {
+          "@id": "edam:topic_3342"
+        },
+        {
+          "@id": "edam:topic_3303"
+        }
+      ],
+      "sc:author": [
+        "Lucie Houdová",
+        "Daniel Georgiev"
+      ],
+      "sc:contributor": "TA CR",
+      "sc:description": "A web application for processing and visualization of statistics for bone marrow donors registry - especially statistics of donors, executed searches for suitable donor, the typing and harvests before transplantation.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3431"
+        },
+        {
+          "@id": "edam:operation_0337"
+        }
+      ],
+      "sc:funder": "TA CR",
+      "sc:name": "MADORA",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:provider": [
+        "University of West Bohemia, Czech Republic",
+        "IECHOR-CZ"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://www.kky.zcu.cz/en/sw/madora"
+      },
+      "sc:softwareVersion": "1",
+      "sc:url": "http://ccy.zcu.cz/registr/CNRDDstatistika.html"
+    },
+    {
+      "@id": "_:N8ff2bc0973354ae89dabc3c7c22ce626",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0920"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Genotype/phenotype report"
+    }
+  ]
+}

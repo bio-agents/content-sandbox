@@ -1,0 +1,144 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/matchbox",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": [
+        "Luigi Marchionni",
+        "Anuj Gupta"
+      ],
+      "bsc:input": {
+        "@id": "_:N1a785617af06426389914912f7fead23"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:Nf1a2acd14fec43e59bef17c16ba1596a"
+        },
+        {
+          "@id": "_:N921f9bfbb7b44bdda916df7104039131"
+        },
+        {
+          "@id": "_:Neb3d633373d6463a861809e469afacdd"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Library"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0092"
+        },
+        {
+          "@id": "edam:topic_0203"
+        },
+        {
+          "@id": "edam:topic_2269"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1038/nmeth756"
+        },
+        "pubmed:15846361"
+      ],
+      "sc:description": "This package enables comparing ranked vectors of features, merging multiple datasets, removing redundant features, using CAT-plots and Venn diagrams, and computing statistical significance.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3223"
+        },
+        {
+          "@id": "edam:operation_2409"
+        }
+      ],
+      "sc:license": "Artistic-2.0",
+      "sc:name": "matchBox",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/matchBox.html"
+      },
+      "sc:softwareVersion": "1.16.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/matchBox.html"
+    },
+    {
+      "@id": "_:Nf1a2acd14fec43e59bef17c16ba1596a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:N921f9bfbb7b44bdda916df7104039131",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3547"
+        }
+      ],
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:Neb3d633373d6463a861809e469afacdd",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2603"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3547"
+        }
+      ],
+      "sc:name": "Gene expression data"
+    },
+    {
+      "@id": "_:N1a785617af06426389914912f7fead23",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2603"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2058"
+      },
+      "sc:name": "Gene expression data"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nmeth756",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gks542",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/funcisnp",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Simon G. Coetzee",
+      "bsc:input": [
+        {
+          "@id": "_:Nf6509c0732424c33975e4c54740932e6"
+        },
+        {
+          "@id": "_:N076d8c03327c4e608ad44bfc1c93cf76"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N10b39d177a32473b90cf85953865379d"
+        },
+        {
+          "@id": "_:N6459cbad9d1942d081c48d08b54f2c02"
+        },
+        {
+          "@id": "_:N95c7670729ce4c339a873248a1184bbb"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Library",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3169"
+        },
+        {
+          "@id": "edam:topic_3517"
+        },
+        {
+          "@id": "edam:topic_3673"
+        },
+        {
+          "@id": "edam:topic_0102"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gks542"
+      },
+      "sc:description": "It integrates information from GWAS, 1000genomes and chromatin feature to identify functional SNP in coding or non-coding regions.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3661"
+        },
+        {
+          "@id": "edam:operation_0488"
+        }
+      ],
+      "sc:license": "GPL-3.0",
+      "sc:name": "FunciSNP",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/FunciSNP.html"
+      },
+      "sc:softwareVersion": "1.16.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/FunciSNP.html"
+    },
+    {
+      "@id": "_:Nf6509c0732424c33975e4c54740932e6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1276"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3003"
+        },
+        {
+          "@id": "edam:format_3475"
+        }
+      ],
+      "sc:name": "Nucleic acid features"
+    },
+    {
+      "@id": "_:N076d8c03327c4e608ad44bfc1c93cf76",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3002"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3475"
+        },
+        {
+          "@id": "edam:format_3003"
+        }
+      ],
+      "sc:name": "Annotation track"
+    },
+    {
+      "@id": "_:N10b39d177a32473b90cf85953865379d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1276"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3508"
+        },
+        {
+          "@id": "edam:format_3003"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Nucleic acid features"
+    },
+    {
+      "@id": "_:N6459cbad9d1942d081c48d08b54f2c02",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1636"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3003"
+        },
+        {
+          "@id": "edam:format_3508"
+        }
+      ],
+      "sc:name": "Heat map"
+    },
+    {
+      "@id": "_:N95c7670729ce4c339a873248a1184bbb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3002"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3508"
+        },
+        {
+          "@id": "edam:format_3003"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Annotation track"
+    }
+  ]
+}

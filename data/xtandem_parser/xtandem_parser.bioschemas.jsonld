@@ -1,0 +1,105 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/xtandem_parser",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N0070c0b8d8674a72968707636cc712ee"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:N52da71ac37b64ec59bb191730d7729c5"
+        },
+        {
+          "@id": "_:N5707e642c86b4047a36c4c5cf673bb15"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Desktop application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0121"
+        },
+        {
+          "@id": "edam:topic_3520"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1002/pmic.200900759"
+      },
+      "sc:description": "Parsing and analysing X! Tandem MS/MS search results.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3694"
+        },
+        {
+          "@id": "edam:operation_2409"
+        },
+        {
+          "@id": "edam:operation_0335"
+        }
+      ],
+      "sc:name": "XTandem Parser",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:provider": "ugent.be",
+      "sc:softwareHelp": {
+        "@id": "http://compomics.github.io/projects/xtandem-parser.html"
+      },
+      "sc:softwareVersion": "1.8.1",
+      "sc:url": "http://compomics.github.io/projects/xtandem-parser.html"
+    },
+    {
+      "@id": "_:N52da71ac37b64ec59bb191730d7729c5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0945"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3752"
+      },
+      "sc:name": "Peptide identification"
+    },
+    {
+      "@id": "_:N5707e642c86b4047a36c4c5cf673bb15",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0943"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3652"
+      },
+      "sc:name": "Mass spectrometry spectra"
+    },
+    {
+      "@id": "_:N0070c0b8d8674a72968707636cc712ee",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0945"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3711"
+      },
+      "sc:name": "Peptide identification"
+    },
+    {
+      "@id": "https://doi.org/10.1002/pmic.200900759",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

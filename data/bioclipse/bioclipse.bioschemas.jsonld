@@ -1,0 +1,70 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/bioclipse",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N2068001f7f1f4b63b1d87af1c5018fdd"
+      },
+      "bsc:output": {
+        "@id": "_:N09c775c5ead845dcbc5d022ae186ab9d"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Desktop application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3292"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/1471-2105-10-397"
+      },
+      "sc:description": "Free and open source workbench for the life sciences.",
+      "sc:featureList": {
+        "@id": "edam:operation_0337"
+      },
+      "sc:name": "Bioclipse",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:provider": "bils.se",
+      "sc:softwareHelp": {
+        "@id": "http://bioclipse.net/documentation"
+      },
+      "sc:softwareVersion": "1",
+      "sc:url": "http://bioclipse.net/"
+    },
+    {
+      "@id": "_:N09c775c5ead845dcbc5d022ae186ab9d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2087"
+      },
+      "sc:name": "Molecular property"
+    },
+    {
+      "@id": "_:N2068001f7f1f4b63b1d87af1c5018fdd",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2087"
+      },
+      "sc:name": "Molecular property"
+    },
+    {
+      "@id": "https://doi.org/10.1186/1471-2105-10-397",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

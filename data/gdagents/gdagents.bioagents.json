@@ -1,0 +1,26 @@
+{
+    "additionDate": "2019-02-15T14:17:41Z",
+    "bioagentsCURIE": "bioagents:gdagents",
+    "bioagentsID": "gdagents",
+    "collectionID": [
+        "gdagents "
+    ],
+    "description": "Performs various functions on GenomeDiff formatted files.",
+    "editPermission": {
+        "type": "private"
+    },
+    "homepage": "http://barricklab.org/twiki/pub/Lab/AgentsBacterialGenomeResequencing/documentation/gd_usage.html",
+    "lastUpdate": "2019-02-15T14:17:41Z",
+    "name": "gdagents",
+    "owner": "jison",
+    "agentType": [
+        "Command-line agent"
+    ],
+    "topic": [
+        {
+            "term": "Sequence analysis",
+            "uri": "http://edamontology.org/topic_0080"
+        }
+    ],
+    "validated": 1
+}

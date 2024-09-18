@@ -1,0 +1,149 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/deconmsn",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:N7d2a1a4518d84cb28dacd4387a5b67b4"
+        },
+        {
+          "@id": "_:Nbff0d546cd99478daae73c4cf1d42c66"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Nf44fe7907bd5453eb43a97680c22f1df"
+        },
+        {
+          "@id": "_:N27f35561b3724801acf486c146d7fc50"
+        },
+        {
+          "@id": "_:N26d3cadfbe664ccbbb24ea9f2007ac2e"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3520"
+        },
+        {
+          "@id": "edam:topic_0121"
+        }
+      ],
+      "sc:citation": "pubmed:18304935",
+      "sc:description": "Agent for accurate precursor ion monoisotopic mass determination for tandem mass spectra.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3629"
+        },
+        {
+          "@id": "edam:operation_3215"
+        }
+      ],
+      "sc:name": "DeconMSn",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://omics.pnl.gov/software/deconmsn"
+      },
+      "sc:url": "http://omics.pnl.gov/software/DeconMSn.php"
+    },
+    {
+      "@id": "_:Nf44fe7907bd5453eb43a97680c22f1df",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3651"
+        },
+        {
+          "@id": "edam:format_3652"
+        }
+      ],
+      "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "_:N27f35561b3724801acf486c146d7fc50",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0943"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3651"
+        },
+        {
+          "@id": "edam:format_3652"
+        }
+      ],
+      "sc:name": "Mass spectrometry spectra"
+    },
+    {
+      "@id": "_:N26d3cadfbe664ccbbb24ea9f2007ac2e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0944"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3651"
+        },
+        {
+          "@id": "edam:format_3652"
+        }
+      ],
+      "sc:name": "Peptide mass fingerprint"
+    },
+    {
+      "@id": "_:N7d2a1a4518d84cb28dacd4387a5b67b4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3712"
+        },
+        {
+          "@id": "edam:format_3654"
+        }
+      ],
+      "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "_:Nbff0d546cd99478daae73c4cf1d42c66",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0943"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3654"
+        },
+        {
+          "@id": "edam:format_3712"
+        }
+      ],
+      "sc:name": "Mass spectrometry spectra"
+    }
+  ]
+}

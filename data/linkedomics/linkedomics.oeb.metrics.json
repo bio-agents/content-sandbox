@@ -1,0 +1,182 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:linkedomics/web/www.linkedomics.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-11-19T05:22:21.605196Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "manual": true,
+                "training_material": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 5,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1097/md.0000000000015774",
+                            "pmcid": "PMC6571408",
+                            "pmid": "31124967",
+                            "ref_count": 35,
+                            "refs": [
+                                {
+                                    "count": 2,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2018"
+                                }
+                            ],
+                            "title": "Analysis of the function of MAGE-A in esophageal carcinoma by bioinformatics.",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 182,
+                        "serie": [
+                            159,
+                            23
+                        ],
+                        "status": 302
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-11-19T05:22:21.357576Z",
+                "last_month_access": {
+                    "downtime_days": 30,
+                    "uptime_days": 0
+                },
+                "license": false,
+                "operational": 302,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "http://www.linkedomics.orglogin.php"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/linkedomics",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-11-19T05:23:22.764117Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 182,
+                        "serie": [
+                            159,
+                            23
+                        ],
+                        "status": 302
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-11-19T05:23:22.70436Z",
+                "last_month_access": {
+                    "downtime_days": 30,
+                    "uptime_days": 0
+                },
+                "license": false,
+                "operational": 302,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "http://www.linkedomics.orglogin.php"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

@@ -1,0 +1,121 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1007/s10577-015-9513-5",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "http://orcid.org/0000-0003-0318-4194",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://bio.agents/chromdraw",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Jan Janecka",
+      "bsc:input": [
+        {
+          "@id": "_:N0bfbf3d8ca784edf95a2cc4b0e623503"
+        },
+        {
+          "@id": "_:N4c40c7a35e774bceb8d02e5add7963ee"
+        }
+      ],
+      "bsc:output": {
+        "@id": "_:N0599fa653aa848889052c94a0938bc66"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Library"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0092"
+      },
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1007/s10577-015-9513-5"
+        },
+        "pubmed:26791998"
+      ],
+      "sc:contributor": {
+        "@id": "http://orcid.org/0000-0003-0318-4194"
+      },
+      "sc:description": "R package for drawing the schemes of karyotype(s) in the linear and circular fashion that can visualize cytogenetic marsk on the chromosomes. This agent has its own input data format that can be imported from the GenomicRanges data structure. This package can visualize the data in the BED file format.",
+      "sc:featureList": {
+        "@id": "edam:operation_0573"
+      },
+      "sc:license": "GPL-3.0",
+      "sc:name": "chromDraw",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/chromDraw.html"
+      },
+      "sc:softwareVersion": "2.4.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/chromDraw.html"
+    },
+    {
+      "@id": "_:N0bfbf3d8ca784edf95a2cc4b0e623503",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1276"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3003"
+        }
+      ],
+      "sc:name": "Nucleic acid features"
+    },
+    {
+      "@id": "_:N4c40c7a35e774bceb8d02e5add7963ee",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3236"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3003"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Cytoband position"
+    },
+    {
+      "@id": "_:N0599fa653aa848889052c94a0938bc66",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1283"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3466"
+        },
+        {
+          "@id": "edam:format_3604"
+        }
+      ],
+      "sc:name": "Cytogenetic map"
+    }
+  ]
+}

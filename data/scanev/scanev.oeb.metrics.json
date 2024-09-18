@@ -1,0 +1,199 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/scanev",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-11-19T10:24:54.220212Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 3,
+                        "serie": [
+                            3
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 9,
+                        "serie": [
+                            9
+                        ],
+                        "status": 503
+                    },
+                    {
+                        "days": 15,
+                        "serie": [
+                            12,
+                            3
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 156,
+                        "serie": [
+                            87,
+                            23,
+                            46
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T10:24:53.965008Z",
+                "last_month_access": {
+                    "average_access_time": 673,
+                    "downtime_days": 3,
+                    "uptime_days": 27
+                },
+                "license": false,
+                "operational": 408,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://bioeng.ru/scanev/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:scanev/web/bioeng.ru",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-11-19T10:24:54.457511Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": true,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 6,
+                            "citations": [
+                                {
+                                    "count": 3,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1016/j.micron.2021.103044",
+                            "pmid": "33676158",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "ScanEV - A neural network-based agent for the automated detection of extracellular vesicles in TEM images.",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 3,
+                        "serie": [
+                            3
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 9,
+                        "serie": [
+                            9
+                        ],
+                        "status": 503
+                    },
+                    {
+                        "days": 15,
+                        "serie": [
+                            12,
+                            3
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 156,
+                        "serie": [
+                            87,
+                            23,
+                            46
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T10:24:54.001177Z",
+                "last_month_access": {
+                    "average_access_time": 610,
+                    "downtime_days": 3,
+                    "uptime_days": 27
+                },
+                "license": false,
+                "operational": 408,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://bioeng.ru/scanev/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    }
+]

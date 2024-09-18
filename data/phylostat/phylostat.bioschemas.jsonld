@@ -1,0 +1,79 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.3906/BIY-2105-18",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/phylostat",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N702da557e28a4d24a0a3675a5452ffb3"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3944"
+        },
+        {
+          "@id": "edam:topic_3175"
+        },
+        {
+          "@id": "edam:topic_3293"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.3906/BIY-2105-18"
+        },
+        "pubmed:35068947",
+        "pmcid:PMC8733950"
+      ],
+      "sc:description": "A web-based agent to analyze paralogous clade divergence in phylogenetic trees.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0567"
+        },
+        {
+          "@id": "edam:operation_0323"
+        },
+        {
+          "@id": "edam:operation_0325"
+        },
+        {
+          "@id": "edam:operation_0326"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "MIT",
+      "sc:name": "Phylostat",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:url": "http://phylo.io"
+    },
+    {
+      "@id": "_:N702da557e28a4d24a0a3675a5452ffb3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0872"
+      },
+      "sc:name": "Phylogenetic tree"
+    }
+  ]
+}

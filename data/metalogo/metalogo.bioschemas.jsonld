@@ -1,0 +1,98 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1101/2021.08.12.456038",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/metalogo",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N7b061a4774fd4676aba1209c6ff2cf86"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Web application",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0081"
+        },
+        {
+          "@id": "edam:topic_0203"
+        },
+        {
+          "@id": "edam:topic_0160"
+        },
+        {
+          "@id": "edam:topic_0621"
+        },
+        {
+          "@id": "edam:topic_3293"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1101/2021.08.12.456038"
+      },
+      "sc:description": "MetaLogo is a agent for making sequence logos. It can take multiple sequences as input, automatically identify the homogeneity and heterogeneity among sequences and cluster them into different groups given any wanted resolution, finally output multiple aligned sequence logos in one figure. Grouping can also be specified by users, such as grouping by lengths, grouping by sample Id, etc. Compared to conventional sequence logo generator, MetaLogo can display the total sequence population in a more detailed, dynamic and informative view.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0291"
+        },
+        {
+          "@id": "edam:operation_0323"
+        },
+        {
+          "@id": "edam:operation_0292"
+        },
+        {
+          "@id": "edam:operation_0238"
+        },
+        {
+          "@id": "edam:operation_0346"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Apache-2.0",
+      "sc:name": "MetaLogo",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://github.com/labomics/MetaLogo/wiki"
+      },
+      "sc:url": "http://metalogo.omicsnet.org"
+    },
+    {
+      "@id": "_:N7b061a4774fd4676aba1209c6ff2cf86",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1929"
+        },
+        {
+          "@id": "edam:format_1930"
+        }
+      ],
+      "sc:name": "Sequence"
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1073/pnas.95.11.5857",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkr931",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkn808",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkx922",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkh088",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/28.1.231",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gku949",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/30.1.242",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkj079",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/smart",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:Nd7562541d2464903bfb455f414380c13"
+        },
+        {
+          "@id": "_:N41bdad1a76d1409d873477ecbcbdfb32"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Nf45e7c582fcd48b0b65b7fb129109aef"
+        },
+        {
+          "@id": "_:N4f2904ce003341a09ee1b7caa7ca1fff"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0736"
+        },
+        {
+          "@id": "edam:topic_0623"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:14681379",
+        "pubmed:18978020",
+        {
+          "@id": "https://doi.org/10.1093/nar/30.1.242"
+        },
+        "pubmed:22053084",
+        {
+          "@id": "https://doi.org/10.1093/nar/28.1.231"
+        },
+        "pubmed:9600884",
+        "pmcid:PMC5753352",
+        {
+          "@id": "https://doi.org/10.1093/nar/gku949"
+        },
+        "pubmed:10592234",
+        {
+          "@id": "https://doi.org/10.1093/nar/gkj079"
+        },
+        {
+          "@id": "https://doi.org/10.1093/nar/gkn808"
+        },
+        "pubmed:11752305",
+        {
+          "@id": "https://doi.org/10.1093/nar/gkr931"
+        },
+        {
+          "@id": "https://doi.org/10.1093/nar/gkh088"
+        },
+        "pubmed:16381859",
+        {
+          "@id": "https://doi.org/10.1093/nar/gkx922"
+        },
+        "pubmed:29040681",
+        {
+          "@id": "https://doi.org/10.1073/pnas.95.11.5857"
+        }
+      ],
+      "sc:description": "SMART protein domain database.",
+      "sc:featureList": {
+        "@id": "edam:operation_0224"
+      },
+      "sc:name": "Simple modular architecture research agent (SMART)",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://smart.embl.de/help/smart_about.shtml"
+      },
+      "sc:url": "http://smart.embl.de/"
+    },
+    {
+      "@id": "_:Nd7562541d2464903bfb455f414380c13",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2782"
+      },
+      "sc:name": "SMART domain name"
+    },
+    {
+      "@id": "_:N41bdad1a76d1409d873477ecbcbdfb32",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1139"
+      },
+      "sc:name": "SMART accession number"
+    },
+    {
+      "@id": "_:Nf45e7c582fcd48b0b65b7fb129109aef",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1537"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Protein structure report"
+    },
+    {
+      "@id": "_:N4f2904ce003341a09ee1b7caa7ca1fff",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1537"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Protein structure report"
+    }
+  ]
+}

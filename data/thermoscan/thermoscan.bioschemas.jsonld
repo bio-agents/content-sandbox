@@ -1,0 +1,68 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.3389/FMOLB.2021.620475",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/thermoscan",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": [
+        "Piero Fariselli",
+        "Emidio Capriotti"
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Script",
+        "Web application"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0130"
+        },
+        {
+          "@id": "edam:topic_3120"
+        },
+        {
+          "@id": "edam:topic_0218"
+        }
+      ],
+      "sc:citation": [
+        "pmcid:PMC8027235",
+        "pubmed:33842537",
+        {
+          "@id": "https://doi.org/10.3389/FMOLB.2021.620475"
+        }
+      ],
+      "sc:description": "ThermoScan is a agent for semi-automatic identification of protein stability data from PubMed.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3431"
+        },
+        {
+          "@id": "edam:operation_0331"
+        },
+        {
+          "@id": "edam:operation_3196"
+        },
+        {
+          "@id": "edam:operation_0306"
+        }
+      ],
+      "sc:name": "ThermoScan",
+      "sc:url": "https://github.com/biofold/ThermoScan"
+    }
+  ]
+}

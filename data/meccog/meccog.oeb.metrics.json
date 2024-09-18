@@ -1,0 +1,126 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/meccog",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-10-29T08:53:36.350747Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 500,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 61,
+                        "serie": [
+                            61
+                        ],
+                        "status": 503
+                    },
+                    {
+                        "days": 120,
+                        "serie": [
+                            117,
+                            3
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-10-29T08:53:36.303947Z",
+                "last_month_access": {
+                    "average_access_time": 645,
+                    "downtime_days": 25,
+                    "uptime_days": 3
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:meccog/web/www.meccog.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-10-29T08:53:36.396581Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1101/2020.09.03.282012",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "MecCog: A knowledge representation framework for genetic disease mechanism",
+                            "year": 2020
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 500,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 61,
+                        "serie": [
+                            61
+                        ],
+                        "status": 503
+                    },
+                    {
+                        "days": 120,
+                        "serie": [
+                            117,
+                            3
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-10-29T08:53:36.303947Z",
+                "last_month_access": {
+                    "average_access_time": 627,
+                    "downtime_days": 25,
+                    "uptime_days": 3
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

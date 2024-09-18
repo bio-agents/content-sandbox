@@ -1,0 +1,273 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/luminate",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-11-19T09:51:32.776355Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": false,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 546,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 151,
+                        "serie": [
+                            6,
+                            2,
+                            2,
+                            3,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            6,
+                            3,
+                            2,
+                            22,
+                            9,
+                            1,
+                            14,
+                            3,
+                            5,
+                            3,
+                            12,
+                            14,
+                            17,
+                            5,
+                            12,
+                            1,
+                            3
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 32,
+                        "serie": [
+                            2,
+                            1,
+                            2,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T09:51:32.674133Z",
+                "last_month_access": {
+                    "average_access_time": 580,
+                    "downtime_days": 4,
+                    "uptime_days": 26
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT7595731S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:luminate/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-11-19T09:51:33.219628Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": false,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 1,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1016/j.cels.2020.05.006",
+                            "pmid": "32684275",
+                            "ref_count": 1,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2013"
+                                }
+                            ],
+                            "title": "Efficient and Accurate Inference of Mixed Microbial Population Trajectories from Longitudinal Count Data.",
+                            "year": 2020
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 427,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 151,
+                        "serie": [
+                            6,
+                            2,
+                            2,
+                            3,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            6,
+                            3,
+                            2,
+                            22,
+                            9,
+                            1,
+                            14,
+                            3,
+                            5,
+                            3,
+                            12,
+                            14,
+                            17,
+                            5,
+                            12,
+                            1,
+                            3
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 32,
+                        "serie": [
+                            2,
+                            1,
+                            2,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T09:51:32.70637Z",
+                "last_month_access": {
+                    "average_access_time": 519,
+                    "downtime_days": 4,
+                    "uptime_days": 26
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT7595731S"
+            }
+        }
+    }
+]

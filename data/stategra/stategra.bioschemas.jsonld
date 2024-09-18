@@ -1,0 +1,94 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/stategra",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": [
+        "Gordon Ball",
+        "David Gomez-Cabrero",
+        "Patricia Sebastián-León"
+      ],
+      "bsc:input": {
+        "@id": "_:Nd7ea1357efb3400187a43fd2db70fcc9"
+      },
+      "bsc:output": {
+        "@id": "_:N3ec97050f8a04c9bbb6cd824376f47c6"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Library",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3366"
+        },
+        {
+          "@id": "edam:topic_3391"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.14806/ej.20.a.768"
+      },
+      "sc:description": "Classes and agents for multi-omics data integration.",
+      "sc:featureList": {
+        "@id": "edam:operation_3436"
+      },
+      "sc:license": "GPL-2.0",
+      "sc:name": "STATegRa",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/STATegRa.html"
+      },
+      "sc:softwareVersion": "1.8.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/STATegRa.html"
+    },
+    {
+      "@id": "_:N3ec97050f8a04c9bbb6cd824376f47c6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1636"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3547"
+      },
+      "sc:name": "Heat map"
+    },
+    {
+      "@id": "_:Nd7ea1357efb3400187a43fd2db70fcc9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2082"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3475"
+        },
+        {
+          "@id": "edam:format_3033"
+        }
+      ],
+      "sc:name": "Matrix"
+    },
+    {
+      "@id": "https://doi.org/10.14806/ej.20.a.768",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

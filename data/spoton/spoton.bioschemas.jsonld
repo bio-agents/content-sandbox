@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1038/s41598-017-08321-2",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "http://orcid.org/0000-0001-7369-1322",
+      "@type": "schema:Organization"
+    },
+    {
+      "@id": "https://doi.org/10.3390/ijms17081215",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/spoton",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": {
+        "@id": "http://orcid.org/0000-0001-7369-1322"
+      },
+      "bsc:input": {
+        "@id": "_:N26ab99c5a3984bc885f441111edc0694"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3307"
+      },
+      "sc:author": {
+        "@id": "http://orcid.org/0000-0001-7369-1322"
+      },
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1038/s41598-017-08321-2"
+        },
+        {
+          "@id": "https://doi.org/10.3390/ijms17081215"
+        }
+      ],
+      "sc:description": "Determination of Hot-Spots at protein-protein interfaces\n\nSpotOn is a robust algorithm developed to identify and classify the interfacial residues as Hot-Spots (HS) and Null-Spots (NS) with a final accuracy of 0.95 and a sensitivity of 0.95 on an independent test set.",
+      "sc:featureList": {
+        "@id": "edam:operation_2423"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:name": "SpotOn",
+      "sc:provider": {
+        "@id": "http://orcid.org/0000-0001-7369-1322"
+      },
+      "sc:softwareHelp": [
+        {
+          "@id": "https://ask.bioexcel.eu/c/spoton"
+        },
+        {
+          "@id": "https://milou.science.uu.nl/cgi/services/SPOTON/spoton/help"
+        }
+      ],
+      "sc:url": "https://alcazar.science.uu.nl/cgi/services/SPOTON/spoton/"
+    },
+    {
+      "@id": "_:N26ab99c5a3984bc885f441111edc0694",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1460"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2350"
+      },
+      "sc:name": "Protein structure"
+    }
+  ]
+}

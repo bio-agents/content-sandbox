@@ -1,0 +1,330 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/pyomeroupload",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-11-19T09:42:55.178511Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 122,
+                        "serie": [
+                            10,
+                            6,
+                            3,
+                            6,
+                            1,
+                            2,
+                            2,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            13,
+                            1,
+                            4,
+                            2,
+                            5,
+                            3,
+                            6,
+                            7,
+                            10,
+                            6,
+                            1,
+                            3,
+                            3,
+                            3,
+                            3,
+                            1,
+                            1,
+                            5,
+                            5,
+                            2
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 61,
+                        "serie": [
+                            1,
+                            2,
+                            3,
+                            3,
+                            3,
+                            2,
+                            1,
+                            3,
+                            1,
+                            5,
+                            3,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            2,
+                            3,
+                            2,
+                            2,
+                            2,
+                            1,
+                            1,
+                            2,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            2
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T09:42:55.076021Z",
+                "last_month_access": {
+                    "average_access_time": 622,
+                    "downtime_days": 9,
+                    "uptime_days": 21
+                },
+                "license": false,
+                "operational": 429,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:pyomeroupload/undefined/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-11-19T10:29:35.967196Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": true,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 1,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2021"
+                                }
+                            ],
+                            "doi": "10.12688/wellcomeopenres.15853.2",
+                            "pmcid": "PMC7388197",
+                            "pmid": "32766455",
+                            "ref_count": 7,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                }
+                            ],
+                            "title": "PyOmeroUpload: A Python agentkit for uploading images and metadata to OMERO.",
+                            "year": 2020
+                        }
+                    ]
+                }
+            ],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 122,
+                        "serie": [
+                            10,
+                            6,
+                            3,
+                            6,
+                            1,
+                            2,
+                            2,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            13,
+                            1,
+                            4,
+                            2,
+                            5,
+                            3,
+                            6,
+                            7,
+                            10,
+                            6,
+                            1,
+                            3,
+                            3,
+                            3,
+                            3,
+                            1,
+                            1,
+                            5,
+                            5,
+                            2
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 61,
+                        "serie": [
+                            1,
+                            2,
+                            3,
+                            3,
+                            3,
+                            2,
+                            1,
+                            3,
+                            1,
+                            5,
+                            3,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            2,
+                            3,
+                            2,
+                            2,
+                            2,
+                            1,
+                            1,
+                            2,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            2
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T09:42:55.076021Z",
+                "last_month_access": {
+                    "average_access_time": 622,
+                    "downtime_days": 9,
+                    "uptime_days": 21
+                },
+                "license": false,
+                "operational": 429,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    }
+]

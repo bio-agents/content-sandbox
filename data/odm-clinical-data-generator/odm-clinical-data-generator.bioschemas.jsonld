@@ -1,0 +1,57 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/odm-clinical-data-generator",
+      "@type": "sc:SoftwareApplication",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3303"
+        },
+        {
+          "@id": "edam:topic_3379"
+        },
+        {
+          "@id": "edam:topic_3263"
+        },
+        {
+          "@id": "edam:topic_3063"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:34042873",
+        {
+          "@id": "https://doi.org/10.3233/SHTI210048"
+        }
+      ],
+      "sc:description": "ODM Clinical Data Generator is a agent that produces artificial study data for a given Operational Data Model (ODM) file. This synthetic study data can be used e.g. for the evaluation of other ODM-based agents.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3435"
+        },
+        {
+          "@id": "edam:operation_2409"
+        }
+      ],
+      "sc:license": "MIT",
+      "sc:name": "ODM Clinical Data Generator",
+      "sc:url": "https://cdgen.uni-muenster.de"
+    },
+    {
+      "@id": "https://doi.org/10.3233/SHTI210048",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btr379",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/metab",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Raphael Aggio",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Library"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0602"
+        },
+        {
+          "@id": "edam:topic_2259"
+        },
+        {
+          "@id": "edam:topic_3172"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/bioinformatics/btr379"
+        },
+        "pubmed:21697128"
+      ],
+      "sc:description": "R package for high-throughput processing of metabolomics data analysed by the Automated Mass Spectral Deconvolution and Identification System (AMDIS) In addition, it performs statistical hypothesis test (t-test) and analysis of variance (ANOVA). Doing so, it considerably speeds up the data mining process in metabolomics and produces better quality results.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2238"
+        },
+        {
+          "@id": "edam:operation_0335"
+        }
+      ],
+      "sc:license": "GPL-2.0",
+      "sc:name": "Metab",
+      "sc:operatingSystem": [
+        "Mac",
+        "Windows",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/Metab.html"
+      },
+      "sc:softwareVersion": "1.8.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/Metab.html"
+    }
+  ]
+}

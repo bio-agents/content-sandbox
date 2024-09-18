@@ -1,0 +1,169 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1021/acs.jproteome.9b00749",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/netge2-plus",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": [
+        "Pier Luigi Martelli",
+        "Samuele Bovo"
+      ],
+      "bsc:input": {
+        "@id": "_:N02718e3078784914b1f02fde76689379"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:Naa068ee6982a47bcbbfff8f1d90c970d"
+        },
+        {
+          "@id": "_:N0368001f8cba4544a2fabe5f4e5a6a77"
+        },
+        {
+          "@id": "_:Ne5bb2ff3a4db4ba6881575bee8247702"
+        },
+        {
+          "@id": "_:N600967a917534894ae44af118cef8dec"
+        },
+        {
+          "@id": "_:Na0fd57952c884b8594aef91025ee2987"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_1775"
+      },
+      "sc:author": "Samuele Bovo",
+      "sc:citation": [
+        "pubmed:31971806",
+        {
+          "@id": "https://doi.org/10.1021/acs.jproteome.9b00749"
+        }
+      ],
+      "sc:description": "Network-based enrichment analysis of gene sets.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3926"
+        },
+        {
+          "@id": "edam:operation_3501"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Not licensed",
+      "sc:name": "NETGE-PLUS",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:provider": "IECHOR-ITA-BOLOGNA",
+      "sc:softwareHelp": {
+        "@id": "http://net-ge2.biocomp.unibo.it/enrich/default/tutorial"
+      },
+      "sc:softwareVersion": "2.0",
+      "sc:url": "http://net-ge2.biocomp.unibo.it"
+    },
+    {
+      "@id": "_:Naa068ee6982a47bcbbfff8f1d90c970d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2600"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3547"
+        }
+      ],
+      "sc:name": "Pathway or network"
+    },
+    {
+      "@id": "_:N0368001f8cba4544a2fabe5f4e5a6a77",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2343"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_2331"
+        }
+      ],
+      "sc:name": "Pathway ID (KEGG)"
+    },
+    {
+      "@id": "_:Ne5bb2ff3a4db4ba6881575bee8247702",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3028"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2332"
+      },
+      "sc:name": "Taxonomy"
+    },
+    {
+      "@id": "_:N600967a917534894ae44af118cef8dec",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1155"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2331"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Pathway ID (reactome)"
+    },
+    {
+      "@id": "_:Na0fd57952c884b8594aef91025ee2987",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1176"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_2331"
+        }
+      ],
+      "sc:name": "GO concept ID"
+    },
+    {
+      "@id": "_:N02718e3078784914b1f02fde76689379",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3021"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "UniProt accession"
+    }
+  ]
+}

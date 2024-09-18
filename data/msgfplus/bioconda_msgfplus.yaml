@@ -1,0 +1,13 @@
+bioagents_id: msgfplus
+home: https://omics.pnl.gov/software/ms-gf
+identifiers:
+- bioagents:MSGFplus
+- doi:10.1038/ncomms6277
+license: https://github.com/sangtaekim/msgfplus/blob/master/LICENSE.txt
+license_file: LICENSE.txt
+name: msgf_plus
+summary: MS-GF+ is a new MS/MS database search agent that is sensitive (it identifies
+  more peptides than other database search agents and as many peptides as spectral
+  library search agents) and universal (works well for diverse types of spectra, different
+  configurations of MS instruments and different experimental protocols).
+version: 2020.08.05

@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/proteomedigestsim",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N9a5bead26eeb49dfaf74eeda06d0db22"
+      },
+      "bsc:output": {
+        "@id": "_:Nb48f39236cab419b86c5cc66d5fd0233"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0137"
+        },
+        {
+          "@id": "edam:topic_0123"
+        },
+        {
+          "@id": "edam:topic_3520"
+        },
+        {
+          "@id": "edam:topic_0121"
+        }
+      ],
+      "sc:citation": "pubmed:22324799",
+      "sc:description": "R classes for prediction of proteome coverage based on iterative digestion by MED-FASP or similar.",
+      "sc:featureList": {
+        "@id": "edam:operation_0422"
+      },
+      "sc:name": "ProteomeDigestSim",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://github.com/jgmeyerucsd/ProteomeDigestSim"
+      },
+      "sc:url": "https://github.com/jgmeyerucsd/ProteomeDigestSim"
+    },
+    {
+      "@id": "_:N9a5bead26eeb49dfaf74eeda06d0db22",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2974"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_1929"
+        }
+      ],
+      "sc:name": "Protein sequence (raw)"
+    },
+    {
+      "@id": "_:Nb48f39236cab419b86c5cc66d5fd0233",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1238"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Proteolytic digest"
+    }
+  ]
+}

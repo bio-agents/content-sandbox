@@ -1,0 +1,78 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/mzkit",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N46f554ba2ee446e0bc5d760f54bbf6f0"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Desktop application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3382"
+        },
+        {
+          "@id": "edam:topic_3172"
+        },
+        {
+          "@id": "edam:topic_3370"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.5281/zenodo.4274582"
+      },
+      "sc:description": "Mzkit is an open source raw data file agentkit for mass spectrometry data visualization and analysis, provides by the BioNovoGene. The features of mzkit inlcudes: raw data file content viewer(XIC/TIC/Mass spectrum plot), MS-imaging, ms-spectrum tree analysis, build molecule network, formula de-novo search and de-novo annotation.",
+      "sc:featureList": {
+        "@id": "edam:operation_3694"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "MIT",
+      "sc:name": "mzkit",
+      "sc:operatingSystem": "Windows",
+      "sc:softwareHelp": {
+        "@id": "https://mzkit.org/"
+      },
+      "sc:softwareVersion": [
+        "v1.0.0.1-beta",
+        "v1.0.0.2-beta"
+      ],
+      "sc:url": "https://mzkit.org/"
+    },
+    {
+      "@id": "_:N46f554ba2ee446e0bc5d760f54bbf6f0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3839"
+        },
+        {
+          "@id": "edam:format_3682"
+        },
+        {
+          "@id": "edam:format_3244"
+        }
+      ],
+      "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.4274582",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

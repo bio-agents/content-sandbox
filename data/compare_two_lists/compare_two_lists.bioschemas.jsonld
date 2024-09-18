@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/Compare_Two_Lists",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:Nb90f388859fe4633af05a0bb3fd50924"
+        },
+        {
+          "@id": "_:N455a9cfd1a354842aa6cac6870d9676c"
+        }
+      ],
+      "bsc:output": {
+        "@id": "_:Ncc9f9b9a3c7241a083ae3745155c5258"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3307"
+      },
+      "sc:author": {
+        "@id": "https://orcid.org/0000-0001-6358-8380"
+      },
+      "sc:description": "Simple and fast web agent for everyday list comparison, e.g. of genes. Shows the intersection, union, and Jaccard index. Allows easy copying & pasting of comparison results.",
+      "sc:featureList": {
+        "@id": "edam:operation_2424"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:name": "Compare Two Lists",
+      "sc:url": "https://rnact.crg.eu/compare"
+    },
+    {
+      "@id": "_:Nb90f388859fe4633af05a0bb3fd50924",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2872"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "ID list"
+    },
+    {
+      "@id": "_:N455a9cfd1a354842aa6cac6870d9676c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2872"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "ID list"
+    },
+    {
+      "@id": "_:Ncc9f9b9a3c7241a083ae3745155c5258",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Report"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-6358-8380",
+      "@type": "schema:Person"
+    }
+  ]
+}

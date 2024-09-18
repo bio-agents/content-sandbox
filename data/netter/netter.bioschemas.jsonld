@@ -1,0 +1,73 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/netter",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N2c80ef5ec92345fe9beaa0a453cbdab6"
+      },
+      "bsc:output": {
+        "@id": "_:Nf1c341c62dff4b75ac6f9767f0bb9211"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Desktop application"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0602"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/s12859-016-0913-0"
+      },
+      "sc:description": "Re-ranking gene network inference predictions using structural network properties.",
+      "sc:featureList": {
+        "@id": "edam:operation_3439"
+      },
+      "sc:name": "Netter",
+      "sc:operatingSystem": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "sc:provider": "ugent.be",
+      "sc:softwareHelp": {
+        "@id": "http://bioinformatics.intec.ugent.be/netter/doc/index.html"
+      },
+      "sc:softwareVersion": "1.1",
+      "sc:url": "http://bioinformatics.intec.ugent.be/netter/index.html"
+    },
+    {
+      "@id": "_:N2c80ef5ec92345fe9beaa0a453cbdab6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2600"
+      },
+      "sc:name": "Pathway or network"
+    },
+    {
+      "@id": "_:Nf1c341c62dff4b75ac6f9767f0bb9211",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2600"
+      },
+      "sc:name": "Pathway or network"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s12859-016-0913-0",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

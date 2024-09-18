@@ -1,0 +1,107 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/rnaloops",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:N85edd34a4eb8442c9173ce26e3b26e5e"
+        },
+        {
+          "@id": "_:N3af5c73002d84861b9d2d544a5512b66"
+        },
+        {
+          "@id": "_:N8b55dbbb76614daaac43f2bf3ea28ae4"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0099"
+        },
+        {
+          "@id": "edam:topic_0082"
+        },
+        {
+          "@id": "edam:topic_3314"
+        },
+        {
+          "@id": "edam:topic_0166"
+        },
+        {
+          "@id": "edam:topic_0097"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/BIOINFORMATICS/BTAC484"
+        },
+        "pubmed:35809063"
+      ],
+      "sc:description": "A database of RNA multiloops.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3431"
+        },
+        {
+          "@id": "edam:operation_2441"
+        },
+        {
+          "@id": "edam:operation_0570"
+        },
+        {
+          "@id": "edam:operation_4009"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:name": "RNAloops",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:url": "https://rnaloops.cs.put.poznan.pl"
+    },
+    {
+      "@id": "_:N85edd34a4eb8442c9173ce26e3b26e5e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1127"
+      },
+      "sc:name": "PDB ID"
+    },
+    {
+      "@id": "_:N3af5c73002d84861b9d2d544a5512b66",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1465"
+      },
+      "sc:name": "RNA structure"
+    },
+    {
+      "@id": "_:N8b55dbbb76614daaac43f2bf3ea28ae4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3495"
+      },
+      "sc:name": "RNA sequence"
+    },
+    {
+      "@id": "https://doi.org/10.1093/BIOINFORMATICS/BTAC484",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

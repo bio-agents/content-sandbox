@@ -1,0 +1,96 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/genomes",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Chris Stubben",
+      "bsc:input": {
+        "@id": "_:N6933d874fac041399d2c4602fb26be95"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:N46e788d1c41d4e5fbeeb1fc79bb05915"
+        },
+        {
+          "@id": "_:N8fdcd7273f0242dfa496625d1e0aeb5c"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Library"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0622"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1038/nmeth.3252"
+      },
+      "sc:description": "Download genome and assembly reports from NCBI.",
+      "sc:featureList": {
+        "@id": "edam:operation_2422"
+      },
+      "sc:license": "GPL-3.0",
+      "sc:name": "genomes",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/genomes.html"
+      },
+      "sc:softwareVersion": "3.4.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/genomes.html"
+    },
+    {
+      "@id": "_:N46e788d1c41d4e5fbeeb1fc79bb05915",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3181"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Sequence assembly report"
+    },
+    {
+      "@id": "_:N8fdcd7273f0242dfa496625d1e0aeb5c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2711"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Genome report"
+    },
+    {
+      "@id": "_:N6933d874fac041399d2c4602fb26be95",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1050"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "File name"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nmeth.3252",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

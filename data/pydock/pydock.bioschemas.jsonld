@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/pydock",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N51fc4d8e8de34dcfb3a486eb8f688bf3"
+      },
+      "bsc:output": {
+        "@id": "_:Ndf334a73bca145deb546824a2ab92f08"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0082"
+      },
+      "sc:author": {
+        "@id": "https://orcid.org/0000-0002-3986-7686"
+      },
+      "sc:citation": "pubmed:17444519",
+      "sc:description": "pyDock is a fast protocol for protein-protein docking which uses electrostatics and desolvation energy to score docking poses generated with FFT-based algorithms.",
+      "sc:featureList": {
+        "@id": "edam:operation_3899"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Proprietary",
+      "sc:name": "pyDock",
+      "sc:operatingSystem": "Linux",
+      "sc:softwareHelp": {
+        "@id": "https://life.bsc.es/pid/pydock/doc/"
+      },
+      "sc:softwareVersion": "3.2.3",
+      "sc:url": "https://life.bsc.es/pid/pydock/"
+    },
+    {
+      "@id": "_:N51fc4d8e8de34dcfb3a486eb8f688bf3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1756"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1476"
+      },
+      "sc:name": "Protein residue"
+    },
+    {
+      "@id": "_:Ndf334a73bca145deb546824a2ab92f08",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2877"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1476"
+      },
+      "sc:name": "Protein complex"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-3986-7686",
+      "@type": "schema:Person"
+    }
+  ]
+}

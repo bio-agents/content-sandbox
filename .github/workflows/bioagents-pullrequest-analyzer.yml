@@ -1,0 +1,51 @@
+name: analyze how many bioagents have change on pullrequest
+
+on:
+  workflow_dispatch:
+
+jobs:
+  analyze:
+    name: Analyze bioagents differences 
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: analyze bioagents difference
+      env:
+        GITHUB_USER: ${{ secrets.GITHUB_USER }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        sudo apt install python3-pip
+        sudo apt install python3-setupagents git
+        pip3 install gitpython
+        git remote add bioagents-content${{ github.run_id }} https://github.com/bio-agents/content.git
+        git fetch bioagents-content${{ github.run_id }}
+        git fetch origin pull/${{ github.event.number }}/head:${{ github.run_id }}
+        git checkout ${{ github.run_id }}
+        python3 scripts/bioagents-pullrequest-bot/bioagents_pullrequest_analyzer.py $GITHUB_WORKSPACE bioagents-content${{ github.run_id }}/master ${{ github.run_id }} > output.txt
+        cat output.txt
+    - name: Upload output
+      uses: actions/upload-artifact@v1
+      with:
+          name: output
+          path: output.txt
+  comment:
+    needs: analyze
+    name: Add PR comments
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: Download output
+        uses: actions/download-artifact@v1
+        with:
+          name: output
+      - name: copy output to workflow dir
+        run: |
+         cat /home/runner/work/content/content/output/output.txt
+         mkdir -p .github/workflows/
+         cp /home/runner/work/content/content/output/output.txt .github/workflows/output.txt 
+      - name: comment under pr  
+        uses: harupy/comment-on-pr@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          filename: output.txt

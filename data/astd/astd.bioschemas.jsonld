@@ -1,0 +1,459 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/astd",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Contact List",
+      "bsc:input": [
+        {
+          "@id": "_:Nee4fe514e8c944b6b045d5a167ce8093"
+        },
+        {
+          "@id": "_:N8c9060ad05da49d58f9765a10b85300a"
+        },
+        {
+          "@id": "_:Naab3d06a2e23474784a3c9814c601b1e"
+        },
+        {
+          "@id": "_:Nd1f1c90520eb48c4b318ef883ffc03da"
+        },
+        {
+          "@id": "_:Naa987fb228dd4a5db09d88476cc7fba7"
+        },
+        {
+          "@id": "_:N9c8387d9ab204d3a96d2866e73726bb2"
+        },
+        {
+          "@id": "_:N91b8982a65f64025990964ffbbb67b2d"
+        },
+        {
+          "@id": "_:N66507391a7fa4af396b8c748e66dace4"
+        },
+        {
+          "@id": "_:N3ac6681e860046da91dd254893e769ec"
+        },
+        {
+          "@id": "_:N3e794ba73bc849c499601d273fe3f850"
+        },
+        {
+          "@id": "_:N98d07b0b79564459ba035c3bb0218dde"
+        },
+        {
+          "@id": "_:N4bda06da34544751902c7c49026c9d09"
+        },
+        {
+          "@id": "_:N69f95bbc6a9947fa969e2213b6d53b91"
+        },
+        {
+          "@id": "_:N699794fa9798447f8c092de1b2485553"
+        },
+        {
+          "@id": "_:N176d9059a05845cbb7be3d9561181edf"
+        },
+        {
+          "@id": "_:N621fe445acd040fb9c5ad81767f2a8a3"
+        },
+        {
+          "@id": "_:N1b2ffbc13b3c49239cc828d20c395333"
+        },
+        {
+          "@id": "_:N24df79ea93054a3e9ec145d7bbb1f9ab"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N37c88ee72aed4dabbfcbbecf83234810"
+        },
+        {
+          "@id": "_:Nfa36376fe8204d0da5f60e44bc50623a"
+        },
+        {
+          "@id": "_:Nce315d3d610b498187675f31d2114a2f"
+        },
+        {
+          "@id": "_:N589539015bf646c9b0e9ee1f97282696"
+        },
+        {
+          "@id": "_:Nffd711c041194e378acc40cd8d04a613"
+        },
+        {
+          "@id": "_:N07c88aeaebba4966a2236a0b7e5bc579"
+        },
+        {
+          "@id": "_:N3500298d7e42455aa12ebeed7ec23354"
+        },
+        {
+          "@id": "_:Nc81d2e8fa34945dfbd7a2e6c0c36fe4d"
+        },
+        {
+          "@id": "_:N989eec77c9474852b83dee67d030f190"
+        },
+        {
+          "@id": "_:N82df115896b143378fc7e52246a5c2cb"
+        },
+        {
+          "@id": "_:Ncf2a94d7c86c415fb291a5efe2410665"
+        },
+        {
+          "@id": "_:Nb6ccc9dba9dd437eb6cc2af516800a65"
+        },
+        {
+          "@id": "_:N308f39b7f4d0412b8a276393bb470c21"
+        },
+        {
+          "@id": "_:Nc67799e248ae493b9423e3a29f433d54"
+        },
+        {
+          "@id": "_:N7eda17f8859f4a718e8f9886a3206948"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0114"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gkv1352"
+      },
+      "sc:description": "AltSplice and AltExtron provide information on alternative intron/exons, alternative splice events, and isoform splice patterns. AEdb contains: AEdb-Sequence (sequence and properties of alternatively splice exons), AEdb-Function (data on functional aspects of alternative splicing), AEdb-motif (data and sequence of known splice regulatory motifs), and AEdb-minigene (a collection of known minigene constructs for alternative splice events).",
+      "sc:featureList": {
+        "@id": "edam:operation_0224"
+      },
+      "sc:name": "ASTD",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://www.ebi.ac.uk/asd"
+      },
+      "sc:url": "http://www.ebi.ac.uk/astd/"
+    },
+    {
+      "@id": "_:Nee4fe514e8c944b6b045d5a167ce8093",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1033"
+      },
+      "sc:name": "Ensembl gene ID"
+    },
+    {
+      "@id": "_:N8c9060ad05da49d58f9765a10b85300a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1033"
+      },
+      "sc:name": "Ensembl gene ID"
+    },
+    {
+      "@id": "_:Naab3d06a2e23474784a3c9814c601b1e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2367"
+      },
+      "sc:name": "ASTD ID"
+    },
+    {
+      "@id": "_:Nd1f1c90520eb48c4b318ef883ffc03da",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2368"
+      },
+      "sc:name": "ASTD ID (exon)"
+    },
+    {
+      "@id": "_:Naa987fb228dd4a5db09d88476cc7fba7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2367"
+      },
+      "sc:name": "ASTD ID"
+    },
+    {
+      "@id": "_:N9c8387d9ab204d3a96d2866e73726bb2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2370"
+      },
+      "sc:name": "ASTD ID (polya)"
+    },
+    {
+      "@id": "_:N91b8982a65f64025990964ffbbb67b2d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2398"
+      },
+      "sc:name": "Ensembl protein ID"
+    },
+    {
+      "@id": "_:N66507391a7fa4af396b8c748e66dace4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1033"
+      },
+      "sc:name": "Ensembl gene ID"
+    },
+    {
+      "@id": "_:N3ac6681e860046da91dd254893e769ec",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2367"
+      },
+      "sc:name": "ASTD ID"
+    },
+    {
+      "@id": "_:N3e794ba73bc849c499601d273fe3f850",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2371"
+      },
+      "sc:name": "ASTD ID (tss)"
+    },
+    {
+      "@id": "_:N98d07b0b79564459ba035c3bb0218dde",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2367"
+      },
+      "sc:name": "ASTD ID"
+    },
+    {
+      "@id": "_:N4bda06da34544751902c7c49026c9d09",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1033"
+      },
+      "sc:name": "Ensembl gene ID"
+    },
+    {
+      "@id": "_:N69f95bbc6a9947fa969e2213b6d53b91",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1033"
+      },
+      "sc:name": "Ensembl gene ID"
+    },
+    {
+      "@id": "_:N699794fa9798447f8c092de1b2485553",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2369"
+      },
+      "sc:name": "ASTD ID (intron)"
+    },
+    {
+      "@id": "_:N176d9059a05845cbb7be3d9561181edf",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2367"
+      },
+      "sc:name": "ASTD ID"
+    },
+    {
+      "@id": "_:N621fe445acd040fb9c5ad81767f2a8a3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2367"
+      },
+      "sc:name": "ASTD ID"
+    },
+    {
+      "@id": "_:N1b2ffbc13b3c49239cc828d20c395333",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2398"
+      },
+      "sc:name": "Ensembl protein ID"
+    },
+    {
+      "@id": "_:N24df79ea93054a3e9ec145d7bbb1f9ab",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2367"
+      },
+      "sc:name": "ASTD ID"
+    },
+    {
+      "@id": "_:N37c88ee72aed4dabbfcbbecf83234810",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0916"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2306"
+      },
+      "sc:name": "Gene report"
+    },
+    {
+      "@id": "_:Nfa36376fe8204d0da5f60e44bc50623a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0896"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Protein report"
+    },
+    {
+      "@id": "_:Nce315d3d610b498187675f31d2114a2f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1276"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Nucleic acid features"
+    },
+    {
+      "@id": "_:N589539015bf646c9b0e9ee1f97282696",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3134"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1927"
+      },
+      "sc:name": "Gene transcript report"
+    },
+    {
+      "@id": "_:Nffd711c041194e378acc40cd8d04a613",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1276"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Nucleic acid features"
+    },
+    {
+      "@id": "_:N07c88aeaebba4966a2236a0b7e5bc579",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0916"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1927"
+      },
+      "sc:name": "Gene report"
+    },
+    {
+      "@id": "_:N3500298d7e42455aa12ebeed7ec23354",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0916"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2305"
+      },
+      "sc:name": "Gene report"
+    },
+    {
+      "@id": "_:Nc81d2e8fa34945dfbd7a2e6c0c36fe4d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0896"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Protein report"
+    },
+    {
+      "@id": "_:N989eec77c9474852b83dee67d030f190",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3134"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2306"
+      },
+      "sc:name": "Gene transcript report"
+    },
+    {
+      "@id": "_:N82df115896b143378fc7e52246a5c2cb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3134"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2305"
+      },
+      "sc:name": "Gene transcript report"
+    },
+    {
+      "@id": "_:Ncf2a94d7c86c415fb291a5efe2410665",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3134"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Gene transcript report"
+    },
+    {
+      "@id": "_:Nb6ccc9dba9dd437eb6cc2af516800a65",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1276"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Nucleic acid features"
+    },
+    {
+      "@id": "_:N308f39b7f4d0412b8a276393bb470c21",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0916"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Gene report"
+    },
+    {
+      "@id": "_:Nc67799e248ae493b9423e3a29f433d54",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1276"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Nucleic acid features"
+    },
+    {
+      "@id": "_:N7eda17f8859f4a718e8f9886a3206948",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0916"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Gene report"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkv1352",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

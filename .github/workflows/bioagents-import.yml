@@ -1,0 +1,16 @@
+name: import bio.agents
+
+on:
+  schedule:
+    - cron: "0 0 * * 0"
+  workflow_dispatch:
+
+jobs:
+  import-bioagents:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: bio-agents/content-ecosystem-utils/bioagents-import@main
+      with:
+        repo-user: ${{ secrets.GITHUB_USER }}
+        repo-token: ${{ secrets.GITHUB_TOKEN }}

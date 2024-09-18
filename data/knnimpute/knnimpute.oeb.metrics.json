@@ -1,0 +1,204 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:knnimpute/cmd/function.princeton.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-11-19T05:05:08.569322Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 1196,
+                            "citations": [
+                                {
+                                    "count": 3,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 20,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 45,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 54,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 66,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 69,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 49,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 67,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 53,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 38,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 63,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 67,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 71,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 69,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 67,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 90,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 74,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 74,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 97,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 30,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/17.6.520",
+                            "pmid": "11395428",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Missing value estimation methods for DNA microarrays.",
+                            "year": 2001
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 813,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T05:05:08.266791Z",
+                "last_month_access": {
+                    "average_access_time": 980,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://function.Princeton.EDU/software/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/knnimpute",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-11-19T05:13:57.171847Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 819,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T05:13:56.904631Z",
+                "last_month_access": {
+                    "average_access_time": 831,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://function.Princeton.EDU/software/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

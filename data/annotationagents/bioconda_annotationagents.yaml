@@ -1,0 +1,13 @@
+bioagents_id: annotationagents
+description: Functions to annotate microarrays, find orthologs, and integrate heterogeneous
+  gene expression profiles using annotation and other molecular biology information
+  available as flat file database (plain text files).
+home: https://bioconductor.org/packages/3.12/bioc/html/annotationAgents.html
+identifiers:
+- bioagents:annotationagents
+license: GPL
+license_file: /lib/R/share/licenses/GPL-3
+name: bioconductor-annotationagents
+summary: Annotate microarrays and perform cross-species gene expression analyses using
+  flat file databases
+version: 1.64.0

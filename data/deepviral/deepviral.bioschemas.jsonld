@@ -1,0 +1,61 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1101/2020.04.22.055095",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/deepviral",
+      "@type": "sc:SoftwareApplication",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0128"
+        },
+        {
+          "@id": "edam:topic_3305"
+        },
+        {
+          "@id": "edam:topic_0625"
+        },
+        {
+          "@id": "edam:topic_3324"
+        },
+        {
+          "@id": "edam:topic_0089"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1101/2020.04.22.055095"
+      },
+      "sc:description": "DeepViral is a agent for the prediction of novel virus–host interactions from protein sequences and infectiousdisease phenotypes.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3461"
+        },
+        {
+          "@id": "edam:operation_3092"
+        },
+        {
+          "@id": "edam:operation_2492"
+        }
+      ],
+      "sc:license": "MIT",
+      "sc:name": "DeepViral",
+      "sc:url": "https://github.com/bio-ontology-research-group/DeepViral"
+    }
+  ]
+}

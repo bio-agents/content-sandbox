@@ -1,0 +1,179 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gkv384",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/babelomics",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "babelomics@cipf.es  (Francisco García)",
+      "bsc:input": [
+        {
+          "@id": "_:N0ad0abaddfdb4ab480f486422c973eac"
+        },
+        {
+          "@id": "_:Ndb71332fa8df40ba897f4cfd7b082304"
+        },
+        {
+          "@id": "_:Nb0dc2b24c71243518d0deb4d2ce52fe1"
+        },
+        {
+          "@id": "_:N2b04aea38fff4c7783310cbec9e34c45"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Ncce49fe12cf64561a9d0a6c5de1bfded"
+        },
+        {
+          "@id": "_:N8582997b7f8940f6a2250afc33529030"
+        },
+        {
+          "@id": "_:N0055f75b082c46aba4bcad197d83dd2e"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3172"
+        },
+        {
+          "@id": "edam:topic_3308"
+        },
+        {
+          "@id": "edam:topic_0622"
+        },
+        {
+          "@id": "edam:topic_3071"
+        },
+        {
+          "@id": "edam:topic_3517"
+        },
+        {
+          "@id": "edam:topic_2259"
+        },
+        {
+          "@id": "edam:topic_0121"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gkv384"
+      },
+      "sc:description": "Integrative platform for the analysis of Transcriptomics, Proteomics and Genomics data with advanced functional profiling. It integrates primary (normalization, calls, etc.) and secondary (signatures, predictors, associations, TDTs, clustering, etc.) analysis agents within an environment that allows relating genomic data and/or interpreting them by means of different functional enrichment or gene set methods.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0313"
+        },
+        {
+          "@id": "edam:operation_2495"
+        },
+        {
+          "@id": "edam:operation_0277"
+        },
+        {
+          "@id": "edam:operation_3463"
+        },
+        {
+          "@id": "edam:operation_3501"
+        },
+        {
+          "@id": "edam:operation_3559"
+        }
+      ],
+      "sc:name": "Babelomics",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:provider": [
+        "cipf.es",
+        "Computational Genomics Department. Prince Felipe Research Center (CIPF)",
+        "http://bioinfo.cipf.es"
+      ],
+      "sc:softwareHelp": [
+        {
+          "@id": "https://github.com/babelomics/babelomics/wiki"
+        },
+        {
+          "@id": "https://github.com/babelomics/babelomics/wiki#citation"
+        }
+      ],
+      "sc:softwareVersion": "5",
+      "sc:url": "http://babelomics.bioinfo.cipf.es/"
+    },
+    {
+      "@id": "_:Ncce49fe12cf64561a9d0a6c5de1bfded",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1636"
+      },
+      "sc:name": "Heat map"
+    },
+    {
+      "@id": "_:N8582997b7f8940f6a2250afc33529030",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:N0055f75b082c46aba4bcad197d83dd2e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0582"
+      },
+      "sc:name": "Ontology"
+    },
+    {
+      "@id": "_:N0ad0abaddfdb4ab480f486422c973eac",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3110"
+      },
+      "sc:name": "Raw microarray data"
+    },
+    {
+      "@id": "_:Ndb71332fa8df40ba897f4cfd7b082304",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3112"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "Gene expression matrix"
+    },
+    {
+      "@id": "_:Nb0dc2b24c71243518d0deb4d2ce52fe1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2872"
+      },
+      "sc:name": "ID list"
+    },
+    {
+      "@id": "_:N2b04aea38fff4c7783310cbec9e34c45",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2082"
+      },
+      "sc:name": "Matrix"
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/ms-data-core-api",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:N10c4c8f7675c4934a1332f44e4c977be"
+        },
+        {
+          "@id": "_:Ncb8c6b24125c40bf97323befb3f419d0"
+        },
+        {
+          "@id": "_:Ncc1c5904955f4c37ad6f53c17fac4419"
+        },
+        {
+          "@id": "_:N953e5daeeac149009a0554eec812bb8c"
+        },
+        {
+          "@id": "_:N1a822d3de3ad440b9908a149e9bc8c09"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N0bef22048a914ff9a35b502030689c8d"
+        },
+        {
+          "@id": "_:N6bd404a43ce04d08832febe7c4dd9efc"
+        },
+        {
+          "@id": "_:N9a7c89e0b0f04a6c94136db50c70dbdf"
+        },
+        {
+          "@id": "_:Nd1f07f3ab4b94e63b0046a4c22884eea"
+        },
+        {
+          "@id": "_:Ne0e4a5b1954c4614b54686e4963e65ff"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3372"
+        },
+        {
+          "@id": "edam:topic_3520"
+        },
+        {
+          "@id": "edam:topic_0121"
+        }
+      ],
+      "sc:citation": "pubmed:25910694",
+      "sc:description": "The ms-data-core-api is a free, open-source library for developing computational proteomics agents and pipelines. The Application Programming Interface, written in Java, enables rapid agent creation by providing a robust, pluggable programming interface and common data model. The data model is based on controlled vocabularies/ontologies and captures the whole range of data types included in common proteomics experimental workflows, going from spectra to peptide/protein identifications to quantitative results. The library contains readers for three of the most used Proteomics Standards Initiative standard file formats: mzML, mzIdentML, and mzTab. In addition to mzML, it also supports other common mass spectra data formats: dta, ms2, mgf, pkl, apl (text-based), mzXML and mzData (XML-based). Also, it can be used to read PRIDE XML, the original format used by the PRIDE database, one of the world-leading proteomics resources.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0336"
+        },
+        {
+          "@id": "edam:operation_0335"
+        },
+        {
+          "@id": "edam:operation_1812"
+        },
+        {
+          "@id": "edam:operation_2422"
+        },
+        {
+          "@id": "edam:operation_2409"
+        },
+        {
+          "@id": "edam:operation_3695"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Apache-2.0",
+      "sc:name": "ms-data-core-api",
+      "sc:operatingSystem": "Linux",
+      "sc:softwareHelp": {
+        "@id": "https://github.com/PRIDE-Utilities/ms-data-core-api"
+      },
+      "sc:softwareVersion": "2.0.31",
+      "sc:url": "https://github.com/PRIDE-Utilities/ms-data-core-api"
+    },
+    {
+      "@id": "_:N10c4c8f7675c4934a1332f44e4c977be",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3684"
+        },
+        {
+          "@id": "edam:format_3244"
+        },
+        {
+          "@id": "edam:format_3654"
+        },
+        {
+          "@id": "edam:format_3653"
+        },
+        {
+          "@id": "edam:format_3827"
+        },
+        {
+          "@id": "edam:format_3652"
+        },
+        {
+          "@id": "edam:format_3714"
+        },
+        {
+          "@id": "edam:format_3681"
+        },
+        {
+          "@id": "edam:format_3247"
+        },
+        {
+          "@id": "edam:format_3651"
+        }
+      ],
+      "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "_:Ncb8c6b24125c40bf97323befb3f419d0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3681"
+        },
+        {
+          "@id": "edam:format_3247"
+        }
+      ],
+      "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "_:Ncc1c5904955f4c37ad6f53c17fac4419",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3827"
+      },
+      "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "_:N953e5daeeac149009a0554eec812bb8c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3684"
+        },
+        {
+          "@id": "edam:format_3247"
+        }
+      ],
+      "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "_:N1a822d3de3ad440b9908a149e9bc8c09",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3681"
+        },
+        {
+          "@id": "edam:format_3247"
+        },
+        {
+          "@id": "edam:format_3827"
+        },
+        {
+          "@id": "edam:format_3684"
+        }
+      ],
+      "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "_:N0bef22048a914ff9a35b502030689c8d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3827"
+      },
+      "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "_:N6bd404a43ce04d08832febe7c4dd9efc",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3681"
+        },
+        {
+          "@id": "edam:format_3684"
+        },
+        {
+          "@id": "edam:format_3247"
+        },
+        {
+          "@id": "edam:format_3827"
+        }
+      ],
+      "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "_:N9a7c89e0b0f04a6c94136db50c70dbdf",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3004"
+      },
+      "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "_:Nd1f07f3ab4b94e63b0046a4c22884eea",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3681"
+        },
+        {
+          "@id": "edam:format_3827"
+        },
+        {
+          "@id": "edam:format_3247"
+        },
+        {
+          "@id": "edam:format_3684"
+        }
+      ],
+      "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "_:Ne0e4a5b1954c4614b54686e4963e65ff",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3681"
+      },
+      "sc:name": "Mass spectrometry data"
+    }
+  ]
+}

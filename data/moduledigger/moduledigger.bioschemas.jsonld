@@ -1,0 +1,66 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/moduledigger",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N5045b4ea68be4c18bb31be97cbd06f7e"
+      },
+      "bsc:output": {
+        "@id": "_:N8400963915a0494097a2fd5cbe599174"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3511"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/1471-2105-10-S1-S30"
+      },
+      "sc:description": "An itemset mining framework for the detection of cis-regulatory modules.",
+      "sc:featureList": {
+        "@id": "edam:operation_0438"
+      },
+      "sc:name": "ModuleDigger",
+      "sc:operatingSystem": "Linux",
+      "sc:provider": "ugent.be",
+      "sc:softwareHelp": {
+        "@id": "http://bioinformatics.intec.ugent.be/kmarchal/Supplementary_Information_Sun_2009_ModuleDigger/startPage.html"
+      },
+      "sc:softwareVersion": "1",
+      "sc:url": "http://bioinformatics.intec.ugent.be/kmarchal/Supplementary_Information_Sun_2009_ModuleDigger/Index.html"
+    },
+    {
+      "@id": "_:N5045b4ea68be4c18bb31be97cbd06f7e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2977"
+      },
+      "sc:name": "Nucleic acid sequence"
+    },
+    {
+      "@id": "_:N8400963915a0494097a2fd5cbe599174",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2070"
+      },
+      "sc:name": "Sequence motif (nucleic acid)"
+    },
+    {
+      "@id": "https://doi.org/10.1186/1471-2105-10-S1-S30",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

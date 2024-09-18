@@ -1,0 +1,59 @@
+{
+    "additionDate": "2019-02-13T14:02:02Z",
+    "bioagentsCURIE": "bioagents:FAIR_Data_agents",
+    "bioagentsID": "FAIR_Data_agents",
+    "credit": [
+        {
+            "email": "rob.hooft@dtls.nl",
+            "name": "Rob Hooft",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "The Data FAIRport includes FAIRifier and Metadata Editor (to create), FAIR Data Point (to publish), FAIR Search Engine (to find), ORKA (to annotate) FAIR data descriptions.",
+    "editPermission": {
+        "authors": [
+            "burger"
+        ],
+        "type": "group"
+    },
+    "iechorNode": [
+        "Netherlands"
+    ],
+    "iechorPlatform": [
+        "Interoperability"
+    ],
+    "homepage": "https://www.dtls.nl/fair-data/find-fair-data-agents/#seventh",
+    "lastUpdate": "2019-07-04T11:32:02Z",
+    "name": "FAIR Data agents",
+    "owner": "jison",
+    "relation": [
+        {
+            "bioagentsID": "FAIRDataPoint",
+            "type": "includes"
+        },
+        {
+            "bioagentsID": "FAIR_Search_Engine",
+            "type": "includes"
+        },
+        {
+            "bioagentsID": "FAIRifier",
+            "type": "includes"
+        },
+        {
+            "bioagentsID": "Metadata_Editor",
+            "type": "includes"
+        }
+    ],
+    "agentType": [
+        "Suite"
+    ],
+    "topic": [
+        {
+            "term": "Data management",
+            "uri": "http://edamontology.org/topic_3071"
+        }
+    ]
+}

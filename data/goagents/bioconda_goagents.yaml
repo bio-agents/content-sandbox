@@ -1,0 +1,12 @@
+bioagents_id: goagents
+description: Wraper functions for description/comparison of oligo ID list using Gene
+  Ontology database
+home: https://bioconductor.org/packages/3.12/bioc/html/goAgents.html
+identifiers:
+- bioagents:goagents
+- doi:10.1038/nmeth.3252
+license: GPL-2
+license_file: /lib/R/share/licenses/GPL-2
+name: bioconductor-goagents
+summary: Functions for Gene Ontology database
+version: 1.64.0

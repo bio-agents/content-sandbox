@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/27.1.295",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/30.1.325",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/plantcare",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N3c82ed254360415fb30119189da8e082"
+      },
+      "bsc:output": {
+        "@id": "_:Neb614d8fc9ef4add977ec5f7d0eea894"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0780"
+        },
+        {
+          "@id": "edam:topic_3308"
+        }
+      ],
+      "sc:citation": [
+        "pmcid:PMC148162",
+        "pubmed:9847207",
+        "pubmed:11752327",
+        {
+          "@id": "https://doi.org/10.1093/nar/27.1.295"
+        },
+        {
+          "@id": "https://doi.org/10.1093/nar/30.1.325"
+        },
+        "pmcid:PMC99092"
+      ],
+      "sc:description": "Database of plant cis-acting regulatory elements and a portal to agents for in silico analysis of promoter sequences.",
+      "sc:featureList": {
+        "@id": "edam:operation_0438"
+      },
+      "sc:name": "PlantCARE",
+      "sc:operatingSystem": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "sc:provider": "ugent.be",
+      "sc:softwareHelp": {
+        "@id": "http://bioinformatics.psb.ugent.be/webagents/plantcare/html/"
+      },
+      "sc:url": "http://bioinformatics.psb.ugent.be/webagents/plantcare/html/"
+    },
+    {
+      "@id": "_:N3c82ed254360415fb30119189da8e082",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3494"
+      },
+      "sc:name": "DNA sequence"
+    },
+    {
+      "@id": "_:Neb614d8fc9ef4add977ec5f7d0eea894",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2070"
+      },
+      "sc:name": "Sequence motif (nucleic acid)"
+    }
+  ]
+}

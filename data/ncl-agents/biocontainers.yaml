@@ -1,0 +1,43 @@
+softwares:
+  ncl-agents:
+    labels:
+      about.home: http://sourceforge.net/projects/ncl/
+      about.license_file: /usr/share/doc/ncl-agents/copyright
+      about.summary: agents to deal with NEXUS files
+      about.tags: ''
+      container: ncl-agents
+      extra.binaries: /usr/bin/NCLconverter,/usr/bin/NEXUSnormalizer,/usr/bin/NEXUSvalidator
+      software: ncl-agents
+      software.version: 2.1.18dfsg-2b1-deb
+      version: '1'
+    software: ncl-agents
+    versions:
+    - labels:
+        about.home: http://sourceforge.net/projects/ncl/
+        about.license_file: /usr/share/doc/ncl-agents/copyright
+        about.summary: agents to deal with NEXUS files
+        about.tags: ''
+        container: ncl-agents
+        extra.binaries: /usr/bin/NCLconverter,/usr/bin/NEXUSnormalizer,/usr/bin/NEXUSvalidator
+        software: ncl-agents
+        software.version: 2.1.18dfsg-2b1-deb
+        version: '1'
+      type: Container file
+      url: biocontainers/ncl-agents:2.1.18dfsg-2b1-deb-1
+      version: 2.1.18dfsg-2b1-deb-1
+    - labels:
+        about.home: https://github.com/mtholder/ncl
+        about.license: custom, see /usr/share/doc/ncl-agents/copyright
+        about.license_file: /usr/share/doc/ncl-agents/copyright
+        about.summary: agents to deal with NEXUS files
+        about.tags: ''
+        base_image: biocontainers/biocontainers:vdebian-buster-backports_cv1
+        container: ncl-agents
+        extra.binaries: /usr/bin/NCLconverter,/usr/bin/NEXUSnormalizer,/usr/bin/NEXUSvalidator,/usr/bin/checktaxonnodes,/usr/bin/findunsupportededges,/usr/bin/otTreeInspect,/usr/bin/otsubtree,/usr/bin/outdeg1count
+        software: ncl-agents
+        software.version: 2.1.21git20180827.c71b264-2-deb
+        upstream.version: 2.1.21
+        version: '1'
+      type: Container file
+      url: biocontainers/ncl-agents:2.1.21git20180827.c71b264-2-deb-1
+      version: 2.1.21git20180827.c71b264-2-deb-1

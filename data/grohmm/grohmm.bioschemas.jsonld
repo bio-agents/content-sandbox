@@ -1,0 +1,220 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "http://orcid.org/0000-0002-1999-7125",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s12859-015-0656-3",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/grohmm",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": [
+        "Anusha Nagari",
+        "W. Lee Kraus",
+        "Tulip Nandu",
+        "Venkat Malladi"
+      ],
+      "bsc:input": [
+        {
+          "@id": "_:N8effc893436d449c8fda0ae58d0d3318"
+        },
+        {
+          "@id": "_:N25a76e2a3523413aac3147c1fa6a427a"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N13ca5889bbac4c049a5a620f4b6127aa"
+        },
+        {
+          "@id": "_:Ndd35acd9448a485e80e3038448c66f8f"
+        },
+        {
+          "@id": "_:Nfb4ee99ed7544df09d4cefc16dac7846"
+        },
+        {
+          "@id": "_:Nce91f2da10b1458f9a2356928ee37023"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Library"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3168"
+        },
+        {
+          "@id": "edam:topic_3308"
+        }
+      ],
+      "sc:citation": [
+        "pmcid:PMC4502638",
+        "pubmed:26173492",
+        {
+          "@id": "https://doi.org/10.1186/s12859-015-0656-3"
+        }
+      ],
+      "sc:contributor": {
+        "@id": "http://orcid.org/0000-0002-1999-7125"
+      },
+      "sc:description": "A pipeline for the analysis of GRO-seq data.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0415"
+        },
+        {
+          "@id": "edam:operation_2478"
+        }
+      ],
+      "sc:license": "GPL-3.0",
+      "sc:name": "groHMM",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/groHMM.html"
+      },
+      "sc:softwareVersion": "1.8.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/groHMM.html"
+    },
+    {
+      "@id": "_:N13ca5889bbac4c049a5a620f4b6127aa",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3002"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3006"
+        },
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_3005"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Annotation track"
+    },
+    {
+      "@id": "_:Ndd35acd9448a485e80e3038448c66f8f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1017"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3006"
+        },
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_3005"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Sequence range"
+    },
+    {
+      "@id": "_:Nfb4ee99ed7544df09d4cefc16dac7846",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_3005"
+        },
+        {
+          "@id": "edam:format_3006"
+        }
+      ],
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:Nce91f2da10b1458f9a2356928ee37023",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3006"
+        },
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_3005"
+        }
+      ],
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:N8effc893436d449c8fda0ae58d0d3318",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3003"
+        },
+        {
+          "@id": "edam:format_2572"
+        }
+      ],
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:N25a76e2a3523413aac3147c1fa6a427a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3002"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2572"
+        },
+        {
+          "@id": "edam:format_3003"
+        }
+      ],
+      "sc:name": "Annotation track"
+    }
+  ]
+}

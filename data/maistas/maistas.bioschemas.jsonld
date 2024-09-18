@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/maistas",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": [
+        "Domenico Raimondo",
+        "Matteo Floris"
+      ],
+      "bsc:input": {
+        "@id": "_:N30cd51dccfa84266b15bf1d39e5d9ff7"
+      },
+      "bsc:output": {
+        "@id": "_:N2574aba803fc49c8aff2d68270615f0d"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0082"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btr198"
+      },
+      "sc:description": "Fully automatic pipeline aimed at building and assessing three-dimensional models for alternative splicing isoforms.",
+      "sc:featureList": {
+        "@id": "edam:operation_0477"
+      },
+      "sc:name": "Maistas",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:provider": "IECHOR-ITA-SAPIENZA",
+      "sc:softwareVersion": "1.0",
+      "sc:url": "http://maistas.bioinformatica.crs4.it/"
+    },
+    {
+      "@id": "_:N2574aba803fc49c8aff2d68270615f0d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1460"
+      },
+      "sc:name": "Protein structure"
+    },
+    {
+      "@id": "_:N30cd51dccfa84266b15bf1d39e5d9ff7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2977"
+      },
+      "sc:name": "Nucleic acid sequence"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btr198",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

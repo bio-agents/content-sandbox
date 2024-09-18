@@ -1,0 +1,114 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/artic",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:Ne2dec43ece1c4b62b5c6ba897d696bd5"
+        },
+        {
+          "@id": "_:N344a0dad8a154937b05c59575670060d"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Nf5c46519622e47ec8b57e2706bab6d2a"
+        },
+        {
+          "@id": "_:Nb745211da076464286688fcfc86518df"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0622"
+      },
+      "sc:author": [
+        {
+          "@id": "https://orcid.org/0000-0002-9843-8988"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-0384-4463"
+        }
+      ],
+      "sc:description": "A bioinformatics pipeline for working with virus sequencing data sequenced with nanopore",
+      "sc:featureList": {
+        "@id": "edam:operation_0292"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "MIT",
+      "sc:name": "ARTIC",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareVersion": "1.1.0-rc2",
+      "sc:url": "https://github.com/artic-network/fieldbioinformatics"
+    },
+    {
+      "@id": "_:Nf5c46519622e47ec8b57e2706bab6d2a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1383"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2572"
+      },
+      "sc:name": "Nucleic acid sequence alignment"
+    },
+    {
+      "@id": "_:Nb745211da076464286688fcfc86518df",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3498"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3016"
+      },
+      "sc:name": "Sequence variations"
+    },
+    {
+      "@id": "_:Ne2dec43ece1c4b62b5c6ba897d696bd5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3494"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2182"
+      },
+      "sc:name": "DNA sequence"
+    },
+    {
+      "@id": "_:N344a0dad8a154937b05c59575670060d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2012"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3003"
+      },
+      "sc:name": "Sequence coordinates"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-0384-4463",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-9843-8988",
+      "@type": "schema:Person"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/deltag_prediction",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N83f6bc35136f4913a43bb6105a47c077"
+      },
+      "bsc:output": {
+        "@id": "_:N9418245093884bcf8f5ca73e2d5a91d9"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0736"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1038/nature06387"
+      },
+      "sc:description": "Prediction of apparent free energy difference for a potential transmembrane helix.",
+      "sc:featureList": {
+        "@id": "edam:operation_2423"
+      },
+      "sc:name": "DeltaG prediction",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:provider": "bils.se",
+      "sc:softwareHelp": {
+        "@id": "http://dgpred.cbr.su.se/index.php?p=instructions"
+      },
+      "sc:softwareVersion": "1",
+      "sc:url": "http://dgpred.cbr.su.se/"
+    },
+    {
+      "@id": "_:N83f6bc35136f4913a43bb6105a47c077",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2976"
+      },
+      "sc:name": "Protein sequence"
+    },
+    {
+      "@id": "_:N9418245093884bcf8f5ca73e2d5a91d9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1277"
+      },
+      "sc:name": "Protein features"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nature06387",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

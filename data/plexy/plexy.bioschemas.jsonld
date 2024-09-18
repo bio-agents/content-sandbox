@@ -1,0 +1,69 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btq642",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/plexy",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N92be92493ae947b3bde54a3b0b4a6462"
+      },
+      "bsc:output": {
+        "@id": "_:N872a3475e9934f8e9c37d8bc7f775b76"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0082"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btq642"
+      },
+      "sc:description": "PLEXY is a agent for computation of optimal thermodynamical interactions of a box C/D snoRNA with a putative target RNA. It is based on RNAPLEX.",
+      "sc:featureList": {
+        "@id": "edam:operation_0278"
+      },
+      "sc:name": "PLEXY",
+      "sc:softwareHelp": {
+        "@id": "http://www.bioinf.uni-leipzig.de/Software/PLEXY/"
+      },
+      "sc:url": "http://www.bioinf.uni-leipzig.de/Software/PLEXY/"
+    },
+    {
+      "@id": "_:N92be92493ae947b3bde54a3b0b4a6462",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0850"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence set"
+    },
+    {
+      "@id": "_:N872a3475e9934f8e9c37d8bc7f775b76",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0880"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "RNA secondary structure"
+    }
+  ]
+}

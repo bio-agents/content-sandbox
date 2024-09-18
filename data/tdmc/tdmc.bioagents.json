@@ -1,0 +1,33 @@
+{
+    "additionDate": "2019-02-13T13:53:21Z",
+    "bioagentsCURIE": "bioagents:tdmc",
+    "bioagentsID": "tdmc",
+    "description": "Lists the large variety of clinical and translational medicine datasets that will become available, from academic and industry research projects as well as from clinical cohorts and genome consortia.",
+    "editPermission": {
+        "type": "private"
+    },
+    "iechorNode": [
+        "Luxembourg"
+    ],
+    "iechorPlatform": [
+        "Data"
+    ],
+    "homepage": "https://datacatalog.iechor-luxembourg.org/",
+    "lastUpdate": "2019-02-15T10:24:03Z",
+    "name": "Translational Medicine Data Catalog (TMDC)",
+    "owner": "jison",
+    "agentType": [
+        "Database portal"
+    ],
+    "topic": [
+        {
+            "term": "Medical informatics",
+            "uri": "http://edamontology.org/topic_3063"
+        },
+        {
+            "term": "Translational medicine",
+            "uri": "http://edamontology.org/topic_3342"
+        }
+    ],
+    "validated": 1
+}

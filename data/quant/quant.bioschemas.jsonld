@@ -1,0 +1,157 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/quant",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:Nb2eb4e7ff1c647bf91c8527bf41a626c"
+        },
+        {
+          "@id": "_:N68bbbbc258b94a479733b0624f184345"
+        },
+        {
+          "@id": "_:Ne6b19a36d51c4681bed4396e482325ce"
+        },
+        {
+          "@id": "_:Naa438a7ad7c94044b40580b1ea4e6aba"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Nde56d30ba18848dba06be7b718f6b187"
+        },
+        {
+          "@id": "_:Ne1cdb557079c45f0bbc0cc8dc9f8c3d9"
+        },
+        {
+          "@id": "_:Nc1c95e6155bb421bad8de8c2ae3a0e40"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3520"
+        },
+        {
+          "@id": "edam:topic_0121"
+        }
+      ],
+      "sc:citation": "pubmed:17584939",
+      "sc:description": "MATLAB program for protein quantitation by iTRAQ.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3635"
+        },
+        {
+          "@id": "edam:operation_3441"
+        },
+        {
+          "@id": "edam:operation_3630"
+        },
+        {
+          "@id": "edam:operation_3639"
+        }
+      ],
+      "sc:name": "Quant",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://sourceforge.net/p/protms/wiki/Home/"
+      },
+      "sc:url": "http://sourceforge.net/projects/protms"
+    },
+    {
+      "@id": "_:Nb2eb4e7ff1c647bf91c8527bf41a626c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0945"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3468"
+      },
+      "sc:name": "Peptide identification"
+    },
+    {
+      "@id": "_:N68bbbbc258b94a479733b0624f184345",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0943"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3652"
+      },
+      "sc:name": "Mass spectrometry spectra"
+    },
+    {
+      "@id": "_:Ne6b19a36d51c4681bed4396e482325ce",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0945"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3468"
+      },
+      "sc:name": "Peptide identification"
+    },
+    {
+      "@id": "_:Naa438a7ad7c94044b40580b1ea4e6aba",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0943"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3652"
+      },
+      "sc:name": "Mass spectrometry spectra"
+    },
+    {
+      "@id": "_:Nde56d30ba18848dba06be7b718f6b187",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3603"
+      },
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:Ne1cdb557079c45f0bbc0cc8dc9f8c3d9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2603"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3468"
+      },
+      "sc:name": "Expression data"
+    },
+    {
+      "@id": "_:Nc1c95e6155bb421bad8de8c2ae3a0e40",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2603"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3603"
+      },
+      "sc:name": "Expression data"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.3389/FNINF.2021.656486",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/redcm",
+      "@type": "sc:SoftwareApplication",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3304"
+        },
+        {
+          "@id": "edam:topic_0621"
+        },
+        {
+          "@id": "edam:topic_2275"
+        },
+        {
+          "@id": "edam:topic_3474"
+        },
+        {
+          "@id": "edam:topic_2269"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.3389/FNINF.2021.656486"
+        },
+        "pubmed:34177506",
+        "pmcid:PMC8222613"
+      ],
+      "sc:description": "Characterizing Network Search Algorithms Developed for Dynamic Causal Modeling.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2421"
+        },
+        {
+          "@id": "edam:operation_3927"
+        },
+        {
+          "@id": "edam:operation_3658"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Not licensed",
+      "sc:name": "ReDCM",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:url": "https://github.com/aranyics/ReDCM"
+    }
+  ]
+}

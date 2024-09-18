@@ -1,0 +1,106 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/ggsashimi",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N85197fe7a6c24f91a1172868ef63c473"
+      },
+      "bsc:output": {
+        "@id": "_:Na93f8261f6b144c09f61ea8ecadaae54"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0092"
+        },
+        {
+          "@id": "edam:topic_3320"
+        },
+        {
+          "@id": "edam:topic_3170"
+        }
+      ],
+      "sc:author": [
+        "Emilio Palumbo",
+        "Diego Garrido",
+        "Alessandra Breschi"
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1371/journal.pcbi.1006360"
+      },
+      "sc:description": "Command-line agent for the visualization of splicing events across multiple samples",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3436"
+        },
+        {
+          "@id": "edam:operation_0337"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "MIT",
+      "sc:name": "ggsashimi",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac"
+      ],
+      "sc:provider": "R. Guigó Lab: Computational Biology of RNA processing @ CRG, Barcelona.",
+      "sc:softwareVersion": "1.0.0",
+      "sc:url": "https://github.com/guigolab/ggsashimi"
+    },
+    {
+      "@id": "_:N85197fe7a6c24f91a1172868ef63c473",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2572"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:Na93f8261f6b144c09f61ea8ecadaae54",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3579"
+        },
+        {
+          "@id": "edam:format_3508"
+        },
+        {
+          "@id": "edam:format_3604"
+        },
+        {
+          "@id": "edam:format_3603"
+        },
+        {
+          "@id": "edam:format_3591"
+        }
+      ],
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "https://doi.org/10.1371/journal.pcbi.1006360",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

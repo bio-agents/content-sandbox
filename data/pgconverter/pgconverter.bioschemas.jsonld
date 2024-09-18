@@ -1,0 +1,267 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/PGConverter",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:Na49afed11f5c49c1acdcb660103b731d"
+        },
+        {
+          "@id": "_:N1768ca8412144718915777268e6175c9"
+        },
+        {
+          "@id": "_:Nd8ae2b203c94412cb51eeb355d15e86f"
+        },
+        {
+          "@id": "_:N069771fcc5a2471d9a32fa475f8710e2"
+        },
+        {
+          "@id": "_:N72e9a49990fd447792f19737074c049e"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N6c308f37889349dfb5721bb716855518"
+        },
+        {
+          "@id": "_:N3672503bbdc64da0b7d5b22c232cddb4"
+        },
+        {
+          "@id": "_:Nd1cba0b97910492cac3ac94385368ec0"
+        },
+        {
+          "@id": "_:N6593518283534fe4903f3130538072d5"
+        },
+        {
+          "@id": "_:Nfb2a3b1495e04022bf5dc427f37d92a1"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Library",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3520"
+        },
+        {
+          "@id": "edam:topic_3071"
+        },
+        {
+          "@id": "edam:topic_0121"
+        }
+      ],
+      "sc:description": "This library is primarily to offer a command-line agent to convert between the following formats for proteogenomics related data. It is also possible to convert regular non-proteogenomics mzIdentML or PRIDE XML files to mzTab. A secondary function of this library is to gather metadata and statistics about mzIdentML, mzTab, and PRIDE XML files for validation purposes. Primarily this agent is powered by the ms-data-core-api library to read/write files. Primarily this agent is powered by the ms-data-core-api library to read/write files.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2409"
+        },
+        {
+          "@id": "edam:operation_2422"
+        },
+        {
+          "@id": "edam:operation_3695"
+        },
+        {
+          "@id": "edam:operation_0335"
+        },
+        {
+          "@id": "edam:operation_0336"
+        },
+        {
+          "@id": "edam:operation_1812"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Apache-2.0",
+      "sc:name": "PGConverter",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://github.com/PRIDE-Agentsuite/PGConverter"
+      },
+      "sc:softwareVersion": "1.8.5",
+      "sc:url": "https://github.com/PRIDE-Agentsuite/PGConverter"
+    },
+    {
+      "@id": "_:N6c308f37889349dfb5721bb716855518",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3827"
+      },
+      "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "_:N3672503bbdc64da0b7d5b22c232cddb4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3827"
+        },
+        {
+          "@id": "edam:format_3681"
+        },
+        {
+          "@id": "edam:format_3247"
+        },
+        {
+          "@id": "edam:format_3684"
+        }
+      ],
+      "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "_:Nd1cba0b97910492cac3ac94385368ec0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3247"
+        },
+        {
+          "@id": "edam:format_3827"
+        },
+        {
+          "@id": "edam:format_3681"
+        },
+        {
+          "@id": "edam:format_3684"
+        }
+      ],
+      "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "_:N6593518283534fe4903f3130538072d5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3681"
+      },
+      "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "_:Nfb2a3b1495e04022bf5dc427f37d92a1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3004"
+      },
+      "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "_:Na49afed11f5c49c1acdcb660103b731d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3681"
+        },
+        {
+          "@id": "edam:format_3827"
+        },
+        {
+          "@id": "edam:format_3247"
+        },
+        {
+          "@id": "edam:format_3684"
+        }
+      ],
+      "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "_:N1768ca8412144718915777268e6175c9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3681"
+        },
+        {
+          "@id": "edam:format_3247"
+        }
+      ],
+      "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "_:Nd8ae2b203c94412cb51eeb355d15e86f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3684"
+        },
+        {
+          "@id": "edam:format_3247"
+        }
+      ],
+      "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "_:N069771fcc5a2471d9a32fa475f8710e2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3684"
+        },
+        {
+          "@id": "edam:format_3681"
+        },
+        {
+          "@id": "edam:format_3247"
+        },
+        {
+          "@id": "edam:format_3827"
+        }
+      ],
+      "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "_:N72e9a49990fd447792f19737074c049e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3827"
+      },
+      "sc:name": "Mass spectrometry data"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "http://orcid.org/0000-0002-7995-1858",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://bio.agents/rapidgsea",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": {
+        "@id": "http://orcid.org/0000-0002-7995-1858"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2269"
+        },
+        {
+          "@id": "edam:topic_0203"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1186/s12859-016-1244-x"
+        },
+        "pmcid:PMC5035472",
+        "pubmed:27663265"
+      ],
+      "sc:description": "We present rapidGSEA – a software suite consisting of two agents for facilitating permutation-based gene set enrichment analysis(GSEA): cudaGSEA and ompGSEA. cudaGSEA is a CUDA-accelerated agent using fine-grained parallelization schemes on massively parallel architectures while ompGSEA is a coarse-grained multi-threaded agent for multi-core CPUs.",
+      "sc:featureList": {
+        "@id": "edam:operation_2403"
+      },
+      "sc:license": "Unlicense",
+      "sc:name": "rapidGSEA",
+      "sc:operatingSystem": [
+        "Mac",
+        "Windows",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://github.com/gravitino/cudaGSEA/blob/master/README.md"
+      },
+      "sc:url": "https://github.com/gravitino/cudaGSEA"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s12859-016-1244-x",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

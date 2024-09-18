@@ -1,0 +1,69 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1186/s12864-018-5372-8",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/NanoMod",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Wang Genomics Lab",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3674"
+        },
+        {
+          "@id": "edam:topic_3295"
+        },
+        {
+          "@id": "edam:topic_0654"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1186/s12864-018-5372-8"
+        },
+        "pubmed:30712508",
+        "pmcid:PMC6360650"
+      ],
+      "sc:description": "Computational agent to detect DNA modifications using Nanopore long-read sequencing data.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3185"
+        },
+        {
+          "@id": "edam:operation_0417"
+        },
+        {
+          "@id": "edam:operation_0452"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "GPL-3.0",
+      "sc:name": "NanoMod",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://github.com/WGLab/NanoMod/blob/master/docs/Usage.md"
+      },
+      "sc:softwareVersion": "0.1.0",
+      "sc:url": "https://github.com/WGLab/NanoMod"
+    }
+  ]
+}

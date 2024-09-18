@@ -1,0 +1,209 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/peaks_q",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:N030e0d5cc6db470c9bf1cbcc60144f31"
+        },
+        {
+          "@id": "_:N6197e63b359544c08d77a7a75c95bcef"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Nb6390ba4b2924f95a6c5d5f0747a22b3"
+        },
+        {
+          "@id": "_:Nc9af88760e1c47c4b19567a8429aa087"
+        },
+        {
+          "@id": "_:Na7b63a664f8545669cf30906cb75cd47"
+        },
+        {
+          "@id": "_:Nea0715fb4bfc450997415db31bfde7c9"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Desktop application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0121"
+        },
+        {
+          "@id": "edam:topic_3520"
+        }
+      ],
+      "sc:description": "Peptide/protein quantification by iTRAQ, ICAT, SILAC or label-free.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3635"
+        },
+        {
+          "@id": "edam:operation_3639"
+        },
+        {
+          "@id": "edam:operation_3704"
+        },
+        {
+          "@id": "edam:operation_3705"
+        },
+        {
+          "@id": "edam:operation_3641"
+        },
+        {
+          "@id": "edam:operation_3203"
+        },
+        {
+          "@id": "edam:operation_0531"
+        },
+        {
+          "@id": "edam:operation_3634"
+        },
+        {
+          "@id": "edam:operation_3632"
+        },
+        {
+          "@id": "edam:operation_3694"
+        },
+        {
+          "@id": "edam:operation_3638"
+        },
+        {
+          "@id": "edam:operation_3629"
+        },
+        {
+          "@id": "edam:operation_3441"
+        }
+      ],
+      "sc:name": "PEAKS Q",
+      "sc:url": "http://www.bioinfor.com/peaks/products/peaks-q-solution.html"
+    },
+    {
+      "@id": "_:N030e0d5cc6db470c9bf1cbcc60144f31",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0945"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3752"
+      },
+      "sc:name": "Peptide identification"
+    },
+    {
+      "@id": "_:N6197e63b359544c08d77a7a75c95bcef",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0945"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3752"
+      },
+      "sc:name": "Peptide identification"
+    },
+    {
+      "@id": "_:Nb6390ba4b2924f95a6c5d5f0747a22b3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3579"
+        },
+        {
+          "@id": "edam:format_3604"
+        },
+        {
+          "@id": "edam:format_3592"
+        },
+        {
+          "@id": "edam:format_3467"
+        },
+        {
+          "@id": "edam:format_3603"
+        }
+      ],
+      "sc:name": "Image"
+    },
+    {
+      "@id": "_:Nc9af88760e1c47c4b19567a8429aa087",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1636"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3579"
+        },
+        {
+          "@id": "edam:format_3603"
+        },
+        {
+          "@id": "edam:format_3592"
+        },
+        {
+          "@id": "edam:format_3604"
+        },
+        {
+          "@id": "edam:format_3467"
+        }
+      ],
+      "sc:name": "Heat map"
+    },
+    {
+      "@id": "_:Na7b63a664f8545669cf30906cb75cd47",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2165"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3579"
+        },
+        {
+          "@id": "edam:format_3603"
+        },
+        {
+          "@id": "edam:format_3592"
+        },
+        {
+          "@id": "edam:format_3467"
+        },
+        {
+          "@id": "edam:format_3604"
+        }
+      ],
+      "sc:name": "Protein ionisation curve"
+    },
+    {
+      "@id": "_:Nea0715fb4bfc450997415db31bfde7c9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2603"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2331"
+        },
+        {
+          "@id": "edam:format_3752"
+        }
+      ],
+      "sc:name": "Expression data"
+    }
+  ]
+}

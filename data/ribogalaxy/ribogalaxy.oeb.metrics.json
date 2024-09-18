@@ -1,0 +1,203 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:ribogalaxy:1/workbench/ribogalaxy.ucc.ie",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-11-19T07:51:38.177655Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true,
+                "terms_of_use": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 55,
+                            "citations": [
+                                {
+                                    "count": 4,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 12,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1080/15476286.2016.1141862",
+                            "pmcid": "PMC4829337",
+                            "pmid": "26821742",
+                            "ref_count": 26,
+                            "refs": [
+                                {
+                                    "count": 2,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                }
+                            ],
+                            "title": "RiboGalaxy: A browser based platform for the alignment, analysis and visualization of ribosome profiling data.",
+                            "year": 2016
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 560,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 3,
+                        "serie": [
+                            3
+                        ],
+                        "status": 500
+                    },
+                    {
+                        "days": 180,
+                        "serie": [
+                            112,
+                            68
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T07:51:38.070625Z",
+                "last_month_access": {
+                    "average_access_time": 700,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://ribogalaxy.genomicsdatascience.ie/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/ribogalaxy",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-11-19T07:51:38.149228Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 724,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 3,
+                        "serie": [
+                            3
+                        ],
+                        "status": 500
+                    },
+                    {
+                        "days": 180,
+                        "serie": [
+                            112,
+                            68
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T07:51:38.067058Z",
+                "last_month_access": {
+                    "average_access_time": 1292,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://ribogalaxy.genomicsdatascience.ie/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/autoroot",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Michael P. Pound",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Desktop application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0780"
+        },
+        {
+          "@id": "edam:topic_0625"
+        },
+        {
+          "@id": "edam:topic_3383"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:28286542",
+        {
+          "@id": "https://doi.org/10.1186/s13007-017-0161-y"
+        },
+        "pmcid:PMC5341458"
+      ],
+      "sc:description": "Open-source software employing a novel image analysis approach to support fully-automated plant phenotyping.",
+      "sc:featureList": {
+        "@id": "edam:operation_3443"
+      },
+      "sc:license": "MIT",
+      "sc:name": "AutoRoot",
+      "sc:operatingSystem": "Windows",
+      "sc:softwareHelp": {
+        "@id": "https://zenodo.org/record/60433#.W1NXONj7TOQ"
+      },
+      "sc:url": "https://zenodo.org/record/60433#.W1NXONj7TOQ"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s13007-017-0161-y",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

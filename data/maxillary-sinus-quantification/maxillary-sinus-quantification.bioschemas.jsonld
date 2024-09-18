@@ -1,0 +1,47 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1371/journal.pone.0190770",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/maxillary-sinus-quantification",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Diana Rodrigues de Pina",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Plug-in",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3384"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1371/journal.pone.0190770"
+      },
+      "sc:description": "Automated agent for quantifying the total and air-free volume of the maxillary sinus based on computed tomography images. The quantification agent seeks to standardize maxillary sinus volume measurements, thus allowing better comparisons and determinations of factors that influence maxillary sinus size. The automated agent utilized image processing techniques (watershed, threshold, and morphological operators).",
+      "sc:featureList": {
+        "@id": "edam:operation_3443"
+      },
+      "sc:name": "Maxillary-Sinus-Quantification",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://github.com/dianapina/Maxillary-Sinus-Quantification/blob/master/README.md"
+      },
+      "sc:url": "https://github.com/dianapina/Maxillary-Sinus-Quantification"
+    }
+  ]
+}

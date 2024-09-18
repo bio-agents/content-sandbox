@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1371/journal.pcbi.1002829",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/discotope",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Ole Lund",
+      "bsc:input": {
+        "@id": "_:N72e61bedac464f2fa9f274fc5b09439b"
+      },
+      "bsc:output": {
+        "@id": "_:Nb2c987eb6d7d40ae8ca1d49eea26cfd2"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Web application",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3534"
+        },
+        {
+          "@id": "edam:topic_2830"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1371/journal.pcbi.1002829"
+      },
+      "sc:description": "Prediction of discontinuous B cell epitopes from protein three dimensional structures.",
+      "sc:featureList": {
+        "@id": "edam:operation_0416"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Other",
+      "sc:name": "DiscoTope",
+      "sc:operatingSystem": "Linux",
+      "sc:provider": "CBS",
+      "sc:softwareHelp": {
+        "@id": "http://www.cbs.dtu.dk/services/DiscoTope/instructions.php"
+      },
+      "sc:softwareVersion": "2.0",
+      "sc:url": "http://cbs.dtu.dk/services/DiscoTope/"
+    },
+    {
+      "@id": "_:Nb2c987eb6d7d40ae8ca1d49eea26cfd2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1277"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Protein features"
+    },
+    {
+      "@id": "_:N72e61bedac464f2fa9f274fc5b09439b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0883"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1476"
+      },
+      "sc:name": "Structure"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bts577",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/BovineMine",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:N01fd74aa0391406d923786386ba64400"
+        },
+        {
+          "@id": "_:N5bc552ff64e34f8d9b66dc215b4ebf0a"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Nb94418572ba94eb294bbf5388c705bd7"
+        },
+        {
+          "@id": "_:Nd3c3b115274f47f793a20b3c8e65f3e6"
+        },
+        {
+          "@id": "_:N1fc16bd4670d4111823ffbb1e0ac0958"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Web service",
+        "Database portal",
+        "Web application"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0622"
+        },
+        {
+          "@id": "edam:topic_3071"
+        },
+        {
+          "@id": "edam:topic_0121"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/bts577"
+      },
+      "sc:description": "An integrated data warehouse for the Bovine Genome Database",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2436"
+        },
+        {
+          "@id": "edam:operation_0224"
+        },
+        {
+          "@id": "edam:operation_0337"
+        },
+        {
+          "@id": "edam:operation_2422"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "LGPL-2.1",
+      "sc:name": "BovineMine",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": [
+        {
+          "@id": "https://flymine.readthedocs.io/en/latest/"
+        },
+        {
+          "@id": "http://intermine.readthedocs.org/en/latest/web-services/"
+        }
+      ],
+      "sc:softwareVersion": "1.4",
+      "sc:url": "http://genomes.missouri.edu/bovinemine"
+    },
+    {
+      "@id": "_:N01fd74aa0391406d923786386ba64400",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1255"
+      },
+      "sc:name": "Sequence features"
+    },
+    {
+      "@id": "_:N5bc552ff64e34f8d9b66dc215b4ebf0a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2353"
+      },
+      "sc:name": "Ontology data"
+    },
+    {
+      "@id": "_:Nb94418572ba94eb294bbf5388c705bd7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3753"
+      },
+      "sc:name": "Over-representation data"
+    },
+    {
+      "@id": "_:Nd3c3b115274f47f793a20b3c8e65f3e6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3786"
+      },
+      "sc:name": "Query script"
+    },
+    {
+      "@id": "_:N1fc16bd4670d4111823ffbb1e0ac0958",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1255"
+      },
+      "sc:name": "Sequence features"
+    }
+  ]
+}

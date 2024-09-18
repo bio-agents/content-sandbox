@@ -1,0 +1,114 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/mres2x",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:N8786d1782f224ef6b3cde8aef6c3bacf"
+        },
+        {
+          "@id": "_:Ndaeb3949a6cd40bf860a698088c318ee"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Na22ab05e334949319b1d4cc4ab0b9e15"
+        },
+        {
+          "@id": "_:N595674eeb26d43e3a89a2927ab3c8ebf"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3520"
+        },
+        {
+          "@id": "edam:topic_0121"
+        }
+      ],
+      "sc:citation": "pubmed:16336652",
+      "sc:description": "A agent to process MASCOT results.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3359"
+        },
+        {
+          "@id": "edam:operation_0335"
+        }
+      ],
+      "sc:name": "mres2x",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://sourceforge.net/p/protms/wiki/Home/"
+      },
+      "sc:url": "https://sourceforge.net/projects/protms/files/mres2x/"
+    },
+    {
+      "@id": "_:Na22ab05e334949319b1d4cc4ab0b9e15",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3713"
+      },
+      "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "_:N595674eeb26d43e3a89a2927ab3c8ebf",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3475"
+        },
+        {
+          "@id": "edam:format_3652"
+        }
+      ],
+      "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "_:N8786d1782f224ef6b3cde8aef6c3bacf",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3713"
+      },
+      "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "_:Ndaeb3949a6cd40bf860a698088c318ee",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3713"
+      },
+      "sc:name": "Mass spectrometry data"
+    }
+  ]
+}

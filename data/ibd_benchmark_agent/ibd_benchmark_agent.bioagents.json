@@ -1,0 +1,28 @@
+{
+    "accessibility": "Open access",
+    "additionDate": "2022-10-10T20:41:06.150807Z",
+    "bioagentsCURIE": "bioagents:ibd_benchmark_agent",
+    "bioagentsID": "ibd_benchmark_agent",
+    "confidence_flag": "agent",
+    "cost": "Free of charge",
+    "description": "This open source agent benchmarks IBD detection agents with multiple measurements.",
+    "editPermission": {
+        "type": "private"
+    },
+    "homepage": "https://github.com/ZhiGroup/IBD_benchmark",
+    "language": [
+        "C#"
+    ],
+    "lastUpdate": "2023-05-01T20:16:14.698711Z",
+    "license": "MIT",
+    "name": "IBD Benchmark Agent",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "BennyUCF",
+    "agentType": [
+        "Script"
+    ]
+}

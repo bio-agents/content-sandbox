@@ -1,0 +1,135 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/ThaleMine",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:N80efac05f9544f26820a451f54955556"
+        },
+        {
+          "@id": "_:N8fe1f7210c2e4823a452d528832f506a"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N118043572d6c426b9253d4a5f18e83a1"
+        },
+        {
+          "@id": "_:Necce20c2baf843f18a520bb2b8b5d7b3"
+        },
+        {
+          "@id": "_:Nec4f1efd9f8e4fe5a96350ff79fc1e46"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Database portal",
+        "Web service",
+        "Web application"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0622"
+        },
+        {
+          "@id": "edam:topic_3071"
+        },
+        {
+          "@id": "edam:topic_0121"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/bts577"
+      },
+      "sc:description": "ThaleMine enables you to analyze Arabidopsis thaliana genes, proteins, gene expression, protein-protein interactions, orthologs, and more.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2436"
+        },
+        {
+          "@id": "edam:operation_2422"
+        },
+        {
+          "@id": "edam:operation_0337"
+        },
+        {
+          "@id": "edam:operation_0224"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "LGPL-2.1",
+      "sc:name": "ThaleMine",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": [
+        {
+          "@id": "http://intermine.readthedocs.org/en/latest/web-services/"
+        },
+        {
+          "@id": "https://flymine.readthedocs.io/en/latest/"
+        }
+      ],
+      "sc:softwareVersion": "4.3.1-20210109",
+      "sc:url": "https://bar.utoronto.ca/thalemine"
+    },
+    {
+      "@id": "_:N80efac05f9544f26820a451f54955556",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2353"
+      },
+      "sc:name": "Ontology data"
+    },
+    {
+      "@id": "_:N8fe1f7210c2e4823a452d528832f506a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1255"
+      },
+      "sc:name": "Sequence features"
+    },
+    {
+      "@id": "_:N118043572d6c426b9253d4a5f18e83a1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3786"
+      },
+      "sc:name": "Query script"
+    },
+    {
+      "@id": "_:Necce20c2baf843f18a520bb2b8b5d7b3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1255"
+      },
+      "sc:name": "Sequence features"
+    },
+    {
+      "@id": "_:Nec4f1efd9f8e4fe5a96350ff79fc1e46",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3753"
+      },
+      "sc:name": "Over-representation data"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bts577",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

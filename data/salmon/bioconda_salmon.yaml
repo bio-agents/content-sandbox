@@ -1,0 +1,13 @@
+bioagents_id: salmon
+home: https://github.com/COMBINE-lab/salmon
+identifiers:
+- bioagents:salmon
+- usegalaxy-eu:salmon
+- usegalaxy-eu:alevin
+- doi:10.1038/nmeth.4197
+license: GPLv3
+license_file: LICENSE
+name: salmon
+summary: Highly-accurate & wicked fast transcript-level quantification from RNA-seq
+  reads using selective alignment
+version: 1.4.0

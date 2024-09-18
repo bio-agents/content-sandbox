@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1186/S13059-020-02154-5",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/getorganelle",
+      "@type": "sc:SoftwareApplication",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Library"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0780"
+        },
+        {
+          "@id": "edam:topic_3673"
+        },
+        {
+          "@id": "edam:topic_0621"
+        },
+        {
+          "@id": "edam:topic_2229"
+        },
+        {
+          "@id": "edam:topic_0196"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1186/S13059-020-02154-5"
+        },
+        "pubmed:32912315",
+        "pmcid:PMC7488116"
+      ],
+      "sc:description": "A fast and versatile agentkit for accurate de novo assembly of organelle genomes.\n\nThis agentkit assemblies organelle genome from genomic skimming data.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3192"
+        },
+        {
+          "@id": "edam:operation_0525"
+        },
+        {
+          "@id": "edam:operation_2429"
+        },
+        {
+          "@id": "edam:operation_0523"
+        },
+        {
+          "@id": "edam:operation_0524"
+        }
+      ],
+      "sc:license": "GPL-3.0",
+      "sc:name": "GetOrganelle",
+      "sc:url": "https://github.com/Kinggerm/GetOrganelle"
+    }
+  ]
+}

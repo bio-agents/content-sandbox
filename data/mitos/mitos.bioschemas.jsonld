@@ -1,0 +1,88 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1016/j.ympev.2012.08.023",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/mitos",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:Nf2a9a42efca24f78896c0592204ca9f4"
+      },
+      "bsc:output": {
+        "@id": "_:N73b4fd0500ee4eecafdaf4773e9da289"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Web application",
+        "Workflow"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3673"
+        },
+        {
+          "@id": "edam:topic_3500"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:22982435",
+        {
+          "@id": "https://doi.org/10.1016/j.ympev.2012.08.023"
+        }
+      ],
+      "sc:description": "De novo metazoan mitochondrial genome annotation.",
+      "sc:featureList": {
+        "@id": "edam:operation_0362"
+      },
+      "sc:name": "MITOS",
+      "sc:softwareHelp": {
+        "@id": "http://mitos.bioinf.uni-leipzig.de/help.py#example"
+      },
+      "sc:url": "http://mitos.bioinf.uni-leipzig.de/index.py"
+    },
+    {
+      "@id": "_:Nf2a9a42efca24f78896c0592204ca9f4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1234"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence set (nucleic acid)"
+    },
+    {
+      "@id": "_:N73b4fd0500ee4eecafdaf4773e9da289",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2084"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2305"
+        },
+        {
+          "@id": "edam:format_1929"
+        },
+        {
+          "@id": "edam:format_3003"
+        }
+      ],
+      "sc:name": "Nucleic acid report"
+    }
+  ]
+}

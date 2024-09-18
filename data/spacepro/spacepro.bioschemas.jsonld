@@ -1,0 +1,117 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1021/acs.jproteome.0c00928",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/spacepro",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:Ne09e278bc3404dae812dc67e63836f3c"
+      },
+      "bsc:output": {
+        "@id": "_:Na2f0fcd59ef146dfbce565af2f78bf7f"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_3520"
+        },
+        {
+          "@id": "edam:topic_3510"
+        },
+        {
+          "@id": "edam:topic_0121"
+        },
+        {
+          "@id": "edam:topic_0154"
+        }
+      ],
+      "sc:citation": [
+        "pmcid:PMC8026743",
+        {
+          "@id": "https://doi.org/10.1021/acs.jproteome.0c00928"
+        },
+        "pubmed:33529024"
+      ],
+      "sc:description": "Evaluate protein cleavage efficiency from MS/MS results.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3767"
+        },
+        {
+          "@id": "edam:operation_0418"
+        },
+        {
+          "@id": "edam:operation_3704"
+        },
+        {
+          "@id": "edam:operation_3631"
+        },
+        {
+          "@id": "edam:operation_0366"
+        },
+        {
+          "@id": "edam:operation_0422"
+        },
+        {
+          "@id": "edam:operation_3214"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Apache-2.0",
+      "sc:name": "SPACEPro",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:softwareVersion": "1.0.0",
+      "sc:url": "http://tppms.org/"
+    },
+    {
+      "@id": "_:Na2f0fcd59ef146dfbce565af2f78bf7f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3464"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:Ne09e278bc3404dae812dc67e63836f3c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0857"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3655"
+      },
+      "sc:name": "Sequence search results"
+    }
+  ]
+}

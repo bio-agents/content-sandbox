@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1038/nmeth.3252",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/svm2crm",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Guidantonio Malagoli Tagliazucchi",
+      "bsc:input": {
+        "@id": "_:N3f31a13af1324a5097669e964092c2c6"
+      },
+      "bsc:output": {
+        "@id": "_:Nb9b15372654d476fbf7a1f80d6d1dae0"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Library",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3169"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1038/nmeth.3252"
+      },
+      "sc:description": "Detection of cis-regulatory elements using svm implemented in LiblineaR.",
+      "sc:featureList": {
+        "@id": "edam:operation_0438"
+      },
+      "sc:license": "GPL-3.0",
+      "sc:name": "SVM2CRM",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/SVM2CRM.html"
+      },
+      "sc:softwareVersion": "1.6.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/SVM2CRM.html"
+    },
+    {
+      "@id": "_:N3f31a13af1324a5097669e964092c2c6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3112"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3003"
+      },
+      "sc:name": "Gene expression matrix"
+    },
+    {
+      "@id": "_:Nb9b15372654d476fbf7a1f80d6d1dae0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1270"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3003"
+      },
+      "sc:name": "Feature table"
+    }
+  ]
+}

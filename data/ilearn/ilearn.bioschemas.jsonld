@@ -1,0 +1,79 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/BIB/BBZ041",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/iLearn",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": [
+        "Jiangning Song",
+        "Zhen Chen"
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Web application"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3474"
+        },
+        {
+          "@id": "edam:topic_0082"
+        },
+        {
+          "@id": "edam:topic_0091"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/BIB/BBZ041"
+        },
+        "pubmed:31067315"
+      ],
+      "sc:description": "Integrated platform and meta-learner for feature engineering, machine-learning analysis and modeling of DNA, RNA and protein sequence data.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0279"
+        },
+        {
+          "@id": "edam:operation_3891"
+        },
+        {
+          "@id": "edam:operation_0303"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Unlicense",
+      "sc:name": "iLearn",
+      "sc:operatingSystem": [
+        "Mac",
+        "Windows",
+        "Linux"
+      ],
+      "sc:softwareHelp": [
+        {
+          "@id": "http://ilearn.erc.monash.edu/"
+        },
+        {
+          "@id": "https://github.com/Superzchen/iLearn/blob/master/iLearnManual.pdf"
+        }
+      ],
+      "sc:url": "http://ilearn.erc.monash.edu/"
+    }
+  ]
+}

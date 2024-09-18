@@ -1,0 +1,21 @@
+{
+    "additionDate": "2021-01-15T15:21:28Z",
+    "bioagentsCURIE": "bioagents:covagents",
+    "bioagentsID": "covagents",
+    "description": "Coverage analysis from BAM files supporting target regions in BED or GFF formats",
+    "download": [
+        {
+            "type": "Source code",
+            "url": "https://www.github.io/telatin/covagents",
+            "version": "2.0"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "homepage": "https://telatin.github.io/covagents",
+    "lastUpdate": "2021-01-19T10:32:12Z",
+    "name": "covagents",
+    "owner": "telatin",
+    "validated": 1
+}

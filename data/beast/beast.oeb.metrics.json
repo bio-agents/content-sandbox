@@ -1,0 +1,1531 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/beast",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-11-19T02:08:57.855302Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 203,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-11-19T02:08:57.772211Z",
+                "last_month_access": {
+                    "average_access_time": 221,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://beast.community"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:beast:1.8.4/cmd/beast.bio.ed.ac.uk",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T02:11:59.284904Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 169,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-11-19T02:11:59.194698Z",
+                "last_month_access": {
+                    "average_access_time": 180,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://beast.community"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT5150312S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:beast:1.8.2/cmd/beast.bio.ed.ac.uk",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T02:07:50.693033Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 453,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            160,
+                            22
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 301
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-11-19T02:07:50.576441Z",
+                "last_month_access": {
+                    "average_access_time": 1166,
+                    "downtime_days": 1,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://beast.community"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT5150312S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:beast:1.10.0/cmd/beast.bio.ed.ac.uk",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T02:22:20.248211Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 5299,
+                            "citations": [
+                                {
+                                    "count": 36,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 286,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 566,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 720,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 749,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 798,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 706,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 529,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 402,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 322,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 185,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1093/molbev/mss075",
+                            "pmcid": "PMC3408070",
+                            "pmid": "22367748",
+                            "ref_count": 24,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1982"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2012"
+                                }
+                            ],
+                            "title": "Bayesian phylogenetics with BEAUti and the BEAST 1.7.",
+                            "year": 2012
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 81,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-11-19T02:22:20.171083Z",
+                "last_month_access": {
+                    "average_access_time": 89,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://beast.community"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT5150312S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:beast:1.10.4/cmd/beast.bio.ed.ac.uk",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T02:22:19.114203Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 5299,
+                            "citations": [
+                                {
+                                    "count": 36,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 286,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 566,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 720,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 749,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 798,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 706,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 529,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 402,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 322,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 185,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1093/molbev/mss075",
+                            "pmcid": "PMC3408070",
+                            "pmid": "22367748",
+                            "ref_count": 24,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1982"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2012"
+                                }
+                            ],
+                            "title": "Bayesian phylogenetics with BEAUti and the BEAST 1.7.",
+                            "year": 2012
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 319,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-11-19T02:22:18.627151Z",
+                "last_month_access": {
+                    "average_access_time": 372,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://beast.community"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT5150312S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:beast:1.10.1/cmd/beast.bio.ed.ac.uk",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T02:11:21.912633Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 5299,
+                            "citations": [
+                                {
+                                    "count": 36,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 286,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 566,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 720,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 749,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 798,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 706,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 529,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 402,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 322,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 185,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1093/molbev/mss075",
+                            "pmcid": "PMC3408070",
+                            "pmid": "22367748",
+                            "ref_count": 24,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1982"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2012"
+                                }
+                            ],
+                            "title": "Bayesian phylogenetics with BEAUti and the BEAST 1.7.",
+                            "year": 2012
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 165,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            176,
+                            6
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 301
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-11-19T02:11:21.621624Z",
+                "last_month_access": {
+                    "average_access_time": 281,
+                    "downtime_days": 1,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://beast.community"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT5150312S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:beast:1.10.3/cmd/beast.bio.ed.ac.uk",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T02:14:14.830703Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 5299,
+                            "citations": [
+                                {
+                                    "count": 36,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 286,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 566,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 720,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 749,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 798,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 706,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 529,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 402,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 322,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 185,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1093/molbev/mss075",
+                            "pmcid": "PMC3408070",
+                            "pmid": "22367748",
+                            "ref_count": 24,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1982"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2012"
+                                }
+                            ],
+                            "title": "Bayesian phylogenetics with BEAUti and the BEAST 1.7.",
+                            "year": 2012
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 170,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            154,
+                            28
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 301
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-11-19T02:14:14.738475Z",
+                "last_month_access": {
+                    "average_access_time": 179,
+                    "downtime_days": 1,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://beast.community"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT5150312S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:beast:1.10.2/cmd/beast.bio.ed.ac.uk",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T02:14:05.490984Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 5299,
+                            "citations": [
+                                {
+                                    "count": 36,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 286,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 566,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 720,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 749,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 798,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 706,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 529,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 402,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 322,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 185,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1093/molbev/mss075",
+                            "pmcid": "PMC3408070",
+                            "pmid": "22367748",
+                            "ref_count": 24,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1982"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2012"
+                                }
+                            ],
+                            "title": "Bayesian phylogenetics with BEAUti and the BEAST 1.7.",
+                            "year": 2012
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 272,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            144,
+                            38
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 301
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-11-19T02:14:05.371609Z",
+                "last_month_access": {
+                    "average_access_time": 516,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://beast.community"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT5150312S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:beast/cmd/beast.bio.ed.ac.uk",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-11-19T02:15:39.785619Z",
+        "@type": "metrics",
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 5299,
+                            "citations": [
+                                {
+                                    "count": 36,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 286,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 566,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 720,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 749,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 798,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 706,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 529,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 402,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 322,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 185,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1093/molbev/mss075",
+                            "pmcid": "PMC3408070",
+                            "pmid": "22367748",
+                            "ref_count": 24,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1982"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2012"
+                                }
+                            ],
+                            "title": "Bayesian phylogenetics with BEAUti and the BEAST 1.7.",
+                            "year": 2012
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 890,
+                            "citations": [
+                                {
+                                    "count": 10,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 113,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 236,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 284,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 247,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1093/ve/vey016",
+                            "pmcid": "PMC6007674",
+                            "pmid": "29942656",
+                            "ref_count": 35,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2018"
+                                }
+                            ],
+                            "title": "Bayesian phylogenetic and phylodynamic data integration using BEAST 1.10.",
+                            "year": 2018
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 7261,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 107,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 281,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 526,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 703,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 926,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 823,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 773,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 721,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 600,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 490,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 422,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 323,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 221,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 262,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 81,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1186/1471-2148-7-214",
+                            "pmcid": "PMC2247476",
+                            "pmid": "17996036",
+                            "ref_count": 43,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1953"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1965"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1969"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1970"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1971"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1982"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1984"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1985"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1986"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1991"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "1994"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1997"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2006"
+                                }
+                            ],
+                            "title": "BEAST: Bayesian evolutionary analysis by sampling trees.",
+                            "year": 2007
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 167,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            137,
+                            45
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 301
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-11-19T02:15:39.684851Z",
+                "last_month_access": {
+                    "average_access_time": 190,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://beast.community"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": false
+        }
+    }
+]

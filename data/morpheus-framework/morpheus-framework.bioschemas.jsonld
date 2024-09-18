@@ -1,0 +1,249 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://orcid.org/0000-0003-0137-5106",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btt772",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-9005-6897",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-4641-8472",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://bio.agents/morpheus-framework",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": {
+        "@id": "https://orcid.org/0000-0003-0137-5106"
+      },
+      "bsc:input": [
+        {
+          "@id": "_:N16b990addc6349aca61265ed72d1f7a4"
+        },
+        {
+          "@id": "_:Nac281da86ebd46909dc3a6710de93060"
+        },
+        {
+          "@id": "_:N155c133b508b49868f21b0dad40bd60c"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N7b8f8b369cfe4e63bff9baa4fbd2615f"
+        },
+        {
+          "@id": "_:N3c62549df7f2454c83fde9f39dcf2d42"
+        },
+        {
+          "@id": "_:N3176c4905d8b4cda827224a8443f934b"
+        },
+        {
+          "@id": "_:N40891db4b13c438380e5e031f0015af4"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Desktop application"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3064"
+        },
+        {
+          "@id": "edam:topic_3376"
+        },
+        {
+          "@id": "edam:topic_2229"
+        },
+        {
+          "@id": "edam:topic_3306"
+        },
+        {
+          "@id": "edam:topic_2259"
+        },
+        {
+          "@id": "edam:topic_3569"
+        },
+        {
+          "@id": "edam:topic_2840"
+        },
+        {
+          "@id": "edam:topic_3895"
+        }
+      ],
+      "sc:author": [
+        {
+          "@id": "https://orcid.org/0000-0003-3649-2433"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-4641-8472"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:24443380",
+        "pmcid:PMC3998129",
+        {
+          "@id": "https://doi.org/10.1093/bioinformatics/btt772"
+        }
+      ],
+      "sc:contributor": {
+        "@id": "https://orcid.org/0000-0002-9005-6897"
+      },
+      "sc:description": "Morpheus is an open-source modeling and simulation framework for multi-scale and multicellular biological systems. The GUI allows to construct and simulate models from gene regulation, metabolism and signaling to tissue morphogenesis and their multi-scale feedbacks without the need to program. Morpheus is based on declarative modeling in biological terms and mathematical expressions and internally uses the domain-specific language MorpheusML, allowing for rapid model prototyping without extra code-compilation. Morpheus supports cell-based model formalisms, ODEs, PDEs, rule-based models, SBML models etc. (all freely coupled) as well as image-based modeling. It renders results in customizable 2D and 3D images or movies and offers analysis agents to extract features right during simulation. The plugin architecture makes it extensible. Binary installers are available for all major OS from the Morpheus homepage together with online courses, a public model repository and many more resources.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2426"
+        },
+        {
+          "@id": "edam:operation_3927"
+        },
+        {
+          "@id": "edam:operation_3926"
+        }
+      ],
+      "sc:funder": "Deutsche Forschungsgemeinschaft (DFG)",
+      "sc:isAccessibleForFree": true,
+      "sc:license": "BSD-3-Clause",
+      "sc:name": "Morpheus",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": [
+        {
+          "@id": "https://morpheus.gitlab.io/courses/"
+        },
+        {
+          "@id": "https://morpheus.gitlab.io/faq/"
+        },
+        {
+          "@id": "https://gitlab.com/morpheus.lab/morpheus/-/wikis/dev-guide"
+        },
+        {
+          "@id": "https://morpheus.gitlab.io/courses/getting-started/Have-a-look-around/"
+        },
+        {
+          "@id": "https://gitlab.com/morpheus.lab/morpheus"
+        }
+      ],
+      "sc:softwareVersion": "2.2",
+      "sc:url": "https://morpheus.gitlab.io"
+    },
+    {
+      "@id": "_:N16b990addc6349aca61265ed72d1f7a4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2600"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2585"
+      },
+      "sc:name": "Pathway or network"
+    },
+    {
+      "@id": "_:Nac281da86ebd46909dc3a6710de93060",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2600"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2585"
+      },
+      "sc:name": "Pathway or network"
+    },
+    {
+      "@id": "_:N155c133b508b49868f21b0dad40bd60c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2600"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2585"
+      },
+      "sc:name": "Pathway or network"
+    },
+    {
+      "@id": "_:N7b8f8b369cfe4e63bff9baa4fbd2615f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3870"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3877"
+        },
+        {
+          "@id": "edam:format_3997"
+        }
+      ],
+      "sc:name": "Trajectory data"
+    },
+    {
+      "@id": "_:N3c62549df7f2454c83fde9f39dcf2d42",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3870"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3603"
+        },
+        {
+          "@id": "edam:format_3752"
+        }
+      ],
+      "sc:name": "Trajectory data"
+    },
+    {
+      "@id": "_:N3176c4905d8b4cda827224a8443f934b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3449"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3604"
+        },
+        {
+          "@id": "edam:format_3603"
+        }
+      ],
+      "sc:name": "Cell migration track image"
+    },
+    {
+      "@id": "_:N40891db4b13c438380e5e031f0015af4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2600"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3604"
+      },
+      "sc:name": "Pathway or network"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-3649-2433",
+      "@type": "schema:Person"
+    }
+  ]
+}

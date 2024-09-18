@@ -1,0 +1,58 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1002/pmic.201400356",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/jsparklines",
+      "@type": "sc:SoftwareApplication",
+      "bsc:output": {
+        "@id": "_:Nddd25d7b7f814d42bf60c805c5dff79e"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0092"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1002/pmic.201400356"
+      },
+      "sc:description": "Makes it straightforward to visualize numbers in Java tables by the use of sparklines.",
+      "sc:featureList": {
+        "@id": "edam:operation_0337"
+      },
+      "sc:name": "JSparklines",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac"
+      ],
+      "sc:provider": "ugent.be",
+      "sc:softwareHelp": {
+        "@id": "http://compomics.github.io/projects/jsparklines/wiki/tutorial.html"
+      },
+      "sc:softwareVersion": "1.0.6",
+      "sc:url": "http://compomics.github.io/projects/jsparklines.html"
+    },
+    {
+      "@id": "_:Nddd25d7b7f814d42bf60c805c5dff79e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1636"
+      },
+      "sc:name": "Heat map"
+    }
+  ]
+}

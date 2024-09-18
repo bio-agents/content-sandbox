@@ -1,0 +1,28 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.agents/rbcbook1",
+  "@type": "sc:SoftwareApplication",
+  "bioagents:primaryContact": "Vince Carey",
+  "sc:additionalType": [
+    "Library",
+    "Command-line agent"
+  ],
+  "sc:description": "Support for Springer monograph on Bioconductor.",
+  "sc:license": "Artistic-2.0",
+  "sc:name": "RbcBook1",
+  "sc:operatingSystem": [
+    "Linux",
+    "Mac",
+    "Windows"
+  ],
+  "sc:url": "http://bioconductor.org/packages/release/bioc/html/RbcBook1.html",
+  "sc:version": "1.42.0"
+}

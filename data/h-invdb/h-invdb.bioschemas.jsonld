@@ -1,0 +1,223 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/h-invdb",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:N305350d232f44f5ba6f4a75ec94fa1e0"
+        },
+        {
+          "@id": "_:Nfdf0b650dc904803b33fd74fa654f2ad"
+        },
+        {
+          "@id": "_:N7941ea1b3c3b44a2a165610aebf0f7d3"
+        },
+        {
+          "@id": "_:N6209a383e9744d8690c04e8b583dfe32"
+        },
+        {
+          "@id": "_:Nc7609e4657b84126b4f93a1a74d5f352"
+        },
+        {
+          "@id": "_:N5afb538156054527a13e0fe2bd6d790a"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N239c8602168745bdaeece9ca77280b01"
+        },
+        {
+          "@id": "_:N7a75f888b2084b1d8ae4854fd7933d0b"
+        },
+        {
+          "@id": "_:N59bf07a33e94420b82c7cdc5b835fd84"
+        },
+        {
+          "@id": "_:Nec927053aacc4c168548e304fcb00ddb"
+        },
+        {
+          "@id": "_:Ne2b074e686f241db84309508cbc53282"
+        },
+        {
+          "@id": "_:N4f4a8733e51d466195db635095985db5"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0659"
+        },
+        {
+          "@id": "edam:topic_0140"
+        },
+        {
+          "@id": "edam:topic_0199"
+        },
+        {
+          "@id": "edam:topic_3308"
+        },
+        {
+          "@id": "edam:topic_0634"
+        },
+        {
+          "@id": "edam:topic_0623"
+        },
+        {
+          "@id": "edam:topic_2815"
+        },
+        {
+          "@id": "edam:topic_0602"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gkp1020"
+      },
+      "sc:description": "This agent provides curated annotations of human genes and transcripts that include gene structures, alternative splicing isoforms, non-coding functional RNAs, protein functions, functional domains, sub-cellular localizations, metabolic pathways, protein 3D structure, genetic polymorphisms (SNPs, indels and microsatellite repeats), relation with diseases, gene expression profiling, and molecular evolutionary features, protein-protein interactions and gene families/groups.",
+      "sc:featureList": {
+        "@id": "edam:operation_0224"
+      },
+      "sc:name": "H-InvDB",
+      "sc:operatingSystem": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://h-invitational.jp/hinv/help/help_viewer.html"
+      },
+      "sc:url": "http://www.h-invitational.jp/"
+    },
+    {
+      "@id": "_:N305350d232f44f5ba6f4a75ec94fa1e0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2771"
+      },
+      "sc:name": "HIX ID"
+    },
+    {
+      "@id": "_:Nfdf0b650dc904803b33fd74fa654f2ad",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2770"
+      },
+      "sc:name": "HIT ID"
+    },
+    {
+      "@id": "_:N7941ea1b3c3b44a2a165610aebf0f7d3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2770"
+      },
+      "sc:name": "HIT ID"
+    },
+    {
+      "@id": "_:N6209a383e9744d8690c04e8b583dfe32",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2770"
+      },
+      "sc:name": "HIT ID"
+    },
+    {
+      "@id": "_:Nc7609e4657b84126b4f93a1a74d5f352",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2771"
+      },
+      "sc:name": "HIX ID"
+    },
+    {
+      "@id": "_:N5afb538156054527a13e0fe2bd6d790a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2771"
+      },
+      "sc:name": "HIX ID"
+    },
+    {
+      "@id": "_:N239c8602168745bdaeece9ca77280b01",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3134"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Gene transcript report"
+    },
+    {
+      "@id": "_:N7a75f888b2084b1d8ae4854fd7933d0b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3134"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Gene transcript report"
+    },
+    {
+      "@id": "_:N59bf07a33e94420b82c7cdc5b835fd84",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0916"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2332"
+      },
+      "sc:name": "Gene report"
+    },
+    {
+      "@id": "_:Nec927053aacc4c168548e304fcb00ddb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0916"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Gene report"
+    },
+    {
+      "@id": "_:Ne2b074e686f241db84309508cbc53282",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3134"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2332"
+      },
+      "sc:name": "Gene transcript report"
+    },
+    {
+      "@id": "_:N4f4a8733e51d466195db635095985db5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0916"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Gene report"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkp1020",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

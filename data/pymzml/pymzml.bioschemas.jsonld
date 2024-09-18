@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/pymzml",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N754db17cdc004bbf9db8abf958992c9e"
+      },
+      "bsc:output": {
+        "@id": "_:N59433461d9b244ffb4081f75309a954f"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3520"
+      },
+      "sc:citation": [
+        "pubmed:29394323",
+        "pubmed:22302572"
+      ],
+      "sc:description": "Python module to parse mzML data based on cElementTree.",
+      "sc:featureList": {
+        "@id": "edam:operation_3214"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "MIT",
+      "sc:name": "pymzML",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://pymzml.readthedocs.io/en/latest/"
+      },
+      "sc:softwareVersion": "2.4.1",
+      "sc:url": "http://pymzml.github.com"
+    },
+    {
+      "@id": "_:N59433461d9b244ffb4081f75309a954f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3244"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N754db17cdc004bbf9db8abf958992c9e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3244"
+      },
+      "sc:name": "Data"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.agents/tigr_gene_indices",
+  "@type": "sc:SoftwareApplication",
+  "bioagents:primaryContact": "johnq@tigr.org",
+  "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_3512"
+    },
+    {
+      "@id": "edam:topic_0203"
+    },
+    {
+      "@id": "edam:topic_0102"
+    },
+    {
+      "@id": "edam:topic_0196"
+    },
+    {
+      "@id": "edam:topic_0621"
+    }
+  ],
+  "sc:citation": [
+    "pubmed:11125077",
+    "pubmed:10592205"
+  ],
+  "sc:description": "An analysis of a set of unique, highly accurate virtual transcripts that are represented in the worlds public EST data; can perform a BLAST search against the TIGR unique Gene Indices.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_0308"
+    },
+    {
+      "@id": "edam:operation_0527"
+    },
+    {
+      "@id": "edam:operation_2495"
+    },
+    {
+      "@id": "edam:operation_0526"
+    },
+    {
+      "@id": "edam:operation_3672"
+    }
+  ],
+  "sc:name": "TIGR Gene Indices",
+  "sc:operatingSystem": [
+    "Mac",
+    "Windows",
+    "Linux"
+  ],
+  "sc:softwareHelp": {
+    "@id": "http://compbio.dfci.harvard.edu/tgi/"
+  },
+  "sc:url": "http://compbio.dfci.harvard.edu/tgi/"
+}

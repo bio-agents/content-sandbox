@@ -1,0 +1,115 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gkac240",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/interproscan_4",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Job Dispatcher",
+      "bsc:input": {
+        "@id": "_:Nf6dfb34b1828453991c6678e148578ab"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:Ne2a094c2904543efb55c2b10d973046a"
+        },
+        {
+          "@id": "_:N7b374a4eec3244aebfb80cf3096f7a1e"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Web service",
+        "Web application"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_0623"
+        }
+      ],
+      "sc:author": "InterPro team",
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/bioinformatics/btu031"
+        },
+        {
+          "@id": "https://doi.org/10.1093/nar/gkac240"
+        }
+      ],
+      "sc:description": "Scan sequences against the InterPro protein signature databases.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3092"
+        },
+        {
+          "@id": "edam:operation_0239"
+        }
+      ],
+      "sc:name": "InterProScan (EBI)",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:provider": "EMBL-EBI",
+      "sc:softwareHelp": [
+        {
+          "@id": "http://www.ebi.ac.uk/Agents/pfa/iprscan/"
+        },
+        {
+          "@id": "https://www.ebi.ac.uk/interpro/search/sequence/"
+        },
+        {
+          "@id": "http://www.ebi.ac.uk/about/terms-of-use"
+        }
+      ],
+      "sc:softwareVersion": "1",
+      "sc:url": "http://www.ebi.ac.uk/Agents/pfa/iprscan/"
+    },
+    {
+      "@id": "_:Ne2a094c2904543efb55c2b10d973046a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1277"
+      },
+      "sc:name": "Protein features"
+    },
+    {
+      "@id": "_:N7b374a4eec3244aebfb80cf3096f7a1e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0858"
+      },
+      "sc:name": "Sequence signature matches"
+    },
+    {
+      "@id": "_:Nf6dfb34b1828453991c6678e148578ab",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2976"
+      },
+      "sc:name": "Protein sequence"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btu031",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

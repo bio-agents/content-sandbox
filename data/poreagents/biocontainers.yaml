@@ -1,0 +1,98 @@
+softwares:
+  poreagents:
+    labels:
+      about.copyright: Aaron Quinlan <arq5x@virginia.edu>
+      about.home: http://poreagents.readthedocs.org
+      about.license: GPL-1+
+      about.license_file: /usr/share/doc/poreagents/copyright
+      about.summary: agentkit for nanopore nucleotide sequencing data
+      about.tags: ''
+      container: poreagents
+      extra.binaries: /usr/bin/poreagents
+      extra.identifiers.bioagents: poreagents
+      software: poreagents
+      software.version: 0.6.0dfsg-2-deb
+      version: '1'
+    software: poreagents
+    versions:
+    - labels:
+        about.copyright: Aaron Quinlan <arq5x@virginia.edu>
+        about.home: http://poreagents.readthedocs.org
+        about.license: GPL-1+
+        about.license_file: /usr/share/doc/poreagents/copyright
+        about.summary: agentkit for nanopore nucleotide sequencing data
+        about.tags: ''
+        container: poreagents
+        extra.binaries: /usr/bin/poreagents
+        extra.identifiers.bioagents: poreagents
+        software: poreagents
+        software.version: 0.6.0dfsg-2-deb
+        version: '1'
+      type: Container file
+      url: biocontainers/poreagents:0.6.0dfsg-2-deb-1
+      version: 0.6.0dfsg-2-deb-1
+    - labels:
+        about.copyright: Aaron Quinlan <arq5x@virginia.edu>
+        about.home: http://poreagents.readthedocs.org
+        about.license: GPL-1+
+        about.license_file: /usr/share/doc/poreagents/copyright
+        about.summary: agentkit for nanopore nucleotide sequencing data
+        about.tags: ''
+        base_image: biocontainers/biocontainers:vdebian-buster-backports_cv1
+        container: poreagents
+        extra.binaries: /usr/bin/poreagents
+        extra.identifiers.bioagents: poreagents
+        software: poreagents
+        software.version: 0.6.0dfsg-3-deb
+        upstream.version: 0.6.0
+        version: '1'
+      type: Container file
+      url: biocontainers/poreagents:0.6.0dfsg-3-deb-1
+      version: 0.6.0dfsg-3-deb-1
+  poreagents-data:
+    labels:
+      about.copyright: Aaron Quinlan <arq5x@virginia.edu>
+      about.home: http://poreagents.readthedocs.org
+      about.license: GPL-1+
+      about.license_file: /usr/share/doc/poreagents-data/copyright
+      about.summary: agentkit for nanopore nucleotide sequencing data -- sample datasets
+      about.tags: ''
+      container: poreagents-data
+      extra.identifiers.bioagents: poreagents
+      software: poreagents-data
+      software.version: 0.6.0dfsg-2-deb
+      version: '1'
+    software: poreagents-data
+    versions:
+    - labels:
+        about.copyright: Aaron Quinlan <arq5x@virginia.edu>
+        about.home: http://poreagents.readthedocs.org
+        about.license: GPL-1+
+        about.license_file: /usr/share/doc/poreagents-data/copyright
+        about.summary: agentkit for nanopore nucleotide sequencing data -- sample datasets
+        about.tags: ''
+        container: poreagents-data
+        extra.identifiers.bioagents: poreagents
+        software: poreagents-data
+        software.version: 0.6.0dfsg-2-deb
+        version: '1'
+      type: Container file
+      url: biocontainers/poreagents-data:0.6.0dfsg-2-deb-1
+      version: 0.6.0dfsg-2-deb-1
+    - labels:
+        about.copyright: Aaron Quinlan <arq5x@virginia.edu>
+        about.home: http://poreagents.readthedocs.org
+        about.license: GPL-1+
+        about.license_file: /usr/share/doc/poreagents-data/copyright
+        about.summary: agentkit for nanopore nucleotide sequencing data -- sample datasets
+        about.tags: ''
+        base_image: biocontainers/biocontainers:vdebian-buster-backports_cv1
+        container: poreagents-data
+        extra.identifiers.bioagents: poreagents
+        software: poreagents-data
+        software.version: 0.6.0dfsg-3-deb
+        upstream.version: 0.6.0
+        version: '1'
+      type: Container file
+      url: biocontainers/poreagents-data:0.6.0dfsg-3-deb-1
+      version: 0.6.0dfsg-3-deb-1

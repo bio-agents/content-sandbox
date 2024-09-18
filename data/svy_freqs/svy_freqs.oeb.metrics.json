@@ -1,0 +1,176 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/svy_freqs",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-10-01T09:30:41.401386Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 479,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-10-01T07:51:56.511586Z",
+                "last_month_access": {
+                    "average_access_time": 570,
+                    "downtime_days": 0,
+                    "uptime_days": 21
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "http://biorxiv.org/lookup/doi/10.1101/771303"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://www.biorxiv.org/lookup/doi/10.1101/771303"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.biorxiv.org/content/10.1101/771303v1"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:svy_freqs/undefined/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-10-01T09:35:44.031157Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": true,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1101/771303",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "<i>%svy_freqs:</i> A generic SAS macro for cross-tabulation between a factor and a by-group variable given a third variable and creating publication-quality tables using data from complex surveys",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 479,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-10-01T07:51:56.511586Z",
+                "last_month_access": {
+                    "average_access_time": 570,
+                    "downtime_days": 0,
+                    "uptime_days": 21
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "http://biorxiv.org/lookup/doi/10.1101/771303"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://www.biorxiv.org/lookup/doi/10.1101/771303"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.biorxiv.org/content/10.1101/771303v1"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    }
+]

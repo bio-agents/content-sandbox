@@ -1,0 +1,158 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/seaview",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Manolo Gouy",
+      "bsc:input": [
+        {
+          "@id": "_:N2c9c1f34b75046c6906d7d38067f4876"
+        },
+        {
+          "@id": "_:Nfcbc8aeec5a343cca5abf042f3070e5a"
+        },
+        {
+          "@id": "_:Nb153c21961384b69b4684a0c40ceea56"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Nd74c67abe003457c86635e23de251b99"
+        },
+        {
+          "@id": "_:Na5eef996069c46158aad5e6a054d3d1a"
+        },
+        {
+          "@id": "_:N82b71855d064433390656e2d38e615ee"
+        },
+        {
+          "@id": "_:N65afee8cbd544bcaa9ae6f4b23503856"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Desktop application",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0084"
+        },
+        {
+          "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_0092"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/molbev/msp259"
+      },
+      "sc:description": "Multiplatform graphical user interface designed to facilitate alignment and phylogenic tree building from molecular sequences.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0540"
+        },
+        {
+          "@id": "edam:operation_0326"
+        },
+        {
+          "@id": "edam:operation_0564"
+        },
+        {
+          "@id": "edam:operation_0567"
+        },
+        {
+          "@id": "edam:operation_0492"
+        },
+        {
+          "@id": "edam:operation_3081"
+        }
+      ],
+      "sc:name": "SeaView",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:provider": "IFB IECHOR-FR",
+      "sc:softwareHelp": {
+        "@id": "http://doua.prabi.fr/main/index"
+      },
+      "sc:softwareVersion": "4",
+      "sc:url": "http://doua.prabi.fr/software/seaview"
+    },
+    {
+      "@id": "_:Nd74c67abe003457c86635e23de251b99",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1711"
+      },
+      "sc:name": "Sequence alignment image"
+    },
+    {
+      "@id": "_:Na5eef996069c46158aad5e6a054d3d1a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:N82b71855d064433390656e2d38e615ee",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0872"
+      },
+      "sc:name": "Phylogenetic tree"
+    },
+    {
+      "@id": "_:N65afee8cbd544bcaa9ae6f4b23503856",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1707"
+      },
+      "sc:name": "Phylogenetic tree image"
+    },
+    {
+      "@id": "_:N2c9c1f34b75046c6906d7d38067f4876",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0872"
+      },
+      "sc:name": "Phylogenetic tree"
+    },
+    {
+      "@id": "_:Nfcbc8aeec5a343cca5abf042f3070e5a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:Nb153c21961384b69b4684a0c40ceea56",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:name": "Sequence"
+    },
+    {
+      "@id": "https://doi.org/10.1093/molbev/msp259",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

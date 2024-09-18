@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gkv1157",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/assembly_converter",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Andrew Yates",
+      "bsc:input": {
+        "@id": "_:N4341226808d5413ba0ca9f7b7a42f925"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0102"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gkv1157"
+      },
+      "sc:description": "Map your data to the current assembly.",
+      "sc:featureList": {
+        "@id": "edam:operation_2944"
+      },
+      "sc:name": "Assembly converter",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:provider": [
+        "EMBL-EBI",
+        "Sanger Institute"
+      ],
+      "sc:softwareHelp": [
+        {
+          "@id": "http://www.ensembl.org/Homo_sapiens/UserData/SelectFeatures"
+        },
+        {
+          "@id": "http://www.ebi.ac.uk/about/terms-of-use"
+        }
+      ],
+      "sc:softwareVersion": "1",
+      "sc:url": "http://www.ensembl.org/Homo_sapiens/UserData/SelectFeatures"
+    },
+    {
+      "@id": "_:N4341226808d5413ba0ca9f7b7a42f925",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1276"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3007"
+        },
+        {
+          "@id": "edam:format_3003"
+        },
+        {
+          "@id": "edam:format_2305"
+        },
+        {
+          "@id": "edam:format_2306"
+        }
+      ],
+      "sc:name": "Nucleic acid features"
+    }
+  ]
+}

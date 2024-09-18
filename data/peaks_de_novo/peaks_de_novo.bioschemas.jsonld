@@ -1,0 +1,192 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/peaks_de_novo",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:Na13a3a28f4d9425f8728c846994128a6"
+        },
+        {
+          "@id": "_:Ne1fa18074267485e9e638db9cd4c829f"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N21bb54007e5c4e29809c1134dd93727d"
+        },
+        {
+          "@id": "_:N98910c3c1b13446d897ca70e2f334a8b"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Desktop application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3520"
+        },
+        {
+          "@id": "edam:topic_0121"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:16108090",
+        "pubmed:14558135"
+      ],
+      "sc:description": "Integrated ''de novo'' peptide sequencing , PTM finder , and homology search (demo available).",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3694"
+        },
+        {
+          "@id": "edam:operation_3629"
+        },
+        {
+          "@id": "edam:operation_3695"
+        },
+        {
+          "@id": "edam:operation_3644"
+        },
+        {
+          "@id": "edam:operation_3767"
+        },
+        {
+          "@id": "edam:operation_3631"
+        }
+      ],
+      "sc:name": "PEAKS De Novo",
+      "sc:operatingSystem": "Windows",
+      "sc:softwareHelp": {
+        "@id": "http://www.bioinfor.com/de-novo-sequencing/"
+      },
+      "sc:url": "http://www.bioinfor.com/peaks/features/denovo.html"
+    },
+    {
+      "@id": "_:Na13a3a28f4d9425f8728c846994128a6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0943"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3834"
+        },
+        {
+          "@id": "edam:format_3244"
+        },
+        {
+          "@id": "edam:format_3652"
+        },
+        {
+          "@id": "edam:format_3710"
+        },
+        {
+          "@id": "edam:format_3712"
+        },
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3651"
+        },
+        {
+          "@id": "edam:format_3654"
+        },
+        {
+          "@id": "edam:format_3653"
+        }
+      ],
+      "sc:name": "Mass spectrometry spectra"
+    },
+    {
+      "@id": "_:Ne1fa18074267485e9e638db9cd4c829f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0943"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3651"
+        },
+        {
+          "@id": "edam:format_3654"
+        },
+        {
+          "@id": "edam:format_3834"
+        },
+        {
+          "@id": "edam:format_3653"
+        },
+        {
+          "@id": "edam:format_3244"
+        },
+        {
+          "@id": "edam:format_3652"
+        },
+        {
+          "@id": "edam:format_3710"
+        },
+        {
+          "@id": "edam:format_3712"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Mass spectrometry spectra"
+    },
+    {
+      "@id": "_:N21bb54007e5c4e29809c1134dd93727d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0943"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3579"
+        },
+        {
+          "@id": "edam:format_3604"
+        },
+        {
+          "@id": "edam:format_3603"
+        },
+        {
+          "@id": "edam:format_3467"
+        },
+        {
+          "@id": "edam:format_3592"
+        }
+      ],
+      "sc:name": "Mass spectrometry spectra"
+    },
+    {
+      "@id": "_:N98910c3c1b13446d897ca70e2f334a8b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0945"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_2331"
+        }
+      ],
+      "sc:name": "Peptide identification"
+    }
+  ]
+}

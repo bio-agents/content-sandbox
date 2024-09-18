@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/qshgm",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Jianjun Qiao",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Web application",
+        "Database portal"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3339"
+        },
+        {
+          "@id": "edam:topic_2815"
+        },
+        {
+          "@id": "edam:topic_3390"
+        },
+        {
+          "@id": "edam:topic_3071"
+        },
+        {
+          "@id": "edam:topic_3474"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.21203/RS.3.RS-755166/V1"
+      },
+      "sc:description": "QSHGM, a database of QS in Human Gut Microbiota includes 28,567 redundancy removal QS synthases and receptors entries of 818 gut microbes.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0323"
+        },
+        {
+          "@id": "edam:operation_0303"
+        },
+        {
+          "@id": "edam:operation_3891"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Not licensed",
+      "sc:name": "QSHGM",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:url": "http://www.qshgm.lbci.net/"
+    },
+    {
+      "@id": "https://doi.org/10.21203/RS.3.RS-755166/V1",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

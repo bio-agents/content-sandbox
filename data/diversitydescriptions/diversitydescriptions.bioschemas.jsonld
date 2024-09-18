@@ -1,0 +1,223 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/database/baz002",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-1980-3148",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://bio.agents/DiversityDescriptions",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": {
+        "@id": "https://orcid.org/0000-0003-1980-3148"
+      },
+      "bsc:input": [
+        {
+          "@id": "_:Ne0dd82db21b94b8e9a29d6a687f9f8c9"
+        },
+        {
+          "@id": "_:N01283f1fb38945e5af3e476dc9c18259"
+        },
+        {
+          "@id": "_:Ne2152a06a7ce44689c32fb0f763417a9"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Nb01acd9103224f7e97e94c8ca1df3087"
+        },
+        {
+          "@id": "_:N6ed6cd86e6e4474096ef70b3b19497ed"
+        },
+        {
+          "@id": "_:Nf8193f80b4834b99a2f1036a5c73a01e"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Desktop application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3391"
+        },
+        {
+          "@id": "edam:topic_3070"
+        },
+        {
+          "@id": "edam:topic_3071"
+        },
+        {
+          "@id": "edam:topic_3855"
+        },
+        {
+          "@id": "edam:topic_3678"
+        },
+        {
+          "@id": "edam:topic_3050"
+        },
+        {
+          "@id": "edam:topic_0610"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/database/baz002"
+      },
+      "sc:contributor": "Universität Bayreuth, Department of Mycology",
+      "sc:description": "DiversityDescriptions (DWB-DD) is an application of the Diversity Workbench (DWB). It might be installed as part of a DWB environment, but also as a stand-alone application, e. g., in a local installation. DD has a generic database model. It is organising descriptions of organisms, taxa, syntaxa and any item, which is object of diversity research. The descriptions are characterized by a triple structure, namely ’item-descriptor-state’.  The states can be generalized to one of the presently supported data types (categorical states, quantitative values and measures, molecular sequence data and free-form text). The descriptors (=properties) are not limited to morphological characters and functional traits, but could be physiological, ecological, behavioral , survey parameters, molecular descriptors, descriptors of a lab workflow, descriptors of data content schemes. Sample data and measurement data as gained by ecological field sampling are addressed with own functions.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2945"
+        },
+        {
+          "@id": "edam:operation_2429"
+        },
+        {
+          "@id": "edam:operation_2409"
+        },
+        {
+          "@id": "edam:operation_3438"
+        },
+        {
+          "@id": "edam:operation_3434"
+        }
+      ],
+      "sc:funder": "Deutsche Forschungsgemeinschaft (DFG)",
+      "sc:isAccessibleForFree": true,
+      "sc:license": "GPL-2.0",
+      "sc:name": "DiversityDescriptions",
+      "sc:operatingSystem": "Windows",
+      "sc:provider": "SNSB IT Center",
+      "sc:softwareHelp": [
+        {
+          "@id": "https://diversityworkbench.net/Portal/DWB_user_manuals"
+        },
+        {
+          "@id": "https://diversityworkbench.net/Portal/DWB_training_environment"
+        },
+        {
+          "@id": "https://diversityworkbench.net/Portal/DiversityDescriptions_Information_Models"
+        }
+      ],
+      "sc:url": "https://diversityworkbench.net/Portal/DiversityDescriptions"
+    },
+    {
+      "@id": "_:Nb01acd9103224f7e97e94c8ca1df3087",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3736"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2332"
+        },
+        {
+          "@id": "edam:format_2350"
+        }
+      ],
+      "sc:name": "Ecological data"
+    },
+    {
+      "@id": "_:N6ed6cd86e6e4474096ef70b3b19497ed",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3108"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2350"
+        },
+        {
+          "@id": "edam:format_2332"
+        }
+      ],
+      "sc:name": "Experimental measurement"
+    },
+    {
+      "@id": "_:Nf8193f80b4834b99a2f1036a5c73a01e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3707"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2332"
+        },
+        {
+          "@id": "edam:format_2331"
+        },
+        {
+          "@id": "edam:format_2350"
+        }
+      ],
+      "sc:name": "Biodiversity data"
+    },
+    {
+      "@id": "_:Ne0dd82db21b94b8e9a29d6a687f9f8c9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3736"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2332"
+        },
+        {
+          "@id": "edam:format_2350"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Ecological data"
+    },
+    {
+      "@id": "_:N01283f1fb38945e5af3e476dc9c18259",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3108"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2350"
+        },
+        {
+          "@id": "edam:format_2332"
+        }
+      ],
+      "sc:name": "Experimental measurement"
+    },
+    {
+      "@id": "_:Ne2152a06a7ce44689c32fb0f763417a9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3707"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2350"
+        },
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_2332"
+        }
+      ],
+      "sc:name": "Biodiversity data"
+    }
+  ]
+}

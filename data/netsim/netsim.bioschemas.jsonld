@@ -1,0 +1,53 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1111/j.1749-6632.2008.03756.x",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/netsim",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Barbara Di Camillo",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Web application",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0602"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1111/j.1749-6632.2008.03756.x"
+      },
+      "sc:description": "Gene-network simulator. Simulators are helpful to test and compare the accuracy of different reverse-engineering approaches in a variety of experimental conditions.",
+      "sc:featureList": {
+        "@id": "edam:operation_3562"
+      },
+      "sc:license": "GPL-2.0",
+      "sc:name": "Netsim",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:provider": "IECHOR-ITA-PADOVA",
+      "sc:softwareHelp": {
+        "@id": "http://www.medcomp.medicina.unipd.it/bioing/netsim/"
+      },
+      "sc:softwareVersion": "2.0",
+      "sc:url": "http://www.medcomp.medicina.unipd.it/bioing/netsim/"
+    }
+  ]
+}

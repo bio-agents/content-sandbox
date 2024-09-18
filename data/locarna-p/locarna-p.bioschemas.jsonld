@@ -1,0 +1,144 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/locarna-p",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": [
+        "Sebastian Will",
+        {
+          "@id": "http://orcid.org/0000-0001-8231-3323"
+        }
+      ],
+      "bsc:input": {
+        "@id": "_:N51734afc9a744985b14091a0c2df38aa"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:N2659bd4521234ce8990c49ab914c838c"
+        },
+        {
+          "@id": "_:Na3961f6491fe4cf3876b96f03e8c27b2"
+        },
+        {
+          "@id": "_:N47291b0181884cc7b0b879a7240bab8a"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0097"
+        },
+        {
+          "@id": "edam:topic_0080"
+        }
+      ],
+      "sc:author": [
+        "Sebastian Will",
+        {
+          "@id": "http://orcid.org/0000-0001-8231-3323"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:22450757",
+        {
+          "@id": "https://doi.org/10.1261/rna.029041.111"
+        },
+        "pmcid:PMC3334699"
+      ],
+      "sc:description": "Probabilistic structure-based multiple alignment of RNAs.",
+      "sc:featureList": {
+        "@id": "edam:operation_0294"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:name": "LocARNA-P",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac"
+      ],
+      "sc:provider": [
+        "University Freiburg",
+        "rnateam"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://www.bioinf.uni-freiburg.de/Software/LocARNA/"
+      },
+      "sc:softwareVersion": "1.8.9",
+      "sc:url": "http://www.bioinf.uni-freiburg.de/Software/LocARNA/"
+    },
+    {
+      "@id": "_:N2659bd4521234ce8990c49ab914c838c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1916"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1982"
+        },
+        {
+          "@id": "edam:format_3508"
+        }
+      ],
+      "sc:name": "Alignment"
+    },
+    {
+      "@id": "_:Na3961f6491fe4cf3876b96f03e8c27b2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0872"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1910"
+      },
+      "sc:name": "Phylogenetic tree"
+    },
+    {
+      "@id": "_:N47291b0181884cc7b0b879a7240bab8a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1465"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3466"
+      },
+      "sc:name": "RNA structure"
+    },
+    {
+      "@id": "_:N51734afc9a744985b14091a0c2df38aa",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3495"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1929"
+        },
+        {
+          "@id": "edam:format_2200"
+        }
+      ],
+      "sc:name": "RNA sequence"
+    },
+    {
+      "@id": "http://orcid.org/0000-0001-8231-3323",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1261/rna.029041.111",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

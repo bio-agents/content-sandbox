@@ -1,0 +1,64 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bty578",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/PingPongPro",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Sebastian Uhrig",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3512"
+        },
+        {
+          "@id": "edam:topic_0659"
+        },
+        {
+          "@id": "edam:topic_0798"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/bty578"
+      },
+      "sc:description": "Agent for the detection of piRNA-mediated transposon-silencing in small RNA-Seq data.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3227"
+        },
+        {
+          "@id": "edam:operation_2495"
+        },
+        {
+          "@id": "edam:operation_0427"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "GPL-3.0",
+      "sc:name": "PingPongPro",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://github.com/suhrig/pingpongpro/blob/master/README.md"
+      },
+      "sc:url": "https://github.com/suhrig/pingpongpro"
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/radar-base",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-11-19T07:36:21.882826Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 479,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T07:36:21.809084Z",
+                "last_month_access": {
+                    "average_access_time": 672,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=31373275"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://pubmed.ncbi.nlm.nih.gov/31373275/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:radar-base/rest/radar-base.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-11-19T10:08:26.439397Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 44,
+                            "citations": [
+                                {
+                                    "count": 7,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 23,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.2196/11734",
+                            "pmcid": "PMC6694732",
+                            "pmid": "31373275",
+                            "ref_count": 33,
+                            "refs": [
+                                {
+                                    "count": 23,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2018"
+                                }
+                            ],
+                            "title": "RADAR-Base: Open Source Mobile Health Platform for Collecting, Monitoring, and Analyzing Data Using Sensors, Wearables, and Mobile Devices.",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 479,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T07:36:21.809084Z",
+                "last_month_access": {
+                    "average_access_time": 672,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=31373275"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://pubmed.ncbi.nlm.nih.gov/31373275/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

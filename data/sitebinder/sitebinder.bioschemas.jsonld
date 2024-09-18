@@ -1,0 +1,100 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1021/ci200444d",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/sitebinder",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": [
+        "David Sehnal",
+        "Primary Contact",
+        "Lukáš Pravda"
+      ],
+      "bsc:input": {
+        "@id": "_:Nd592dd6be68342bd9406992ab8ff0d39"
+      },
+      "bsc:output": {
+        "@id": "_:N09d167f73dee43c28690d0ef34a6b8f5"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0081"
+      },
+      "sc:author": "David Sehnal",
+      "sc:citation": {
+        "@id": "https://doi.org/10.1021/ci200444d"
+      },
+      "sc:contributor": [
+        "Radka Svobodová Vařeková",
+        "Crina-Maria Ionescu"
+      ],
+      "sc:description": "A web based agent for superimposing and analyzing structural fragments in molecules.",
+      "sc:featureList": {
+        "@id": "edam:operation_2487"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:name": "SiteBinder",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:provider": [
+        "Masaryk University, Brno, Czech Republic",
+        "IECHOR-CZ"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://webchem.ncbr.muni.cz/Wiki"
+      },
+      "sc:softwareVersion": "2.0",
+      "sc:url": "http://webchem.ncbr.muni.cz/Platform/App/SiteBinder"
+    },
+    {
+      "@id": "_:Nd592dd6be68342bd9406992ab8ff0d39",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2878"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1476"
+        },
+        {
+          "@id": "edam:format_1477"
+        }
+      ],
+      "sc:name": "Protein structural motif"
+    },
+    {
+      "@id": "_:N09d167f73dee43c28690d0ef34a6b8f5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1481"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1476"
+        },
+        {
+          "@id": "edam:format_1477"
+        }
+      ],
+      "sc:name": "Structure alignment (protein)"
+    }
+  ]
+}

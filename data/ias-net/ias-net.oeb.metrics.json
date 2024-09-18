@@ -1,0 +1,269 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/ias-net",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-11-12T11:09:24.041635Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": false,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 41,
+                        "serie": [
+                            3,
+                            4,
+                            4,
+                            2,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            2,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            2
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 142,
+                        "serie": [
+                            7,
+                            4,
+                            3,
+                            4,
+                            1,
+                            6,
+                            1,
+                            1,
+                            4,
+                            10,
+                            2,
+                            28,
+                            1,
+                            4,
+                            14,
+                            7,
+                            1,
+                            4,
+                            14,
+                            1,
+                            4,
+                            7,
+                            3,
+                            4,
+                            3,
+                            2,
+                            2
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-12T11:09:23.980432Z",
+                "last_month_access": {
+                    "average_access_time": 559,
+                    "downtime_days": 22,
+                    "uptime_days": 8
+                },
+                "license": false,
+                "operational": 429,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:ias-net/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-11-12T11:09:24.305141Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": false,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1002/mp.15212",
+                            "pmid": "34494276",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "IAS-NET: Joint intraclassly adaptive GAN and segmentation network for unsupervised cross-domain in neonatal brain MRI segmentation.",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 41,
+                        "serie": [
+                            3,
+                            4,
+                            4,
+                            2,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            2,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            2
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 142,
+                        "serie": [
+                            7,
+                            4,
+                            3,
+                            4,
+                            1,
+                            6,
+                            1,
+                            1,
+                            4,
+                            10,
+                            2,
+                            28,
+                            1,
+                            4,
+                            14,
+                            7,
+                            1,
+                            4,
+                            14,
+                            1,
+                            4,
+                            7,
+                            3,
+                            4,
+                            3,
+                            2,
+                            2
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-12T11:09:23.986513Z",
+                "last_month_access": {
+                    "average_access_time": 460,
+                    "downtime_days": 22,
+                    "uptime_days": 8
+                },
+                "license": false,
+                "operational": 429,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": null
+            }
+        }
+    }
+]

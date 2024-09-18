@@ -1,0 +1,63 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/neuronactivityagent",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": [
+        "Juan Prada",
+        "Robert Blum"
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3304"
+        },
+        {
+          "@id": "edam:topic_3382"
+        },
+        {
+          "@id": "edam:topic_0602"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1371/journal.pcbi.1006054"
+      },
+      "sc:description": "agent to automatically extract, count, and localize calcium signals from the whole x,y-t image series. The agent is useful for an unbiased comparison of activity states of neurons, helps to assess local calcium transients, and even visualizes local homeostatic calcium activity.",
+      "sc:featureList": {
+        "@id": "edam:operation_3443"
+      },
+      "sc:name": "NeuronActivityAgent",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": [
+        {
+          "@id": "https://github.com/jpits30/NeuronActivityAgent"
+        },
+        {
+          "@id": "https://www.biozentrum.uni-wuerzburg.de/fileadmin/07030400/computing/NACubic_Data/NAcubic_User_Manual.pdf"
+        }
+      ],
+      "sc:url": "https://www.biozentrum.uni-wuerzburg.de/bioinfo/computing/neuralactivitycubic/"
+    },
+    {
+      "@id": "https://doi.org/10.1371/journal.pcbi.1006054",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

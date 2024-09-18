@@ -1,0 +1,62 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gks998",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/toppr",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N4d5e5b639ced487186a020a2e97967d3"
+      },
+      "bsc:output": {
+        "@id": "_:Na5b04db0eaf6440b809208da8e53830f"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Workbench",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0121"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gks998"
+      },
+      "sc:description": "Online Protein Processing Resource",
+      "sc:featureList": {
+        "@id": "edam:operation_2479"
+      },
+      "sc:name": "TOPPR",
+      "sc:provider": "ugent.be",
+      "sc:softwareVersion": "1",
+      "sc:url": "http://iomics.ugent.be/toppr/home.html"
+    },
+    {
+      "@id": "_:Na5b04db0eaf6440b809208da8e53830f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1238"
+      },
+      "sc:name": "Proteolytic digest"
+    },
+    {
+      "@id": "_:N4d5e5b639ced487186a020a2e97967d3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1096"
+      },
+      "sc:name": "Sequence accession (protein)"
+    }
+  ]
+}

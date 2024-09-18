@@ -1,0 +1,52 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.agents/laser",
+  "@type": "sc:SoftwareApplication",
+  "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+  "sc:additionalType": "Command-line agent",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_3299"
+    },
+    {
+      "@id": "edam:topic_0625"
+    },
+    {
+      "@id": "edam:topic_0622"
+    },
+    {
+      "@id": "edam:topic_2885"
+    }
+  ],
+  "sc:citation": "pubmed:24633160",
+  "sc:description": "C++ software package that can estimate individual ancestry directly from genome-wide shortgun sequencing reads without calling genotypes.",
+  "sc:featureList": {
+    "@id": "edam:operation_3745"
+  },
+  "sc:name": "LASER",
+  "sc:operatingSystem": [
+    "Mac",
+    "Windows",
+    "Linux"
+  ],
+  "sc:softwareHelp": [
+    {
+      "@id": "http://genome.sph.umich.edu/wiki/LASER"
+    },
+    {
+      "@id": "http://csg.sph.umich.edu/chaolong/LASER/LASER_Manual.pdf"
+    }
+  ],
+  "sc:url": "http://genome.sph.umich.edu/wiki/LASER"
+}

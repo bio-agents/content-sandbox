@@ -1,0 +1,22 @@
+{
+    "additionDate": "2019-11-06T11:10:24Z",
+    "bioagentsCURIE": "bioagents:Adult_Fruitfly_Brain_Atlas",
+    "bioagentsID": "Adult_Fruitfly_Brain_Atlas",
+    "description": "A Web resource enabling to inspect the neuroanatomy of the fruit fly, equipped with a graphical interface enabling users to color structures on brain sections.",
+    "editPermission": {
+        "type": "private"
+    },
+    "homepage": "https://fruitfly.tefor.net/#/",
+    "lastUpdate": "2019-11-06T11:10:24Z",
+    "name": "Adult Fruitfly Brain Atlas",
+    "owner": "jison",
+    "agentType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Neurobiology",
+            "uri": "http://edamontology.org/topic_3304"
+        }
+    ]
+}

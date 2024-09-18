@@ -1,0 +1,36 @@
+name: generate Agents Platform Ecosystem contents report
+
+on: 
+  workflow_dispatch:
+
+jobs:
+  generate-stats:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup Python
+      uses: actions/setup-python@v1
+      with:
+        python-version: "3.7"
+    - name: Install dependencies
+      run:
+        pip install -r scripts/stats/requirements.txt
+    - name: generate report
+      run: |
+        cd scripts/stats
+        python ecosystem.py ../../report
+    - name: commit new report
+      env:
+        GITHUB_USER: ${{ secrets.GITHUB_USER }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |  
+        git config --local user.email "tpe-bot@github.com"
+        git config --local user.name "Agents Platform Ecosystem bot"
+        cd report
+        git add .
+        if git commit -m "generate new contents report on $(date)"; then
+          git push
+          echo "successfully created new contents report"
+        else
+            echo "nothing new to add, exiting"
+        fi

@@ -1,0 +1,57 @@
+package: obiagents
+distribution: debian
+release: sid
+component: main
+version: 1.2.13
+source: obiagents
+homepage: https://pypi.python.org/pypi/OBIAgents
+license: unknown
+blend: debian-med
+description_md5: 68ea11346ef1e83a1eff2f3815aee847
+registries:
+- entry: OMICS_32696
+  name: OMICagents
+- entry: OBIAgents
+  name: bio.agents
+- entry: obiagents
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1111/1755-0998.12428
+popcon:
+- insts: 26
+  olde: 17
+  recent: 3
+  vote: 6
+descr:
+- package: obiagents
+  description: programs to analyze NGS data in a DNA metabarcoding context
+  long_description: " The OBIAgents programs aims to help you to manipulate various\
+    \ data and\n sequence files in a convenient way using the Unix command line interface.\n\
+    \ They follow the standard Unix interface for command line program, allowing to\n\
+    \ chain a set of commands using the pipe mechanism.\n"
+  release: sid
+  description_md5: 68ea11346ef1e83a1eff2f3815aee847
+  license: unknown
+  blend: debian-med
+- package: obiagents
+  description: programmi per analizzare dati NGS in un contesto di DNA meta-barcoding
+  long_description: " I programmi OBIAgents hanno lo scopo di aiutare a manipolare\
+    \ vari file di\n dati e sequenze in maniera comoda usando l'interfaccia a riga\
+    \ di comando Unix.\n Essi seguono l'interfaccia a riga di comando Unix standard,\
+    \ permettendo di\n concatenare un insieme di comandi usando il meccanismo delle\
+    \ pipe.\n"
+  release: sid
+  description_md5: 68ea11346ef1e83a1eff2f3815aee847
+  license: unknown
+  blend: debian-med
+- package: obiagents
+  description: Programmer til at analysere NGS-data i en DNA-metabarcoding-kontekst
+  long_description: " OBIAgents-programmerne forsøger at hjælpe dig med at manipulere\
+    \ diverse\n data- og sekvensfiler på en nem måde via kommandolinjegrænsefladen\
+    \ Unix. De\n følger Unix-standarden for kommandolinjeprogram, så en kæde af kommandoer\n\
+    \ kan sammensættes via pipe-mekanismen.\n"
+  release: sid
+  description_md5: 68ea11346ef1e83a1eff2f3815aee847
+  license: unknown
+  blend: debian-med

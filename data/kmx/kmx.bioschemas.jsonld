@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/kmx",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Ketil Malde",
+      "bsc:input": {
+        "@id": "_:Nea80dc3b531c48c18e6325f6cbbe8bab"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3047"
+      },
+      "sc:author": "Ketil Malde",
+      "sc:description": "Count the occurrences of k-mers in biological sequences (Fastq or Fasta formatted). It can then perform various analyses on the generated indices. The counting is resource intensive, but this agent can divide the computation up, so that it can be run as sequential parts (to fit in memory), in parallel (to exploit multiple CPUs), or distributed (to use a cluster of computers).",
+      "sc:featureList": {
+        "@id": "edam:operation_2945"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "GPL-2.0",
+      "sc:name": "kmx",
+      "sc:operatingSystem": "Linux",
+      "sc:provider": "imr.no",
+      "sc:softwareHelp": {
+        "@id": "http://github.org/ketil-malde/kmx"
+      },
+      "sc:softwareVersion": "0.4",
+      "sc:url": "http://github.com/ketil-malde/kmx"
+    },
+    {
+      "@id": "_:Nea80dc3b531c48c18e6325f6cbbe8bab",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1234"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1207"
+      },
+      "sc:name": "Sequence set (nucleic acid)"
+    }
+  ]
+}

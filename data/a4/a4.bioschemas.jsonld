@@ -1,0 +1,131 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/a4",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": [
+        "Tobias Verbeke",
+        "Willem Ligtenberg"
+      ],
+      "bsc:input": [
+        {
+          "@id": "_:N30204ac3b0c741b6b05dd09eefa6377d"
+        },
+        {
+          "@id": "_:Nb13ce5680038431e8a915f84a98dd618"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Ne881625e63a847f794e752cee3aeaaa0"
+        },
+        {
+          "@id": "_:N4ad8a61f057e40f28e5f7c5af09df768"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Library"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0203"
+        },
+        {
+          "@id": "edam:topic_3518"
+        },
+        {
+          "@id": "edam:topic_2269"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1038/nmeth.3252"
+      },
+      "sc:description": "Suite of R packages for analysis of Affymetrix microarray experiments.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2409"
+        },
+        {
+          "@id": "edam:operation_2238"
+        },
+        {
+          "@id": "edam:operation_2495"
+        }
+      ],
+      "sc:license": "GPL-3.0",
+      "sc:name": "a4",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/a4.html"
+      },
+      "sc:softwareVersion": "1.22.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/a4.html"
+    },
+    {
+      "@id": "_:N30204ac3b0c741b6b05dd09eefa6377d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3111"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2056"
+      },
+      "sc:name": "Processed microarray data"
+    },
+    {
+      "@id": "_:Nb13ce5680038431e8a915f84a98dd618",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3113"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3751"
+      },
+      "sc:name": "Sample annotation"
+    },
+    {
+      "@id": "_:Ne881625e63a847f794e752cee3aeaaa0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3111"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2056"
+      },
+      "sc:name": "Processed microarray data"
+    },
+    {
+      "@id": "_:N4ad8a61f057e40f28e5f7c5af09df768",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3113"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3751"
+      },
+      "sc:name": "Sample annotation"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nmeth.3252",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

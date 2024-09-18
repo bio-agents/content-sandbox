@@ -1,0 +1,109 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/pvca",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Jianying LI",
+      "bsc:input": {
+        "@id": "_:Nf84c54e6a41b49b199eb8b33f89dcf45"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:Nb1fdc726491142c8af72a5e8eebb7e8c"
+        },
+        {
+          "@id": "_:Nf6da701d172f46a3aaf4c594483cf0e8"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Library",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3572"
+        },
+        {
+          "@id": "edam:topic_3518"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1002/9780470685983.ch12"
+      },
+      "sc:description": "This package contains the function to assess the batch sourcs by fitting all \"sources\" as random effects including two-way interaction terms in the Mixed Model(depends on lme4 package) to selected principal components, which were obtained from the original data correlation matrix.",
+      "sc:featureList": {
+        "@id": "edam:operation_0571"
+      },
+      "sc:license": "GPL-2.0",
+      "sc:name": "pvca",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/pvca.html"
+      },
+      "sc:softwareVersion": "1.14.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/pvca.html"
+    },
+    {
+      "@id": "_:Nf84c54e6a41b49b199eb8b33f89dcf45",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3110"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1638"
+        },
+        {
+          "@id": "edam:format_1639"
+        },
+        {
+          "@id": "edam:format_1637"
+        }
+      ],
+      "sc:name": "Raw microarray data"
+    },
+    {
+      "@id": "_:Nb1fdc726491142c8af72a5e8eebb7e8c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3547"
+      },
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:Nf6da701d172f46a3aaf4c594483cf0e8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3111"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3547"
+      },
+      "sc:name": "Processed microarray data"
+    },
+    {
+      "@id": "https://doi.org/10.1002/9780470685983.ch12",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

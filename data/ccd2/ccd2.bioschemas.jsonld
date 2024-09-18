@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/ccd2",
+      "@type": "sc:SoftwareApplication",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Web application",
+        "Desktop application"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0601"
+        },
+        {
+          "@id": "edam:topic_0749"
+        },
+        {
+          "@id": "edam:topic_3168"
+        },
+        {
+          "@id": "edam:topic_0621"
+        },
+        {
+          "@id": "edam:topic_0632"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:34342272",
+        {
+          "@id": "https://doi.org/10.1107/S2059798321005891"
+        },
+        "pmcid:PMC8329859"
+      ],
+      "sc:description": "Crystallization Construct Designer 2 (CCD2) a agent to design protein truncation constructs for recombinant expression",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0267"
+        },
+        {
+          "@id": "edam:operation_0303"
+        },
+        {
+          "@id": "edam:operation_0323"
+        },
+        {
+          "@id": "edam:operation_3192"
+        },
+        {
+          "@id": "edam:operation_0308"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Other",
+      "sc:name": "CCD2",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://ccd.rhpc.nki.nl/tutorial"
+      },
+      "sc:url": "https://ccd.rhpc.nki.nl"
+    },
+    {
+      "@id": "https://doi.org/10.1107/S2059798321005891",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

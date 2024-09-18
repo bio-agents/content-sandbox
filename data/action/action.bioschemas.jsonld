@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1038/s41467-018-03933-2",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/action",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Shahin Mohammadi",
+      "bsc:input": {
+        "@id": "_:Nf1c47113c9794bfd9c7d99a68e6cdbb7"
+      },
+      "bsc:output": {
+        "@id": "_:Nab584376c3314631a244c5a7be8c8bd9"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0203"
+        },
+        {
+          "@id": "edam:topic_0602"
+        },
+        {
+          "@id": "edam:topic_3308"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1038/s41467-018-03933-2"
+      },
+      "sc:description": "A method for inferring the functional identity of cells from their transcriptional profile, classifying them based on their dominant function, and reconstructing regulatory networks that are responsible for mediating their identity.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_1781"
+        },
+        {
+          "@id": "edam:operation_3439"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Freeware",
+      "sc:name": "ACTION",
+      "sc:softwareHelp": {
+        "@id": "http://compbio.mit.edu/ACTION/"
+      },
+      "sc:url": "http://compbio.mit.edu/ACTION/"
+    },
+    {
+      "@id": "_:Nf1c47113c9794bfd9c7d99a68e6cdbb7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3112"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "Gene expression matrix"
+    },
+    {
+      "@id": "_:Nab584376c3314631a244c5a7be8c8bd9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2600"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "Pathway or network"
+    }
+  ]
+}

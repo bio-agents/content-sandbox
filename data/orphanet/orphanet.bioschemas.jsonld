@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1002/humu.22078",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/orphanet",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:Nd89d769de4184bf4a39376e88ca98f77"
+      },
+      "bsc:output": {
+        "@id": "_:N94baeff48be2497b81e6a60f0b790bf5"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Database portal",
+        "Web application"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0634"
+        },
+        {
+          "@id": "edam:topic_3325"
+        },
+        {
+          "@id": "edam:topic_0154"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1002/humu.22078"
+      },
+      "sc:description": "Information on rare diseases and orphan drugs.",
+      "sc:featureList": {
+        "@id": "edam:operation_0224"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:name": "Orphanet",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:provider": "Inserm US14",
+      "sc:softwareHelp": {
+        "@id": "http://www.orpha.net/consor/cgi-bin/Education_EducationAgents.php?stapage=HM_BLOC_HEADER_HELP_SITEMAP&lng=EN"
+      },
+      "sc:url": "http://www.orpha.net/consor/cgi-bin/index.php"
+    },
+    {
+      "@id": "_:Nd89d769de4184bf4a39376e88ca98f77",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2800"
+      },
+      "sc:name": "Orpha number"
+    },
+    {
+      "@id": "_:N94baeff48be2497b81e6a60f0b790bf5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1622"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Disease report"
+    }
+  ]
+}

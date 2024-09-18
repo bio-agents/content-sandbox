@@ -1,0 +1,70 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btac017",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-2629-6124",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://bio.agents/biothings",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": {
+        "@id": "https://orcid.org/0000-0002-2629-6124"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Workbench",
+        "Library",
+        "Suite"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0769"
+        },
+        {
+          "@id": "edam:topic_3303"
+        },
+        {
+          "@id": "edam:topic_0102"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btac017"
+      },
+      "sc:description": "BioThings is a agentkit for building high-performance data APIs in biomedical research. BioThings SDK provides a Python-based agentkit to build high-performance data APIs (or web services) from a single data source or multiple data sources. It has the particular focus on building data APIs for biomedical-related entities, a.k.a \"BioThings\" (such as genes, genetic variants, drugs, chemicals, diseases, etc.)..",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_1812"
+        },
+        {
+          "@id": "edam:operation_3436"
+        },
+        {
+          "@id": "edam:operation_2422"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Apache-2.0",
+      "sc:name": "BioThings",
+      "sc:softwareHelp": {
+        "@id": "https://docs.biothings.io/en/latest/"
+      },
+      "sc:url": "https://biothings.io/"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1016/j.cels.2016.10.021",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/epico-data-analysis-portal",
+      "@type": "sc:SoftwareApplication",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Bioinformatics portal",
+        "Suite",
+        "Library"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3366"
+        },
+        {
+          "@id": "edam:topic_3173"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:27863955",
+        {
+          "@id": "https://doi.org/10.1016/j.cels.2016.10.021"
+        },
+        "pmcid:PMC5919098"
+      ],
+      "sc:description": "EPICO / BLUEPRINT Data Analysis Portal, data loading scripts and API",
+      "sc:isAccessibleForFree": true,
+      "sc:license": "AGPL-3.0",
+      "sc:name": "epico-data-analysis-portal",
+      "sc:softwareHelp": {
+        "@id": "https://github.com/inab/epico-data-analysis-portal/wiki"
+      },
+      "sc:url": "https://github.com/inab/epico-data-analysis-portal/wiki"
+    }
+  ]
+}

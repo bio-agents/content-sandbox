@@ -1,0 +1,171 @@
+{
+    "accessibility": "Open access",
+    "additionDate": "2016-02-10T09:42:32Z",
+    "bioagentsCURIE": "bioagents:inserm-remap",
+    "bioagentsID": "inserm-remap",
+    "credit": [
+        {
+            "email": "benoit.ballester@inserm.fr",
+            "name": "Benoit Ballester",
+            "orcidid": "http://orcid.org/0000-0002-0834-7135",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Maintainer"
+            ]
+        },
+        {
+            "email": "benoit.ballester@inserm.fr",
+            "name": "Benoit Ballester",
+            "orcidid": "http://orcid.org/0000-0002-0834-7135",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        },
+        {
+            "name": "Aix-Marseille University",
+            "typeEntity": "Institute"
+        },
+        {
+            "name": "French Institute of Health and Medical Research",
+            "typeEntity": "Institute"
+        },
+        {
+            "name": "Inserm U1090 - TAGC",
+            "typeEntity": "Institute",
+            "typeRole": [
+                "Support"
+            ]
+        }
+    ],
+    "description": "Integrative analysis of transcription factor ChIP-seq experiments publicly available merged with the Encode dataset. We propose an extensive regulatory catalogue of 8 million transcription factor binding sites from 237 transcription factors (TFs). Among those factors 50 TFs are common with Encode, 82 TFs are Public specific and 105 Encode specific. The results of this analysis are available to browse or download either for a given transcription factor or for the entire dataset.",
+    "documentation": [
+        {
+            "type": [
+                "Citation instructions"
+            ],
+            "url": "http://tagc.univ-mrs.fr/remap/index.php?page=contact"
+        },
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://tagc.univ-mrs.fr/remap/index.php?page=about"
+        }
+    ],
+    "download": [
+        {
+            "type": "Binaries",
+            "url": "http://tagc.univ-mrs.fr/remap/index.php?page=download"
+        },
+        {
+            "type": "Source code",
+            "url": "http://tagc.univ-mrs.fr/remap/index.php?page=download"
+        }
+    ],
+    "editPermission": {
+        "authors": [
+            "baileqi",
+            "jcheneby"
+        ],
+        "type": "group"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Genome annotation",
+                    "uri": "http://edamontology.org/operation_0362"
+                },
+                {
+                    "term": "Peak calling",
+                    "uri": "http://edamontology.org/operation_3222"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://tagc.univ-mrs.fr/remap/index.php",
+    "lastUpdate": "2020-06-16T10:55:21Z",
+    "link": [
+        {
+            "note": "This is the entry point for ReMap",
+            "type": [
+                "Other"
+            ],
+            "url": "http://tagc.univ-mrs.fr/remap/"
+        },
+        {
+            "note": "This is the link to download all the data",
+            "type": [
+                "Repository"
+            ],
+            "url": "http://tagc.univ-mrs.fr/remap/index.php?page=download"
+        }
+    ],
+    "name": "ReMap",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "benoit.ballester@inserm.fr",
+    "publication": [
+        {
+            "doi": "10.1093/nar/gku1280",
+            "metadata": {
+                "abstract": "© 2015 The Author(s) 2014. Published by Oxford University Press on behalf of Nucleic Acids Research.The large collections of ChIP-seq data rapidly accumulating in public data warehouses provide genome-wide binding site maps for hundreds of transcription factors (TFs). However, the extent of the regulatory occupancy space in the human genome has not yet been fully apprehended by integrating public ChIP-seq data sets and combining it with ENCODE TFs map. To enable genome-wide identification of regulatory elements we have collected, analysed and retained 395 available ChIP-seq data sets merged with ENCODE peaks covering a total of 237 TFs. This enhanced repertoire complements and refines current genome-wide occupancy maps by increasing the human genome regulatory search space by 14% compared to ENCODE alone, and also increases the complexity of the regulatory dictionary. As a direct application we used this unified binding repertoire to annotate variant enhancer loci (VELs) from H3K4me1 mark in two cancer cell lines (MCF-7, CRC) and observed enrichments of specific TFs involved in biological key functions to cancer development and proliferation. Those enrichments of TFs within VELs provide a direct annotation of non-coding regions detected in cancer genomes. Finally, full access to this catalogue is available online together with the TFs enrichment analysis agent (http://tagc.univ-mrs.fr/remap/).",
+                "authors": [
+                    {
+                        "name": "Ballester B."
+                    },
+                    {
+                        "name": "Barbier Q."
+                    },
+                    {
+                        "name": "Dalino J."
+                    },
+                    {
+                        "name": "Griffon A."
+                    },
+                    {
+                        "name": "Spicuglia S."
+                    },
+                    {
+                        "name": "Van Helden J."
+                    }
+                ],
+                "citationCount": 79,
+                "date": "2015-02-27T00:00:00Z",
+                "journal": "Nucleic Acids Research",
+                "title": "Integrative analysis of public ChIP-seq experiments reveals a complex multi-cell regulatory landscape"
+            },
+            "pmcid": "PMC4344487",
+            "pmid": "25477382",
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "agentType": [
+        "Database portal",
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Epigenomics",
+            "uri": "http://edamontology.org/topic_3173"
+        },
+        {
+            "term": "Functional genomics",
+            "uri": "http://edamontology.org/topic_0085"
+        },
+        {
+            "term": "Mapping",
+            "uri": "http://edamontology.org/topic_0102"
+        }
+    ],
+    "validated": 1,
+    "version": [
+        "1"
+    ]
+}

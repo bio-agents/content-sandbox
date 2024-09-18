@@ -1,0 +1,72 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gkr1032",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/genedb",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N4bf1ed7f28464fcea53a10909609dec5"
+      },
+      "bsc:output": {
+        "@id": "_:N16a0563a68b94af08c156a39cee0ba0d"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0621"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gkr1032"
+      },
+      "sc:description": "Sequence data and annotation/curation for the whole range of organisms sequenced by the PSU (Sanger Institute Pathogen Sequencing Units).",
+      "sc:featureList": {
+        "@id": "edam:operation_0224"
+      },
+      "sc:name": "GeneDB database",
+      "sc:operatingSystem": [
+        "Mac",
+        "Windows",
+        "Linux"
+      ],
+      "sc:provider": "Sanger Institute",
+      "sc:softwareHelp": {
+        "@id": "http://www.genedb.org/Page/genedbFAQ"
+      },
+      "sc:url": "http://www.genedb.org/"
+    },
+    {
+      "@id": "_:N16a0563a68b94af08c156a39cee0ba0d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0916"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Gene report"
+    },
+    {
+      "@id": "_:N4bf1ed7f28464fcea53a10909609dec5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1026"
+      },
+      "sc:name": "Gene symbol"
+    }
+  ]
+}

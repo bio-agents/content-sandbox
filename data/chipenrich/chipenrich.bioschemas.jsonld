@@ -1,0 +1,120 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/chipenrich",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Raymond G. Cavalcante",
+      "bsc:input": {
+        "@id": "_:N709c8395078b48dca4e883b94d8069b6"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:Nef581b25203b4b58ae5c9bd9460a838d"
+        },
+        {
+          "@id": "_:Nba16ac43b1754f1dae4be6cee85240da"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Library"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3169"
+        },
+        {
+          "@id": "edam:topic_3572"
+        }
+      ],
+      "sc:citation": [
+        "pmcid:PMC4117744",
+        {
+          "@id": "https://doi.org/10.1093/nar/gku463"
+        },
+        "pubmed:24878920"
+      ],
+      "sc:contributor": {
+        "@id": "http://orcid.org/0000-0001-6155-5702"
+      },
+      "sc:description": "ChIP-Enrich performs gene set enrichment testing using peaks called from a ChIP-seq experiment. The method empirically corrects for confounding factors such as the length of genes, and the mappability of the sequence surrounding genes.",
+      "sc:featureList": {
+        "@id": "edam:operation_2436"
+      },
+      "sc:license": "GPL-3.0",
+      "sc:name": "chipenrich",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/chipenrich.html"
+      },
+      "sc:softwareVersion": "1.12.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/chipenrich.html"
+    },
+    {
+      "@id": "_:N709c8395078b48dca4e883b94d8069b6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2012"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3613"
+        },
+        {
+          "@id": "edam:format_3003"
+        },
+        {
+          "@id": "edam:format_3475"
+        }
+      ],
+      "sc:name": "Sequence coordinates"
+    },
+    {
+      "@id": "_:Nef581b25203b4b58ae5c9bd9460a838d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3508"
+      },
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:Nba16ac43b1754f1dae4be6cee85240da",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1276"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3508"
+      },
+      "sc:name": "Nucleic acid features"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gku463",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "http://orcid.org/0000-0001-6155-5702",
+      "@type": "schema:Person"
+    }
+  ]
+}

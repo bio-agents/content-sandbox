@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/MetHis",
+      "@type": "sc:SoftwareApplication",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3056"
+        },
+        {
+          "@id": "edam:topic_0102"
+        },
+        {
+          "@id": "edam:topic_2885"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1101/761452"
+      },
+      "sc:description": "Complex genetic admixture histories reconstructed with Approximate Bayesian Computations | MetHis is a population genetics forward simulation agent designed to simulate arbitrarily complex admixture histories between two populations",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3196"
+        },
+        {
+          "@id": "edam:operation_3891"
+        },
+        {
+          "@id": "edam:operation_0487"
+        }
+      ],
+      "sc:license": "GPL-3.0",
+      "sc:name": "MetHis",
+      "sc:url": "https://github.com/romain-laurent/MetHis"
+    },
+    {
+      "@id": "https://doi.org/10.1101/761452",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

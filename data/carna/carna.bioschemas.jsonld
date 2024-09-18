@@ -1,0 +1,162 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/carna",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": [
+        "Sebastian Will",
+        {
+          "@id": "http://orcid.org/0000-0001-8231-3323"
+        }
+      ],
+      "bsc:input": {
+        "@id": "_:N65884ce11dc148b0b93675775f10df77"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:Nea7a7b82b9eb462c930855cde6fe8490"
+        },
+        {
+          "@id": "_:Nd01ed6b0a28548549c9bb0c1c4a705e0"
+        },
+        {
+          "@id": "_:Ncfebad7eb1bf4889b140d14289656024"
+        },
+        {
+          "@id": "_:Ne706dd3ae6f74418ab1308418c717600"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0097"
+        },
+        {
+          "@id": "edam:topic_0080"
+        }
+      ],
+      "sc:author": [
+        {
+          "@id": "http://orcid.org/0000-0001-8231-3323"
+        },
+        "Sebastian Will"
+      ],
+      "sc:citation": [
+        "pmcid:PMC3394245",
+        "pubmed:22689637",
+        {
+          "@id": "https://doi.org/10.1093/nar/gks491"
+        }
+      ],
+      "sc:description": "Alignment of RNA structure ensembles.",
+      "sc:featureList": {
+        "@id": "edam:operation_0294"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:name": "CARNA web server",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:provider": [
+        "University Freiburg",
+        "rnateam"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://rna.informatik.uni-freiburg.de/Help.jsp"
+      },
+      "sc:softwareVersion": "1.2.5",
+      "sc:url": "http://rna.informatik.uni-freiburg.de/CARNA/"
+    },
+    {
+      "@id": "_:N65884ce11dc148b0b93675775f10df77",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3495"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1929"
+        },
+        {
+          "@id": "edam:format_2200"
+        }
+      ],
+      "sc:name": "RNA sequence"
+    },
+    {
+      "@id": "_:Nea7a7b82b9eb462c930855cde6fe8490",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence"
+    },
+    {
+      "@id": "_:Nd01ed6b0a28548549c9bb0c1c4a705e0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_3508"
+        },
+        {
+          "@id": "edam:format_3466"
+        }
+      ],
+      "sc:name": "Image"
+    },
+    {
+      "@id": "_:Ncfebad7eb1bf4889b140d14289656024",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1916"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1982"
+      },
+      "sc:name": "Alignment"
+    },
+    {
+      "@id": "_:Ne706dd3ae6f74418ab1308418c717600",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0872"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1910"
+      },
+      "sc:name": "Phylogenetic tree"
+    },
+    {
+      "@id": "http://orcid.org/0000-0001-8231-3323",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gks491",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

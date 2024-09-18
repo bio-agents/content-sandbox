@@ -1,0 +1,121 @@
+{
+    "additionDate": "2017-12-06T18:14:43Z",
+    "bioagentsCURIE": "bioagents:msight",
+    "bioagentsID": "msight",
+    "collectionID": [
+        "Proteomics"
+    ],
+    "credit": [
+        {
+            "email": "msight-support@isb-sib.ch",
+            "name": "MSight Support",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "MSight: An image analysis software for liquid chromatography-mass spectrometry. MSight is a agent specifically developed for the representation of mass spectra along with data from a separation step. It provides simple ways to navigate through very large volumes of data, with the ability to display small regions for closer scrutiny.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "https://web.expasy.org/MSight/"
+        }
+    ],
+    "editPermission": {
+        "authors": [
+            "proteomics.bio.agents"
+        ],
+        "type": "group"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Image analysis",
+                    "uri": "http://edamontology.org/operation_3443"
+                },
+                {
+                    "term": "Protein quantification",
+                    "uri": "http://edamontology.org/operation_3630"
+                }
+            ]
+        }
+    ],
+    "homepage": "https://web.expasy.org/MSight/",
+    "lastUpdate": "2019-09-04T08:38:54Z",
+    "name": "MSight",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "admin",
+    "publication": [
+        {
+            "doi": "10.1002/pmic.200401244",
+            "metadata": {
+                "abstract": "Images obtained from high-throughput mass spectrometry (MS) contain information that remains hidden when looking at a single spectrum at a time. Image processing of liquid chromatography-MS datasets can be extremely useful for quality control, experimental monitoring and knowledge extraction. The importance of imaging in differential analysis of proteomic experiments has already been established through two-dimensional gels and can now be foreseen with MS images. We present MSight, a new software designed to construct and manipulate MS images, as well as to facilitate their analysis and comparison. © 2005 WILEY-VCH Verlag GmbH & Co. KGaA.",
+                "authors": [
+                    {
+                        "name": "Appel R.D."
+                    },
+                    {
+                        "name": "Binz P.-A."
+                    },
+                    {
+                        "name": "Burgess J."
+                    },
+                    {
+                        "name": "Catherinet S."
+                    },
+                    {
+                        "name": "Hochstrasser D.F."
+                    },
+                    {
+                        "name": "Palagi P.M."
+                    },
+                    {
+                        "name": "Quadroni M."
+                    },
+                    {
+                        "name": "Sanchez J.-C."
+                    },
+                    {
+                        "name": "Walther D."
+                    },
+                    {
+                        "name": "Zimmermann-Ivol C.G."
+                    }
+                ],
+                "citationCount": 113,
+                "date": "2005-06-01T00:00:00Z",
+                "journal": "Proteomics",
+                "title": "MSight: An image analysis software for liquid chromatography-mass spectrometry"
+            },
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "agentType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Imaging",
+            "uri": "http://edamontology.org/topic_3382"
+        },
+        {
+            "term": "Proteomics",
+            "uri": "http://edamontology.org/topic_0121"
+        },
+        {
+            "term": "Proteomics experiment",
+            "uri": "http://edamontology.org/topic_3520"
+        }
+    ],
+    "validated": 1
+}

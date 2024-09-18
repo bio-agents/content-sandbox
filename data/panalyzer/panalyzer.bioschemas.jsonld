@@ -1,0 +1,103 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1186/1471-2105-13-288",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/panalyzer",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:Na003178fb72a40c29b132d38160424af"
+      },
+      "bsc:output": {
+        "@id": "_:N9509aaf4b0e14d2b8b1b138b825b1c0f"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Desktop application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0121"
+        },
+        {
+          "@id": "edam:topic_3077"
+        },
+        {
+          "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_3520"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/1471-2105-13-288"
+      },
+      "sc:description": "A agent for rearranging peptide sequences from shotgun proteomics into inferred proteins.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2990"
+        },
+        {
+          "@id": "edam:operation_3767"
+        }
+      ],
+      "sc:name": "PAnalyzer",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://code.google.com/archive/p/ehu-bio/wikis/PAnalyzer.wiki"
+      },
+      "sc:url": "https://code.google.com/archive/p/ehu-bio/wikis/PAnalyzer.wiki"
+    },
+    {
+      "@id": "_:N9509aaf4b0e14d2b8b1b138b825b1c0f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0907"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3247"
+        },
+        {
+          "@id": "edam:format_3752"
+        },
+        {
+          "@id": "edam:format_2331"
+        }
+      ],
+      "sc:name": "Protein family report"
+    },
+    {
+      "@id": "_:Na003178fb72a40c29b132d38160424af",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0945"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3247"
+        },
+        {
+          "@id": "edam:format_2332"
+        }
+      ],
+      "sc:name": "Peptide identification"
+    }
+  ]
+}

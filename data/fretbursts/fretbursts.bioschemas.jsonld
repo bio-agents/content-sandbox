@@ -1,0 +1,65 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1371/journal.pone.0160716",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/fretbursts",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": {
+        "@id": "http://orcid.org/0000-0002-9348-1397"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0176"
+        },
+        {
+          "@id": "edam:topic_2814"
+        },
+        {
+          "@id": "edam:topic_3383"
+        }
+      ],
+      "sc:citation": [
+        "pmcid:PMC4988647",
+        {
+          "@id": "https://doi.org/10.1371/journal.pone.0160716"
+        },
+        "pubmed:27532626"
+      ],
+      "sc:description": "FRETBursts is an open source software for analysis of freely-diffusing single-molecule Förster Resonance Energy Transfer (smFRET) data.",
+      "sc:featureList": {
+        "@id": "edam:operation_2476"
+      },
+      "sc:license": "GPL-2.0",
+      "sc:name": "FRETBursts",
+      "sc:operatingSystem": [
+        "Mac",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://fretbursts.readthedocs.io/en/latest/reference_manual.html"
+      },
+      "sc:url": "http://tritemio.github.io/FRETBursts/"
+    },
+    {
+      "@id": "http://orcid.org/0000-0002-9348-1397",
+      "@type": "schema:Person"
+    }
+  ]
+}

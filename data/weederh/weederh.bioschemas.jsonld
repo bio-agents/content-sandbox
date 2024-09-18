@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/weederh",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": [
+        "Federico Zambelli",
+        "Giulio Pavesi"
+      ],
+      "bsc:input": {
+        "@id": "_:Na337db740bd64ce19a02694250e44d83"
+      },
+      "bsc:output": {
+        "@id": "_:Na4a6179c92304383b503e92226ebe794"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0160"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/1471-2105-8-46"
+      },
+      "sc:description": "Identifies conserved transcription factor binding sites in a given sequence by comparing it to one or more homologs.",
+      "sc:featureList": {
+        "@id": "edam:operation_0238"
+      },
+      "sc:license": "GPL-3.0",
+      "sc:name": "WeederH",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux"
+      ],
+      "sc:provider": "IECHOR-ITA-MILANO",
+      "sc:softwareHelp": {
+        "@id": "http://159.149.160.51/modagents/"
+      },
+      "sc:softwareVersion": "1.0",
+      "sc:url": "http://www.beaconlab.it/modagents"
+    },
+    {
+      "@id": "_:Na4a6179c92304383b503e92226ebe794",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2070"
+      },
+      "sc:name": "Sequence motif (nucleic acid)"
+    },
+    {
+      "@id": "_:Na337db740bd64ce19a02694250e44d83",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2977"
+      },
+      "sc:name": "Nucleic acid sequence"
+    },
+    {
+      "@id": "https://doi.org/10.1186/1471-2105-8-46",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

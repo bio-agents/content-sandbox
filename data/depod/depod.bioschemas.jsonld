@@ -1,0 +1,64 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/DATABASE/BAZ133",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/DEPOD",
+      "@type": "sc:SoftwareApplication",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0154"
+        },
+        {
+          "@id": "edam:topic_0160"
+        },
+        {
+          "@id": "edam:topic_3489"
+        },
+        {
+          "@id": "edam:topic_0219"
+        },
+        {
+          "@id": "edam:topic_0128"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/DATABASE/BAZ133"
+        },
+        "pmcid:PMC6911163",
+        "pubmed:31836896"
+      ],
+      "sc:description": "DEPOD - the human DEPhOsphorylation Database, is a manually curated database collecting human phosphatases, their experimentally verified substrates and dephosphorylation site information, and pathways in which they are involved. It also provides links to popular kinase databases and protein-protein interaction databases for these phosphatases and substrates.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3208"
+        },
+        {
+          "@id": "edam:operation_0417"
+        },
+        {
+          "@id": "edam:operation_3083"
+        }
+      ],
+      "sc:name": "Human Dephosphorylation Database  (DEPOD)",
+      "sc:url": "http://depod.bioss.uni-freiburg.de/"
+    }
+  ]
+}

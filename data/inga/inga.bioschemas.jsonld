@@ -1,0 +1,127 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gkv523",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/inga",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": {
+        "@id": "http://orcid.org/0000-0003-4525-7793"
+      },
+      "bsc:input": [
+        {
+          "@id": "_:Nbc627599d6314e58840154ccc9c23356"
+        },
+        {
+          "@id": "_:Nd21bfffc21e94b48b92e5c3771714c83"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N8a338af9d156470c94195f07ecf54cab"
+        },
+        {
+          "@id": "_:Ndda1d6d6c4c44571a56979d8d8b43956"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Web application",
+        "Web API"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_1775"
+      },
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/nar/gkv523"
+        },
+        "pmcid:PMC4489281",
+        "pubmed:26019177"
+      ],
+      "sc:description": "Interaction Network GO Annotator protein function predictor.",
+      "sc:featureList": {
+        "@id": "edam:operation_1777"
+      },
+      "sc:name": "INGA",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:provider": [
+        "University of Padua, Department of Biomedical Sciences, BioComputing UP lab",
+        "IECHOR-ITA-PADOVA"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://protein.bio.unipd.it/inga/help"
+      },
+      "sc:softwareVersion": "1.1",
+      "sc:url": "http://protein.bio.unipd.it/inga"
+    },
+    {
+      "@id": "_:Nbc627599d6314e58840154ccc9c23356",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2976"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Protein sequence"
+    },
+    {
+      "@id": "_:Nd21bfffc21e94b48b92e5c3771714c83",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3021"
+      },
+      "sc:name": "UniProt accession"
+    },
+    {
+      "@id": "_:N8a338af9d156470c94195f07ecf54cab",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2858"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3556"
+        },
+        {
+          "@id": "edam:format_2062"
+        }
+      ],
+      "sc:name": "Ontology concept"
+    },
+    {
+      "@id": "_:Ndda1d6d6c4c44571a56979d8d8b43956",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2858"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3464"
+      },
+      "sc:name": "Ontology concept"
+    },
+    {
+      "@id": "http://orcid.org/0000-0003-4525-7793",
+      "@type": "schema:Person"
+    }
+  ]
+}

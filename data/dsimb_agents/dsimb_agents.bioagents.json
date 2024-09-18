@@ -1,0 +1,22 @@
+{
+    "additionDate": "2019-11-06T13:16:34Z",
+    "bioagentsCURIE": "bioagents:DSIMB_agents",
+    "bioagentsID": "DSIMB_agents",
+    "description": "A collection of databases, agents and web servers for structural biology.",
+    "editPermission": {
+        "type": "private"
+    },
+    "homepage": "http://www.dsimb.inserm.fr/agents/",
+    "lastUpdate": "2019-11-06T13:16:34Z",
+    "name": "DSIMB agents",
+    "owner": "jison",
+    "agentType": [
+        "Suite"
+    ],
+    "topic": [
+        {
+            "term": "Structural biology",
+            "uri": "http://edamontology.org/topic_1317"
+        }
+    ]
+}

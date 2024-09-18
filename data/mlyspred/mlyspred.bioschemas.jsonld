@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/BIB/BBAC277",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/mlyspred",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:Nf1e42fb79285428fbf152ec69379b54c"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3373"
+        },
+        {
+          "@id": "edam:topic_0601"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/BIB/BBAC277"
+        },
+        "pubmed:35953081"
+      ],
+      "sc:description": "Graph-based multi-view clustering and multi-dimensional normal distribution resampling techniques to predict multiple lysine sites.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3435"
+        },
+        {
+          "@id": "edam:operation_3645"
+        },
+        {
+          "@id": "edam:operation_0417"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:name": "MLysPRED",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:url": "http://47.100.136.41:8181"
+    },
+    {
+      "@id": "_:Nf1e42fb79285428fbf152ec69379b54c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2976"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Protein sequence"
+    }
+  ]
+}

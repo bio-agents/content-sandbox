@@ -1,0 +1,109 @@
+{
+    "accessibility": "Open access",
+    "additionDate": "2021-12-19T17:12:26.595016Z",
+    "bioagentsCURIE": "bioagents:coronaspades",
+    "bioagentsID": "coronaspades",
+    "collectionID": [
+        "COVID-19"
+    ],
+    "confidence_flag": "agent",
+    "cost": "Free of charge",
+    "credit": [
+        {
+            "email": "a.korobeynikov@spbu.ru",
+            "name": "Anton Korobeynikov",
+            "typeEntity": "Person"
+        }
+    ],
+    "description": "CoronaSPAdes – a novel assembler for RNA viral species recovery in general and coronaviruses in particular.",
+    "documentation": [
+        {
+            "type": [
+                "User manual"
+            ],
+            "url": "https://cab.spbu.ru/files/release3.15.3/manual.html"
+        }
+    ],
+    "editPermission": {
+        "type": "public"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "De-novo assembly",
+                    "uri": "http://edamontology.org/operation_0524"
+                },
+                {
+                    "term": "Genome assembly",
+                    "uri": "http://edamontology.org/operation_0525"
+                },
+                {
+                    "term": "Scaffolding",
+                    "uri": "http://edamontology.org/operation_3216"
+                },
+                {
+                    "term": "Transcriptome assembly",
+                    "uri": "http://edamontology.org/operation_3258"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://cab.spbu.ru/software/spades",
+    "language": [
+        "Python"
+    ],
+    "lastUpdate": "2021-12-19T17:12:26.597649Z",
+    "link": [
+        {
+            "type": [
+                "Other"
+            ],
+            "url": "http://cab.spbu.ru/software/coronaspades"
+        },
+        {
+            "type": [
+                "Repository"
+            ],
+            "url": "https://github.com/ablab/spades"
+        }
+    ],
+    "name": "coronaSPAdes",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "Chan019",
+    "publication": [
+        {
+            "doi": "10.1093/BIOINFORMATICS/BTAB597",
+            "pmid": "34406356"
+        }
+    ],
+    "agentType": [
+        "Library"
+    ],
+    "topic": [
+        {
+            "term": "Biotechnology",
+            "uri": "http://edamontology.org/topic_3297"
+        },
+        {
+            "term": "Metagenomics",
+            "uri": "http://edamontology.org/topic_3174"
+        },
+        {
+            "term": "Sequence assembly",
+            "uri": "http://edamontology.org/topic_0196"
+        },
+        {
+            "term": "Sequence sites, features and motifs",
+            "uri": "http://edamontology.org/topic_0160"
+        },
+        {
+            "term": "Transcriptomics",
+            "uri": "http://edamontology.org/topic_3308"
+        }
+    ]
+}

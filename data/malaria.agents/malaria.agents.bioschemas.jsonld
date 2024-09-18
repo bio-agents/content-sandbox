@@ -1,0 +1,72 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/malaria.agents",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": [
+        "Marek Mutwil",
+        "Qiao Wen Tan"
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0602"
+        },
+        {
+          "@id": "edam:topic_3170"
+        },
+        {
+          "@id": "edam:topic_3308"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1101/639179"
+      },
+      "sc:description": "Comparative genomic and transcriptomic database for Plasmodium species.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3766"
+        },
+        {
+          "@id": "edam:operation_3501"
+        },
+        {
+          "@id": "edam:operation_3463"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:name": "malaria.agents",
+      "sc:operatingSystem": [
+        "Mac",
+        "Windows",
+        "Linux"
+      ],
+      "sc:softwareHelp": [
+        {
+          "@id": "https://malaria.sbs.ntu.edu.sg/features"
+        },
+        {
+          "@id": "https://github.com/sepro/CoNekT/blob/master/docs/tutorials/overview.md"
+        }
+      ],
+      "sc:url": "https://malaria.sbs.ntu.edu.sg/"
+    },
+    {
+      "@id": "https://doi.org/10.1101/639179",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

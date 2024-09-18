@@ -1,0 +1,42 @@
+package: kallisto
+distribution: debian
+release: sid
+component: main
+version: 0.46.2
+source: kallisto
+homepage: https://pachterlab.github.io/kallisto
+license: unknown
+blend: debian-med
+description_md5: 9d173d648de2d1e7d239c362fbb1a5ae
+registries:
+- entry: OMICS_08418
+  name: OMICagents
+- entry: kallisto
+  name: bio.agents
+- entry: kallisto
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1038/nbt.3519
+popcon:
+- insts: 12
+  olde: 12
+descr:
+- package: kallisto
+  description: near-optimal RNA-Seq quantification
+  long_description: " Kallisto is a program for quantifying abundances of transcripts\
+    \ from\n RNA-Seq data, or more generally of target sequences using high-throughput\n\
+    \ sequencing reads. It is based on the novel idea of pseudoalignment for\n rapidly\
+    \ determining the compatibility of reads with targets, without the\n need for\
+    \ alignment. On benchmarks with standard RNA-Seq data, kallisto\n can quantify\
+    \ 30 million human reads in less than 3 minutes on a Mac\n desktop computer using\
+    \ only the read sequences and a transcriptome index\n that itself takes less than\
+    \ 10 minutes to build. Pseudoalignment of\n reads preserves the key information\
+    \ needed for quantification, and\n kallisto is therefore not only fast, but also\
+    \ as accurate than existing\n quantification agents. In fact, because the pseudoalignment\
+    \ procedure is\n robust to errors in the reads, in many benchmarks kallisto significantly\n\
+    \ outperforms existing agents.\n"
+  release: sid
+  description_md5: 9d173d648de2d1e7d239c362fbb1a5ae
+  license: unknown
+  blend: debian-med

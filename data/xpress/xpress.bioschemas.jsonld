@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/xpress",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:Nc2caef2ceea1408bab8483b98ab941c5"
+      },
+      "bsc:output": {
+        "@id": "_:N2e78642f8ecd4edd8a6a7db100289641"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Desktop application"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0121"
+        },
+        {
+          "@id": "edam:topic_3520"
+        }
+      ],
+      "sc:citation": "pubmed:11581660",
+      "sc:description": "Calculates relative abundances from ICAT, cICAT, SILAC and other N-14/N-15 experiments.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3630"
+        },
+        {
+          "@id": "edam:operation_3705"
+        },
+        {
+          "@id": "edam:operation_3635"
+        }
+      ],
+      "sc:name": "XPRESS",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://agents.proteomecenter.org/wiki/index.php?title=Software:XPRESS"
+      },
+      "sc:url": "http://agents.proteomecenter.org/XPRESS.php"
+    },
+    {
+      "@id": "_:N2e78642f8ecd4edd8a6a7db100289641",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2603"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3655"
+      },
+      "sc:name": "Expression data"
+    },
+    {
+      "@id": "_:Nc2caef2ceea1408bab8483b98ab941c5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0945"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3655"
+      },
+      "sc:name": "Peptide identification"
+    }
+  ]
+}

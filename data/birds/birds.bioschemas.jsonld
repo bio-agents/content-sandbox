@@ -1,0 +1,59 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.7554/ELIFE.63455",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/birds",
+      "@type": "sc:SoftwareApplication",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Workflow",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3474"
+        },
+        {
+          "@id": "edam:topic_3382"
+        },
+        {
+          "@id": "edam:topic_3304"
+        }
+      ],
+      "sc:citation": [
+        "pmcid:PMC7840180",
+        "pubmed:33459255",
+        {
+          "@id": "https://doi.org/10.7554/ELIFE.63455"
+        }
+      ],
+      "sc:description": "Bi-channel image registration and deep-learning segmentation (BIRDS) is a agent for efficient, versatile 3D mapping of mouse brain. It is an open source automation pipeline suitable for brain data from different microscopy platforms.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3552"
+        },
+        {
+          "@id": "edam:operation_3553"
+        }
+      ],
+      "sc:license": "MIT",
+      "sc:name": "BIRDS",
+      "sc:softwareHelp": {
+        "@id": "https://github.com/bleach1by1/BIRDS_demo"
+      },
+      "sc:url": "https://github.com/bleach1by1/BIRDS_plugin"
+    }
+  ]
+}

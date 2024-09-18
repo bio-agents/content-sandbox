@@ -1,0 +1,59 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bts605",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/vmatch",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Prof. Dr. Stefan Kurtz",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Suite",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0622"
+        },
+        {
+          "@id": "edam:topic_3168"
+        },
+        {
+          "@id": "edam:topic_0080"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/bts605"
+      },
+      "sc:description": "A versatile software agent for efficiently solving large scale sequence matching tasks",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0258"
+        },
+        {
+          "@id": "edam:operation_2409"
+        },
+        {
+          "@id": "edam:operation_0292"
+        }
+      ],
+      "sc:name": "Vmatch",
+      "sc:operatingSystem": "Linux",
+      "sc:softwareHelp": {
+        "@id": "http://www.vmatch.de/virtman.pdf"
+      },
+      "sc:url": "http://www.vmatch.de/"
+    }
+  ]
+}

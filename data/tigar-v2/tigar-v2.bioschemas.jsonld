@@ -1,0 +1,108 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/tigar-v2",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:N775abb34676d453c968d1f68f6cb3354"
+        },
+        {
+          "@id": "_:N3f26e62835324c959b2e1619d5ec5a96"
+        },
+        {
+          "@id": "_:N1f7bebda9d0d43b09e57d9283ffdaa9d"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2640"
+        },
+        {
+          "@id": "edam:topic_0102"
+        },
+        {
+          "@id": "edam:topic_0634"
+        },
+        {
+          "@id": "edam:topic_0203"
+        },
+        {
+          "@id": "edam:topic_0625"
+        },
+        {
+          "@id": "edam:topic_3517"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1101/2021.07.16.452700"
+      },
+      "sc:description": "Efficient TWAS Agent with Nonparametric Bayesian eQTL Weights of 49 Tissue Types from GTEx V8.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3557"
+        },
+        {
+          "@id": "edam:operation_3196"
+        },
+        {
+          "@id": "edam:operation_3659"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Not licensed",
+      "sc:name": "TIGAR-V2",
+      "sc:operatingSystem": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "sc:url": "https://www.synapse.org/TIGAR_V2_Resource_GTExV8"
+    },
+    {
+      "@id": "_:N775abb34676d453c968d1f68f6cb3354",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3273"
+      },
+      "sc:name": "Sample ID"
+    },
+    {
+      "@id": "_:N3f26e62835324c959b2e1619d5ec5a96",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0928"
+      },
+      "sc:name": "Gene expression profile"
+    },
+    {
+      "@id": "_:N1f7bebda9d0d43b09e57d9283ffdaa9d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0920"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3016"
+      },
+      "sc:name": "Genotype/phenotype report"
+    },
+    {
+      "@id": "https://doi.org/10.1101/2021.07.16.452700",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

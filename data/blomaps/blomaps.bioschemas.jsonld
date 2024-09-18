@@ -1,0 +1,37 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.agents/blomaps",
+  "@type": "sc:SoftwareApplication",
+  "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+  "sc:additionalType": "Command-line agent",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0081"
+    },
+    {
+      "@id": "edam:topic_0097"
+    }
+  ],
+  "sc:description": "A agent for fast multiple structure alignment. The main difference of BLOMAPS from other existing algorithms for multiple structure alignment is the use of conformational letters, which are discretized states of 3D segmental structural states.",
+  "sc:featureList": {
+    "@id": "edam:operation_0504"
+  },
+  "sc:name": "BLOMAPS",
+  "sc:operatingSystem": [
+    "Windows",
+    "Linux"
+  ],
+  "sc:softwareVersion": "1.01",
+  "sc:url": "https://code.google.com/p/backbone-advance/"
+}

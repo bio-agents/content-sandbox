@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btu815",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/andi",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Fabian Klötzl",
+      "bsc:input": {
+        "@id": "_:N617ca9cf0a074d0d9c3534431ca9d735"
+      },
+      "bsc:output": {
+        "@id": "_:Nf13a4f52e50f49e596b30536020a20b8"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3293"
+      },
+      "sc:author": "Fabian Klötzl",
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btu815"
+      },
+      "sc:contributor": [
+        "Peter Pfaffelhuber",
+        "Bernhard Haubold"
+      ],
+      "sc:description": "andi estimates the evolutionary distance between closely related genomes. These distances can be used to rapidly infer phylogenies for big sets of genomes. Because andi does not compute full alignments, it is so efficient that it scales even up to thousands of bacterial genomes.",
+      "sc:featureList": {
+        "@id": "edam:operation_0289"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "GPL-3.0",
+      "sc:name": "andi",
+      "sc:operatingSystem": "Linux",
+      "sc:provider": [
+        "Max Planck Institute for Evolutionary Biology",
+        "evolbio.mpg.de"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://github.com/EvolBioInf/andi/blob/master/andi-manual.pdf"
+      },
+      "sc:softwareVersion": "0.11",
+      "sc:url": "https://github.com/EvolBioInf/andi"
+    },
+    {
+      "@id": "_:N617ca9cf0a074d0d9c3534431ca9d735",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence"
+    },
+    {
+      "@id": "_:Nf13a4f52e50f49e596b30536020a20b8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0870"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1423"
+      },
+      "sc:name": "Sequence distance matrix"
+    }
+  ]
+}

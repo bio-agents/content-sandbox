@@ -1,0 +1,78 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btu545",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/mindthegap",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Claire Lemaitre",
+      "bsc:input": {
+        "@id": "_:Nc515f9b0f3384047a5327331861f106f"
+      },
+      "bsc:output": {
+        "@id": "_:N3abea0e03dea42eabc4b67215d00e8ae"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0199"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btu545"
+      },
+      "sc:description": "Performs detection and assembly of DNA insertion variants in NGS read datasets with respect to a reference genome.",
+      "sc:featureList": {
+        "@id": "edam:operation_3227"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:name": "MindTheGap",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:provider": "GenOuest",
+      "sc:softwareHelp": {
+        "@id": "https://gatb.inria.fr/software/mind-the-gap/"
+      },
+      "sc:softwareVersion": "1.0",
+      "sc:url": "https://gatb.inria.fr/software/mind-the-gap/"
+    },
+    {
+      "@id": "_:N3abea0e03dea42eabc4b67215d00e8ae",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2977"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Nucleic acid sequence"
+    },
+    {
+      "@id": "_:Nc515f9b0f3384047a5327331861f106f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2975"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2182"
+      },
+      "sc:name": "Nucleic acid sequence (raw)"
+    }
+  ]
+}

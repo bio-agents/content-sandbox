@@ -1,0 +1,104 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1101/2021.08.04.455173",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/protist_guru",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:Nb3b90f68aa924eb1bd3af5853bd9468e"
+        },
+        {
+          "@id": "_:Nb07d7ed301ed4ddba4a686a1efb7ecbc"
+        },
+        {
+          "@id": "_:N73f87058b5eb4182a88114c6d21267ee"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3697"
+        },
+        {
+          "@id": "edam:topic_0602"
+        },
+        {
+          "@id": "edam:topic_3308"
+        },
+        {
+          "@id": "edam:topic_0621"
+        },
+        {
+          "@id": "edam:topic_3500"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1101/2021.08.04.455173"
+      },
+      "sc:description": "A platform dedicated to the visualization and analysis of protist co-expression and co-function networks.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3192"
+        },
+        {
+          "@id": "edam:operation_3463"
+        },
+        {
+          "@id": "edam:operation_0313"
+        },
+        {
+          "@id": "edam:operation_2421"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:name": "Protist Guru",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:url": "https://protists.sbs.ntu.edu.sg"
+    },
+    {
+      "@id": "_:Nb3b90f68aa924eb1bd3af5853bd9468e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2757"
+      },
+      "sc:name": "Pfam domain name"
+    },
+    {
+      "@id": "_:Nb07d7ed301ed4ddba4a686a1efb7ecbc",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3754"
+      },
+      "sc:name": "GO-term enrichment data"
+    },
+    {
+      "@id": "_:N73f87058b5eb4182a88114c6d21267ee",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1027"
+      },
+      "sc:name": "Gene ID (NCBI)"
+    }
+  ]
+}

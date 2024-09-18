@@ -1,0 +1,41 @@
+{
+    "additionDate": "2023-08-29T11:42:48.137925Z",
+    "bioagentsCURIE": "bioagents:bioagents-linter",
+    "bioagentsID": "bioagents-linter",
+    "cost": "Free of charge",
+    "description": "A rule-based checker for the bio.agents database.",
+    "download": [
+        {
+            "type": "Source code",
+            "url": "https://github.com/3top1a/bioagents-linter"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "homepage": "https://bioagents-linter.biodata.ceitec.cz/",
+    "language": [
+        "Python"
+    ],
+    "lastUpdate": "2023-09-14T17:27:53.990648Z",
+    "license": "MIT",
+    "maturity": "Emerging",
+    "name": "bioagents-linter",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "FilipRusz",
+    "agentType": [
+        "Command-line agent",
+        "Web API",
+        "Web service"
+    ],
+    "topic": [
+        {
+            "term": "Data quality management",
+            "uri": "http://edamontology.org/topic_3572"
+        }
+    ]
+}

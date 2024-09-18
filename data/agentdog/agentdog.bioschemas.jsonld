@@ -1,0 +1,77 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.12688/f1000research.12974.1",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/agentdog",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": [
+        "Kenzo-Hugo Hillion",
+        "Hervé Ménager"
+      ],
+      "bsc:output": {
+        "@id": "_:Ndf323e6374c1428681f2ef20bd9b9608"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0091"
+        },
+        {
+          "@id": "edam:topic_0089"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.12688/f1000research.12974.1"
+      },
+      "sc:description": "This agent aims to generate XML template for Galaxy or CWL from the description of agents from the bio.agents registry.",
+      "sc:featureList": {
+        "@id": "edam:operation_0335"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "MIT",
+      "sc:name": "AgentDog",
+      "sc:operatingSystem": "Linux",
+      "sc:provider": [
+        "Institut Pasteur",
+        "Bioinformatics and Biostatistics Hub"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://agentdog.readthedocs.io/en/latest/?badge=latest"
+      },
+      "sc:softwareVersion": "0.3.5",
+      "sc:url": "https://github.com/bio-agents/AgentDog"
+    },
+    {
+      "@id": "_:Ndf323e6374c1428681f2ef20bd9b9608",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3750"
+        },
+        {
+          "@id": "edam:format_2332"
+        }
+      ],
+      "sc:name": "Data"
+    }
+  ]
+}

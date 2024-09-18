@@ -1,0 +1,140 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1007/978-3-319-11964-9_7",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/bridgedb",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:N91214c5bea5d46249402b5352411d276"
+        },
+        {
+          "@id": "_:Nb29f346d61064ae1b1c12a7fdbbd288f"
+        },
+        {
+          "@id": "_:Nc4ddc74ec17c4fc1ae2228173979acce"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Nba734de2d66844b18518c264d7cf919c"
+        },
+        {
+          "@id": "_:N7add927eb72e49d187693af6a6fb8c8c"
+        },
+        {
+          "@id": "_:Nd84dbff35c5d4a2e9bf113fa586dccf4"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0622"
+        },
+        {
+          "@id": "edam:topic_3325"
+        },
+        {
+          "@id": "edam:topic_0121"
+        },
+        {
+          "@id": "edam:topic_3172"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:20047655",
+        {
+          "@id": "https://doi.org/10.1007/978-3-319-11964-9_7"
+        }
+      ],
+      "sc:description": "BridgeDb is a framework to map identifiers between various databases.  It includes a Java library that provides an API to work with identifier-identifier mapping databases and resources.",
+      "sc:featureList": {
+        "@id": "edam:operation_0224"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Apache-2.0",
+      "sc:name": "BridgeDb",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:provider": [
+        "Heroit Watt University",
+        "maastrichtuniversity.nl",
+        "Manchester University",
+        "Gladstone Institutes",
+        "Maastricht University"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://bridgedb.github.io/pages/docs.html"
+      },
+      "sc:softwareVersion": "3.0.13",
+      "sc:url": "http://www.bridgedb.org/"
+    },
+    {
+      "@id": "_:N91214c5bea5d46249402b5352411d276",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0989"
+      },
+      "sc:name": "Protein identifier"
+    },
+    {
+      "@id": "_:Nb29f346d61064ae1b1c12a7fdbbd288f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1086"
+      },
+      "sc:name": "Compound identifier"
+    },
+    {
+      "@id": "_:Nc4ddc74ec17c4fc1ae2228173979acce",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1025"
+      },
+      "sc:name": "Gene identifier"
+    },
+    {
+      "@id": "_:Nba734de2d66844b18518c264d7cf919c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1025"
+      },
+      "sc:name": "Gene identifier"
+    },
+    {
+      "@id": "_:N7add927eb72e49d187693af6a6fb8c8c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1086"
+      },
+      "sc:name": "Compound identifier"
+    },
+    {
+      "@id": "_:Nd84dbff35c5d4a2e9bf113fa586dccf4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0989"
+      },
+      "sc:name": "Protein identifier"
+    }
+  ]
+}

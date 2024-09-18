@@ -1,0 +1,174 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/genefisher2",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:Nb567dee6b1a6461f908e16bde7a68fd2"
+        },
+        {
+          "@id": "_:N05371ef181be4edeae5aa61a9c9b09fe"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N5f0c6078dc50490ba753fabbd4b8b5d8"
+        },
+        {
+          "@id": "_:N45ff6157eaed44aba1c4c485682f0172"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Web API",
+        "Web application"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0080"
+      },
+      "sc:author": [
+        "Thomas Gatter",
+        "Daniel Hagemeier",
+        "Chris Schleiermacher"
+      ],
+      "sc:citation": "pubmed:8877506",
+      "sc:description": "Based on the assumption that genes with related function from different organisms show high sequence similarity, degenerate primers can be designed from sequences of homologues genes. It is an interactive web-based program for designing degenerate primers.",
+      "sc:featureList": {
+        "@id": "edam:operation_0308"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:name": "genefisher2",
+      "sc:operatingSystem": [
+        "Mac",
+        "Windows",
+        "Linux"
+      ],
+      "sc:provider": [
+        "Bielefeld University",
+        "BiBiServ",
+        "CeBiTec"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://bibiserv.cebitec.uni-bielefeld.de/genefisher2?id=genefisher_manual_manual"
+      },
+      "sc:softwareVersion": "1",
+      "sc:url": "http://bibiserv.cebitec.uni-bielefeld.de/genefisher2"
+    },
+    {
+      "@id": "_:N5f0c6078dc50490ba753fabbd4b8b5d8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1276"
+      },
+      "sc:name": "Nucleic acid features"
+    },
+    {
+      "@id": "_:N45ff6157eaed44aba1c4c485682f0172",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1240"
+      },
+      "sc:name": "PCR primers"
+    },
+    {
+      "@id": "_:Nb567dee6b1a6461f908e16bde7a68fd2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2975"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1927"
+        },
+        {
+          "@id": "edam:format_1210"
+        },
+        {
+          "@id": "edam:format_2332"
+        },
+        {
+          "@id": "edam:format_1929"
+        },
+        {
+          "@id": "edam:format_1209"
+        },
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_1930"
+        },
+        {
+          "@id": "edam:format_1948"
+        },
+        {
+          "@id": "edam:format_1942"
+        },
+        {
+          "@id": "edam:format_1215"
+        },
+        {
+          "@id": "edam:format_1925"
+        }
+      ],
+      "sc:name": "Nucleic acid sequence (raw)"
+    },
+    {
+      "@id": "_:N05371ef181be4edeae5aa61a9c9b09fe",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1210"
+        },
+        {
+          "@id": "edam:format_1929"
+        },
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_1219"
+        },
+        {
+          "@id": "edam:format_1997"
+        },
+        {
+          "@id": "edam:format_1948"
+        },
+        {
+          "@id": "edam:format_1982"
+        },
+        {
+          "@id": "edam:format_1921"
+        },
+        {
+          "@id": "edam:format_1942"
+        },
+        {
+          "@id": "edam:format_2555"
+        },
+        {
+          "@id": "edam:format_1925"
+        }
+      ],
+      "sc:name": "Sequence alignment"
+    }
+  ]
+}

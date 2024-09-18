@@ -1,0 +1,175 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://orcid.org/0000-0001-9677-5078",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1371/journal.pcbi.1003440",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/predictsnp",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "PredictSNP team",
+      "bsc:input": {
+        "@id": "_:Nbd185529622b4252b11a8247a05342f0"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:Na0e9661e911f4c20b1ef8f7af40da229"
+        },
+        {
+          "@id": "_:Nd13779a6c01b4b3b8c6b7d6d7baef609"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Web application",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3063"
+        },
+        {
+          "@id": "edam:topic_3325"
+        },
+        {
+          "@id": "edam:topic_3053"
+        },
+        {
+          "@id": "edam:topic_0078"
+        },
+        {
+          "@id": "edam:topic_2885"
+        }
+      ],
+      "sc:author": [
+        "Ondrej Salanda",
+        {
+          "@id": "https://orcid.org/0000-0003-3139-3700"
+        },
+        "Antonin Pavelka",
+        {
+          "@id": "https://orcid.org/0000-0001-9989-2720"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1371/journal.pcbi.1003440"
+      },
+      "sc:contributor": [
+        {
+          "@id": "https://orcid.org/0000-0001-9677-5078"
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-8718-7493"
+        },
+        "Grant Agency of the Czech Republic",
+        "European Regional Development Fund",
+        "Brno University of Technology",
+        {
+          "@id": "https://orcid.org/0000-0002-7848-8216"
+        },
+        "Eric D. Wieben",
+        "Ministry of Education of the Czech Republic",
+        "European Social Fund"
+      ],
+      "sc:description": "A consensus classifier that combines six of the top performing agents for the prediction of the effects of mutation on protein function. The obtained results are provided together with annotations extracted from the Protein Mutant Database and the UniProt database.",
+      "sc:featureList": {
+        "@id": "edam:operation_0331"
+      },
+      "sc:funder": [
+        "European Social Fund",
+        "Ministry of Education of the Czech Republic",
+        "European Regional Development Fund",
+        "Grant Agency of the Czech Republic",
+        "Brno University of Technology"
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Proprietary",
+      "sc:name": "PredictSNP",
+      "sc:operatingSystem": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "sc:provider": [
+        "Loschmidt Laboratories",
+        "International Centre for Clinical Research, Brno, Czech Republic",
+        "Brno University of Technology, Brno, Czech Republic",
+        "Masaryk University, Brno, Czech Republic",
+        "IECHOR-CZ",
+        "Mayo Clinic, Rochester, New York, United States of America"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://loschmidt.chemi.muni.cz/predictsnp1/docs/USER_GUIDE.pdf"
+      },
+      "sc:softwareVersion": "1.0",
+      "sc:url": "https://loschmidt.chemi.muni.cz/predictsnp1"
+    },
+    {
+      "@id": "_:Na0e9661e911f4c20b1ef8f7af40da229",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1277"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_2331"
+        }
+      ],
+      "sc:name": "Protein features"
+    },
+    {
+      "@id": "_:Nd13779a6c01b4b3b8c6b7d6d7baef609",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2291"
+      },
+      "sc:name": "UniProt ID"
+    },
+    {
+      "@id": "_:Nbd185529622b4252b11a8247a05342f0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2974"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Protein sequence (raw)"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-7848-8216",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-8718-7493",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-3139-3700",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-9989-2720",
+      "@type": "schema:Person"
+    }
+  ]
+}

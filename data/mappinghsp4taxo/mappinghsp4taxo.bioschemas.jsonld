@@ -1,0 +1,340 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/mappinghsp4taxo",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Galaxy Support Team",
+      "bsc:input": [
+        {
+          "@id": "_:N248616ee627643148e429a45e78a3698"
+        },
+        {
+          "@id": "_:Nd71739d63f0042808e36064657e993e3"
+        },
+        {
+          "@id": "_:N48d29d3ef53146c1b96d823dbe95582d"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N348da16f110b47c081dd1fd8442888bd"
+        },
+        {
+          "@id": "_:N1aa337042494411ebd46de96b2515175"
+        },
+        {
+          "@id": "_:N4713de7dc92146c3a1a54fe0016142ce"
+        },
+        {
+          "@id": "_:Nb13126efa43e449e8d3a578668f91ae2"
+        },
+        {
+          "@id": "_:N861fa952700d454ab9fe0ecc8d535a63"
+        },
+        {
+          "@id": "_:N94738dc944624e008da9b29f7df9c7f4"
+        },
+        {
+          "@id": "_:N0e42e3e803af49a6b0b06357c5761640"
+        },
+        {
+          "@id": "_:N712e5d5d85944c6bac4a8d79e484db94"
+        },
+        {
+          "@id": "_:N5258e94c83744918a2c739dbbd3db8d6"
+        },
+        {
+          "@id": "_:N567247e362484035bb831a27296e4ed0"
+        },
+        {
+          "@id": "_:Nfe7291e1a72042eeb3fa902b386582b4"
+        },
+        {
+          "@id": "_:N8fb27ebff286406fb5ce38c4ac1a5e76"
+        },
+        {
+          "@id": "_:N7e55423a8e7a40948ed5b265dc1719fb"
+        },
+        {
+          "@id": "_:N68e4fad25d7b4737adf543c10cf60b8d"
+        },
+        {
+          "@id": "_:Nbeb274de34fb4299a4deb450cab54c95"
+        },
+        {
+          "@id": "_:Nee0797109f4c4cfa9c515038c836c574"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3299"
+        },
+        {
+          "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_0637"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/nar/gkw343"
+        },
+        {
+          "@id": "https://doi.org/10.7490/f1000research.1114334.1"
+        }
+      ],
+      "sc:description": "Analyses taxoptimizer output file to find the most relevant database's sequence using taxonomics informations (kronaextract output) and draw picture(s) with the mapping of all hsp on it.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0338"
+        },
+        {
+          "@id": "edam:operation_3460"
+        }
+      ],
+      "sc:name": "mappinghsp4taxo",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://galaxy.pasteur.fr/root?agent_id=agentshed.pasteur.fr%2Frepos%2Fodoppelt%2Ftaxonomy_analysis%2Fmappinghsp4taxo%2F0.0.2"
+      },
+      "sc:softwareVersion": "0.0.2",
+      "sc:url": "https://galaxy.pasteur.fr/agent_runner?agent_id=agentshed.pasteur.fr/repos/odoppelt/taxonomy_analysis/mappinghsp4taxo/0.0.2"
+    },
+    {
+      "@id": "_:N348da16f110b47c081dd1fd8442888bd",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3547"
+      },
+      "sc:name": "Image"
+    },
+    {
+      "@id": "_:N1aa337042494411ebd46de96b2515175",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3547"
+      },
+      "sc:name": "Image"
+    },
+    {
+      "@id": "_:N4713de7dc92146c3a1a54fe0016142ce",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3547"
+      },
+      "sc:name": "Image"
+    },
+    {
+      "@id": "_:Nb13126efa43e449e8d3a578668f91ae2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3547"
+      },
+      "sc:name": "Image"
+    },
+    {
+      "@id": "_:N861fa952700d454ab9fe0ecc8d535a63",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3547"
+      },
+      "sc:name": "Image"
+    },
+    {
+      "@id": "_:N94738dc944624e008da9b29f7df9c7f4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3547"
+      },
+      "sc:name": "Image"
+    },
+    {
+      "@id": "_:N0e42e3e803af49a6b0b06357c5761640",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3547"
+      },
+      "sc:name": "Image"
+    },
+    {
+      "@id": "_:N712e5d5d85944c6bac4a8d79e484db94",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N5258e94c83744918a2c739dbbd3db8d6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3547"
+      },
+      "sc:name": "Image"
+    },
+    {
+      "@id": "_:N567247e362484035bb831a27296e4ed0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3547"
+      },
+      "sc:name": "Image"
+    },
+    {
+      "@id": "_:Nfe7291e1a72042eeb3fa902b386582b4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3547"
+      },
+      "sc:name": "Image"
+    },
+    {
+      "@id": "_:N8fb27ebff286406fb5ce38c4ac1a5e76",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3547"
+      },
+      "sc:name": "Image"
+    },
+    {
+      "@id": "_:N7e55423a8e7a40948ed5b265dc1719fb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3547"
+      },
+      "sc:name": "Image"
+    },
+    {
+      "@id": "_:N68e4fad25d7b4737adf543c10cf60b8d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3547"
+      },
+      "sc:name": "Image"
+    },
+    {
+      "@id": "_:Nbeb274de34fb4299a4deb450cab54c95",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3547"
+      },
+      "sc:name": "Image"
+    },
+    {
+      "@id": "_:Nee0797109f4c4cfa9c515038c836c574",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3547"
+      },
+      "sc:name": "Image"
+    },
+    {
+      "@id": "_:N248616ee627643148e429a45e78a3698",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:Nd71739d63f0042808e36064657e993e3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N48d29d3ef53146c1b96d823dbe95582d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "Data"
+    }
+  ]
+}

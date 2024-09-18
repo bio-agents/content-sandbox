@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.agents/rbamagents",
+  "@type": "sc:SoftwareApplication",
+  "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+  "sc:additionalType": "Library",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0097"
+    },
+    {
+      "@id": "edam:topic_0080"
+    },
+    {
+      "@id": "edam:topic_3511"
+    }
+  ],
+  "sc:citation": "pubmed:25563331",
+  "sc:description": "The agent package provides a R-interface\nto the samagents C-library for BAM file processing.",
+  "sc:featureList": {
+    "@id": "edam:operation_2928"
+  },
+  "sc:name": "rbamagents",
+  "sc:operatingSystem": [
+    "Windows",
+    "Linux",
+    "Mac"
+  ],
+  "sc:softwareHelp": [
+    {
+      "@id": "https://cran.r-project.org/web/packages/rbamagents/vignettes/rbamagents.pdf"
+    },
+    {
+      "@id": "https://cran.r-project.org/web/packages/rbamagents/rbamagents.pdf"
+    }
+  ],
+  "sc:url": "http://cran.r-project.org/web/packages/rbamagents/index.html"
+}

@@ -1,0 +1,43 @@
+softwares:
+  insightagentkit4-python:
+    labels:
+      about.home: http://www.itk.org/
+      about.license_file: /usr/share/doc/insightagentkit4-python/copyright
+      about.summary: Image processing agentkit for registration and segmentation -
+        Python bindings
+      about.tags: ''
+      container: insightagentkit4-python
+      software: insightagentkit4-python
+      software.version: 4.10.1-dfsg1-1.1b1-deb
+      version: '1'
+    software: insightagentkit4-python
+    versions:
+    - labels:
+        about.home: http://www.itk.org/
+        about.license_file: /usr/share/doc/insightagentkit4-python/copyright
+        about.summary: Image processing agentkit for registration and segmentation
+          - Python bindings
+        about.tags: ''
+        container: insightagentkit4-python
+        software: insightagentkit4-python
+        software.version: 4.10.1-dfsg1-1.1b1-deb
+        version: '1'
+      type: Container file
+      url: biocontainers/insightagentkit4-python:4.10.1-dfsg1-1.1b1-deb-1
+      version: 4.10.1-dfsg1-1.1b1-deb-1
+    - labels:
+        about.home: http://www.itk.org/
+        about.license: custom, see /usr/share/doc/insightagentkit4-python/copyright
+        about.license_file: /usr/share/doc/insightagentkit4-python/copyright
+        about.summary: Image processing agentkit for registration and segmentation
+          - Python bindings
+        about.tags: ''
+        base_image: biocontainers/biocontainers:vdebian-buster-backports_cv1
+        container: insightagentkit4-python
+        software: insightagentkit4-python
+        software.version: 4.12.2-dfsg1-4b1-deb
+        upstream.version: 4.12.2
+        version: '1'
+      type: Container file
+      url: biocontainers/insightagentkit4-python:4.12.2-dfsg1-4b1-deb-1
+      version: 4.12.2-dfsg1-4b1-deb-1

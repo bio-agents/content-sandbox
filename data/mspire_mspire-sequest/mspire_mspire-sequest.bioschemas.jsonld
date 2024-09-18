@@ -1,0 +1,78 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/mspire_mspire-sequest",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N8c230a859e8041c7a27a2d97826e593c"
+      },
+      "bsc:output": {
+        "@id": "_:Nd65f3e41c4a64f7dbc6b86609fab234e"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0121"
+        },
+        {
+          "@id": "edam:topic_3520"
+        }
+      ],
+      "sc:citation": "pubmed:18930952",
+      "sc:description": "MS data processing in Ruby, including mzML reader/writer/converter, ''in-silico'' digestion, isotopic pattern calculation etc.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3633"
+        },
+        {
+          "@id": "edam:operation_0366"
+        },
+        {
+          "@id": "edam:operation_0335"
+        }
+      ],
+      "sc:name": "mspire_mspire-sequest",
+      "sc:url": "http://mspire.rubyforge.org"
+    },
+    {
+      "@id": "_:Nd65f3e41c4a64f7dbc6b86609fab234e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3655"
+        },
+        {
+          "@id": "edam:format_3244"
+        }
+      ],
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N8c230a859e8041c7a27a2d97826e593c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3244"
+      },
+      "sc:name": "Data"
+    }
+  ]
+}

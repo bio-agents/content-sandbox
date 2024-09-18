@@ -1,0 +1,70 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/halvade",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N105d252acc61451c9cdb6a6f5b2cda89"
+      },
+      "bsc:output": {
+        "@id": "_:N80e90c096dcb42ccb8be28801bf7a515"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0080"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btv179"
+      },
+      "sc:description": "A mapreduce implementation of the best practice DNA-seq pipeline by Broad Institute.",
+      "sc:featureList": {
+        "@id": "edam:operation_2403"
+      },
+      "sc:license": "GPL-3.0",
+      "sc:name": "Halvade",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux"
+      ],
+      "sc:provider": "ugent.be",
+      "sc:softwareHelp": {
+        "@id": "https://halvade.readthedocs.io/en/latest/"
+      },
+      "sc:softwareVersion": "1",
+      "sc:url": "http://bioinformatics.intec.ugent.be/halvade"
+    },
+    {
+      "@id": "_:N80e90c096dcb42ccb8be28801bf7a515",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3498"
+      },
+      "sc:name": "Sequence variations"
+    },
+    {
+      "@id": "_:N105d252acc61451c9cdb6a6f5b2cda89",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0850"
+      },
+      "sc:name": "Sequence set"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btv179",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

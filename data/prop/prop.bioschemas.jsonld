@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/prop",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:Nc96adc6e463149969afd9b05f85f1b09"
+      },
+      "bsc:output": {
+        "@id": "_:Nbe5c0d10d5dd47849d0ab6e92c9a3fdb"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Web application",
+        "Web service"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3510"
+      },
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/protein/gzh013"
+        },
+        "pubmed:14985543"
+      ],
+      "sc:description": "Neural network prediction of arginine and lysine propeptide cleavage sites in eukaryotic protein sequences.",
+      "sc:featureList": {
+        "@id": "edam:operation_0422"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Other",
+      "sc:name": "ProP",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:provider": "CBS",
+      "sc:softwareHelp": {
+        "@id": "http://www.cbs.dtu.dk/services/ProP/instructions.php"
+      },
+      "sc:softwareVersion": "1.0",
+      "sc:url": "http://cbs.dtu.dk/services/ProP/"
+    },
+    {
+      "@id": "_:Nc96adc6e463149969afd9b05f85f1b09",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence"
+    },
+    {
+      "@id": "_:Nbe5c0d10d5dd47849d0ab6e92c9a3fdb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2955"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3467"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Sequence report"
+    },
+    {
+      "@id": "https://doi.org/10.1093/protein/gzh013",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

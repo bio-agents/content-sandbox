@@ -1,0 +1,62 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1007/s10858-009-9386-z",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/drip-pred",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N8b4ad8645f5e458aac5d0a4e8e393554"
+      },
+      "bsc:output": {
+        "@id": "_:Nccd961e60e8640178d8805a69293feb2"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0080"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1007/s10858-009-9386-z"
+      },
+      "sc:description": "Disorder/order prediction for proteins.",
+      "sc:featureList": {
+        "@id": "edam:operation_2423"
+      },
+      "sc:name": "DRIP-PRED",
+      "sc:provider": "bils.se",
+      "sc:softwareVersion": "1",
+      "sc:url": "http://www.sbc.su.se/%7Emaccallr/disorder/cgi-bin/submit.cgi"
+    },
+    {
+      "@id": "_:Nccd961e60e8640178d8805a69293feb2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1277"
+      },
+      "sc:name": "Protein features"
+    },
+    {
+      "@id": "_:N8b4ad8645f5e458aac5d0a4e8e393554",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2976"
+      },
+      "sc:name": "Protein sequence"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1038/nmeth.3252",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/fdrame",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Effi Kenigsberg",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Library"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3518"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1038/nmeth.3252"
+      },
+      "sc:description": "This package contains two main functions. The first is fdr.ma which takes normalized expression data array, experimental design and computes adjusted p-values. It returns the fdr adjusted p-values and plots. The second is fdr.gui() which creates a simple graphic user interface to access fdr.ma.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0571"
+        },
+        {
+          "@id": "edam:operation_2238"
+        }
+      ],
+      "sc:license": "GPL-2.0",
+      "sc:name": "fdrame",
+      "sc:operatingSystem": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/fdrame.html"
+      },
+      "sc:softwareVersion": "1.46.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/fdrame.html"
+    }
+  ]
+}

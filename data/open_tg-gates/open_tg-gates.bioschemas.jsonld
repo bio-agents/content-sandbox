@@ -1,0 +1,98 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gku955",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/open_tg-gates",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Hiroshi Yamada",
+      "bsc:input": [
+        {
+          "@id": "_:Need6adeb6dc2420faf3dfb79f02ed08f"
+        },
+        {
+          "@id": "_:N032dc88642f24ff59df4026c7248b023"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N23cd2f8c68de419092b440c3e19839d3"
+        },
+        {
+          "@id": "_:N8d2c312e934b4d07b9276f246e340faa"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Database portal",
+        "Web API"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0622"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gku955"
+      },
+      "sc:description": "It is a public toxicogenomics database based on the Japanese Toxicogenomics Projects (TGP and TGP2), developed so that a wider community of researchers could utilize the fruits of this research. This API provides access to the RNA microarray (Affymetrix) samples from Open TG-GATEs. Rat data, as well as human data is provided, for repeat and single doses.\",",
+      "sc:featureList": {
+        "@id": "edam:operation_2422"
+      },
+      "sc:name": "Open TG-GATEs API",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://toxico.nibiohn.go.jp/english/"
+      },
+      "sc:url": "http://toxico.nibiohn.go.jp/english/"
+    },
+    {
+      "@id": "_:Need6adeb6dc2420faf3dfb79f02ed08f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N032dc88642f24ff59df4026c7248b023",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0842"
+      },
+      "sc:name": "Identifier"
+    },
+    {
+      "@id": "_:N23cd2f8c68de419092b440c3e19839d3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N8d2c312e934b4d07b9276f246e340faa",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:name": "Data"
+    }
+  ]
+}

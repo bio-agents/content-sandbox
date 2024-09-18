@@ -1,0 +1,20 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.agents/atlas2",
+  "@type": "sc:SoftwareApplication",
+  "bioagents:primaryContact": "Fuli Yu, Ph.D.",
+  "sc:additionalType": "Command-line agent",
+  "sc:citation": "pubmed:23134663",
+  "sc:description": "Next-generation sequencing suite of variant analysis agents specializing in the separation of true SNPs and insertions and deletions (indels) from sequencing and mapping errors in Whole Exome Capture Sequencing (WECS) data.",
+  "sc:name": "Atlas2",
+  "sc:operatingSystem": "Linux",
+  "sc:url": "https://www.hgsc.bcm.edu/software/atlas-2"
+}

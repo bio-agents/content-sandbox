@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1186/1471-2164-10-5",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/antgenomes.org",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Yannick Wurm",
+      "bsc:input": {
+        "@id": "_:N294c7431fafe487db9cfceb80661566e"
+      },
+      "bsc:output": {
+        "@id": "_:N07f2ea196521486797cf724a9c2edb9c"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0622"
+        },
+        {
+          "@id": "edam:topic_3308"
+        }
+      ],
+      "sc:author": "WurmLab",
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/1471-2164-10-5"
+      },
+      "sc:description": "Community database centralizing genomic and transcriptomic sequence information for ants and related species (e.g., bees and wasps). Provides BLAST search and data download. Updated periodically with latest data and new agents.",
+      "sc:featureList": {
+        "@id": "edam:operation_2421"
+      },
+      "sc:name": "antgenomes.org",
+      "sc:operatingSystem": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://antgenomes.org/"
+      },
+      "sc:url": "http://antgenomes.org"
+    },
+    {
+      "@id": "_:N07f2ea196521486797cf724a9c2edb9c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0867"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Sequence alignment report"
+    },
+    {
+      "@id": "_:N294c7431fafe487db9cfceb80661566e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2200"
+      },
+      "sc:name": "Sequence"
+    }
+  ]
+}

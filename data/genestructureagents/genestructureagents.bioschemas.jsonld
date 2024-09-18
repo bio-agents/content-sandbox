@@ -1,0 +1,51 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.agents/genestructureagents",
+  "@type": "sc:SoftwareApplication",
+  "bioagents:primaryContact": "Beth Signal",
+  "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+  "sc:additionalType": "Library",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_3308"
+    },
+    {
+      "@id": "edam:topic_3320"
+    },
+    {
+      "@id": "edam:topic_3170"
+    }
+  ],
+  "sc:description": "It can be used to create in silico alternative splicing events, and analyse potential effects this has on functional gene products.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_1777"
+    },
+    {
+      "@id": "edam:operation_2499"
+    }
+  ],
+  "sc:license": "BSD-3-Clause",
+  "sc:name": "GeneStructureAgents",
+  "sc:operatingSystem": [
+    "Linux",
+    "Mac",
+    "Windows"
+  ],
+  "sc:softwareHelp": {
+    "@id": "http://bioconductor.org/packages/release/bioc/manuals/GeneStructureAgents/man/GeneStructureAgents.pdf"
+  },
+  "sc:softwareVersion": "1.0.0",
+  "sc:url": "http://bioconductor.org/packages/release/bioc/html/GeneStructureAgents.html"
+}

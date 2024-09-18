@@ -1,0 +1,72 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/open_phacts_chemistry_registry_system",
+      "@type": "sc:SoftwareApplication",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3336"
+        },
+        {
+          "@id": "edam:topic_2258"
+        },
+        {
+          "@id": "edam:topic_0202"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1016/j.drudis.2012.05.016"
+      },
+      "sc:contributor": "Innovative Medicines Initiative (IMI)",
+      "sc:description": "Database of compounds registered in the Open PHACTS platform, with structure similarity search. Look up chemical properties (SMILES).",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0360"
+        },
+        {
+          "@id": "edam:operation_2422"
+        },
+        {
+          "@id": "edam:operation_0570"
+        }
+      ],
+      "sc:funder": "Innovative Medicines Initiative (IMI)",
+      "sc:isAccessibleForFree": true,
+      "sc:name": "Open PHACTS Chemistry Registry System",
+      "sc:provider": [
+        "cs.manchester.ac.uk",
+        "Royal Society of Chemistry"
+      ],
+      "sc:softwareHelp": [
+        {
+          "@id": "http://support.openphacts.org/support/home"
+        },
+        {
+          "@id": "https://www.openphacts.org/2/sci/contact.html"
+        },
+        {
+          "@id": "https://www.openphacts.org/2/sci/terms_and_conditions.html"
+        }
+      ],
+      "sc:url": "http://ops.rsc.org/"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.drudis.2012.05.016",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

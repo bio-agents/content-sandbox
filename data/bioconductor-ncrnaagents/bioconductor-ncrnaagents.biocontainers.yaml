@@ -1,0 +1,14 @@
+description: ncRNAagents provides a set of basic agents for handling and analyzing non-coding
+  RNAs. These include agents to access the RNAcentral database and to predict and visualize
+  the secondary structure of non-coding RNAs. The package also provides agents to read,
+  write and interconvert the file formats most commonly used for representing such
+  secondary structures.
+home_url: https://bioconductor.org/packages/3.12/bioc/html/ncRNAagents.html
+identifiers:
+- doi:10.18129/b9.bioc.ncrnaagents
+keywords:
+- Genomics
+license: GPL-3.0
+manually_check: true
+name: bioconductor-ncrnaagents
+total_pulls: 358

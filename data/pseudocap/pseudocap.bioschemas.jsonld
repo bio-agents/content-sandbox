@@ -1,0 +1,111 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gkq869",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/pseudocap",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:Nc7b15341d1574c41972f52b8b317dbf2"
+        },
+        {
+          "@id": "_:Nee26866cb2dd4f8fbca85519f1808fde"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N348bf032ea58451aa0337a338eba3eb5"
+        },
+        {
+          "@id": "_:Ndb0a7bd98ed3480a9c94d6b4cbfefb2b"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0621"
+      },
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/nar/gkq869"
+        },
+        "pmcid:PMC3013766",
+        "pubmed:20929876"
+      ],
+      "sc:contributor": {
+        "@id": "http://orcid.org/0000-0001-6848-1638"
+      },
+      "sc:description": "Pseudomonas genome database.",
+      "sc:featureList": {
+        "@id": "edam:operation_0224"
+      },
+      "sc:name": "PseudoCAP pseudomonas genome database",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://www.pseudomonas.com/pseudocap"
+      },
+      "sc:url": "http://www.pseudomonas.com/"
+    },
+    {
+      "@id": "_:N348bf032ea58451aa0337a338eba3eb5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0916"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Gene report"
+    },
+    {
+      "@id": "_:Ndb0a7bd98ed3480a9c94d6b4cbfefb2b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0916"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Gene report"
+    },
+    {
+      "@id": "_:Nc7b15341d1574c41972f52b8b317dbf2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2744"
+      },
+      "sc:name": "Locus ID (PseudoCAP)"
+    },
+    {
+      "@id": "_:Nee26866cb2dd4f8fbca85519f1808fde",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2314"
+      },
+      "sc:name": "GI number"
+    },
+    {
+      "@id": "http://orcid.org/0000-0001-6848-1638",
+      "@type": "schema:Person"
+    }
+  ]
+}

@@ -1,0 +1,328 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/deepred-mt",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-11-19T10:34:19.141268Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 61,
+                        "serie": [
+                            1,
+                            3,
+                            1,
+                            3,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            7,
+                            1,
+                            1,
+                            2,
+                            1,
+                            3,
+                            1,
+                            2,
+                            2,
+                            1,
+                            5,
+                            1,
+                            2
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 122,
+                        "serie": [
+                            1,
+                            2,
+                            3,
+                            1,
+                            2,
+                            1,
+                            5,
+                            3,
+                            2,
+                            4,
+                            10,
+                            4,
+                            1,
+                            2,
+                            3,
+                            2,
+                            2,
+                            7,
+                            8,
+                            6,
+                            3,
+                            7,
+                            3,
+                            4,
+                            3,
+                            3,
+                            11,
+                            2,
+                            3,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            3,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T10:34:18.872896Z",
+                "last_month_access": {
+                    "average_access_time": 551,
+                    "downtime_days": 12,
+                    "uptime_days": 18
+                },
+                "license": false,
+                "operational": 429,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:deepred-mt/lib/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-11-19T10:34:19.321355Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 2,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1016/j.compbiomed.2021.104682",
+                            "pmid": "34343887",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Deepred-Mt: Deep representation learning for predicting C-to-U RNA editing in plant mitochondria.",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 61,
+                        "serie": [
+                            1,
+                            3,
+                            1,
+                            3,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            7,
+                            1,
+                            1,
+                            2,
+                            1,
+                            3,
+                            1,
+                            2,
+                            2,
+                            1,
+                            5,
+                            1,
+                            2
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 122,
+                        "serie": [
+                            1,
+                            2,
+                            3,
+                            1,
+                            2,
+                            1,
+                            5,
+                            3,
+                            2,
+                            4,
+                            10,
+                            4,
+                            1,
+                            2,
+                            3,
+                            2,
+                            2,
+                            7,
+                            8,
+                            6,
+                            3,
+                            7,
+                            3,
+                            4,
+                            3,
+                            3,
+                            11,
+                            2,
+                            3,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            3,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T10:34:18.872896Z",
+                "last_month_access": {
+                    "average_access_time": 487,
+                    "downtime_days": 12,
+                    "uptime_days": 18
+                },
+                "license": false,
+                "operational": 429,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": null
+            }
+        }
+    }
+]

@@ -1,0 +1,118 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/orange_network",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Blaž Zupan",
+      "bsc:input": [
+        {
+          "@id": "_:N7d51be17f05b458184a492f5a2865f34"
+        },
+        {
+          "@id": "_:N634b567a07a846648cccb8b196942cb1"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N9cf236347f3f45899159d046dad86ad2"
+        },
+        {
+          "@id": "_:N462da8f61aa5456bbacd7790623ca6f7"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Desktop application"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0092"
+        },
+        {
+          "@id": "edam:topic_3474"
+        },
+        {
+          "@id": "edam:topic_3473"
+        }
+      ],
+      "sc:author": "Jernej Kernc",
+      "sc:description": "A network analysis extension for a data mining software Orange. Network add-on includes components for network generation, network analysis, clustering and access to SNAP network database. All features can be combined with powerful visualizations, bioinformatics agents and data mining techniques from the core Orange data mining framework.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3083"
+        },
+        {
+          "@id": "edam:operation_1781"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "GPL-3.0",
+      "sc:name": "Orange Network",
+      "sc:operatingSystem": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "sc:provider": [
+        "IECHOR-SI-hackathon",
+        "Laboratory for Bioinformatics, University of Ljubljana"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://orange-network.readthedocs.org"
+      },
+      "sc:softwareVersion": "1.1.2",
+      "sc:url": "http://orange.biolab.si"
+    },
+    {
+      "@id": "_:N7d51be17f05b458184a492f5a2865f34",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2353"
+      },
+      "sc:name": "Ontology data"
+    },
+    {
+      "@id": "_:N634b567a07a846648cccb8b196942cb1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2082"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Matrix"
+    },
+    {
+      "@id": "_:N9cf236347f3f45899159d046dad86ad2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2082"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Matrix"
+    },
+    {
+      "@id": "_:N462da8f61aa5456bbacd7790623ca6f7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2353"
+      },
+      "sc:name": "Ontology data"
+    }
+  ]
+}

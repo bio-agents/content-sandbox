@@ -1,0 +1,101 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/mib2_sever",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:N618a06e0d4664c10ab28217a56df56a3"
+        },
+        {
+          "@id": "_:N35165668094347249b3585e4b95d719e"
+        },
+        {
+          "@id": "_:N5a52eb6bdc844ac7a50d63f15293a2e4"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2275"
+        },
+        {
+          "@id": "edam:topic_2814"
+        },
+        {
+          "@id": "edam:topic_3534"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/BIOINFORMATICS/BTAC534"
+        },
+        "pubmed:35904542"
+      ],
+      "sc:description": "Metal ion-binding site prediction and modeling server.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0474"
+        },
+        {
+          "@id": "edam:operation_3899"
+        },
+        {
+          "@id": "edam:operation_3898"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:name": "MIB2",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:url": "http://bioinfo.cmu.edu.tw/MIB2/"
+    },
+    {
+      "@id": "_:N618a06e0d4664c10ab28217a56df56a3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1127"
+      },
+      "sc:name": "PDB ID"
+    },
+    {
+      "@id": "_:N35165668094347249b3585e4b95d719e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2976"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Protein sequence"
+    },
+    {
+      "@id": "_:N5a52eb6bdc844ac7a50d63f15293a2e4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2291"
+      },
+      "sc:name": "UniProt ID"
+    },
+    {
+      "@id": "https://doi.org/10.1093/BIOINFORMATICS/BTAC534",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

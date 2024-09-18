@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.agents/shrec",
+  "@type": "sc:SoftwareApplication",
+  "bioagents:primaryContact": "Schröder J",
+  "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+  "sc:additionalType": "Command-line agent",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0080"
+    },
+    {
+      "@id": "edam:topic_3572"
+    },
+    {
+      "@id": "edam:topic_3168"
+    }
+  ],
+  "sc:citation": "pubmed:19542152",
+  "sc:description": "A new algorithm for correcting errors in short-read data that uses a generalized suffix trie on the read data as the underlying data structure",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_3218"
+    },
+    {
+      "@id": "edam:operation_3195"
+    }
+  ],
+  "sc:name": "SHREC",
+  "sc:operatingSystem": [
+    "Linux",
+    "Mac"
+  ],
+  "sc:softwareHelp": {
+    "@id": "https://sourceforge.net/projects/shrec-ec/files/Readme.txt/download"
+  },
+  "sc:url": "https://sourceforge.net/projects/shrec-ec/"
+}

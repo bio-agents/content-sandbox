@@ -1,0 +1,101 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/itol",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Georg Zeller",
+      "bsc:input": {
+        "@id": "_:N2d805c5c3a93444eb1bebce5638f5560"
+      },
+      "bsc:output": {
+        "@id": "_:N34f41c702a064394926ebc4564dcba71"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3293"
+        },
+        {
+          "@id": "edam:topic_3174"
+        },
+        {
+          "@id": "edam:topic_0622"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:17050570",
+        "pubmed:30931475",
+        "pubmed:21470960",
+        "pubmed:27095192"
+      ],
+      "sc:description": "Interactive Tree Of Life (iTOL) is an online agent for the display and manipulation of phylogenetic trees. It provides a large variety of tree layouts, drawing and annotation features including circular tree layout. iTOL is well-suited for a wide range of tree sizes up to several thousand leaves. Tree displays can be exported in several graphical formats, both bitmap and vector based.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0567"
+        },
+        {
+          "@id": "edam:operation_0324"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:name": "Interactive Tree Of Life (iTOL)",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:provider": [
+        "HD-HuB",
+        "European Molecular Biology Laboratory (EMBL)"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://itol.embl.de/help.cgi"
+      },
+      "sc:softwareVersion": "5.0",
+      "sc:url": "http://itol.embl.de/"
+    },
+    {
+      "@id": "_:N2d805c5c3a93444eb1bebce5638f5560",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0872"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1910"
+        },
+        {
+          "@id": "edam:format_3159"
+        },
+        {
+          "@id": "edam:format_1912"
+        }
+      ],
+      "sc:name": "Phylogenetic tree"
+    },
+    {
+      "@id": "_:N34f41c702a064394926ebc4564dcba71",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1707"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3547"
+      },
+      "sc:name": "Phylogenetic tree image"
+    }
+  ]
+}

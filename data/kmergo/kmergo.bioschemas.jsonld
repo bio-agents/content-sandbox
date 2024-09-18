@@ -1,0 +1,67 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/kmergo",
+      "@type": "sc:SoftwareApplication",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Desktop application",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0196"
+        },
+        {
+          "@id": "edam:topic_2885"
+        },
+        {
+          "@id": "edam:topic_3168"
+        },
+        {
+          "@id": "edam:topic_3360"
+        },
+        {
+          "@id": "edam:topic_3174"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.3389/FMICB.2020.02067"
+        },
+        "pubmed:32983048",
+        "pmcid:PMC7477287"
+      ],
+      "sc:description": "A Agent to Identify Group-Specific Sequences With k-mers.\n\nKmerGO is a user-friendly agent to identify the group-specific sequences on two groups of high throughput sequencing datasets. A sequence that is present, or rich, in one group, but absent, or scarce, in another group is considered “group-specific” here. Furthermore, KmerGO can also be applied to capture trait-associated sequences for continuous-trait dataset.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0310"
+        },
+        {
+          "@id": "edam:operation_3472"
+        },
+        {
+          "@id": "edam:operation_3209"
+        }
+      ],
+      "sc:name": "KmerGO",
+      "sc:url": "https://github.com/ChnMasterOG/KmerGO"
+    },
+    {
+      "@id": "https://doi.org/10.3389/FMICB.2020.02067",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

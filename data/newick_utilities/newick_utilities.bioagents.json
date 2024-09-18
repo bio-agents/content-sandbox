@@ -1,0 +1,96 @@
+{
+    "additionDate": "2017-12-06T18:14:44Z",
+    "bioagentsCURIE": "bioagents:newick_utilities",
+    "bioagentsID": "newick_utilities",
+    "collectionID": [
+        "Newick Utilities"
+    ],
+    "credit": [
+        {
+            "email": "thomas.junier@unine.ch",
+            "name": "Thomas Junier",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "The Newick Utilities are a set of command-line agents for processing phylogenetic trees. They can process arbitrarily large amounts of data and do not require user interaction, which makes them suitable for automating phylogeny processing tasks.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://cegg.unige.ch/pub/nwutils_tutorial-1.6.pdf"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Phylogenetic tree analysis",
+                    "uri": "http://edamontology.org/operation_0324"
+                },
+                {
+                    "term": "Phylogenetic tree generation",
+                    "uri": "http://edamontology.org/operation_0323"
+                },
+                {
+                    "term": "Phylogenetic tree reconstruction",
+                    "uri": "http://edamontology.org/operation_3478"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://cegg.unige.ch/newick_utils",
+    "lastUpdate": "2019-09-04T08:38:44Z",
+    "name": "Newick Utilities",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "owner": "admin",
+    "publication": [
+        {
+            "doi": "10.1093/bioinformatics/btq243",
+            "metadata": {
+                "abstract": "Summary: We present a suite of UNIX shell programs for processing any number of phylogenetic trees of any size. They perform frequently-used tree operations without requiring user interaction. They also allow tree drawing as scalable vector graphics (SVG), suitable for high-quality presentations and further editing, and as ASCII graphics for command-line inspection. As an example we include an implementation of bootscanning, a procedure for finding recombination breakpoints in viral genomes. Availability: C source code, Python bindings and executables for various platforms are available from http://cegg.unige.ch/newick_utils. The distribution includes a manual and example data. The package is distributed under the BSD License. Contact: thomas.junier@unige.ch. © The Author(s) 2010. Published by Oxford University Press.",
+                "authors": [
+                    {
+                        "name": "Junier T."
+                    },
+                    {
+                        "name": "Zdobnov E.M."
+                    }
+                ],
+                "citationCount": 225,
+                "date": "2010-05-13T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "The Newick utilities: high-throughput phylogenetic tree processing in the UNIX shell"
+            },
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "agentType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Computer science",
+            "uri": "http://edamontology.org/topic_3316"
+        },
+        {
+            "term": "Genomics",
+            "uri": "http://edamontology.org/topic_0622"
+        },
+        {
+            "term": "Phylogeny",
+            "uri": "http://edamontology.org/topic_0084"
+        }
+    ],
+    "validated": 1
+}

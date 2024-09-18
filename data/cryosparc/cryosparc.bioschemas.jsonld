@@ -1,0 +1,88 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1038/nmeth.4169",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/cryosparc",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:Nc636dc87495c480b9d9d7286a45cdd4f"
+      },
+      "bsc:output": {
+        "@id": "_:Nc8b5ab2e2c4b426a9ce1a98934ae62c8"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2814"
+        },
+        {
+          "@id": "edam:topic_0128"
+        },
+        {
+          "@id": "edam:topic_0611"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1038/nmeth.4169"
+      },
+      "sc:description": "A program for rapidly solving high-resolution 3D structures of proteins and drug targets from cryo-electron microscopy data.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0297"
+        },
+        {
+          "@id": "edam:operation_3457"
+        },
+        {
+          "@id": "edam:operation_2949"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Freeware",
+      "sc:name": "cryoSPARC",
+      "sc:operatingSystem": "Linux",
+      "sc:softwareHelp": {
+        "@id": "https://guide.cryosparc.com/?ref=cryosparc"
+      },
+      "sc:url": "https://www.cryosparc.com/"
+    },
+    {
+      "@id": "_:Nc636dc87495c480b9d9d7286a45cdd4f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3424"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3547"
+      },
+      "sc:name": "Raw image"
+    },
+    {
+      "@id": "_:Nc8b5ab2e2c4b426a9ce1a98934ae62c8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1460"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2065"
+      },
+      "sc:name": "Protein structure"
+    }
+  ]
+}

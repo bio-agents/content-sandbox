@@ -1,0 +1,73 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/startscan",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N82daeba91c3646439cdb1ca112f01e25"
+      },
+      "bsc:output": {
+        "@id": "_:Nee4606fa0fae44c889d7863515cbe8d0"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3511"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btm177"
+      },
+      "sc:description": "A agent to detect translation initiation sites in genomic sequences.",
+      "sc:featureList": {
+        "@id": "edam:operation_0439"
+      },
+      "sc:name": "StartScan",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:provider": "ugent.be",
+      "sc:softwareHelp": {
+        "@id": "http://bioinformatics.psb.ugent.be/webagents/startscan/help/"
+      },
+      "sc:softwareVersion": "1",
+      "sc:url": "http://bioinformatics.psb.ugent.be/software/details/StartScan"
+    },
+    {
+      "@id": "_:N82daeba91c3646439cdb1ca112f01e25",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2977"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Nucleic acid sequence"
+    },
+    {
+      "@id": "_:Nee4606fa0fae44c889d7863515cbe8d0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2070"
+      },
+      "sc:name": "Sequence motif (nucleic acid)"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btm177",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

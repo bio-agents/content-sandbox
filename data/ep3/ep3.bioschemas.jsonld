@@ -1,0 +1,76 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/ep3",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N89349bc07ebd4c84b5587e289b319dae"
+      },
+      "bsc:output": {
+        "@id": "_:Ne2504711290247aab88de86ef29f9865"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Desktop application"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3511"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btp191"
+      },
+      "sc:description": "Identification of the core region of a eukaryotic gene promoter.",
+      "sc:featureList": {
+        "@id": "edam:operation_0440"
+      },
+      "sc:name": "EP3",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:provider": "ugent.be",
+      "sc:softwareHelp": {
+        "@id": "http://bioinformatics.psb.ugent.be/webagents/ep3/"
+      },
+      "sc:softwareVersion": "1",
+      "sc:url": "http://bioinformatics.psb.ugent.be/software/details/EP3"
+    },
+    {
+      "@id": "_:Ne2504711290247aab88de86ef29f9865",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2070"
+      },
+      "sc:name": "Sequence motif (nucleic acid)"
+    },
+    {
+      "@id": "_:N89349bc07ebd4c84b5587e289b319dae",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2749"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Genome identifier"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btp191",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

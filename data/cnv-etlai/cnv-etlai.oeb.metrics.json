@@ -1,0 +1,170 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/cnv-etlai",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-10-15T10:08:07.392461Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 4172,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 112,
+                        "serie": [
+                            112
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-10-15T10:08:07.36745Z",
+                "last_month_access": {
+                    "average_access_time": 4876,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://lmic.mgh.harvard.edu/CNV-ETLAI/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:cnv-etlai/db/lmic.mgh.harvard.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-10-15T10:08:07.483297Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1016/j.compbiomed.2022.105332",
+                            "pmid": "35240378",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "A scalable artificial intelligence platform that automatically finds copy number variations (CNVs) in journal articles and transforms them into a database: CNV extraction, transformation, and loading AI (CNV-ETLAI).",
+                            "year": 2022
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 4255,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 112,
+                        "serie": [
+                            112
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-10-15T10:08:07.45629Z",
+                "last_month_access": {
+                    "average_access_time": 4769,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://lmic.mgh.harvard.edu/CNV-ETLAI/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:cnv-etlai/web/lmic.mgh.harvard.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-10-15T10:08:07.365001Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1016/j.compbiomed.2022.105332",
+                            "pmid": "35240378",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "A scalable artificial intelligence platform that automatically finds copy number variations (CNVs) in journal articles and transforms them into a database: CNV extraction, transformation, and loading AI (CNV-ETLAI).",
+                            "year": 2022
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 4124,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 112,
+                        "serie": [
+                            112
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-10-15T10:08:07.340852Z",
+                "last_month_access": {
+                    "average_access_time": 4475,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://lmic.mgh.harvard.edu/CNV-ETLAI/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

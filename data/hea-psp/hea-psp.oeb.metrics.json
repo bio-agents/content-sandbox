@@ -1,0 +1,127 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:hea-psp/cmd/www.cs.gmu.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-07-16T04:09:46.302270Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 1,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                }
+                            ],
+                            "doi": "10.1145/2463372.2463407",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Off-lattice protein structure prediction with homologous crossover",
+                            "year": 2013
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 1492,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 180,
+                        "serie": [
+                            180
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-07-16T04:09:46.239343Z",
+                "last_month_access": {
+                    "average_access_time": 1659,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://cs.gmu.edu/~ashehu/?q=OurAgents"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://cs.gmu.edu/~ashehu/?q=OurAgents"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": false
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/hea-psp",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-07-16T03:58:49.337103Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 1315,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 180,
+                        "serie": [
+                            180
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-07-16T03:58:49.276543Z",
+                "last_month_access": {
+                    "average_access_time": 1364,
+                    "downtime_days": 0,
+                    "uptime_days": 29
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://cs.gmu.edu/~ashehu/?q=OurAgents"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://cs.gmu.edu/~ashehu/?q=OurAgents"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

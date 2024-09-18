@@ -1,0 +1,103 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1080/15427951.2011.604548",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/key_pathway_miner",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Jan Baumbach",
+      "bsc:input": [
+        {
+          "@id": "_:N471c2d52a674441cb6b29142577bca19"
+        },
+        {
+          "@id": "_:Na27e10ec2feb41319c27f19ec28ae5ea"
+        }
+      ],
+      "bsc:output": {
+        "@id": "_:N2531eca4ca8142d7b9f5ef84d6d45ac7"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Desktop application",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2259"
+        },
+        {
+          "@id": "edam:topic_3391"
+        },
+        {
+          "@id": "edam:topic_3360"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1080/15427951.2011.604548"
+      },
+      "sc:description": "Extracts all maximal connected sub-networks that contain the genes that are differentially expressed. The exact quantities are modeled with two easy-to-interpret parameters (K, L) that allows the user to control the number of outliers (not dysregulated genes/cases) in the solutions. We developed two slightly varying models (INES and GLONE) that fall into the class of NP-Hard optimization problems.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0533"
+        },
+        {
+          "@id": "edam:operation_1781"
+        },
+        {
+          "@id": "edam:operation_3501"
+        }
+      ],
+      "sc:name": "Key Pathway Miner",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:provider": "bmb.sdu.dk",
+      "sc:softwareHelp": {
+        "@id": "https://keypathwayminer.compbio.sdu.dk/keypathwayminer/"
+      },
+      "sc:softwareVersion": "4",
+      "sc:url": "http://keypathwayminer.compbio.sdu.dk/"
+    },
+    {
+      "@id": "_:N2531eca4ca8142d7b9f5ef84d6d45ac7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2600"
+      },
+      "sc:name": "Pathway or network"
+    },
+    {
+      "@id": "_:N471c2d52a674441cb6b29142577bca19",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2603"
+      },
+      "sc:name": "Gene expression data"
+    },
+    {
+      "@id": "_:Na27e10ec2feb41319c27f19ec28ae5ea",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2600"
+      },
+      "sc:name": "Pathway or network"
+    }
+  ]
+}

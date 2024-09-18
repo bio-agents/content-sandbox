@@ -1,0 +1,76 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/gbis",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Markus Oppermann",
+      "bsc:input": {
+        "@id": "_:N898d357af6904d20afa1863e5414e6bd"
+      },
+      "bsc:output": {
+        "@id": "_:Nb955db7ae6ea43aeb618c5a72c708ae6"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0780"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.3372/cediatom.116"
+      },
+      "sc:description": "The information system of the German Genebank is a safeguard of plant biodiversity and is an important source of information for plant researchers as well as crop breeders, e.g. for identifying appropriate germplasm for breeding purposes. In addition, the access to genebank material as a sovereign task is also of high interest to the general public.",
+      "sc:featureList": {
+        "@id": "edam:operation_2421"
+      },
+      "sc:name": "GBIS",
+      "sc:operatingSystem": "Linux",
+      "sc:provider": [
+        "ipk",
+        "Leibniz Institute of Plant Genetics and Crop Plant Research (IPK) Gatersleben"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://gbis.ipk-gatersleben.de"
+      },
+      "sc:softwareVersion": "1",
+      "sc:url": "http://gbis.ipk-gatersleben.de"
+    },
+    {
+      "@id": "_:N898d357af6904d20afa1863e5414e6bd",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0968"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Keyword"
+    },
+    {
+      "@id": "_:Nb955db7ae6ea43aeb618c5a72c708ae6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2080"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Database search results"
+    },
+    {
+      "@id": "https://doi.org/10.3372/cediatom.116",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

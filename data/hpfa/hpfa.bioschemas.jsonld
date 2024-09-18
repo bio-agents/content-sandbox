@@ -1,0 +1,73 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/HPfA",
+      "@type": "sc:SoftwareApplication",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Bioinformatics portal",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_0121"
+        },
+        {
+          "@id": "edam:topic_0601"
+        },
+        {
+          "@id": "edam:topic_0089"
+        },
+        {
+          "@id": "edam:topic_3320"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/NAR/GKAB1086"
+        },
+        "pmcid:PMC8728143",
+        "pubmed:34986596"
+      ],
+      "sc:description": "The Human Proteoform Atlas (HPfA) is a web-based repository of experimentally verified human proteoforms and is a direct descendant of the Consortium of Top-Down Proteomics' (CTDP) Proteoform Atlas",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0417"
+        },
+        {
+          "@id": "edam:operation_0224"
+        },
+        {
+          "@id": "edam:operation_3755"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:name": "Human Proteoform Atlas",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://www.proteoform.org/api"
+      },
+      "sc:url": "http://human-proteoform-atlas.org"
+    },
+    {
+      "@id": "https://doi.org/10.1093/NAR/GKAB1086",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

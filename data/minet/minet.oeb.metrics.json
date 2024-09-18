@@ -1,0 +1,2186 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:minet:3.38.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T06:01:32.614218Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 246,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 19,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 34,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 21,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 24,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 28,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 17,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1186/1471-2105-9-461",
+                            "pmcid": "PMC2630331",
+                            "pmid": "18959772",
+                            "ref_count": 44,
+                            "refs": [
+                                {
+                                    "count": 2,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1981"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1988"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "1996"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                }
+                            ],
+                            "title": "minet: A R/Bioconductor package for inferring large transcriptional networks using mutual information.",
+                            "year": 2008
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 254,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-11-19T06:01:32.549884Z",
+                "last_month_access": {
+                    "average_access_time": 257,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:minet:3.40.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T06:07:31.175335Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 246,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 19,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 34,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 21,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 24,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 28,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 17,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1186/1471-2105-9-461",
+                            "pmcid": "PMC2630331",
+                            "pmid": "18959772",
+                            "ref_count": 44,
+                            "refs": [
+                                {
+                                    "count": 2,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1981"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1988"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "1996"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                }
+                            ],
+                            "title": "minet: A R/Bioconductor package for inferring large transcriptional networks using mutual information.",
+                            "year": 2008
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 484,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T06:07:30.841191Z",
+                "last_month_access": {
+                    "average_access_time": 420,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:minet:3.36.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T06:02:56.098201Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 139,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-11-19T02:32:15.966206Z",
+                "last_month_access": {
+                    "average_access_time": 154,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:minet:3.42.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T05:43:16.452033Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 246,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 19,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 34,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 21,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 24,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 28,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 17,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1186/1471-2105-9-461",
+                            "pmcid": "PMC2630331",
+                            "pmid": "18959772",
+                            "ref_count": 44,
+                            "refs": [
+                                {
+                                    "count": 2,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1981"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1988"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "1996"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                }
+                            ],
+                            "title": "minet: A R/Bioconductor package for inferring large transcriptional networks using mutual information.",
+                            "year": 2008
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 356,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T05:43:16.392607Z",
+                "last_month_access": {
+                    "average_access_time": 372,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:minet:3.32.0/lib/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-11-19T06:08:22.455335Z",
+        "@type": "metrics",
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "manual": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 246,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 19,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 34,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 21,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 24,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 28,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 17,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1186/1471-2105-9-461",
+                            "pmcid": "PMC2630331",
+                            "pmid": "18959772",
+                            "ref_count": 44,
+                            "refs": [
+                                {
+                                    "count": 2,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1981"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1988"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "1996"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                }
+                            ],
+                            "title": "minet: A R/Bioconductor package for inferring large transcriptional networks using mutual information.",
+                            "year": 2008
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 242,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-11-19T05:50:04.319393Z",
+                "last_month_access": {
+                    "average_access_time": 209,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:minet:3.32.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-11-19T05:50:04.390427Z",
+        "@type": "metrics",
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "manual": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 246,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 19,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 34,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 21,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 24,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 28,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 17,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1186/1471-2105-9-461",
+                            "pmcid": "PMC2630331",
+                            "pmid": "18959772",
+                            "ref_count": 44,
+                            "refs": [
+                                {
+                                    "count": 2,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1981"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1988"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "1996"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                }
+                            ],
+                            "title": "minet: A R/Bioconductor package for inferring large transcriptional networks using mutual information.",
+                            "year": 2008
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 242,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-11-19T05:50:04.319393Z",
+                "last_month_access": {
+                    "average_access_time": 209,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/minet",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-11-19T06:04:26.398272Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 242,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-11-19T05:50:04.319393Z",
+                "last_month_access": {
+                    "average_access_time": 209,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:minet:3.44.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T09:33:16.467574Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 246,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 19,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 34,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 21,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 24,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 28,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 17,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1186/1471-2105-9-461",
+                            "pmcid": "PMC2630331",
+                            "pmid": "18959772",
+                            "ref_count": 44,
+                            "refs": [
+                                {
+                                    "count": 2,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1981"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1988"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "1996"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                }
+                            ],
+                            "title": "minet: A R/Bioconductor package for inferring large transcriptional networks using mutual information.",
+                            "year": 2008
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 131,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T09:33:16.182297Z",
+                "last_month_access": {
+                    "average_access_time": 139,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:minet:3.46.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T09:34:36.106622Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 246,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 19,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 34,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 21,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 24,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 28,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 17,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1186/1471-2105-9-461",
+                            "pmcid": "PMC2630331",
+                            "pmid": "18959772",
+                            "ref_count": 44,
+                            "refs": [
+                                {
+                                    "count": 2,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1981"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1988"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "1996"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                }
+                            ],
+                            "title": "minet: A R/Bioconductor package for inferring large transcriptional networks using mutual information.",
+                            "year": 2008
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 123,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T09:34:36.050367Z",
+                "last_month_access": {
+                    "average_access_time": 152,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:minet:3.48.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T09:36:25.290076Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 246,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 19,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 34,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 21,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 24,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 28,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 17,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1186/1471-2105-9-461",
+                            "pmcid": "PMC2630331",
+                            "pmid": "18959772",
+                            "ref_count": 44,
+                            "refs": [
+                                {
+                                    "count": 2,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1981"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1988"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "1996"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                }
+                            ],
+                            "title": "minet: A R/Bioconductor package for inferring large transcriptional networks using mutual information.",
+                            "year": 2008
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 126,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T09:36:25.031152Z",
+                "last_month_access": {
+                    "average_access_time": 143,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:minet:3.50.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T10:10:30.745647Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 246,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 19,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 34,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 21,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 24,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 28,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 17,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1186/1471-2105-9-461",
+                            "pmcid": "PMC2630331",
+                            "pmid": "18959772",
+                            "ref_count": 44,
+                            "refs": [
+                                {
+                                    "count": 2,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1981"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1988"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "1996"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                }
+                            ],
+                            "title": "minet: A R/Bioconductor package for inferring large transcriptional networks using mutual information.",
+                            "year": 2008
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 231,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T10:10:30.695578Z",
+                "last_month_access": {
+                    "average_access_time": 137,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:minet:3.52.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T10:28:02.146605Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 246,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 19,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 34,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 21,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 24,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 28,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 17,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1186/1471-2105-9-461",
+                            "pmcid": "PMC2630331",
+                            "pmid": "18959772",
+                            "ref_count": 44,
+                            "refs": [
+                                {
+                                    "count": 2,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1981"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1988"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "1996"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                }
+                            ],
+                            "title": "minet: A R/Bioconductor package for inferring large transcriptional networks using mutual information.",
+                            "year": 2008
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 140,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 183,
+                        "serie": [
+                            183
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T10:28:02.104308Z",
+                "last_month_access": {
+                    "average_access_time": 220,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:minet:3.56.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T11:06:15.850133Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 246,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 19,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 34,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 21,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 24,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 28,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 17,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 18,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 14,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1186/1471-2105-9-461",
+                            "pmcid": "PMC2630331",
+                            "pmid": "18959772",
+                            "ref_count": 44,
+                            "refs": [
+                                {
+                                    "count": 2,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1981"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1988"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "1996"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2008"
+                                }
+                            ],
+                            "title": "minet: A R/Bioconductor package for inferring large transcriptional networks using mutual information.",
+                            "year": 2008
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 145,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 14,
+                        "serie": [
+                            14
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T11:06:15.624799Z",
+                "last_month_access": {
+                    "average_access_time": 147,
+                    "downtime_days": 0,
+                    "uptime_days": 14
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

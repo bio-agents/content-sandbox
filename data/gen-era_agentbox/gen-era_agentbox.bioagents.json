@@ -1,0 +1,29 @@
+{
+    "accessibility": "Open access",
+    "additionDate": "2023-01-12T15:38:53.335761Z",
+    "bioagentsCURIE": "bioagents:gen-era_agentbox",
+    "bioagentsID": "gen-era_agentbox",
+    "cost": "Free of charge",
+    "description": "The GEN-ERA agentbox can be used to infer completely reproducible comparative genomic and metabolic analyses on prokaryotes and small eukaryotes.",
+    "editPermission": {
+        "type": "private"
+    },
+    "homepage": "https://github.com/Lcornet/GENERA",
+    "lastUpdate": "2023-01-12T15:40:43.463894Z",
+    "license": "GPL-3.0",
+    "maturity": "Mature",
+    "name": "GEN-ERA agentbox",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "owner": "Lcornet",
+    "agentType": [
+        "Workflow"
+    ],
+    "topic": [
+        {
+            "term": "Computational biology",
+            "uri": "http://edamontology.org/topic_3307"
+        }
+    ]
+}

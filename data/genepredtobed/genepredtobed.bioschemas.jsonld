@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/genepredtobed",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N3ef22b8c7d8e4f9bb5783f968bf2a8d2"
+      },
+      "bsc:output": {
+        "@id": "_:Nc33e383e7880487fa2219beaf87ace8c"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:description": "Convert genePred file to a bed file",
+      "sc:featureList": {
+        "@id": "edam:operation_3267"
+      },
+      "sc:name": "genepredtobed",
+      "sc:softwareVersion": "377",
+      "sc:url": "https://github.com/ENCODE-DCC/kentUtils/blob/master/src/utils/genePredToBed/genePredToBed"
+    },
+    {
+      "@id": "_:N3ef22b8c7d8e4f9bb5783f968bf2a8d2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3002"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3011"
+      },
+      "sc:name": "Annotation track"
+    },
+    {
+      "@id": "_:Nc33e383e7880487fa2219beaf87ace8c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3002"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3003"
+      },
+      "sc:name": "Annotation track"
+    }
+  ]
+}

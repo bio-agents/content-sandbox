@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/compomics-sigpep",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N2dd1e7267d614df6ac210b8f8634075e"
+      },
+      "bsc:output": {
+        "@id": "_:N40a0092e195c4b9c8296d71418d11a47"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Workbench",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0121"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1002/pmic.201100566"
+      },
+      "sc:description": "Predicting peptide signatures for targeted proteomics.",
+      "sc:featureList": {
+        "@id": "edam:operation_0239"
+      },
+      "sc:license": "Apache-2.0",
+      "sc:name": "Compomics-sigpep",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:provider": "ugent.be",
+      "sc:softwareHelp": {
+        "@id": "https://github.com/compomics/compomics-sigpep"
+      },
+      "sc:softwareVersion": "1.0",
+      "sc:url": "https://github.com/compomics/compomics-sigpep"
+    },
+    {
+      "@id": "_:N2dd1e7267d614df6ac210b8f8634075e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "_:N40a0092e195c4b9c8296d71418d11a47",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1355"
+      },
+      "sc:name": "Protein signature"
+    },
+    {
+      "@id": "https://doi.org/10.1002/pmic.201100566",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

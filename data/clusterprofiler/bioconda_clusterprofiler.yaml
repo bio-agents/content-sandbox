@@ -1,0 +1,11 @@
+bioagents_id: clusterprofiler
+description: This package implements methods to analyze and visualize functional profiles
+  (GO and KEGG) of gene and gene clusters.
+home: https://bioconductor.org/packages/3.12/bioc/html/clusterProfiler.html
+identifiers:
+- bioagents:clusterprofiler
+license: Artistic-2.0
+name: bioconductor-clusterprofiler
+summary: statistical analysis and visualization of functional profiles for genes and
+  gene clusters
+version: 3.18.0

@@ -1,0 +1,26 @@
+{
+    "additionDate": "2019-02-15T14:21:12Z",
+    "bioagentsCURIE": "bioagents:pagents",
+    "bioagentsID": "pagents",
+    "collectionID": [
+        "pagents "
+    ],
+    "description": "Parallelised versions of various agents.",
+    "editPermission": {
+        "type": "private"
+    },
+    "homepage": "https://bioweb.pasteur.fr/packages/pack@pagents@0.99d",
+    "lastUpdate": "2019-02-15T14:21:12Z",
+    "name": "pagents",
+    "owner": "jison",
+    "agentType": [
+        "Command-line agent"
+    ],
+    "topic": [
+        {
+            "term": "Sequence analysis",
+            "uri": "http://edamontology.org/topic_0080"
+        }
+    ],
+    "validated": 1
+}

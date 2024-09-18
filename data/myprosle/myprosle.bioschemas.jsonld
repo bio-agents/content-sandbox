@@ -1,0 +1,105 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/myprosle",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N8b42f5019fc847acbac616c6640c2f3d"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:N0eef637e92224dff9b4e525de10fa476"
+        },
+        {
+          "@id": "_:N970c3c001a29440e8850c448f6397a61"
+        },
+        {
+          "@id": "_:N197035f567ab47e3bdb0758a0c381952"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0804"
+        },
+        {
+          "@id": "edam:topic_3379"
+        },
+        {
+          "@id": "edam:topic_3308"
+        }
+      ],
+      "sc:description": "MyPROSLE was developed with the aim of bringing molecular information from patients to clinical practice. For this, we have created a new methodology to summarize the transcriptome of individual patients in a series of biological functions or gene-modules, which were later used to predict up to a total of 111 different clinical outcomes, including clinical manifestations, laboratory measurements, cytokine levels, autoantibodies, cell percentages, nearby disease flares and response to drugs.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3929"
+        },
+        {
+          "@id": "edam:operation_3928"
+        },
+        {
+          "@id": "edam:operation_2495"
+        },
+        {
+          "@id": "edam:operation_2437"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:name": "MyPROSLE",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:url": "https://myprosle.genyo.es/"
+    },
+    {
+      "@id": "_:N8b42f5019fc847acbac616c6640c2f3d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3112"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1964"
+      },
+      "sc:name": "Gene expression matrix"
+    },
+    {
+      "@id": "_:N0eef637e92224dff9b4e525de10fa476",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:N970c3c001a29440e8850c448f6397a61",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1772"
+      },
+      "sc:name": "Score"
+    },
+    {
+      "@id": "_:N197035f567ab47e3bdb0758a0c381952",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2082"
+      },
+      "sc:name": "Matrix"
+    }
+  ]
+}

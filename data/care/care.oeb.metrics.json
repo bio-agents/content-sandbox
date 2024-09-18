@@ -1,0 +1,359 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:care/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-11-19T09:46:11.895965Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": false,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 3,
+                            "citations": [
+                                {
+                                    "count": 3,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btaa738",
+                            "pmid": "32818262",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "CARE: context-aware sequencing read error correction.",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 92,
+                        "serie": [
+                            1,
+                            1,
+                            5,
+                            2,
+                            2,
+                            1,
+                            2,
+                            2,
+                            1,
+                            2,
+                            1,
+                            1,
+                            3,
+                            6,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            4,
+                            2,
+                            2,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            12,
+                            4,
+                            1,
+                            6,
+                            4,
+                            2,
+                            2,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 90,
+                        "serie": [
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            2,
+                            3,
+                            2,
+                            1,
+                            1,
+                            5,
+                            2,
+                            4,
+                            4,
+                            1,
+                            3,
+                            2,
+                            7,
+                            2,
+                            1,
+                            1,
+                            2,
+                            4,
+                            1,
+                            1,
+                            3,
+                            4,
+                            2,
+                            1,
+                            2,
+                            2,
+                            1,
+                            1,
+                            1,
+                            2,
+                            2,
+                            2,
+                            2,
+                            1,
+                            3,
+                            1,
+                            3,
+                            1,
+                            1
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T09:46:11.577448Z",
+                "last_month_access": {
+                    "average_access_time": 536,
+                    "downtime_days": 15,
+                    "uptime_days": 15
+                },
+                "license": false,
+                "operational": 429,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT3119407S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/care",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-11-19T09:46:11.692740Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 93,
+                        "serie": [
+                            1,
+                            1,
+                            5,
+                            2,
+                            2,
+                            1,
+                            2,
+                            2,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            3,
+                            6,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            4,
+                            2,
+                            2,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            12,
+                            4,
+                            1,
+                            6,
+                            4,
+                            2,
+                            2,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
+                    },
+                    {
+                        "days": 89,
+                        "serie": [
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            2,
+                            3,
+                            1,
+                            1,
+                            1,
+                            5,
+                            2,
+                            4,
+                            4,
+                            1,
+                            3,
+                            2,
+                            7,
+                            2,
+                            1,
+                            1,
+                            2,
+                            4,
+                            1,
+                            1,
+                            3,
+                            4,
+                            2,
+                            1,
+                            2,
+                            2,
+                            1,
+                            1,
+                            1,
+                            2,
+                            2,
+                            2,
+                            2,
+                            1,
+                            3,
+                            1,
+                            3,
+                            1,
+                            1
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T09:46:11.577423Z",
+                "last_month_access": {
+                    "average_access_time": 585,
+                    "downtime_days": 15,
+                    "uptime_days": 15
+                },
+                "license": false,
+                "operational": 429,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT3119407S"
+            }
+        }
+    }
+]

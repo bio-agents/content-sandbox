@@ -1,0 +1,170 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/OpenSWATH",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:N10b24e4085e744128c3669f756008ca3"
+        },
+        {
+          "@id": "_:Na92f4eebe9274138b2f64cca2124b7ef"
+        },
+        {
+          "@id": "_:N311b9d5aaeb84b48a63dfa7f8e97a0a7"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N0954e77f74d84afcb40be3294c5341f2"
+        },
+        {
+          "@id": "_:N47f7eaa10d0e41008c689d24f804802d"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3520"
+        },
+        {
+          "@id": "edam:topic_0121"
+        }
+      ],
+      "sc:citation": "pubmed:24727770",
+      "sc:description": "OpenSWATH is a proteomics software that allows analysis of LC-MS/MS DIA (data independent acquisition) and implemented as part of OpenMS.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3203"
+        },
+        {
+          "@id": "edam:operation_3649"
+        },
+        {
+          "@id": "edam:operation_3628"
+        },
+        {
+          "@id": "edam:operation_0335"
+        },
+        {
+          "@id": "edam:operation_3215"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "BSD-3-Clause",
+      "sc:name": "OpenSWATH",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://buildmedia.readthedocs.org/media/pdf/openswath/latest/openswath.pdf"
+      },
+      "sc:softwareVersion": "OpenMS 2.4.0",
+      "sc:url": "http://www.openswath.org"
+    },
+    {
+      "@id": "_:N0954e77f74d84afcb40be3294c5341f2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3244"
+        },
+        {
+          "@id": "edam:format_3654"
+        },
+        {
+          "@id": "edam:format_3621"
+        }
+      ],
+      "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "_:N47f7eaa10d0e41008c689d24f804802d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0944"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3621"
+        },
+        {
+          "@id": "edam:format_3833"
+        },
+        {
+          "@id": "edam:format_3475"
+        }
+      ],
+      "sc:name": "Peptide mass fingerprint"
+    },
+    {
+      "@id": "_:N10b24e4085e744128c3669f756008ca3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3108"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3710"
+        },
+        {
+          "@id": "edam:format_3245"
+        }
+      ],
+      "sc:name": "Experimental measurement"
+    },
+    {
+      "@id": "_:Na92f4eebe9274138b2f64cca2124b7ef",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3621"
+        },
+        {
+          "@id": "edam:format_3244"
+        },
+        {
+          "@id": "edam:format_3654"
+        }
+      ],
+      "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "_:N311b9d5aaeb84b48a63dfa7f8e97a0a7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0943"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3475"
+        },
+        {
+          "@id": "edam:format_3246"
+        }
+      ],
+      "sc:name": "Mass spectrometry spectra"
+    }
+  ]
+}

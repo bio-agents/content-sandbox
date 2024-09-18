@@ -1,0 +1,136 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gkt1144",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/modbase",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:N473924c1ccba4e9196b1ea093dd1046f"
+        },
+        {
+          "@id": "_:N1412871899e84e03a86810a88aa14f74"
+        },
+        {
+          "@id": "_:N979ce3c21f064b748c58acca8f392ea3"
+        },
+        {
+          "@id": "_:Ne8c53593b8394f44a35cb5eab3d1ba17"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N98f0f644ae604113a40e139426745eae"
+        },
+        {
+          "@id": "_:Nc68b9fed1da1484d9915c04f7e1abe43"
+        },
+        {
+          "@id": "_:N0256f6be44b24c1f8364a1dc22c32fba"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_2814"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gkt1144"
+      },
+      "sc:description": "Three-dimensional protein models calculated by comparative modelling.",
+      "sc:featureList": {
+        "@id": "edam:operation_0224"
+      },
+      "sc:name": "ModBase",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://modbase.compbio.ucsf.edu/modbase-cgi/display.cgi?type=help&server=modbase"
+      },
+      "sc:url": "http://modbase.compbio.ucsf.edu/modbase-cgi/index.cgi"
+    },
+    {
+      "@id": "_:N473924c1ccba4e9196b1ea093dd1046f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1106"
+      },
+      "sc:name": "dbSNP ID"
+    },
+    {
+      "@id": "_:N1412871899e84e03a86810a88aa14f74",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3021"
+      },
+      "sc:name": "UniProt accession"
+    },
+    {
+      "@id": "_:N979ce3c21f064b748c58acca8f392ea3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3021"
+      },
+      "sc:name": "UniProt accession"
+    },
+    {
+      "@id": "_:Ne8c53593b8394f44a35cb5eab3d1ba17",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3021"
+      },
+      "sc:name": "UniProt accession"
+    },
+    {
+      "@id": "_:N98f0f644ae604113a40e139426745eae",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3498"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Sequence variations"
+    },
+    {
+      "@id": "_:Nc68b9fed1da1484d9915c04f7e1abe43",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1537"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Protein structure report"
+    },
+    {
+      "@id": "_:N0256f6be44b24c1f8364a1dc22c32fba",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3498"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Sequence variations"
+    }
+  ]
+}

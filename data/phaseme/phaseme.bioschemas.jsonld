@@ -1,0 +1,106 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/phaseme",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:N5603ac4e2a28445da01a7a9de2f91de0"
+        },
+        {
+          "@id": "_:Ncec3e071a9f04a0b8cf8d41f7336172c"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N894d08c07625498d878c7dc16819bfc5"
+        },
+        {
+          "@id": "_:N6a0475ad644d4bf895c6995201290eb0"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Desktop application",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_0199"
+        }
+      ],
+      "sc:author": "Sina Majidian",
+      "sc:contributor": "Fritz Sedlazeck",
+      "sc:description": "PhaseME is a agent set to assess the quality of the per read phasing information and help to reduce the errors during this process.",
+      "sc:featureList": {
+        "@id": "edam:operation_0004"
+      },
+      "sc:license": "MIT",
+      "sc:name": "PhaseME",
+      "sc:operatingSystem": "Linux",
+      "sc:softwareHelp": {
+        "@id": "https://github.com/smajidian/phaseme"
+      },
+      "sc:url": "https://github.com/smajidian/phaseme"
+    },
+    {
+      "@id": "_:N894d08c07625498d878c7dc16819bfc5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2526"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Text data"
+    },
+    {
+      "@id": "_:N6a0475ad644d4bf895c6995201290eb0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3016"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N5603ac4e2a28445da01a7a9de2f91de0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3016"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:Ncec3e071a9f04a0b8cf8d41f7336172c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3016"
+      },
+      "sc:name": "Data"
+    }
+  ]
+}

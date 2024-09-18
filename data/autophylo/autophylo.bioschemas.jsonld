@@ -1,0 +1,59 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/autophylo",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N16852e7c427f4f9eabdae58f5a68a028"
+      },
+      "bsc:output": {
+        "@id": "_:N7e9cf7a256dc4ea6b114b75e32dc1def"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3293"
+      },
+      "sc:description": "An automatic pipeline for phylogenetic analysis.",
+      "sc:featureList": {
+        "@id": "edam:operation_0323"
+      },
+      "sc:name": "Autophylo",
+      "sc:operatingSystem": "Linux",
+      "sc:provider": "bils.se",
+      "sc:softwareHelp": {
+        "@id": "https://code.google.com/archive/p/autophylo/"
+      },
+      "sc:softwareVersion": "1",
+      "sc:url": "http://code.google.com/p/autophylo/"
+    },
+    {
+      "@id": "_:N16852e7c427f4f9eabdae58f5a68a028",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2886"
+      },
+      "sc:name": "Protein sequence record"
+    },
+    {
+      "@id": "_:N7e9cf7a256dc4ea6b114b75e32dc1def",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0872"
+      },
+      "sc:name": "Phylogenetic tree"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/tppred_3.0",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Castrense Savojardo",
+      "bsc:input": {
+        "@id": "_:N819fe754e8b44dfa83ada8a53a7af44a"
+      },
+      "bsc:output": {
+        "@id": "_:N05013d782ee24c9ea05f12fddc634fcb"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3474"
+        },
+        {
+          "@id": "edam:topic_0140"
+        },
+        {
+          "@id": "edam:topic_0154"
+        },
+        {
+          "@id": "edam:topic_3510"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btv367"
+      },
+      "sc:description": "Organelle-targeting peptide detection and cleavage-site prediction.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3092"
+        },
+        {
+          "@id": "edam:operation_2489"
+        },
+        {
+          "@id": "edam:operation_0422"
+        }
+      ],
+      "sc:name": "TPpred 3.0",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:provider": "IECHOR-ITA-BOLOGNA",
+      "sc:softwareHelp": {
+        "@id": "https://tppred3.biocomp.unibo.it/tppred3/default/help"
+      },
+      "sc:softwareVersion": "3",
+      "sc:url": "http://tppred3.biocomp.unibo.it/tppred3"
+    },
+    {
+      "@id": "_:N819fe754e8b44dfa83ada8a53a7af44a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2974"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Protein sequence (raw)"
+    },
+    {
+      "@id": "_:N05013d782ee24c9ea05f12fddc634fcb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0896"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Protein report"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btv367",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

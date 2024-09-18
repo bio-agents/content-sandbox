@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.agents/rescue-ese",
+  "@type": "sc:SoftwareApplication",
+  "bioagents:primaryContact": [
+    "Gene Yeo",
+    "Ru-Fang Yeh",
+    "Will Fairbrother"
+  ],
+  "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_3512"
+    },
+    {
+      "@id": "edam:topic_3320"
+    },
+    {
+      "@id": "edam:topic_0749"
+    }
+  ],
+  "sc:citation": [
+    "pubmed:15215377",
+    "pubmed:12114529"
+  ],
+  "sc:description": "Server for the identification of hexnucleotide exonic splicing enhancers (ESEs).  Also contains a list of 238 identified ESEs for human genes.",
+  "sc:featureList": {
+    "@id": "edam:operation_0446"
+  },
+  "sc:name": "Rescue-ESE",
+  "sc:operatingSystem": [
+    "Windows",
+    "Mac",
+    "Linux"
+  ],
+  "sc:url": "http://hollywood.mit.edu/burgelab/rescue-ese/"
+}

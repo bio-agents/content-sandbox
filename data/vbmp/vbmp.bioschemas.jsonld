@@ -1,0 +1,65 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btm535",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/vbmp",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Nicola Lama",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Library",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3473"
+        },
+        {
+          "@id": "edam:topic_2269"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btm535"
+      },
+      "sc:description": "The package implements multinomial probit regression with Gaussian Process priors and\nestimates class membership posterior probability employing variational and sparse approximation\nto the full posterior.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2409"
+        },
+        {
+          "@id": "edam:operation_3659"
+        },
+        {
+          "@id": "edam:operation_3664"
+        }
+      ],
+      "sc:license": "GPL-2.0",
+      "sc:name": "vbmp",
+      "sc:operatingSystem": [
+        "Mac",
+        "Windows",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/vbmp.html"
+      },
+      "sc:softwareVersion": "1.46.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/vbmp.html"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+    "additionDate": "2019-02-15T14:02:12Z",
+    "bioagentsCURIE": "bioagents:pf1-agents",
+    "bioagentsID": "pf1-agents",
+    "collectionID": [
+        "pf1-agents"
+    ],
+    "description": "Scripts for sequence file handling.",
+    "editPermission": {
+        "type": "private"
+    },
+    "homepage": "https://bioweb.pasteur.fr/packages/pack@pf1-agents@0.1",
+    "language": [
+        "Perl"
+    ],
+    "lastUpdate": "2019-02-15T14:02:12Z",
+    "name": "pf1-agents",
+    "owner": "jison",
+    "agentType": [
+        "Script"
+    ],
+    "topic": [
+        {
+            "term": "Sequence analysis",
+            "uri": "http://edamontology.org/topic_0080"
+        }
+    ],
+    "validated": 1
+}

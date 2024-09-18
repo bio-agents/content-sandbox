@@ -1,0 +1,72 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/virvarseq",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N1d5e34a8bf3840dabe8e9ea2b449f296"
+      },
+      "bsc:output": {
+        "@id": "_:N32c5b9e8df8f4e35ad15cd9a0d7ea579"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0080"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btu587"
+      },
+      "sc:description": "A low-frequency virus variant detection pipeline for Illumina sequencing using adaptive base-calling accuracy filtering.",
+      "sc:featureList": {
+        "@id": "edam:operation_3227"
+      },
+      "sc:name": "VirVarSeq",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac"
+      ],
+      "sc:provider": "ugent.be",
+      "sc:softwareHelp": {
+        "@id": "https://sourceforge.net/p/viragents/wiki/Home/"
+      },
+      "sc:softwareVersion": "1",
+      "sc:url": "https://sourceforge.net/projects/viragents/"
+    },
+    {
+      "@id": "_:N32c5b9e8df8f4e35ad15cd9a0d7ea579",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0850"
+      },
+      "sc:name": "Sequence set"
+    },
+    {
+      "@id": "_:N1d5e34a8bf3840dabe8e9ea2b449f296",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3494"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2545"
+      },
+      "sc:name": "DNA sequence"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btu587",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

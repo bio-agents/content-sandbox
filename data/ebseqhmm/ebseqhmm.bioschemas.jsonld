@@ -1,0 +1,130 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/ebseqhmm",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Ning Leng",
+      "bsc:input": {
+        "@id": "_:N134e98b0b54c4e97953e8f1f273d1f0d"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:N7117370a2489412885f385af6cf02016"
+        },
+        {
+          "@id": "_:N881b11d6f7644f218f4cf32d32007812"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Library",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3170"
+        },
+        {
+          "@id": "edam:topic_0602"
+        },
+        {
+          "@id": "edam:topic_2269"
+        },
+        {
+          "@id": "edam:topic_0203"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btv193"
+      },
+      "sc:description": "This package implements an auto-regressive hidden Markov model for statistical analysis in ordered RNA-seq experiments (e.g. time course or spatial course data). It provides functions to identify genes and isoforms that have non-constant expression profile over the time points/positions, and cluster them into expression paths.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3223"
+        },
+        {
+          "@id": "edam:operation_3565"
+        },
+        {
+          "@id": "edam:operation_0313"
+        }
+      ],
+      "sc:license": "Artistic-2.0",
+      "sc:name": "EBSeqHMM",
+      "sc:operatingSystem": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/EBSeqHMM.html"
+      },
+      "sc:softwareVersion": "1.8.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/EBSeqHMM.html"
+    },
+    {
+      "@id": "_:N7117370a2489412885f385af6cf02016",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:N881b11d6f7644f218f4cf32d32007812",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:N134e98b0b54c4e97953e8f1f273d1f0d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0928"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_2058"
+        }
+      ],
+      "sc:name": "Gene expression profile"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btv193",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

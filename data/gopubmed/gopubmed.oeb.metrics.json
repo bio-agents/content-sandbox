@@ -1,0 +1,177 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:gopubmed/web/www.gopubmed.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-10-15T03:36:40.253283Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 215,
+                            "citations": [
+                                {
+                                    "count": 7,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 11,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 23,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 22,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 13,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 20,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 24,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 13,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1093/nar/gki470",
+                            "pmcid": "PMC1160231",
+                            "pmid": "15980585",
+                            "ref_count": 6,
+                            "refs": [
+                                {
+                                    "count": 2,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2004"
+                                }
+                            ],
+                            "title": "GoPubMed: exploring PubMed with the Gene Ontology.",
+                            "year": 2005
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-10-15T03:36:40.19424Z",
+                "last_month_access": {
+                    "downtime_days": 29,
+                    "uptime_days": 0
+                },
+                "license": false,
+                "operational": 408,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/gopubmed",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-10-15T03:38:00.895481Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 182,
+                        "serie": [
+                            182
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-10-15T03:36:40.19424Z",
+                "last_month_access": {
+                    "downtime_days": 29,
+                    "uptime_days": 0
+                },
+                "license": false,
+                "operational": 408,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

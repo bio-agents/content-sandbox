@@ -1,0 +1,108 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/circbase",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:Nbc46dae11f4d4805a05a10ca935de636"
+        },
+        {
+          "@id": "_:N4ee9b64d71f34c8d8dde77d53fb6b0fe"
+        },
+        {
+          "@id": "_:Nb9e951e2afa34200b5e3fa01fc94c6d8"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N89f096c788154de28ce78755bc98fbbf"
+        },
+        {
+          "@id": "_:N042cb2c95c0142f28a80108e988e57df"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0099"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1261/rna.043687.113"
+      },
+      "sc:description": "Explore public circRNA datasets and download agents to discover circRNAs in RNA-seq data.",
+      "sc:featureList": {
+        "@id": "edam:operation_2421"
+      },
+      "sc:name": "circBase",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://www.circbase.org/doc/help_mod.html"
+      },
+      "sc:url": "http://www.circbase.org/"
+    },
+    {
+      "@id": "_:N89f096c788154de28ce78755bc98fbbf",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3496"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "RNA sequence (raw)"
+    },
+    {
+      "@id": "_:N042cb2c95c0142f28a80108e988e57df",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1270"
+      },
+      "sc:name": "Feature table"
+    },
+    {
+      "@id": "_:Nbc46dae11f4d4805a05a10ca935de636",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0842"
+      },
+      "sc:name": "Identifier"
+    },
+    {
+      "@id": "_:N4ee9b64d71f34c8d8dde77d53fb6b0fe",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2012"
+      },
+      "sc:name": "Sequence coordinates"
+    },
+    {
+      "@id": "_:Nb9e951e2afa34200b5e3fa01fc94c6d8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0916"
+      },
+      "sc:name": "Gene report"
+    },
+    {
+      "@id": "https://doi.org/10.1261/rna.043687.113",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

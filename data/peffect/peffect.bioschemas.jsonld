@@ -1,0 +1,94 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/peffect",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N5a1af35b621347ceabb63b14f1fbed51"
+      },
+      "bsc:output": {
+        "@id": "_:Nf4cdc5e17c834bfeb7037aad7e29adbf"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3510"
+        },
+        {
+          "@id": "edam:topic_0080"
+        }
+      ],
+      "sc:author": "Tatyana Goldberg",
+      "sc:citation": {
+        "@id": "https://doi.org/10.1038/srep34516"
+      },
+      "sc:contributor": [
+        "Yana Bromberg",
+        "Alexander von Humboldt foundation through the German Federal Ministry for Education and Research",
+        "Ernst Ludwig Ehrlich Studienwerk",
+        "Burkhard Rost"
+      ],
+      "sc:description": "Prediction of type III effector proteins from protein sequence.",
+      "sc:featureList": {
+        "@id": "edam:operation_1777"
+      },
+      "sc:funder": [
+        "Alexander von Humboldt foundation through the German Federal Ministry for Education and Research",
+        "Ernst Ludwig Ehrlich Studienwerk"
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "GPL-2.0",
+      "sc:name": "pEffect",
+      "sc:operatingSystem": "Linux",
+      "sc:provider": [
+        "Rutgers University",
+        "Technical University of Munich",
+        "RostLab"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://rostlab.org/owiki/index.php/PEffect"
+      },
+      "sc:softwareVersion": "0.0.1",
+      "sc:url": "https://rostlab.org/services/peffect/"
+    },
+    {
+      "@id": "_:Nf4cdc5e17c834bfeb7037aad7e29adbf",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1255"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "Sequence features"
+    },
+    {
+      "@id": "_:N5a1af35b621347ceabb63b14f1fbed51",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2974"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2200"
+      },
+      "sc:name": "Protein sequence (raw)"
+    },
+    {
+      "@id": "https://doi.org/10.1038/srep34516",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

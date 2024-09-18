@@ -1,0 +1,133 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1038/nmeth.3252",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/decipher",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Erik Wright",
+      "bsc:input": [
+        {
+          "@id": "_:N27877eb10367498a922d6491849bba00"
+        },
+        {
+          "@id": "_:Nc5ab6a9eda6b4619ac132689cf4ee5b5"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N456bfa31dce54cd1baca00437e8b36af"
+        },
+        {
+          "@id": "_:Nd233235f5a8a469e977e3ad0233c959d"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Library"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0092"
+        },
+        {
+          "@id": "edam:topic_0121"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1038/nmeth.3252"
+      },
+      "sc:description": "A agentset for deciphering and managing biological sequences.",
+      "sc:featureList": {
+        "@id": "edam:operation_2403"
+      },
+      "sc:license": "GPL-3.0",
+      "sc:name": "DECIPHER",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/DECIPHER.html"
+      },
+      "sc:softwareVersion": "2.2.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/DECIPHER.html"
+    },
+    {
+      "@id": "_:N456bfa31dce54cd1baca00437e8b36af",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3547"
+      },
+      "sc:name": "Sequence"
+    },
+    {
+      "@id": "_:Nd233235f5a8a469e977e3ad0233c959d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3547"
+      },
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:N27877eb10367498a922d6491849bba00",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3495"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1929"
+        },
+        {
+          "@id": "edam:format_1936"
+        },
+        {
+          "@id": "edam:format_1930"
+        }
+      ],
+      "sc:name": "RNA sequence"
+    },
+    {
+      "@id": "_:Nc5ab6a9eda6b4619ac132689cf4ee5b5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3494"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1936"
+        },
+        {
+          "@id": "edam:format_1929"
+        },
+        {
+          "@id": "edam:format_1930"
+        }
+      ],
+      "sc:name": "DNA sequence"
+    }
+  ]
+}

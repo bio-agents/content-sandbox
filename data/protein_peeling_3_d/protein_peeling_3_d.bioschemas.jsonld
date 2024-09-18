@@ -1,0 +1,69 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.agents/protein_peeling_3_d",
+  "@type": "sc:SoftwareApplication",
+  "bioagents:primaryContact": "Jean-Christophe Gelly",
+  "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0736"
+    },
+    {
+      "@id": "edam:topic_2814"
+    },
+    {
+      "@id": "edam:topic_0078"
+    },
+    {
+      "@id": "edam:topic_3542"
+    },
+    {
+      "@id": "edam:topic_0082"
+    }
+  ],
+  "sc:citation": [
+    "pubmed:16845113",
+    "pubmed:21075745",
+    "pubmed:16301202"
+  ],
+  "sc:description": "Approach for splitting a protein three dimensional (3D) structure into protein units, an intermediate level of protein structure description between protein domains and secondary structures.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_0303"
+    },
+    {
+      "@id": "edam:operation_0390"
+    },
+    {
+      "@id": "edam:operation_2416"
+    },
+    {
+      "@id": "edam:operation_2488"
+    },
+    {
+      "@id": "edam:operation_0267"
+    }
+  ],
+  "sc:name": "Protein Peeling 3 D",
+  "sc:operatingSystem": [
+    "Mac",
+    "Linux",
+    "Windows"
+  ],
+  "sc:softwareHelp": {
+    "@id": "http://www.dsimb.inserm.fr/dsimb_agents/peeling3/about.html"
+  },
+  "sc:url": "http://www.dsimb.inserm.fr/dsimb_agents/peeling3/"
+}

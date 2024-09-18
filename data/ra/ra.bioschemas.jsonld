@@ -1,0 +1,77 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/ra",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N465fb854bc6e48ac854c90d53e011b74"
+      },
+      "bsc:output": {
+        "@id": "_:N0f3f48417a324a238a385279b2944d07"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Suite",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0196"
+        },
+        {
+          "@id": "edam:topic_0622"
+        }
+      ],
+      "sc:description": "Assembler for raw de novo genome assembly of long uncorrected reads.",
+      "sc:featureList": {
+        "@id": "edam:operation_0525"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "MIT",
+      "sc:name": "Ra",
+      "sc:operatingSystem": "Linux",
+      "sc:url": "https://github.com/lbcb-sci/ra"
+    },
+    {
+      "@id": "_:N0f3f48417a324a238a385279b2944d07",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0925"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1929"
+        },
+        {
+          "@id": "edam:format_1930"
+        }
+      ],
+      "sc:name": "Sequence assembly"
+    },
+    {
+      "@id": "_:N465fb854bc6e48ac854c90d53e011b74",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2977"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1930"
+        },
+        {
+          "@id": "edam:format_1929"
+        }
+      ],
+      "sc:name": "Nucleic acid sequence"
+    }
+  ]
+}

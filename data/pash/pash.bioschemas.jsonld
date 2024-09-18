@@ -1,0 +1,42 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.agents/pash",
+  "@type": "sc:SoftwareApplication",
+  "bioagents:primaryContact": [
+    "Aleksandar Milosavljevic",
+    "Elke Norwig-Eastaugh"
+  ],
+  "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+  "sc:additionalType": "Command-line agent",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_3173"
+    },
+    {
+      "@id": "edam:topic_3295"
+    }
+  ],
+  "sc:citation": "pubmed:21092284",
+  "sc:description": "Pash 3.0 performs sequence comparison and read mapping and can be employed as a module within diverse configurable analysis pipelines, including ChIP-seq and methylome mapping by whole-genome bisulfite sequencing",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_3186"
+    },
+    {
+      "@id": "edam:operation_0292"
+    }
+  ],
+  "sc:name": "PASH",
+  "sc:url": "http://www.brl.bcm.tmc.edu/pash/pashDownload.rhtml"
+}

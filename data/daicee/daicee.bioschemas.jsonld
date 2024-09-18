@@ -1,0 +1,91 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/daicee",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:Nbc2c8ce1d7eb40b9a0e93f15c47557c7"
+        },
+        {
+          "@id": "_:Nc5137ea8fbd84553b88a2e7b8528b424"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3375"
+        },
+        {
+          "@id": "edam:topic_0154"
+        },
+        {
+          "@id": "edam:topic_0091"
+        },
+        {
+          "@id": "edam:topic_3379"
+        },
+        {
+          "@id": "edam:topic_3336"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.6026/97320630016843"
+        },
+        "pmcid:PMC8573451",
+        "pubmed:34803258"
+      ],
+      "sc:description": "A database for anti-cancer compounds with targets and side effect profiles.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2421"
+        },
+        {
+          "@id": "edam:operation_3938"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:name": "DaiCee",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:url": "http://www.hccbif.org/usersearch.php"
+    },
+    {
+      "@id": "_:Nbc2c8ce1d7eb40b9a0e93f15c47557c7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2301"
+      },
+      "sc:name": "SMILES string"
+    },
+    {
+      "@id": "_:Nc5137ea8fbd84553b88a2e7b8528b424",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0990"
+      },
+      "sc:name": "Compound name"
+    },
+    {
+      "@id": "https://doi.org/10.6026/97320630016843",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1371/journal.pcbi.1005351",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/aspasia",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Kieran Alden",
+      "bsc:input": {
+        "@id": "_:Ne228f3dec313454483f909ff5072e66d"
+      },
+      "bsc:output": {
+        "@id": "_:N04f572ce1e024e0a83b848f7d6365304"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Suite",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3071"
+        },
+        {
+          "@id": "edam:topic_2269"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1371/journal.pcbi.1005351"
+      },
+      "sc:description": "A agentkit for constructing statistical models for biological processes. It has been created to make it easy to automate parameter alteration of SBML models.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3664"
+        },
+        {
+          "@id": "edam:operation_2425"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "GPL-2.0",
+      "sc:name": "ASPASIA",
+      "sc:softwareHelp": {
+        "@id": "https://www.york.ac.uk/computational-immunology/software/aspasia/"
+      },
+      "sc:url": "https://www.york.ac.uk/computational-immunology/software/aspasia/"
+    },
+    {
+      "@id": "_:Ne228f3dec313454483f909ff5072e66d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0950"
+      },
+      "sc:name": "Mathematical model"
+    },
+    {
+      "@id": "_:N04f572ce1e024e0a83b848f7d6365304",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0950"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2585"
+      },
+      "sc:name": "Mathematical model"
+    }
+  ]
+}

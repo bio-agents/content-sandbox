@@ -1,0 +1,47 @@
+softwares:
+  sbmlagentbox:
+    labels:
+      about.copyright: 2005-2012 Sarah M. Keating
+      about.home: http://sbml.org/Software/SBMLAgentbox
+      about.license: LGPL-2.1
+      about.license_file: /usr/share/doc/sbmlagentbox/copyright
+      about.summary: libsbml agentbox for octave and matlab
+      about.tags: ''
+      base_image: biocontainers/biocontainers:vdebian-buster-backports_cv1
+      container: sbmlagentbox
+      software: sbmlagentbox
+      software.version: 4.1.0-4-deb
+      upstream.version: 4.1.0
+      version: '1'
+    software: sbmlagentbox
+    versions:
+    - labels:
+        about.copyright: 2005-2012 Sarah M. Keating
+        about.home: http://sbml.org/Software/SBMLAgentbox
+        about.license: LGPL-2.1
+        about.license_file: /usr/share/doc/sbmlagentbox/copyright
+        about.summary: libsbml agentbox for octave and matlab
+        about.tags: ''
+        base_image: biocontainers/biocontainers:vdebian-buster-backports_cv1
+        container: sbmlagentbox
+        software: sbmlagentbox
+        software.version: 4.1.0-4-deb
+        upstream.version: 4.1.0
+        version: '1'
+      type: Container file
+      url: biocontainers/sbmlagentbox:4.1.0-4-deb-1
+      version: 4.1.0-4-deb-1
+    - labels:
+        about.copyright: 2005-2012 Sarah M. Keating
+        about.home: http://sbml.org/Software/SBMLAgentbox
+        about.license: LGPL-2.1
+        about.license_file: /usr/share/doc/sbmlagentbox/copyright
+        about.summary: libsbml agentbox for octave and matlab
+        about.tags: ''
+        container: sbmlagentbox
+        software: sbmlagentbox
+        software.version: 4.1.0-3-deb
+        version: '1'
+      type: Container file
+      url: biocontainers/sbmlagentbox:4.1.0-3-deb-1
+      version: 4.1.0-3-deb-1

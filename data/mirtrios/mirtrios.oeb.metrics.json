@@ -1,0 +1,210 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:mirtrios/web/centre.bioinformatics.zj.cn",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-11-19T06:15:37.380467Z",
+        "@type": "metrics",
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 19,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1136/jmedgenet-2014-102656",
+                            "pmid": "25596308",
+                            "ref_count": 55,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 15,
+                                    "year": "2014"
+                                }
+                            ],
+                            "title": "mirTrios: an integrated pipeline for detection of de novo and rare inherited mutations from trios-based next-generation sequencing.",
+                            "year": 2015
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": true,
+                "half_year_stat": [
+                    {
+                        "days": 79,
+                        "serie": [
+                            8,
+                            5,
+                            2,
+                            3,
+                            2,
+                            1,
+                            2,
+                            1,
+                            2,
+                            53
+                        ],
+                        "status": 500
+                    },
+                    {
+                        "days": 104,
+                        "serie": [
+                            83,
+                            1,
+                            1,
+                            4,
+                            2,
+                            1,
+                            1,
+                            6,
+                            1,
+                            4
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-11-19T06:12:25.723873Z",
+                "last_month_access": {
+                    "downtime_days": 30,
+                    "uptime_days": 0
+                },
+                "license": false,
+                "operational": 408,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/mirtrios",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-11-19T06:12:25.786570Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": true,
+                "half_year_stat": [
+                    {
+                        "days": 79,
+                        "serie": [
+                            8,
+                            5,
+                            2,
+                            3,
+                            2,
+                            1,
+                            2,
+                            1,
+                            2,
+                            53
+                        ],
+                        "status": 500
+                    },
+                    {
+                        "days": 104,
+                        "serie": [
+                            83,
+                            1,
+                            1,
+                            4,
+                            2,
+                            1,
+                            1,
+                            6,
+                            1,
+                            4
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-11-19T06:12:25.723873Z",
+                "last_month_access": {
+                    "downtime_days": 30,
+                    "uptime_days": 0
+                },
+                "license": false,
+                "operational": 408,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

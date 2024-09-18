@@ -1,0 +1,47 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/BIOINFORMATICS/BTZ361",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/mlrMBO",
+      "@type": "sc:SoftwareApplication",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2640"
+        },
+        {
+          "@id": "edam:topic_3518"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/BIOINFORMATICS/BTZ361"
+        },
+        "pmcid:PMC6612842",
+        "pubmed:31510644"
+      ],
+      "sc:description": "Model-based optimization of subgroup weights for survival analysis | Agentbox for Bayesian Optimization and Model-Based Optimization in R | Model-based optimization with mlr | Issues, Requests and Bug Tracker",
+      "sc:featureList": {
+        "@id": "edam:operation_3659"
+      },
+      "sc:name": "mlrMBO",
+      "sc:url": "http://github.com/mlr-org/mlrMBO"
+    }
+  ]
+}

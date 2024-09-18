@@ -1,0 +1,116 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/hasappy",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Giulio Di Minin",
+      "bsc:input": [
+        {
+          "@id": "_:Nac53e3e4cd06481fa224acd0fd940ea6"
+        },
+        {
+          "@id": "_:Naf7332f8d23e4d779474eb64de76a761"
+        }
+      ],
+      "bsc:output": {
+        "@id": "_:N6b4123b1a6824aa7b9dc7a7a676c0812"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_1775"
+        },
+        {
+          "@id": "edam:topic_0625"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1371/journal.pcbi.1005950"
+      },
+      "sc:description": "A agent for analyzing NGS datasets form pooled haploid mammalian cell screens. It is used to identify insertion locations in the whole genome, map them at the level of genes, and classify insertions according to their effects on gene function.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2403"
+        },
+        {
+          "@id": "edam:operation_3225"
+        },
+        {
+          "@id": "edam:operation_3672"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "MIT",
+      "sc:name": "HaSAPPy",
+      "sc:operatingSystem": "Linux",
+      "sc:softwareHelp": [
+        {
+          "@id": "https://github.com/gdiminin/HaSAPPy/blob/master/docs/Tutorials/TestRunHaSAPPY.md"
+        },
+        {
+          "@id": "https://github.com/gdiminin/HaSAPPy/blob/master/docs/Tutorials/RunningHaSAPPyWorkflowsScript.md"
+        },
+        {
+          "@id": "https://github.com/gdiminin/HaSAPPy/blob/master/README.md"
+        },
+        {
+          "@id": "https://github.com/gdiminin/HaSAPPy/tree/master/docs"
+        }
+      ],
+      "sc:url": "https://github.com/gdiminin/HaSAPPy"
+    },
+    {
+      "@id": "_:N6b4123b1a6824aa7b9dc7a7a676c0812",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0920"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Genotype/phenotype report"
+    },
+    {
+      "@id": "_:Nac53e3e4cd06481fa224acd0fd940ea6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2975"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2571"
+      },
+      "sc:name": "Nucleic acid sequence (raw)"
+    },
+    {
+      "@id": "_:Naf7332f8d23e4d779474eb64de76a761",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2093"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2571"
+      },
+      "sc:name": "Data reference"
+    },
+    {
+      "@id": "https://doi.org/10.1371/journal.pcbi.1005950",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

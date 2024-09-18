@@ -1,0 +1,114 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btv379",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/birte",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Holger Froehlich",
+      "bsc:input": [
+        {
+          "@id": "_:Ncfd4f333ccab403cbc5f2b90dcab055f"
+        },
+        {
+          "@id": "_:Nf6d3df5b1cb5483bb90ddd57b14cbbfe"
+        }
+      ],
+      "bsc:output": {
+        "@id": "_:N7ed01a42f843490491b7d2bc3caada77"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Library"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3170"
+        },
+        {
+          "@id": "edam:topic_0602"
+        },
+        {
+          "@id": "edam:topic_2269"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btv379"
+      },
+      "sc:description": "This agent uses regulatory networks of TFs, miRNAs and possibly other factors, together with mRNA, miRNA and other available expression data to predict the relative influence of a regulator on the expression of its target genes. Inference is done in a Bayesian modeling framework using Markov-Chain-Monte-Carlo. A special feature is the possibility for follow-up network reverse engineering between active regulators.",
+      "sc:featureList": {
+        "@id": "edam:operation_3439"
+      },
+      "sc:license": "GPL-2.0",
+      "sc:name": "birte",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/birte.html"
+      },
+      "sc:softwareVersion": "1.10.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/birte.html"
+    },
+    {
+      "@id": "_:N7ed01a42f843490491b7d2bc3caada77",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2600"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2013"
+      },
+      "sc:name": "Pathway or network"
+    },
+    {
+      "@id": "_:Ncfd4f333ccab403cbc5f2b90dcab055f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2600"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1919"
+        },
+        {
+          "@id": "edam:format_2013"
+        }
+      ],
+      "sc:name": "Pathway or network"
+    },
+    {
+      "@id": "_:Nf6d3df5b1cb5483bb90ddd57b14cbbfe",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1234"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1919"
+        },
+        {
+          "@id": "edam:format_2013"
+        }
+      ],
+      "sc:name": "Sequence set (nucleic acid)"
+    }
+  ]
+}

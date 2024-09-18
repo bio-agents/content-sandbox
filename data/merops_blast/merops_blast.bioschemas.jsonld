@@ -1,0 +1,115 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/merops_blast",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "MEROPS group",
+      "bsc:input": [
+        {
+          "@id": "_:N2b750929ac6143739bc6940a001db23a"
+        },
+        {
+          "@id": "_:N4bb04bf340434925ab872cc7588460eb"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N90ce6f3a2cd94e55bf2680ac346cdc81"
+        },
+        {
+          "@id": "_:N183baac36e2b4624ab00488ae9b90480"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_0821"
+        }
+      ],
+      "sc:author": [
+        "Neil Rawlings",
+        "MEROPS group"
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gkv1118"
+      },
+      "sc:contributor": "NCBI",
+      "sc:description": "Search MEROPS sequences with BLAST.",
+      "sc:featureList": {
+        "@id": "edam:operation_0346"
+      },
+      "sc:name": "MEROPS Blast",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:provider": [
+        "EMBL-EBI",
+        "Sanger Institute"
+      ],
+      "sc:softwareHelp": [
+        {
+          "@id": "http://www.ebi.ac.uk/about/terms-of-use"
+        },
+        {
+          "@id": "http://merops.sanger.ac.uk/about/special_features.shtml#BLAST"
+        }
+      ],
+      "sc:softwareVersion": "1",
+      "sc:url": "http://merops.sanger.ac.uk/cgi-bin/blast/submitblast/merops/advanced"
+    },
+    {
+      "@id": "_:N90ce6f3a2cd94e55bf2680ac346cdc81",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0857"
+      },
+      "sc:name": "Sequence search results"
+    },
+    {
+      "@id": "_:N183baac36e2b4624ab00488ae9b90480",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1277"
+      },
+      "sc:name": "Protein features"
+    },
+    {
+      "@id": "_:N2b750929ac6143739bc6940a001db23a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2976"
+      },
+      "sc:name": "Protein sequence"
+    },
+    {
+      "@id": "_:N4bb04bf340434925ab872cc7588460eb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3494"
+      },
+      "sc:name": "DNA sequence"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkv1118",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

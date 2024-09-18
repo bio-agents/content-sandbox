@@ -1,0 +1,158 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "http://orcid.org/0000-0002-6485-8781",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btu684",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/dose",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": {
+        "@id": "http://orcid.org/0000-0002-6485-8781"
+      },
+      "bsc:input": [
+        {
+          "@id": "_:Nb8fe7c1c79d44f6796f09bbc62c7ab48"
+        },
+        {
+          "@id": "_:N148cce8f5ed6437caf4c535dc890adcb"
+        },
+        {
+          "@id": "_:N9aa411eb787945bb8f787e4a3c3f43e5"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N2c2182dfa28a4e7b9c60f3c1f531b943"
+        },
+        {
+          "@id": "_:Nccdb223a931c4988a83e29ad39082549"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Library"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3572"
+        },
+        {
+          "@id": "edam:topic_3063"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/bioinformatics/btu684"
+        },
+        "pubmed:25677125"
+      ],
+      "sc:description": "This package implements five methods proposed by Resnik, Schlicker, Jiang, Lin and Wang respectively for measuring semantic similarities among DO terms and gene products. Enrichment analyses including hypergeometric model and gene set enrichment analysis are also implemented for discovering disease associations of high-throughput biological data.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3352"
+        },
+        {
+          "@id": "edam:operation_3223"
+        },
+        {
+          "@id": "edam:operation_2436"
+        }
+      ],
+      "sc:license": "Artistic-2.0",
+      "sc:name": "DOSE",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/DOSE.html"
+      },
+      "sc:softwareVersion": "3.0.9",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/DOSE.html"
+    },
+    {
+      "@id": "_:N2c2182dfa28a4e7b9c60f3c1f531b943",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3547"
+        }
+      ],
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:Nccdb223a931c4988a83e29ad39082549",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:Nb8fe7c1c79d44f6796f09bbc62c7ab48",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2295"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Gene ID"
+    },
+    {
+      "@id": "_:N148cce8f5ed6437caf4c535dc890adcb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0582"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Ontology"
+    },
+    {
+      "@id": "_:N9aa411eb787945bb8f787e4a3c3f43e5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2603"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Gene expression data"
+    }
+  ]
+}

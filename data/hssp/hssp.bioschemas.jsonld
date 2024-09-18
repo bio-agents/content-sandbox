@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gkq1105",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/hssp",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N073e885bb41a40e7b26f41f6d96476d6"
+      },
+      "bsc:output": {
+        "@id": "_:N0db9dd32c29d43258135388724e52373"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3542"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gkq1105"
+      },
+      "sc:description": "Homology-derived secondary structure of proteins database.",
+      "sc:featureList": {
+        "@id": "edam:operation_0224"
+      },
+      "sc:name": "HSSP",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://swift.cmbi.ru.nl/gv/hssp/"
+      },
+      "sc:url": "http://swift.cmbi.ru.nl/gv/hssp/"
+    },
+    {
+      "@id": "_:N073e885bb41a40e7b26f41f6d96476d6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1127"
+      },
+      "sc:name": "PDB ID"
+    },
+    {
+      "@id": "_:N0db9dd32c29d43258135388724e52373",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1277"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Protein features"
+    }
+  ]
+}

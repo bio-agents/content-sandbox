@@ -1,0 +1,78 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/ms-isotope",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N6cedb1502462452588a206a9fbe3d60c"
+      },
+      "bsc:output": {
+        "@id": "_:N42b6bdc5c1564f4fb0494b9f03a14d8c"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Web application",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3520"
+        },
+        {
+          "@id": "edam:topic_0121"
+        },
+        {
+          "@id": "edam:topic_3524"
+        }
+      ],
+      "sc:description": "Calculates the isotopic distribution from a peptide sequence.",
+      "sc:featureList": {
+        "@id": "edam:operation_3632"
+      },
+      "sc:name": "MS-Isotope",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://prospector.ucsf.edu/prospector/html/instruct/isoman.htm"
+      },
+      "sc:url": "http://prospector.ucsf.edu/prospector/cgi-bin/msform.cgi?form=msisotope"
+    },
+    {
+      "@id": "_:N42b6bdc5c1564f4fb0494b9f03a14d8c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N6cedb1502462452588a206a9fbe3d60c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1957"
+      },
+      "sc:name": "Data"
+    }
+  ]
+}

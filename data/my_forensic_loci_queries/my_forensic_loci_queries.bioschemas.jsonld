@@ -1,0 +1,95 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/my_forensic_loci_queries",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:Na39eafc3d9c6423abbf31563d33ab421"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:Nb84415c4d8d448ef98f309afef8411e2"
+        },
+        {
+          "@id": "_:Na1aa8638474d478186d9e79684bcf09d"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0199"
+        },
+        {
+          "@id": "edam:topic_3511"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1016/j.fsigen.2013.10.012"
+      },
+      "sc:description": "Analysis of forensic DNA profiles.",
+      "sc:featureList": {
+        "@id": "edam:operation_3504"
+      },
+      "sc:name": "My Forensic Loci queries",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac"
+      ],
+      "sc:provider": "ugent.be",
+      "sc:softwareHelp": {
+        "@id": "https://github.com/beukueb/myflq"
+      },
+      "sc:softwareVersion": "1.1",
+      "sc:url": "https://github.com/beukueb/myflq"
+    },
+    {
+      "@id": "_:Na39eafc3d9c6423abbf31563d33ab421",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2977"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1929"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Nucleic acid sequence"
+    },
+    {
+      "@id": "_:Nb84415c4d8d448ef98f309afef8411e2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:name": "Image"
+    },
+    {
+      "@id": "_:Na1aa8638474d478186d9e79684bcf09d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0916"
+      },
+      "sc:name": "Gene report"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.fsigen.2013.10.012",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

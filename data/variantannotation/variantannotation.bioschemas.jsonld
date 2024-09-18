@@ -1,0 +1,99 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/variantannotation",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Valerie Obenchain",
+      "bsc:input": [
+        {
+          "@id": "_:Nead8da56cf6a4124a5415668934c00fc"
+        },
+        {
+          "@id": "_:Nbeba9178363d481aa84d1f6df74645bf"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Library",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2885"
+        },
+        {
+          "@id": "edam:topic_3673"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/bioinformatics/btu168"
+        },
+        "pubmed:24681907",
+        "pmcid:PMC4080743"
+      ],
+      "sc:description": "Annotate variants, compute amino acid coding changes, predict coding outcomes.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3202"
+        },
+        {
+          "@id": "edam:operation_3661"
+        },
+        {
+          "@id": "edam:operation_3225"
+        }
+      ],
+      "sc:license": "Artistic-2.0",
+      "sc:name": "VariantAnnotation",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/VariantAnnotation.html"
+      },
+      "sc:softwareVersion": "1.20.2",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/VariantAnnotation.html"
+    },
+    {
+      "@id": "_:Nead8da56cf6a4124a5415668934c00fc",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3016"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:Nbeba9178363d481aa84d1f6df74645bf",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3498"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3016"
+      },
+      "sc:name": "Sequence variations"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btu168",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

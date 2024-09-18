@@ -1,0 +1,53 @@
+softwares:
+  pfagents:
+    labels:
+      about.home: http://web.expasy.org/pfagents/
+      about.license: custom, see /usr/share/doc/pfagents/copyright
+      about.license_file: /usr/share/doc/pfagents/copyright
+      about.summary: build and search protein and DNA generalized profiles
+      about.tags: ''
+      base_image: biocontainers/biocontainers:debian-stretch-backports_cv2
+      container: pfagents
+      extra.binaries: /usr/bin/2ft,/usr/bin/6ft,/usr/bin/pfdump,/usr/bin/pfgtop,/usr/bin/pfhtop,/usr/bin/pfmake,/usr/bin/pfscale,/usr/bin/pfscan,/usr/bin/pfsearch,/usr/bin/pfsearchV3,/usr/bin/pfw,/usr/bin/psa2msa,/usr/bin/ptof,/usr/bin/ptoh
+      extra.identifiers.bioagents: pfagents
+      software: pfagents
+      software.version: 3dfsg-3bpo91-deb
+      upstream.version: '3'
+      version: '1'
+    software: pfagents
+    versions:
+    - labels:
+        about.home: http://web.expasy.org/pfagents/
+        about.license: custom, see /usr/share/doc/pfagents/copyright
+        about.license_file: /usr/share/doc/pfagents/copyright
+        about.summary: build and search protein and DNA generalized profiles
+        about.tags: ''
+        base_image: biocontainers/biocontainers:debian-stretch-backports_cv2
+        container: pfagents
+        extra.binaries: /usr/bin/2ft,/usr/bin/6ft,/usr/bin/pfdump,/usr/bin/pfgtop,/usr/bin/pfhtop,/usr/bin/pfmake,/usr/bin/pfscale,/usr/bin/pfscan,/usr/bin/pfsearch,/usr/bin/pfsearchV3,/usr/bin/pfw,/usr/bin/psa2msa,/usr/bin/ptof,/usr/bin/ptoh
+        extra.identifiers.bioagents: pfagents
+        software: pfagents
+        software.version: 3dfsg-3bpo91-deb
+        upstream.version: '3'
+        version: '1'
+      type: Container file
+      url: biocontainers/pfagents:3dfsg-3bpo91-deb-1
+      version: 3dfsg-3bpo91-deb-1
+    - labels:
+        about.copyright: 2002-2011 Alan Bridge, Christian Sigrist, Gregoire Rossier
+        about.home: http://web.expasy.org/pfagents/
+        about.license: GPL-3
+        about.license_file: /usr/share/doc/pfagents/copyright
+        about.summary: build and search protein and DNA generalized profiles
+        about.tags: ''
+        base_image: biocontainers/biocontainers:vdebian-buster-backports_cv1
+        container: pfagents
+        extra.binaries: /usr/bin/2ft,/usr/bin/6ft,/usr/bin/pfdump,/usr/bin/pfgtop,/usr/bin/pfhtop,/usr/bin/pfmake,/usr/bin/pfscale,/usr/bin/pfscan,/usr/bin/pfsearch,/usr/bin/pfsearchV3,/usr/bin/pfw,/usr/bin/psa2msa,/usr/bin/ptof,/usr/bin/ptoh
+        extra.identifiers.bioagents: pfagents
+        software: pfagents
+        software.version: 3dfsg-3-deb
+        upstream.version: '3'
+        version: '1'
+      type: Container file
+      url: biocontainers/pfagents:3dfsg-3-deb-1
+      version: 3dfsg-3-deb-1

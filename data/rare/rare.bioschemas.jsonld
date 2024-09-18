@@ -1,0 +1,137 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/RARe",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Support service",
+      "bsc:input": [
+        {
+          "@id": "_:Nb97ba4ecbb8a489dade1859a7767ea31"
+        },
+        {
+          "@id": "_:N7309170453c7498f85f160776c3f1633"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Nf3a51fd18d04466388d58e6f6f4292c9"
+        },
+        {
+          "@id": "_:N21565ff9e7bd4269af2df7557b9dc33b"
+        },
+        {
+          "@id": "_:N06813f7e3c59492dbbed493230b681c3"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Web API",
+        "Web service",
+        "Web application",
+        "Database portal"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0091"
+        },
+        {
+          "@id": "edam:topic_0780"
+        },
+        {
+          "@id": "edam:topic_0610"
+        },
+        {
+          "@id": "edam:topic_3810"
+        },
+        {
+          "@id": "edam:topic_3071"
+        }
+      ],
+      "sc:description": "RARe is a research infrastructure registered on the french national roadmap that brings together five networks of BRCs conserving genetic, genomic, and biological resources assembled and characterized by research on domestic animals, model or cultivated plants, wild species related to domestic animals, forest trees, micro-organisms of agronomic or agri-food interest, micro-organisms and environmental organisms.\nThe purpose of this web portal is to facilitate the discoverability of these data. \nRARe search is an implementation of DataDiscovery.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2421"
+        },
+        {
+          "@id": "edam:operation_3908"
+        },
+        {
+          "@id": "edam:operation_3625"
+        },
+        {
+          "@id": "edam:operation_0227"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "BSD-3-Clause",
+      "sc:name": "RARe",
+      "sc:softwareHelp": [
+        {
+          "@id": "https://urgi.versailles.inrae.fr/rare/help"
+        },
+        {
+          "@id": "https://urgi.versailles.inrae.fr/rare/legal"
+        },
+        {
+          "@id": "https://urgi.versailles.inrae.fr/rare/join"
+        },
+        {
+          "@id": "https://urgi.versailles.inrae.fr/rare/about"
+        }
+      ],
+      "sc:url": "https://urgi.versailles.inrae.fr/rare/"
+    },
+    {
+      "@id": "_:Nf3a51fd18d04466388d58e6f6f4292c9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2080"
+      },
+      "sc:name": "Database search results"
+    },
+    {
+      "@id": "_:N21565ff9e7bd4269af2df7557b9dc33b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0842"
+      },
+      "sc:name": "Identifier"
+    },
+    {
+      "@id": "_:N06813f7e3c59492dbbed493230b681c3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2093"
+      },
+      "sc:name": "Data reference"
+    },
+    {
+      "@id": "_:Nb97ba4ecbb8a489dade1859a7767ea31",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0968"
+      },
+      "sc:name": "Keyword"
+    },
+    {
+      "@id": "_:N7309170453c7498f85f160776c3f1633",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2353"
+      },
+      "sc:name": "Ontology data"
+    }
+  ]
+}

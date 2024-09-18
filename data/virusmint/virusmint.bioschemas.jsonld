@@ -1,0 +1,120 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "http://orcid.org/0000-0001-9533-4246",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://bio.agents/virusmint",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Luana Licata",
+      "bsc:input": [
+        {
+          "@id": "_:N60c1f5ebdf53471c8305fd80678bfdde"
+        },
+        {
+          "@id": "_:N046a7dea94b24b47ba1bca6e2f2f4710"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N8a3d4810f012456fbf79cf8edebfe156"
+        },
+        {
+          "@id": "_:N69ecfb1d62284221bbb875e2f70dbfec"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0781"
+        },
+        {
+          "@id": "edam:topic_0128"
+        }
+      ],
+      "sc:author": {
+        "@id": "http://orcid.org/0000-0001-9533-4246"
+      },
+      "sc:citation": [
+        "pubmed:23900247",
+        {
+          "@id": "https://doi.org/10.1093/nar/gkn739"
+        },
+        "pubmed:18974184",
+        "pmcid:PMC2686573"
+      ],
+      "sc:contributor": [
+        "Andrew Chatr-aryamontri",
+        "Daniele Peluso"
+      ],
+      "sc:description": "This database aims at collecting and annotating in a structured format all the interactions between human and viral proteins and to integrate this information in the human protein interaction network.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3431"
+        },
+        {
+          "@id": "edam:operation_3083"
+        }
+      ],
+      "sc:name": "VirusMINT",
+      "sc:provider": [
+        "IECHOR-ITA-TORVERGATA",
+        "Molecular Genetic Group, University of Rome \"Tor Vergata\", Rome, Italy"
+      ],
+      "sc:url": "http://mint.bio.uniroma2.it/virusmint/"
+    },
+    {
+      "@id": "_:N8a3d4810f012456fbf79cf8edebfe156",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0906"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3158"
+      },
+      "sc:name": "Protein interaction data"
+    },
+    {
+      "@id": "_:N69ecfb1d62284221bbb875e2f70dbfec",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0906"
+      },
+      "sc:name": "Protein interaction data"
+    },
+    {
+      "@id": "_:N60c1f5ebdf53471c8305fd80678bfdde",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0906"
+      },
+      "sc:name": "Protein interaction data"
+    },
+    {
+      "@id": "_:N046a7dea94b24b47ba1bca6e2f2f4710",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2526"
+      },
+      "sc:name": "Text data"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkn739",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

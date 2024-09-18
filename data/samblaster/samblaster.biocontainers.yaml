@@ -1,0 +1,18 @@
+description: A agent to mark duplicates and extract discordant and split reads from
+  sam files.
+home_url: https://github.com/GregoryFaust/samblaster
+identifiers:
+- bioagents:samblaster
+- doi:10.1093/bioinformatics/btu314
+keywords:
+- Genomic Structural Variation
+- Genomics
+- Sequence Alignment
+- Sequence Analysis, DNA
+- DNA
+- Sequencing
+- Mapping
+license: MIT
+manually_check: true
+name: samblaster
+total_pulls: 6312

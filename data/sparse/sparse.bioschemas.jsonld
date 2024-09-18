@@ -1,0 +1,154 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btv185",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "http://orcid.org/0000-0002-0173-3009",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://bio.agents/sparse",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": [
+        "Sebastian Will",
+        {
+          "@id": "http://orcid.org/0000-0001-8231-3323"
+        }
+      ],
+      "bsc:input": {
+        "@id": "_:Nf2edaacf533a4f979186562d80c0eebe"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:N56f84a1204e343df99475ade3a9936ee"
+        },
+        {
+          "@id": "_:Nddaff25ba20542e1a190ef8bbddb5cc1"
+        },
+        {
+          "@id": "_:N12a635550942427989e87f5e83492101"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_0097"
+        }
+      ],
+      "sc:author": [
+        {
+          "@id": "http://orcid.org/0000-0002-0173-3009"
+        },
+        "Sebastian Will",
+        "Rolf Backofen"
+      ],
+      "sc:citation": [
+        "pmcid:PMC4514930",
+        {
+          "@id": "https://doi.org/10.1093/bioinformatics/btv185"
+        },
+        "pubmed:25838465"
+      ],
+      "sc:contributor": "Sebastian Will",
+      "sc:description": "Very efficient structure-based alignment of RNAs.",
+      "sc:featureList": {
+        "@id": "edam:operation_0294"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "GPL-3.0",
+      "sc:name": "SPARSE",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac"
+      ],
+      "sc:provider": [
+        "rnateam",
+        "University Freiburg"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://www.bioinf.uni-freiburg.de/Software/SPARSE/"
+      },
+      "sc:softwareVersion": "1.8.9",
+      "sc:url": "http://www.bioinf.uni-freiburg.de/Software/SPARSE"
+    },
+    {
+      "@id": "_:N56f84a1204e343df99475ade3a9936ee",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0872"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1910"
+      },
+      "sc:name": "Phylogenetic tree"
+    },
+    {
+      "@id": "_:Nddaff25ba20542e1a190ef8bbddb5cc1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1465"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3466"
+      },
+      "sc:name": "RNA structure"
+    },
+    {
+      "@id": "_:N12a635550942427989e87f5e83492101",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1916"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3508"
+        },
+        {
+          "@id": "edam:format_1982"
+        },
+        {
+          "@id": "edam:format_1929"
+        }
+      ],
+      "sc:name": "Alignment"
+    },
+    {
+      "@id": "_:Nf2edaacf533a4f979186562d80c0eebe",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3495"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1929"
+        },
+        {
+          "@id": "edam:format_2200"
+        }
+      ],
+      "sc:name": "RNA sequence"
+    },
+    {
+      "@id": "http://orcid.org/0000-0001-8231-3323",
+      "@type": "schema:Person"
+    }
+  ]
+}

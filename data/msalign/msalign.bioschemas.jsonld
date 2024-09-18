@@ -1,0 +1,92 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/msalign",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:Nd861d00e76484ee0b89a6a9a1ef73b72"
+        },
+        {
+          "@id": "_:N43525714c599401ebdd86a1eff6c8137"
+        }
+      ],
+      "bsc:output": {
+        "@id": "_:N3a920bba83f34b6ab601354e456c6201"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0083"
+        },
+        {
+          "@id": "edam:topic_3520"
+        },
+        {
+          "@id": "edam:topic_0121"
+        }
+      ],
+      "sc:citation": "pubmed:17720530",
+      "sc:description": "Aligns LC-MS and LC-MS/MS datasets using peptides identified by MS/MS and accurate mass MS.",
+      "sc:featureList": {
+        "@id": "edam:operation_3628"
+      },
+      "sc:license": "GPL-3.0",
+      "sc:name": "msalign",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://www.ms-utils.org/msalign/index.html"
+      },
+      "sc:url": "http://www.ms-utils.org/msalign/index.html"
+    },
+    {
+      "@id": "_:N3a920bba83f34b6ab601354e456c6201",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1916"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1921"
+      },
+      "sc:name": "Alignment"
+    },
+    {
+      "@id": "_:Nd861d00e76484ee0b89a6a9a1ef73b72",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0943"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3654"
+      },
+      "sc:name": "Mass spectrometry spectra"
+    },
+    {
+      "@id": "_:N43525714c599401ebdd86a1eff6c8137",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0945"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3655"
+      },
+      "sc:name": "Peptide identification"
+    }
+  ]
+}

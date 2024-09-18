@@ -1,0 +1,157 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://orcid.org/0000-0002-8291-8071",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://bio.agents/bioexcel_building_blocks_tutorials_mutation_free_energy_calculations",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": {
+        "@id": "https://orcid.org/0000-0002-8291-8071"
+      },
+      "bsc:input": [
+        {
+          "@id": "_:N434e7cc1bc6f422a8d24599187368348"
+        },
+        {
+          "@id": "_:Nfe5dbec8f7a64c8fba3b6b172d5e87ef"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N8e20b0521531426c98b2464008608ca6"
+        },
+        {
+          "@id": "_:Na3e66477fb74407a8eb01b7feabb3ae4"
+        },
+        {
+          "@id": "_:N77e4ed7c8c70468ba59e9830c18aa917"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Workflow",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0176"
+        },
+        {
+          "@id": "edam:topic_3120"
+        }
+      ],
+      "sc:author": [
+        "Genís Bayarri",
+        "Pau Andrio"
+      ],
+      "sc:citation": [
+        "pubmed:31506435",
+        "pmcid:PMC6736963",
+        {
+          "@id": "https://doi.org/10.1038/s41597-019-0177-4"
+        }
+      ],
+      "sc:description": "This tutorial aims to illustrate how to compute a fast-growth mutation free energy calculation, step by step, using the BioExcel Building Blocks library (biobb). The particular example used is the Staphylococcal nuclease protein (PDB code 1STN), a small, minimal protein, appropriate for a short tutorial.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0331"
+        },
+        {
+          "@id": "edam:operation_2406"
+        },
+        {
+          "@id": "edam:operation_2476"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Apache-2.0",
+      "sc:name": "BioExcel Building Blocks tutorials: Mutation Free Energy Calculations",
+      "sc:operatingSystem": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "sc:provider": "BioExcel Centre of Excellence",
+      "sc:softwareHelp": {
+        "@id": "https://biobb-wf-pmx-tutorial.readthedocs.io/en/latest/index.html"
+      },
+      "sc:softwareVersion": "1.0",
+      "sc:url": "http://mmb.irbbarcelona.org/biobb/availability/tutorials/pmx"
+    },
+    {
+      "@id": "_:N8e20b0521531426c98b2464008608ca6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3905"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3603"
+      },
+      "sc:name": "Histogram"
+    },
+    {
+      "@id": "_:Na3e66477fb74407a8eb01b7feabb3ae4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3779"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Annotated text"
+    },
+    {
+      "@id": "_:N77e4ed7c8c70468ba59e9830c18aa917",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3870"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3910"
+      },
+      "sc:name": "Trajectory data"
+    },
+    {
+      "@id": "_:N434e7cc1bc6f422a8d24599187368348",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3872"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3883"
+        },
+        {
+          "@id": "edam:format_3880"
+        }
+      ],
+      "sc:name": "Topology data"
+    },
+    {
+      "@id": "_:Nfe5dbec8f7a64c8fba3b6b172d5e87ef",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3870"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3875"
+      },
+      "sc:name": "Trajectory data"
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41597-019-0177-4",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

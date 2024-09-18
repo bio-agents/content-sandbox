@@ -1,0 +1,185 @@
+package: picard-agents
+distribution: debian
+release: sid
+component: main
+version: 2.23.8
+source: picard-agents
+homepage: http://broadinstitute.github.io/picard/
+license: unknown
+blend: debian-med
+description_md5: 4210c5f17f12023993b769bb2ea569bb
+topics:
+- Sequencing
+- Document, record and content management
+edam_scopes:
+- name: summary
+  input:
+  - data: Sequence
+    formats:
+    - SAM
+    - BAM
+  output:
+  - data: Sequence
+    formats:
+    - SAM
+    - BAM
+  - data: Report
+    formats:
+    - Textual format
+  function:
+  - Data handling
+  - Filtering
+  - Statistics and probability
+registries:
+- entry: OMICS_01066
+  name: OMICagents
+- entry: SCR_006525
+  name: SciCrunch
+- entry: Picard_agents
+  name: bio.agents
+- entry: picard
+  name: conda:bioconda
+popcon:
+- insts: 154
+  olde: 135
+  recent: 3
+  vote: 16
+descr:
+- package: picard-agents
+  description: Kommandozeilenwerkzeuge zur Bearbeitung von SAM- und BAM-Dateien
+  long_description: " Das generische Format SAM (Sequence Alignment/Map) speichert\
+    \ große\n Nukleotid-Sequenzalignments. Die Picard Agents enthalten folgende Werkzeuge,\n\
+    \ um SAM- und BAM-Dateien zu bearbeiten:\n  AddCommentsToBam                 \
+    \ FifoBuffer\n  AddOrReplaceReadGroups            FilterSamReads\n  BaitDesigner\
+    \                      FilterVcf\n  BamIndexStats                     FixMateInformation\n\
+    \  BamToBfq                          GatherBamFiles\n  BedToIntervalList     \
+    \            GatherVcfs\n  BuildBamIndex                     GenotypeConcordance\n\
+    \  CalculateHsMetrics                IlluminaBasecallsToFastq\n  CalculateReadGroupChecksum\
+    \        IlluminaBasecallsToSam\n  CheckIlluminaDirectory            LiftOverIntervalList\n\
+    \  CheckTerminatorBlock              LiftoverVcf\n  CleanSam                 \
+    \         MakeSitesOnlyVcf\n  CollectAlignmentSummaryMetrics    MarkDuplicates\n\
+    \  CollectBaseDistributionByCycle    MarkDuplicatesWithMateCigar\n  CollectGcBiasMetrics\
+    \              MarkIlluminaAdapters\n  CollectHiSeqXPfFailMetrics        MeanQualityByCycle\n\
+    \  CollectIlluminaBasecallingMetrics MergeBamAlignment\n  CollectIlluminaLaneMetrics\
+    \        MergeSamFiles\n  CollectInsertSizeMetrics          MergeVcfs\n  CollectJumpingLibraryMetrics\
+    \      NormalizeFasta\n  CollectMultipleMetrics            PositionBasedDownsampleSam\n\
+    \  CollectOxoGMetrics                QualityScoreDistribution\n  CollectQualityYieldMetrics\
+    \        RenameSampleInVcf\n  CollectRawWgsMetrics              ReorderSam\n \
+    \ CollectRnaSeqMetrics              ReplaceSamHeader\n  CollectRrbsMetrics   \
+    \             RevertOriginalBaseQualitiesAndAddMateCigar\n  CollectSequencingArtifactMetrics\
+    \  RevertSam\n  CollectTargetedPcrMetrics         SamFormatConverter\n  CollectVariantCallingMetrics\
+    \      SamToFastq\n  CollectWgsMetrics                 ScatterIntervalsByNs\n\
+    \  CompareMetrics                    SortSam\n  CompareSAMs                  \
+    \     SortVcf\n  ConvertSequencingArtifactToOxoG   SplitSamByLibrary\n  CreateSequenceDictionary\
+    \          SplitVcfs\n  DownsampleSam                     UpdateVcfSequenceDictionary\n\
+    \  EstimateLibraryComplexity         ValidateSamFile\n  ExtractIlluminaBarcodes\
+    \           VcfFormatConverter\n  ExtractSequences                  VcfToIntervalList\n\
+    \  FastqToSam                        ViewSam\n"
+  release: sid
+  description_md5: 4210c5f17f12023993b769bb2ea569bb
+  license: unknown
+  blend: debian-med
+- package: picard-agents
+  description: Command line agents to manipulate SAM and BAM files
+  long_description: " SAM (Sequence Alignment/Map) format is a generic format for\
+    \ storing\n large nucleotide sequence alignments. Picard Agents includes these\n\
+    \ utilities to manipulate SAM and BAM files:\n  AddCommentsToBam             \
+    \     FifoBuffer\n  AddOrReplaceReadGroups            FilterSamReads\n  BaitDesigner\
+    \                      FilterVcf\n  BamIndexStats                     FixMateInformation\n\
+    \  BamToBfq                          GatherBamFiles\n  BedToIntervalList     \
+    \            GatherVcfs\n  BuildBamIndex                     GenotypeConcordance\n\
+    \  CalculateHsMetrics                IlluminaBasecallsToFastq\n  CalculateReadGroupChecksum\
+    \        IlluminaBasecallsToSam\n  CheckIlluminaDirectory            LiftOverIntervalList\n\
+    \  CheckTerminatorBlock              LiftoverVcf\n  CleanSam                 \
+    \         MakeSitesOnlyVcf\n  CollectAlignmentSummaryMetrics    MarkDuplicates\n\
+    \  CollectBaseDistributionByCycle    MarkDuplicatesWithMateCigar\n  CollectGcBiasMetrics\
+    \              MarkIlluminaAdapters\n  CollectHiSeqXPfFailMetrics        MeanQualityByCycle\n\
+    \  CollectIlluminaBasecallingMetrics MergeBamAlignment\n  CollectIlluminaLaneMetrics\
+    \        MergeSamFiles\n  CollectInsertSizeMetrics          MergeVcfs\n  CollectJumpingLibraryMetrics\
+    \      NormalizeFasta\n  CollectMultipleMetrics            PositionBasedDownsampleSam\n\
+    \  CollectOxoGMetrics                QualityScoreDistribution\n  CollectQualityYieldMetrics\
+    \        RenameSampleInVcf\n  CollectRawWgsMetrics              ReorderSam\n \
+    \ CollectRnaSeqMetrics              ReplaceSamHeader\n  CollectRrbsMetrics   \
+    \             RevertOriginalBaseQualitiesAndAddMateCigar\n  CollectSequencingArtifactMetrics\
+    \  RevertSam\n  CollectTargetedPcrMetrics         SamFormatConverter\n  CollectVariantCallingMetrics\
+    \      SamToFastq\n  CollectWgsMetrics                 ScatterIntervalsByNs\n\
+    \  CompareMetrics                    SortSam\n  CompareSAMs                  \
+    \     SortVcf\n  ConvertSequencingArtifactToOxoG   SplitSamByLibrary\n  CreateSequenceDictionary\
+    \          SplitVcfs\n  DownsampleSam                     UpdateVcfSequenceDictionary\n\
+    \  EstimateLibraryComplexity         ValidateSamFile\n  ExtractIlluminaBarcodes\
+    \           VcfFormatConverter\n  ExtractSequences                  VcfToIntervalList\n\
+    \  FastqToSam                        ViewSam\n"
+  release: sid
+  description_md5: 4210c5f17f12023993b769bb2ea569bb
+  license: unknown
+  blend: debian-med
+- package: picard-agents
+  description: strumenti a riga di comando per manipolare file SAM e BAM
+  long_description: " Il formato SAM (Sequence Alignment/Map, allineamento/mappa di\
+    \ sequenza) è\n un formato generico per memorizzare grandi allineamenti di sequenze\n\
+    \ nucleotidiche. In Picard Agents sono incluse le seguenti utilità per\n manipolare\
+    \ file SAM e BAM:\n  AddCommentsToBam                  FifoBuffer\n  AddOrReplaceReadGroups\
+    \            FilterSamReads\n  BaitDesigner                      FilterVcf\n \
+    \ BamIndexStats                     FixMateInformation\n  BamToBfq           \
+    \               GatherBamFiles\n  BedToIntervalList                 GatherVcfs\n\
+    \  BuildBamIndex                     GenotypeConcordance\n  CalculateHsMetrics\
+    \                IlluminaBasecallsToFastq\n  CalculateReadGroupChecksum      \
+    \  IlluminaBasecallsToSam\n  CheckIlluminaDirectory            LiftOverIntervalList\n\
+    \  CheckTerminatorBlock              LiftoverVcf\n  CleanSam                 \
+    \         MakeSitesOnlyVcf\n  CollectAlignmentSummaryMetrics    MarkDuplicates\n\
+    \  CollectBaseDistributionByCycle    MarkDuplicatesWithMateCigar\n  CollectGcBiasMetrics\
+    \              MarkIlluminaAdapters\n  CollectHiSeqXPfFailMetrics        MeanQualityByCycle\n\
+    \  CollectIlluminaBasecallingMetrics MergeBamAlignment\n  CollectIlluminaLaneMetrics\
+    \        MergeSamFiles\n  CollectInsertSizeMetrics          MergeVcfs\n  CollectJumpingLibraryMetrics\
+    \      NormalizeFasta\n  CollectMultipleMetrics            PositionBasedDownsampleSam\n\
+    \  CollectOxoGMetrics                QualityScoreDistribution\n  CollectQualityYieldMetrics\
+    \        RenameSampleInVcf\n  CollectRawWgsMetrics              ReorderSam\n \
+    \ CollectRnaSeqMetrics              ReplaceSamHeader\n  CollectRrbsMetrics   \
+    \             RevertOriginalBaseQualitiesAndAddMateCigar\n  CollectSequencingArtifactMetrics\
+    \  RevertSam\n  CollectTargetedPcrMetrics         SamFormatConverter\n  CollectVariantCallingMetrics\
+    \      SamToFastq\n  CollectWgsMetrics                 ScatterIntervalsByNs\n\
+    \  CompareMetrics                    SortSam\n  CompareSAMs                  \
+    \     SortVcf\n  ConvertSequencingArtifactToOxoG   SplitSamByLibrary\n  CreateSequenceDictionary\
+    \          SplitVcfs\n  DownsampleSam                     UpdateVcfSequenceDictionary\n\
+    \  EstimateLibraryComplexity         ValidateSamFile\n  ExtractIlluminaBarcodes\
+    \           VcfFormatConverter\n  ExtractSequences                  VcfToIntervalList\n\
+    \  FastqToSam                        ViewSam\n"
+  release: sid
+  description_md5: 4210c5f17f12023993b769bb2ea569bb
+  license: unknown
+  blend: debian-med
+- package: picard-agents
+  description: outils en ligne de commande pour manipuler les fichiers SAM et BAM
+  long_description: " Le format «⋅Sequence Alignment/Map⋅» (SAM) est un format générique\
+    \ pour le\n stockage d'alignements de grandes séquences de nucléotides. Le logiciel\n\
+    \ Picard Agents inclut ces utilitaires pour manipuler les fichiers SAM et BAM\n\
+    \ (Binary Alignment/Map)⋅:\n  AddCommentsToBam                  FifoBuffer\n \
+    \ AddOrReplaceReadGroups            FilterSamReads\n  BaitDesigner           \
+    \           FilterVcf\n  BamIndexStats                     FixMateInformation\n\
+    \  BamToBfq                          GatherBamFiles\n  BedToIntervalList     \
+    \            GatherVcfs\n  BuildBamIndex                     GenotypeConcordance\n\
+    \  CalculateHsMetrics                IlluminaBasecallsToFastq\n  CalculateReadGroupChecksum\
+    \        IlluminaBasecallsToSam\n  CheckIlluminaDirectory            LiftOverIntervalList\n\
+    \  CheckTerminatorBlock              LiftoverVcf\n  CleanSam                 \
+    \         MakeSitesOnlyVcf\n  CollectAlignmentSummaryMetrics    MarkDuplicates\n\
+    \  CollectBaseDistributionByCycle    MarkDuplicatesWithMateCigar\n  CollectGcBiasMetrics\
+    \              MarkIlluminaAdapters\n  CollectHiSeqXPfFailMetrics        MeanQualityByCycle\n\
+    \  CollectIlluminaBasecallingMetrics MergeBamAlignment\n  CollectIlluminaLaneMetrics\
+    \        MergeSamFiles\n  CollectInsertSizeMetrics          MergeVcfs\n  CollectJumpingLibraryMetrics\
+    \      NormalizeFasta\n  CollectMultipleMetrics            PositionBasedDownsampleSam\n\
+    \  CollectOxoGMetrics                QualityScoreDistribution\n  CollectQualityYieldMetrics\
+    \        RenameSampleInVcf\n  CollectRawWgsMetrics              ReorderSam\n \
+    \ CollectRnaSeqMetrics              ReplaceSamHeader\n  CollectRrbsMetrics   \
+    \             RevertOriginalBaseQualitiesAndAddMateCigar\n  CollectSequencingArtifactMetrics\
+    \  RevertSam\n  CollectTargetedPcrMetrics         SamFormatConverter\n  CollectVariantCallingMetrics\
+    \      SamToFastq\n  CollectWgsMetrics                 ScatterIntervalsByNs\n\
+    \  CompareMetrics                    SortSam\n  CompareSAMs                  \
+    \     SortVcf\n  ConvertSequencingArtifactToOxoG   SplitSamByLibrary\n  CreateSequenceDictionary\
+    \          SplitVcfs\n  DownsampleSam                     UpdateVcfSequenceDictionary\n\
+    \  EstimateLibraryComplexity         ValidateSamFile\n  ExtractIlluminaBarcodes\
+    \           VcfFormatConverter\n  ExtractSequences                  VcfToIntervalList\n\
+    \  FastqToSam                        ViewSam\n"
+  release: sid
+  description_md5: 4210c5f17f12023993b769bb2ea569bb
+  license: unknown
+  blend: debian-med

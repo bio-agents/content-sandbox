@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/pred-tat",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Pantelis Bagos",
+      "bsc:input": {
+        "@id": "_:Nd157e5f1ec5541c9a0f4d4fddc068dc7"
+      },
+      "bsc:output": {
+        "@id": "_:N9cc54b6f2e9f4764ab7277c7e120acd8"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0160"
+      },
+      "sc:citation": "pubmed:20847219",
+      "sc:description": "PRED-TAT is a agent that takes a protein sequence as input and discriminating Sec from Tat signal peptides and predicting their cleavage sites.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0270"
+        },
+        {
+          "@id": "edam:operation_0422"
+        },
+        {
+          "@id": "edam:operation_0418"
+        },
+        {
+          "@id": "edam:operation_0269"
+        }
+      ],
+      "sc:name": "PRED-TAT",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://www.compgen.org/agents/PRED-TAT"
+      },
+      "sc:softwareVersion": "1.1",
+      "sc:url": "http://www.compgen.org/agents/PRED-TAT"
+    },
+    {
+      "@id": "_:N9cc54b6f2e9f4764ab7277c7e120acd8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2955"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Sequence report"
+    },
+    {
+      "@id": "_:Nd157e5f1ec5541c9a0f4d4fddc068dc7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence"
+    }
+  ]
+}

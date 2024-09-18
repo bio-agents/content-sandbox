@@ -1,0 +1,113 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:microp/cmd/bioinformatics.cise.ufl.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-11-05T06:14:25.567838Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "ref_count": 0,
+                            "refs": []
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 435,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 2,
+                        "serie": [
+                            2
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 181,
+                        "serie": [
+                            181
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-11-05T06:06:07.025893Z",
+                "last_month_access": {
+                    "average_access_time": 449,
+                    "downtime_days": 28,
+                    "uptime_days": 2
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/microp",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-11-05T06:06:07.729688Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 435,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 2,
+                        "serie": [
+                            2
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 181,
+                        "serie": [
+                            181
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-11-05T06:06:07.025893Z",
+                "last_month_access": {
+                    "average_access_time": 449,
+                    "downtime_days": 28,
+                    "uptime_days": 2
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

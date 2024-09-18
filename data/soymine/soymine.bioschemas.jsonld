@@ -1,0 +1,135 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bts577",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/SoyMine",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:Na602fb6bc0e44ae79242f5040edcdb16"
+        },
+        {
+          "@id": "_:Ndee71d2f1595475ea56e2a7124e2b11d"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N9a354e5f01a540288130f3ab79d51e97"
+        },
+        {
+          "@id": "_:Nf98d4498775b4d0ea57ec6f1071aed57"
+        },
+        {
+          "@id": "_:N3a9de311505a41baafdcf8ebb0f9f20b"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Web service",
+        "Database portal",
+        "Web application"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0622"
+        },
+        {
+          "@id": "edam:topic_0121"
+        },
+        {
+          "@id": "edam:topic_3071"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/bts577"
+      },
+      "sc:description": "A Soybean mine instance with genomic data from the Legume Information Systems (LIS) multi-species chado database and genetic data pulled from Soybase",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2436"
+        },
+        {
+          "@id": "edam:operation_2422"
+        },
+        {
+          "@id": "edam:operation_0337"
+        },
+        {
+          "@id": "edam:operation_0224"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "LGPL-2.1",
+      "sc:name": "SoyMine",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": [
+        {
+          "@id": "http://intermine.readthedocs.org/en/latest/web-services/"
+        },
+        {
+          "@id": "https://flymine.readthedocs.io/en/latest/"
+        }
+      ],
+      "sc:softwareVersion": "0.10",
+      "sc:url": "https://mines.legumeinfo.org/soymine"
+    },
+    {
+      "@id": "_:Na602fb6bc0e44ae79242f5040edcdb16",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2353"
+      },
+      "sc:name": "Ontology data"
+    },
+    {
+      "@id": "_:Ndee71d2f1595475ea56e2a7124e2b11d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1255"
+      },
+      "sc:name": "Sequence features"
+    },
+    {
+      "@id": "_:N9a354e5f01a540288130f3ab79d51e97",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3786"
+      },
+      "sc:name": "Query script"
+    },
+    {
+      "@id": "_:Nf98d4498775b4d0ea57ec6f1071aed57",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3753"
+      },
+      "sc:name": "Over-representation data"
+    },
+    {
+      "@id": "_:N3a9de311505a41baafdcf8ebb0f9f20b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1255"
+      },
+      "sc:name": "Sequence features"
+    }
+  ]
+}

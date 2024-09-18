@@ -1,0 +1,333 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:blast_api_ebi:1/rest/www.ebi.ac.uk",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-11-19T02:47:12.686241Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 47707,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 27,
+                                    "year": "1991"
+                                },
+                                {
+                                    "count": 108,
+                                    "year": "1992"
+                                },
+                                {
+                                    "count": 272,
+                                    "year": "1993"
+                                },
+                                {
+                                    "count": 572,
+                                    "year": "1994"
+                                },
+                                {
+                                    "count": 781,
+                                    "year": "1995"
+                                },
+                                {
+                                    "count": 1077,
+                                    "year": "1996"
+                                },
+                                {
+                                    "count": 1400,
+                                    "year": "1997"
+                                },
+                                {
+                                    "count": 1527,
+                                    "year": "1998"
+                                },
+                                {
+                                    "count": 1266,
+                                    "year": "1999"
+                                },
+                                {
+                                    "count": 1183,
+                                    "year": "2000"
+                                },
+                                {
+                                    "count": 1049,
+                                    "year": "2001"
+                                },
+                                {
+                                    "count": 1095,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1192,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1267,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 1432,
+                                    "year": "2005"
+                                },
+                                {
+                                    "count": 1375,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 1438,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 1547,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 1680,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 1629,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 1797,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 2010,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 2222,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 2403,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 2380,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 2358,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 2371,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 2392,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 2290,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 2114,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 2589,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 862,
+                                    "year": "2022"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2023"
+                                }
+                            ],
+                            "doi": "10.1016/s0022-2836(05)80360-2",
+                            "pmid": "2231712",
+                            "ref_count": 23,
+                            "refs": [
+                                {
+                                    "count": 2,
+                                    "year": "1955"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1970"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1971"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1974"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "1978"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1979"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1982"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1983"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "1984"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1985"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1986"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1987"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1988"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1989"
+                                },
+                                {
+                                    "count": 4,
+                                    "year": "1990"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "1991"
+                                }
+                            ],
+                            "title": "Basic local alignment search agent.",
+                            "year": 1990
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 316,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 2,
+                        "serie": [
+                            2
+                        ],
+                        "status": 500
+                    },
+                    {
+                        "days": 181,
+                        "serie": [
+                            163,
+                            18
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T02:47:12.5519Z",
+                "last_month_access": {
+                    "average_access_time": 451,
+                    "downtime_days": 2,
+                    "uptime_days": 28
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://www.ebi.ac.uk/seqdb/confluence/login.action?os_destination=%2Fpages%2Fviewpage.action%3FpageId%3D54653532&permissionViolation=true"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": false
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/blast_api_ebi",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-11-19T02:43:54.790712Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 414,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 2,
+                        "serie": [
+                            2
+                        ],
+                        "status": 500
+                    },
+                    {
+                        "days": 181,
+                        "serie": [
+                            163,
+                            18
+                        ],
+                        "status": 200
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T02:43:54.722751Z",
+                "last_month_access": {
+                    "average_access_time": 1068,
+                    "downtime_days": 2,
+                    "uptime_days": 28
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://www.ebi.ac.uk/seqdb/confluence/login.action?os_destination=%2Fpages%2Fviewpage.action%3FpageId%3D54653532&permissionViolation=true"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

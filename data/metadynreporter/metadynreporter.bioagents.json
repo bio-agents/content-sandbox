@@ -1,0 +1,39 @@
+{
+    "accessibility": "Open access",
+    "additionDate": "2020-10-15T06:07:21Z",
+    "bioagentsCURIE": "bioagents:metadynreporter",
+    "bioagentsID": "metadynreporter",
+    "confidence_flag": "agent",
+    "cost": "Free of charge",
+    "description": "Metadynreporter is a Galaxy portal that generates a PDF report based on data from metadynamics simulation done in Plumed (https://www.plumed.org/).",
+    "editPermission": {
+        "type": "private"
+    },
+    "iechorCommunity": [
+        "3D-BioInfo"
+    ],
+    "iechorNode": [
+        "Czech Republic"
+    ],
+    "homepage": "http://metadynreporter.cz/",
+    "language": [
+        "R"
+    ],
+    "lastUpdate": "2021-05-06T09:51:49Z",
+    "maturity": "Emerging",
+    "name": "metadynreporter",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "owner": "spiwokv",
+    "agentType": [
+        "Web service"
+    ],
+    "topic": [
+        {
+            "term": "Molecular dynamics",
+            "uri": "http://edamontology.org/topic_0176"
+        }
+    ],
+    "validated": 1
+}

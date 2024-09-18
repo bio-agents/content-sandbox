@@ -1,0 +1,141 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1371/journal.pone.0157022",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/saragents",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": [
+        "Hugo Varet",
+        "Jean-Yves Coppée",
+        "Marie-Agnès Dillies"
+      ],
+      "bsc:input": {
+        "@id": "_:N6b28913713ba462c8fb89d9b773807e6"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:N51a1c2fd61e14a31855c002added8740"
+        },
+        {
+          "@id": "_:N15903342300543f1b2d9bb8986d87fa5"
+        },
+        {
+          "@id": "_:N92e8c7b7260b4b56b63e9db50f398fbd"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3308"
+        },
+        {
+          "@id": "edam:topic_2269"
+        }
+      ],
+      "sc:author": [
+        "Marie-Agnès Dillies",
+        "Hugo Varet"
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1371/journal.pone.0157022"
+        },
+        "pmcid:PMC4900645",
+        "pubmed:27280887"
+      ],
+      "sc:contributor": "France Génomique",
+      "sc:description": "R package dedicated to the differential analysis of RNA-seq data. It provides agents to generate descriptive and diagnostic graphs, to run the differential analysis with one of the well known DESeq2 or edgeR packages and to export the results into easily readable tab-delimited files. It also facilitates the generation of a HTML report which displays all the figures produced, explains the statistical methods and gives the results of the differential analysis.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3563"
+        },
+        {
+          "@id": "edam:operation_3223"
+        },
+        {
+          "@id": "edam:operation_3435"
+        }
+      ],
+      "sc:funder": "France Génomique",
+      "sc:isAccessibleForFree": true,
+      "sc:license": "GPL-2.0",
+      "sc:name": "SARAgents",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:provider": [
+        "Bioinformatics and Biostatistics Hub",
+        "Institut Pasteur"
+      ],
+      "sc:softwareHelp": [
+        {
+          "@id": "https://github.com/PF2-pasteur-fr/SARAgents"
+        },
+        {
+          "@id": "https://dx.doi.org/10.1371/journal.pone.0157022"
+        }
+      ],
+      "sc:softwareVersion": "1.4.0",
+      "sc:url": "https://github.com/PF2-pasteur-fr/SARAgents"
+    },
+    {
+      "@id": "_:N6b28913713ba462c8fb89d9b773807e6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2603"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "Gene expression data"
+    },
+    {
+      "@id": "_:N51a1c2fd61e14a31855c002added8740",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2531"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Experiment report"
+    },
+    {
+      "@id": "_:N15903342300543f1b2d9bb8986d87fa5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2531"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "Experiment report"
+    },
+    {
+      "@id": "_:N92e8c7b7260b4b56b63e9db50f398fbd",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:name": "Plot"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/extract_protein_names",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N67507e9eb0784a65ab97fefcd238384f"
+      },
+      "bsc:output": {
+        "@id": "_:N7f14c6e5016c48ab939b118c0d50a4ae"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:description": "Script used to extract protein names from a peptide identification file.",
+      "sc:featureList": {
+        "@id": "edam:operation_3434"
+      },
+      "sc:name": "extract_protein_names",
+      "sc:url": "https://github.com/bio-agents/bioagentsCompose/blob/master/msutils-poc-domainsetup/src/bioagents/bioagentsCompose/poc/sib/extract_protein_names.java"
+    },
+    {
+      "@id": "_:N7f14c6e5016c48ab939b118c0d50a4ae",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3021"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1964"
+      },
+      "sc:name": "UniProt accession"
+    },
+    {
+      "@id": "_:N67507e9eb0784a65ab97fefcd238384f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0945"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3747"
+      },
+      "sc:name": "Peptide identification"
+    }
+  ]
+}

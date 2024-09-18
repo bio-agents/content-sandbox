@@ -1,0 +1,64 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1186/s12859-019-2743-3",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/AUTALASSO",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Patrik Waldmann",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3517"
+        },
+        {
+          "@id": "edam:topic_3810"
+        },
+        {
+          "@id": "edam:topic_0625"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1186/s12859-019-2743-3"
+        },
+        "pubmed:30940067",
+        "pmcid:PMC6444607"
+      ],
+      "sc:description": "Automatic adaptive LASSO for genome-wide prediction.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3557"
+        },
+        {
+          "@id": "edam:operation_3196"
+        },
+        {
+          "@id": "edam:operation_3659"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:name": "AUTALASSO",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac"
+      ],
+      "sc:url": "https://github.com/patwa67/AUTALASSO"
+    }
+  ]
+}

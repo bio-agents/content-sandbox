@@ -1,0 +1,72 @@
+{
+    "additionDate": "2017-01-17T15:07:51Z",
+    "bioagentsCURIE": "bioagents:ggplot2",
+    "bioagentsID": "ggplot2",
+    "collectionID": [
+        "EBI Training Agents"
+    ],
+    "credit": [
+        {
+            "email": "hadley@rstudio.com",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "Plotting system for R, based on the grammar of graphics.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://ggplot2.tidyverse.org/reference/"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Visualisation",
+                    "uri": "http://edamontology.org/operation_0337"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://ggplot2.org/",
+    "language": [
+        "R"
+    ],
+    "lastUpdate": "2023-01-17T02:43:35.495397Z",
+    "name": "ggplot2",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "ebi_training_import",
+    "publication": [
+        {
+            "doi": "10.1007/978-3-319-24277-4"
+        }
+    ],
+    "relation": [
+        {
+            "bioagentsID": "ggtranscript",
+            "type": "usedBy"
+        }
+    ],
+    "agentType": [
+        "Library"
+    ],
+    "topic": [
+        {
+            "term": "Data visualisation",
+            "uri": "http://edamontology.org/topic_0092"
+        }
+    ],
+    "validated": 1
+}

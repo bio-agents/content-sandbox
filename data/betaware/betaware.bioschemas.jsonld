@@ -1,0 +1,130 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btr549",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bts728",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/betaware",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Castrense Savojardo",
+      "bsc:input": [
+        {
+          "@id": "_:N78a684212cf6422d9e070433c47fc1c0"
+        },
+        {
+          "@id": "_:N3c5b5e8f4bb94a9788cc54a20d773e5a"
+        }
+      ],
+      "bsc:output": {
+        "@id": "_:N74b78b5ad5f94c23aa9b111116df84c4"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Web application"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0082"
+        },
+        {
+          "@id": "edam:topic_3542"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/bioinformatics/bts728"
+        },
+        {
+          "@id": "https://doi.org/10.1093/bioinformatics/btr549"
+        },
+        {
+          "@id": "https://doi.org/10.1186/1748-7188-4-13"
+        }
+      ],
+      "sc:description": "A software package for the analysis of TransMembrane Î²-barrel proteins.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0267"
+        },
+        {
+          "@id": "edam:operation_0269"
+        }
+      ],
+      "sc:license": "GPL-3.0",
+      "sc:name": "BetAware",
+      "sc:operatingSystem": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "sc:provider": "IECHOR-ITA-BOLOGNA",
+      "sc:softwareHelp": [
+        {
+          "@id": "http://betaware.biocomp.unibo.it/BetAware/default/software"
+        },
+        {
+          "@id": "http://bioinformatics.oxfordjournals.org/content/29/4/504.abstract"
+        }
+      ],
+      "sc:softwareVersion": "1.0",
+      "sc:url": "http://betaware.biocomp.unibo.it/BetAware/default/index"
+    },
+    {
+      "@id": "_:N78a684212cf6422d9e070433c47fc1c0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2974"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Protein sequence (raw)"
+    },
+    {
+      "@id": "_:N3c5b5e8f4bb94a9788cc54a20d773e5a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0889"
+      },
+      "sc:name": "Structural profile"
+    },
+    {
+      "@id": "_:N74b78b5ad5f94c23aa9b111116df84c4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2331"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Report"
+    },
+    {
+      "@id": "https://doi.org/10.1186/1748-7188-4-13",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

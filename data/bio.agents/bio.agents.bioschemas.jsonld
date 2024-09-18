@@ -1,0 +1,123 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1007/s10009-015-0392-z",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/bio.agents",
+      "@type": "sc:SoftwareApplication",
+      "bsc:output": {
+        "@id": "_:N60a96bd12b82440db9f01c71d228eab6"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Web application",
+        "Database portal",
+        "Web API"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3307"
+        },
+        {
+          "@id": "edam:topic_0089"
+        },
+        {
+          "@id": "edam:topic_0091"
+        },
+        {
+          "@id": "edam:topic_0219"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.12688/f1000research.12974.1"
+        },
+        {
+          "@id": "https://doi.org/10.1093/gigascience/gix022"
+        },
+        {
+          "@id": "https://doi.org/10.1007/s10009-015-0392-z"
+        },
+        {
+          "@id": "https://doi.org/10.1093/nar/gkv1116"
+        }
+      ],
+      "sc:description": "The community registry of computational agents and data resources for biosciences.",
+      "sc:featureList": {
+        "@id": "edam:operation_2422"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "GPL-3.0",
+      "sc:name": "bio.agents",
+      "sc:softwareHelp": [
+        {
+          "@id": "https://bioagents.readthedocs.io/en/latest/curators_guide.html"
+        },
+        {
+          "@id": "https://bioagents.readthedocs.io/en/latest/api_usage_guide.html"
+        },
+        {
+          "@id": "https://bioagents.readthedocs.io/en/latest/api_reference.html"
+        },
+        {
+          "@id": "https://bioagents.readthedocs.io/en/latest/contributors_guide.html"
+        },
+        {
+          "@id": "https://bioagents.readthedocs.io/en/latest/"
+        },
+        {
+          "@id": "https://bioagents.readthedocs.io/en/latest/publications.html#citation"
+        },
+        {
+          "@id": "https://bioagents.readthedocs.io/en/latest/governance.html"
+        }
+      ],
+      "sc:url": "https://bio.agents"
+    },
+    {
+      "@id": "_:N60a96bd12b82440db9f01c71d228eab6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0958"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3464"
+        },
+        {
+          "@id": "edam:format_3750"
+        },
+        {
+          "@id": "edam:format_2332"
+        }
+      ],
+      "sc:name": "Agent metadata"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkv1116",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/gigascience/gix022",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.12688/f1000research.12974.1",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

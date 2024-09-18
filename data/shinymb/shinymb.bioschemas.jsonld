@@ -1,0 +1,59 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/shinymb",
+      "@type": "sc:SoftwareApplication",
+      "bsc:output": {
+        "@id": "_:Nd859a6d6880a440685e2f5051a369147"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Workbench",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0621"
+        },
+        {
+          "@id": "edam:topic_2269"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btw099"
+      },
+      "sc:description": "A web application for sample size and power calculation in case-control microbiome studies",
+      "sc:featureList": {
+        "@id": "edam:operation_2238"
+      },
+      "sc:name": "ShinyMB",
+      "sc:provider": [
+        "ugent.be",
+        "Ghent University"
+      ],
+      "sc:softwareVersion": "1",
+      "sc:url": "https://fedematt.shinyapps.io/shinyMB"
+    },
+    {
+      "@id": "_:Nd859a6d6880a440685e2f5051a369147",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3273"
+      },
+      "sc:name": "Sample ID"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btw099",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

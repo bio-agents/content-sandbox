@@ -1,0 +1,65 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.agents/optitope",
+  "@type": "sc:SoftwareApplication",
+  "bioagents:primaryContact": "Toussaint N.C.",
+  "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0154"
+    },
+    {
+      "@id": "edam:topic_0804"
+    },
+    {
+      "@id": "edam:topic_0199"
+    },
+    {
+      "@id": "edam:topic_2830"
+    },
+    {
+      "@id": "edam:topic_2269"
+    }
+  ],
+  "sc:citation": "pubmed:19420066",
+  "sc:description": "Identifies the optimal set of peptides or epitopes for a vaccine given constraints such as MHC allele probabilities, peptide mutation rates and maximum number of selected peptides. Incorporated as part of the EpiAgentKit.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_0252"
+    },
+    {
+      "@id": "edam:operation_3227"
+    },
+    {
+      "@id": "edam:operation_0560"
+    },
+    {
+      "@id": "edam:operation_3631"
+    },
+    {
+      "@id": "edam:operation_0416"
+    }
+  ],
+  "sc:name": "OptiTope",
+  "sc:operatingSystem": [
+    "Windows",
+    "Mac",
+    "Linux"
+  ],
+  "sc:softwareHelp": {
+    "@id": "http://www.epiagentkit.de/"
+  },
+  "sc:url": "http://www.epiagentkit.de/"
+}

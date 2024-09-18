@@ -1,0 +1,54 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/CSA2.6",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N8f4b599ff2804ace8c005406ee849db0"
+      },
+      "bsc:output": {
+        "@id": "_:N925bfe1430d1478690fa0f39f92a398f"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:description": "CSA - Chromosome Scale Assembler - is a computationally highly efficient pipeline, which after contig assembly performs post assembly improvements by ordering the assembly and closing gaps, as well as splitting of low supported regions. CSA can calculate (near) chromosomal scale assemblies from long read data and comparisons with publicly available diverged reference genomes for Fish, Birds and Mammals.",
+      "sc:featureList": {
+        "@id": "edam:operation_0525"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "MIT",
+      "sc:name": "CSA2.6",
+      "sc:operatingSystem": "Linux",
+      "sc:softwareVersion": "2.6",
+      "sc:url": "https://github.com/HMPNK/CSA2.6"
+    },
+    {
+      "@id": "_:N8f4b599ff2804ace8c005406ee849db0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3494"
+      },
+      "sc:name": "DNA sequence"
+    },
+    {
+      "@id": "_:N925bfe1430d1478690fa0f39f92a398f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3494"
+      },
+      "sc:name": "DNA sequence"
+    }
+  ]
+}

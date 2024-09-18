@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/trans-abyss",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Readman Chiu",
+      "bsc:input": {
+        "@id": "_:Nb9c37ad42f6b43b68ea8cad5814b56e9"
+      },
+      "bsc:output": {
+        "@id": "_:Nc437dcfdd4144923b990e6d4cbe0d3b6"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Suite",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0196"
+        },
+        {
+          "@id": "edam:topic_3170"
+        },
+        {
+          "@id": "edam:topic_0114"
+        },
+        {
+          "@id": "edam:topic_3308"
+        }
+      ],
+      "sc:citation": "pubmed:20935650",
+      "sc:description": "A pipeline for de novo short-read transcriptome assembly and analyses.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3258"
+        },
+        {
+          "@id": "edam:operation_0524"
+        },
+        {
+          "@id": "edam:operation_0292"
+        }
+      ],
+      "sc:name": "Trans-ABySS",
+      "sc:operatingSystem": "Linux",
+      "sc:url": "http://www.bcgsc.ca/platform/bioinfo/software/trans-abyss"
+    },
+    {
+      "@id": "_:Nb9c37ad42f6b43b68ea8cad5814b56e9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2977"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2546"
+      },
+      "sc:name": "Nucleic acid sequence"
+    },
+    {
+      "@id": "_:Nc437dcfdd4144923b990e6d4cbe0d3b6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2977"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2055"
+      },
+      "sc:name": "Nucleic acid sequence"
+    }
+  ]
+}

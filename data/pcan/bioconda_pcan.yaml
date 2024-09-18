@@ -1,0 +1,11 @@
+bioagents_id: pcan
+description: Phenotypes comparison based on a pathway consensus approach. Assess the
+  relationship between candidate genes and a set of phenotypes based on additional
+  genes related to the candidate (e.g. Pathways or network neighbors).
+home: https://bioconductor.org/packages/3.12/bioc/html/PCAN.html
+identifiers:
+- bioagents:pcan
+license: CC BY-NC-ND 4.0
+name: bioconductor-pcan
+summary: Phenotype Consensus ANalysis (PCAN)
+version: 1.18.0

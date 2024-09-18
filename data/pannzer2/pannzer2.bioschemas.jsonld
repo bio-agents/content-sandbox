@@ -1,0 +1,67 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/pannzer2",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N409f2447a0cc441dae63ae131c3989b9"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0121"
+      },
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/nar/gky350"
+        },
+        "pubmed:29741643"
+      ],
+      "sc:description": "Protein ANNotation with Z-scoRE. Fully automated  functional annotation of prokaryotic and eukaryotic proteins of unknown function. Designed to predict the functional description (DE) and GO classes.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0226"
+        },
+        {
+          "@id": "edam:operation_0224"
+        },
+        {
+          "@id": "edam:operation_3501"
+        }
+      ],
+      "sc:license": "GPL-3.0",
+      "sc:name": "pannzer2",
+      "sc:softwareHelp": {
+        "@id": "http://ekhidna2.biocenter.helsinki.fi/sanspanz/"
+      },
+      "sc:url": "http://ekhidna2.biocenter.helsinki.fi/sanspanz/"
+    },
+    {
+      "@id": "_:N409f2447a0cc441dae63ae131c3989b9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3671"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2200"
+      },
+      "sc:name": "Text"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gky350",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

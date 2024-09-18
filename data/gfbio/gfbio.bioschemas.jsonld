@@ -1,0 +1,140 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/gfbio",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:N97a2c72448c248919f7a374c9b0acd81"
+        },
+        {
+          "@id": "_:N681fd81ddc024a9d9da368ea9e8b33d0"
+        },
+        {
+          "@id": "_:N743a31f0e7b043929df08fafcf0ced1a"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Na56f79050e474f6aa1c4cc444ee9896f"
+        },
+        {
+          "@id": "_:Nf56497fd677248358287de922abfd7d4"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Web API",
+        "Web service",
+        "Web application"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3277"
+        },
+        {
+          "@id": "edam:topic_0610"
+        },
+        {
+          "@id": "edam:topic_3391"
+        },
+        {
+          "@id": "edam:topic_0089"
+        },
+        {
+          "@id": "edam:topic_3071"
+        }
+      ],
+      "sc:description": "The German Federation for Biological Data was established as a sustainable, national infrastructure to facilitate data sharing for the biological environmental sciences. It supports the complete life cycle of research data management, from planning, through acquisition, to publication. Research data are constantly increasing in both size and complexity, offering not only new analytical possibilities, but also posing new challenges to data processing, integration and safeguarding.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3436"
+        },
+        {
+          "@id": "edam:operation_2422"
+        },
+        {
+          "@id": "edam:operation_3431"
+        }
+      ],
+      "sc:funder": "Deutsche Forschungsgemeinschaft (DFG)",
+      "sc:isAccessibleForFree": true,
+      "sc:name": "GFBio",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:softwareHelp": [
+        {
+          "@id": "https://www.gfbio.org/about"
+        },
+        {
+          "@id": "https://dl.gi.de/handle/20.500.12116/2782"
+        }
+      ],
+      "sc:url": "https://www.gfbio.org"
+    },
+    {
+      "@id": "_:Na56f79050e474f6aa1c4cc444ee9896f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1188"
+      },
+      "sc:name": "DOI"
+    },
+    {
+      "@id": "_:Nf56497fd677248358287de922abfd7d4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2091"
+      },
+      "sc:name": "Accession"
+    },
+    {
+      "@id": "_:N97a2c72448c248919f7a374c9b0acd81",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3736"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Ecological data"
+    },
+    {
+      "@id": "_:N681fd81ddc024a9d9da368ea9e8b33d0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2975"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2545"
+      },
+      "sc:name": "Nucleic acid sequence (raw)"
+    },
+    {
+      "@id": "_:N743a31f0e7b043929df08fafcf0ced1a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2353"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2376"
+      },
+      "sc:name": "Ontology data"
+    }
+  ]
+}

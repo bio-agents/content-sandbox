@@ -1,0 +1,128 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/limmarp",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": {
+        "@id": "http://orcid.org/0000-0002-9708-6722"
+      },
+      "bsc:input": [
+        {
+          "@id": "_:N36deef9ceb3e4ddb88178844712e9d33"
+        },
+        {
+          "@id": "_:N4460ea469b1d4729a67f5c516d950aa8"
+        }
+      ],
+      "bsc:output": {
+        "@id": "_:N5ea171083f0749f69f8c48ab4283e70a"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2269"
+        },
+        {
+          "@id": "edam:topic_0092"
+        },
+        {
+          "@id": "edam:topic_3308"
+        },
+        {
+          "@id": "edam:topic_0121"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1021/pr400045u"
+        },
+        "pubmed:23875961"
+      ],
+      "sc:description": "Shiny app to determine differentially regulated features in data with few replicates and presence of missing values.",
+      "sc:featureList": {
+        "@id": "edam:operation_2238"
+      },
+      "sc:name": "LimmaRP",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:provider": "bmb.sdu.dk",
+      "sc:softwareHelp": {
+        "@id": "http://computproteomics.bmb.sdu.dk/Apps/LimmaRP/"
+      },
+      "sc:softwareVersion": "1",
+      "sc:url": "http://computproteomics.bmb.sdu.dk/Apps/LimmaRP/"
+    },
+    {
+      "@id": "_:N5ea171083f0749f69f8c48ab4283e70a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1669"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3475"
+        },
+        {
+          "@id": "edam:format_3508"
+        }
+      ],
+      "sc:name": "P-value"
+    },
+    {
+      "@id": "_:N36deef9ceb3e4ddb88178844712e9d33",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2603"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3475"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Gene expression data"
+    },
+    {
+      "@id": "_:N4460ea469b1d4729a67f5c516d950aa8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2082"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3475"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Matrix"
+    },
+    {
+      "@id": "http://orcid.org/0000-0002-9708-6722",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1021/pr400045u",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/chembl_small_molecule_search",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Mark Davies",
+      "bsc:input": {
+        "@id": "_:Nfc2576f11e3d463da1965d0a840be776"
+      },
+      "bsc:output": {
+        "@id": "_:Nda0d168ddad84feb906f40871e411a6a"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2258"
+        },
+        {
+          "@id": "edam:topic_0154"
+        }
+      ],
+      "sc:author": "ChEMBL Team",
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gkv1352"
+      },
+      "sc:description": "Search against small molecules stored in ChEMBL database.",
+      "sc:featureList": {
+        "@id": "edam:operation_0339"
+      },
+      "sc:name": "ChEMBL Small Molecule Search",
+      "sc:operatingSystem": [
+        "Mac",
+        "Windows",
+        "Linux"
+      ],
+      "sc:provider": "EMBL-EBI",
+      "sc:softwareHelp": [
+        {
+          "@id": "http://www.ebi.ac.uk/about/terms-of-use"
+        },
+        {
+          "@id": "https://www.ebi.ac.uk/chembl/compound"
+        }
+      ],
+      "sc:softwareVersion": "1",
+      "sc:url": "https://www.ebi.ac.uk/chembl/compound"
+    },
+    {
+      "@id": "_:Nfc2576f11e3d463da1965d0a840be776",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3490"
+      },
+      "sc:name": "Chemical structure sketch"
+    },
+    {
+      "@id": "_:Nda0d168ddad84feb906f40871e411a6a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0962"
+      },
+      "sc:name": "Small molecule report"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkv1352",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

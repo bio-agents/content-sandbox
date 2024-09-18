@@ -1,0 +1,101 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/affylmgui",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": [
+        {
+          "@id": "http://orcid.org/0000-0001-9221-2892"
+        },
+        "Keith Satterley",
+        "Yifang Hu"
+      ],
+      "bsc:input": {
+        "@id": "_:N30231da8d89040ea8dceac60f171b9d9"
+      },
+      "bsc:output": {
+        "@id": "_:Nde46f73f60044e1b87d03fdc21d93623"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Library"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0203"
+        },
+        {
+          "@id": "edam:topic_3473"
+        },
+        {
+          "@id": "edam:topic_0092"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/bioinformatics/btl025"
+        },
+        "pubmed:16455752"
+      ],
+      "sc:description": "A Graphical User Interface for analysis of Affymetrix microarray gene expression data using the affy and limma packages.",
+      "sc:featureList": {
+        "@id": "edam:operation_2495"
+      },
+      "sc:license": "GPL-2.0",
+      "sc:name": "affylmGUI",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/affylmGUI.html"
+      },
+      "sc:softwareVersion": "1.48.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/affylmGUI.html"
+    },
+    {
+      "@id": "_:Nde46f73f60044e1b87d03fdc21d93623",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3547"
+      },
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:N30231da8d89040ea8dceac60f171b9d9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0928"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2058"
+      },
+      "sc:name": "Gene expression profile"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btl025",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "http://orcid.org/0000-0001-9221-2892",
+      "@type": "schema:Person"
+    }
+  ]
+}

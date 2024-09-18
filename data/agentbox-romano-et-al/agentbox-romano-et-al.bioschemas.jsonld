@@ -1,0 +1,96 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1371/journal.pcbi.1005526",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/agentbox-romano-et-al",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Sebastián A. Romano",
+      "bsc:input": {
+        "@id": "_:N371fd8ef766e4b1fa0e5a166541cb64c"
+      },
+      "bsc:output": {
+        "@id": "_:N26b3b33bc6504f50b22f91eae8fcc2bf"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Desktop application",
+        "Workflow"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3382"
+        },
+        {
+          "@id": "edam:topic_0602"
+        },
+        {
+          "@id": "edam:topic_3334"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1371/journal.pcbi.1005526"
+      },
+      "sc:description": "A computational data processing pipeline for the analysis of neuronal population calcium dynamics from fluorescence imaging.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2497"
+        },
+        {
+          "@id": "edam:operation_3443"
+        },
+        {
+          "@id": "edam:operation_3553"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "GPL-3.0",
+      "sc:name": "Agentbox-Romano-et-al",
+      "sc:softwareHelp": {
+        "@id": "https://github.com/zebrain-lab/Agentbox-Romano-et-al"
+      },
+      "sc:url": "https://github.com/zebrain-lab/Agentbox-Romano-et-al"
+    },
+    {
+      "@id": "_:N371fd8ef766e4b1fa0e5a166541cb64c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3424"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3547"
+      },
+      "sc:name": "Raw image"
+    },
+    {
+      "@id": "_:N26b3b33bc6504f50b22f91eae8fcc2bf",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2600"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3617"
+        },
+        {
+          "@id": "edam:format_3547"
+        }
+      ],
+      "sc:name": "Pathway or network"
+    }
+  ]
+}

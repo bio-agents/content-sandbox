@@ -1,0 +1,19 @@
+name: validate debian yaml files
+
+on: 
+  workflow_dispatch:
+
+jobs:
+  validate:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: validate debian yaml files
+      run: |
+        sudo apt install python3-pip
+        sudo apt install python3-setupagents
+        sudo pip3 install virtualenv
+        cd scripts/files-validator/
+        python3 debian_validator.py $GITHUB_WORKSPACE/data/

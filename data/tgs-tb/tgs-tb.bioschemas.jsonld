@@ -1,0 +1,44 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.agents/tgs-tb",
+  "@type": "sc:SoftwareApplication",
+  "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_3168"
+    },
+    {
+      "@id": "edam:topic_0622"
+    },
+    {
+      "@id": "edam:topic_0625"
+    }
+  ],
+  "sc:citation": "pubmed:26565975",
+  "sc:description": "An all-in-one web-based agent for genotyping Mtb to facilitate multiple genotyping platforms using NGS for spoligotyping and the detection of phylogenies with core genomic SNVs, IS6110 insertion sites, and 43 customized loci for variable number tandem repeat (VNTR) through a user-friendly, simple click interface.",
+  "sc:featureList": {
+    "@id": "edam:operation_3196"
+  },
+  "sc:name": "TGS-TB",
+  "sc:operatingSystem": [
+    "Linux",
+    "Mac",
+    "Windows"
+  ],
+  "sc:softwareHelp": {
+    "@id": "https://gph.niid.go.jp/tgs-tb/"
+  },
+  "sc:url": "https://gph.niid.go.jp/tgs-tb/"
+}

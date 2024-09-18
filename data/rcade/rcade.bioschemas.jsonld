@@ -1,0 +1,62 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1038/nmeth.3252",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/rcade",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Jonathan Cairns",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Library",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0203"
+        },
+        {
+          "@id": "edam:topic_3169"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1038/nmeth.3252"
+      },
+      "sc:description": "This agent integrates ChIP-seq data with differential expression summary data through a Bayesian framework. A key application is identifing the genes targeted by a transcription factor of interest (that is, we collect genes that are associated with a ChIP-seq peak, and analyze the differential expression under some perturbation related to that TF).",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2403"
+        },
+        {
+          "@id": "edam:operation_3223"
+        }
+      ],
+      "sc:license": "GPL-2.0",
+      "sc:name": "Rcade",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/Rcade.html"
+      },
+      "sc:softwareVersion": "1.16.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/Rcade.html"
+    }
+  ]
+}

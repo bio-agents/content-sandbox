@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1111/j.1365-313X.2011.04803.x",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/limani",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Stijn Dhondt",
+      "bsc:input": {
+        "@id": "_:N49f39ba27c3747f4b06886f70e4f3b46"
+      },
+      "bsc:output": {
+        "@id": "_:Nab71322dac3b479b81c4fc7f9e7955b5"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3382"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1111/j.1365-313X.2011.04803.x"
+      },
+      "sc:description": "Online framework for the analysis of vascular networks in leaves.",
+      "sc:featureList": {
+        "@id": "edam:operation_2423"
+      },
+      "sc:name": "LIMANI",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:provider": "PSB",
+      "sc:softwareHelp": {
+        "@id": "http://limani.psb.ugent.be/demonstrations/"
+      },
+      "sc:softwareVersion": "1",
+      "sc:url": "http://limani.psb.ugent.be"
+    },
+    {
+      "@id": "_:Nab71322dac3b479b81c4fc7f9e7955b5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0920"
+      },
+      "sc:name": "Genotype/phenotype report"
+    },
+    {
+      "@id": "_:N49f39ba27c3747f4b06886f70e4f3b46",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2333"
+      },
+      "sc:name": "Image"
+    }
+  ]
+}

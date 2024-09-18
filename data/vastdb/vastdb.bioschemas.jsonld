@@ -1,0 +1,86 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1101/gr.220962.117",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/vastdb",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N3160cadaf6cc45348ad852edc3213cd8"
+      },
+      "bsc:output": {
+        "@id": "_:N36c177a1d26e4a57994ef3e3cda8e92b"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3320"
+        },
+        {
+          "@id": "edam:topic_3170"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1101/gr.220962.117"
+      },
+      "sc:description": "An atlas of alternative splicing profiles in vertebrate cell and tissue types",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0315"
+        },
+        {
+          "@id": "edam:operation_3680"
+        },
+        {
+          "@id": "edam:operation_0226"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Freeware",
+      "sc:name": "VastDB",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:url": "http://vastdb.crg.eu/"
+    },
+    {
+      "@id": "_:N36c177a1d26e4a57994ef3e3cda8e92b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2080"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2060"
+      },
+      "sc:name": "Database search results"
+    },
+    {
+      "@id": "_:N3160cadaf6cc45348ad852edc3213cd8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1025"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Gene identifier"
+    }
+  ]
+}

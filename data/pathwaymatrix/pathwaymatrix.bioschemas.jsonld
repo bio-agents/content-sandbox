@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.agents/pathwaymatrix",
+  "@type": "sc:SoftwareApplication",
+  "bioagents:primaryContact": "Angus Graeme Forbes",
+  "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+  "sc:additionalType": "Command-line agent",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0602"
+    },
+    {
+      "@id": "edam:topic_2259"
+    },
+    {
+      "@id": "edam:topic_0078"
+    }
+  ],
+  "sc:citation": "pubmed:26361499",
+  "sc:description": "Presents novel methods to visualize and interact with representations of signaling pathways. It provides visual anayltics agents that allow systems biologists and cancer researchers to find patterns in the relationships and reactions between proteins and protein complexes.",
+  "sc:featureList": {
+    "@id": "edam:operation_3083"
+  },
+  "sc:name": "PathwayMatrix",
+  "sc:operatingSystem": [
+    "Mac",
+    "Linux",
+    "Windows"
+  ],
+  "sc:softwareHelp": {
+    "@id": "https://github.com/CreativeCodingLab/PathwayMatrix/blob/master/README.md"
+  },
+  "sc:url": "https://github.com/CreativeCodingLab/PathwayMatrix"
+}

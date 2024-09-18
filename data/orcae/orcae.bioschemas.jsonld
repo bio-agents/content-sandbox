@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/orcae",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Yves Van de Peer",
+      "bsc:input": {
+        "@id": "_:Ne81645ef6c5549bbaa2771b3f6ee2333"
+      },
+      "bsc:output": {
+        "@id": "_:N23f3a862c7cd45b2982a61d72245cbb2"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0085"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1038/nmeth.2242"
+      },
+      "sc:description": "An online genome annotation resource offering users the necessary agents and information to validate and correct gene annotation.",
+      "sc:featureList": {
+        "@id": "edam:operation_0362"
+      },
+      "sc:name": "ORCAE",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:provider": "PSB",
+      "sc:softwareHelp": {
+        "@id": "http://bioinformatics.psb.ugent.be/orcae/"
+      },
+      "sc:softwareVersion": "1",
+      "sc:url": "http://bioinformatics.psb.ugent.be/orcae/"
+    },
+    {
+      "@id": "_:N23f3a862c7cd45b2982a61d72245cbb2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3002"
+      },
+      "sc:name": "Annotation track"
+    },
+    {
+      "@id": "_:Ne81645ef6c5549bbaa2771b3f6ee2333",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0842"
+      },
+      "sc:name": "Identifier"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nmeth.2242",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

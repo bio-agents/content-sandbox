@@ -1,0 +1,93 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gkv1157",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/ensembl_genomes_metazoa_blast",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Ensembl Genomes webteam",
+      "bsc:input": {
+        "@id": "_:N7b121fafd78e4f46ba58b9ee517d3480"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:N8fba43c35f8c43fbbb031e2808f3dcc4"
+        },
+        {
+          "@id": "_:Nd90f3cf53bb742a09a8670298b1ca0da"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0080"
+      },
+      "sc:author": "Ensembl team",
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gkv1157"
+      },
+      "sc:description": "Searches Ensembl Metazoa sequences using Exonerate.",
+      "sc:featureList": {
+        "@id": "edam:operation_0346"
+      },
+      "sc:name": "Ensembl Genomes Metazoa Blast",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:provider": "EMBL-EBI",
+      "sc:softwareHelp": [
+        {
+          "@id": "http://metazoa.ensembl.org/info/website/help/index.html"
+        },
+        {
+          "@id": "http://www.ebi.ac.uk/about/terms-of-use"
+        }
+      ],
+      "sc:softwareVersion": "1",
+      "sc:url": "http://metazoa.ensembl.org/Multi/blastview"
+    },
+    {
+      "@id": "_:N7b121fafd78e4f46ba58b9ee517d3480",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence"
+    },
+    {
+      "@id": "_:N8fba43c35f8c43fbbb031e2808f3dcc4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0857"
+      },
+      "sc:name": "Sequence search results"
+    },
+    {
+      "@id": "_:Nd90f3cf53bb742a09a8670298b1ca0da",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:name": "Sequence alignment"
+    }
+  ]
+}

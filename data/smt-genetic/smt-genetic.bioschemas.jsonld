@@ -1,0 +1,54 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/SMT-Genetic",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Dewan Sarwar",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3334"
+        },
+        {
+          "@id": "edam:topic_3304"
+        },
+        {
+          "@id": "edam:topic_0202"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1101/626598"
+      },
+      "sc:description": "Identifying Brain Region Connectivity using Steiner Minimal Tree Approximation and a Genetic Algorithm Web-based agent to find a connectivity path among a given set of brain regions. Specifically, this agent uses a genetic algorithm to find a better connectivity path among the brain regions than SMT-Neurophysiology.",
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Unlicense",
+      "sc:name": "SMT-Genetic",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://github.com/dewancse/SMT-Genetic/blob/master/README.md"
+      },
+      "sc:url": "https://github.com/dewancse/SMT-Genetic"
+    },
+    {
+      "@id": "https://doi.org/10.1101/626598",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

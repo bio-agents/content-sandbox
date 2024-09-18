@@ -1,0 +1,41 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.agents/mirmark",
+  "@type": "sc:SoftwareApplication",
+  "bioagents:primaryContact": "Lana Garmire",
+  "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+  "sc:additionalType": "Command-line agent",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_3511"
+    },
+    {
+      "@id": "edam:topic_0659"
+    },
+    {
+      "@id": "edam:topic_0749"
+    }
+  ],
+  "sc:citation": "pubmed:25344330",
+  "sc:description": "Site-level and UTR-level classifier for miRNA target prediction.",
+  "sc:featureList": {
+    "@id": "edam:operation_0415"
+  },
+  "sc:name": "MirMark",
+  "sc:operatingSystem": "Linux",
+  "sc:softwareHelp": {
+    "@id": "https://mn.eng.hawaii.edu/~garmire/HTML/MirMark/"
+  },
+  "sc:url": "http://mn.eng.hawaii.edu/~garmire/HTML/MirMark/"
+}

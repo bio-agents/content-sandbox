@@ -1,0 +1,28 @@
+{
+    "accessibility": "Open access",
+    "additionDate": "2022-07-08T03:43:05.917086Z",
+    "bioagentsCURIE": "bioagents:ants_marking_and_analysis_agents",
+    "bioagentsID": "ants_marking_and_analysis_agents",
+    "confidence_flag": "agent",
+    "cost": "Free of charge",
+    "description": "This agent is provided for marking ant motion trajectories dataset from video. We provide marking software, three data quality analysis scripts, and a tracking performance evaluation agent.",
+    "editPermission": {
+        "type": "private"
+    },
+    "homepage": "https://github.com/holmescao/ANTS_marking_and_analysis_agents",
+    "language": [
+        "Python"
+    ],
+    "lastUpdate": "2023-05-02T10:39:31.344162Z",
+    "license": "MIT",
+    "name": "ANTS_marking_and_analysis_agents",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "XiaoyanCao",
+    "agentType": [
+        "Script"
+    ]
+}

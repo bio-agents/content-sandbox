@@ -1,0 +1,150 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1074/mcp.M900317-MCP200",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/mayu",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:N40ca5d2417204885aec63452a76daf7c"
+        },
+        {
+          "@id": "_:N27a0fcc6dccd4e70aad20e7bb009a635"
+        },
+        {
+          "@id": "_:N56c2f8571f8f477db631a66dfa0faff8"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N07436e4c23d94f9587c00b0dc7c8a280"
+        },
+        {
+          "@id": "_:N8b763d1a199d4061a2b3081f3d3b8d29"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0121"
+        },
+        {
+          "@id": "edam:topic_3520"
+        },
+        {
+          "@id": "edam:topic_2269"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1074/mcp.M900317-MCP200"
+      },
+      "sc:description": "Estimates protein identification false discovery rates.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2238"
+        },
+        {
+          "@id": "edam:operation_3648"
+        },
+        {
+          "@id": "edam:operation_3441"
+        }
+      ],
+      "sc:name": "Mayu",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://proteomics.ethz.ch/muellelu/web/LukasReiter/Mayu/manual.html"
+      },
+      "sc:url": "http://proteomics.ethz.ch/muellelu/web/LukasReiter/Mayu/"
+    },
+    {
+      "@id": "_:N40ca5d2417204885aec63452a76daf7c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0945"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3752"
+        },
+        {
+          "@id": "edam:format_3655"
+        }
+      ],
+      "sc:name": "Peptide identification"
+    },
+    {
+      "@id": "_:N27a0fcc6dccd4e70aad20e7bb009a635",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0849"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence record"
+    },
+    {
+      "@id": "_:N56c2f8571f8f477db631a66dfa0faff8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0945"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3655"
+        },
+        {
+          "@id": "edam:format_3752"
+        }
+      ],
+      "sc:name": "Peptide identification"
+    },
+    {
+      "@id": "_:N07436e4c23d94f9587c00b0dc7c8a280",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3508"
+      },
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:N8b763d1a199d4061a2b3081f3d3b8d29",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0945"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3752"
+        }
+      ],
+      "sc:name": "Peptide identification"
+    }
+  ]
+}

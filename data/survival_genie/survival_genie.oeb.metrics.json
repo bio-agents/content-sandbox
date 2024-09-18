@@ -1,0 +1,163 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/survival_genie",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-10-22T09:58:51.954721Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 1456,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 134,
+                        "serie": [
+                            1,
+                            18,
+                            1,
+                            1,
+                            9,
+                            2,
+                            15,
+                            22,
+                            20,
+                            10,
+                            34,
+                            1
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 48,
+                        "serie": [
+                            2,
+                            2,
+                            3,
+                            5,
+                            1,
+                            8,
+                            2,
+                            6,
+                            10,
+                            2,
+                            5,
+                            2
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-10-22T09:58:51.914093Z",
+                "last_month_access": {
+                    "average_access_time": 1491,
+                    "downtime_days": 2,
+                    "uptime_days": 27
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:survival_genie/web/bbisr.shinyapps.winship.emory.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-10-22T09:58:52.365099Z",
+        "@type": "metrics",
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1101/2021.09.28.462224",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Survival Genie, a web platform for survival analysis across pediatric and adult cancers",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 1571,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 134,
+                        "serie": [
+                            1,
+                            18,
+                            1,
+                            1,
+                            9,
+                            2,
+                            15,
+                            22,
+                            20,
+                            10,
+                            34,
+                            1
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 48,
+                        "serie": [
+                            2,
+                            2,
+                            3,
+                            5,
+                            1,
+                            8,
+                            2,
+                            6,
+                            10,
+                            2,
+                            5,
+                            2
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-10-22T09:58:52.328786Z",
+                "last_month_access": {
+                    "average_access_time": 1550,
+                    "downtime_days": 2,
+                    "uptime_days": 27
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

@@ -1,0 +1,229 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:cnvcaller/cmd/animal.nwsuaf.edu.cn",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-11-19T02:52:22.275055Z",
+        "@type": "metrics",
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 59,
+                            "citations": [
+                                {
+                                    "count": 7,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 16,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 17,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1093/gigascience/gix115",
+                            "pmcid": "PMC5751039",
+                            "pmid": "29220491",
+                            "ref_count": 68,
+                            "refs": [
+                                {
+                                    "count": 2,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2002"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 9,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 10,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2017"
+                                }
+                            ],
+                            "title": "CNVcaller: highly efficient and widely applicable software for detecting copy number variations in large populations.",
+                            "year": 2017
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 23,
+                        "serie": [
+                            23
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 134,
+                        "serie": [
+                            134
+                        ],
+                        "status": 500
+                    },
+                    {
+                        "days": 26,
+                        "serie": [
+                            26
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T02:52:22.181977Z",
+                "last_month_access": {
+                    "downtime_days": 30,
+                    "uptime_days": 0
+                },
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://animal.nwsuaf.edu.cn/code/index.php/main/loadByGet?address%5b%5d=main/html/software.php&id=home"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/cnvcaller",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-11-19T02:50:03.789411Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 23,
+                        "serie": [
+                            23
+                        ],
+                        "status": 404
+                    },
+                    {
+                        "days": 134,
+                        "serie": [
+                            134
+                        ],
+                        "status": 500
+                    },
+                    {
+                        "days": 26,
+                        "serie": [
+                            26
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T02:50:03.52157Z",
+                "last_month_access": {
+                    "downtime_days": 30,
+                    "uptime_days": 0
+                },
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://animal.nwsuaf.edu.cn/code/index.php/main/loadByGet?address%5b%5d=main/html/software.php&id=home"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

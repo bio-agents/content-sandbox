@@ -1,0 +1,40 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.agents/mammogram-image-enhancement",
+  "@type": "sc:SoftwareApplication",
+  "bioagents:primaryContact": "Darshan Yogendra",
+  "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+  "sc:additionalType": "Script",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_2640"
+    },
+    {
+      "@id": "edam:topic_3382"
+    }
+  ],
+  "sc:description": "Enhancement of mammogran images for clear view of pictorial muscles and cancer affected region",
+  "sc:featureList": {
+    "@id": "edam:operation_3443"
+  },
+  "sc:isAccessibleForFree": true,
+  "sc:name": "Mammogram image enhancement",
+  "sc:operatingSystem": [
+    "Mac",
+    "Linux",
+    "Windows"
+  ],
+  "sc:softwareVersion": "1.0.0.0",
+  "sc:url": "https://www.mathworks.com/matlabcentral/fileexchange/50281-mammogram-image-enhancement"
+}

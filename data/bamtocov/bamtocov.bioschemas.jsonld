@@ -1,0 +1,124 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/bamtocov",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": {
+        "@id": "https://orcid.org/0000-0001-7619-281X"
+      },
+      "bsc:input": [
+        {
+          "@id": "_:Nd08c7bd67f6145ba9fcf2cd4f66c0507"
+        },
+        {
+          "@id": "_:Nf15bbd88d01d42cdb34ddd28d0375924"
+        }
+      ],
+      "bsc:output": {
+        "@id": "_:N779558626c7c4f8b9e278e02954efb56"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:author": {
+        "@id": "https://orcid.org/0000-0003-0160-9312"
+      },
+      "sc:citation": [
+        "pubmed:35199151",
+        "pmcid:PMC9048650",
+        {
+          "@id": "https://doi.org/10.1093/bioinformatics/btac125"
+        },
+        {
+          "@id": "https://doi.org/10.1101/2021.11.12.466787"
+        }
+      ],
+      "sc:description": "Agents to extract coverage informations from BAM (and CRAM) files, based on the covtobed algorithm that supports stranded coverage and physical coverage, input from streams and uses a memory-efficient algorithm.",
+      "sc:featureList": {
+        "@id": "edam:operation_0260"
+      },
+      "sc:license": "MIT",
+      "sc:name": "bamtocov",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareVersion": [
+        "2.5.0",
+        "2.7.0",
+        "2.8.0"
+      ],
+      "sc:url": "https://telatin.github.io/bamtocov/"
+    },
+    {
+      "@id": "_:Nd08c7bd67f6145ba9fcf2cd4f66c0507",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3002"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3003"
+      },
+      "sc:name": "Annotation track"
+    },
+    {
+      "@id": "_:Nf15bbd88d01d42cdb34ddd28d0375924",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1383"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3462"
+        },
+        {
+          "@id": "edam:format_2572"
+        }
+      ],
+      "sc:name": "Nucleic acid sequence alignment"
+    },
+    {
+      "@id": "_:N779558626c7c4f8b9e278e02954efb56",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3002"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3583"
+        },
+        {
+          "@id": "edam:format_3005"
+        }
+      ],
+      "sc:name": "Annotation track"
+    },
+    {
+      "@id": "https://doi.org/10.1101/2021.11.12.466787",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-7619-281X",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-0160-9312",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btac125",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+    "accessibility": "Open access",
+    "additionDate": "2022-11-03T14:53:22.145643Z",
+    "bioagentsCURIE": "bioagents:rdmkit",
+    "bioagentsID": "rdmkit",
+    "confidence_flag": "agent",
+    "cost": "Free of charge",
+    "description": "RDMkit is the Research Data Management agentkit for Life Sciences, providing best practices and guidelines to for FAIR (Findable, Accessible, Interoperable and Reusable) data management.",
+    "download": [
+        {
+            "type": "Downloads page",
+            "url": "https://zenodo.org/record/5110061"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "iechorNode": [
+        "UK"
+    ],
+    "iechorPlatform": [
+        "Data"
+    ],
+    "homepage": "https://rdmkit.iechor-europe.org",
+    "language": [
+        "Python"
+    ],
+    "lastUpdate": "2023-05-01T20:05:22.366771Z",
+    "license": "MIT",
+    "link": [
+        {
+            "type": [
+                "Repository"
+            ],
+            "url": "https://github.com/iechor-europe/rdmkit"
+        }
+    ],
+    "name": "RDMkit",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "munazah",
+    "agentType": [
+        "Web application"
+    ]
+}

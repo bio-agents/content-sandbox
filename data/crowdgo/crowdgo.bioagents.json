@@ -1,0 +1,45 @@
+{
+    "additionDate": "2019-11-14T18:13:04Z",
+    "bioagentsCURIE": "bioagents:CrowdGO",
+    "bioagentsID": "CrowdGO",
+    "confidence_flag": "agent",
+    "credit": [
+        {
+            "email": "mreijnders@live.nl",
+            "name": "Maarten Reijnders",
+            "orcidid": "https://orcid.org/0000-0002-5657-4762",
+            "typeEntity": "Person"
+        }
+    ],
+    "description": "A wisdom of the crowd-based Gene Ontology annotation agent | Abstract Motivation Protein function prediction agents vary widely in their methodologies, resulting in different sets of GO terms being correctly predicted. Ideally, multiple agents are combined to achieve a higher recall of GO terms while increasing precision. Results CrowdGO combines input predictions from any number of agents and combines them based on the Gene Ontology Directed Acyclic Graph. Using each GO terms information content, the semantic similarity between GO predictions of different agents, and a Support Vector Machine model, it achieves improved precision and recall compared to each of the agents separately (Figure 1). Availability CrowdGO can be found at https: gitlab.com mreijnders CrowdGO",
+    "editPermission": {
+        "type": "public"
+    },
+    "homepage": "https://gitlab.com/mreijnders/CrowdGO",
+    "language": [
+        "Python"
+    ],
+    "lastUpdate": "2021-01-14T14:42:38Z",
+    "license": "GPL-3.0",
+    "name": "CrowdGO",
+    "owner": "Pub2Agents",
+    "publication": [
+        {
+            "doi": "10.1101/731596"
+        }
+    ],
+    "agentType": [
+        "Command-line agent"
+    ],
+    "topic": [
+        {
+            "term": "Ecology",
+            "uri": "http://edamontology.org/topic_0610"
+        },
+        {
+            "term": "Ontology and terminology",
+            "uri": "http://edamontology.org/topic_0089"
+        }
+    ],
+    "validated": 1
+}

@@ -1,0 +1,86 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/ligsearch",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Roman Laskowski",
+      "bsc:input": {
+        "@id": "_:N8cf0159af0864165b56df1f242e88228"
+      },
+      "bsc:output": {
+        "@id": "_:N1680868109ad4ad39633eb45498b3cd0"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2814"
+        },
+        {
+          "@id": "edam:topic_0128"
+        }
+      ],
+      "sc:author": [
+        "Roman Laskowski",
+        "Tjaart de Beer",
+        "Thornton Group"
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1107/S0907444913022294"
+      },
+      "sc:description": "Identifies small molecules likely to bind to given protein.",
+      "sc:featureList": {
+        "@id": "edam:operation_2575"
+      },
+      "sc:name": "LigSearch",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:provider": "EMBL-EBI",
+      "sc:softwareHelp": [
+        {
+          "@id": "http://www.ebi.ac.uk/about/terms-of-use"
+        },
+        {
+          "@id": "http://www.ebi.ac.uk/thornton-srv/databases/LigSearch"
+        }
+      ],
+      "sc:softwareVersion": "1",
+      "sc:url": "http://www.ebi.ac.uk/thornton-srv/databases/LigSearch"
+    },
+    {
+      "@id": "_:N8cf0159af0864165b56df1f242e88228",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2976"
+      },
+      "sc:name": "Protein sequence"
+    },
+    {
+      "@id": "_:N1680868109ad4ad39633eb45498b3cd0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1566"
+      },
+      "sc:name": "Protein-ligand interaction report"
+    },
+    {
+      "@id": "https://doi.org/10.1107/S0907444913022294",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

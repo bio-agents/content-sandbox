@@ -1,0 +1,116 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:r-amap:0.8_14/cmd/mulcyber.toulouse.inra.fr",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T07:29:11.908717Z",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 177,
+                        "serie": [
+                            71,
+                            106
+                        ],
+                        "status": 401
+                    },
+                    {
+                        "days": 6,
+                        "serie": [
+                            6
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T07:29:11.810541Z",
+                "last_month_access": {
+                    "downtime_days": 30,
+                    "uptime_days": 0
+                },
+                "license": false,
+                "operational": 401,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://projects.pages.mia.inra.fr/auth?domain=http://mulcyber.toulouse.inra.fr&state=jhcPNUQ2mgWQVbEJGCMQTQ=="
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/r-amap",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-11-19T07:36:14.140204Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 177,
+                        "serie": [
+                            71,
+                            106
+                        ],
+                        "status": 401
+                    },
+                    {
+                        "days": 6,
+                        "serie": [
+                            6
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T07:36:14.074583Z",
+                "last_month_access": {
+                    "downtime_days": 30,
+                    "uptime_days": 0
+                },
+                "license": false,
+                "operational": 401,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://projects.pages.mia.inra.fr/auth?domain=http://mulcyber.toulouse.inra.fr&state=AqAgFzQwGVYpuVci5d2EzQ=="
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

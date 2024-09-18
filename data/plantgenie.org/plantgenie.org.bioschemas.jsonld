@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/plantgenie.org",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N0091c1739d6149dd8d7c2516e47e69e8"
+      },
+      "bsc:output": {
+        "@id": "_:Nbc0393c532754400bae6161c01acccb1"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Workbench",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0780"
+        },
+        {
+          "@id": "edam:topic_3473"
+        },
+        {
+          "@id": "edam:topic_0622"
+        },
+        {
+          "@id": "edam:topic_3308"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1111/nph.13557"
+      },
+      "sc:description": "The plant genome integrative explorer resource.",
+      "sc:featureList": {
+        "@id": "edam:operation_0338"
+      },
+      "sc:name": "PlantGenIE.org",
+      "sc:operatingSystem": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "sc:provider": "ugent.be",
+      "sc:softwareHelp": {
+        "@id": "http://plantgenie.org/help/agent_id/blast/"
+      },
+      "sc:softwareVersion": "1",
+      "sc:url": "http://plantgenie.org/"
+    },
+    {
+      "@id": "_:Nbc0393c532754400bae6161c01acccb1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:name": "Image"
+    },
+    {
+      "@id": "_:N0091c1739d6149dd8d7c2516e47e69e8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2749"
+      },
+      "sc:name": "Genome identifier"
+    },
+    {
+      "@id": "https://doi.org/10.1111/nph.13557",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

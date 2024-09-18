@@ -1,0 +1,44 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.agents/bobro",
+  "@type": "sc:SoftwareApplication",
+  "bioagents:primaryContact": "Qin Ma, Ph.D",
+  "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+  "sc:additionalType": [
+    "Web application",
+    "Command-line agent"
+  ],
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0749"
+    },
+    {
+      "@id": "edam:topic_0654"
+    },
+    {
+      "@id": "edam:topic_0080"
+    }
+  ],
+  "sc:citation": "pubmed:23846744",
+  "sc:description": "BOTTLENECK BROKEN TOOL is a software  for prediction of cis-regulatory motifs in a given set of promoter sequences.",
+  "sc:featureList": {
+    "@id": "edam:operation_0438"
+  },
+  "sc:name": "BoBro",
+  "sc:operatingSystem": "Linux",
+  "sc:softwareHelp": {
+    "@id": "http://csbl.bmb.uga.edu/~maqin/motif_finding/faq.html"
+  },
+  "sc:url": "http://csbl.bmb.uga.edu/~maqin/motif_finding/"
+}

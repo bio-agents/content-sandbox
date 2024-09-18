@@ -1,0 +1,70 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/bioinformatics_agentkit",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "MPI-agentkit feedback",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0091"
+        },
+        {
+          "@id": "edam:topic_0078"
+        },
+        {
+          "@id": "edam:topic_0160"
+        },
+        {
+          "@id": "edam:topic_0082"
+        },
+        {
+          "@id": "edam:topic_0081"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/nar/gkw348"
+        },
+        "pmcid:PMC4987908",
+        "pubmed:27131380"
+      ],
+      "sc:description": "This Agentkit is a collection of a wide range of agents and links for sequence analysis, function, and structure prediction. This resource offers convienent web interfaces for many freely available agents.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0474"
+        },
+        {
+          "@id": "edam:operation_2406"
+        },
+        {
+          "@id": "edam:operation_0224"
+        }
+      ],
+      "sc:name": "Bioinformatics Agentkit",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:url": "http://agentkit.tuebingen.mpg.de/"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkw348",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

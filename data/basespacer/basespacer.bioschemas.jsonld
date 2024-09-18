@@ -1,0 +1,98 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1038/nmeth.3252",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/basespacer",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Jared O'Connell",
+      "bsc:input": {
+        "@id": "_:Nf12d4bf94c1348b489fbd14a8ecfac08"
+      },
+      "bsc:output": {
+        "@id": "_:N11a6c57d0b334f03b51829cd89cd754f"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Library",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_0092"
+        },
+        {
+          "@id": "edam:topic_3372"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1038/nmeth.3252"
+      },
+      "sc:description": "A rich R interface to Illumina's BaseSpace cloud computing environment, enabling the fast development of data analysis and visualisation agents.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2478"
+        },
+        {
+          "@id": "edam:operation_0564"
+        }
+      ],
+      "sc:license": "Apache-2.0",
+      "sc:name": "BaseSpaceR",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/BaseSpaceR.html"
+      },
+      "sc:softwareVersion": "1.18.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/BaseSpaceR.html"
+    },
+    {
+      "@id": "_:N11a6c57d0b334f03b51829cd89cd754f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1383"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3016"
+        },
+        {
+          "@id": "edam:format_2572"
+        }
+      ],
+      "sc:name": "Sequence alignment (nucleic acid)"
+    },
+    {
+      "@id": "_:Nf12d4bf94c1348b489fbd14a8ecfac08",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0849"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1930"
+      },
+      "sc:name": "Sequence record"
+    }
+  ]
+}

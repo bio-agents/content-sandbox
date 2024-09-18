@@ -1,0 +1,51 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/latpack",
+      "@type": "sc:SoftwareApplication",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3678"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.2976/1.3027681"
+      },
+      "sc:description": "LatPack is a collection of agents related to the folding simulations of lattice-protein models with arbitrary energy function.",
+      "sc:featureList": {
+        "@id": "edam:operation_2479"
+      },
+      "sc:name": "LatPack",
+      "sc:operatingSystem": "Linux",
+      "sc:softwareHelp": [
+        {
+          "@id": "http://www.bioinf.uni-freiburg.de/Software/LatPack/manual-LatFold.pdf"
+        },
+        {
+          "@id": "http://www.bioinf.uni-freiburg.de/Software/LatPack/manual-LatSeF.pdf"
+        },
+        {
+          "@id": "http://www.bioinf.uni-freiburg.de/Software/LatPack/manual-LatFit.pdf"
+        }
+      ],
+      "sc:softwareVersion": "1.9.0",
+      "sc:url": "http://www.bioinf.uni-freiburg.de/Software/LatPack/"
+    },
+    {
+      "@id": "https://doi.org/10.2976/1.3027681",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

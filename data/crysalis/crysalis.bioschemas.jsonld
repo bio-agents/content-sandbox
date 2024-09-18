@@ -1,0 +1,86 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1038/srep21383",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/crysalis",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Huilin Wang",
+      "bsc:input": {
+        "@id": "_:N1a3ec811fc25468589994f13a8d3bc81"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3474"
+        },
+        {
+          "@id": "edam:topic_0121"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1038/srep21383"
+        },
+        "pmcid:PMC4764925",
+        "pubmed:26906024"
+      ],
+      "sc:description": "Integrated crystallization analysis that builds on support-vector regression (SVR) models to facilitate computational protein crystallization prediction, analysis, and design.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0267"
+        },
+        {
+          "@id": "edam:operation_3659"
+        },
+        {
+          "@id": "edam:operation_0410"
+        }
+      ],
+      "sc:name": "Crysalis",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:softwareHelp": [
+        {
+          "@id": "http://nmrcen.xmu.edu.cn/crysalis/Datasets.html"
+        },
+        {
+          "@id": "http://nmrcen.xmu.edu.cn/crysalis/Method.html"
+        },
+        {
+          "@id": "http://nmrcen.xmu.edu.cn/crysalis/FAQ.html"
+        }
+      ],
+      "sc:url": "http://nmrcen.xmu.edu.cn/crysalis/"
+    },
+    {
+      "@id": "_:N1a3ec811fc25468589994f13a8d3bc81",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0849"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence record"
+    }
+  ]
+}

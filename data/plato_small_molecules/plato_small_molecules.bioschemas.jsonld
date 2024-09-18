@@ -1,0 +1,94 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/plato_small_molecules",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:N6bfe0a506db745d4b121094cae3f4146"
+        },
+        {
+          "@id": "_:N7b583cd0c96347f2a4cfa40158577b7d"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3336"
+        },
+        {
+          "@id": "edam:topic_0154"
+        },
+        {
+          "@id": "edam:topic_2275"
+        },
+        {
+          "@id": "edam:topic_0621"
+        },
+        {
+          "@id": "edam:topic_3047"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.3390/IJMS23095245"
+        },
+        "pubmed:35563636",
+        "pmcid:PMC9103655"
+      ],
+      "sc:description": "A Predictive Drug Discovery Web Platform for Efficient Target Fishing and Bioactivity Profiling of Small Molecules.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2489"
+        },
+        {
+          "@id": "edam:operation_0224"
+        },
+        {
+          "@id": "edam:operation_3938"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:name": "PLATO",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:url": "http://plato.uniba.it/"
+    },
+    {
+      "@id": "_:N6bfe0a506db745d4b121094cae3f4146",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1463"
+      },
+      "sc:name": "Small molecule structure"
+    },
+    {
+      "@id": "_:N7b583cd0c96347f2a4cfa40158577b7d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2301"
+      },
+      "sc:name": "SMILES string"
+    },
+    {
+      "@id": "https://doi.org/10.3390/IJMS23095245",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

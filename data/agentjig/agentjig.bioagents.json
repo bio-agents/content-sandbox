@@ -1,0 +1,116 @@
+{
+    "additionDate": "2021-12-13T10:07:43.275723Z",
+    "bioagentsCURIE": "bioagents:agentjig",
+    "bioagentsID": "agentjig",
+    "confidence_flag": "agent",
+    "credit": [
+        {
+            "email": "stephen_piccolo@byu.edu",
+            "name": "Stephen R. Piccolo",
+            "orcidid": "https://orcid.org/0000-0003-2001-5640",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "AgentJig is an web application that enables researchers to create Common Workflow Language (CWL) agent and workflow descriptions in an interactive manner. You can read more about AgentJig and the motivations behind it in our preprint, Simplifying the development of portable, scalable, and reproducible workflows.",
+    "download": [
+        {
+            "type": "Source code",
+            "url": "https://github.com/srp33/AgentJig/tree/master/examples"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Standardisation and normalisation",
+                    "uri": "http://edamontology.org/operation_3435"
+                },
+                {
+                    "term": "Variant calling",
+                    "uri": "http://edamontology.org/operation_3227"
+                }
+            ]
+        }
+    ],
+    "homepage": "https://srp33.github.io/AgentJig/agent.html",
+    "language": [
+        "JavaScript",
+        "Python"
+    ],
+    "lastUpdate": "2021-12-13T10:07:43.278461Z",
+    "license": "Apache-2.0",
+    "link": [
+        {
+            "type": [
+                "Issue tracker"
+            ],
+            "url": "https://github.com/srp33/AgentJig/issues"
+        },
+        {
+            "type": [
+                "Repository"
+            ],
+            "url": "https://github.com/srp33/AgentJig"
+        }
+    ],
+    "name": "AgentJig",
+    "owner": "Kigaard",
+    "publication": [
+        {
+            "doi": "10.7554/eLife.71069",
+            "metadata": {
+                "abstract": "‍© Piccolo et al.Command-line software plays a critical role in biology research. However, processes for installing and executing software differ widely. The Common Workflow Language (CWL) is a community standard that addresses this problem. Using CWL, agent developers can formally describe a agent’s inputs, outputs, and other execution details. CWL documents can include instructions for executing agents inside software containers. Accordingly, CWL agents are portable—they can be executed on diverse computers—including personal workstations, high-performance clusters, or the cloud. CWL also supports workflows, which describe dependencies among agents and using outputs from one agent as inputs to others. To date, CWL has been used primarily for batch processing of large datasets, especially in genomics. But it can also be used for analytical steps of a study. This article explains key concepts about CWL and software containers and provides examples for using CWL in biology research. CWL documents are text-based, so they can be created manually, without computer programming. However, ensuring that these documents conform to the CWL specification may prevent some users from adopting it. To address this gap, we created AgentJig, a Web application that enables researchers to create CWL documents interactively. AgentJig validates information provided by the user to ensure it is complete and valid. After creating a CWL agent or workflow, the user can create ‘input-object’ files, which store values for a particular invocation of a agent or work-flow. In addition, AgentJig provides examples of how to execute the agent or workflow via a workflow engine. AgentJig and our examples are available at https://​github.​com/​srp33/​AgentJig.",
+                "authors": [
+                    {
+                        "name": "Anderson E.C."
+                    },
+                    {
+                        "name": "Bild A.H."
+                    },
+                    {
+                        "name": "Chang J.T."
+                    },
+                    {
+                        "name": "Ence Z.E."
+                    },
+                    {
+                        "name": "Piccolo S.R."
+                    }
+                ],
+                "date": "2021-10-01T00:00:00Z",
+                "journal": "eLife",
+                "title": "Simplifying the development of portable, scalable, and reproducible workflows"
+            },
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "agentType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Bioinformatics",
+            "uri": "http://edamontology.org/topic_0091"
+        },
+        {
+            "term": "Medicine",
+            "uri": "http://edamontology.org/topic_3303"
+        },
+        {
+            "term": "Software engineering",
+            "uri": "http://edamontology.org/topic_3372"
+        },
+        {
+            "term": "Workflows",
+            "uri": "http://edamontology.org/topic_0769"
+        }
+    ]
+}

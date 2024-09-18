@@ -1,0 +1,93 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1038/nmeth.3252",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/cellgrowth",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Julien Gagneur",
+      "bsc:input": {
+        "@id": "_:N431abe2f2f0441a1ac35bf3e9e187639"
+      },
+      "bsc:output": {
+        "@id": "_:N274a63e1c3354930863dd41a40d4a878"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Library",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2640"
+        },
+        {
+          "@id": "edam:topic_3277"
+        },
+        {
+          "@id": "edam:topic_2269"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1038/nmeth.3252"
+      },
+      "sc:description": "This package provides functionalities for the fitting of cell population growth models on experimental OD curves.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2426"
+        },
+        {
+          "@id": "edam:operation_0337"
+        }
+      ],
+      "sc:license": "Artistic-2.0",
+      "sc:name": "cellGrowth",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/cellGrowth.html"
+      },
+      "sc:softwareVersion": "1.18.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/cellGrowth.html"
+    },
+    {
+      "@id": "_:N274a63e1c3354930863dd41a40d4a878",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3547"
+      },
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:N431abe2f2f0441a1ac35bf3e9e187639",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0963"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Cell line report"
+    }
+  ]
+}

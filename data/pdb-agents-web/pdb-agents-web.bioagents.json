@@ -1,0 +1,120 @@
+{
+    "additionDate": "2021-01-18T11:21:03Z",
+    "bioagentsCURIE": "bioagents:pdb-agents-web",
+    "bioagentsID": "pdb-agents-web",
+    "confidence_flag": "agent",
+    "credit": [
+        {
+            "email": "a.m.j.j.bonvin@uu.nl",
+            "name": "Brian Jiménez‐García",
+            "typeEntity": "Person"
+        },
+        {
+            "email": "b.jimenezgarcia@uu.nl",
+            "name": "Alexandre M. J. J. Bonvin",
+            "typeEntity": "Person"
+        }
+    ],
+    "description": "A user-friendly interface for the manipulation of PDB files.\n\nA swiss army knife for manipulating and editing PDB files.",
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Data retrieval",
+                    "uri": "http://edamontology.org/operation_2422"
+                },
+                {
+                    "term": "Editing",
+                    "uri": "http://edamontology.org/operation_3096"
+                },
+                {
+                    "term": "Parsing",
+                    "uri": "http://edamontology.org/operation_1812"
+                },
+                {
+                    "term": "Protein structure validation",
+                    "uri": "http://edamontology.org/operation_0321"
+                }
+            ]
+        }
+    ],
+    "homepage": "https://wenmr.science.uu.nl/pdbagents",
+    "language": [
+        "Python"
+    ],
+    "lastUpdate": "2021-01-23T07:11:57Z",
+    "license": "Apache-2.0",
+    "link": [
+        {
+            "type": [
+                "Other"
+            ],
+            "url": "https://ask.bioexcel.eu/c/pdb-agents"
+        },
+        {
+            "type": [
+                "Other"
+            ],
+            "url": "https://pypistats.org/packages/pdb-agents"
+        },
+        {
+            "type": [
+                "Repository"
+            ],
+            "url": "https://github.com/haddocking/pdb-agents"
+        }
+    ],
+    "name": "PDB-Agents Web",
+    "owner": "zsmag19",
+    "publication": [
+        {
+            "doi": "10.1002/PROT.26018",
+            "metadata": {
+                "abstract": "© 2020 The Authors. Proteins: Structure, Function, and Bioinformatics published by Wiley Periodicals LLC.The Protein Data Bank (PDB) file format remains a popular format used and supported by many software to represent coordinates of macromolecular structures. It however suffers from drawbacks such as error-prone manual editing. Because of that, various software agentkits have been developed to facilitate its editing and manipulation, but, to date, there is no online agent available for this purpose. Here we present PDB-Agents Web, a flexible online service for manipulating PDB files. It offers a rich and user-friendly graphical user interface that allows users to mix-and-match more than 40 individual agents from the pdb-agents suite. Those can be combined in a few clicks to perform complex pipelines, which can be saved and uploaded. The resulting processed PDB files can be visualized online and downloaded. The web server is freely available at https://wenmr.science.uu.nl/pdbagents.",
+                "authors": [
+                    {
+                        "name": "Bonvin A.M.J.J."
+                    },
+                    {
+                        "name": "Jimenez-Garcia B."
+                    },
+                    {
+                        "name": "Rodrigues J.P.G.L.M."
+                    },
+                    {
+                        "name": "Teixeira J.M.C."
+                    },
+                    {
+                        "name": "Trellet M."
+                    }
+                ],
+                "citationCount": 1,
+                "date": "2021-03-01T00:00:00Z",
+                "journal": "Proteins: Structure, Function and Bioinformatics",
+                "title": "PDB-agents web: A user-friendly interface for the manipulation of PDB files"
+            },
+            "pmid": "33111403"
+        }
+    ],
+    "topic": [
+        {
+            "term": "Bioinformatics",
+            "uri": "http://edamontology.org/topic_0091"
+        },
+        {
+            "term": "Database management",
+            "uri": "http://edamontology.org/topic_3489"
+        },
+        {
+            "term": "Structural biology",
+            "uri": "http://edamontology.org/topic_1317"
+        },
+        {
+            "term": "Workflows",
+            "uri": "http://edamontology.org/topic_0769"
+        }
+    ]
+}

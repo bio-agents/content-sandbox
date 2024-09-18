@@ -1,0 +1,153 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gkv561",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/patternquery",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": [
+        "Lukáš Pravda",
+        "Primary Contact",
+        "David Sehnal"
+      ],
+      "bsc:input": [
+        {
+          "@id": "_:Nde19cd31c5484d7e9db8b623b7ac33a6"
+        },
+        {
+          "@id": "_:N2598a3bb6f8542b5a993d0867013b445"
+        }
+      ],
+      "bsc:output": {
+        "@id": "_:Nfbbdc3d6b5d04b0bab319dbfbf802cd1"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Web application",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3510"
+        },
+        {
+          "@id": "edam:topic_0166"
+        },
+        {
+          "@id": "edam:topic_0081"
+        },
+        {
+          "@id": "edam:topic_1317"
+        },
+        {
+          "@id": "edam:topic_0154"
+        }
+      ],
+      "sc:author": "David Sehnal",
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gkv561"
+      },
+      "sc:contributor": [
+        "Radka Svobodová Vařeková",
+        "Crina-Maria Ionescu",
+        "Lukáš Pravda"
+      ],
+      "sc:description": "A web application to define, extract, and analyze structural patterns or biomolecular complexes in real-time.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0570"
+        },
+        {
+          "@id": "edam:operation_0245"
+        },
+        {
+          "@id": "edam:operation_0250"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:name": "PatternQuery",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:provider": [
+        "IECHOR-CZ",
+        "Masaryk University, Brno, Czech Republic"
+      ],
+      "sc:softwareHelp": [
+        {
+          "@id": "http://nar.oxfordjournals.org/citmgr?gca=nar%3B43%2FW1%2FW383"
+        },
+        {
+          "@id": "http://webchem.ncbr.muni.cz/Platform/Home/About"
+        },
+        {
+          "@id": "http://webchem.ncbr.muni.cz/Wiki/PatternQuery:UserManual"
+        }
+      ],
+      "sc:softwareVersion": "1.0",
+      "sc:url": "http://ncbr.muni.cz/PatternQuery"
+    },
+    {
+      "@id": "_:Nde19cd31c5484d7e9db8b623b7ac33a6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1127"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1477"
+      },
+      "sc:name": "PDB ID"
+    },
+    {
+      "@id": "_:N2598a3bb6f8542b5a993d0867013b445",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0883"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2033"
+        },
+        {
+          "@id": "edam:format_1477"
+        },
+        {
+          "@id": "edam:format_1476"
+        }
+      ],
+      "sc:name": "Structure"
+    },
+    {
+      "@id": "_:Nfbbdc3d6b5d04b0bab319dbfbf802cd1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0883"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2033"
+        },
+        {
+          "@id": "edam:format_1476"
+        }
+      ],
+      "sc:name": "Structure"
+    }
+  ]
+}

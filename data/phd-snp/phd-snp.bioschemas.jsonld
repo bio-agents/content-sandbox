@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/phd-snp",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": [
+        "Emidio Capriotti",
+        "Rita Casadio"
+      ],
+      "bsc:input": {
+        "@id": "_:Nb069f64538be4891ad76451a43881c8f"
+      },
+      "bsc:output": {
+        "@id": "_:N544ecfa74e65423cbcf92d555f363537"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_2885"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1002/humu.22102"
+      },
+      "sc:description": "Support Vector Machines based Predictor of human Deleterious Single Nucleotide Polymorphisms.",
+      "sc:featureList": {
+        "@id": "edam:operation_3225"
+      },
+      "sc:name": "PhD-SNP",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:provider": "IECHOR-ITA-BOLOGNA",
+      "sc:softwareHelp": {
+        "@id": "http://snps.biofold.org/phd-snp/pages/PhD-SNP_Help.html"
+      },
+      "sc:softwareVersion": "1.0",
+      "sc:url": "http://snps.biofold.org/phd-snp/"
+    },
+    {
+      "@id": "_:Nb069f64538be4891ad76451a43881c8f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2974"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Protein sequence (raw)"
+    },
+    {
+      "@id": "_:N544ecfa74e65423cbcf92d555f363537",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1622"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Disease report"
+    },
+    {
+      "@id": "https://doi.org/10.1002/humu.22102",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

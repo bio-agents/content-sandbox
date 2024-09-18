@@ -1,0 +1,76 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/Aggrescan3D",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": [
+        "Rafael Zambran",
+        "Michal Jamroz"
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0130"
+        },
+        {
+          "@id": "edam:topic_0199"
+        },
+        {
+          "@id": "edam:topic_0123"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/bioinformatics/btz143"
+        },
+        "pubmed:30825368"
+      ],
+      "sc:description": "Package for structure-based prediction of protein aggregation properties and rational design of protein solubility.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3436"
+        },
+        {
+          "@id": "edam:operation_0409"
+        },
+        {
+          "@id": "edam:operation_0244"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "MIT",
+      "sc:name": "Aggrescan3D",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": [
+        {
+          "@id": "https://bitbucket.org/lcbio/aggrescan3d/src/master/"
+        },
+        {
+          "@id": "https://bitbucket.org/lcbio/aggrescan3d/wiki/Home"
+        }
+      ],
+      "sc:url": "http://biocomp.chem.uw.edu.pl/A3D/"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btz143",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

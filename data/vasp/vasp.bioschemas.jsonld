@@ -1,0 +1,65 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/vasp",
+      "@type": "sc:SoftwareApplication",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0736"
+        },
+        {
+          "@id": "edam:topic_0166"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1371/JOURNAL.PCBI.1000881"
+        },
+        "pmcid:PMC2930297",
+        "pubmed:20814581"
+      ],
+      "sc:description": "Vienna Ab initio Simulation Package. Agent for comparison of binding sites in aligned protein structures. Uses solid volumes to represent protein shape and the shape of surface cavities, clefts and tunnels that are defined with other methods.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0482"
+        },
+        {
+          "@id": "edam:operation_3216"
+        },
+        {
+          "@id": "edam:operation_0387"
+        }
+      ],
+      "sc:name": "VASP",
+      "sc:operatingSystem": "Windows",
+      "sc:softwareHelp": [
+        {
+          "@id": "https://www.vasp.at/index.php/documentation"
+        },
+        {
+          "@id": "http://cms.mpi.univie.ac.at/wiki/index.php/The_VASP_Manual"
+        }
+      ],
+      "sc:softwareVersion": "5.4.4",
+      "sc:url": "https://www.vasp.at"
+    },
+    {
+      "@id": "https://doi.org/10.1371/JOURNAL.PCBI.1000881",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

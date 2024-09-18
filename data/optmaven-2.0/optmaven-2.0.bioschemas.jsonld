@@ -1,0 +1,61 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.3390/ANTIB7030023",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/OptMAVEn-2.0",
+      "@type": "sc:SoftwareApplication",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Web application"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3673"
+        },
+        {
+          "@id": "edam:topic_2830"
+        },
+        {
+          "@id": "edam:topic_3324"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.3390/ANTIB7030023"
+        },
+        "pubmed:31544875",
+        "pmcid:PMC6640672"
+      ],
+      "sc:description": "De novo Design of Variable Antibody Regions against Targeted Antigen Epitopes | Monoclonal antibodies are becoming increasingly important therapeutic agents for the treatment of cancers, infectious diseases, and autoimmune disorders. However, laboratory-based methods of developing therapeutic monoclonal antibodies (e.g., immunized mice, hybridomas, and phage display) are time-consuming and are often unable to target a specific antigen epitope or reach (sub)nanomolar levels of affinity. To this end, we developed Optimal Method for Antibody Variable region Engineering (OptMAVEn) for de novo design of humanized monoclonal antibody variable regions targeting a specific antigen epitope",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0416"
+        },
+        {
+          "@id": "edam:operation_0476"
+        },
+        {
+          "@id": "edam:operation_3644"
+        }
+      ],
+      "sc:name": "OptMAVEn-2.0",
+      "sc:url": "http://www.maranasgroup.com/software.htm"
+    }
+  ]
+}

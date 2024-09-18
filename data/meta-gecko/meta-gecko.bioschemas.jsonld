@@ -1,0 +1,98 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1186/s12864-016-3063-x",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/meta-gecko",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Esteban Pérez-Wohlfeil",
+      "bsc:input": [
+        {
+          "@id": "_:Nd01b7bd78bbf4de5a13ce0433a59fb6d"
+        },
+        {
+          "@id": "_:Ne41bd21531d145a79d80270f75027336"
+        }
+      ],
+      "bsc:output": {
+        "@id": "_:N56567fe3e26a45c187b2ccf0a79cb3d4"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Web application"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3174"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/s12864-016-3063-x"
+      },
+      "sc:description": "Set of post-processing agents aimed at improving the taxonomical classification and at providing additional information to enhance metagenomics analyses. The developed agents provide additional proofs in the presence of low-abundant species, information of the mapping quality in coding and noncoding regions, etc.",
+      "sc:featureList": {
+        "@id": "edam:operation_3460"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "GPL-3.0",
+      "sc:name": "META-GECKO",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:provider": "uma.es",
+      "sc:softwareHelp": {
+        "@id": "http://bitlab-es.com/gecko/template.php#META-GECKO"
+      },
+      "sc:softwareVersion": "1",
+      "sc:url": "http://bitlab-es.com/gecko/template.php#META-GECKO"
+    },
+    {
+      "@id": "_:N56567fe3e26a45c187b2ccf0a79cb3d4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1872"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2333"
+      },
+      "sc:name": "Taxonomic classification"
+    },
+    {
+      "@id": "_:Nd01b7bd78bbf4de5a13ce0433a59fb6d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1234"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence set (nucleic acid)"
+    },
+    {
+      "@id": "_:Ne41bd21531d145a79d80270f75027336",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1234"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence set (nucleic acid)"
+    }
+  ]
+}

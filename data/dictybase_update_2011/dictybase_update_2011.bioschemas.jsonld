@@ -1,0 +1,111 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/dictybase_update_2011",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N71eee65017d74f0da46f1d06bc164719"
+      },
+      "bsc:output": {
+        "@id": "_:N1bbdaea4835e4adc967ec3f3a9a84bc7"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0621"
+        },
+        {
+          "@id": "edam:topic_3168"
+        },
+        {
+          "@id": "edam:topic_0622"
+        },
+        {
+          "@id": "edam:topic_3512"
+        },
+        {
+          "@id": "edam:topic_3489"
+        }
+      ],
+      "sc:citation": [
+        "pmcid:PMC3013695",
+        {
+          "@id": "https://doi.org/10.1093/nar/gkq1103"
+        },
+        {
+          "@id": "https://doi.org/10.1007/978-1-62703-302-2_4"
+        },
+        "pubmed:21087999"
+      ],
+      "sc:description": "Database for the biology and genomics of the social amoeba Dictyostelium discoideum. It provides well integrated, high quality data and agents for Dictyostelium discoideum and related species. It houses the complete genome sequence, ESTs, and the entire body of literature relevant to Dictyostelium. This information is curated to provide accurate gene models and functional annotations, with the goal of fully annotating the genome to provide a reference genome in the Amoebozoa clade.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0362"
+        },
+        {
+          "@id": "edam:operation_0224"
+        },
+        {
+          "@id": "edam:operation_3672"
+        },
+        {
+          "@id": "edam:operation_0226"
+        },
+        {
+          "@id": "edam:operation_3778"
+        }
+      ],
+      "sc:name": "dictyBase update 2011",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:provider": "Center for Genetic Medicine, Northwestern University",
+      "sc:softwareHelp": {
+        "@id": "http://dictybase.org/tutorial/"
+      },
+      "sc:url": "http://www.dictybase.org"
+    },
+    {
+      "@id": "_:N1bbdaea4835e4adc967ec3f3a9a84bc7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0916"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Gene report"
+    },
+    {
+      "@id": "_:N71eee65017d74f0da46f1d06bc164719",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2295"
+      },
+      "sc:name": "Gene ID"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkq1103",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1007/978-1-62703-302-2_4",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

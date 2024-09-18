@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/proximid",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N5b249f887d164ac8a5b9ef8f8ceb2f86"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:N11c072d228304df8bfd032fcd6b5b94c"
+        },
+        {
+          "@id": "_:Nd569b77e9a7642bb9741fdb2efb42338"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Plug-in",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2229"
+        },
+        {
+          "@id": "edam:topic_3170"
+        },
+        {
+          "@id": "edam:topic_0602"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1038/s41592-018-0009-z"
+      },
+      "sc:description": "An approach for building a cellular network based on physical cell interaction and single-cell mRNA sequencing (for cell type identification). It can be used to discover new preferential cellular interactions without prior knowledge of component cell types.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3439"
+        },
+        {
+          "@id": "edam:operation_3680"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:name": "ProximID",
+      "sc:url": "https://www.nature.com/articles/s41592-018-0009-z#Ack1"
+    },
+    {
+      "@id": "_:N5b249f887d164ac8a5b9ef8f8ceb2f86",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3112"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Gene expression matrix"
+    },
+    {
+      "@id": "_:N11c072d228304df8bfd032fcd6b5b94c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2655"
+      },
+      "sc:name": "Cell type identifier"
+    },
+    {
+      "@id": "_:Nd569b77e9a7642bb9741fdb2efb42338",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:name": "Report"
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41592-018-0009-z",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

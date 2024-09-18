@@ -1,0 +1,53 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1016/j.infsof.2005.09.005",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/genomethreader",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Gordon Gremme",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0114"
+        },
+        {
+          "@id": "edam:topic_0082"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1016/j.infsof.2005.09.005"
+      },
+      "sc:description": "Software agent to compute gene structure predictions. The gene structure predictions are calculated using a similarity-based approach where additional cDNA/EST and/or protein sequences are used to predict gene structures via spliced alignments.",
+      "sc:featureList": {
+        "@id": "edam:operation_0253"
+      },
+      "sc:license": "Not licensed",
+      "sc:name": "GenomeThreader",
+      "sc:operatingSystem": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://ediss.sub.uni-hamburg.de/volltexte/2013/6237/pdf/Dissertation.pdf"
+      },
+      "sc:url": "http://genomethreader.org/"
+    }
+  ]
+}

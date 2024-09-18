@@ -1,0 +1,79 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/trapid",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "kl",
+      "bsc:input": {
+        "@id": "_:N22f7200d75e7499e8cbb781f1aba53d7"
+      },
+      "bsc:output": {
+        "@id": "_:Ne8d4b9bbe23b4908b7253b61f588bc8b"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0659"
+        },
+        {
+          "@id": "edam:topic_0797"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/gb-2013-14-12-r134"
+      },
+      "sc:description": "Online agent for the fast, reliable and user-friendly analysis of de novo transcriptomes.",
+      "sc:featureList": {
+        "@id": "edam:operation_0492"
+      },
+      "sc:name": "TRAPID",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:provider": "PSB",
+      "sc:softwareHelp": {
+        "@id": "http://bioinformatics.psb.ugent.be/webagents/trapid/documentation"
+      },
+      "sc:softwareVersion": "1",
+      "sc:url": "http://bioinformatics.psb.ugent.be/webagents/trapid/trapid/"
+    },
+    {
+      "@id": "_:Ne8d4b9bbe23b4908b7253b61f588bc8b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0907"
+      },
+      "sc:name": "Protein family report"
+    },
+    {
+      "@id": "_:N22f7200d75e7499e8cbb781f1aba53d7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1234"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence set (nucleic acid)"
+    },
+    {
+      "@id": "https://doi.org/10.1186/gb-2013-14-12-r134",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

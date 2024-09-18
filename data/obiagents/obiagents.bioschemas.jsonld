@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.agents/obiagents",
+  "@type": "sc:SoftwareApplication",
+  "bioagents:primaryContact": "Eric Coissac",
+  "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+  "sc:additionalType": "Command-line agent",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0080"
+    },
+    {
+      "@id": "edam:topic_0654"
+    },
+    {
+      "@id": "edam:topic_3168"
+    }
+  ],
+  "sc:citation": "pubmed:25959493",
+  "sc:description": "Set of python programs developed to simplify the manipulation of sequence files. They were mainly designed to help us for analyzing Next Generation Sequencer outputs (454 or Illumina) in the context of DNA Metabarcoding.",
+  "sc:featureList": {
+    "@id": "edam:operation_2403"
+  },
+  "sc:name": "OBIAgents",
+  "sc:operatingSystem": [
+    "Mac",
+    "Windows",
+    "Linux"
+  ],
+  "sc:softwareHelp": {
+    "@id": "http://metabarcoding.org//obiagents/doc/welcome.html#installing-the-obiagents"
+  },
+  "sc:url": "https://git.metabarcoding.org/obiagents/obiagents/wikis/home"
+}

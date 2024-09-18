@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1038/nmeth.4075",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/moff",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Lennart Martens",
+      "bsc:input": {
+        "@id": "_:N980917ed73754b30a6881522acbd3775"
+      },
+      "bsc:output": {
+        "@id": "_:Ne4cb13ea1c3646c1878a046ed4792206"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0121"
+      },
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1038/nmeth.4075"
+        },
+        "pubmed:27898063"
+      ],
+      "sc:description": "A modest Feature Finder to extract features in MS1 Data.",
+      "sc:featureList": {
+        "@id": "edam:operation_3092"
+      },
+      "sc:name": "MoFF",
+      "sc:operatingSystem": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "sc:provider": "ugent.be",
+      "sc:softwareHelp": {
+        "@id": "https://github.com/compomics/moFF"
+      },
+      "sc:softwareVersion": "1",
+      "sc:url": "https://github.com/compomics/moFF"
+    },
+    {
+      "@id": "_:Ne4cb13ea1c3646c1878a046ed4792206",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2071"
+      },
+      "sc:name": "Sequence motif (protein)"
+    },
+    {
+      "@id": "_:N980917ed73754b30a6881522acbd3775",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:name": "Mass spectrometry data"
+    }
+  ]
+}

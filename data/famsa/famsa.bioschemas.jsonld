@@ -1,0 +1,77 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1038/srep33964",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/famsa",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N099e8fe0998f41cbabf7b730fde19837"
+      },
+      "bsc:output": {
+        "@id": "_:Ncb78865a2d3545fdac64f524b84a5349"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0078"
+        },
+        {
+          "@id": "edam:topic_0080"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1038/srep33964"
+      },
+      "sc:description": "Algorithm for large-scale multiple sequence alignments",
+      "sc:featureList": {
+        "@id": "edam:operation_0492"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "GPL-3.0",
+      "sc:name": "FAMSA",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux"
+      ],
+      "sc:url": "https://github.com/refresh-bio/FAMSA"
+    },
+    {
+      "@id": "_:N099e8fe0998f41cbabf7b730fde19837",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1233"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2200"
+      },
+      "sc:name": "Sequence set (protein)"
+    },
+    {
+      "@id": "_:Ncb78865a2d3545fdac64f524b84a5349",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1384"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1332"
+      },
+      "sc:name": "Protein sequence alignment"
+    }
+  ]
+}

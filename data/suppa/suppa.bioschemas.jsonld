@@ -1,0 +1,65 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/suppa",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "SUPPA Users group",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3308"
+        },
+        {
+          "@id": "edam:topic_3320"
+        }
+      ],
+      "sc:author": [
+        "Amadí­s Pagès",
+        "Gael P. Alamancos",
+        "Miha Skalic",
+        "JC Entizne"
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1261/rna.051557.115"
+      },
+      "sc:description": "This agent generates Alternative Splicing (AS) events from an annotation and calculates the PSI (\"Percentage Spliced In\") value for each event exploiting fast quantification of transcript abundances from multiple samples.",
+      "sc:featureList": {
+        "@id": "edam:operation_2499"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "MIT",
+      "sc:name": "SUPPA",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:provider": [
+        "upf.edu",
+        "Pompeu Fabra University"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://github.com/comprna/SUPPA"
+      },
+      "sc:softwareVersion": "1",
+      "sc:url": "https://bitbucket.org/regulatorygenomicsupf/suppa/"
+    },
+    {
+      "@id": "https://doi.org/10.1261/rna.051557.115",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

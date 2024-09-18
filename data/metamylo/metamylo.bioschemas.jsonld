@@ -1,0 +1,92 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/metamylo",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Christian Delamarche",
+      "bsc:input": {
+        "@id": "_:N73443aea88014aaaa3f8e40ffc21fc05"
+      },
+      "bsc:output": {
+        "@id": "_:N9056b67845b64bd093b0251f83920f60"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3325"
+        },
+        {
+          "@id": "edam:topic_3510"
+        }
+      ],
+      "sc:author": [
+        "Anthony Talvas",
+        "Mathieu Emily",
+        "Christian Delamarche"
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1371/journal.pone.0079722"
+      },
+      "sc:description": "Prediction of amyloid fragments.",
+      "sc:featureList": {
+        "@id": "edam:operation_3092"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:name": "MetAmyl",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:provider": "GenOuest",
+      "sc:softwareHelp": {
+        "@id": "http://metamyl.genouest.org/e107_plugins/metamyl_method/method.php"
+      },
+      "sc:url": "http://metamyl.genouest.org"
+    },
+    {
+      "@id": "_:N9056b67845b64bd093b0251f83920f60",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1277"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_3752"
+        }
+      ],
+      "sc:name": "Protein features"
+    },
+    {
+      "@id": "_:N73443aea88014aaaa3f8e40ffc21fc05",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1233"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence set (protein)"
+    },
+    {
+      "@id": "https://doi.org/10.1371/journal.pone.0079722",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

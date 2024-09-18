@@ -1,0 +1,100 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1371/journal.pgen.0030161",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/sva",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": [
+        "John D. Storey",
+        "W. Evan Johnson",
+        "Jeffrey T. Leek"
+      ],
+      "bsc:input": {
+        "@id": "_:N481dd9d7e7b7445ba9b8272661fc7aec"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:N5b810aede5cf418abd47e4d30196a29d"
+        },
+        {
+          "@id": "_:N86e2964446a04c82aac5a34335650a14"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Library"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3572"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1371/journal.pgen.0030161"
+      },
+      "sc:description": "This package contains functions for removing batch effects and other unwanted variation in high-throughput experiments. It contains functions for identifying and building surrogate variables for high-dimensional data sets, which are covariates constructed directly from high-dimensional data (like gene expression/RNA sequencing/methylation/brain imaging data) that can be used in subsequent analyses to adjust for unknown, unmodeled, or latent sources of noise.",
+      "sc:featureList": {
+        "@id": "edam:operation_3695"
+      },
+      "sc:license": "Artistic-2.0",
+      "sc:name": "sva",
+      "sc:operatingSystem": [
+        "Mac",
+        "Windows",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/sva.html"
+      },
+      "sc:softwareVersion": "3.22.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/sva.html"
+    },
+    {
+      "@id": "_:N5b810aede5cf418abd47e4d30196a29d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3547"
+      },
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:N86e2964446a04c82aac5a34335650a14",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1669"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3547"
+      },
+      "sc:name": "P-value"
+    },
+    {
+      "@id": "_:N481dd9d7e7b7445ba9b8272661fc7aec",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3108"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3033"
+      },
+      "sc:name": "Experimental measurement"
+    }
+  ]
+}

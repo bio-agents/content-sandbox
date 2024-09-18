@@ -1,0 +1,79 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "http://orcid.org/0000-0001-5823-4000",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://bio.agents/distancep",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Ole Lund",
+      "bsc:input": {
+        "@id": "_:Nece959863cc04388b9ce3556afce9f15"
+      },
+      "bsc:output": {
+        "@id": "_:Ne76a96eccc9f4d85b0d18bceead857ca"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Web application"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0082"
+      },
+      "sc:author": {
+        "@id": "http://orcid.org/0000-0001-5823-4000"
+      },
+      "sc:citation": "pubmed:10786291",
+      "sc:description": "Prediction of distance constraints between amino acids in proteins from the amino acid sequence.",
+      "sc:featureList": {
+        "@id": "edam:operation_0474"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Other",
+      "sc:name": "DistanceP",
+      "sc:operatingSystem": "Linux",
+      "sc:provider": "CBS",
+      "sc:softwareHelp": {
+        "@id": "http://www.cbs.dtu.dk/services/distanceP/mandistanceP.html"
+      },
+      "sc:softwareVersion": "1.0",
+      "sc:url": "http://cbs.dtu.dk/services/DistanceP"
+    },
+    {
+      "@id": "_:Ne76a96eccc9f4d85b0d18bceead857ca",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1537"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2333"
+      },
+      "sc:name": "Protein structure report"
+    },
+    {
+      "@id": "_:Nece959863cc04388b9ce3556afce9f15",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence"
+    }
+  ]
+}

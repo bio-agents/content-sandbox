@@ -1,0 +1,63 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.7717/peerj.4395",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/coremic",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": [
+        "Richard R. Rodrigue",
+        "Mark A. Williams"
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3301"
+        },
+        {
+          "@id": "edam:topic_3293"
+        },
+        {
+          "@id": "edam:topic_3697"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.7717/peerj.4395"
+        },
+        "pubmed:29473009",
+        "pmcid:PMC5816963"
+      ],
+      "sc:description": "Search for a niche associated CORE MICrobiome.",
+      "sc:featureList": {
+        "@id": "edam:operation_0324"
+      },
+      "sc:name": "COREMIC",
+      "sc:operatingSystem": [
+        "Mac",
+        "Windows",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://core-mic.com/help"
+      },
+      "sc:softwareVersion": "2.0",
+      "sc:url": "http://core-mic.com/"
+    }
+  ]
+}

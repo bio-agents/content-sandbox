@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/contigtax",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N0a926f4e338147879f021d1627a12d2e"
+      },
+      "bsc:output": {
+        "@id": "_:N0f15aefbbf8e4bdf9562130fb750be7a"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3174"
+      },
+      "sc:description": "Assigns taxonomy to metagenomic contigs.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0292"
+        },
+        {
+          "@id": "edam:operation_2422"
+        },
+        {
+          "@id": "edam:operation_3460"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "MIT",
+      "sc:name": "contigtax",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://github.com/NBISweden/contigtax/wiki"
+      },
+      "sc:softwareVersion": "v0.5.9",
+      "sc:url": "https://github.com/NBISweden/contigtax"
+    },
+    {
+      "@id": "_:N0f15aefbbf8e4bdf9562130fb750be7a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2526"
+      },
+      "sc:name": "Text data"
+    },
+    {
+      "@id": "_:N0a926f4e338147879f021d1627a12d2e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0925"
+      },
+      "sc:name": "Sequence assembly"
+    }
+  ]
+}

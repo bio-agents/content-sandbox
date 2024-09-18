@@ -1,0 +1,116 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btl326",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/cpm",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:N0cacdeb12def4873860292860dbe64d5"
+        },
+        {
+          "@id": "_:Na22ca9a3bf3445a9801108095d58b255"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Nba621c3efa564857b241b22b122dded0"
+        },
+        {
+          "@id": "_:N92b7f16f65574c70bd316f7f79592673"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3520"
+        },
+        {
+          "@id": "edam:topic_3071"
+        },
+        {
+          "@id": "edam:topic_3307"
+        },
+        {
+          "@id": "edam:topic_0091"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/bioinformatics/btl326"
+        },
+        "pubmed:17237092"
+      ],
+      "sc:description": "A Continuous Profile Models Matlab agentbox for alignment and normalization of time series data",
+      "sc:featureList": {
+        "@id": "edam:operation_3628"
+      },
+      "sc:name": "CPM",
+      "sc:operatingSystem": "Linux",
+      "sc:softwareHelp": {
+        "@id": "http://www.cs.toronto.edu/~jenn/CPM/README.txt"
+      },
+      "sc:url": "http://www.cs.toronto.edu/%7ejenn/CPM/"
+    },
+    {
+      "@id": "_:Nba621c3efa564857b241b22b122dded0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "_:N92b7f16f65574c70bd316f7f79592673",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0944"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Peptide mass fingerprint"
+    },
+    {
+      "@id": "_:N0cacdeb12def4873860292860dbe64d5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0944"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Peptide mass fingerprint"
+    },
+    {
+      "@id": "_:Na22ca9a3bf3445a9801108095d58b255",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Mass spectrometry data"
+    }
+  ]
+}

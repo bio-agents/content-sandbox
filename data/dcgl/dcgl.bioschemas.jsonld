@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/dcgl",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Bao-Hong Liu",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0203"
+        },
+        {
+          "@id": "edam:topic_3518"
+        },
+        {
+          "@id": "edam:topic_0204"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1371/JOURNAL.PONE.0079729"
+        },
+        "pmcid:PMC3835854",
+        "pubmed:24278165"
+      ],
+      "sc:description": "Unveiling Differential Regulation from Differential Co-expression.",
+      "sc:featureList": {
+        "@id": "edam:operation_3223"
+      },
+      "sc:name": "DCGL",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://cran.r-project.org/web/packages/DCGL/DCGL.pdf"
+      },
+      "sc:softwareVersion": "2.0",
+      "sc:url": "https://cran.r-project.org/web/packages/DCGL/index.html"
+    },
+    {
+      "@id": "https://doi.org/10.1371/JOURNAL.PONE.0079729",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

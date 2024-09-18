@@ -1,0 +1,109 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1038/nmeth.3688",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/ribotaper",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:N729b6f55cd92459ba4d10a87e5b51fde"
+        },
+        {
+          "@id": "_:N17cdcc8853a048838ce9c9bff37371e8"
+        },
+        {
+          "@id": "_:Nd2040a625ea64c6ab506be667a602901"
+        }
+      ],
+      "bsc:output": {
+        "@id": "_:N3dd13fdaf1064d319b9d829c9abd55c7"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0085"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1038/nmeth.3688"
+      },
+      "sc:description": "New analysis pipeline for Ribosome Profiling (Ribo-seq) experiments, which exploits the triplet periodicity of ribosomal footprints to call translated regions.",
+      "sc:featureList": {
+        "@id": "edam:operation_0314"
+      },
+      "sc:name": "RiboTaper",
+      "sc:operatingSystem": "Linux",
+      "sc:softwareHelp": {
+        "@id": "https://ohlerlab.mdc-berlin.de/software/RiboTaper_126/"
+      },
+      "sc:softwareVersion": "1.31a",
+      "sc:url": "https://ohlerlab.mdc-berlin.de/software/RiboTaper_126/"
+    },
+    {
+      "@id": "_:N729b6f55cd92459ba4d10a87e5b51fde",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1255"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2305"
+      },
+      "sc:name": "Sequence features"
+    },
+    {
+      "@id": "_:N17cdcc8853a048838ce9c9bff37371e8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0925"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence assembly"
+    },
+    {
+      "@id": "_:Nd2040a625ea64c6ab506be667a602901",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2572"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:N3dd13fdaf1064d319b9d829c9abd55c7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0928"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3003"
+        },
+        {
+          "@id": "edam:format_3508"
+        },
+        {
+          "@id": "edam:format_1929"
+        }
+      ],
+      "sc:name": "Gene expression profile"
+    }
+  ]
+}

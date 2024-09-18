@@ -1,0 +1,115 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gkr367",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/hmmscan_ebi",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Job Dispatcher",
+      "bsc:input": {
+        "@id": "_:Nd396958a3fd44cedb01dc5d177f62896"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:N383d8b9f769449d5a6d133f6a8df23bb"
+        },
+        {
+          "@id": "_:Na424d1eb34ad46edb4e91df883cb1e16"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Web service",
+        "Web application"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0160"
+        },
+        {
+          "@id": "edam:topic_0623"
+        }
+      ],
+      "sc:author": "Sean Eddy",
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/nar/gkr367"
+        },
+        {
+          "@id": "https://doi.org/10.1093/nar/gkac240"
+        }
+      ],
+      "sc:description": "Scan a protein sequence against a database of HMM profiles (e.g. TreeFam or Pfam-A).",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3092"
+        },
+        {
+          "@id": "edam:operation_0239"
+        }
+      ],
+      "sc:name": "hmmscan (EBI)",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:provider": [
+        "EMBL-EBI",
+        "HHMI"
+      ],
+      "sc:softwareHelp": [
+        {
+          "@id": "http://www.ebi.ac.uk/Agents/pfa/hmmer_hmmscan/"
+        },
+        {
+          "@id": "http://www.ebi.ac.uk/about/terms-of-use"
+        }
+      ],
+      "sc:softwareVersion": "Retired",
+      "sc:url": "http://www.ebi.ac.uk/Agents/pfa/hmmer_hmmscan/"
+    },
+    {
+      "@id": "_:Nd396958a3fd44cedb01dc5d177f62896",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2976"
+      },
+      "sc:name": "Protein sequence"
+    },
+    {
+      "@id": "_:N383d8b9f769449d5a6d133f6a8df23bb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1277"
+      },
+      "sc:name": "Protein features"
+    },
+    {
+      "@id": "_:Na424d1eb34ad46edb4e91df883cb1e16",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0858"
+      },
+      "sc:name": "Sequence signature matches"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkac240",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

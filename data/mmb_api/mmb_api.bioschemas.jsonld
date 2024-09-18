@@ -1,0 +1,167 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/mmb_api",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Josep Ll. Gelpi",
+      "bsc:input": [
+        {
+          "@id": "_:N3137f1ad61824ae28cab76faa1a48ef8"
+        },
+        {
+          "@id": "_:N955c8257583e45d49eaeff67edc5441b"
+        },
+        {
+          "@id": "_:N0647d6925c924bcbaef3502461979245"
+        },
+        {
+          "@id": "_:N2f0c879cfad54fcc8a7c314093bfbb4a"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N0226a9f7889f400296b147c3439b511c"
+        },
+        {
+          "@id": "_:N15ce31f5895f4dacbec7d269d17dd858"
+        },
+        {
+          "@id": "_:Nb31c77a4bdac4e99a1b3d2842e96fb2c"
+        },
+        {
+          "@id": "_:N1919d6d334314b219fe7e587960e3180"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web API",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0081"
+        },
+        {
+          "@id": "edam:topic_0080"
+        }
+      ],
+      "sc:description": "REST API to access MMB-IRB data repo (PDB, Uniprot, Protein Variants, NA Features)",
+      "sc:featureList": {
+        "@id": "edam:operation_0224"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "CC-BY-4.0",
+      "sc:name": "MMB-IRB Data Repository API",
+      "sc:operatingSystem": "Linux",
+      "sc:softwareHelp": {
+        "@id": "http://mmb.irbbarcelona.org/api/"
+      },
+      "sc:url": "http://mmb.irbbarcelona.org/api"
+    },
+    {
+      "@id": "_:N3137f1ad61824ae28cab76faa1a48ef8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3021"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1964"
+      },
+      "sc:name": "UniProt accession"
+    },
+    {
+      "@id": "_:N955c8257583e45d49eaeff67edc5441b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1005"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1964"
+      },
+      "sc:name": "HET group name"
+    },
+    {
+      "@id": "_:N0647d6925c924bcbaef3502461979245",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1011"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1964"
+      },
+      "sc:name": "EC number"
+    },
+    {
+      "@id": "_:N2f0c879cfad54fcc8a7c314093bfbb4a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1127"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1964"
+      },
+      "sc:name": "PDB ID"
+    },
+    {
+      "@id": "_:N0226a9f7889f400296b147c3439b511c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1463"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1705"
+      },
+      "sc:name": "Small molecule structure"
+    },
+    {
+      "@id": "_:N15ce31f5895f4dacbec7d269d17dd858",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0883"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1477"
+        },
+        {
+          "@id": "edam:format_1476"
+        },
+        {
+          "@id": "edam:format_3464"
+        }
+      ],
+      "sc:name": "Structure"
+    },
+    {
+      "@id": "_:Nb31c77a4bdac4e99a1b3d2842e96fb2c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2886"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3464"
+      },
+      "sc:name": "Protein sequence record"
+    },
+    {
+      "@id": "_:N1919d6d334314b219fe7e587960e3180",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2974"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Protein sequence (raw)"
+    }
+  ]
+}

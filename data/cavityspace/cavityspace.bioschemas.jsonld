@@ -1,0 +1,108 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/cavityspace",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:N727375612aca4a728cbc5f00b803ce83"
+        },
+        {
+          "@id": "_:Na02b44fb8fc54aa682e53a8ba2f949d8"
+        },
+        {
+          "@id": "_:N4900328af7e04e829e006002efc6a8b4"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Web application",
+        "Database portal"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0154"
+        },
+        {
+          "@id": "edam:topic_3534"
+        },
+        {
+          "@id": "edam:topic_0121"
+        },
+        {
+          "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_0082"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.3390/biom12070967"
+        },
+        "pmcid:PMC9312471",
+        "pubmed:35883523"
+      ],
+      "sc:description": "A database of potential ligand binding sites in the human proteome.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_4009"
+        },
+        {
+          "@id": "edam:operation_0474"
+        },
+        {
+          "@id": "edam:operation_3897"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:name": "CavitySpace",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:url": "http://www.pkumdl.cn:8000/cavityspace/"
+    },
+    {
+      "@id": "_:N727375612aca4a728cbc5f00b803ce83",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2764"
+      },
+      "sc:name": "Protein name (UniProt)"
+    },
+    {
+      "@id": "_:Na02b44fb8fc54aa682e53a8ba2f949d8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1009"
+      },
+      "sc:name": "Protein name"
+    },
+    {
+      "@id": "_:N4900328af7e04e829e006002efc6a8b4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2299"
+      },
+      "sc:name": "Gene name"
+    },
+    {
+      "@id": "https://doi.org/10.3390/biom12070967",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

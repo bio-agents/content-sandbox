@@ -1,0 +1,77 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/BIOINFORMATICS/BTZ279",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/BUSagents",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": [
+        "Páll Melsted",
+        "Vasilis Ntranos",
+        "Lior Pachter"
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3512"
+        },
+        {
+          "@id": "edam:topic_3308"
+        },
+        {
+          "@id": "edam:topic_3170"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/BIOINFORMATICS/BTZ279"
+        },
+        "pubmed:31073610"
+      ],
+      "sc:description": "> COMMON LINK WITH (PUB. & NAME DIFFERENT) bio.agents/pymzml (GITHUB.COM) | > CORRECT NAME OF TOOL COULD ALSO BE 'BUSagents suite', 'BUSagents suite agents', 'BUS' (bio.agents/bus), 'kallisto' (bio.agents/kallisto) | The Barcode, UMI, Set format and BUSagents | Materials associated with the manuscript \"The Barcode, UMI, Set format and BUSagents\" by Páll Melsted, Vasilis Ntranos and Lior Pachter | Agents for working with BUS files | R vignettes for processing BUS format single-cell RNA-seq files",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3680"
+        },
+        {
+          "@id": "edam:operation_3800"
+        },
+        {
+          "@id": "edam:operation_3200"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "BSD-2-Clause",
+      "sc:name": "BUSagents",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": [
+        {
+          "@id": "https://www.kallistobus.agents/documentation"
+        },
+        {
+          "@id": "https://busagents.github.io/manual"
+        }
+      ],
+      "sc:url": "http://BUSagents.github.io/"
+    }
+  ]
+}

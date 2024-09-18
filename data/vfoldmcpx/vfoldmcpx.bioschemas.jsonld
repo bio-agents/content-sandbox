@@ -1,0 +1,78 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/vfoldmcpx",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N9ad2da9d466249b0a23daf2ed57de85f"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3318"
+        },
+        {
+          "@id": "edam:topic_0097"
+        },
+        {
+          "@id": "edam:topic_0082"
+        },
+        {
+          "@id": "edam:topic_0099"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1261/RNA.079020.121"
+        },
+        "pmcid:PMC8925972",
+        "pubmed:35058350"
+      ],
+      "sc:description": "Predicting 2D structures of Multi-strand RNA complexes",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2441"
+        },
+        {
+          "@id": "edam:operation_0278"
+        },
+        {
+          "@id": "edam:operation_0303"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:name": "VfoldMCPX",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:url": "http://rna.physics.missouri.edu/vfoldMCPX2"
+    },
+    {
+      "@id": "_:N9ad2da9d466249b0a23daf2ed57de85f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3495"
+      },
+      "sc:name": "RNA sequence"
+    },
+    {
+      "@id": "https://doi.org/10.1261/RNA.079020.121",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

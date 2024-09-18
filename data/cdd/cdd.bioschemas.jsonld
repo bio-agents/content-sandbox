@@ -1,0 +1,348 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gki069",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/30.1.281",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkq1189",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "http://orcid.org/0000-0003-1516-0712",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkn845",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkl951",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gks1243",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkz991",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/cdd",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": {
+        "@id": "http://orcid.org/0000-0003-1516-0712"
+      },
+      "bsc:input": [
+        {
+          "@id": "_:Nb8a36259c4ba452283684ad0e3794f4f"
+        },
+        {
+          "@id": "_:Na219fdc396a44473a956e1deebd1c24c"
+        },
+        {
+          "@id": "_:N418cb9ca714a4bb7b34c970057fbf270"
+        },
+        {
+          "@id": "_:N8f0fbfcf6e014798affe7c60f1364771"
+        },
+        {
+          "@id": "_:Na4357d6a807d4b1f9cc6cf4d16ca937d"
+        },
+        {
+          "@id": "_:Ne012436f30ff498aa5f478bdc64bbcc0"
+        },
+        {
+          "@id": "_:N703abe86dff6430c943da17e6418bd6e"
+        },
+        {
+          "@id": "_:N4050442cdaaf4c77bdd2905d5c3a0606"
+        },
+        {
+          "@id": "_:N4a14441c4ea640279ba183e04a4ec751"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N7d38070c695c4a2986c28bf796d33292"
+        },
+        {
+          "@id": "_:Ndcff4873f9dd4e158490f83fc1f5aaf1"
+        },
+        {
+          "@id": "_:N3cf3ba4958c6471f8c2dee97a66548c2"
+        },
+        {
+          "@id": "_:N304657b63f8d480d9dfc86d609846eb0"
+        },
+        {
+          "@id": "_:Nbd125977cfc345118293691f366abb76"
+        },
+        {
+          "@id": "_:Nbd6cf88f0a6e4121adfafc7ff607a887"
+        },
+        {
+          "@id": "_:N5d4b8e2d1f85474181442fe3a79ee4fd"
+        },
+        {
+          "@id": "_:Nf9f1784dc1af43ee9cd02507c2b03ec8"
+        },
+        {
+          "@id": "_:N62b59e3df8fd4dce92be5ef258d93f59"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0623"
+        },
+        {
+          "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_0166"
+        },
+        {
+          "@id": "edam:topic_0736"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/nar/gkl951"
+        },
+        {
+          "@id": "https://doi.org/10.1093/nar/gks1243"
+        },
+        {
+          "@id": "https://doi.org/10.1093/nar/gki069"
+        },
+        "pubmed:15608175",
+        "pubmed:18984618",
+        "pubmed:17135202",
+        {
+          "@id": "https://doi.org/10.1093/nar/gkq1189"
+        },
+        {
+          "@id": "https://doi.org/10.1093/nar/gkz991"
+        },
+        "pubmed:31777944",
+        {
+          "@id": "https://doi.org/10.1093/nar/30.1.281"
+        },
+        "pubmed:23197659",
+        "pmcid:PMC3013737",
+        "pubmed:11752315",
+        "pubmed:25414356",
+        "pmcid:PMC6943070",
+        "pubmed:21109532",
+        {
+          "@id": "https://doi.org/10.1093/nar/gkn845"
+        }
+      ],
+      "sc:description": "Resource for the annotation of protein sequences with the location of conserved domain footprints, and functional sites inferred from these footprints. It includes manually curated domain models that make use of protein 3D structure to refine domain models and provide insights into sequence/structure/function relationships.",
+      "sc:featureList": {
+        "@id": "edam:operation_0224"
+      },
+      "sc:name": "Conserved domain database CDD",
+      "sc:operatingSystem": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "sc:provider": "NCBI",
+      "sc:softwareHelp": {
+        "@id": "http://www.ncbi.nlm.nih.gov/Structure/cdd/docs/cdd_how_to.html"
+      },
+      "sc:url": "http://www.ncbi.nlm.nih.gov/Structure/cdd/cdd.shtml"
+    },
+    {
+      "@id": "_:N7d38070c695c4a2986c28bf796d33292",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1277"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2332"
+      },
+      "sc:name": "Protein features"
+    },
+    {
+      "@id": "_:Ndcff4873f9dd4e158490f83fc1f5aaf1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1384"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Sequence alignment (protein)"
+    },
+    {
+      "@id": "_:N3cf3ba4958c6471f8c2dee97a66548c2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0907"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Protein family report"
+    },
+    {
+      "@id": "_:N304657b63f8d480d9dfc86d609846eb0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0907"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Protein family report"
+    },
+    {
+      "@id": "_:Nbd125977cfc345118293691f366abb76",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1277"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Protein features"
+    },
+    {
+      "@id": "_:Nbd6cf88f0a6e4121adfafc7ff607a887",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0907"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2332"
+      },
+      "sc:name": "Protein family report"
+    },
+    {
+      "@id": "_:N5d4b8e2d1f85474181442fe3a79ee4fd",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1277"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2332"
+      },
+      "sc:name": "Protein features"
+    },
+    {
+      "@id": "_:Nf9f1784dc1af43ee9cd02507c2b03ec8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1277"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Protein features"
+    },
+    {
+      "@id": "_:N62b59e3df8fd4dce92be5ef258d93f59",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1384"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Sequence alignment (protein)"
+    },
+    {
+      "@id": "_:Nb8a36259c4ba452283684ad0e3794f4f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2714"
+      },
+      "sc:name": "CDD PSSM-ID"
+    },
+    {
+      "@id": "_:Na219fdc396a44473a956e1deebd1c24c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2666"
+      },
+      "sc:name": "CDD ID"
+    },
+    {
+      "@id": "_:N418cb9ca714a4bb7b34c970057fbf270",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2327"
+      },
+      "sc:name": "GI number (protein)"
+    },
+    {
+      "@id": "_:N8f0fbfcf6e014798affe7c60f1364771",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2714"
+      },
+      "sc:name": "CDD PSSM-ID"
+    },
+    {
+      "@id": "_:Na4357d6a807d4b1f9cc6cf4d16ca937d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2714"
+      },
+      "sc:name": "CDD PSSM-ID"
+    },
+    {
+      "@id": "_:Ne012436f30ff498aa5f478bdc64bbcc0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2327"
+      },
+      "sc:name": "GI number (protein)"
+    },
+    {
+      "@id": "_:N703abe86dff6430c943da17e6418bd6e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2666"
+      },
+      "sc:name": "CDD ID"
+    },
+    {
+      "@id": "_:N4050442cdaaf4c77bdd2905d5c3a0606",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1096"
+      },
+      "sc:name": "Sequence accession (protein)"
+    },
+    {
+      "@id": "_:N4a14441c4ea640279ba183e04a4ec751",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1096"
+      },
+      "sc:name": "Sequence accession (protein)"
+    }
+  ]
+}

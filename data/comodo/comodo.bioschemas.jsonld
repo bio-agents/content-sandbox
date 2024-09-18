@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gkq1275",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/comodo",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:N2959ba83d5be42cc840ee7d3cb487cdc"
+        },
+        {
+          "@id": "_:Nd2cb50d509f74281ac8d2856750bf59e"
+        }
+      ],
+      "bsc:output": {
+        "@id": "_:N1854a130543b4f1a8cd2cc5f1206c77e"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Desktop application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0797"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gkq1275"
+      },
+      "sc:description": "COnserved MODules across Organims.",
+      "sc:featureList": {
+        "@id": "edam:operation_0315"
+      },
+      "sc:name": "COMODO",
+      "sc:operatingSystem": "Windows",
+      "sc:provider": "ugent.be",
+      "sc:softwareHelp": {
+        "@id": "http://bioinformatics.intec.ugent.be/kmarchal/Supplementary_Information_Zarrineh_2010/comodo/index.html#Usage"
+      },
+      "sc:softwareVersion": "2.0",
+      "sc:url": "http://bioinformatics.intec.ugent.be/kmarchal/Supplementary_Information_Zarrineh_2010/comodo/index.html"
+    },
+    {
+      "@id": "_:N2959ba83d5be42cc840ee7d3cb487cdc",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3148"
+      },
+      "sc:name": "Gene family report"
+    },
+    {
+      "@id": "_:Nd2cb50d509f74281ac8d2856750bf59e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3111"
+      },
+      "sc:name": "Processed microarray data"
+    },
+    {
+      "@id": "_:N1854a130543b4f1a8cd2cc5f1206c77e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3148"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3468"
+      },
+      "sc:name": "Gene family report"
+    }
+  ]
+}

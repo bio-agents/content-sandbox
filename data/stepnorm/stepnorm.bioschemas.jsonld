@@ -1,0 +1,57 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1109/IEMBS.2004.1403830",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/stepnorm",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Yuanyuan Xiao",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Library"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3518"
+        },
+        {
+          "@id": "edam:topic_3512"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1109/IEMBS.2004.1403830"
+      },
+      "sc:description": "Stepwise normalization functions for cDNA microarray data.",
+      "sc:featureList": {
+        "@id": "edam:operation_3435"
+      },
+      "sc:license": "GPL-3.0",
+      "sc:name": "stepNorm",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/stepNorm.html"
+      },
+      "sc:softwareVersion": "1.46.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/stepNorm.html"
+    }
+  ]
+}

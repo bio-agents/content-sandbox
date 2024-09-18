@@ -1,0 +1,72 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/dbd",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Sarah A. Teichmann",
+      "bsc:input": {
+        "@id": "_:N2cf8d519f52845809021de9a32c41d1a"
+      },
+      "bsc:output": {
+        "@id": "_:N95ae3eeeee5b44ba96ccc0deb7de35ac"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0749"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gkm964"
+      },
+      "sc:description": "Predicted transcription factors in completely sequenced genomes.",
+      "sc:featureList": {
+        "@id": "edam:operation_0224"
+      },
+      "sc:name": "Transcription factor prediction database (DBD)",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://www.transcriptionfactor.org/index.cgi?About"
+      },
+      "sc:url": "http://www.transcriptionfactor.org/index.cgi"
+    },
+    {
+      "@id": "_:N2cf8d519f52845809021de9a32c41d1a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2716"
+      },
+      "sc:name": "DBD ID"
+    },
+    {
+      "@id": "_:N95ae3eeeee5b44ba96ccc0deb7de35ac",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0896"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Protein report"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkm964",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

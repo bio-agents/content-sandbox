@@ -1,0 +1,111 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1186/s12859-016-0971-3",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/goexpress",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Kevin Rue-Albrecht",
+      "bsc:input": {
+        "@id": "_:N1e9a1a5786e546ef956af8929868165b"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:N9fede34898a848e1b0925366a7ccf3bc"
+        },
+        {
+          "@id": "_:N68577ab3411b49b895ad40499b458250"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Library"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3170"
+        },
+        {
+          "@id": "edam:topic_0092"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/s12859-016-0971-3"
+      },
+      "sc:description": "This package contains methods to visualise the expression profile of genes from a microarray or RNA-seq experiment, and offers a supervised clustering approach to identify GO terms containing genes with expression levels that best classify two or more predefined groups of samples.",
+      "sc:featureList": {
+        "@id": "edam:operation_3680"
+      },
+      "sc:license": "GPL-3.0",
+      "sc:name": "GOexpress",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/GOexpress.html"
+      },
+      "sc:softwareVersion": "1.8.1",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/GOexpress.html"
+    },
+    {
+      "@id": "_:N9fede34898a848e1b0925366a7ccf3bc",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1636"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Heat map"
+    },
+    {
+      "@id": "_:N68577ab3411b49b895ad40499b458250",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1669"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3547"
+        }
+      ],
+      "sc:name": "P-value"
+    },
+    {
+      "@id": "_:N1e9a1a5786e546ef956af8929868165b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2603"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2058"
+      },
+      "sc:name": "Gene expression data"
+    }
+  ]
+}

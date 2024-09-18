@@ -1,0 +1,114 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1038/nmeth.3252",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/bsgenome",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "H. Pagès",
+      "bsc:input": {
+        "@id": "_:N6cd829e2bd2e4fdf801728f275271a04"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:N2ca24c95595644739abb87061a0e9f68"
+        },
+        {
+          "@id": "_:Ne339d703abed418baf1159b0ed77c8e6"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Library"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3071"
+        },
+        {
+          "@id": "edam:topic_0080"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1038/nmeth.3252"
+      },
+      "sc:description": "Infrastructure shared by all the Biostrings-based genome data packages.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0368"
+        },
+        {
+          "@id": "edam:operation_2403"
+        },
+        {
+          "@id": "edam:operation_1812"
+        }
+      ],
+      "sc:license": "Artistic-2.0",
+      "sc:name": "BSgenome",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/BSgenome.html"
+      },
+      "sc:softwareVersion": "1.42.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/BSgenome.html"
+    },
+    {
+      "@id": "_:N2ca24c95595644739abb87061a0e9f68",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0849"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Sequence record"
+    },
+    {
+      "@id": "_:Ne339d703abed418baf1159b0ed77c8e6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:N6cd829e2bd2e4fdf801728f275271a04",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0849"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1919"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Sequence record"
+    }
+  ]
+}

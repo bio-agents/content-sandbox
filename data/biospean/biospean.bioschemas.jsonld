@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/biospean",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Martin Raus",
+      "bsc:input": {
+        "@id": "_:N54836ce7f99c4e239042bb828b577b95"
+      },
+      "bsc:output": {
+        "@id": "_:Ndda195b7f2144e609f2059b145d2df98"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3520"
+      },
+      "sc:author": "Martin Raus",
+      "sc:citation": {
+        "@id": "https://doi.org/10.4172/jpb.1000292"
+      },
+      "sc:description": "Comparison of mass spectrometry spectra.",
+      "sc:featureList": {
+        "@id": "edam:operation_2451"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:name": "Biospean",
+      "sc:operatingSystem": "Linux",
+      "sc:provider": "Palacký University Olomouc, Czech Republic",
+      "sc:softwareHelp": {
+        "@id": "http://software.cr-hana.upol.cz/biospean/"
+      },
+      "sc:softwareVersion": "1",
+      "sc:url": "http://software.cr-hana.upol.cz/biospean/"
+    },
+    {
+      "@id": "_:Ndda195b7f2144e609f2059b145d2df98",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_2331"
+        }
+      ],
+      "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "_:N54836ce7f99c4e239042bb828b577b95",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0943"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Mass spectrometry spectra"
+    },
+    {
+      "@id": "https://doi.org/10.4172/jpb.1000292",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

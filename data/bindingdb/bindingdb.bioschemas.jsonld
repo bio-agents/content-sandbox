@@ -1,0 +1,257 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gkl999",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/bindingdb",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Contact Form",
+      "bsc:input": [
+        {
+          "@id": "_:N91fee48887c1497b9a65842591b4126f"
+        },
+        {
+          "@id": "_:Nd80734390cc24db2a88829c1ab4af798"
+        },
+        {
+          "@id": "_:N963053ad5c2942f58014ed211f8acbff"
+        },
+        {
+          "@id": "_:Nf7ab7c171bd34ac4959301deae0a6001"
+        },
+        {
+          "@id": "_:N4ed440fac7ff42ebbc98c6cd19cd7f56"
+        },
+        {
+          "@id": "_:Nc021fea8bb4e42e2a740b71ae79844ea"
+        },
+        {
+          "@id": "_:N524e6b5f2b1342898ce8e8fa2a854b90"
+        },
+        {
+          "@id": "_:N6d78600a7d5445908fc77bd5cbf6efaf"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Nd646ac45b93242a8b71c5f5aff40e8f6"
+        },
+        {
+          "@id": "_:N8e8629cb39b746469ca7c2c784f62b8b"
+        },
+        {
+          "@id": "_:Na5ec5e61054046e9bed5547c1eb9331c"
+        },
+        {
+          "@id": "_:Nbc26fed0614b4cecab8671234b335c4f"
+        },
+        {
+          "@id": "_:N9459d75256bb4f5980ad80fd70a3a768"
+        },
+        {
+          "@id": "_:N3cb7bed8f3454585b7818ff060b721b3"
+        },
+        {
+          "@id": "_:N11429b4a14044c11a1a0235a370a1630"
+        },
+        {
+          "@id": "_:N02b48a47014e493c9c9380cd28ed252c"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0128"
+        },
+        {
+          "@id": "edam:topic_0154"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gkl999"
+      },
+      "sc:description": "Database of measured binding affinities, focusing chiefly on the interactions of protein considered to be drug-targets with small, drug-like molecules.",
+      "sc:featureList": {
+        "@id": "edam:operation_0224"
+      },
+      "sc:name": "BindingDB database of measured binding affinities",
+      "sc:operatingSystem": [
+        "Mac",
+        "Windows",
+        "Linux"
+      ],
+      "sc:provider": "Skaggs School of Pharmacy and Pharmaceutical Sciences",
+      "sc:softwareHelp": {
+        "@id": "https://www.bindingdb.org/bind/info.jsp"
+      },
+      "sc:url": "http://www.bindingdb.org/"
+    },
+    {
+      "@id": "_:N91fee48887c1497b9a65842591b4126f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1187"
+      },
+      "sc:name": "PubMed ID"
+    },
+    {
+      "@id": "_:Nd80734390cc24db2a88829c1ab4af798",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0842"
+      },
+      "sc:name": "Identifier"
+    },
+    {
+      "@id": "_:N963053ad5c2942f58014ed211f8acbff",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1009"
+      },
+      "sc:name": "Protein name"
+    },
+    {
+      "@id": "_:Nf7ab7c171bd34ac4959301deae0a6001",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1009"
+      },
+      "sc:name": "Protein name"
+    },
+    {
+      "@id": "_:N4ed440fac7ff42ebbc98c6cd19cd7f56",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2580"
+      },
+      "sc:name": "BindingDB Monomer ID"
+    },
+    {
+      "@id": "_:Nc021fea8bb4e42e2a740b71ae79844ea",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3021"
+      },
+      "sc:name": "UniProt accession"
+    },
+    {
+      "@id": "_:N524e6b5f2b1342898ce8e8fa2a854b90",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0842"
+      },
+      "sc:name": "Identifier"
+    },
+    {
+      "@id": "_:N6d78600a7d5445908fc77bd5cbf6efaf",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1127"
+      },
+      "sc:name": "PDB ID"
+    },
+    {
+      "@id": "_:Nd646ac45b93242a8b71c5f5aff40e8f6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0962"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Small molecule report"
+    },
+    {
+      "@id": "_:N8e8629cb39b746469ca7c2c784f62b8b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1566"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Protein-ligand interaction report"
+    },
+    {
+      "@id": "_:Na5ec5e61054046e9bed5547c1eb9331c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0962"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Small molecule report"
+    },
+    {
+      "@id": "_:Nbc26fed0614b4cecab8671234b335c4f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1566"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Protein-ligand interaction report"
+    },
+    {
+      "@id": "_:N9459d75256bb4f5980ad80fd70a3a768",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0857"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Sequence search results"
+    },
+    {
+      "@id": "_:N3cb7bed8f3454585b7818ff060b721b3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1566"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Protein-ligand interaction report"
+    },
+    {
+      "@id": "_:N11429b4a14044c11a1a0235a370a1630",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0962"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Small molecule report"
+    },
+    {
+      "@id": "_:N02b48a47014e493c9c9380cd28ed252c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0962"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Small molecule report"
+    }
+  ]
+}

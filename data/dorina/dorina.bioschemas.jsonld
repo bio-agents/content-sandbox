@@ -1,0 +1,100 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/dorina",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": {
+        "@id": "http://orcid.org/0000-0002-0468-0117"
+      },
+      "bsc:input": {
+        "@id": "_:N9f3d085db6a74d8c955bab02d910899e"
+      },
+      "bsc:output": {
+        "@id": "_:Nc59dd7622b5e47e2a5daa1b73bc5ecd2"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0099"
+        },
+        {
+          "@id": "edam:topic_0204"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/nar/gku1180"
+        },
+        "pmcid:PMC4383974",
+        "pubmed:25416797"
+      ],
+      "sc:description": "A database of RNA interactions in post-transcriptional regulation.",
+      "sc:featureList": {
+        "@id": "edam:operation_2421"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:name": "doRiNA",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:provider": [
+        "Max Delbrück Centre for Molecular Medicine",
+        "rnateam"
+      ],
+      "sc:softwareHelp": [
+        {
+          "@id": "http://dorina.mdc-berlin.de/acknowledgements"
+        },
+        {
+          "@id": "http://dorina.mdc-berlin.de/tutorials"
+        }
+      ],
+      "sc:url": "http://dorina.mdc-berlin.de/"
+    },
+    {
+      "@id": "_:Nc59dd7622b5e47e2a5daa1b73bc5ecd2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2080"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Database search results"
+    },
+    {
+      "@id": "_:N9f3d085db6a74d8c955bab02d910899e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2099"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Name"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gku1180",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "http://orcid.org/0000-0002-0468-0117",
+      "@type": "schema:Person"
+    }
+  ]
+}

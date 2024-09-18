@@ -1,0 +1,118 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/NAR/GKAB399",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/mechnetor",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:N1f86f90217644b819e648ee5840620f2"
+        },
+        {
+          "@id": "_:N8a4ff4fcef87438494ee1dbdbd57635a"
+        },
+        {
+          "@id": "_:N34ce13d5f4664124b2e2af56bf60a651"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0601"
+        },
+        {
+          "@id": "edam:topic_0736"
+        },
+        {
+          "@id": "edam:topic_2640"
+        },
+        {
+          "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_0128"
+        },
+        {
+          "@id": "edam:topic_0121"
+        }
+      ],
+      "sc:citation": [
+        "pmcid:PMC8262711",
+        "pubmed:34076240",
+        {
+          "@id": "https://doi.org/10.1093/NAR/GKAB399"
+        }
+      ],
+      "sc:description": "Mechnetor lets you quickly explore and visualize integrated protein mechanism data, enabling a better understanding of the functional context of genetic variants.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0417"
+        },
+        {
+          "@id": "edam:operation_3925"
+        },
+        {
+          "@id": "edam:operation_0224"
+        },
+        {
+          "@id": "edam:operation_3755"
+        },
+        {
+          "@id": "edam:operation_2492"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Not licensed",
+      "sc:name": "Mechnetor",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://mechnetor.russelllab.org/help"
+      },
+      "sc:url": "http://mechnetor.russelllab.org"
+    },
+    {
+      "@id": "_:N1f86f90217644b819e648ee5840620f2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2291"
+      },
+      "sc:name": "UniProt ID"
+    },
+    {
+      "@id": "_:N8a4ff4fcef87438494ee1dbdbd57635a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2299"
+      },
+      "sc:name": "Gene name"
+    },
+    {
+      "@id": "_:N34ce13d5f4664124b2e2af56bf60a651",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3021"
+      },
+      "sc:name": "UniProt accession"
+    }
+  ]
+}

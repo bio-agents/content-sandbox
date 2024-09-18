@@ -1,0 +1,63 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/architect",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "John Parkinson",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0154"
+        },
+        {
+          "@id": "edam:topic_3407"
+        },
+        {
+          "@id": "edam:topic_0602"
+        },
+        {
+          "@id": "edam:topic_0821"
+        },
+        {
+          "@id": "edam:topic_0621"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1101/2021.10.12.464133"
+      },
+      "sc:description": "Architect is a agent for producing high-quality metabolic models through improved enzyme annotation. Architect is a pipeline for automatic metabolic model reconstruction. Given the protein sequences of an organism, enzyme annotation is first performed through ensemble approaches (that is, combining predictions from individual enzyme annotation agents), followed by gap-filling.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3929"
+        },
+        {
+          "@id": "edam:operation_3660"
+        },
+        {
+          "@id": "edam:operation_3092"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "GPL-3.0",
+      "sc:name": "Architect",
+      "sc:url": "https://github.com/ParkinsonLab/Architect"
+    },
+    {
+      "@id": "https://doi.org/10.1101/2021.10.12.464133",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

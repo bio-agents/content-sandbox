@@ -1,0 +1,48 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/yara",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Enrico Siragusa",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0102"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gkt005"
+      },
+      "sc:description": "Yara is an exact agent for aligning DNA sequencing reads to reference genomes.",
+      "sc:featureList": {
+        "@id": "edam:operation_3198"
+      },
+      "sc:name": "yara",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://www.seqan.de/apps/yara/"
+      },
+      "sc:softwareVersion": "0.9.6",
+      "sc:url": "http://www.seqan.de/yara/"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkt005",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

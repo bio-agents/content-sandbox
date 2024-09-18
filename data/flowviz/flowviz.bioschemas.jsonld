@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/flowviz",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Mike Jiang",
+      "bsc:input": {
+        "@id": "_:N6a37424cc59a475198f6b0cc0380004f"
+      },
+      "bsc:output": {
+        "@id": "_:Nc822df60ba9c482884cb299b422394f0"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Library",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0092"
+        },
+        {
+          "@id": "edam:topic_3306"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btn021"
+      },
+      "sc:description": "Provides visualization agents for flow cytometry data.",
+      "sc:featureList": {
+        "@id": "edam:operation_0337"
+      },
+      "sc:license": "Artistic-2.0",
+      "sc:name": "flowViz",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/flowViz.html"
+      },
+      "sc:softwareVersion": "1.38.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/flowViz.html"
+    },
+    {
+      "@id": "_:Nc822df60ba9c482884cb299b422394f0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3547"
+      },
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:N6a37424cc59a475198f6b0cc0380004f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3108"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Experimental measurement"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btn021",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

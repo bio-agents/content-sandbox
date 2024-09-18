@@ -1,0 +1,185 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/crosstalkdb",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": [
+        "Ole Nørregaard Jensen",
+        "Veit Schwämmle"
+      ],
+      "bsc:input": {
+        "@id": "_:Na4951b7dbe6d478c84127a7c10631b20"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:N2007b2c200584af681238d7fbe03c0ba"
+        },
+        {
+          "@id": "_:N4f84d55f437e438d8ff3121313a10221"
+        },
+        {
+          "@id": "_:N89dafeb84c84432ab92b289e055235cd"
+        },
+        {
+          "@id": "_:Nc027330090f64683ba47b0f7f9bb07bd"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Database portal",
+        "Web application",
+        "Web API"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0601"
+        },
+        {
+          "@id": "edam:topic_0121"
+        },
+        {
+          "@id": "edam:topic_0128"
+        },
+        {
+          "@id": "edam:topic_3520"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1074/mcp.O113.036335"
+      },
+      "sc:description": "Repository and statistical agents for directly determined PTM crosstalk based on long peptides measured by mass spectrometry. Focus on histone proteins.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0337"
+        },
+        {
+          "@id": "edam:operation_3744"
+        },
+        {
+          "@id": "edam:operation_2495"
+        },
+        {
+          "@id": "edam:operation_2238"
+        },
+        {
+          "@id": "edam:operation_0571"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:name": "CrosstalkDB",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:provider": "bmb.sdu.dk",
+      "sc:softwareHelp": {
+        "@id": "http://crosstalkdb.bmb.sdu.dk/faces/welcome.xhtml;jsessionid=4f15bf82d38197f552e8000e7121"
+      },
+      "sc:url": "http://crosstalkdb.bmb.sdu.dk"
+    },
+    {
+      "@id": "_:N2007b2c200584af681238d7fbe03c0ba",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0906"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2332"
+        },
+        {
+          "@id": "edam:format_3752"
+        },
+        {
+          "@id": "edam:format_3508"
+        },
+        {
+          "@id": "edam:format_3620"
+        }
+      ],
+      "sc:name": "Protein interaction data"
+    },
+    {
+      "@id": "_:N4f84d55f437e438d8ff3121313a10221",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2969"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3604"
+        },
+        {
+          "@id": "edam:format_3752"
+        }
+      ],
+      "sc:name": "Sequence image"
+    },
+    {
+      "@id": "_:N89dafeb84c84432ab92b289e055235cd",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2603"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3752"
+        },
+        {
+          "@id": "edam:format_3620"
+        },
+        {
+          "@id": "edam:format_3508"
+        },
+        {
+          "@id": "edam:format_2332"
+        }
+      ],
+      "sc:name": "Expression data"
+    },
+    {
+      "@id": "_:Nc027330090f64683ba47b0f7f9bb07bd",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0906"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3752"
+        },
+        {
+          "@id": "edam:format_3604"
+        }
+      ],
+      "sc:name": "Protein interaction data"
+    },
+    {
+      "@id": "_:Na4951b7dbe6d478c84127a7c10631b20",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2603"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3752"
+      },
+      "sc:name": "Expression data"
+    },
+    {
+      "@id": "https://doi.org/10.1074/mcp.O113.036335",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

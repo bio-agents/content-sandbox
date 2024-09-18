@@ -1,0 +1,1557 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:rasusa:0.1.0/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T09:33:05.386305Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 742,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 52,
+                        "serie": [
+                            3,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            3,
+                            1,
+                            2,
+                            1,
+                            1,
+                            3,
+                            2,
+                            1,
+                            3,
+                            1,
+                            2,
+                            2,
+                            3
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 131,
+                        "serie": [
+                            3,
+                            1,
+                            3,
+                            2,
+                            3,
+                            1,
+                            2,
+                            2,
+                            1,
+                            1,
+                            2,
+                            10,
+                            3,
+                            1,
+                            2,
+                            10,
+                            15,
+                            3,
+                            1,
+                            5,
+                            6,
+                            5,
+                            1,
+                            9,
+                            8,
+                            2,
+                            1,
+                            1,
+                            8,
+                            2,
+                            9,
+                            3,
+                            3,
+                            2
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T09:33:05.081629Z",
+                "last_month_access": {
+                    "average_access_time": 481,
+                    "downtime_days": 19,
+                    "uptime_days": 11
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/rasusa",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-11-19T09:33:04.937427Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 450,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 52,
+                        "serie": [
+                            3,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            3,
+                            1,
+                            2,
+                            1,
+                            1,
+                            3,
+                            2,
+                            1,
+                            3,
+                            1,
+                            1,
+                            1,
+                            2,
+                            3
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 131,
+                        "serie": [
+                            3,
+                            1,
+                            3,
+                            2,
+                            3,
+                            1,
+                            2,
+                            2,
+                            1,
+                            1,
+                            2,
+                            10,
+                            3,
+                            1,
+                            2,
+                            10,
+                            15,
+                            3,
+                            1,
+                            5,
+                            6,
+                            5,
+                            1,
+                            9,
+                            8,
+                            2,
+                            1,
+                            1,
+                            8,
+                            2,
+                            1,
+                            8,
+                            3,
+                            3,
+                            2
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T09:33:04.569913Z",
+                "last_month_access": {
+                    "average_access_time": 644,
+                    "downtime_days": 19,
+                    "uptime_days": 11
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:rasusa:0.2.0/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T09:33:45.234800Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 742,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 52,
+                        "serie": [
+                            3,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            3,
+                            1,
+                            2,
+                            1,
+                            1,
+                            3,
+                            2,
+                            1,
+                            3,
+                            1,
+                            1,
+                            1,
+                            2,
+                            3
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 131,
+                        "serie": [
+                            3,
+                            1,
+                            3,
+                            2,
+                            3,
+                            1,
+                            2,
+                            2,
+                            1,
+                            1,
+                            2,
+                            10,
+                            3,
+                            1,
+                            2,
+                            10,
+                            15,
+                            3,
+                            1,
+                            5,
+                            6,
+                            5,
+                            1,
+                            9,
+                            8,
+                            2,
+                            1,
+                            1,
+                            8,
+                            2,
+                            1,
+                            8,
+                            3,
+                            3,
+                            2
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T09:33:05.081629Z",
+                "last_month_access": {
+                    "average_access_time": 588,
+                    "downtime_days": 19,
+                    "uptime_days": 11
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:rasusa:0.3.0/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T09:35:23.613957Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 742,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 52,
+                        "serie": [
+                            3,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            3,
+                            1,
+                            2,
+                            1,
+                            1,
+                            3,
+                            2,
+                            1,
+                            3,
+                            1,
+                            1,
+                            1,
+                            2,
+                            3
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 131,
+                        "serie": [
+                            3,
+                            1,
+                            3,
+                            2,
+                            3,
+                            1,
+                            2,
+                            2,
+                            1,
+                            1,
+                            2,
+                            10,
+                            3,
+                            1,
+                            2,
+                            10,
+                            15,
+                            3,
+                            1,
+                            5,
+                            6,
+                            5,
+                            1,
+                            9,
+                            8,
+                            2,
+                            1,
+                            1,
+                            8,
+                            2,
+                            1,
+                            8,
+                            3,
+                            3,
+                            2
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T09:33:05.081629Z",
+                "last_month_access": {
+                    "average_access_time": 588,
+                    "downtime_days": 19,
+                    "uptime_days": 11
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:rasusa:0.4.1/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T10:21:36.927010Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 742,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 52,
+                        "serie": [
+                            3,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            3,
+                            1,
+                            2,
+                            1,
+                            1,
+                            3,
+                            2,
+                            1,
+                            3,
+                            1,
+                            1,
+                            1,
+                            2,
+                            3
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 131,
+                        "serie": [
+                            3,
+                            1,
+                            3,
+                            2,
+                            3,
+                            1,
+                            2,
+                            2,
+                            1,
+                            1,
+                            2,
+                            10,
+                            3,
+                            1,
+                            2,
+                            10,
+                            15,
+                            3,
+                            1,
+                            5,
+                            6,
+                            5,
+                            1,
+                            9,
+                            8,
+                            2,
+                            1,
+                            1,
+                            8,
+                            2,
+                            1,
+                            8,
+                            3,
+                            3,
+                            2
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T09:33:05.081629Z",
+                "last_month_access": {
+                    "average_access_time": 588,
+                    "downtime_days": 19,
+                    "uptime_days": 11
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:rasusa:0.4.2/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T10:22:02.459914Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 742,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 52,
+                        "serie": [
+                            3,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            3,
+                            1,
+                            2,
+                            1,
+                            1,
+                            3,
+                            2,
+                            1,
+                            3,
+                            1,
+                            1,
+                            1,
+                            2,
+                            3
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 131,
+                        "serie": [
+                            3,
+                            1,
+                            3,
+                            2,
+                            3,
+                            1,
+                            2,
+                            2,
+                            1,
+                            1,
+                            2,
+                            10,
+                            3,
+                            1,
+                            2,
+                            10,
+                            15,
+                            3,
+                            1,
+                            5,
+                            6,
+                            5,
+                            1,
+                            9,
+                            8,
+                            2,
+                            1,
+                            1,
+                            8,
+                            2,
+                            1,
+                            8,
+                            3,
+                            3,
+                            2
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T09:33:05.081629Z",
+                "last_month_access": {
+                    "average_access_time": 588,
+                    "downtime_days": 19,
+                    "uptime_days": 11
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:rasusa:0.5.0/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T10:22:37.326724Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 742,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 52,
+                        "serie": [
+                            3,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            3,
+                            1,
+                            2,
+                            1,
+                            1,
+                            3,
+                            2,
+                            1,
+                            3,
+                            1,
+                            1,
+                            1,
+                            2,
+                            3
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 131,
+                        "serie": [
+                            3,
+                            1,
+                            3,
+                            2,
+                            3,
+                            1,
+                            2,
+                            2,
+                            1,
+                            1,
+                            2,
+                            10,
+                            3,
+                            1,
+                            2,
+                            10,
+                            15,
+                            3,
+                            1,
+                            5,
+                            6,
+                            5,
+                            1,
+                            9,
+                            8,
+                            2,
+                            1,
+                            1,
+                            8,
+                            2,
+                            1,
+                            8,
+                            3,
+                            3,
+                            2
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T09:33:05.081629Z",
+                "last_month_access": {
+                    "average_access_time": 588,
+                    "downtime_days": 19,
+                    "uptime_days": 11
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:rasusa:0.6.0/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T10:22:53.456445Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 742,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 52,
+                        "serie": [
+                            3,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            3,
+                            1,
+                            2,
+                            1,
+                            1,
+                            3,
+                            2,
+                            1,
+                            3,
+                            1,
+                            1,
+                            1,
+                            2,
+                            3
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 131,
+                        "serie": [
+                            3,
+                            1,
+                            3,
+                            2,
+                            3,
+                            1,
+                            2,
+                            2,
+                            1,
+                            1,
+                            2,
+                            10,
+                            3,
+                            1,
+                            2,
+                            10,
+                            15,
+                            3,
+                            1,
+                            5,
+                            6,
+                            5,
+                            1,
+                            9,
+                            8,
+                            2,
+                            1,
+                            1,
+                            8,
+                            2,
+                            1,
+                            8,
+                            3,
+                            3,
+                            2
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T09:33:05.081629Z",
+                "last_month_access": {
+                    "average_access_time": 588,
+                    "downtime_days": 19,
+                    "uptime_days": 11
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:rasusa/undefined/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-11-19T10:28:48.395436Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 742,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 52,
+                        "serie": [
+                            3,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            3,
+                            1,
+                            2,
+                            1,
+                            1,
+                            3,
+                            2,
+                            1,
+                            3,
+                            1,
+                            1,
+                            1,
+                            2,
+                            3
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 131,
+                        "serie": [
+                            3,
+                            1,
+                            3,
+                            2,
+                            3,
+                            1,
+                            2,
+                            2,
+                            1,
+                            1,
+                            2,
+                            10,
+                            3,
+                            1,
+                            2,
+                            10,
+                            15,
+                            3,
+                            1,
+                            5,
+                            6,
+                            5,
+                            1,
+                            9,
+                            8,
+                            2,
+                            1,
+                            1,
+                            8,
+                            2,
+                            1,
+                            8,
+                            3,
+                            3,
+                            2
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T09:33:05.081629Z",
+                "last_month_access": {
+                    "average_access_time": 588,
+                    "downtime_days": 19,
+                    "uptime_days": 11
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:rasusa:0.6.1/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T10:45:39.013052Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 742,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 55,
+                        "serie": [
+                            3,
+                            5,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            4,
+                            1,
+                            2,
+                            1,
+                            3,
+                            2,
+                            1,
+                            3,
+                            1,
+                            1,
+                            1,
+                            2,
+                            3
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 128,
+                        "serie": [
+                            3,
+                            2,
+                            2,
+                            3,
+                            1,
+                            2,
+                            2,
+                            1,
+                            1,
+                            2,
+                            10,
+                            3,
+                            1,
+                            2,
+                            10,
+                            15,
+                            3,
+                            1,
+                            4,
+                            6,
+                            4,
+                            1,
+                            9,
+                            11,
+                            1,
+                            1,
+                            8,
+                            2,
+                            1,
+                            8,
+                            3,
+                            3,
+                            2
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T09:33:05.081629Z",
+                "last_month_access": {
+                    "average_access_time": 588,
+                    "downtime_days": 19,
+                    "uptime_days": 11
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:rasusa:0.7.0/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@timestamp": "2022-11-19T10:55:39.897716Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 742,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 36,
+                        "serie": [
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            4,
+                            1,
+                            2,
+                            1,
+                            3,
+                            2,
+                            1,
+                            3,
+                            1,
+                            1,
+                            1,
+                            2,
+                            3
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 99,
+                        "serie": [
+                            3,
+                            1,
+                            2,
+                            10,
+                            15,
+                            3,
+                            1,
+                            4,
+                            6,
+                            4,
+                            1,
+                            9,
+                            11,
+                            1,
+                            1,
+                            8,
+                            2,
+                            1,
+                            8,
+                            3,
+                            3,
+                            2
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T09:33:05.081629Z",
+                "last_month_access": {
+                    "average_access_time": 588,
+                    "downtime_days": 19,
+                    "uptime_days": 11
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    }
+]

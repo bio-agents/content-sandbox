@@ -1,0 +1,249 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:variation_agentkit/suite/code.google.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-11-19T09:01:02.693289Z",
+        "@type": "metrics",
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true,
+                "manual": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": null,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 34,
+                        "serie": [
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            3,
+                            1,
+                            1,
+                            3,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 500
+                    },
+                    {
+                        "days": 4,
+                        "serie": [
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 502
+                    },
+                    {
+                        "days": 144,
+                        "serie": [
+                            1,
+                            4,
+                            3,
+                            1,
+                            6,
+                            13,
+                            15,
+                            11,
+                            1,
+                            11,
+                            16,
+                            4,
+                            1,
+                            7,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            9,
+                            1,
+                            1,
+                            3,
+                            5,
+                            1,
+                            4,
+                            3,
+                            9,
+                            2,
+                            3,
+                            4
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-11-19T09:01:02.334648Z",
+                "last_month_access": {
+                    "average_access_time": 264,
+                    "downtime_days": 5,
+                    "uptime_days": 25
+                },
+                "license": false,
+                "operational": 500,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://code.google.com/archive/p/variationagentkit"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/variation_agentkit",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-11-19T09:00:14.095088Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 546,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 20,
+                        "serie": [
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            3,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 500
+                    },
+                    {
+                        "days": 3,
+                        "serie": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 502
+                    },
+                    {
+                        "days": 159,
+                        "serie": [
+                            6,
+                            3,
+                            2,
+                            6,
+                            13,
+                            15,
+                            11,
+                            14,
+                            23,
+                            1,
+                            3,
+                            5,
+                            1,
+                            3,
+                            1,
+                            11,
+                            2,
+                            1,
+                            3,
+                            12,
+                            13,
+                            2,
+                            8
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 1,
+                        "serie": [
+                            1
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T09:00:13.769623Z",
+                "last_month_access": {
+                    "average_access_time": 591,
+                    "downtime_days": 3,
+                    "uptime_days": 27
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://code.google.com/archive/p/variationagentkit"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

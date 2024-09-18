@@ -1,0 +1,88 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gku1161",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/imgt_hla-sequence_alignment",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "James Robinson",
+      "bsc:input": {
+        "@id": "_:Nee5d9d80ce4f4db093074949e2fd0c4c"
+      },
+      "bsc:output": {
+        "@id": "_:N9eb955f7d22e44f9ad8bc5ce29b83bee"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2830"
+        },
+        {
+          "@id": "edam:topic_0080"
+        }
+      ],
+      "sc:author": "James Robinson",
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gku1161"
+      },
+      "sc:contributor": "James Robinson",
+      "sc:description": "Interactive sequence alignment agent with help page available.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0492"
+        },
+        {
+          "@id": "edam:operation_0564"
+        }
+      ],
+      "sc:name": "IMGT HLA Sequence Alignment",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:provider": "EMBL-EBI",
+      "sc:softwareHelp": [
+        {
+          "@id": "http://www.ebi.ac.uk/ipd/imgt/hla/align.html"
+        },
+        {
+          "@id": "http://www.ebi.ac.uk/about/terms-of-use"
+        }
+      ],
+      "sc:softwareVersion": "1",
+      "sc:url": "http://www.ebi.ac.uk/ipd/imgt/hla/align.html"
+    },
+    {
+      "@id": "_:N9eb955f7d22e44f9ad8bc5ce29b83bee",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:Nee5d9d80ce4f4db093074949e2fd0c4c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:name": "Data"
+    }
+  ]
+}

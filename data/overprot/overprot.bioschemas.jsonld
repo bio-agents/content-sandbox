@@ -1,0 +1,91 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/BIOINFORMATICS/BTAC384",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/overprot",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:Nc813bf0ac81a44ff8c2677aaa0a76ab6"
+        },
+        {
+          "@id": "_:N3ae021f098d843b1abfaa9946a078b07"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Web application",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0736"
+        },
+        {
+          "@id": "edam:topic_0623"
+        },
+        {
+          "@id": "edam:topic_3542"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:35674374",
+        {
+          "@id": "https://doi.org/10.1093/BIOINFORMATICS/BTAC384"
+        }
+      ],
+      "sc:description": "OverProt creates an overview of secondary structure elements in protein families.\n\nFor each protein family from the CATH database, a secondary structure consensus is available, showing the characteristic helices and β-sheets of the family. A consensus for an arbitrary subset of a family can be computed using User-defined queries.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0468"
+        },
+        {
+          "@id": "edam:operation_0570"
+        },
+        {
+          "@id": "edam:operation_2488"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "MIT",
+      "sc:name": "OverProt",
+      "sc:operatingSystem": [
+        "Mac",
+        "Windows",
+        "Linux"
+      ],
+      "sc:url": "https://overprot.ncbr.muni.cz/home"
+    },
+    {
+      "@id": "_:Nc813bf0ac81a44ff8c2677aaa0a76ab6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2700"
+      },
+      "sc:name": "CATH identifier"
+    },
+    {
+      "@id": "_:N3ae021f098d843b1abfaa9946a078b07",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1742"
+      },
+      "sc:name": "PDB residue number"
+    }
+  ]
+}

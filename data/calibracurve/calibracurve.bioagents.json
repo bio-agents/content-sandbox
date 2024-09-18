@@ -1,0 +1,186 @@
+{
+    "accessibility": "Open access",
+    "additionDate": "2020-06-05T08:52:25Z",
+    "bioagentsCURIE": "bioagents:calibracurve",
+    "bioagentsID": "calibracurve",
+    "collectionID": [
+        "BioInfra.Prot",
+        "de.NBI"
+    ],
+    "cost": "Free of charge",
+    "credit": [
+        {
+            "email": "martin.eisenacher@rub.de",
+            "name": "PD Dr. Martin Eisenacher",
+            "note": "If contacting use \"SPARROW\" in subject line to avoid mail deluge.",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact",
+                "Provider"
+            ]
+        },
+        {
+            "email": "michael.kohl@rub.de",
+            "name": "Dr. Michael Kohl",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Developer"
+            ]
+        },
+        {
+            "name": "de.NBI",
+            "note": "Service provision and maintenance funded by de.NBI.",
+            "typeEntity": "Project",
+            "typeRole": [
+                "Maintainer",
+                "Provider",
+                "Support"
+            ],
+            "url": "https://www.denbi.de/"
+        }
+    ],
+    "description": "A highly useful and flexible agent for calibration of targeted MS‐based measurements. CalibraCurve enables an automated batch-mode determination of dynamic linear ranges and quantification limits for both targeted proteomics and similar assays. The software uses a variety of measures to assess the accuracy of the calibration and provides intuitive visualizations.",
+    "documentation": [
+        {
+            "type": [
+                "Citation instructions",
+                "General",
+                "Installation instructions",
+                "Terms of use",
+                "Training material",
+                "User manual"
+            ],
+            "url": "https://github.com/mpc-bioinformatics/CalibraCurve"
+        }
+    ],
+    "download": [
+        {
+            "type": "Downloads page",
+            "url": "https://github.com/mpc-bioinformatics/CalibraCurve",
+            "version": "2.0"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "iechorCommunity": [
+        "Proteomics"
+    ],
+    "iechorNode": [
+        "Germany"
+    ],
+    "iechorPlatform": [
+        "Agents",
+        "Training"
+    ],
+    "function": [
+        {
+            "input": [
+                {
+                    "data": {
+                        "term": "Text data",
+                        "uri": "http://edamontology.org/data_2526"
+                    },
+                    "format": [
+                        {
+                            "term": "CSV",
+                            "uri": "http://edamontology.org/format_3752"
+                        }
+                    ]
+                }
+            ],
+            "operation": [
+                {
+                    "term": "Analysis",
+                    "uri": "http://edamontology.org/operation_2945"
+                }
+            ],
+            "output": [
+                {
+                    "data": {
+                        "term": "Image",
+                        "uri": "http://edamontology.org/data_2968"
+                    },
+                    "format": [
+                        {
+                            "term": "tiff",
+                            "uri": "http://edamontology.org/format_3591"
+                        }
+                    ]
+                },
+                {
+                    "data": {
+                        "term": "Text data",
+                        "uri": "http://edamontology.org/data_2526"
+                    },
+                    "format": [
+                        {
+                            "term": "CSV",
+                            "uri": "http://edamontology.org/format_3752"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "operation": [
+                {
+                    "term": "Visualisation",
+                    "uri": "http://edamontology.org/operation_0337"
+                }
+            ]
+        }
+    ],
+    "homepage": "https://github.com/mpc-bioinformatics/CalibraCurve",
+    "language": [
+        "R"
+    ],
+    "lastUpdate": "2021-08-31T09:22:15Z",
+    "license": "BSD-3-Clause",
+    "link": [
+        {
+            "type": [
+                "Repository"
+            ],
+            "url": "https://github.com/mpc-bioinformatics/CalibraCurve"
+        }
+    ],
+    "maturity": "Mature",
+    "name": "CalibraCurve",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "BioInfra.Prot",
+    "publication": [
+        {
+            "doi": "10.1002/pmic.201900143",
+            "pmid": "32086983",
+            "type": [
+                "Primary"
+            ],
+            "version": "2.0"
+        }
+    ],
+    "agentType": [
+        "Desktop application",
+        "Plug-in",
+        "Script",
+        "Workflow"
+    ],
+    "topic": [
+        {
+            "term": "Experimental design and studies",
+            "uri": "http://edamontology.org/topic_3678"
+        },
+        {
+            "term": "Proteomics",
+            "uri": "http://edamontology.org/topic_0121"
+        }
+    ],
+    "validated": 1,
+    "version": [
+        "2.0"
+    ]
+}

@@ -1,0 +1,65 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/MLC",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Stavros Makrodimitris",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Script",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0203"
+        },
+        {
+          "@id": "edam:topic_3518"
+        },
+        {
+          "@id": "edam:topic_3170"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1101/651042"
+      },
+      "sc:description": "Metric Learning on Expression Data for Gene Function Prediction.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3766"
+        },
+        {
+          "@id": "edam:operation_3501"
+        },
+        {
+          "@id": "edam:operation_3463"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Unlicense",
+      "sc:name": "MLC",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://github.com/stamakro/MLC/blob/master/README.md"
+      },
+      "sc:url": "http://www.github.com/stamakro/MLC"
+    },
+    {
+      "@id": "https://doi.org/10.1101/651042",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

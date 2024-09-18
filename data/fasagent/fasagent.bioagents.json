@@ -1,0 +1,63 @@
+{
+    "additionDate": "2017-08-20T15:41:57Z",
+    "bioagentsCURIE": "bioagents:fasagent",
+    "bioagentsID": "fasagent",
+    "collectionID": [
+        "Animal and Crop Genomics"
+    ],
+    "credit": [
+        {
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "https://github.com/fstrozzi"
+        }
+    ],
+    "description": "Read huge FastQ and FastA files (both normal and gzipped) an demanipulate them.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "https://github.com/fstrozzi/Fasagent/blob/master/README.md"
+        }
+    ],
+    "editPermission": {
+        "authors": [
+            "animalandcropgenomics"
+        ],
+        "type": "group"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Formatting",
+                    "uri": "http://edamontology.org/operation_0335"
+                }
+            ]
+        }
+    ],
+    "homepage": "https://github.com/fstrozzi/Fasagent",
+    "language": [
+        "C"
+    ],
+    "lastUpdate": "2019-09-04T08:38:04Z",
+    "license": "MIT",
+    "name": "Fasagent",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "owner": "admin",
+    "agentType": [
+        "Command-line agent"
+    ],
+    "topic": [
+        {
+            "term": "Data management",
+            "uri": "http://edamontology.org/topic_3071"
+        }
+    ],
+    "validated": 1
+}

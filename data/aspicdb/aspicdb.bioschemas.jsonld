@@ -1,0 +1,174 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://orcid.org/0000-0003-3663-0859",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkl324",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1186/1471-2105-13-S5-S2",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/aspicdb",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": {
+        "@id": "https://orcid.org/0000-0003-3663-0859"
+      },
+      "bsc:input": [
+        {
+          "@id": "_:Nc7412bdb0f37480ab1d108ed2fdf3aa1"
+        },
+        {
+          "@id": "_:Ncab0021634324d20aa12a2abff16c7c1"
+        },
+        {
+          "@id": "_:Nea71ff0dcc2345ce83548be8e1f17394"
+        },
+        {
+          "@id": "_:Na6597861113a4f34b3aca9db1321092b"
+        },
+        {
+          "@id": "_:N3f50df35a8cf480e8eac089372a6e2d3"
+        },
+        {
+          "@id": "_:N494a5913b311463ebff7eaf1543613d4"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Nd9c9f2d84947423588a9f75cc3f554f7"
+        },
+        {
+          "@id": "_:Ncdc500be4ead413aa33ac2c488620ff8"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3320"
+        },
+        {
+          "@id": "edam:topic_0114"
+        },
+        {
+          "@id": "edam:topic_3512"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:16845044",
+        "pmcid:PMC1538898",
+        "pubmed:22537006",
+        {
+          "@id": "https://doi.org/10.1186/1471-2105-13-S5-S2"
+        },
+        {
+          "@id": "https://doi.org/10.1093/nar/gkl324"
+        },
+        "pmcid:PMC3358663"
+      ],
+      "sc:description": "Database designed to provide access to reliable annotations of the alternative splicing pattern of human genes, obtained by ASPic algorithm and Pintron algorithm, and to the functional annotation of predicted isoforms.",
+      "sc:featureList": {
+        "@id": "edam:operation_0224"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:name": "Alternative splicing prediction database (ASPICdb)",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:provider": "IECHOR-ITA-CNR",
+      "sc:softwareHelp": {
+        "@id": "http://srv00.recas.ba.infn.it/ASPicDB/help.php"
+      },
+      "sc:url": "http://srv00.recas.ba.infn.it/ASPicDB/"
+    },
+    {
+      "@id": "_:Nc7412bdb0f37480ab1d108ed2fdf3aa1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0968"
+      },
+      "sc:name": "Keyword"
+    },
+    {
+      "@id": "_:Ncab0021634324d20aa12a2abff16c7c1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0582"
+      },
+      "sc:name": "Ontology"
+    },
+    {
+      "@id": "_:Nea71ff0dcc2345ce83548be8e1f17394",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0968"
+      },
+      "sc:name": "Keyword"
+    },
+    {
+      "@id": "_:Na6597861113a4f34b3aca9db1321092b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1026"
+      },
+      "sc:name": "Gene symbol"
+    },
+    {
+      "@id": "_:N3f50df35a8cf480e8eac089372a6e2d3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0582"
+      },
+      "sc:name": "Ontology"
+    },
+    {
+      "@id": "_:N494a5913b311463ebff7eaf1543613d4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1026"
+      },
+      "sc:name": "Gene symbol"
+    },
+    {
+      "@id": "_:Nd9c9f2d84947423588a9f75cc3f554f7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3134"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Gene transcript report"
+    },
+    {
+      "@id": "_:Ncdc500be4ead413aa33ac2c488620ff8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0896"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Protein report"
+    }
+  ]
+}

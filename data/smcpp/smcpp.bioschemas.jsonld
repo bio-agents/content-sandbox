@@ -1,0 +1,76 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1038/ng.3748",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/smcpp",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N6e1479eb563b417b851dfbf562847059"
+      },
+      "bsc:output": {
+        "@id": "_:Nf184c71eb3e6467fbb0527188912dbbf"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3796"
+      },
+      "sc:citation": [
+        "pubmed:28024154",
+        "pmcid:PMC5470542",
+        {
+          "@id": "https://doi.org/10.1038/ng.3748"
+        }
+      ],
+      "sc:description": "SMC++ is a program for estimating the size history of populations from whole genome sequence data.",
+      "sc:featureList": {
+        "@id": "edam:operation_2423"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "GPL-3.0",
+      "sc:name": "SMC++",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux"
+      ],
+      "sc:url": "https://github.com/popgenmethods/smcpp"
+    },
+    {
+      "@id": "_:Nf184c71eb3e6467fbb0527188912dbbf",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2526"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3464"
+      },
+      "sc:name": "Text data"
+    },
+    {
+      "@id": "_:N6e1479eb563b417b851dfbf562847059",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3989"
+      },
+      "sc:name": "Sequence"
+    }
+  ]
+}

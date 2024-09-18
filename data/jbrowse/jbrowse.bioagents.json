@@ -1,0 +1,93 @@
+{
+    "additionDate": "2017-01-13T13:15:09Z",
+    "bioagentsCURIE": "bioagents:jbrowse",
+    "bioagentsID": "jbrowse",
+    "credit": [
+        {
+            "email": "gmod-ajax@lists.sourceforge.net",
+            "name": "GMOD Support",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "Slick, speedy genome browser with a responsive and dynamic AJAX interface for visualization of genome data. Being developed by the GMOD project as a successor to GBrowse.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://gmod.org/wiki/JBrowse#Documentation"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Genome visualisation",
+                    "uri": "http://edamontology.org/operation_3208"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://gmod.org/wiki/JBrowse",
+    "language": [
+        "JavaScript",
+        "Perl"
+    ],
+    "lastUpdate": "2018-12-10T12:58:56Z",
+    "maturity": "Mature",
+    "name": "JBrowse",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "seqwiki_import",
+    "publication": [
+        {
+            "doi": "10.1101/gr.094607.109",
+            "metadata": {
+                "abstract": "We describe an open source, portable, JavaScript-based genome browser, JBrowse, that can be used to navigate genome annotations over the web. JBrowse helps preserve the user's sense of location by avoiding discontinuous transitions, instead offering smoothly animated panning, zooming, navigation, and track selection. Unlike most existing genome browsers, where the genome is rendered into images on the webserver and the role of the client is restricted to displaying those images, JBrowse distributes work between the server and client and therefore uses significantly less server overhead than previous genome browsers. We report benchmark results empirically comparing server- and client-side rendering strategies, review the architecture and design considerations of JBrowse, and describe a simple wiki plug-in that allows users to upload and share annotation tracks. © 2009 by Cold Spring Harbor Laboratory Press.",
+                "authors": [
+                    {
+                        "name": "Holmes I.H."
+                    },
+                    {
+                        "name": "Mungall C.J."
+                    },
+                    {
+                        "name": "Skinner M.E."
+                    },
+                    {
+                        "name": "Stein L.D."
+                    },
+                    {
+                        "name": "Uzilov A.V."
+                    }
+                ],
+                "citationCount": 489,
+                "date": "2009-09-01T00:00:00Z",
+                "journal": "Genome Research",
+                "title": "JBrowse: A next-generation genome browser"
+            },
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "agentType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Genomics",
+            "uri": "http://edamontology.org/topic_0622"
+        }
+    ],
+    "validated": 1
+}

@@ -1,0 +1,323 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/scopy",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-11-05T09:55:01.978553Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 542,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 37,
+                        "serie": [
+                            2,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            4,
+                            1,
+                            2,
+                            2
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 146,
+                        "serie": [
+                            3,
+                            1,
+                            1,
+                            2,
+                            6,
+                            3,
+                            23,
+                            2,
+                            5,
+                            5,
+                            3,
+                            1,
+                            3,
+                            1,
+                            9,
+                            6,
+                            5,
+                            8,
+                            7,
+                            1,
+                            12,
+                            17,
+                            1,
+                            1,
+                            1,
+                            2,
+                            2,
+                            4,
+                            11
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-05T09:55:01.867588Z",
+                "last_month_access": {
+                    "average_access_time": 609,
+                    "downtime_days": 20,
+                    "uptime_days": 10
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:scopy/undefined/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-11-05T10:33:33.204065Z",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": false,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 3,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1093/bib/bbaa194",
+                            "pmid": "32892221",
+                            "ref_count": 14,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": "1965"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                }
+                            ],
+                            "title": "Scopy: an integrated negative design python library for desirable HTS/VS database design. ",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 542,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 37,
+                        "serie": [
+                            2,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            1,
+                            4,
+                            1,
+                            2,
+                            2
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 146,
+                        "serie": [
+                            3,
+                            1,
+                            1,
+                            2,
+                            6,
+                            3,
+                            23,
+                            2,
+                            5,
+                            5,
+                            3,
+                            1,
+                            3,
+                            1,
+                            9,
+                            6,
+                            5,
+                            8,
+                            7,
+                            1,
+                            12,
+                            17,
+                            1,
+                            1,
+                            1,
+                            2,
+                            2,
+                            4,
+                            11
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-05T09:55:01.867588Z",
+                "last_month_access": {
+                    "average_access_time": 609,
+                    "downtime_days": 20,
+                    "uptime_days": 10
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    }
+]

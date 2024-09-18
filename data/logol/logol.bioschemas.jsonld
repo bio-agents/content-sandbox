@@ -1,0 +1,98 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1007/978-3-319-09192-1_4",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/logol",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "GenOuest",
+      "bsc:input": [
+        {
+          "@id": "_:Na78114eddade47c0b3bc284efc4cfd87"
+        },
+        {
+          "@id": "_:Nf250c9404058400287edebabd22a6907"
+        }
+      ],
+      "bsc:output": {
+        "@id": "_:N787d86dff8ba473694c21d641ed89792"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Web application",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0160"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1007/978-3-319-09192-1_4"
+      },
+      "sc:description": "Pattern matching grammar language and a set of agents to search a pattern in a sequence (nucleic or proteic).",
+      "sc:featureList": {
+        "@id": "edam:operation_0338"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "CECILL-2.0",
+      "sc:name": "Logol",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:provider": "GenOuest",
+      "sc:softwareHelp": {
+        "@id": "http://training.genouest.org/claroline/claroline/learnPath/learningPathList.php?cidReset=true&cidReq=LOGOL"
+      },
+      "sc:softwareVersion": "1.7.0",
+      "sc:url": "http://logol.genouest.org"
+    },
+    {
+      "@id": "_:N787d86dff8ba473694c21d641ed89792",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0858"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2332"
+      },
+      "sc:name": "Sequence signature matches"
+    },
+    {
+      "@id": "_:Na78114eddade47c0b3bc284efc4cfd87",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1353"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Sequence motif"
+    },
+    {
+      "@id": "_:Nf250c9404058400287edebabd22a6907",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.agents/peptidequant",
+  "@type": "sc:SoftwareApplication",
+  "bioagents:primaryContact": "Weichuan Yu",
+  "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+  "sc:additionalType": "Command-line agent",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0154"
+    },
+    {
+      "@id": "edam:topic_0078"
+    }
+  ],
+  "sc:citation": "pubmed:20201590",
+  "sc:description": "Optimization-based peptide quantification agent. It is designed to take two challenges in peptide abundance estimation: peptide overlapping and peak intensity variation.",
+  "sc:featureList": {
+    "@id": "edam:operation_3630"
+  },
+  "sc:name": "Peptidequant",
+  "sc:operatingSystem": [
+    "Windows",
+    "Linux",
+    "Mac"
+  ],
+  "sc:softwareHelp": {
+    "@id": "http://bioinformatics.ust.hk/PeptideQuant/peptidequant.htm"
+  },
+  "sc:url": "http://bioinformatics.ust.hk/PeptideQuant/peptidequant.htm"
+}

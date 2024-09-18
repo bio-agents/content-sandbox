@@ -1,0 +1,168 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btl567",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/gostats",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "BioConductor Package Maintainer",
+      "bsc:input": [
+        {
+          "@id": "_:N77bd91e1ace34df9a40b28e23cfa8d0d"
+        },
+        {
+          "@id": "_:Ne706438a4e734715af32bca3470aa0df"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N5d26203c241b43c79665267307ae92db"
+        },
+        {
+          "@id": "_:Nd1213dc1ee77495ead9f5322e92c3dd8"
+        },
+        {
+          "@id": "_:Nb5e4f2df435041eeadedc0c17753b224"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Library"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3572"
+        },
+        {
+          "@id": "edam:topic_0089"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:17098774",
+        {
+          "@id": "https://doi.org/10.1093/bioinformatics/btl567"
+        }
+      ],
+      "sc:description": "A set of agents for interacting with GO and microarray data. A variety of basic manipulation agents for graphs, hypothesis testing and other simple calculations.",
+      "sc:featureList": {
+        "@id": "edam:operation_2436"
+      },
+      "sc:license": "Artistic-2.0",
+      "sc:name": "GOstats",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/GOstats.html"
+      },
+      "sc:softwareVersion": "2.40.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/GOstats.html"
+    },
+    {
+      "@id": "_:N77bd91e1ace34df9a40b28e23cfa8d0d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2603"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_2195"
+        }
+      ],
+      "sc:name": "Gene expression data"
+    },
+    {
+      "@id": "_:Ne706438a4e734715af32bca3470aa0df",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0582"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2195"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Ontology"
+    },
+    {
+      "@id": "_:N5d26203c241b43c79665267307ae92db",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2331"
+        },
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3547"
+        }
+      ],
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:Nd1213dc1ee77495ead9f5322e92c3dd8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_2331"
+        }
+      ],
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:Nb5e4f2df435041eeadedc0c17753b224",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1772"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2331"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Score"
+    }
+  ]
+}

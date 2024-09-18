@@ -1,0 +1,88 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/lipop",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Agnieszka S. Juncker",
+      "bsc:input": {
+        "@id": "_:Nb173651b688042d999175c781986d4a6"
+      },
+      "bsc:output": {
+        "@id": "_:N5b69384a5b7b40b69f96f2b14dc2a11d"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Web service",
+        "Web application",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0820"
+        },
+        {
+          "@id": "edam:topic_0080"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:12876315",
+        "pmcid:PMC2323952",
+        {
+          "@id": "https://doi.org/10.1110/ps.0303703"
+        }
+      ],
+      "sc:description": "Predictions of lipoproteins and discrimination between lipoprotein signal peptides, other signal peptides and n-terminal membrane helices in Gram-negative bacteria.",
+      "sc:featureList": {
+        "@id": "edam:operation_0418"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Other",
+      "sc:name": "LipoP",
+      "sc:operatingSystem": "Linux",
+      "sc:provider": "CBS",
+      "sc:softwareHelp": {
+        "@id": "http://www.cbs.dtu.dk/services/LipoP/LipoP1.0server.html"
+      },
+      "sc:softwareVersion": "1.0",
+      "sc:url": "http://cbs.dtu.dk/services/LipoP"
+    },
+    {
+      "@id": "_:Nb173651b688042d999175c781986d4a6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence"
+    },
+    {
+      "@id": "_:N5b69384a5b7b40b69f96f2b14dc2a11d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2955"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2305"
+      },
+      "sc:name": "Sequence report"
+    },
+    {
+      "@id": "https://doi.org/10.1110/ps.0303703",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

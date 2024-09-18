@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/canu",
+      "@type": "sc:SoftwareApplication",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0622"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1101/gr.215087.116"
+      },
+      "sc:description": "De-novo assembly agent for long read chemistry like Nanopore data and PacBio data.",
+      "sc:featureList": {
+        "@id": "edam:operation_0524"
+      },
+      "sc:name": "CANU",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://github.com/marbl/canu/blob/master/README.md"
+      },
+      "sc:url": "https://github.com/marbl/canu"
+    },
+    {
+      "@id": "https://doi.org/10.1101/gr.215087.116",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

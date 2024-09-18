@@ -1,0 +1,75 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1016/j.bpj.2016.11.1880",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/valtrendsdb",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N0d585f50aa964cb8bb39955b36c8753a"
+      },
+      "bsc:output": {
+        "@id": "_:N2dccab10bd384a4ba4a4496a6d115969"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0092"
+      },
+      "sc:author": "Vladimír Horský",
+      "sc:citation": {
+        "@id": "https://doi.org/10.1016/j.bpj.2016.11.1880"
+      },
+      "sc:description": "A web database of biomacromolecular structure validation trends.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2945"
+        },
+        {
+          "@id": "edam:operation_2409"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:name": "ValTrendsDB",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://webchem.ncbr.muni.cz/ValTrendsDB/help.php"
+      },
+      "sc:url": "http://webchem.ncbr.muni.cz/ValTrendsDB/index.php"
+    },
+    {
+      "@id": "_:N0d585f50aa964cb8bb39955b36c8753a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1127"
+      },
+      "sc:name": "PDB ID"
+    },
+    {
+      "@id": "_:N2dccab10bd384a4ba4a4496a6d115969",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:name": "Image"
+    }
+  ]
+}

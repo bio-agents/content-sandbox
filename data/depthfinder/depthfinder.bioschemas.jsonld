@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.agents/DepthFinder",
+  "@type": "sc:SoftwareApplication",
+  "bioagents:primaryContact": "Jerome Laroche",
+  "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+  "sc:additionalType": "Command-line agent",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_3321"
+    },
+    {
+      "@id": "edam:topic_3518"
+    },
+    {
+      "@id": "edam:topic_3295"
+    }
+  ],
+  "sc:description": "Agent to determine the optimal read depth for reduced-representation sequencing.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_3230"
+    },
+    {
+      "@id": "edam:operation_3196"
+    },
+    {
+      "@id": "edam:operation_0484"
+    }
+  ],
+  "sc:isAccessibleForFree": true,
+  "sc:license": "GPL-3.0",
+  "sc:name": "DepthFinder",
+  "sc:operatingSystem": "Linux",
+  "sc:softwareHelp": {
+    "@id": "https://bitbucket.org/jerlar73/depthfinder/src/master/README.md"
+  },
+  "sc:url": "https://bitbucket.org/jerlar73/depthfinder/src/master/"
+}

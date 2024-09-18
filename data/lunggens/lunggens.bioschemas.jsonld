@@ -1,0 +1,78 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1136/thoraxjnl-2015-207035",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/lunggens",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Yan Xu",
+      "bsc:input": {
+        "@id": "_:N0984ded60d4640c8a25383abc4f5c63a"
+      },
+      "bsc:output": {
+        "@id": "_:Ne99c04eb196d4a1abe5e1a6262c1afbf"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0203"
+        },
+        {
+          "@id": "edam:topic_3512"
+        },
+        {
+          "@id": "edam:topic_3170"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:26130332",
+        {
+          "@id": "https://doi.org/10.1136/thoraxjnl-2015-207035"
+        },
+        "pmcid:PMC4641439"
+      ],
+      "sc:description": "Query single-cell gene expression databases by entering a gene symbol or a list of genes or selecting a cell type of their interest. Gene query provides quantitative RNA expression of the gene of interest in each lung cell type. Cell type query returns associated selective gene signatures and genes encoding cell surface markers and transcription factors in interactive heatmap and tables.",
+      "sc:featureList": {
+        "@id": "edam:operation_2421"
+      },
+      "sc:name": "LungGENS",
+      "sc:operatingSystem": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "sc:url": "https://research.cchmc.org/pbge/lunggens/default.html"
+    },
+    {
+      "@id": "_:Ne99c04eb196d4a1abe5e1a6262c1afbf",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2603"
+      },
+      "sc:name": "Gene expression data"
+    },
+    {
+      "@id": "_:N0984ded60d4640c8a25383abc4f5c63a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1026"
+      },
+      "sc:name": "Gene symbol"
+    }
+  ]
+}

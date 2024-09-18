@@ -1,0 +1,73 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/bwt-sw",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "GitHub Issues",
+      "bsc:input": {
+        "@id": "_:Nc1a2f38a928d4bcf88d031d19f6f4bcc"
+      },
+      "bsc:output": {
+        "@id": "_:Nb105557a4b3e4e428d621f5c25a96dda"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0654"
+        },
+        {
+          "@id": "edam:topic_0102"
+        },
+        {
+          "@id": "edam:topic_3168"
+        }
+      ],
+      "sc:citation": "pubmed:18227115",
+      "sc:description": "BWT-SW is a local alignment agent for searching nucleotide sequences. It performs the same function as BLASTn, the BLAST program for finding regions of local similarity between nucleotide sequences. While BLAST is an approximation of the Smith-Waterman local alignment algorithm and may miss significant alignments, BWT-SW finds all local alignments.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0346"
+        },
+        {
+          "@id": "edam:operation_0292"
+        }
+      ],
+      "sc:name": "BWT-SW",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:url": "https://github.com/mruffalo/bwt-sw"
+    },
+    {
+      "@id": "_:Nc1a2f38a928d4bcf88d031d19f6f4bcc",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:name": "Sequence"
+    },
+    {
+      "@id": "_:Nb105557a4b3e4e428d621f5c25a96dda",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0857"
+      },
+      "sc:name": "Sequence search results"
+    }
+  ]
+}

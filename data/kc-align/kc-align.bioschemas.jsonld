@@ -1,0 +1,66 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/kc-align",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N97ee53fb9b98462c9772ba9578ac9b03"
+      },
+      "bsc:output": {
+        "@id": "_:N25bad1e80ea641ecbe7edaa0699e8659"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0102"
+      },
+      "sc:description": "A fast and accurate agent for performing codon-aware multiple sequence alignments",
+      "sc:featureList": {
+        "@id": "edam:operation_0492"
+      },
+      "sc:license": "AFL-3.0",
+      "sc:name": "kc-align",
+      "sc:softwareVersion": "1.0",
+      "sc:url": "https://github.com/davebx/kc-align"
+    },
+    {
+      "@id": "_:N97ee53fb9b98462c9772ba9578ac9b03",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3494"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "DNA sequence"
+    },
+    {
+      "@id": "_:N25bad1e80ea641ecbe7edaa0699e8659",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1383"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1929"
+        },
+        {
+          "@id": "edam:format_1982"
+        }
+      ],
+      "sc:name": "Nucleic acid sequence alignment"
+    }
+  ]
+}

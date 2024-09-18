@@ -1,0 +1,76 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1371/journal.pone.0055814",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/evex",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Yves Van de Peer",
+      "bsc:input": {
+        "@id": "_:Na365b1deef3548ee8bc3c9c85f06e9a3"
+      },
+      "bsc:output": {
+        "@id": "_:N0eae2d52e7b34b8190da0e433086eee2"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3473"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1371/journal.pone.0055814"
+      },
+      "sc:description": "A text mining resource built on top of PubMed abstracts and PubMed Central full texts.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0306"
+        },
+        {
+          "@id": "edam:operation_0305"
+        }
+      ],
+      "sc:name": "EVEX",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:provider": "PSB",
+      "sc:softwareHelp": {
+        "@id": "http://evexdb.org/tutorial/"
+      },
+      "sc:softwareVersion": "1",
+      "sc:url": "http://evexdb.org"
+    },
+    {
+      "@id": "_:Na365b1deef3548ee8bc3c9c85f06e9a3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0842"
+      },
+      "sc:name": "Identifier"
+    },
+    {
+      "@id": "_:N0eae2d52e7b34b8190da0e433086eee2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0972"
+      },
+      "sc:name": "Text mining report"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/IMGT_HighV-QUEST",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:Nf7ef3df2b9304ddaac1c935ea017498e"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:Nef3de2a2b8114c099a9c300faff08c5c"
+        },
+        {
+          "@id": "_:N972d04ddeb124662a789bcfc0e36a327"
+        },
+        {
+          "@id": "_:Ndac50551e8c04a989f466295f22f3936"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Bioinformatics portal",
+        "Web application"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3948"
+        },
+        {
+          "@id": "edam:topic_3930"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:25378316",
+        {
+          "@id": "https://doi.org/10.16966/2470-1025.103"
+        },
+        "pubmed:22665256"
+      ],
+      "sc:description": "IMGT/HighV-QUEST is the IMGT® portal for NGS high-throughput nucleotide sequence analysis of immunoglobulins (IG) and T cell receptors (TR) variable domains, integrates IMGT/JunctionAnalysis and IMGT/Automat.\nAnalysis is based on the IMGT-ONTOLOGY concepts.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0292"
+        },
+        {
+          "@id": "edam:operation_2478"
+        },
+        {
+          "@id": "edam:operation_0448"
+        },
+        {
+          "@id": "edam:operation_3192"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:name": "IMGT HighV-QUEST",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:softwareHelp": [
+        {
+          "@id": "http://www.imgt.org/HighV-QUEST/doc.action"
+        },
+        {
+          "@id": "http://www.imgt.org/HighV-QUEST/versions.action"
+        }
+      ],
+      "sc:url": "http://www.imgt.org/HighV-QUEST/home.action"
+    },
+    {
+      "@id": "_:Nf7ef3df2b9304ddaac1c935ea017498e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2977"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Nucleic acid sequence"
+    },
+    {
+      "@id": "_:Nef3de2a2b8114c099a9c300faff08c5c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1255"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3752"
+      },
+      "sc:name": "Sequence features"
+    },
+    {
+      "@id": "_:N972d04ddeb124662a789bcfc0e36a327",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3779"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3752"
+      },
+      "sc:name": "Annotated text"
+    },
+    {
+      "@id": "_:Ndac50551e8c04a989f466295f22f3936",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2955"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3752"
+      },
+      "sc:name": "Sequence report"
+    },
+    {
+      "@id": "https://doi.org/10.16966/2470-1025.103",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

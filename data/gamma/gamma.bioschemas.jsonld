@@ -1,0 +1,64 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/BIOINFORMATICS/BTAB607",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/gamma",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Richard A Stanton",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0203"
+        },
+        {
+          "@id": "edam:topic_0623"
+        },
+        {
+          "@id": "edam:topic_0108"
+        },
+        {
+          "@id": "edam:topic_0199"
+        },
+        {
+          "@id": "edam:topic_3673"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:34415321",
+        {
+          "@id": "https://doi.org/10.1093/BIOINFORMATICS/BTAB607"
+        }
+      ],
+      "sc:description": "GAMMA (Gene Allele Mutation Microbial Assessment) is a command line agent that finds gene matches in microbial genomic data using protein coding (rather than nucleotide) identity, and then translates and annotates the match by providing the type (i.e., mutant, truncation, etc.) and a translated description.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3227"
+        },
+        {
+          "@id": "edam:operation_2454"
+        },
+        {
+          "@id": "edam:operation_2421"
+        }
+      ],
+      "sc:name": "GAMMA",
+      "sc:url": "https://github.com/rastanton/GAMMA"
+    }
+  ]
+}

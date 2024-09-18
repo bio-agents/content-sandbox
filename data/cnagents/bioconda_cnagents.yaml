@@ -1,0 +1,14 @@
+bioagents_id: cnagents
+description: This package provides agents to convert the output of segmentation analysis
+  using DNAcopy to a matrix structure with overlapping segments as rows and samples
+  as columns so that other computational analyses can be applied to segmented data
+home: https://bioconductor.org/packages/3.12/bioc/html/CNAgents.html
+identifiers:
+- bioagents:cnagents
+- doi:10.1038/nmeth.3252
+license: LGPL
+license_file: /lib/R/share/licenses/LGPL-3
+name: bioconductor-cnagents
+summary: Convert segment data into a region by sample matrix to allow for other high
+  level computational analyses.
+version: 1.46.0

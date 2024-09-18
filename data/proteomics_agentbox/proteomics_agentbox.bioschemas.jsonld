@@ -1,0 +1,30 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.agents/proteomics_agentbox",
+  "@type": "sc:SoftwareApplication",
+  "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+  "sc:additionalType": "Desktop application",
+  "sc:applicationSubCategory": {
+    "@id": "edam:topic_0121"
+  },
+  "sc:description": "We provide a proteomics software agentbox (i.e., offering pre-installed, pre-configured and tested own agents and free third-party software) on our hardware infrastructure.\n\nThe agentbox can be used on our high-performance hardware  infrastructure via high-bandwidth internet connection  or at your site (via virtualization).",
+  "sc:featureList": {
+    "@id": "edam:operation_2945"
+  },
+  "sc:isAccessibleForFree": true,
+  "sc:name": "Proteomics agentbox",
+  "sc:provider": "BioInfra.Prot",
+  "sc:softwareVersion": "1",
+  "sc:url": "http://www.ruhr-uni-bochum.de/mpc/medical_bioinformatics/bioinfraprot/index.html.en"
+}

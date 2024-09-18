@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1371/journal.pone.0197954",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/adnuts",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Cole Monnahan",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3474"
+        },
+        {
+          "@id": "edam:topic_0610"
+        },
+        {
+          "@id": "edam:topic_2269"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1371/journal.pone.0197954"
+      },
+      "sc:description": "Bayesian inference using the no-U-turn (NUTS) algorithm.",
+      "sc:featureList": {
+        "@id": "edam:operation_2426"
+      },
+      "sc:name": "adnuts",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://cran.r-project.org/web/packages/adnuts/adnuts.pdf"
+      },
+      "sc:url": "https://cran.r-project.org/web/packages/adnuts/index.html"
+    }
+  ]
+}

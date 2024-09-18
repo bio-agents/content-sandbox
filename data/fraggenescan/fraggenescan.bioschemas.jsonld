@@ -1,0 +1,127 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/fraggenescan",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": [
+        "Yuzhen Ye",
+        "Wazim MohammedIsmail"
+      ],
+      "bsc:input": {
+        "@id": "_:N23ebf2f7ecd740ea9174cd23e543520a"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:N55c10931b16a45849756b847c6b8d26c"
+        },
+        {
+          "@id": "_:N23e13dcd0fbf460c8bb5b64f8c3c9858"
+        },
+        {
+          "@id": "_:N2e708859b5b742fe90f0d2f3de513a2c"
+        },
+        {
+          "@id": "_:N652ab4dc0748420880f5d1a006cb212c"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_3053"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.7490/f1000research.1114334.1"
+        },
+        "pubmed:20805240"
+      ],
+      "sc:description": "Application for finding (fragmented) genes in short reads",
+      "sc:featureList": {
+        "@id": "edam:operation_2454"
+      },
+      "sc:license": "GPL-3.0",
+      "sc:name": "FragGeneScan",
+      "sc:operatingSystem": "Linux",
+      "sc:softwareHelp": {
+        "@id": "http://omics.informatics.indiana.edu/FragGeneScan/README"
+      },
+      "sc:url": "https://sourceforge.net/projects/fraggenescan/"
+    },
+    {
+      "@id": "_:N23ebf2f7ecd740ea9174cd23e543520a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:N55c10931b16a45849756b847c6b8d26c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2305"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N23e13dcd0fbf460c8bb5b64f8c3c9858",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:N2e708859b5b742fe90f0d2f3de513a2c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:N652ab4dc0748420880f5d1a006cb212c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

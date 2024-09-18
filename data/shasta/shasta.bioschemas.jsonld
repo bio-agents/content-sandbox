@@ -1,0 +1,96 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1038/s41587-020-0503-6",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/shasta",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:Na71ed89ecc97421d8c9372618c8d8320"
+      },
+      "bsc:output": {
+        "@id": "_:Nfa5e595dafb6455da16617c09b78dfdc"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Suite",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0196"
+        },
+        {
+          "@id": "edam:topic_0622"
+        }
+      ],
+      "sc:citation": [
+        "pmcid:PMC7483855",
+        {
+          "@id": "https://doi.org/10.1038/s41587-020-0503-6"
+        },
+        "pubmed:32686750"
+      ],
+      "sc:description": "De novo assembly from Oxford Nanopore reads.",
+      "sc:featureList": {
+        "@id": "edam:operation_0525"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "MIT",
+      "sc:name": "Shasta",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:softwareHelp": [
+        {
+          "@id": "https://github.com/chanzuckerberg/.github/blob/master/CODE_OF_CONDUCT.md"
+        },
+        {
+          "@id": "https://chanzuckerberg.github.io/shasta/QuickStart.html"
+        },
+        {
+          "@id": "https://chanzuckerberg.github.io/shasta/"
+        }
+      ],
+      "sc:url": "https://github.com/chanzuckerberg/shasta"
+    },
+    {
+      "@id": "_:Nfa5e595dafb6455da16617c09b78dfdc",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0925"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1930"
+      },
+      "sc:name": "Sequence assembly"
+    },
+    {
+      "@id": "_:Na71ed89ecc97421d8c9372618c8d8320",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0925"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1930"
+      },
+      "sc:name": "Sequence assembly"
+    }
+  ]
+}

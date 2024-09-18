@@ -1,0 +1,137 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/mbpcr",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "P.M.V. Rancoita",
+      "bsc:input": [
+        {
+          "@id": "_:N67149f89b2c94bd495fc47713751ba1b"
+        },
+        {
+          "@id": "_:N52e2b4a4cc17448b80d02c1e99ac422a"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Ndcada2d20f664c1da7198f17416a1279"
+        },
+        {
+          "@id": "_:N6cf9fb582df94f7280f2b7b67669a6cf"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Library"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_3518"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/1471-2105-10-10"
+      },
+      "sc:description": "Estimates the DNA copy number profile by detecting regions with copy number changes.",
+      "sc:featureList": {
+        "@id": "edam:operation_3233"
+      },
+      "sc:license": "GPL-2.0",
+      "sc:name": "mBPCR",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/mBPCR.html"
+      },
+      "sc:softwareVersion": "1.28.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/mBPCR.html"
+    },
+    {
+      "@id": "_:Ndcada2d20f664c1da7198f17416a1279",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3475"
+        },
+        {
+          "@id": "edam:format_3547"
+        }
+      ],
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:N6cf9fb582df94f7280f2b7b67669a6cf",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1276"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3475"
+        },
+        {
+          "@id": "edam:format_3547"
+        }
+      ],
+      "sc:name": "Nucleic acid features"
+    },
+    {
+      "@id": "_:N67149f89b2c94bd495fc47713751ba1b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0928"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3475"
+        },
+        {
+          "@id": "edam:format_2058"
+        }
+      ],
+      "sc:name": "Gene expression profile"
+    },
+    {
+      "@id": "_:N52e2b4a4cc17448b80d02c1e99ac422a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1276"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3475"
+        },
+        {
+          "@id": "edam:format_2058"
+        }
+      ],
+      "sc:name": "Nucleic acid features"
+    },
+    {
+      "@id": "https://doi.org/10.1186/1471-2105-10-10",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

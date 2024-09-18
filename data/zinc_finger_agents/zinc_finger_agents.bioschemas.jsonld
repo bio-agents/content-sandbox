@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.agents/zinc_finger_agents",
+  "@type": "sc:SoftwareApplication",
+  "bioagents:primaryContact": "Contact Form",
+  "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0154"
+    },
+    {
+      "@id": "edam:topic_0140"
+    },
+    {
+      "@id": "edam:topic_0078"
+    },
+    {
+      "@id": "edam:topic_0130"
+    }
+  ],
+  "sc:citation": [
+    "pubmed:10077584",
+    "pubmed:16845061",
+    "pubmed:11340073",
+    "pubmed:12592412",
+    "pubmed:11054286",
+    "pubmed:16107335"
+  ],
+  "sc:description": "Provides several agents for selecting zinc finger protein target sites and for designing the proteins that will target them.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_0420"
+    },
+    {
+      "@id": "edam:operation_2489"
+    }
+  ],
+  "sc:name": "Zinc Finger Agents",
+  "sc:operatingSystem": [
+    "Mac",
+    "Linux",
+    "Windows"
+  ],
+  "sc:softwareHelp": {
+    "@id": "http://www.scripps.edu/barbas/zfdesign/intro.php#overview"
+  },
+  "sc:url": "http://www.scripps.edu/mb/barbas/zfdesign/zfdesignhome.php"
+}

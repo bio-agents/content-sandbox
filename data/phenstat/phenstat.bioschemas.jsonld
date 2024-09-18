@@ -1,0 +1,63 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/phenstat",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Hamed Haselimashhadi",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2269"
+        },
+        {
+          "@id": "edam:topic_0625"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:26147094",
+        {
+          "@id": "https://doi.org/10.1371/journal.pone.0131274"
+        },
+        "pmcid:PMC4493137"
+      ],
+      "sc:description": "Package contains methods for statistical analysis of phenotypic data.",
+      "sc:featureList": {
+        "@id": "edam:operation_2238"
+      },
+      "sc:license": "Other",
+      "sc:name": "PhenStat",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:softwareHelp": [
+        {
+          "@id": "http://bioconductor.org/packages/release/bioc/vignettes/PhenStat/inst/doc/PhenStatUsersGuide.pdf"
+        },
+        {
+          "@id": "http://bioconductor.org/packages/release/bioc/manuals/PhenStat/man/PhenStat.pdf"
+        }
+      ],
+      "sc:softwareVersion": "2.16.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/PhenStat.html"
+    },
+    {
+      "@id": "https://doi.org/10.1371/journal.pone.0131274",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:crispr-p:2.0/web/crispr.hzau.edu.cn",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-10-29T02:02:13.312864Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1016/j.molp.2017.01.00",
+                            "ref_count": 0,
+                            "refs": []
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 1626,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 158,
+                        "serie": [
+                            154,
+                            4
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 24,
+                        "serie": [
+                            24
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-10-29T02:01:03.728536Z",
+                "last_month_access": {
+                    "average_access_time": 1059,
+                    "downtime_days": 24,
+                    "uptime_days": 4
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/crispr-p",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-10-29T02:01:03.834679Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 1626,
+                "bioschemas": false,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 158,
+                        "serie": [
+                            154,
+                            4
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 24,
+                        "serie": [
+                            24
+                        ],
+                        "status": 408
+                    }
+                ],
+                "https": false,
+                "last_check": "2022-10-29T02:01:03.728536Z",
+                "last_month_access": {
+                    "average_access_time": 1059,
+                    "downtime_days": 24,
+                    "uptime_days": 4
+                },
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

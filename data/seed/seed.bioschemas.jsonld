@@ -1,0 +1,37 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.agents/seed",
+  "@type": "sc:SoftwareApplication",
+  "bioagents:primaryContact": "Thomas Girke",
+  "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+  "sc:additionalType": "Command-line agent",
+  "sc:applicationSubCategory": {
+    "@id": "edam:topic_3174"
+  },
+  "sc:citation": "pubmed:21810899",
+  "sc:description": "Agent to cluster sequence reads prior to assembly or other operations.",
+  "sc:featureList": {
+    "@id": "edam:operation_0291"
+  },
+  "sc:name": "SEED",
+  "sc:operatingSystem": [
+    "Linux",
+    "Mac",
+    "Windows"
+  ],
+  "sc:softwareHelp": {
+    "@id": "https://github.com/baoe/SEED"
+  },
+  "sc:url": "http://manuals.bioinformatics.ucr.edu/home/seed"
+}

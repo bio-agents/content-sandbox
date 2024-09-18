@@ -1,0 +1,128 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/agents",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:N4b0d9d85b7034cf6b6b9a02813dc5e1d"
+        },
+        {
+          "@id": "_:N0816ca31a6f84e8489bb770e0d209afb"
+        },
+        {
+          "@id": "_:N32f24e5ce6ab43baac801be08dfd992a"
+        },
+        {
+          "@id": "_:Nb69a235129ca457181b465e0d7dc49f9"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N96af5027b610422a8f4c58189cf58dce"
+        },
+        {
+          "@id": "_:Nd39ecca1d30d48b8b2d30e041f4727fd"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:description": "agentsagents",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2928"
+        },
+        {
+          "@id": "edam:operation_2945"
+        }
+      ],
+      "sc:name": "agents",
+      "sc:url": "https://www.autohome.com.cn/beijing/#pvareaid=3311664"
+    },
+    {
+      "@id": "_:N96af5027b610422a8f4c58189cf58dce",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1394"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2350"
+      },
+      "sc:name": "Alignment score or penalty"
+    },
+    {
+      "@id": "_:Nd39ecca1d30d48b8b2d30e041f4727fd",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1347"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3830"
+        },
+        {
+          "@id": "edam:format_2331"
+        },
+        {
+          "@id": "edam:format_3773"
+        }
+      ],
+      "sc:name": "Dirichlet distribution"
+    },
+    {
+      "@id": "_:N4b0d9d85b7034cf6b6b9a02813dc5e1d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1600"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3773"
+      },
+      "sc:name": "Codon usage bias plot"
+    },
+    {
+      "@id": "_:N0816ca31a6f84e8489bb770e0d209afb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3108"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Experimental measurement"
+    },
+    {
+      "@id": "_:N32f24e5ce6ab43baac801be08dfd992a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2082"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3750"
+      },
+      "sc:name": "Matrix"
+    },
+    {
+      "@id": "_:Nb69a235129ca457181b465e0d7dc49f9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1274"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2376"
+      },
+      "sc:name": "Map"
+    }
+  ]
+}

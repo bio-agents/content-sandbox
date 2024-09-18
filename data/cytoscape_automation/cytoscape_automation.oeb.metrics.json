@@ -1,0 +1,680 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/cytoscape_automation",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@timestamp": "2022-11-19T03:00:31.499215Z",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 858,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 180,
+                        "serie": [
+                            12,
+                            128,
+                            4,
+                            36
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 3,
+                        "serie": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T03:00:31.032381Z",
+                "last_month_access": {
+                    "average_access_time": 1332,
+                    "downtime_days": 0,
+                    "uptime_days": 30
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://github.com/cytoscape/cytoscape-automation/wiki"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:cytoscape_automation/lib/automation.cytoscape.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-11-19T09:38:16.668510Z",
+        "@type": "metrics",
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 311,
+                            "citations": [
+                                {
+                                    "count": 3,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 46,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 132,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 130,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1186/s13059-019-1758-4",
+                            "pmcid": "PMC6717989",
+                            "pmid": "31477170",
+                            "ref_count": 50,
+                            "refs": [
+                                {
+                                    "count": 36,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                }
+                            ],
+                            "title": "Cytoscape Automation: empowering workflow-based network analysis.",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 854,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 113,
+                        "serie": [
+                            1,
+                            1,
+                            3,
+                            3,
+                            6,
+                            6,
+                            3,
+                            1,
+                            6,
+                            1,
+                            6,
+                            3,
+                            2,
+                            3,
+                            8,
+                            3,
+                            1,
+                            2,
+                            1,
+                            1,
+                            5,
+                            6,
+                            4,
+                            1,
+                            3,
+                            1,
+                            8,
+                            1,
+                            5,
+                            1,
+                            3,
+                            2,
+                            1,
+                            9,
+                            2
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 70,
+                        "serie": [
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            7,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            3,
+                            2,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            6,
+                            1,
+                            1,
+                            1,
+                            2,
+                            2,
+                            11,
+                            1,
+                            1,
+                            1,
+                            1,
+                            5,
+                            1,
+                            1,
+                            2,
+                            2
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T09:38:16.558134Z",
+                "last_month_access": {
+                    "average_access_time": 744,
+                    "downtime_days": 12,
+                    "uptime_days": 18
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://github.com/cytoscape/cytoscape-automation/wiki"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:cytoscape_automation/workflow/automation.cytoscape.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-11-19T09:38:17.303755Z",
+        "@type": "metrics",
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 311,
+                            "citations": [
+                                {
+                                    "count": 3,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 46,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 132,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 130,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1186/s13059-019-1758-4",
+                            "pmcid": "PMC6717989",
+                            "pmid": "31477170",
+                            "ref_count": 50,
+                            "refs": [
+                                {
+                                    "count": 36,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                }
+                            ],
+                            "title": "Cytoscape Automation: empowering workflow-based network analysis.",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 961,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 116,
+                        "serie": [
+                            1,
+                            1,
+                            3,
+                            3,
+                            6,
+                            6,
+                            3,
+                            1,
+                            6,
+                            1,
+                            6,
+                            3,
+                            2,
+                            3,
+                            8,
+                            3,
+                            1,
+                            2,
+                            1,
+                            1,
+                            5,
+                            6,
+                            4,
+                            1,
+                            3,
+                            1,
+                            12,
+                            5,
+                            1,
+                            3,
+                            2,
+                            1,
+                            9,
+                            2
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 67,
+                        "serie": [
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            7,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            3,
+                            2,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            6,
+                            1,
+                            1,
+                            1,
+                            2,
+                            2,
+                            9,
+                            1,
+                            1,
+                            1,
+                            5,
+                            1,
+                            1,
+                            2,
+                            2
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T09:38:16.554384Z",
+                "last_month_access": {
+                    "average_access_time": 884,
+                    "downtime_days": 12,
+                    "uptime_days": 18
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://github.com/cytoscape/cytoscape-automation/wiki"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioagents:cytoscape_automation/suite/automation.cytoscape.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioagents",
+        "@timestamp": "2022-11-19T09:38:17.067357Z",
+        "@type": "metrics",
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 311,
+                            "citations": [
+                                {
+                                    "count": 3,
+                                    "year": "2019"
+                                },
+                                {
+                                    "count": 46,
+                                    "year": "2020"
+                                },
+                                {
+                                    "count": 132,
+                                    "year": "2021"
+                                },
+                                {
+                                    "count": 130,
+                                    "year": "2022"
+                                }
+                            ],
+                            "doi": "10.1186/s13059-019-1758-4",
+                            "pmcid": "PMC6717989",
+                            "pmid": "31477170",
+                            "ref_count": 50,
+                            "refs": [
+                                {
+                                    "count": 36,
+                                    "year": "0"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2003"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2004"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2006"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2007"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 2,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2017"
+                                },
+                                {
+                                    "count": 1,
+                                    "year": "2019"
+                                }
+                            ],
+                            "title": "Cytoscape Automation: empowering workflow-based network analysis.",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "access_time": 843,
+                "bioschemas": true,
+                "copyright": false,
+                "half_year_stat": [
+                    {
+                        "days": 116,
+                        "serie": [
+                            1,
+                            1,
+                            3,
+                            3,
+                            6,
+                            6,
+                            3,
+                            1,
+                            6,
+                            1,
+                            6,
+                            3,
+                            2,
+                            3,
+                            8,
+                            3,
+                            1,
+                            2,
+                            1,
+                            1,
+                            5,
+                            6,
+                            4,
+                            1,
+                            3,
+                            1,
+                            12,
+                            5,
+                            1,
+                            3,
+                            2,
+                            1,
+                            9,
+                            2
+                        ],
+                        "status": 200
+                    },
+                    {
+                        "days": 67,
+                        "serie": [
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            1,
+                            7,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            3,
+                            2,
+                            1,
+                            1,
+                            1,
+                            2,
+                            1,
+                            6,
+                            1,
+                            1,
+                            1,
+                            2,
+                            2,
+                            9,
+                            1,
+                            1,
+                            1,
+                            5,
+                            1,
+                            1,
+                            2,
+                            2
+                        ],
+                        "status": 429
+                    }
+                ],
+                "https": true,
+                "last_check": "2022-11-19T09:38:16.557165Z",
+                "last_month_access": {
+                    "average_access_time": 621,
+                    "downtime_days": 12,
+                    "uptime_days": 18
+                },
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://github.com/cytoscape/cytoscape-automation/wiki"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

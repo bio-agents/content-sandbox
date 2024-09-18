@@ -1,0 +1,105 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1038/nbt.2377",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/idconvert",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "SourceForge team",
+      "bsc:input": {
+        "@id": "_:Nb4288073b349424fb220b0ae37b98110"
+      },
+      "bsc:output": {
+        "@id": "_:N79ec50b23f8844b688f78437110095b2"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3520"
+        },
+        {
+          "@id": "edam:topic_0121"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1038/nbt.2377"
+      },
+      "sc:description": "A converter between pepXML and mzIdentML formats for peptide identifications from tandem mass spectrometry. Developed by the ProteoWizard team.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_1812"
+        },
+        {
+          "@id": "edam:operation_3434"
+        },
+        {
+          "@id": "edam:operation_0335"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Apache-2.0",
+      "sc:name": "idconvert",
+      "sc:operatingSystem": [
+        "Mac",
+        "Windows",
+        "Linux"
+      ],
+      "sc:provider": "lumc.nl",
+      "sc:softwareHelp": {
+        "@id": "http://proteowizard.sourceforge.net/agents.shtml"
+      },
+      "sc:softwareVersion": "1",
+      "sc:url": "http://proteowizard.sourceforge.net/agents/idconvert.html"
+    },
+    {
+      "@id": "_:N79ec50b23f8844b688f78437110095b2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0945"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3247"
+        },
+        {
+          "@id": "edam:format_3655"
+        }
+      ],
+      "sc:name": "Peptide identification"
+    },
+    {
+      "@id": "_:Nb4288073b349424fb220b0ae37b98110",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0945"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3747"
+        },
+        {
+          "@id": "edam:format_3247"
+        },
+        {
+          "@id": "edam:format_3655"
+        }
+      ],
+      "sc:name": "Peptide identification"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/lea",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Eric Frichot",
+      "bsc:input": {
+        "@id": "_:N3b19265adcdb4abdae0c8322b9ef6ee6"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:N246dc2efe4164130944a9b04a1e8160c"
+        },
+        {
+          "@id": "_:N27e4c4d73c8f450a9a2b03eae3bdd22b"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Library",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0622"
+        },
+        {
+          "@id": "edam:topic_3572"
+        },
+        {
+          "@id": "edam:topic_3517"
+        },
+        {
+          "@id": "edam:topic_3518"
+        },
+        {
+          "@id": "edam:topic_3056"
+        },
+        {
+          "@id": "edam:topic_2885"
+        },
+        {
+          "@id": "edam:topic_2269"
+        },
+        {
+          "@id": "edam:topic_0610"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1111/2041-210X.12382"
+      },
+      "sc:description": "R package for landscape genomics and ecological association tests. It can run analyses of population structure and genome scans for local adaptation. It includes statistical methods for estimating ancestry coefficients from large genotypic matrices and evaluating the number of ancestral populations; identifying genetic polymorphisms that exhibit high correlation with an environmental gradient or with variables used as proxies for ecological pressures, and controlling the false discovery rate.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3659"
+        },
+        {
+          "@id": "edam:operation_3202"
+        },
+        {
+          "@id": "edam:operation_0335"
+        }
+      ],
+      "sc:license": "GPL-3.0",
+      "sc:name": "LEA",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/LEA.html"
+      },
+      "sc:softwareVersion": "1.6.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/LEA.html"
+    },
+    {
+      "@id": "_:N246dc2efe4164130944a9b04a1e8160c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Image"
+    },
+    {
+      "@id": "_:N27e4c4d73c8f450a9a2b03eae3bdd22b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3547"
+        }
+      ],
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:N3b19265adcdb4abdae0c8322b9ef6ee6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3112"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3286"
+        },
+        {
+          "@id": "edam:format_3016"
+        }
+      ],
+      "sc:name": "Gene expression matrix"
+    },
+    {
+      "@id": "https://doi.org/10.1111/2041-210X.12382",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

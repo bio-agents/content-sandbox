@@ -1,0 +1,90 @@
+package: bedagents
+distribution: debian
+release: sid
+component: main
+version: 2.29.2
+source: bedagents
+homepage: https://github.com/arq5x/bedagents2
+license: unknown
+blend: debian-med
+description_md5: 58af131119baf6930c142074f356e7c9
+registries:
+- entry: OMICS_01159
+  name: OMICagents
+- entry: SCR_006646
+  name: SciCrunch
+- entry: bedagents
+  name: bio.agents
+- entry: bioagents
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/btq033
+tags:
+- tag: field::biology
+- tag: field::biology:bioinformatics
+- tag: implemented-in::c++
+- tag: interface::commandline
+- tag: role::program
+- tag: scope::suite
+- tag: use::analysing
+- tag: use::comparing
+- tag: use::converting
+- tag: use::filtering
+- tag: works-with::biological-sequence
+popcon:
+- insts: 356
+  olde: 304
+  recent: 21
+  vote: 31
+descr:
+- package: bedagents
+  description: suite of utilities for comparing genomic features
+  long_description: " The BEDAgents utilities allow one to address common genomics\
+    \ tasks such as\n finding feature overlaps and computing coverage. The utilities\
+    \ are largely\n based on four widely-used file formats: BED, GFF/GTF, VCF, and\
+    \ SAM/BAM. Using\n BEDAgents, one can develop sophisticated pipelines that answer\
+    \ complicated\n research questions by streaming several BEDAgents together.\n .\n\
+    \ The groupBy utility is distributed in the filo package.\n"
+  release: sid
+  description_md5: 58af131119baf6930c142074f356e7c9
+  license: unknown
+  blend: debian-med
+- package: bedagents
+  description: suite di utilità per confrontare tratti genomici
+  long_description: " Le utilità BEDAgents permettono di affrontare compiti comuni\
+    \ negli studi\n genomici, come trovare i tratti che si sovrappongono e calcolare\
+    \ la\n copertura. Le utilità sono largamente basate su quattro formati di file\
+    \ di\n largo uso: BED, GFF/GTF, VCF e SAM/BAM. Usando BEDAgents si possono\n sviluppare\
+    \ pipe sofisticate che rispondono a domande di ricerca complesse\n mediante l'uso\
+    \ di svariati BEDAgents in un flusso comune.\n .\n L'utilità groupBy è distribuita\
+    \ nel pacchetto filo.\n"
+  release: sid
+  description_md5: 58af131119baf6930c142074f356e7c9
+  license: unknown
+  blend: debian-med
+- package: bedagents
+  description: Programpakke med redskaber for sammenligning af arvemassefunktioner
+  long_description: " BEDAgents-redskaber giver mulighed for at adressere gængse arvemasseopgaver\n\
+    \ såsom at finde funktionsoverlap og beregne dækning. Redskaberne er\n hovedsagelig\
+    \ baseret på fire meget udbredte filformater: BED, GFF/GTF, VCF\n og SAM/BAM.\
+    \ Med brug af BEDAgents kan du udvikle sofistikerede datakanaler,\n som besvarer\
+    \ komplicerede forskningsspørgsmål ved at udsende flere BEDAgents\n sammen.\n .\n\
+    \ Redskabet groupBy er distribueret i pakken filo.\n"
+  release: sid
+  description_md5: 58af131119baf6930c142074f356e7c9
+  license: unknown
+  blend: debian-med
+- package: bedagents
+  description: suite d'utilitaires pour la comparaison des caractéristiques de génomes
+  long_description: " Les utilitaires BEDAgents permettent de traiter les tâches génomiques\
+    \ ordinaires\n telles que trouver les chevauchements de caractéristiques et informatiser\
+    \ les\n données. Les utilitaires sont en grande partie basés sur quatre formats\
+    \ de\n fichier très utilisés : BED, GFF/GTF, VCF et SAM/BAM. En utilisant BEDAgents,\
+    \ il\n est possible de développer des enchainements sophistiqués qui répondent\
+    \ à des\n questions de recherche en utilisant plusieurs outils séquentiellement.\n\
+    \ .\n L'outil groupBy est fourni par le paquet filo.\n"
+  release: sid
+  description_md5: 58af131119baf6930c142074f356e7c9
+  license: unknown
+  blend: debian-med

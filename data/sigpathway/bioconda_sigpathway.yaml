@@ -1,0 +1,12 @@
+bioagents_id: sigpathway
+description: Conducts pathway analysis by calculating the NT_k and NE_k statistics
+  as described in Tian et al. (2005)
+home: https://bioconductor.org/packages/3.12/bioc/html/sigPathway.html
+identifiers:
+- bioagents:sigpathway
+- doi:10.1038/nmeth.3252
+license: GPL-2
+license_file: /lib/R/share/licenses/GPL-2
+name: bioconductor-sigpathway
+summary: Pathway Analysis
+version: 1.58.0

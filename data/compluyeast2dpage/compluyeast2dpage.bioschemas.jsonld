@@ -1,0 +1,86 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/compluyeast2dpage",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:N02d0c9fdd7974b9cbddf45f75c20f62b"
+        },
+        {
+          "@id": "_:N3167a4e3b25c48679d0aa7eaf0dd8f18"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Nb0b2a8c5e4304700bcd00d7eef1b6657"
+        },
+        {
+          "@id": "_:Nbbe4f388a46141e0a08cdab45ece3f00"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0121"
+      },
+      "sc:description": "A two-dimensional polyacrilamide gel electrophoresis federated database.",
+      "sc:featureList": {
+        "@id": "edam:operation_0224"
+      },
+      "sc:name": "COMPLUYEAST-2DPAGE database",
+      "sc:provider": "Universidad Complutense Madrid",
+      "sc:url": "http://compluyeast2dpage.dacya.ucm.es/"
+    },
+    {
+      "@id": "_:Nb0b2a8c5e4304700bcd00d7eef1b6657",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2531"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Experiment report"
+    },
+    {
+      "@id": "_:Nbbe4f388a46141e0a08cdab45ece3f00",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2531"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Experiment report"
+    },
+    {
+      "@id": "_:N02d0c9fdd7974b9cbddf45f75c20f62b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0989"
+      },
+      "sc:name": "Protein identifier"
+    },
+    {
+      "@id": "_:N3167a4e3b25c48679d0aa7eaf0dd8f18",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3021"
+      },
+      "sc:name": "UniProt accession"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/raiss",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": {
+        "@id": "http://orcid.org/0000-0002-7554-6783"
+      },
+      "bsc:input": {
+        "@id": "_:N40b5d375bfb2498e8b8071f27cf03a1c"
+      },
+      "bsc:output": {
+        "@id": "_:Ncd877a1887b940a89137104674335533"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3053"
+        },
+        {
+          "@id": "edam:topic_3517"
+        },
+        {
+          "@id": "edam:topic_2269"
+        }
+      ],
+      "sc:author": {
+        "@id": "https://orcid.org/0000-0001-8214-9412"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btz466"
+      },
+      "sc:description": "software package enabling the imputation of SNP summary statistics from the neighboring SNPs by taking advantage of the Linkage desiquilibrium.",
+      "sc:featureList": {
+        "@id": "edam:operation_2238"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "MIT",
+      "sc:name": "RAISS",
+      "sc:operatingSystem": "Linux",
+      "sc:softwareHelp": {
+        "@id": "http://statistical-genetics.pages.pasteur.fr/raiss/"
+      },
+      "sc:softwareVersion": "1.0, 2.0",
+      "sc:url": "http://statistical-genetics.pages.pasteur.fr/raiss/"
+    },
+    {
+      "@id": "_:N40b5d375bfb2498e8b8071f27cf03a1c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:Ncd877a1887b940a89137104674335533",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btz466",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-8214-9412",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "http://orcid.org/0000-0002-7554-6783",
+      "@type": "schema:Person"
+    }
+  ]
+}

@@ -1,0 +1,412 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1021/acs.jmedchem.5b01813",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/pdestrian",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": [
+        "Dr. Chris de Graaf",
+        "Dr. Albert J. Kooistra"
+      ],
+      "bsc:input": [
+        {
+          "@id": "_:N1a25e6cc32fc4933925e6d93a27ecc18"
+        },
+        {
+          "@id": "_:Nefc21b32d4484793829142277c8bf97a"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N779798ae0fbf4f8d851b654555c73d71"
+        },
+        {
+          "@id": "_:Nec1ee470197f4b7e86fe4f765ba09ce4"
+        },
+        {
+          "@id": "_:N76f487c34425432f849623d6ef1ceae3"
+        },
+        {
+          "@id": "_:Nd118032212ce46f3a051e7f89e81b609"
+        },
+        {
+          "@id": "_:N3552726ac027497e853bf13c4a1a13b4"
+        },
+        {
+          "@id": "_:N2536aa385c6241488eb1c9e49dfff5b1"
+        },
+        {
+          "@id": "_:Nd8f2019a19b04cc69a76550881c4c691"
+        },
+        {
+          "@id": "_:Ne316c5d6240849388ba767028e4aee91"
+        },
+        {
+          "@id": "_:Nd125615eddcb4286acee8d2d076464c5"
+        },
+        {
+          "@id": "_:Nab61320b1d934cceb338d61d2b4b1fb4"
+        },
+        {
+          "@id": "_:N167112c7fbcd47f7b441eadb2f37d792"
+        },
+        {
+          "@id": "_:N821e2c8f3bd44e86948044a5e442bbfb"
+        },
+        {
+          "@id": "_:Nfacbbddeb2914a12a5d5f90ef1d373c9"
+        },
+        {
+          "@id": "_:Ne9cac2f16c154afdb09850a8eac06d1f"
+        },
+        {
+          "@id": "_:N4b94cbdd72a34714b636d0477910d666"
+        },
+        {
+          "@id": "_:N1b1f601c97f1493a9a472ab3f9f5b790"
+        },
+        {
+          "@id": "_:N5987d6275fc24eb6b6cb845fd5e5105c"
+        },
+        {
+          "@id": "_:N1f11a0e5018a44be85fc01162d932770"
+        },
+        {
+          "@id": "_:N64e9d042c85a41cda1c194c5642879f4"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Web API",
+        "Database portal",
+        "Web application"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2258"
+        },
+        {
+          "@id": "edam:topic_0209"
+        },
+        {
+          "@id": "edam:topic_3336"
+        },
+        {
+          "@id": "edam:topic_3303"
+        },
+        {
+          "@id": "edam:topic_1317"
+        },
+        {
+          "@id": "edam:topic_3510"
+        },
+        {
+          "@id": "edam:topic_3534"
+        },
+        {
+          "@id": "edam:topic_2814"
+        },
+        {
+          "@id": "edam:topic_0602"
+        },
+        {
+          "@id": "edam:topic_3332"
+        },
+        {
+          "@id": "edam:topic_0128"
+        },
+        {
+          "@id": "edam:topic_0122"
+        },
+        {
+          "@id": "edam:topic_3369"
+        },
+        {
+          "@id": "edam:topic_0154"
+        }
+      ],
+      "sc:author": [
+        "Chimed Jansen",
+        "Division of Medicinal Chemistry (Vrije Universiteit Amsterdam)",
+        "Chris de Graaf",
+        "Albert J. Kooistra",
+        "Georgi K. Kanev"
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1021/acs.jmedchem.5b01813"
+      },
+      "sc:contributor": [
+        "Iwan J.P. de Esch",
+        "Rob Leurs",
+        "TI Pharma grant T4-302",
+        "European Commission seventh Framework Programme FP7-HEALTH-2013-INNOVATION-1, PDE4NPD (no. 602666)"
+      ],
+      "sc:description": "The database revolves around the protein structure of catalytic PDE domains and the way PDE inhibitors can interact with them. It contains a systematic analysis of all phosphodiesterase (PDE) catalytic domain crystal structures present in the Protein Data Bank (PDB) with a focus on PDE-ligand interactions.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2996"
+        },
+        {
+          "@id": "edam:operation_2409"
+        },
+        {
+          "@id": "edam:operation_0248"
+        },
+        {
+          "@id": "edam:operation_0360"
+        },
+        {
+          "@id": "edam:operation_2422"
+        },
+        {
+          "@id": "edam:operation_0244"
+        },
+        {
+          "@id": "edam:operation_0297"
+        },
+        {
+          "@id": "edam:operation_2487"
+        },
+        {
+          "@id": "edam:operation_0292"
+        },
+        {
+          "@id": "edam:operation_0295"
+        },
+        {
+          "@id": "edam:operation_0564"
+        },
+        {
+          "@id": "edam:operation_2480"
+        },
+        {
+          "@id": "edam:operation_0570"
+        },
+        {
+          "@id": "edam:operation_3282"
+        },
+        {
+          "@id": "edam:operation_2492"
+        },
+        {
+          "@id": "edam:operation_0482"
+        },
+        {
+          "@id": "edam:operation_0339"
+        },
+        {
+          "@id": "edam:operation_0250"
+        }
+      ],
+      "sc:funder": [
+        "European Commission seventh Framework Programme FP7-HEALTH-2013-INNOVATION-1, PDE4NPD (no. 602666)",
+        "TI Pharma grant T4-302"
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:name": "PDEStrIAn",
+      "sc:operatingSystem": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "sc:provider": [
+        "vu.nl",
+        "Vrije Universiteit Amsterdam"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://pdestrian.vu-compmedchem.nl/faq.php"
+      },
+      "sc:url": "http://pdestrian.vu-compmedchem.nl"
+    },
+    {
+      "@id": "_:N779798ae0fbf4f8d851b654555c73d71",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0982"
+      },
+      "sc:name": "Molecule identifier"
+    },
+    {
+      "@id": "_:Nec1ee470197f4b7e86fe4f765ba09ce4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1481"
+      },
+      "sc:name": "Structure alignment (protein)"
+    },
+    {
+      "@id": "_:N76f487c34425432f849623d6ef1ceae3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1463"
+      },
+      "sc:name": "Small molecule structure"
+    },
+    {
+      "@id": "_:Nd118032212ce46f3a051e7f89e81b609",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2080"
+      },
+      "sc:name": "Database search results"
+    },
+    {
+      "@id": "_:N3552726ac027497e853bf13c4a1a13b4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0984"
+      },
+      "sc:name": "Molecule name"
+    },
+    {
+      "@id": "_:N2536aa385c6241488eb1c9e49dfff5b1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2526"
+      },
+      "sc:name": "Text data"
+    },
+    {
+      "@id": "_:Nd8f2019a19b04cc69a76550881c4c691",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1498"
+      },
+      "sc:name": "Tanimoto similarity score"
+    },
+    {
+      "@id": "_:Ne316c5d6240849388ba767028e4aee91",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0890"
+      },
+      "sc:name": "Structural (3D) profile alignment"
+    },
+    {
+      "@id": "_:Nd125615eddcb4286acee8d2d076464c5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1461"
+      },
+      "sc:name": "Protein-ligand complex"
+    },
+    {
+      "@id": "_:Nab61320b1d934cceb338d61d2b4b1fb4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0906"
+      },
+      "sc:name": "Protein interaction data"
+    },
+    {
+      "@id": "_:N167112c7fbcd47f7b441eadb2f37d792",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0954"
+      },
+      "sc:name": "Database cross-mapping"
+    },
+    {
+      "@id": "_:N821e2c8f3bd44e86948044a5e442bbfb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2050"
+      },
+      "sc:name": "Molecular property (general)"
+    },
+    {
+      "@id": "_:Nfacbbddeb2914a12a5d5f90ef1d373c9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0888"
+      },
+      "sc:name": "Structure similarity score"
+    },
+    {
+      "@id": "_:Ne9cac2f16c154afdb09850a8eac06d1f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0893"
+      },
+      "sc:name": "Sequence-structure alignment"
+    },
+    {
+      "@id": "_:N4b94cbdd72a34714b636d0477910d666",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1712"
+      },
+      "sc:name": "Chemical structure image"
+    },
+    {
+      "@id": "_:N1b1f601c97f1493a9a472ab3f9f5b790",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0889"
+      },
+      "sc:name": "Structural profile"
+    },
+    {
+      "@id": "_:N5987d6275fc24eb6b6cb845fd5e5105c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0897"
+      },
+      "sc:name": "Protein property"
+    },
+    {
+      "@id": "_:N1f11a0e5018a44be85fc01162d932770",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1537"
+      },
+      "sc:name": "Protein structure report"
+    },
+    {
+      "@id": "_:N64e9d042c85a41cda1c194c5642879f4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2992"
+      },
+      "sc:name": "Protein structure image"
+    },
+    {
+      "@id": "_:N1a25e6cc32fc4933925e6d93a27ecc18",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1460"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1476"
+      },
+      "sc:name": "Protein structure"
+    },
+    {
+      "@id": "_:Nefc21b32d4484793829142277c8bf97a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2886"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2554"
+      },
+      "sc:name": "Protein sequence record"
+    }
+  ]
+}

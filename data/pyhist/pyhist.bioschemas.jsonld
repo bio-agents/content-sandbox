@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1101/2020.05.07.082461",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/pyhist",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:Nbab1ccc6f1394669a592f6a68ea01b85"
+      },
+      "bsc:output": {
+        "@id": "_:Nb9a7a1d8cc0b42a5994294df898fb2d7"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3474"
+        },
+        {
+          "@id": "edam:topic_3382"
+        },
+        {
+          "@id": "edam:topic_0769"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1101/2020.05.07.082461"
+      },
+      "sc:description": "PyHIST is a Histological Image Segmentation Agent: a lightweight semi-automatic pipeline to extract tiles with foreground content from SVS histopathology whole image slides (with experimental support for other formats). It is intended to be an easy-to-use agent to preprocess histological image data for usage in machine learning tasks. The PyHIST pipeline involves three main steps: 1) produce a mask for the input WSI that differentiates the tissue from the background, 2) create a grid of tiles on top of the mask, evaluate each tile to see if it meets the minimum content threshold to be considered as foreground and 3) extract the selected tiles from the input WSI at the requested resolution.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3935"
+        },
+        {
+          "@id": "edam:operation_2422"
+        },
+        {
+          "@id": "edam:operation_3443"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "GPL-3.0",
+      "sc:name": "PyHIST",
+      "sc:softwareHelp": {
+        "@id": "https://pyhist.readthedocs.io/"
+      },
+      "sc:softwareVersion": "1.0.0",
+      "sc:url": "https://github.com/manuel-munoz-aguirre/PyHIST"
+    },
+    {
+      "@id": "_:Nbab1ccc6f1394669a592f6a68ea01b85",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2333"
+      },
+      "sc:name": "Image"
+    },
+    {
+      "@id": "_:Nb9a7a1d8cc0b42a5994294df898fb2d7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:name": "Image"
+    }
+  ]
+}

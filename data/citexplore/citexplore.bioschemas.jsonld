@@ -1,0 +1,101 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gkn741",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/citexplore",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Help desk",
+      "bsc:input": [
+        {
+          "@id": "_:N74de7675dd2e4519b478be187771b279"
+        },
+        {
+          "@id": "_:N41f4a204b65340e4bfd755c8897c3320"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N5dee0960821f42a6a1f9facb815406c6"
+        },
+        {
+          "@id": "_:N4aa9e688873e4936bdb8c2572fca8eb9"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3068"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gkn741"
+      },
+      "sc:description": "Combine literature search with text mining agents for biology.",
+      "sc:featureList": {
+        "@id": "edam:operation_0224"
+      },
+      "sc:name": "CiteXplore literature database",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://europepmc.org/Help"
+      },
+      "sc:url": "http://www.ebi.ac.uk/web_guidelines/html/mitigation/frontier_test_02.html"
+    },
+    {
+      "@id": "_:N5dee0960821f42a6a1f9facb815406c6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3505"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Bibliography"
+    },
+    {
+      "@id": "_:N4aa9e688873e4936bdb8c2572fca8eb9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3505"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2332"
+      },
+      "sc:name": "Bibliography"
+    },
+    {
+      "@id": "_:N74de7675dd2e4519b478be187771b279",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1187"
+      },
+      "sc:name": "PubMed ID"
+    },
+    {
+      "@id": "_:N41f4a204b65340e4bfd755c8897c3320",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1187"
+      },
+      "sc:name": "PubMed ID"
+    }
+  ]
+}

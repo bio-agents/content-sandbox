@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btg090",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/aflpinsilico",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": {
+        "@id": "http://orcid.org/0000-0002-3985-4981"
+      },
+      "bsc:input": {
+        "@id": "_:N8811f41378554747baf6095f282386e0"
+      },
+      "bsc:output": {
+        "@id": "_:Nb64bf2ada9264800903f6dac7b3371a4"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_2885"
+      },
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/bioinformatics/btg090"
+        },
+        "pubmed:12691992"
+      ],
+      "sc:description": "Simulating AFLP fingerprints.",
+      "sc:featureList": {
+        "@id": "edam:operation_3202"
+      },
+      "sc:name": "AFLPinSilico",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:provider": "ugent.be",
+      "sc:softwareHelp": {
+        "@id": "http://bioinformatics.psb.ugent.be/webagents/aflpinsilico/"
+      },
+      "sc:softwareVersion": "2",
+      "sc:url": "http://bioinformatics.psb.ugent.be/software/details/AFLPinSilico"
+    },
+    {
+      "@id": "_:Nb64bf2ada9264800903f6dac7b3371a4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2977"
+      },
+      "sc:name": "Nucleic acid sequence"
+    },
+    {
+      "@id": "_:N8811f41378554747baf6095f282386e0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2977"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Nucleic acid sequence"
+    },
+    {
+      "@id": "http://orcid.org/0000-0002-3985-4981",
+      "@type": "schema:Person"
+    }
+  ]
+}

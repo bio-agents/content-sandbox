@@ -1,0 +1,317 @@
+{
+    "accessibility": "Open access",
+    "additionDate": "2020-01-21T15:26:54Z",
+    "bioagentsCURIE": "bioagents:NGphylogeny.fr",
+    "bioagentsID": "NGphylogeny.fr",
+    "cost": "Free of charge",
+    "credit": [
+        {
+            "email": "fmareuil@pasteur.fr",
+            "name": "Fabien Mareuil",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Contributor"
+            ]
+        },
+        {
+            "email": "frederic.lemoine@pasteur.fr",
+            "name": "Frédéric Lemoine",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Developer",
+                "Maintainer",
+                "Primary contact"
+            ]
+        },
+        {
+            "email": "vincent.lefort@lirmm.fr",
+            "name": "Vincent Lefort",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Contributor"
+            ]
+        },
+        {
+            "name": "Damien Correia",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Developer"
+            ]
+        }
+    ],
+    "description": "Free, simple to use web service dedicated to reconstructing and analysing phylogenetic relationships between molecular sequences.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "https://ngphylogeny.fr/documentation"
+        }
+    ],
+    "editPermission": {
+        "authors": [
+            "flemoine",
+            "fmareuil"
+        ],
+        "type": "group"
+    },
+    "iechorNode": [
+        "France"
+    ],
+    "function": [
+        {
+            "input": [
+                {
+                    "data": {
+                        "term": "Nucleic acid sequence",
+                        "uri": "http://edamontology.org/data_2977"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "Protein sequence",
+                        "uri": "http://edamontology.org/data_2976"
+                    }
+                }
+            ],
+            "operation": [
+                {
+                    "term": "Multiple sequence alignment",
+                    "uri": "http://edamontology.org/operation_0492"
+                }
+            ],
+            "output": [
+                {
+                    "data": {
+                        "term": "Sequence alignment",
+                        "uri": "http://edamontology.org/data_0863"
+                    }
+                }
+            ]
+        },
+        {
+            "input": [
+                {
+                    "data": {
+                        "term": "Sequence alignment",
+                        "uri": "http://edamontology.org/data_0863"
+                    }
+                }
+            ],
+            "operation": [
+                {
+                    "term": "Phylogenetic tree construction (from molecular sequences)",
+                    "uri": "http://edamontology.org/operation_0540"
+                }
+            ],
+            "output": [
+                {
+                    "data": {
+                        "term": "Gene tree",
+                        "uri": "http://edamontology.org/data_3271"
+                    },
+                    "format": [
+                        {
+                            "term": "newick",
+                            "uri": "http://edamontology.org/format_1910"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "input": [
+                {
+                    "data": {
+                        "term": "Sequence alignment",
+                        "uri": "http://edamontology.org/data_0863"
+                    }
+                }
+            ],
+            "operation": [
+                {
+                    "term": "Sequence alignment refinement",
+                    "uri": "http://edamontology.org/operation_2089"
+                }
+            ],
+            "output": [
+                {
+                    "data": {
+                        "term": "Sequence alignment",
+                        "uri": "http://edamontology.org/data_0863"
+                    }
+                }
+            ]
+        },
+        {
+            "input": [
+                {
+                    "data": {
+                        "term": "Gene tree",
+                        "uri": "http://edamontology.org/data_3271"
+                    },
+                    "format": [
+                        {
+                            "term": "newick",
+                            "uri": "http://edamontology.org/format_1910"
+                        }
+                    ]
+                }
+            ],
+            "operation": [
+                {
+                    "term": "Phylogenetic tree visualisation",
+                    "uri": "http://edamontology.org/operation_0567"
+                }
+            ],
+            "output": [
+                {
+                    "data": {
+                        "term": "Gene tree",
+                        "uri": "http://edamontology.org/data_3271"
+                    },
+                    "format": [
+                        {
+                            "term": "PDF",
+                            "uri": "http://edamontology.org/format_3508"
+                        },
+                        {
+                            "term": "SVG",
+                            "uri": "http://edamontology.org/format_3604"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "homepage": "https://ngphylogeny.fr/",
+    "lastUpdate": "2020-06-16T10:55:27Z",
+    "maturity": "Emerging",
+    "name": "NGphylogeny.fr",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "vincent.lefort",
+    "publication": [
+        {
+            "doi": "10.1093/nar/gkz303",
+            "metadata": {
+                "abstract": "© 2019 The Author(s) 2019. Published by Oxford University Press on behalf of Nucleic Acids Research.Phylogeny.fr, created in 2008, has been designed to facilitate the execution of phylogenetic workflows, and is nowadays widely used. However, since its development, user needs have evolved, new agents and workflows have been published, and the number of jobs has increased dramatically, thus promoting new practices, which motivated its refactoring. We developed NGPhylogeny.fr to be more flexible in terms of agents and workflows, easily installable, and more scalable. It integrates numerous agents in their latest version (e.g. TNT, FastME, MrBayes, etc.) as well as new ones designed in the last ten years (e.g. PhyML, SMS, FastTree, trimAl, BOOSTER, etc.). These agents cover a large range of usage (sequence searching, multiple sequence alignment, model selection, tree inference and tree drawing) and a large panel of standard methods (distance, parsimony, maximum likelihood and Bayesian). They are integrated in workflows, which have been already configured ('One click'), can be customized ('Advanced'), or are built from scratch ('A la carte'). Workflows are managed and run by an underlying Galaxy workflow system, which makes workflows more scalable in terms of number of jobs and size of data. NGPhylogeny.fr is deployable on any server or personal computer, and is freely accessible at https://ngphylogeny.fr.",
+                "authors": [
+                    {
+                        "name": "Cohen-Boulakia S."
+                    },
+                    {
+                        "name": "Correia D."
+                    },
+                    {
+                        "name": "Doppelt-Azeroual O."
+                    },
+                    {
+                        "name": "Gascuel O."
+                    },
+                    {
+                        "name": "Lefort V."
+                    },
+                    {
+                        "name": "Lemoine F."
+                    },
+                    {
+                        "name": "Mareuil F."
+                    }
+                ],
+                "citationCount": 124,
+                "date": "2019-07-01T00:00:00Z",
+                "journal": "Nucleic Acids Research",
+                "title": "NGPhylogeny.fr: New generation phylogenetic services for non-specialists"
+            },
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "relation": [
+        {
+            "bioagentsID": "bmge",
+            "type": "uses"
+        },
+        {
+            "bioagentsID": "booster",
+            "type": "uses"
+        },
+        {
+            "bioagentsID": "clustalo",
+            "type": "uses"
+        },
+        {
+            "bioagentsID": "fastme",
+            "type": "uses"
+        },
+        {
+            "bioagentsID": "fasttree",
+            "type": "uses"
+        },
+        {
+            "bioagentsID": "gblocks",
+            "type": "uses"
+        },
+        {
+            "bioagentsID": "mafft",
+            "type": "uses"
+        },
+        {
+            "bioagentsID": "mrbayes",
+            "type": "uses"
+        },
+        {
+            "bioagentsID": "muscle",
+            "type": "uses"
+        },
+        {
+            "bioagentsID": "newick_utilities",
+            "type": "uses"
+        },
+        {
+            "bioagentsID": "noisy",
+            "type": "uses"
+        },
+        {
+            "bioagentsID": "phyml",
+            "type": "uses"
+        },
+        {
+            "bioagentsID": "phymlsms",
+            "type": "uses"
+        },
+        {
+            "bioagentsID": "tnt",
+            "type": "uses"
+        },
+        {
+            "bioagentsID": "trimal",
+            "type": "uses"
+        }
+    ],
+    "agentType": [
+        "Bioinformatics portal",
+        "Web application",
+        "Workflow"
+    ],
+    "topic": [
+        {
+            "term": "Bioinformatics",
+            "uri": "http://edamontology.org/topic_0091"
+        },
+        {
+            "term": "Phylogenetics",
+            "uri": "http://edamontology.org/topic_3293"
+        },
+        {
+            "term": "Phylogenetics",
+            "uri": "http://edamontology.org/topic_3293"
+        }
+    ],
+    "validated": 1
+}

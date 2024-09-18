@@ -1,0 +1,61 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/svlr",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": [
+        "Daming Zhu",
+        "Xuefeng Cui"
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Command-line agent",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3168"
+        },
+        {
+          "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_3175"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1089/CMB.2021.0048"
+        },
+        "pubmed:33973820"
+      ],
+      "sc:description": "SVLR is a agent designed to detect structural variation with long reads sequenced by the third generation sequencing (PacBio or Oxford Nanopore). It detects seven types of SVs (10bp+) which include deletion, insertion, inversion, tandem duplication, interspersed duplication, cut & paste isertion, block replacement, block interchange, and translocation by following four steps: SV signatures marking, SV signatures Clustering, SV clusters combination, SV clusters optimization. The current version of SVLR utilizes the alignments from NGMLR(.sam) or LAST(.maf).",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3228"
+        },
+        {
+          "@id": "edam:operation_3432"
+        },
+        {
+          "@id": "edam:operation_3227"
+        }
+      ],
+      "sc:name": "SVLR",
+      "sc:url": "https://github.com/GWYSDU/SVLR"
+    },
+    {
+      "@id": "https://doi.org/10.1089/CMB.2021.0048",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

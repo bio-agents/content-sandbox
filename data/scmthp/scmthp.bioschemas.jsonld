@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/scmthp",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:N1abf71b4483f434ca9985ce020afd7ca"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3930"
+        },
+        {
+          "@id": "edam:topic_3306"
+        },
+        {
+          "@id": "edam:topic_3474"
+        },
+        {
+          "@id": "edam:topic_0154"
+        },
+        {
+          "@id": "edam:topic_0091"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.3390/PHARMACEUTICS14010122"
+        },
+        "pubmed:35057016",
+        "pmcid:PMC8779003"
+      ],
+      "sc:description": "A New Approach for Identifying and Characterizing of Tumor-Homing Peptides Using Estimated Propensity Scores of Amino Acids.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3631"
+        },
+        {
+          "@id": "edam:operation_0252"
+        },
+        {
+          "@id": "edam:operation_3659"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:name": "SCMTHP",
+      "sc:operatingSystem": [
+        "Linux",
+        "Windows",
+        "Mac"
+      ],
+      "sc:url": "http://pmlabstack.pythonanywhere.com/SCMTHP"
+    },
+    {
+      "@id": "_:N1abf71b4483f434ca9985ce020afd7ca",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2976"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Protein sequence"
+    },
+    {
+      "@id": "https://doi.org/10.3390/PHARMACEUTICS14010122",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

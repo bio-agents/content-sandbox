@@ -1,0 +1,86 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/ChAsE_Chromatin_Analysis_and_Exploration",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Hamid Younesy",
+      "bsc:input": {
+        "@id": "_:N14e017a56aad4d82970ec319d7b9e295"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Desktop application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3173"
+      },
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/bioinformatics/btw382"
+        },
+        {
+          "@id": "https://doi.org/10.1111/cgf.12096"
+        }
+      ],
+      "sc:description": "ChAsE (Chromatin Analysis and Exploration) is a cross platform desktop application that provides an interactive graphical interface for analysis of epigenomic data. Features include:\n- Exploration and visualization of the data using an interactive heat map and plot interface\n- Clustering the data automatically or manually by sorting and brushing the heat map\n- Exporting results for downstream analysis or as high quality images for publications",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0337"
+        },
+        {
+          "@id": "edam:operation_2451"
+        },
+        {
+          "@id": "edam:operation_3432"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "LGPL-3.0",
+      "sc:name": "ChAsE",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": [
+        {
+          "@id": "https://github.com/hyounesy/ChAsE/blob/master/README.md"
+        },
+        {
+          "@id": "http://chase.cs.univie.ac.at/documentation"
+        }
+      ],
+      "sc:softwareVersion": "1.1.2",
+      "sc:url": "https://github.com/hyounesy/ChAsE/"
+    },
+    {
+      "@id": "_:N14e017a56aad4d82970ec319d7b9e295",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1916"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3006"
+      },
+      "sc:name": "Alignment"
+    },
+    {
+      "@id": "https://doi.org/10.1111/cgf.12096",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btw382",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

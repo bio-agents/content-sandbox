@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1038/nmeth.3252",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/rgsepd",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Karl Stamm",
+      "bsc:input": {
+        "@id": "_:N7f40d08d13e84fc99896e60378aa77de"
+      },
+      "bsc:output": {
+        "@id": "_:Na95a471ec72c4b2ca6ca3a92d46c7512"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Library",
+        "Command-line agent"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3308"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1038/nmeth.3252"
+      },
+      "sc:description": "Bioinformatics package for R to help disambiguate transcriptome samples (a matrix of RNA-Seq counts at RefSeq IDs) by automating differential expression (with DESeq2), then gene set enrichment (with GOSeq), and finally a N-dimensional projection to quantify in which ways each sample is like either treatment group.",
+      "sc:featureList": {
+        "@id": "edam:operation_2436"
+      },
+      "sc:license": "GPL-3.0",
+      "sc:name": "rgsepd",
+      "sc:operatingSystem": [
+        "Mac",
+        "Windows",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/rgsepd.html"
+      },
+      "sc:softwareVersion": "1.6.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/rgsepd.html"
+    },
+    {
+      "@id": "_:Na95a471ec72c4b2ca6ca3a92d46c7512",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1636"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3752"
+      },
+      "sc:name": "Heat map"
+    },
+    {
+      "@id": "_:N7f40d08d13e84fc99896e60378aa77de",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2769"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1958"
+      },
+      "sc:name": "Transcript ID"
+    }
+  ]
+}

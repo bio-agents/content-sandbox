@@ -1,0 +1,99 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/hmm-tm",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": {
+        "@id": "https://orcid.org/0000-0003-4935-2325"
+      },
+      "bsc:input": {
+        "@id": "_:Nd45e5d70ccfc4d9d9053c1053341d6a4"
+      },
+      "bsc:output": {
+        "@id": "_:Nd5c58e0525324f598f7d74b6399b831e"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0078"
+        },
+        {
+          "@id": "edam:topic_0820"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1186/1471-2105-7-189"
+        },
+        "pubmed:16597327",
+        "pmcid:PMC1523218"
+      ],
+      "sc:description": "HMM-TM is a agent that takes a protein sequence as input and predicts the transmembrane regions of alpha-helical",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2423"
+        },
+        {
+          "@id": "edam:operation_0269"
+        },
+        {
+          "@id": "edam:operation_0270"
+        }
+      ],
+      "sc:name": "HMM-TM",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://www.compgen.org/agents/HMM-TM"
+      },
+      "sc:softwareVersion": "1.1",
+      "sc:url": "http://www.compgen.org/agents/HMM-TM"
+    },
+    {
+      "@id": "_:Nd5c58e0525324f598f7d74b6399b831e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2955"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1964"
+      },
+      "sc:name": "Sequence report"
+    },
+    {
+      "@id": "_:Nd45e5d70ccfc4d9d9053c1053341d6a4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2976"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Protein sequence"
+    },
+    {
+      "@id": "https://doi.org/10.1186/1471-2105-7-189",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-4935-2325",
+      "@type": "schema:Person"
+    }
+  ]
+}

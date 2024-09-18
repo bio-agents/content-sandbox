@@ -1,0 +1,213 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nbt.1621",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/cuffcompare",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Galaxy Support Team",
+      "bsc:input": [
+        {
+          "@id": "_:Nb8955eaa36434eb3914f68f5c17474b1"
+        },
+        {
+          "@id": "_:N03e58630eea44a90a215a340045717e1"
+        },
+        {
+          "@id": "_:Ncf7d5d5411044576b1c7a61f9c643c7e"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Nfbbe7249ebec4ca6be5e7fa645b8dc73"
+        },
+        {
+          "@id": "_:N0c882ee0667441fc859054f85a808595"
+        },
+        {
+          "@id": "_:Nae1f66c8e96940948c857f2600d0ddfe"
+        },
+        {
+          "@id": "_:N7eabab6324ec4efc9295b0a5b065edb3"
+        },
+        {
+          "@id": "_:N849ceb01a1594934837c80bf86d52fae"
+        },
+        {
+          "@id": "_:Nacede5d524864948a099cfe10a7cd46e"
+        },
+        {
+          "@id": "_:N729e6d0d0be64ac197c09635740b058f"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3168"
+      },
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.7490/f1000research.1114334.1"
+        },
+        {
+          "@id": "https://doi.org/10.1038/nbt.1621"
+        },
+        {
+          "@id": "https://doi.org/10.1093/nar/gkw343"
+        }
+      ],
+      "sc:description": "Compare assembled transcripts to a reference annotation and track Cufflinks transcripts across multiple experiments.",
+      "sc:featureList": {
+        "@id": "edam:operation_0492"
+      },
+      "sc:name": "cuffcompare",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://cole-trapnell-lab.github.io/cufflinks/cuffcompare/"
+      },
+      "sc:softwareVersion": "2.2.1.0",
+      "sc:url": "http://cole-trapnell-lab.github.io/cufflinks/"
+    },
+    {
+      "@id": "_:Nfbbe7249ebec4ca6be5e7fa645b8dc73",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N0c882ee0667441fc859054f85a808595",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:Nae1f66c8e96940948c857f2600d0ddfe",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N7eabab6324ec4efc9295b0a5b065edb3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N849ceb01a1594934837c80bf86d52fae",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:Nacede5d524864948a099cfe10a7cd46e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2306"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N729e6d0d0be64ac197c09635740b058f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:Nb8955eaa36434eb3914f68f5c17474b1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2306"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N03e58630eea44a90a215a340045717e1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1975"
+        },
+        {
+          "@id": "edam:format_2306"
+        }
+      ],
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:Ncf7d5d5411044576b1c7a61f9c643c7e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

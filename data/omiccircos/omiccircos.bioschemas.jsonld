@@ -1,0 +1,221 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.4137/cin.s13495",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/omiccircos",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Ying Hu",
+      "bsc:input": [
+        {
+          "@id": "_:N90ed30a454d547c3be3c2a0965a1ae2e"
+        },
+        {
+          "@id": "_:N636150205c1f466dab93c3a762d9e640"
+        },
+        {
+          "@id": "_:Nf24f839fed4f4482a06e16e599880c66"
+        },
+        {
+          "@id": "_:Nec53d70f1c824881aee4d68df6c020b3"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N552fb3f02863408c908130823e368fee"
+        },
+        {
+          "@id": "_:Ne25847ef9e9942e7a8f7120bdeae6805"
+        },
+        {
+          "@id": "_:N53ac64302e0b49848ad4465dea254e60"
+        },
+        {
+          "@id": "_:Ncde8b3fa611043618bfc807eed3408bc"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Library"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3391"
+        },
+        {
+          "@id": "edam:topic_0092"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.4137/cin.s13495"
+      },
+      "sc:description": "R package for generating high-quality circular plots for omics data.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0362"
+        },
+        {
+          "@id": "edam:operation_0337"
+        },
+        {
+          "@id": "edam:operation_3208"
+        }
+      ],
+      "sc:license": "GPL-2.0",
+      "sc:name": "OmicCircos",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/OmicCircos.html"
+      },
+      "sc:softwareVersion": "1.12.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/OmicCircos.html"
+    },
+    {
+      "@id": "_:N552fb3f02863408c908130823e368fee",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1636"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Heat map"
+    },
+    {
+      "@id": "_:Ne25847ef9e9942e7a8f7120bdeae6805",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:N53ac64302e0b49848ad4465dea254e60",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1772"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Score"
+    },
+    {
+      "@id": "_:Ncde8b3fa611043618bfc807eed3408bc",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2884"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3547"
+        }
+      ],
+      "sc:name": "Plot"
+    },
+    {
+      "@id": "_:N90ed30a454d547c3be3c2a0965a1ae2e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2082"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2060"
+        },
+        {
+          "@id": "edam:format_3033"
+        }
+      ],
+      "sc:name": "Matrix"
+    },
+    {
+      "@id": "_:N636150205c1f466dab93c3a762d9e640",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2019"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2060"
+        },
+        {
+          "@id": "edam:format_3033"
+        }
+      ],
+      "sc:name": "Map data"
+    },
+    {
+      "@id": "_:Nf24f839fed4f4482a06e16e599880c66",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2012"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2060"
+        },
+        {
+          "@id": "edam:format_3033"
+        }
+      ],
+      "sc:name": "Sequence coordinates"
+    },
+    {
+      "@id": "_:Nec53d70f1c824881aee4d68df6c020b3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1383"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3033"
+        },
+        {
+          "@id": "edam:format_2060"
+        }
+      ],
+      "sc:name": "Sequence alignment (nucleic acid)"
+    }
+  ]
+}

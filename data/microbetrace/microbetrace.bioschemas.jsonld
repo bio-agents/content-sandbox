@@ -1,0 +1,214 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.agents/microbetrace",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:N674890fc0fee47c09df6a30cb5274b55"
+        },
+        {
+          "@id": "_:Naae4beaee7af4227a5b4cfd202d8c142"
+        },
+        {
+          "@id": "_:N00a1266ef2044a85889b964eaf0b3131"
+        },
+        {
+          "@id": "_:N41b784649f70476092f16a30d7caf592"
+        },
+        {
+          "@id": "_:Neb16a9cb0f7b45e6b7fe43bff5e42795"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Nc447eb762d4541cfac03ab3e09d226ef"
+        },
+        {
+          "@id": "_:N6dd2cf6a6a8f44e6b723296c0ebe14b0"
+        },
+        {
+          "@id": "_:Nef69dc1d03794cdc9f0e512c3d5ccbe2"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Workbench",
+        "Web application"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0084"
+        },
+        {
+          "@id": "edam:topic_3945"
+        },
+        {
+          "@id": "edam:topic_0091"
+        },
+        {
+          "@id": "edam:topic_0194"
+        },
+        {
+          "@id": "edam:topic_0602"
+        },
+        {
+          "@id": "edam:topic_0092"
+        },
+        {
+          "@id": "edam:topic_3324"
+        }
+      ],
+      "sc:author": "Centers for Disease Control and Prevention",
+      "sc:description": "MicrobeTrace is a web-based agent to visually render networks from surveillance, epidemiologic\ninvestigations, and genetic analyses. Using simple point-and-click interfaces, data can\nbe readily imported, integrated and visualized...no coding required!",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3459"
+        },
+        {
+          "@id": "edam:operation_2940"
+        },
+        {
+          "@id": "edam:operation_3503"
+        },
+        {
+          "@id": "edam:operation_0490"
+        },
+        {
+          "@id": "edam:operation_0567"
+        },
+        {
+          "@id": "edam:operation_0558"
+        },
+        {
+          "@id": "edam:operation_3925"
+        },
+        {
+          "@id": "edam:operation_0540"
+        },
+        {
+          "@id": "edam:operation_3553"
+        },
+        {
+          "@id": "edam:operation_0289"
+        },
+        {
+          "@id": "edam:operation_3436"
+        },
+        {
+          "@id": "edam:operation_0491"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Freeware",
+      "sc:name": "MicrobeTrace",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://github.com/CDCgov/MicrobeTrace/blob/master/docs/MicrobeTrace_Manual.pdf"
+      },
+      "sc:softwareVersion": "0.6.1",
+      "sc:url": "https://microbetrace.cdc.gov"
+    },
+    {
+      "@id": "_:N674890fc0fee47c09df6a30cb5274b55",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0870"
+      },
+      "sc:name": "Sequence distance matrix"
+    },
+    {
+      "@id": "_:Naae4beaee7af4227a5b4cfd202d8c142",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1442"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3752"
+      },
+      "sc:name": "Phylogenetic tree distances"
+    },
+    {
+      "@id": "_:N00a1266ef2044a85889b964eaf0b3131",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1383"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2554"
+      },
+      "sc:name": "Nucleic acid sequence alignment"
+    },
+    {
+      "@id": "_:N41b784649f70476092f16a30d7caf592",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2600"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3752"
+      },
+      "sc:name": "Pathway or network"
+    },
+    {
+      "@id": "_:Neb16a9cb0f7b45e6b7fe43bff5e42795",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2914"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3752"
+      },
+      "sc:name": "Sequence features metadata"
+    },
+    {
+      "@id": "_:Nc447eb762d4541cfac03ab3e09d226ef",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1383"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2546"
+      },
+      "sc:name": "Nucleic acid sequence alignment"
+    },
+    {
+      "@id": "_:N6dd2cf6a6a8f44e6b723296c0ebe14b0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2600"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3752"
+      },
+      "sc:name": "Pathway or network"
+    },
+    {
+      "@id": "_:Nef69dc1d03794cdc9f0e512c3d5ccbe2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3424"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3604"
+      },
+      "sc:name": "Raw image"
+    }
+  ]
+}

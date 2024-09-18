@@ -1,0 +1,109 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1186/s12859-014-0371-5",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/fastliquidassociation",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Tina Gunderson",
+      "bsc:input": {
+        "@id": "_:N8a59982076714b6daeb7924546f8384b"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:Nbfbd0700282f4f0d808afe87c3363768"
+        },
+        {
+          "@id": "_:Nba8e2b34fa4c4bc480d573cbf5a3832f"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line agent",
+        "Library"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2269"
+        },
+        {
+          "@id": "edam:topic_0203"
+        },
+        {
+          "@id": "edam:topic_0602"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/s12859-014-0371-5"
+      },
+      "sc:description": "This package extends the function of the LiquidAssociation package for genome-wide application. It integrates a screening method into the LA analysis to reduce the number of triplets to be examined for a high LA value and provides code for use in subsequent significance analyses.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2436"
+        },
+        {
+          "@id": "edam:operation_3463"
+        }
+      ],
+      "sc:license": "GPL-2.0",
+      "sc:name": "fastLiquidAssociation",
+      "sc:operatingSystem": [
+        "Mac",
+        "Linux",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bioconductor.org/packages/release/bioc/html/fastLiquidAssociation.html"
+      },
+      "sc:softwareVersion": "1.10.0",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/fastLiquidAssociation.html"
+    },
+    {
+      "@id": "_:Nbfbd0700282f4f0d808afe87c3363768",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1772"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Score"
+    },
+    {
+      "@id": "_:Nba8e2b34fa4c4bc480d573cbf5a3832f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2353"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Ontology data"
+    },
+    {
+      "@id": "_:N8a59982076714b6daeb7924546f8384b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0928"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2058"
+      },
+      "sc:name": "Gene expression profile"
+    }
+  ]
+}

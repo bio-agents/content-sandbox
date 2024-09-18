@@ -1,0 +1,104 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1021/pr500155z",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/mass",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "Mass++ Users Group",
+      "bsc:input": [
+        {
+          "@id": "_:N736866a113384e70b2e19eaa88b13c65"
+        },
+        {
+          "@id": "_:N0dab89943f6c495abf5e75a5244c2023"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Desktop application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0121"
+        },
+        {
+          "@id": "edam:topic_3520"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1021/pr500155z"
+        },
+        "pubmed:24965016"
+      ],
+      "sc:description": "“Mass++” is open-source software for visualizing and analyzing mass spectrometric data.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3214"
+        },
+        {
+          "@id": "edam:operation_3694"
+        },
+        {
+          "@id": "edam:operation_3203"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "BSD-3-Clause",
+      "sc:name": "Mass++",
+      "sc:operatingSystem": [
+        "Windows",
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://www.mspp.ninja/"
+      },
+      "sc:softwareVersion": [
+        "2.7.5",
+        "4beta"
+      ],
+      "sc:url": "http://www.mspp.ninja/?lang=en_us"
+    },
+    {
+      "@id": "_:N736866a113384e70b2e19eaa88b13c65",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0943"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3244"
+        },
+        {
+          "@id": "edam:format_3651"
+        }
+      ],
+      "sc:name": "Mass spectrometry spectra"
+    },
+    {
+      "@id": "_:N0dab89943f6c495abf5e75a5244c2023",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0945"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3655"
+      },
+      "sc:name": "Peptide identification"
+    }
+  ]
+}

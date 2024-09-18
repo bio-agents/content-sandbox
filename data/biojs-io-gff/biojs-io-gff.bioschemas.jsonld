@@ -1,0 +1,78 @@
+{
+  "@context": {
+    "bioagents": "https://bio.agents/ontology/",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "dct": "http://purl.org/dc/terms/",
+    "edam": "http://edamontology.org/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.7554/eLife.07009",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.agents/biojs-io-gff",
+      "@type": "sc:SoftwareApplication",
+      "bioagents:primaryContact": "greenify",
+      "bsc:input": {
+        "@id": "_:Ndd93a80465e4429cb51b0448b2e355cc"
+      },
+      "bsc:output": {
+        "@id": "_:N11a8c6efcdb94bc28b6ae3be9eb5583f"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalAgent/0.6-DRAFT",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3071"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.7554/eLife.07009"
+      },
+      "sc:description": "A GFF (general feature format) parser.",
+      "sc:featureList": {
+        "@id": "edam:operation_0335"
+      },
+      "sc:license": "Apache-2.0",
+      "sc:name": "biojs-io-gff",
+      "sc:operatingSystem": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "sc:provider": "BioJS",
+      "sc:softwareHelp": {
+        "@id": "https://github.com/greenify/biojs-io-gff#documentation"
+      },
+      "sc:softwareVersion": "0.1.10",
+      "sc:url": "https://github.com/greenify/biojs-io-gff"
+    },
+    {
+      "@id": "_:Ndd93a80465e4429cb51b0448b2e355cc",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1255"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1975"
+      },
+      "sc:name": "Sequence features"
+    },
+    {
+      "@id": "_:N11a8c6efcdb94bc28b6ae3be9eb5583f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3464"
+      },
+      "sc:name": "Data"
+    }
+  ]
+}
