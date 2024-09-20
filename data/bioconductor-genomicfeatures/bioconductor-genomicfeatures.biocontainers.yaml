@@ -1,26 +1,3 @@
-description: A set of agents and methods for making and manipulating transcript centric
-  annotations. with these agents the user can easily download the genomic locations
-  of the transcripts, exons and cds of a given organism, from either the ucsc genome
-  browser or a biomart database. this information is then stored in a local database
-  that keeps track of the relationship between transcripts, exons, cds and genes.
-home_url: http://bioconductor.org/packages/release/bioc/html/GenomicFeatures.html
-identifiers:
-- bioagents:genomicfeatures
-- doi:10.1371/journal.pcbi.1003118
-keywords:
-- Animals
-- Databases, Genetic
-- Genomics
-- Humans
-- Mice
-- Sequence Alignment
-- Sequence Analysis, DNA
-- ChIP-seq
-- RNA-seq
-- Data management
-- Genetics
-- Transcriptome
-license: Artistic-2.0
-manually_check: true
-name: bioconductor-genomicfeatures
-total_pulls: 17
+version https://git-lfs.github.com/spec/v1
+oid sha256:dc273189b303ade0e1c61382d97c30b6a5250f13832e3435b6deb0366596c735
+size 856

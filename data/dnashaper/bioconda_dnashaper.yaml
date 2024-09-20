@@ -1,12 +1,3 @@
-bioagents_id: dnashaper
-description: DNAhapeR is an R/BioConductor package for ultra-fast, high-throughput
-  predictions of DNA shape features. The package allows to predict, visualize and
-  encode DNA shape features for statistical learning.
-home: https://bioconductor.org/packages/3.12/bioc/html/DNAshapeR.html
-identifiers:
-- bioagents:dnashaper
-license: GPL-2
-license_file: /lib/R/share/licenses/GPL-2
-name: bioconductor-dnashaper
-summary: High-throughput prediction of DNA shape features
-version: 1.18.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:110b915ba1d97e1ede517324dc0249ebef534d787c9ca564fba207ac64594dd2
+size 508

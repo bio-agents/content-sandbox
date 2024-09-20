@@ -1,14 +1,3 @@
-bioagents_id: affycompatible
-description: This package provides an interface to Affymetrix chip annotation and
-  sample attribute files. The package allows an easy way for users to download and
-  manage local data bases of Affynmetrix NetAffx annotation files. The package also
-  provides access to GeneChip Operating System (GCOS) and GeneChip Command Console
-  (AGCC)-compatible sample annotation files.
-home: https://bioconductor.org/packages/3.12/bioc/html/AffyCompatible.html
-identifiers:
-- bioagents:affycompatible
-- doi:10.1038/nmeth.3252
-license: Artistic-2.0
-name: bioconductor-affycompatible
-summary: Affymetrix GeneChip software compatibility
-version: 1.50.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:78e2bece6b92ba948c3244822f38fa6e710fc1054ca088b9542c917c302953ab
+size 670

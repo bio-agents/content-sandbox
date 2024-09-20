@@ -1,26 +1,3 @@
-description: A method for protein identification in MS/MS proteomics. Think of it
-  like a protein delivery dog. You bring it the scored matches between peptides and
-  spectra, and it fetches a list of proteins ranked by posterior probability by doing
-  clever tricks.
-home_url: https://noble.gs.washington.edu/proj/fido/
-identifiers:
-- doi:10.1021/pr100594k
-keywords:
-- Animals
-- Bacterial Proteins
-- Bayes Theorem
-- Caenorhabditis elegans
-- Caenorhabditis elegans Proteins
-- Haemophilus influenzae
-- Mass Spectrometry
-- Probability
-- Proteins
-- Proteomics
-- Reproducibility of Results
-- Saccharomyces cerevisiae
-- Saccharomyces cerevisiae Proteins
-- Peptides
-license: MIT
-manually_check: true
-name: fido
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:fb207721d60f242f6796eda20392c630ac4786dbc33edce5ccf630a7231dc3b7
+size 721

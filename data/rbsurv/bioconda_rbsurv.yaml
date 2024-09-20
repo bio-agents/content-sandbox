@@ -1,11 +1,3 @@
-bioagents_id: rbsurv
-description: This package selects genes associated with survival.
-home: https://bioconductor.org/packages/3.12/bioc/html/rbsurv.html
-identifiers:
-- bioagents:rbsurv
-- doi:10.18637/jss.v029.i01
-license: GPL (>= 2)
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-rbsurv
-summary: Robust likelihood-based survival modeling with microarray data
-version: 2.48.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:0ba7c9c62aed559856908e4e71769ac248db7a22ac0f3f4d2b876aac7be4ac8a
+size 390

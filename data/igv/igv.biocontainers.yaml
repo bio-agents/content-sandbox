@@ -1,30 +1,3 @@
-description: High-performance visualization agent for interactive exploration of large,
-  integrated datasets. it supports a wide variety of data types and format, including
-  short-read alignments in the sam/bam format. data can be viewed from local files
-  or over the web via http.
-home_url: http://www.broadinstitute.org/igv/
-identifiers:
-- bioagents:igv
-- doi:10.1093/BIB/BBS017
-- doi:10.1038/nbt.1754
-keywords:
-- Chromosome Mapping
-- Computational Biology
-- Computer Graphics
-- Gene Dosage
-- Gene Expression Profiling
-- Genomics
-- Glioblastoma
-- Humans
-- Information Storage and Retrieval
-- Internet
-- Neoplasms
-- Oligonucleotide Array Sequence Analysis
-- Online Systems
-- Polymorphism, Single Nucleotide
-- Data visualisation
-- Sequence analysis
-license: LGPL-2.1
-manually_check: true
-name: igv
-total_pulls: 22
+version https://git-lfs.github.com/spec/v1
+oid sha256:bbd9409d0021adeafdc0c84755cefa7f687fc293721d1705d28b8d340db11673
+size 817

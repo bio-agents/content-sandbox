@@ -1,13 +1,3 @@
-bioagents_id: sga
-home: https://github.com/jts/sga
-identifiers:
-- bioagents:sga
-license: GPLv3
-license_family: GPL
-license_file: src/COPYING
-name: sga
-summary: SGA - String Graph Assembler. SGA is a de novo assembler for DNA sequence
-  reads. It is based on Gene Myers string graph formulation of assembly and uses the
-  FM-index/Burrows-Wheeler transform to efficiently find overlaps between sequence
-  reads.
-version: 0.10.15
+version https://git-lfs.github.com/spec/v1
+oid sha256:d6fa800462b3623e38a79123ef62f87e9903c19967028f0b35b0f2e3f60c6af5
+size 428

@@ -1,28 +1,3 @@
-package: r-bioc-genomicfiles
-distribution: debian
-release: sid
-component: main
-version: 1.26.0
-source: r-bioc-genomicfiles
-homepage: https://bioconductor.org/packages/GenomicFiles/
-license: unknown
-blend: debian-med
-description_md5: e40cf90d34c73bdc5f62118033954f0e
-registries:
-- entry: genomicfiles
-  name: bio.agents
-- entry: biconductor-genomicfiles
-  name: conda:bioconda
-popcon:
-- insts: 1
-  olde: 1
-descr:
-- package: r-bioc-genomicfiles
-  description: Distributed computing by file or by range
-  long_description: " This package provides infrastructure for parallel\n computations\
-    \ distributed 'by file' or 'by range'. User\n defined MAPPER and REDUCER functions\
-    \ provide added\n flexibility for data combination and manipulation.\n"
-  release: sid
-  description_md5: e40cf90d34c73bdc5f62118033954f0e
-  license: unknown
-  blend: debian-med
+version https://git-lfs.github.com/spec/v1
+oid sha256:9fe33f93178fcadfec71cb93996a3626e3685d15519305001922a0101fa71ea2
+size 858

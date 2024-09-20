@@ -1,15 +1,3 @@
-bioagents_id: tigre
-description: The tigre package implements our methodology of Gaussian process differential
-  equation models for analysis of gene expression time series from single input motif
-  networks. The package can be used for inferring unobserved transcription factor
-  (TF) protein concentrations from expression measurements of known target genes,
-  or for ranking candidate targets of a TF.
-home: https://bioconductor.org/packages/3.12/bioc/html/tigre.html
-identifiers:
-- bioagents:tigre
-license: AGPL-3
-license_file: /lib/R/share/licenses/AGPL-3
-name: bioconductor-tigre
-summary: Transcription factor Inference through Gaussian process Reconstruction of
-  Expression
-version: 1.44.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:8b35bda28483417f40a8b347cd2d28dfe92032ef4340d73fbe4dcfaf96c5f472
+size 698

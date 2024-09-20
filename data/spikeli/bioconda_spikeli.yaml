@@ -1,17 +1,3 @@
-bioagents_id: spikeli
-description: SpikeLI is a package that performs the analysis of the Affymetrix spike-in
-  data using the Langmuir Isotherm. The aim of this package is to show the advantages
-  of a physical-chemistry based analysis of the Affymetrix microarray data compared
-  to the traditional methods. The spike-in (or Latin square) data for the HGU95 and
-  HGU133 chipsets have been downloaded from the Affymetrix web site. The model used
-  in the spikeLI package is described in details in E. Carlon and T. Heim, Physica
-  A 362, 433 (2006).
-home: https://bioconductor.org/packages/3.12/bioc/html/spikeLI.html
-identifiers:
-- bioagents:spikeli
-- doi:10.1038/nmeth.3252
-license: GPL-2
-license_file: /lib/R/share/licenses/GPL-2
-name: bioconductor-spikeli
-summary: Affymetrix Spike-in Langmuir Isotherm Data Analysis Agent
-version: 2.50.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:b40c751ed9e41aedc196240fe69d7f66c929d22543b2ec0e72509dd1fa5b72ad
+size 845

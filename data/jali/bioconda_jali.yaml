@@ -1,12 +1,3 @@
-bioagents_id: jali
-home: http://bibiserv.cebitec.uni-bielefeld.de/jali
-identifiers:
-- bioagents:jali
-- doi:10.1089/106652702761034172
-license: file
-license_file: licences.txt
-name: jali
-summary: Alignment method for comparing a protein sequence to a protein family, represented
-  by a multiple alignment. It can also be used for sensitive protein database searches.
-  The algorithm is a generalization of the Smith-Waterman algorithm.
-version: 1.3
+version https://git-lfs.github.com/spec/v1
+oid sha256:7a3de3ce52bf4f3e0db178041c249e77e02d4733619b1d51ac95435cdb748513
+size 448

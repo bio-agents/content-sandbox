@@ -1,12 +1,3 @@
-bioagents_id: plpe
-description: This package performs tests for paired high-throughput data.
-home: https://bioconductor.org/packages/3.12/bioc/html/PLPE.html
-identifiers:
-- bioagents:plpe
-- doi:10.1038/nmeth.3252
-license: GPL (>= 2)
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-plpe
-summary: Local Pooled Error Test for Differential Expression with Paired High-throughput
-  Data
-version: 1.50.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:48991a787a6a277412e647c93ac8cd3ee1233598a458629bbfad17d587108754
+size 411

@@ -1,15 +1,3 @@
-bioagents_id: spia
-description: This package implements the Signaling Pathway Impact Analysis (SPIA)
-  which uses the information form a list of differentially expressed genes and their
-  log fold changes together with signaling pathways topology, in order to identify
-  the pathways most relevant to the condition under the study.
-home: https://bioconductor.org/packages/3.12/bioc/html/SPIA.html
-identifiers:
-- bioagents:spia
-- doi:10.1093/bioinformatics/btn577
-license: file LICENSE
-license_file: LICENSE
-name: bioconductor-spia
-summary: Signaling Pathway Impact Analysis (SPIA) using combined evidence of pathway
-  over-representation and unusual signaling perturbations
-version: 2.42.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:9db680b6bce7ca19f975ddd101b763d03511f425e8fb6984a9748567682f75eb
+size 690

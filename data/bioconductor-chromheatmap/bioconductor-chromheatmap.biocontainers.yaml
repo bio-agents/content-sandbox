@@ -1,19 +1,3 @@
-description: This package can be used to plot genome-wide data (e.g. expression, cgh,
-  snp) along each strand of a given chromosome as a heat map, that can be used to
-  interactively identify probes and genes of interest.
-home_url: http://bioconductor.org/packages/release/bioc/html/ChromHeatMap.html
-identifiers:
-- bioagents:chromheatmap
-- doi:10.1038/nmeth.3252
-keywords:
-- Computational Biology
-- Gene Expression Profiling
-- Genomics
-- High-Throughput Screening Assays
-- Programming Languages
-- User-Computer Interface
-- Data visualisation
-license: Artistic-2.0
-manually_check: true
-name: bioconductor-chromheatmap
-total_pulls: 3
+version https://git-lfs.github.com/spec/v1
+oid sha256:8e59b549a8e2ee5d92ef99992a2a2a53d4781e4a09885d01a5f446e194f63c70
+size 634

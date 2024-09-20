@@ -1,13 +1,3 @@
-bioagents_id: rgsea
-description: Combining bootstrap aggregating and Gene set enrichment analysis (GSEA),
-  RGSEA is a classfication algorithm with high robustness and no over-fitting problem.
-  It performs well especially for the data generated from different exprements.
-home: https://bioconductor.org/packages/3.12/bioc/html/RGSEA.html
-identifiers:
-- bioagents:rgsea
-- doi:10.1038/nmeth.3252
-license: GPL(>=3)
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-rgsea
-summary: Random Gene Set Enrichment Analysis
-version: 1.24.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:cc606b7dad5188ec4f30cf29594d814536d456f8456ec488fd53a15eb333e279
+size 541

@@ -1,12 +1,3 @@
-description: Deepvariant is an analysis pipeline that uses a deep neural network to
-  call genetic variants from next-generation dna sequencing data
-home_url: https://github.com/google/deepvariant
-identifiers:
-- doi:10.1038/nbt.4235
-- doi:10.1101/2020.02.10.942086
-keywords:
-- Genomics
-license: MIT
-manually_check: true
-name: deepvariant
-total_pulls: 15
+version https://git-lfs.github.com/spec/v1
+oid sha256:15c1880841df468c44998b65417975a54a9b8190f82cfefb05aca149db1362a3
+size 354

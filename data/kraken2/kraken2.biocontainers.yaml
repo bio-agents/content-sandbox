@@ -1,22 +1,3 @@
-description: Kraken2 is a system for assigning taxonomic labels to short DNA sequences,
-  usually obtained through metagenomic studies.
-home_url: https://github.com/DerrickWood/kraken2/wiki
-identifiers:
-- bioagents:kraken2
-- doi:10.1101/762302
-- doi:10.1186/gb-2014-15-3-r46
-keywords:
-- Archaea
-- Bacteria
-- Classification
-- Humans
-- Metagenome
-- Metagenomics
-- Sensitivity and Specificity
-- Sequence Alignment
-- Sequence Analysis, DNA
-- Taxonomy
-license: GPL-3.0
-manually_check: true
-name: kraken2
-total_pulls: 3258
+version https://git-lfs.github.com/spec/v1
+oid sha256:b14de7859042ba1990199b9b07bcb41bd487a837aed832461d1b15c18cefbeca
+size 517

@@ -1,11 +1,3 @@
-description: Solve a system of nonlinear equations using a Broyden or a Newton method
-  with a choice of global strategies such as line search and trust region. There are
-  options for using a numerical or user supplied Jacobian, for specifying a banded
-  numerical Jacobian and for allowing a singular or ill-conditioned Jacobian.
-home_url: https://CRAN.R-project.org/package=nleqslv
-identifiers: []
-keywords: []
-license: GPL-3.0
-manually_check: true
-name: r-nleqslv
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:17355690b5704fce3d6d9aa8d28d97d40c73b5672e9b2bb3945896d32e3caa3c
+size 483

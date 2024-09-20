@@ -1,20 +1,3 @@
-description: A comprehensive pipeline for analyzing and interactively visualizing
-  genomic profiles generated through commercial or custom acgh arrays. this package
-  takes all the steps required for individual genomic profiles analysis, from reading
-  files to profiles segmentation and gene annotations. it also provides several visualization
-  functions which facilitate individual profiles interpretation.
-home_url: https://bioconductor.org/packages/3.11/bioc/html/rCGH.html
-identifiers:
-- bioagents:rcgh
-- doi:10.1093/bioinformatics/btv718
-keywords:
-- Comparative Genomic Hybridization
-- Genomics
-- Humans
-- Precision Medicine
-- Microarray experiment
-- Personalised medicine
-license: Artistic-2.0
-manually_check: true
-name: bioconductor-rcgh
-total_pulls: 3
+version https://git-lfs.github.com/spec/v1
+oid sha256:8dda30701cc2f567c7f8cb47d615ed1b9a421062ef9b8576cdfd88bc5686525e
+size 763

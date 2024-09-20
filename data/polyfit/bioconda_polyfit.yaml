@@ -1,14 +1,3 @@
-bioagents_id: polyfit
-description: Polyfit is an add-on to the packages DESeq which ensures the p-value
-  distribution is uniform over the interval [0, 1] for data satisfying the null hypothesis
-  of no differential expression, and uses an adpated Storey-Tibshiran method to calculate
-  q-values.
-home: https://bioconductor.org/packages/3.10/bioc/html/Polyfit.html
-identifiers:
-- bioagents:polyfit
-- doi:10.7717/peerj.576
-license: GPL (>= 3)
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-polyfit
-summary: Add-on to DESeq to improve p-values and q-values
-version: 1.20.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:b3ec352188c61c3c30af7c517554d5ac417c277a85652acbc6296aecd1f253c6
+size 585

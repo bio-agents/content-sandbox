@@ -1,24 +1,3 @@
-description: Given admixed individuals' bi-allelic snp genotypes and ancestry pairs
-  (where each ancestry can take one of three values) for multiple snps, perform an
-  em algorithm to deal with the fact that snp genotypes are unphased with respect
-  to ancestry pairs, in order to estimate ancestry-specific allele frequencies for
-  all snps.
-home_url: http://bioconductor.org/packages/release/bioc/html/ASAFE.html
-identifiers:
-- bioagents:asafe
-- doi:10.1093/bioinformatics/btw220
-keywords:
-- Computational Biology
-- Gene Frequency
-- Genetics, Population
-- Genome, Human
-- Genome-Wide Association Study
-- Genotype
-- Humans
-- GWAS study
-- Population genetics
-- Genetics
-license: Artistic-2.0
-manually_check: true
-name: bioconductor-asafe
-total_pulls: 3
+version https://git-lfs.github.com/spec/v1
+oid sha256:3c41fe9d90bae0f81b60e051e4deeb63da00d71772274b27983b4e64aeae6585
+size 754

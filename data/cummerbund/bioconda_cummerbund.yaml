@@ -1,13 +1,3 @@
-bioagents_id: cummerbund
-description: Allows for persistent storage, access, exploration, and manipulation
-  of Cufflinks high-throughput sequencing data.  In addition, provides numerous plotting
-  functions for commonly used visualizations.
-home: https://bioconductor.org/packages/3.12/bioc/html/cummeRbund.html
-identifiers:
-- bioagents:cummerbund
-- doi:10.1038/nprot.2012.016
-license: Artistic-2.0
-name: bioconductor-cummerbund
-summary: Analysis, exploration, manipulation, and visualization of Cufflinks high-throughput
-  sequencing data.
-version: 2.32.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:b7b145af0b3ccedf3a2c6cadead6fc6693a58a2b30227b190143c5951cdb1507
+size 558

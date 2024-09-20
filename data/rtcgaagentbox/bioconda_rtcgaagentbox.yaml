@@ -1,18 +1,3 @@
-bioagents_id: rtcgaagentbox
-description: Managing data from large scale projects such as The Cancer Genome Atlas
-  (TCGA) for further analysis is an important and time consuming step for research
-  projects. Several efforts, such as Firehose project, make TCGA pre-processed data
-  publicly available via web services and data portals but it requires managing, downloading
-  and preparing the data for following steps. We developed an open source and extensible
-  R based data client for Firehose pre-processed data and demonstrated its use with
-  sample case studies. Results showed that RTCGAAgentbox could improve data management
-  for researchers who are interested with TCGA data. In addition, it can be integrated
-  with other analysis pipelines for following data analysis.
-home: https://bioconductor.org/packages/3.12/bioc/html/RTCGAAgentbox.html
-identifiers:
-- bioagents:rtcgaagentbox
-license: file LICENSE
-license_file: LICENSE
-name: bioconductor-rtcgaagentbox
-summary: A new agent for exporting TCGA Firehose data
-version: 2.20.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:786b800bfae41899efb88882426316edcf6a73738f0d560a4640a3a57ffb804e
+size 1041

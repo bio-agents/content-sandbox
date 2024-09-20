@@ -1,12 +1,3 @@
-description: Predict the location of ribosomal rna genes in genomes. it supports bacteria
-  (5s,23s,16s), archaea (5s,5.8s,23s,16s), mitochondria (12s,16s) and eukaryotes (5s,5.8s,28s,18s).
-home_url: https://github.com/tseemann/barrnap
-identifiers:
-- bioagents:barrnap
-keywords:
-- Genomics
-- Model organisms
-license: GPL-3.0
-manually_check: true
-name: barrnap
-total_pulls: 10065
+version https://git-lfs.github.com/spec/v1
+oid sha256:af6eefdbe61e9ce6be0bc201fb9e996acf6db8739905dc3c8a97104ad2500fd8
+size 379

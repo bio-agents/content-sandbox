@@ -1,11 +1,3 @@
-bioagents_id: funchip
-description: Preprocessing and smoothing of ChIP-Seq peaks and efficient implementation
-  of the k-mean alignment algorithm to classify them.
-home: https://bioconductor.org/packages/3.12/bioc/html/FunChIP.html
-identifiers:
-- bioagents:funchip
-- doi:10.1093/bioinformatics/btx201
-license: Artistic-2.0
-name: bioconductor-funchip
-summary: Clustering and Alignment of ChIP-Seq peaks based on their shapes
-version: 1.16.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:4d6f35442fe498b7853d5ae7ed2a3fe292f0483a358c415328559423c5fc266b
+size 440

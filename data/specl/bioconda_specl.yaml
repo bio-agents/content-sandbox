@@ -1,15 +1,3 @@
-bioagents_id: specl
-description: provides a functions for generating spectra libraries that can be used
-  for MRM SRM MS workflows in proteomics. The package provides a BiblioSpec reader,
-  a function which can add the protein information using a FASTA formatted amino acid
-  file, and an export method for using the created library in the Spectronaut software.
-  The package is developed, tested and used at the Functional Genomics Center Zurich
-  <http://www.fgcz.ethz.ch>.
-home: https://bioconductor.org/packages/3.12/bioc/html/specL.html
-identifiers:
-- bioagents:specl
-license: GPL-3
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-specl
-summary: specL - Prepare Peptide Spectrum Matches for Use in Targeted Proteomics
-version: 1.24.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:b0981bf1b294dd50d0ff14d8926d904d2797d5b3701df434f24d92b1dd6bda41
+size 752

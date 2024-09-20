@@ -1,15 +1,3 @@
-description: This BioConductor package provides R functions to annotate variants,
-  compute amino acid coding changess and to predict coding outcomes.
-edam:
-  topics: null
-  version: unknown
-homepage: https://bioconductor.org/packages/VariantAnnotation/
-identifiers:
-  bioconda: bioconductor-variantannotation
-  bioagents: variantannotation
-  debian: r-bioc-variantannotation
-  doi:
-  - 10.1093/bioinformatics/btu168
-  omicagents: OMICS_02073
-summary: BioConductor annotation of genetic variants
-version: 1.36.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:19e0333c2a39b9be350d42036518da55dc8a87a7d4b06300dee40c435d34e1ef
+size 512

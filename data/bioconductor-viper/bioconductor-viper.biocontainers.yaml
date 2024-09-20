@@ -1,29 +1,3 @@
-description: The package uses gene expression data to infer protein activity. the
-  package uses viper and msviper algorithms.
-home_url: http://bioconductor.org/packages/release/bioc/html/viper.html
-identifiers:
-- bioagents:viper
-- doi:10.1038/ng.3593
-keywords:
-- Antineoplastic Agents
-- Computational Biology
-- Databases, Pharmaceutical
-- Databases, Protein
-- Gene Expression Regulation, Neoplastic
-- Gene Regulatory Networks
-- Humans
-- Mutation
-- Neoplasm Proteins
-- Neoplasms
-- Protein Interaction Maps
-- Protein Structure, Tertiary
-- Gene regulation
-- Transcription factors and regulatory sites
-- Protein sites, features and motifs
-- Data mining
-- Transcriptomics
-- Gene Expression
-license: file LICENSE
-manually_check: true
-name: bioconductor-viper
-total_pulls: 3
+version https://git-lfs.github.com/spec/v1
+oid sha256:20f41ec7c9c0ee5e37bca5dbc59b72fe7be7d22115ee31bb8a2e0cf79b08aabc
+size 769

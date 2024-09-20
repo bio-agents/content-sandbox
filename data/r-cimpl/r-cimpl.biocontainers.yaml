@@ -1,15 +1,3 @@
-description: An analysis package for multi sample insertional mutagenesis data (including
-  viral- and transposon-based systems) using Gaussian kernel convolution to identify
-  common insertion sites.
-home_url: http://ccb.nki.nl/software/
-identifiers:
-- doi:10.1093/bioinformatics/bts448
-keywords:
-- Clustering
-- Genomics
-- Mass spectrometry
-- Transcriptomics
-license: GPL-3
-manually_check: true
-name: r-cimpl
-total_pulls: 3
+version https://git-lfs.github.com/spec/v1
+oid sha256:af494364c10779fff8f1f55c00c9e7464bbe5516cfff9dfb12fdaaa547a749fc
+size 425

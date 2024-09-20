@@ -1,14 +1,3 @@
-description: A set of command line agents for manipulating high-throughput sequencing
-  (hts) data in formats such as sam/bam/cram and vcf. available as a standalone program
-  or within the gatk4 program.
-home_url: https://github.com/broadinstitute/picard
-identifiers:
-- bioagents:picard_agents
-- doi:10.1101/gr.107524.110
-keywords:
-- Sequencing
-- Data management
-license: MIT
-manually_check: true
-name: picard
-total_pulls: 43322
+version https://git-lfs.github.com/spec/v1
+oid sha256:ccf137cc2cef692b24e20fb8f74df19159e4e26e0eccbb8274a74cadaaff9055
+size 430

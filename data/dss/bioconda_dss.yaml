@@ -1,14 +1,3 @@
-bioagents_id: dss
-description: DSS is an R library performing differntial analysis for count-based sequencing
-  data. It detectes differentially expressed genes (DEGs) from RNA-seq, and differentially
-  methylated loci or regions (DML/DMRs) from bisulfite sequencing (BS-seq). The core
-  of DSS is a new dispersion shrinkage method for estimating the dispersion parameter
-  from Gamma-Poisson or Beta-Binomial distributions.
-home: https://bioconductor.org/packages/3.12/bioc/html/DSS.html
-identifiers:
-- bioagents:dss
-license: GPL
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-dss
-summary: Dispersion shrinkage for sequencing data
-version: 2.38.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:7b54ca271c3ca5669dd965cffae9d96f498776cc720620cb11b8818c7b7b970d
+size 662

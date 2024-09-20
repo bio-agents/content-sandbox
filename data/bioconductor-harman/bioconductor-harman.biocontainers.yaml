@@ -1,18 +1,3 @@
-description: The removal of batch effects from datasets using a PCA and constrained
-  optimisation based technique
-home_url: http://bioconductor.org/packages/3.6/bioc/html/Harman.html
-identifiers:
-- bioagents:harman
-- doi:10.1186/s12859-016-1212-5
-keywords:
-- Genomics
-- Humans
-- Information Storage and Retrieval
-- Principal Component Analysis
-- Sequence Analysis, RNA
-- Data quality management
-- Statistics and probability
-license: GPL-3 + file LICENCE
-manually_check: true
-name: bioconductor-harman
-total_pulls: 3
+version https://git-lfs.github.com/spec/v1
+oid sha256:0393995479d0e68e4cb74476801f0a08386e5ff275cc8c2bc79efc6624fee145
+size 517

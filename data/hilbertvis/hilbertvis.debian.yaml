@@ -1,21 +1,3 @@
-description: This agent allows one to display very long data vectors in a space-efficient
-  manner, by organising it along a 2D Hilbert curve. The user can then visually judge
-  the large scale structure and distribution of features simultaenously with the rough
-  shape and intensity of individual features. . In bioinformatics, a typical use case
-  is ChIP-Chip and ChIP-Seq, or basically all the kinds of genomic data, that are
-  conventionally displayed as quantitative track ("wiggle data") in genome browsers
-  such as those provided by Ensembl or UCSC.
-edam:
-  topics: null
-  version: unknown
-homepage: https://bioconductor.org/packages/HilbertVis
-identifiers:
-  bioconda: bioconductor-hilbertvis
-  bioagents: hilbertvis
-  debian: r-bioc-hilbertvis
-  doi:
-  - 10.1093/bioinformatics/btp152
-  omicagents: OMICS_00627
-  scicrunch: SCR_007862
-summary: GNU R package to visualise long vector data
-version: 1.48.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:7c84442460c73ffbb1cb45f9a0951f650fdcee8db068010356900937a8da3adc
+size 916

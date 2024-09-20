@@ -1,9 +1,3 @@
-description: List environments are environments that can be indexed similarly to lists,
-  e.g. 'x <- listenv(); x[[2]] <- "b"; names(x)[2] <- "B"; print(x$B)'.
-home_url: None
-identifiers: []
-keywords: []
-license: LGPL (>= 2.1)
-manually_check: true
-name: r-listenv
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:cbd34daea7fe708ad7448cb3eecc70c7ccd8ee870298ad3907a66b13673b1639
+size 279

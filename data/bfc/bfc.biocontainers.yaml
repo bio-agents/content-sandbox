@@ -1,22 +1,3 @@
-description: Bfc is a standalone high-performance agent for correcting sequencing errors
-  from illumina sequencing data.
-home_url: https://github.com/lh3/bfc
-identifiers:
-- bioagents:bfc
-- doi:10.1093/bioinformatics/btv290
-keywords:
-- Computational Biology
-- False Positive Reactions
-- Genome, Human
-- High-Throughput Nucleotide Sequencing
-- Humans
-- Reproducibility of Results
-- Sequence Analysis, DNA
-- DNA
-- Whole genome sequencing
-- Sequencing
-- Genomics
-license: MIT
-manually_check: true
-name: bfc
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:f894bf44fd67d5f5962dcbe3ccfe6440b71f445f9819eea6b0629e636b638fe1
+size 519

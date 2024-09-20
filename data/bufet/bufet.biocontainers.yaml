@@ -1,15 +1,3 @@
-description: Agent that performs the unbiased miRNA functional enrichment analysis
-  (Bleazard et al.) requiring significantly reduced excution times (less than 10 minutes
-  for 1 million iterations).
-home_url: https://github.com/diwis/BUFET/
-identifiers:
-- bioagents:BUFET
-- doi:10.1186/s12859-017-1812-8
-keywords:
-- Computational Biology
-- MicroRNAs
-- Bioinformatics
-license: file
-manually_check: true
-name: bufet
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:1d2dc893d773b671cd7083720dcf543aeb7f55561df8e3cbb3a9310332886ab9
+size 431

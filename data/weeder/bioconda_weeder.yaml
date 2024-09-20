@@ -1,11 +1,3 @@
-bioagents_id: weeder
-home: http://159.149.160.51/modagents/
-identifiers:
-- bioagents:weeder
-- doi:10.1002/0471250953.bi0211s47
-license: GPL3
-name: weeder
-summary: Motif (transcription factor binding sites) discovery in sequences from coregulated
-  genes of a single species. This is a new Weeder release rewritten to be faster and
-  optimized for large ChIP-Seq data.
-version: '2.0'
+version https://git-lfs.github.com/spec/v1
+oid sha256:9f46303ce40c488de8bd23a35085582a92090393e3115d22b7c0636ad2efc718
+size 383

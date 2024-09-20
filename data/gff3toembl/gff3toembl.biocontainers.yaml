@@ -1,13 +1,3 @@
-description: Submitting annotated genomes to embl is a very difficult and time consuming
-  process. this software converts gff3 files from the most commonly use prokaryote
-  annotation agent prokka into a format that is suitable for submission to embl. it
-  has been used to prepare more than 30% of all annotated genomes in embl/genbank.
-home_url: https://github.com/sanger-pathogens/gff3toembl/
-identifiers:
-- doi:10.21105/joss.00080
-keywords:
-- Genomics
-license: GPL
-manually_check: true
-name: gff3toembl
-total_pulls: 1
+version https://git-lfs.github.com/spec/v1
+oid sha256:61f7dfc12d503425206ed75718fd36f9b1ee2989650bebc25914ece3061f9d37
+size 523

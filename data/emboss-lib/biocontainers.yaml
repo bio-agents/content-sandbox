@@ -1,33 +1,3 @@
-softwares:
-  emboss-lib:
-    labels:
-      about.home: http://emboss.sourceforge.net
-      about.license: custom, see /usr/share/doc/emboss-lib/copyright
-      about.license_file: /usr/share/doc/emboss-lib/copyright
-      about.summary: EMBOSS Libraries
-      about.tags: devel::lang:c, devel::library, field::biology,:biology:bioinformatics,
-        implemented-in::c,:commandline, role::devel-lib, role::program,:shared-lib
-      base_image: biocontainers/biocontainers:vdebian-buster-backports_cv1
-      container: emboss-lib
-      software: emboss-lib
-      software.version: 6.6.0dfsg-7b1-deb
-      upstream.version: 6.6.0
-      version: '1'
-    software: emboss-lib
-    versions:
-    - labels:
-        about.home: http://emboss.sourceforge.net
-        about.license: custom, see /usr/share/doc/emboss-lib/copyright
-        about.license_file: /usr/share/doc/emboss-lib/copyright
-        about.summary: EMBOSS Libraries
-        about.tags: devel::lang:c, devel::library, field::biology,:biology:bioinformatics,
-          implemented-in::c,:commandline, role::devel-lib, role::program,:shared-lib
-        base_image: biocontainers/biocontainers:vdebian-buster-backports_cv1
-        container: emboss-lib
-        software: emboss-lib
-        software.version: 6.6.0dfsg-7b1-deb
-        upstream.version: 6.6.0
-        version: '1'
-      type: Container file
-      url: biocontainers/emboss-lib:6.6.0dfsg-7b1-deb-1
-      version: 6.6.0dfsg-7b1-deb-1
+version https://git-lfs.github.com/spec/v1
+oid sha256:4c5514f44b4292ec8961f120741b3e572ce214b3fa130f4a76bcca58f59b6b5c
+size 1452

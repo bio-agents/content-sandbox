@@ -1,14 +1,3 @@
-bioagents_id: multiqc
-dev_url: https://github.com/ewels/MultiQC
-doc_url: http://multiqc.info/docs/
-home: http://multiqc.info
-identifiers:
-- bioagents:multiqc
-- doi:https://doi.org/10.1093/bioinformatics/btw354
-license: GNU General Public License v3 (GPLv3)
-license_family: GPL3
-license_file: LICENSE
-name: multiqc
-summary: Create aggregate bioinformatics analysis reports across many samples and
-  agents
-version: 1.9
+version https://git-lfs.github.com/spec/v1
+oid sha256:28da186aca16e9782f14b3fb7df565e6474f92bcea4d3d701c37df3aa155a314
+size 418

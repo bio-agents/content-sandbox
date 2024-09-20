@@ -1,12 +1,3 @@
-bioagents_id: openms
-home: https://github.com/OpenMS/OpenMS
-identifiers:
-- bioagents:openms
-- usegalaxy-eu:openms_fileconverter
-- doi:10.1038/nmeth.3959
-license: BSD
-license_file: LICENSE
-name: openms-meta
-summary: OpenMS is an open-source software C++ library for LC-MS data management and
-  analyses
-version: 2.6.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:15c736f8ddea3834829384a273d30c89f7eaf8ffd781c1886f782be8e12551f7
+size 317

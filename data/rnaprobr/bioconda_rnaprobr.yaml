@@ -1,14 +1,3 @@
-bioagents_id: rnaprobr
-description: This package facilitates analysis of Next Generation Sequencing data
-  for which positional information with a single nucleotide resolution is a key. It
-  allows for applying different types of relevant normalizations, data visualization
-  and export in a table or UCSC compatible bedgraph file.
-home: https://bioconductor.org/packages/3.12/bioc/html/RNAprobR.html
-identifiers:
-- bioagents:rnaprobr
-license: GPL (>=2)
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-rnaprobr
-summary: An R package for analysis of massive parallel sequencing based RNA structure
-  probing data
-version: 1.22.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:786e5c4d245482f723cdd99b9a9ec95203da9e52ad18b86be07d6817c0379b39
+size 641

@@ -1,34 +1,3 @@
-{
-    "additionDate": "2021-04-22T14:09:29Z",
-    "bioagentsCURIE": "bioagents:pyfastaq",
-    "bioagentsID": "pyfastaq",
-    "description": "Python3 script to manipulate FASTA and FASTQ (and other format) files, plus API for developers",
-    "editPermission": {
-        "type": "private"
-    },
-    "function": [
-        {
-            "operation": [
-                {
-                    "term": "Primer removal",
-                    "uri": "http://edamontology.org/operation_3237"
-                },
-                {
-                    "term": "Reverse complement",
-                    "uri": "http://edamontology.org/operation_0363"
-                },
-                {
-                    "term": "Sequence trimming",
-                    "uri": "http://edamontology.org/operation_3192"
-                }
-            ]
-        }
-    ],
-    "homepage": "https://github.com/sanger-pathogens/Fastaq",
-    "lastUpdate": "2021-04-22T14:50:32Z",
-    "name": "pyfastaq",
-    "owner": "leipzig",
-    "version": [
-        "3.17.0"
-    ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:729fb3bb28f88cbebbdeaacc285f24cd9426c86bab1081ad8a8b087945e4b58e
+size 1034

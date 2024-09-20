@@ -1,13 +1,3 @@
-description: Extract 454 Genome Sequencer reads from a SFF file and convert them into
-  a FASTQ formatted output
-home_url: https://github.com/indraniel/sff2fastq
-identifiers:
-- bioagents:sff2fastq
-keywords:
-- Sequence assembly
-- Sequencing
-- Sequence analysis
-license: GPL-3.0
-manually_check: true
-name: sff2fastq
-total_pulls: 4
+version https://git-lfs.github.com/spec/v1
+oid sha256:86a92e26b8c38477766a9c402645eb918b4e0d13008323249cbf3ea988653566
+size 329

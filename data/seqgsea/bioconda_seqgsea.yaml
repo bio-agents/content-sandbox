@@ -1,16 +1,3 @@
-bioagents_id: seqgsea
-description: The package generally provides methods for gene set enrichment analysis
-  of high-throughput RNA-Seq data by integrating differential expression and splicing.
-  It uses negative binomial distribution to model read count data, which accounts
-  for sequencing biases and biological variation. Based on permutation tests, statistical
-  significance can also be achieved regarding each gene's differential expression
-  and splicing, respectively.
-home: https://bioconductor.org/packages/3.10/bioc/html/SeqGSEA.html
-identifiers:
-- bioagents:seqgsea
-license: GPL (>= 3)
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-seqgsea
-summary: 'Gene Set Enrichment Analysis (GSEA) of RNA-Seq Data: integrating differential
-  expression and splicing'
-version: 1.26.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:358fc1f3cae805db67eb5b5d11f59c423008e3223d2a658bc5f1fd912b19d44e
+size 799

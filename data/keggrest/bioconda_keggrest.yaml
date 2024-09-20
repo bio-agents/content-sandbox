@@ -1,12 +1,3 @@
-bioagents_id: keggrest
-description: A package that provides a client interface to the KEGG REST server. Based
-  on KEGGSOAP by J. Zhang, R. Gentleman, and Marc Carlson, and KEGG (python package)
-  by Aurelien Mazurie.
-home: https://bioconductor.org/packages/3.12/bioc/html/KEGGREST.html
-identifiers:
-- bioagents:keggrest
-- doi:10.1007/s11845-015-1283-8
-license: Artistic-2.0
-name: bioconductor-keggrest
-summary: Client-side REST access to KEGG
-version: 1.30.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:39298fed32121a0edae26c6fba4625990e68fc4b7b81ac00824f07d9a5a2a2c1
+size 460

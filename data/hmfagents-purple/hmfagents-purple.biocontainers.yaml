@@ -1,11 +1,3 @@
-description: Purity/ploidy estimator. leverages the read depth and tumor baf to estimate
-  the purity of a sample and generate a copy number profile
-home_url: https://github.com/hartwigmedical/hmfagents/tree/master/purity-ploidy-estimator
-identifiers: []
-keywords:
-- Genomics
-- Whole genome sequencing
-license: MIT
-manually_check: true
-name: hmfagents-purple
-total_pulls: 12
+version https://git-lfs.github.com/spec/v1
+oid sha256:6879f7e4bfe75e08f8ef4132e16f6373b16ebcd45d825c6f34fab7f72a48d286
+size 375

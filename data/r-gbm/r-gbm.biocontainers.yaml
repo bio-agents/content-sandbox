@@ -1,12 +1,3 @@
-description: An implementation of extensions to Freund and Schapire's AdaBoost algorithm
-  and Friedman's gradient boosting machine. Includes regression methods for least
-  squares, absolute loss, t-distribution loss, quantile regression, logistic, multinomial
-  logistic, Poisson, Cox proportional hazards partial likelihood, AdaBoost exponential
-  loss, Huberized hinge loss, and Learning to Rank measures (LambdaMart).
-home_url: None
-identifiers: []
-keywords: []
-license: GPL (>= 2)
-manually_check: true
-name: r-gbm
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:8ed1aa0fcf93f90e9f4813062bf32b669002ee7b99799ab73e735f1ef11f694a
+size 534

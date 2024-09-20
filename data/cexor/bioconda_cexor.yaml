@@ -1,16 +1,3 @@
-bioagents_id: cexor
-description: Strand specific peak-pair calling in ChIP-exo replicates. The cumulative
-  Skellam distribution function (package 'skellam') is used to detect significant
-  normalised count differences of opposed sign at each DNA strand (peak-pairs). Irreproducible
-  discovery rate (IDR) for overlapping peak-pairs across biological replicates is
-  estimated using the package 'idr'.
-home: https://bioconductor.org/packages/3.12/bioc/html/CexoR.html
-identifiers:
-- bioagents:cexor
-- doi:10.14806/ej.21.0.837
-license: Artistic-2.0 | GPL-2 + file LICENSE
-license_file: LICENSE
-name: bioconductor-cexor
-summary: An R package to uncover high-resolution protein-DNA interactions in ChIP-exo
-  replicates
-version: 1.28.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:d12122239f17966387a7cfeab2f1c6269c8f0875a2199de6457dd5adc3c67beb
+size 733

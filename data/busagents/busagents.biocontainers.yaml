@@ -1,15 +1,3 @@
-description: busagents is a program for manipulating BUS files for single cell RNA-Seq
-  datasets. It can be used to error correct barcodes, collapse UMIs, produce gene
-  count or transcript compatibility count matrices, and is useful for many other tasks.
-home_url: https://github.com/BUSagents/busagents
-identifiers:
-- doi:10.1093/BIOINFORMATICS/BTZ279
-keywords:
-- Sequence Analysis, RNA
-- Single-Cell Analysis
-- Whole Exome Sequencing
-- RNA-Seq
-license: BSD-2-Clause
-manually_check: true
-name: busagents
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:9246d7368d74b76871ccdac31cc4eb63aab50356eb9278ed0db57b6a1e86b4db
+size 522

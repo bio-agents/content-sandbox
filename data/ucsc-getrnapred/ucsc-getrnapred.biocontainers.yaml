@@ -1,21 +1,3 @@
-description: Get virtual RNA for gene predictions
-home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
-identifiers:
-- doi:10.1093/bioinformatics/btq351
-- doi:10.1101/gr.229102
-- bioagents:UCSC_Genome_Browser_Utilities
-keywords:
-- California
-- Database Management Systems
-- Databases, Genetic
-- Gene Expression
-- Genes
-- Genome, Human
-- Humans
-- RNA, Messenger
-- Sequence Homology, Nucleic Acid
-- Universities
-license: Custom License
-manually_check: true
-name: ucsc-getrnapred
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:c83817e8202154dd6f2d0f1130dd9a6702aee91c200d2650a3a4b7e9d01d1c61
+size 490

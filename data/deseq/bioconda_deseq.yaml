@@ -1,12 +1,3 @@
-bioagents_id: deseq
-description: Estimate variance-mean dependence in count data from high-throughput
-  sequencing assays and test for differential expression based on a model using the
-  negative binomial distribution
-home: https://bioconductor.org/packages/3.10/bioc/html/DESeq.html
-identifiers:
-- bioagents:deseq
-license: GPL (>= 3)
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-deseq
-summary: Differential gene expression analysis based on the negative binomial distribution
-version: 1.38.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:252b5552b3e46000a74a0dae81f1eaefbdcae90c479e4d6dea64471c95bc6400
+size 510

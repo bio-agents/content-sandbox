@@ -1,26 +1,3 @@
-description: This packages enables users to identify cancer cell lines based on the
-  locations of somatic and germline mutations. the implemented method is optimized
-  for the next-generation whole exome and whole genome dna-sequencing technology.
-home_url: http://bioconductor.org/packages/release/bioc/html/Uniquorn.html
-identifiers:
-- bioagents:uniquorn
-- doi:10.18632/oncotarget.16110
-keywords:
-- Cell Line, Tumor
-- Computational Biology
-- Computer Simulation
-- Genetic Variation
-- High-Throughput Nucleotide Sequencing
-- Humans
-- Neoplasms
-- Sequence Analysis, DNA
-- Oncology
-- Genomics
-- Genetic variation
-- Whole genome sequencing
-- Exome sequencing
-- RNA-Seq
-license: Artistic-2.0
-manually_check: true
-name: bioconductor-uniquorn
-total_pulls: 3
+version https://git-lfs.github.com/spec/v1
+oid sha256:0da170a5b3b4d2cf223c94264009e5597dbcfbca32121038b017e811aaf86421
+size 754

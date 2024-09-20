@@ -1,18 +1,3 @@
-description: "This software provides a platform for running big bioinformatics jobs\
-  \ that consist of a series of processing stages \u2013 known as \u2018pipelines\u2019\
-  ."
-home_url: https://github.com/ssadedin/bpipe
-identifiers:
-- doi:10.1093/bioinformatics/bts167
-- bioagents:bpipe
-keywords:
-- Computational Biology
-- Programming Languages
-- Workflow
-- Workflows
-- Bioinformatics
-- Informatics
-license: BSD-3-clause
-manually_check: true
-name: bpipe
-total_pulls: 4
+version https://git-lfs.github.com/spec/v1
+oid sha256:d41a792fd689b88b5574aba237e3700a3c547697949526eb9e3b47330bb3d083
+size 472

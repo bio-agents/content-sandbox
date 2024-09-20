@@ -1,15 +1,3 @@
-description: This program calculates the tpm (transcript per millions) values for
-  the exons and introns from ngs rna-seq aligned reads (bam files)
-home_url: https://github.com/ncbi/TPMCalculator
-identifiers:
-- doi:10.1093/bioinformatics/bty896
-keywords:
-- Exons
-- Genomics
-- RNA, Messenger
-- Sequence Analysis, RNA
-- RNA-Seq
-license: Custom License
-manually_check: true
-name: tpmcalculator
-total_pulls: 62
+version https://git-lfs.github.com/spec/v1
+oid sha256:4f400c262edc41353f6725389c3bd509c3f35154c2e932e615da9e97929f00dd
+size 408

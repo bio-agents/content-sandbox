@@ -1,36 +1,3 @@
-package: optimir
-distribution: debian
-release: sid
-component: main
-version: '1.0'
-source: optimir
-homepage: https://github.com/FlorianThibord/OptimiR
-license: unknown
-blend: debian-med
-description_md5: 759e6ff9eaeea6644852b82160c2085c
-registries:
-- entry: OMICS_33123
-  name: OMICagents
-- entry: optimir
-  name: bio.agents
-- entry: optimir
-  name: conda:bioconda
-bib:
-- key: doi
-  value: 10.1261/rna.069708.118
-popcon:
-- insts: 8
-  olde: 7
-  recent: 1
-descr:
-- package: optimir
-  description: Integrating genetic variations in miRNA alignment
-  long_description: " OptimiR is a miRSeq data alignment workflow. It integrates genetic\
-    \ information\n to assess the impact of variants on miRNA expression.\n .\n OptimiR:\
-    \ A bioinformatics pipeline designed to detect and quantify miRNAs,\n isomiRs\
-    \ and polymiRs from miRSeq data, & study the impact of genetic\n variations on\
-    \ polymiRs' expression.\n"
-  release: sid
-  description_md5: 759e6ff9eaeea6644852b82160c2085c
-  license: unknown
-  blend: debian-med
+version https://git-lfs.github.com/spec/v1
+oid sha256:b5c161227e924548dff7a4168d53d4c10297e4d3f6f97749d328776422de7b3b
+size 1027

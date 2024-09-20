@@ -1,15 +1,3 @@
-bioagents_id: mergeomics
-description: The Mergeomics pipeline serves as a flexible framework for integrating
-  multidimensional omics-disease associations, functional genomics, canonical pathways
-  and gene-gene interaction networks to generate mechanistic hypotheses. It includes
-  two main parts, 1) Marker set enrichment analysis (MSEA); 2) Weighted Key Driver
-  Analysis (wKDA).
-home: https://bioconductor.org/packages/3.12/bioc/html/Mergeomics.html
-identifiers:
-- bioagents:mergeomics
-- doi:10.1101/036012
-license: GPL (>= 2)
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-mergeomics
-summary: Integrative network analysis of omics data
-version: 1.18.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:fc8ae101662fd1a9610207a1590bf41d5d6ee3e92fdcdfcbbe24e9662a1de440
+size 671

@@ -1,21 +1,3 @@
-description: Pysam is a python module for reading and manipulating Samfiles. It is
-  a lightweight wrapper of the samagents C-API. Pysam also includes an interface for
-  tabix.
-home_url: https://github.com/pysam-developers/pysam
-identifiers:
-- bioagents:pysam
-- doi:10.1093/bioinformatics/btp352
-keywords:
-- Base Sequence
-- Computational Biology
-- Genome
-- Genomics
-- Molecular Sequence Data
-- Sequence Alignment
-- Sequence Analysis, DNA
-- Sequencing
-- Mapping
-license: MIT
-manually_check: true
-name: pysam
-total_pulls: 11268
+version https://git-lfs.github.com/spec/v1
+oid sha256:a781be2eb6b5b39ac10a2c9d1093f7acb86e13db406b67ef73825f8318ac0d6f
+size 526

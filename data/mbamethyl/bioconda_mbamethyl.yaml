@@ -1,13 +1,3 @@
-bioagents_id: mbamethyl
-description: This package provides a function for reconstructing DNA methylation values
-  from raw measurements. It iteratively implements the group fused lars to smooth
-  related-by-location methylation values and the constrained least squares to remove
-  probe affinity effect across multiple sequences.
-home: https://bioconductor.org/packages/3.12/bioc/html/MBAmethyl.html
-identifiers:
-- bioagents:mbamethyl
-- doi:10.1111/biom.12422
-license: Artistic-2.0
-name: bioconductor-mbamethyl
-summary: Model-based analysis of DNA methylation data
-version: 1.24.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:4bb384b3e08e0d06fa8d947afcba0c71f0ebc4b011459b9728d9d1a91ba62bdc
+size 581

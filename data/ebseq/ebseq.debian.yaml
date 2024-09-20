@@ -1,16 +1,3 @@
-description: r-bioc-ebseq is an R package for identifying genes and isoforms differentially
-  expressed (DE) across two or more biological conditions in an RNA-seq experiment.
-edam:
-  topics: null
-  version: unknown
-homepage: https://bioconductor.org/packages/EBSeq/
-identifiers:
-  bioconda: bioconductor-ebseq
-  bioagents: ebseq
-  debian: r-bioc-ebseq
-  doi:
-  - 10.1093/bioinformatics/btt087
-  omicagents: OMICS_01307
-  scicrunch: SCR_003526
-summary: R package for RNA-Seq Differential Expression Analysis
-version: 1.30.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:10b41933a1ef7b70c5024bb060565cd4a3605dffe3d8fc46cb426024d8de6fab
+size 524

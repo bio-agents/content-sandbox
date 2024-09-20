@@ -1,12 +1,3 @@
-bioagents_id: maskbad
-description: Package includes functions to analyze and mask microarray expression
-  data.
-home: https://bioconductor.org/packages/3.12/bioc/html/maskBAD.html
-identifiers:
-- bioagents:maskbad
-- doi:10.1093/bioinformatics/btp492
-license: GPL (>= 2)
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-maskbad
-summary: Masking probes with binding affinity differences
-version: 1.34.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:f5c43349ce009cc44e83fcce591c22a5a325536ae59306d228f1a81dd110e2d7
+size 412

@@ -1,16 +1,3 @@
-bioagents_id: msnid
-description: Extracts MS/MS ID data from mzIdentML (leveraging mzID package) or text
-  files. After collating the search results from multiple datasets it assesses their
-  identification quality and optimize filtering criteria to achieve the maximum number
-  of identifications while not exceeding a specified false discovery rate. Also contains
-  a number of utilities to explore the MS/MS results and assess missed and irregular
-  enzymatic cleavages, mass measurement accuracy, etc.
-home: https://bioconductor.org/packages/3.12/bioc/html/MSnID.html
-identifiers:
-- bioagents:msnid
-- doi:10.1038/nmeth.3252
-license: Artistic-2.0
-name: bioconductor-msnid
-summary: Utilities for Exploration and Assessment of Confidence of LC-MSn Proteomics
-  Identifications
-version: 1.24.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:9db4de61f76ffb9a622d109640b8cabee271048287217a90cba69162ddc594bb
+size 794

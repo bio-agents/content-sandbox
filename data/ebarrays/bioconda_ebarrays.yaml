@@ -1,13 +1,3 @@
-bioagents_id: ebarrays
-description: EBarrays provides agents for the analysis of replicated/unreplicated microarray
-  data.
-home: https://bioconductor.org/packages/3.12/bioc/html/EBarrays.html
-identifiers:
-- bioagents:ebarrays
-- doi:10.1111/j.1541-0420.2006.00611.x
-license: GPL (>= 2)
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-ebarrays
-summary: Unified Approach for Simultaneous Gene Clustering and Differential Expression
-  Identification
-version: 2.54.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:a2765d8c97f32f7fe950252f1156074fb18d311511d2310326c03c80a8caef50
+size 476

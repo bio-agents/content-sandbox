@@ -1,26 +1,3 @@
-{
-    "additionDate": "2019-02-15T14:06:08Z",
-    "bioagentsCURIE": "bioagents:dbagents",
-    "bioagentsID": "dbagents",
-    "collectionID": [
-        "dbagents"
-    ],
-    "description": "Collection of programs to manipulate sequence databanks files.",
-    "editPermission": {
-        "type": "private"
-    },
-    "homepage": "https://bioweb.pasteur.fr/packages/pack@dbagents@0.99c",
-    "lastUpdate": "2019-02-15T14:06:22Z",
-    "name": "dbagents",
-    "owner": "jison",
-    "agentType": [
-        "Suite"
-    ],
-    "topic": [
-        {
-            "term": "Sequence analysis",
-            "uri": "http://edamontology.org/topic_0080"
-        }
-    ],
-    "validated": 1
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b8c7ffbed5a59fefe2cbb25fb94f67c9d1fc7ac2553a147bf10ade5734b082e9
+size 675

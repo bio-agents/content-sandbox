@@ -1,15 +1,3 @@
-bioagents_id: pathifier
-description: Pathifier is an algorithm that infers pathway deregulation scores for
-  each tumor sample on the basis of expression data. This score is determined, in
-  a context-specific manner, for every particular dataset and type of cancer that
-  is being investigated. The algorithm transforms gene-level information into pathway-level
-  information, generating a compact and biologically relevant representation of each
-  sample.
-home: https://bioconductor.org/packages/3.12/bioc/html/pathifier.html
-identifiers:
-- bioagents:pathifier
-- doi:10.1073/pnas.1219651110
-license: Artistic-1.0
-name: bioconductor-pathifier
-summary: Quantify deregulation of pathways in cancer
-version: 1.28.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:dde1ea002d01a9cc7f0294edf89b7f2719e8b6fffc2939cecad2cedcd152322c
+size 713

@@ -1,13 +1,3 @@
-description: This agent uses MetFrag generated result CSV files and its parameter files
-  to generate a summary PDF file which contains a specified number of top candidates
-  retrieved from each result file. The output PDF includes also compound images and
-  a URL to the MetFragWeb agent with the used parameters for each query. This enables
-  the rerun of the specified MetFrag query.
-home_url: https://github.com/phnmnl/container-metfrag-vis
-identifiers: []
-keywords:
-- Metabolomics
-license: Custom License
-manually_check: true
-name: metfrag-vis
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:2a4fcdcf9a55545e4a35009f3cf2b098fc49e9092ce7be2fb01042421a779a4e
+size 564

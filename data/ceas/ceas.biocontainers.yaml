@@ -1,28 +1,3 @@
-description: Cis-regulatory element annotation system (ceas) is a resource for chip-chip
-  analyses that retrieves repeat-masked genomic sequences, calculates gc content,
-  plots evolutionary conservation, maps nearby genes, and identifies enriched transcription
-  factor binding (tfbs) motifs.
-home_url: http://ceas.cbi.pku.edu.cn
-identifiers:
-- bioagents:ceas
-- doi:10.1093/nar/gkl322
-keywords:
-- Binding Sites
-- Chromatin Immunoprecipitation
-- Genome, Human
-- Genomics
-- Humans
-- Internet
-- Oligonucleotide Array Sequence Analysis
-- Regulatory Elements, Transcriptional
-- Transcription Factors
-- User-Computer Interface
-- Transcription factors and regulatory sites
-- ChIP-on-chip
-- Mapping
-- Gene expression
-- Gene transcripts
-license: Artistic
-manually_check: true
-name: ceas
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:340e1a5300fe303dcb92f7fd73df7983c167d85c43dd98b6af32dad39123a338
+size 795

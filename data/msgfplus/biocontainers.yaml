@@ -1,31 +1,3 @@
-softwares:
-  MSGF+:
-    labels:
-      about.documentation: http://proteomics.ucsd.edu/Software/MSGFPlus/
-      about.home: http://proteomics.ucsd.edu/Software/MSGFPlus/
-      about.license: SPDX:CC-BY-NC-4.0
-      about.license_file: https://github.com/MSGFPlus/msgfplus/blob/master/LICENSE.txt
-      about.summary: MS/MS database search agent
-      about.tags: Proteomics
-      base_image: biocontainers:v1.0.0_cv4
-      extra.identifiers.bioagents: msgfplus
-      software: MSGF+
-      software.version: '9949'
-      version: '4'
-    software: MSGF+
-    versions:
-    - labels:
-        about.documentation: http://proteomics.ucsd.edu/Software/MSGFPlus/
-        about.home: http://proteomics.ucsd.edu/Software/MSGFPlus/
-        about.license: SPDX:CC-BY-NC-4.0
-        about.license_file: https://github.com/MSGFPlus/msgfplus/blob/master/LICENSE.txt
-        about.summary: MS/MS database search agent
-        about.tags: Proteomics
-        base_image: biocontainers:v1.0.0_cv4
-        extra.identifiers.bioagents: msgfplus
-        software: MSGF+
-        software.version: '9949'
-        version: '4'
-      type: Container file
-      url: biocontainers/MSGF+:9949-4
-      version: 9949-4
+version https://git-lfs.github.com/spec/v1
+oid sha256:99db0cee39058192079b20dab6936e6a696d166afb03920131c8883ceb3bb835
+size 1189

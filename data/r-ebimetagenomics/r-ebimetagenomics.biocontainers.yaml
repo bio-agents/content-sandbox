@@ -1,13 +1,3 @@
-description: 'Functions for querying the EBI Metagenomics Portal <https://www.ebi.ac.uk/metagenomics/>.
-  The current main focus is on taxa abundance data, but the intention is that this
-  package should evolve into a general purpose package for working with EBI Metagenomics
-  data using R. '
-home_url: https://CRAN.R-project.org/package=ebimetagenomics
-identifiers: []
-keywords:
-- Genomics
-- Metagenomics
-license: LGPL-3
-manually_check: true
-name: r-ebimetagenomics
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:614748ff9dd353655cd03118ca74ea1f290b15337f700dd9a26b6cf9868e409d
+size 483

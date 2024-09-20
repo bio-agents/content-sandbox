@@ -1,12 +1,3 @@
-bioagents_id: savr
-description: Parse Illumina Sequence Analysis Viewer (SAV) files, access data, and
-  generate QC plots.
-home: https://bioconductor.org/packages/3.12/bioc/html/savR.html
-identifiers:
-- bioagents:savr
-- doi:10.1038/nmeth.3252
-license: AGPL-3
-license_file: /lib/R/share/licenses/AGPL-3
-name: bioconductor-savr
-summary: Parse and analyze Illumina SAV files
-version: 1.28.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:649faa02ef7741d4d97be606bd7a93f32e5215c7372fa61ec5478bc6018cd547
+size 388

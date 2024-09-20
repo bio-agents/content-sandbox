@@ -1,15 +1,3 @@
-description: Processed RNA-seq data for 1,139 human primary colorectal tissue samples
-  across three phenotypes, including tumor, normal adjacent-to-tumor, and healthy,
-  available as Synapse ID syn22237139 on synapse.org. Data have been parsed into SummarizedExperiment
-  objects available via ExperimentHub to facilitate reproducibility and extension
-  of results from Dampier et al.
-home_url: https://bioconductor.org/packages/3.12/data/experiment/html/FieldEffectCrc.html
-identifiers:
-- doi:10.14309/ctg.0000000000000210
-keywords:
-- RNA-Seq
-- Transcriptome
-license: Artistic-2.0
-manually_check: true
-name: bioconductor-fieldeffectcrc
-total_pulls: 361
+version https://git-lfs.github.com/spec/v1
+oid sha256:31dda5ecce6b66cfd12da48767c68b465b492767b4ca196c68b274d5fabd72d0
+size 655

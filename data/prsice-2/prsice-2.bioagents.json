@@ -1,33 +1,3 @@
-{
-    "additionDate": "2021-07-08T19:04:39Z",
-    "bioagentsCURIE": "bioagents:prsice-2",
-    "bioagentsID": "prsice-2",
-    "description": "Polygenic Risk Score software for calculating, applying, evaluating and plotting the results of polygenic risk scores (PRS) analyses",
-    "editPermission": {
-        "type": "private"
-    },
-    "function": [
-        {
-            "operation": [
-                {
-                    "term": "DNA substitution modelling",
-                    "uri": "http://edamontology.org/operation_0550"
-                },
-                {
-                    "term": "Genetic variation analysis",
-                    "uri": "http://edamontology.org/operation_3197"
-                }
-            ]
-        }
-    ],
-    "homepage": "https://www.prsice.info/",
-    "lastUpdate": "2021-07-08T19:04:39Z",
-    "name": "PRSice-2",
-    "owner": "leipzig",
-    "topic": [
-        {
-            "term": "Genetic variation",
-            "uri": "http://edamontology.org/topic_0199"
-        }
-    ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:72d8897447192f5daed0b480e853c019183819fb4282718e5bac527570641c2f
+size 1018

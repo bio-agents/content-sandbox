@@ -1,14 +1,3 @@
-bioagents_id: topgo
-description: topGO package provides agents for testing GO terms while accounting for
-  the topology of the GO graph. Different test statistics and different methods for
-  eliminating local similarities and dependencies between GO terms can be implemented
-  and applied.
-home: https://bioconductor.org/packages/3.12/bioc/html/topGO.html
-identifiers:
-- bioagents:topgo
-- doi:10.1093/bioinformatics/btl140
-license: LGPL
-license_file: /lib/R/share/licenses/LGPL-3
-name: bioconductor-topgo
-summary: Enrichment Analysis for Gene Ontology
-version: 2.42.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:26de5a09a240cde8aad6f580850db141b5b80915a2df14e6d5197ffee9763d7b
+size 568

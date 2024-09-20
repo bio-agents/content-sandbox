@@ -1,15 +1,3 @@
-bioagents_id: tximport
-description: Imports transcript-level abundance, estimated counts and transcript lengths,
-  and summarizes into matrices for use with downstream gene-level analysis packages.
-  Average transcript length, weighted by sample-specific transcript abundance estimates,
-  is provided as a matrix which can be used as an offset for different expression
-  of gene-level counts.
-home: https://bioconductor.org/packages/3.12/bioc/html/tximport.html
-identifiers:
-- bioagents:tximport
-license: GPL (>=2)
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-tximport
-summary: Import and summarize transcript-level estimates for transcript- and gene-level
-  analysis
-version: 1.18.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:caf3451b4160660f495b2c99a0e7eb940c38630921cb242ff1d639a8a9ec861b
+size 700

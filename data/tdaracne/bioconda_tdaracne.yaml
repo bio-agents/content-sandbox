@@ -1,16 +1,3 @@
-bioagents_id: tdaracne
-description: To infer gene networks from time-series measurements is a current challenge
-  into bioinformatics research area. In order to detect dependencies between genes
-  at different time delays, we propose an approach to infer gene regulatory networks
-  from time-series measurements starting from a well known algorithm based on information
-  theory. The proposed algorithm is expected to be useful in reconstruction of small
-  biological directed networks from time course data.
-home: https://bioconductor.org/packages/3.12/bioc/html/TDARACNE.html
-identifiers:
-- bioagents:tdaracne
-- doi:10.1186/1471-2105-11-154
-license: GPL-2
-license_file: /lib/R/share/licenses/GPL-2
-name: bioconductor-tdaracne
-summary: Network reverse engineering from time course data.
-version: 1.40.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:8a3d1b1d9ca3461108c639abb48f6293b2c38ce1d34a545c22aab1120a5b86b4
+size 804

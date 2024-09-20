@@ -1,22 +1,3 @@
-description: MSAProbs is a well-established state-of-the-art multiple sequence alignment
-  algorithm for protein sequences.
-home_url: http://msaprobs.sourceforge.net/homepage.htm
-identifiers:
-- bioagents:msaprobs
-- doi:10.1093/bioinformatics/btw558
-- doi:10.1093/bioinformatics/btq338
-keywords:
-- Amino Acid Sequence
-- Computational Biology
-- Markov Chains
-- Probability
-- Sequence Alignment
-- Sequence Analysis, Protein
-- Sequence analysis
-- Genomics
-- Metagenomics
-- Protein Sequences
-license: GPL-3.0
-manually_check: true
-name: msaprobs
-total_pulls: 4
+version https://git-lfs.github.com/spec/v1
+oid sha256:b2098bb822810a493da775d69256580608d0b6d6e01413e21294ea57c255ee60
+size 555

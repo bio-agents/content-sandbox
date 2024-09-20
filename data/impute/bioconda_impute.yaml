@@ -1,11 +1,3 @@
-bioagents_id: impute
-description: Imputation for microarray data (currently KNN only)
-home: https://bioconductor.org/packages/3.12/bioc/html/impute.html
-identifiers:
-- bioagents:impute
-- doi:10.1007/978-3-642-57489-4_7
-license: GPL-2
-license_file: /lib/R/share/licenses/GPL-2
-name: bioconductor-impute
-summary: 'impute: Imputation for microarray data'
-version: 1.64.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:532e50c19736a4b235150b53638fb0def821eda3eb1f8b70ce9166e6e3227c23
+size 368

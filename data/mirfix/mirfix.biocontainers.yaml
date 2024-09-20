@@ -1,13 +1,3 @@
-description: MIRfix automatically curates miRNA datasets by improving alignments of
-  their precursors, the consistency of the annotation of mature miR and miR* sequence,
-  and the phylogenetic coverage. MIRfix produces alignments that are comparable across
-  families and sets the stage for improved homology search as well as quantitative
-  analyses.
-home_url: https://github.com/Bierinformatik/MIRfix
-identifiers:
-- bioagents:mirfix
-keywords: []
-license: GPL-3.0
-manually_check: true
-name: mirfix
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:d2d849db40438fd2a9fa314dc65b1c868babd9ad98281e87463fb2d2d8ac2769
+size 515

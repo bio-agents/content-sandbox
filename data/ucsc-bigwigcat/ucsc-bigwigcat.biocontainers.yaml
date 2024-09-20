@@ -1,21 +1,3 @@
-description: '"merge non-overlapping bigWig files"'
-home_url: '"http://hgdownload.cse.ucsc.edu/admin/exe/"'
-identifiers:
-- doi:10.1093/bioinformatics/btq351
-- doi:10.1101/gr.229102
-- bioagents:UCSC_Genome_Browser_Utilities
-keywords:
-- California
-- Database Management Systems
-- Databases, Genetic
-- Gene Expression
-- Genes
-- Genome, Human
-- Humans
-- RNA, Messenger
-- Sequence Homology, Nucleic Acid
-- Universities
-license: Custom License
-manually_check: true
-name: ucsc-bigwigcat
-total_pulls: 7
+version https://git-lfs.github.com/spec/v1
+oid sha256:a94aa9bbf8104fed4910581f0b51166930f43dc42a0f3048b159950530b8d49d
+size 495

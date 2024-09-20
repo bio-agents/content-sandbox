@@ -1,31 +1,3 @@
-softwares:
-  frc_align:
-    labels:
-      about.documentation: https://github.com/vezzi/FRC_align
-      about.home: https://github.com/vezzi/FRC_align
-      about.license: SPDX:GPL-3.0-only
-      about.license_file: https://github.com/vezzi/FRC_align/blob/master/COPYING
-      about.summary: Computes FRC from SAM/BAM file and not from afg files
-      about.tags: Genomics
-      base_image: biocontainers:v1.0.0_cv4
-      extra.binaries: FRC
-      software: frc_align
-      software.version: '20150723'
-      version: '3'
-    software: frc_align
-    versions:
-    - labels:
-        about.documentation: https://github.com/vezzi/FRC_align
-        about.home: https://github.com/vezzi/FRC_align
-        about.license: SPDX:GPL-3.0-only
-        about.license_file: https://github.com/vezzi/FRC_align/blob/master/COPYING
-        about.summary: Computes FRC from SAM/BAM file and not from afg files
-        about.tags: Genomics
-        base_image: biocontainers:v1.0.0_cv4
-        extra.binaries: FRC
-        software: frc_align
-        software.version: '20150723'
-        version: '3'
-      type: Container file
-      url: biocontainers/frc_align:20150723-3
-      version: 20150723-3
+version https://git-lfs.github.com/spec/v1
+oid sha256:80ba69e5c71a31dbbc144fcc01100e5691ae110e57546aac35df609b195a0df0
+size 1181

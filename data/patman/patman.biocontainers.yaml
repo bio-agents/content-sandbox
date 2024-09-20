@@ -1,21 +1,3 @@
-description: Patman searches for short patterns in large dna databases, allowing for
-  approximate matches. it is optimized for searching for many small pattern at the
-  same time, for example microarray probes.
-home_url: http://bioinf.eva.mpg.de/patman/
-identifiers:
-- bioagents:patman
-- doi:10.1093/bioinformatics/btn223
-keywords:
-- Base Sequence
-- Database Management Systems
-- Databases, Genetic
-- Information Storage and Retrieval
-- Molecular Sequence Data
-- Sequence Alignment
-- Sequence Analysis, DNA
-- Mapping
-- Genomics
-license: GPL-2.0
-manually_check: true
-name: patman
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:4c9865aa0c03ccc0aa4f66dd4fc539910f52a78546496aed473b65a10912b585
+size 595

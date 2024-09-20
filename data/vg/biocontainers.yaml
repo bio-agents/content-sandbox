@@ -1,27 +1,3 @@
-softwares:
-  vg:
-    labels:
-      about.documentation: https://vgteam.github.io/vg/
-      about.home: https://github.com/vgteam/vg#vg
-      about.license: SPDX:MIT
-      about.license_file: /usr/share/doc/vg/copyright
-      about.summary: agents for working with genome variation graphs
-      base_image: debian:testing
-      software: vg
-      software.version: 1.23.0-plusds-1-deb
-      version: '1'
-    software: vg
-    versions:
-    - labels:
-        about.documentation: https://vgteam.github.io/vg/
-        about.home: https://github.com/vgteam/vg#vg
-        about.license: SPDX:MIT
-        about.license_file: /usr/share/doc/vg/copyright
-        about.summary: agents for working with genome variation graphs
-        base_image: debian:testing
-        software: vg
-        software.version: 1.23.0-plusds-1-deb
-        version: '1'
-      type: Container file
-      url: biocontainers/vg:1.23.0-plusds-1-deb-1
-      version: 1.23.0-plusds-1-deb-1
+version https://git-lfs.github.com/spec/v1
+oid sha256:a71f143de94947a9c2fd4fa85709353dac15e20974e18665db72dad038806ad9
+size 954

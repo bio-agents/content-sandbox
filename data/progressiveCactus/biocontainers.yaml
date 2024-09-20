@@ -1,31 +1,3 @@
-softwares:
-  progressiveCactus:
-    labels:
-      about.documentation: https://github.com/glennhickey/progressiveCactus
-      about.home: https://github.com/glennhickey/progressiveCactus
-      about.license: SPDX:GPL-3.0
-      about.license_file: https://github.com/glennhickey/progressiveCactus/blob/master/LICENSE
-      about.summary: multiple whole-genome alignment package
-      about.tags: Genomics
-      base_image: biocontainers:08252016-4
-      extra.binaries: runProgressiveCactus.sh
-      software: progressiveCactus
-      software.version: '0.1'
-      version: '2'
-    software: progressiveCactus
-    versions:
-    - labels:
-        about.documentation: https://github.com/glennhickey/progressiveCactus
-        about.home: https://github.com/glennhickey/progressiveCactus
-        about.license: SPDX:GPL-3.0
-        about.license_file: https://github.com/glennhickey/progressiveCactus/blob/master/LICENSE
-        about.summary: multiple whole-genome alignment package
-        about.tags: Genomics
-        base_image: biocontainers:08252016-4
-        extra.binaries: runProgressiveCactus.sh
-        software: progressiveCactus
-        software.version: '0.1'
-        version: '2'
-      type: Container file
-      url: biocontainers/progressiveCactus:0.1-2
-      version: 0.1-2
+version https://git-lfs.github.com/spec/v1
+oid sha256:9bd227f7325255712ac408d2bf98db6f15a68341bee84f0e74b6ec6196a76979
+size 1287

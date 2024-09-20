@@ -1,18 +1,3 @@
-{
-    "additionDate": "2023-08-30T12:39:58.333143Z",
-    "bioagentsCURIE": "bioagents:gpcr-sas",
-    "bioagentsID": "gpcr-sas",
-    "description": "The G Protein-Coupled Receptors-Sequence Analysis and Statistics (GPCR-SAS) web application provides a set of agents to perform comparative analysis of sequence positions between receptors, based on a curated structural-informed multiple sequence alignment. The analysis agents include: (i) percentage of occurrence of an amino acid or motif and entropy at a position or range of positions, (ii) covariance of two positions, (iii) correlation between two amino acids in two positions (or two sequence motifs in two ranges of positions), and (iv) snake-plot representation for a specific receptor or for the consensus sequence of a group of selected receptors. The analysis of conservation of residues and motifs across transmembrane (TM) segments may guide the design of more selective ligands or help to rationalize activation mechanisms, among others. As an example, here we analyze the amino acids of the \"transmission switch\", that initiates receptor activation following ligand binding.",
-    "editPermission": {
-        "type": "private"
-    },
-    "homepage": "http://lmc.uab.cat/gpcrsas/",
-    "lastUpdate": "2023-08-30T12:39:58.335527Z",
-    "name": "GPCR-SAS",
-    "owner": "laasfeld",
-    "publication": [
-        {
-            "doi": "10.1371/journal.pone.0199843"
-        }
-    ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:cc1b6b58196b2196397b60fc14c2c9187da6469e6694a35b515617e551fd4373
+size 1445

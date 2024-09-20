@@ -1,16 +1,3 @@
-bioagents_id: deds
-description: This library contains functions that calculate various statistics of
-  differential expression for microarray data, including t statistics, fold change,
-  F statistics, SAM, moderated t and F statistics and B statistics. It also implements
-  a new methodology called DEDS (Differential Expression via Distance Summary), which
-  selects differentially expressed genes by integrating and summarizing a set of statistics
-  using a weighted distance approach.
-home: https://bioconductor.org/packages/3.10/bioc/html/DEDS.html
-identifiers:
-- bioagents:deds
-- doi:10.1016/j.compbiomed.2013.12.002
-license: LGPL
-license_file: /lib/R/share/licenses/LGPL-3
-name: bioconductor-deds
-summary: Differential Expression via Distance Summary for Microarray Data
-version: 1.60.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:ba5d514c692df4e9a9c90431b1881f4527286ebc0745603ba443ab391f309bab
+size 793

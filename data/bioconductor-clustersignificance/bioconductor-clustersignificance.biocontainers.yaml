@@ -1,20 +1,3 @@
-description: The ClusterSignificance package provides agents to assess if class clusters
-  in dimensionality reduced data representations have a separation different from
-  permuted data
-home_url: https://bioconductor.org/packages/3.11/bioc/html/ClusterSignificance.html
-identifiers:
-- bioagents:clustersignificance
-- doi:10.1038/nmeth.3252
-keywords:
-- Computational Biology
-- Gene Expression Profiling
-- Genomics
-- High-Throughput Screening Assays
-- Programming Languages
-- User-Computer Interface
-- Gene and protein families
-- Clustering
-license: GPL-3
-manually_check: true
-name: bioconductor-clustersignificance
-total_pulls: 3
+version https://git-lfs.github.com/spec/v1
+oid sha256:02e344e30d0fb4ec1034b1ea38ef5dffdff5fbc13c448200316b16caba4070f7
+size 630

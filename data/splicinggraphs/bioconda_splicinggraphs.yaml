@@ -1,14 +1,3 @@
-bioagents_id: splicinggraphs
-description: This package allows the user to create, manipulate, and visualize splicing
-  graphs and their bubbles based on a gene model for a given organism. Additionally
-  it allows the user to assign RNA-seq reads to the edges of a set of splicing graphs,
-  and to summarize them in different ways.
-home: https://bioconductor.org/packages/3.12/bioc/html/SplicingGraphs.html
-identifiers:
-- bioagents:splicinggraphs
-- doi:10.1093/bioinformatics/18.suppl_1.s181
-license: Artistic-2.0
-name: bioconductor-splicinggraphs
-summary: Create, manipulate, visualize splicing graphs, and assign RNA-seq reads to
-  them
-version: 1.30.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:3495496d348500957e6b0f9fbe7fb58968da4af4b425764951fffa4c9210e361
+size 654

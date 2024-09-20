@@ -1,14 +1,3 @@
-bioagents_id: asafe
-description: Given admixed individuals' bi-allelic SNP genotypes and ancestry pairs
-  (where each ancestry can take one of three values) for multiple SNPs, perform an
-  EM algorithm to deal with the fact that SNP genotypes are unphased with respect
-  to ancestry pairs, in order to estimate ancestry-specific allele frequencies for
-  all SNPs.
-home: https://bioconductor.org/packages/3.12/bioc/html/ASAFE.html
-identifiers:
-- bioagents:asafe
-- doi:10.1093/bioinformatics/btw220
-license: Artistic-2.0
-name: bioconductor-asafe
-summary: Ancestry Specific Allele Frequency Estimation
-version: 1.16.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:a1a62d49d6c110868fd93a709b4b73c7fe86c8a3aaef90e97c50f5719d0894a7
+size 615

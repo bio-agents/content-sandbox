@@ -1,12 +1,3 @@
-bioagents_id: rots
-description: Calculates the Reproducibility-Optimized Test Statistic (ROTS) for differential
-  testing in omics data.
-home: https://bioconductor.org/packages/3.12/bioc/html/ROTS.html
-identifiers:
-- bioagents:rots
-- doi:10.1109/tcbb.2007.1078
-license: GPL (>= 2)
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-rots
-summary: Reproducibility-Optimized Test Statistic
-version: 1.18.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:6b0c9a6a07365fca4eccaef6680855d18d289ace6e3c090084f4023e079d3e1f
+size 413

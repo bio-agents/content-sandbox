@@ -1,26 +1,3 @@
-description: User-friendly package designed for unix-like systems and largely automates
-  the analyses related to whole genome re-sequencing. it is compatible with a full
-  range of sequence data and performs a series of user-defined analyses, including
-  read trimming, collapsing of overlapping mate-pairs, read mapping, pcr duplicate
-  removal, snp calling, and metagenomic profiling.
-home_url: http://geogenetics.ku.dk/publications/paleomix
-identifiers:
-- bioagents:paleomix
-- doi:10.1038/nprot.2014.063
-keywords:
-- Computational Biology
-- Genome
-- High-Throughput Nucleotide Sequencing
-- Likelihood Functions
-- Metagenomics
-- Paleontology
-- Phylogeny
-- Phytophthora infestans
-- Polymorphism, Single Nucleotide
-- DNA
-- DNA polymorphism
-- Whole genome sequencing
-license: MIT
-manually_check: true
-name: paleomix
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:c5bde58dc804ed9c8617da4b873def210fc975e8cef46138bcf7396f24a94673
+size 830

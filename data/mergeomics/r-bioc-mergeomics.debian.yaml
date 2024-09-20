@@ -1,35 +1,3 @@
-package: r-bioc-mergeomics
-distribution: debian
-release: sid
-component: main
-version: 1.18.0
-source: r-bioc-mergeomics
-homepage: https://bioconductor.org/packages/Mergeomics/
-license: unknown
-blend: debian-med
-description_md5: d744e3c22ea2ecce9f31fb5a290ad6a6
-registries:
-- entry: OMICS_12862
-  name: OMICagents
-- entry: mergeomics
-  name: bio.agents
-bib:
-- key: doi
-  value: 10.1186/s12864-016-3198-9
-popcon:
-- insts: 53
-  olde: 47
-  recent: 1
-  vote: 5
-descr:
-- package: r-bioc-mergeomics
-  description: Integrative network analysis of omics data
-  long_description: " The Mergeomics pipeline serves as a flexible framework for integrating\n\
-    \ multidimensional omics-disease associations, functional genomics,\n canonical\
-    \ pathways and gene-gene interaction networks to generate\n mechanistic hypotheses.\
-    \ It includes two main parts:\n 1) Marker set enrichment analysis (MSEA);\n 2)\
-    \ Weighted Key Driver Analysis (wKDA).\n"
-  release: sid
-  description_md5: d744e3c22ea2ecce9f31fb5a290ad6a6
-  license: unknown
-  blend: debian-med
+version https://git-lfs.github.com/spec/v1
+oid sha256:88b90b7a4d3c5dd2eae0c27ac518dccca2eb5022f2db0737312bc79270d7e358
+size 1055

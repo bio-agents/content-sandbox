@@ -1,20 +1,3 @@
-description: Library and software package for fast parsing and querying of vcf and
-  bcf files and illustrate its speed, simplicity and utility.
-home_url: https://github.com/brentp/cyvcf2
-identifiers:
-- bioagents:cyvcf2
-- doi:10.1093/bioinformatics/btx057
-keywords:
-- Genetic Variation
-- Genotyping Techniques
-- Humans
-- Metadata
-- Sequence Analysis, DNA
-- Sequence analysis
-- Genetic variation
-- Genotype and phenotype
-- Genomics
-license: MIT
-manually_check: true
-name: cyvcf2
-total_pulls: 11500
+version https://git-lfs.github.com/spec/v1
+oid sha256:1aefe727fad8ccad174ab85f45236f6c2fd40faeeedf7045b7815866f34a8371
+size 497

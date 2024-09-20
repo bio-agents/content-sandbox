@@ -1,13 +1,3 @@
-bioagents_id: lmdme
-description: 'linear ANOVA decomposition of Multivariate Designed Experiments implementation
-  based on limma lmFit. Features: i)Flexible formula type interface, ii) Fast limma
-  based implementation, iii) p-values for each estimated coefficient levels in each
-  factor, iv) F values for factor effects and v) plotting functions for PCA and PLS.'
-home: https://bioconductor.org/packages/3.12/bioc/html/lmdme.html
-identifiers:
-- bioagents:lmdme
-license: GPL (>=2)
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-lmdme
-summary: Linear Model decomposition for Designed Multivariate Experiments
-version: 1.32.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:2b5c3db1f7dc911c7d9c5668628dae3658fbd1f3f3739990ec83495d784e9979
+size 640

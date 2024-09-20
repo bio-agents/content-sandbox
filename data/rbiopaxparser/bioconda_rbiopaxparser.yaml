@@ -1,11 +1,3 @@
-bioagents_id: rbiopaxparser
-description: Parses BioPAX files and represents them in R, at the moment BioPAX level
-  2 and level 3 are supported.
-home: https://bioconductor.org/packages/3.12/bioc/html/rBiopaxParser.html
-identifiers:
-- bioagents:rbiopaxparser
-license: GPL (>= 2)
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-rbiopaxparser
-summary: Parses BioPax files and represents them in R
-version: 2.30.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:86eb8374f96c318d7e63ad75a0356e916f64752e4ccdbd7dfe5ca43d8e457e28
+size 423

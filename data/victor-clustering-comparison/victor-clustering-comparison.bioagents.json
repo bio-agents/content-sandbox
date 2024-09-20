@@ -1,36 +1,3 @@
-{
-    "additionDate": "2021-03-31T13:45:29Z",
-    "bioagentsCURIE": "bioagents:Victor-clustering-comparison",
-    "bioagentsID": "Victor-clustering-comparison",
-    "credit": [
-        {
-            "name": "Georgios Pavlopoulos",
-            "orcidid": "http://orcid.org/0000-0002-4577-8276"
-        }
-    ],
-    "description": "VICTOR is an interactive and dependency-free visual analytics web application which allows the comparison and visualization of various clustering outputs.",
-    "editPermission": {
-        "type": "private"
-    },
-    "function": [
-        {
-            "operation": [
-                {
-                    "term": "Clustering",
-                    "uri": "http://edamontology.org/operation_3432"
-                },
-                {
-                    "term": "Visualisation",
-                    "uri": "http://edamontology.org/operation_0337"
-                }
-            ]
-        }
-    ],
-    "homepage": "http://bib.fleming.gr:3838/VICTOR",
-    "lastUpdate": "2022-11-30T13:57:50.088735Z",
-    "name": "VICTOR",
-    "owner": "g.pavlopoulos",
-    "agentType": [
-        "Web application"
-    ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:850923133c468556c624a8dc7820314289469018b037f88462884d71fe6f1a84
+size 1133

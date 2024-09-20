@@ -1,15 +1,3 @@
-bioagents_id: ioniser
-description: IONiseR provides agents for the quality assessment of Oxford Nanopore
-  MinION data. It extracts summary statistics from a set of fast5 files and can be
-  used either before or after base calling.  In addition to standard summaries of
-  the read-types produced, it provides a number of plots for visualising metrics relative
-  to experiment run time or spatially over the surface of a flowcell.
-home: https://bioconductor.org/packages/3.12/bioc/html/IONiseR.html
-identifiers:
-- bioagents:ioniser
-- doi:10.1038/nmeth.3252
-license: MIT + file LICENSE
-license_file: LICENSE
-name: bioconductor-ioniser
-summary: Quality Assessment Agents for Oxford Nanopore MinION data
-version: 2.14.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:acce38bef14b852857228a792b996b7a4a002c2eb50054185b43215c8eb91d1d
+size 716

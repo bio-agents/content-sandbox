@@ -1,13 +1,3 @@
-bioagents_id: panr
-description: This package provides S4 classes and methods for inferring functional
-  gene networks with edges encoding posterior beliefs of gene association types and
-  nodes encoding perturbation effects.
-home: https://bioconductor.org/packages/3.12/bioc/html/PANR.html
-identifiers:
-- bioagents:panr
-- doi:10.1371/journal.pcbi.1002566
-license: Artistic-2.0
-name: bioconductor-panr
-summary: Posterior association networks and functional modules inferred from rich
-  phenotypes of gene perturbations
-version: 1.36.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:3a26859b531baeb7480dc4a8b644c0072fc344744b88de7a27cbc8f3c461f242
+size 534

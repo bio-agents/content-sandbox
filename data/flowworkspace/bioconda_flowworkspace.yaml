@@ -1,16 +1,3 @@
-bioagents_id: flowworkspace
-description: This package is designed to facilitate comparison of automated gating
-  methods against manual gating done in flowJo. This package allows you to import
-  basic flowJo workspaces into BioConductor and replicate the gating from flowJo using
-  the flowCore functionality. Gating hierarchies, groups of samples, compensation,
-  and transformation are performed so that the output matches the flowJo analysis.
-home: https://bioconductor.org/packages/3.12/bioc/html/flowWorkspace.html
-identifiers:
-- bioagents:flowworkspace
-- doi:10.1186/1471-2105-13-252
-license: file LICENSE
-license_file: LICENSE
-name: bioconductor-flowworkspace
-summary: Infrastructure for representing and interacting with gated and ungated cytometry
-  data sets.
-version: 4.2.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:9f927290a3c730b1de978375cdfe655d47fa6271de4ca2b6d9ff0c873c98192d
+size 785

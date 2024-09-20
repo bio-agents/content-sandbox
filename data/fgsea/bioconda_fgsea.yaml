@@ -1,13 +1,3 @@
-bioagents_id: fgsea
-description: The package implements an algorithm for fast gene set enrichment analysis.
-  Using the fast algorithm allows to make more permutations and get more fine grained
-  p-values, which allows to use accurate stantard approaches to multiple hypothesis
-  correction.
-home: https://bioconductor.org/packages/3.12/bioc/html/fgsea.html
-identifiers:
-- bioagents:fgsea
-- doi:10.1101/060012
-license: MIT + file LICENCE
-name: bioconductor-fgsea
-summary: Fast Gene Set Enrichment Analysis
-version: 1.16.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:392a7ce2c1e7f47786a695b475a2accd5fcc5ead4c77397f2df0917d4e9f836e
+size 522

@@ -1,14 +1,3 @@
-bioagents_id: orderedlist
-description: Detection of similarities between ordered lists of genes. Thereby, either
-  simple lists can be compared or gene expression data can be used to deduce the lists.
-  Significance of similarities is evaluated by shuffling lists or by resampling in
-  microarray data, respectively.
-home: https://bioconductor.org/packages/3.12/bioc/html/OrderedList.html
-identifiers:
-- bioagents:orderedlist
-- doi:10.1093/bioinformatics/btl385
-license: GPL (>= 2)
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-orderedlist
-summary: Similarities of Ordered Gene Lists
-version: 1.62.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:b6aa3360c2bac847e056e89aa712eccf33e918f64ff46820cb66153729ab8bc2
+size 615

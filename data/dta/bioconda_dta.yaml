@@ -1,14 +1,3 @@
-bioagents_id: dta
-description: Dynamic Transcriptome Analysis (DTA) can monitor the cellular response
-  to perturbations with higher sensitivity and temporal resolution than standard transcriptomics.
-  The package implements the underlying kinetic modeling approach capable of the precise
-  determination of synthesis- and decay rates from individual microarray or RNAseq
-  measurements.
-home: https://bioconductor.org/packages/3.12/bioc/html/DTA.html
-identifiers:
-- bioagents:dta
-- doi:10.1093/bioinformatics/bts052
-license: Artistic-2.0
-name: bioconductor-dta
-summary: Dynamic Transcriptome Analysis
-version: 2.36.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:b71b29c321406d867b7952699b123656f06db8c4da8039f79fe9aa704a7ebb11
+size 618

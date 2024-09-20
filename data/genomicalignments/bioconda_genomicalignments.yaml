@@ -1,12 +1,3 @@
-bioagents_id: genomicalignments
-description: Provides efficient containers for storing and manipulating short genomic
-  alignments (typically obtained by aligning short reads to a reference genome). This
-  includes read counting, computing the coverage, junction detection, and working
-  with the nucleotide content of the alignments.
-home: https://bioconductor.org/packages/3.12/bioc/html/GenomicAlignments.html
-identifiers:
-- bioagents:genomicalignments
-license: Artistic-2.0
-name: bioconductor-genomicalignments
-summary: Representation and manipulation of short genomic alignments
-version: 1.26.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:1a24e11b429c77eacb9730b120651df2cc301d4337a7755bc7cd58e95854531b
+size 600

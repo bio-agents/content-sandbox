@@ -1,16 +1,3 @@
-description: Recent advancements in chip-based DNA genotyping allow to infer DNA variants
-  that are not part of the chip but known to be associated with a combination of SNPs
-  that are measured.
-edam:
-  topics: null
-  version: unknown
-homepage: http://www.sph.umich.edu/csg/abecasis/MACH/
-identifiers:
-  bioagents: mach
-  debian: mach-haplotyper
-  doi:
-  - 10.1002/gepi.20533
-  scicrunch: SCR_009621
-license: non-free
-summary: Markov Chain based SNP haplotyper
-version: 1.0.18
+version https://git-lfs.github.com/spec/v1
+oid sha256:99c081551ef3576be13632b986b5f0ec0789888a58364fdc33e60eeb6265698b
+size 479

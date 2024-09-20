@@ -1,12 +1,3 @@
-description: Provides a mechanism for chaining commands with a new forward-pipe operator,
-  %>%. This operator will forward a value, or the result of an expression, into the
-  next function call/expression. There is flexible support for the type of right-hand
-  side expressions. For more information, see package vignette. To quote Rene Magritte,
-  "Ceci n'est pas un pipe."
-home_url: None
-identifiers: []
-keywords: []
-license: MIT
-manually_check: true
-name: r-magrittr
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:b4a68a8590e45f3c39a9dcb6b2e2ef52797a3f42a9830fceeee3a7f45fd42af0
+size 486

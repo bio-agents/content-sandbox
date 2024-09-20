@@ -1,12 +1,3 @@
-bioagents_id: gsri
-description: The GSRI package estimates the number of differentially expressed genes
-  in gene sets, utilizing the concept of the Gene Set Regulation Index (GSRI).
-home: https://bioconductor.org/packages/3.12/bioc/html/GSRI.html
-identifiers:
-- bioagents:gsri
-- doi:10.1038/nmeth.3252
-license: GPL-3
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-gsri
-summary: Gene Set Regulation Index
-version: 2.38.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:63fd707b269c094da57719fa45e7f798f3d96a45e980c03d04035f959e5ab605
+size 435

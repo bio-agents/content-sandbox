@@ -1,12 +1,3 @@
-description: Usability wrapper around snow for easier development of parallel R programs.
-  This package offers e.g. extended error checks, and additional functions. All functions
-  work in sequential mode, too, if no cluster is present or wished. Package is also
-  designed as connector to the cluster management agent sfCluster, but can also used
-  without it.
-home_url: None
-identifiers: []
-keywords: []
-license: GPL
-manually_check: true
-name: r-snowfall
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:b7ed4d7951ee2219e72091116dc8caccb38c9b606bb5d6290e5dfac7e6f1f89b
+size 473

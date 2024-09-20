@@ -1,16 +1,3 @@
-description: Bmge (block mapping and gathering with entropy) is a program that selects
-  regions in a multiple sequence alignment that are suited for phylogenetic inference.
-home_url: https://bioweb.pasteur.fr/packages/pack@BMGE@1.12
-identifiers:
-- bioagents:bmge
-- doi:10.1186/1471-2148-10-210
-keywords:
-- Computational Biology
-- Computer Simulation
-- Phylogeny
-- Sequence Alignment
-- Sequence Analysis, DNA
-license: Not available
-manually_check: true
-name: bmge
-total_pulls: 680
+version https://git-lfs.github.com/spec/v1
+oid sha256:1c422366c8e82823480610a1a6ebffdefc70e622ee22ea22f404a176a2f0fa95
+size 481

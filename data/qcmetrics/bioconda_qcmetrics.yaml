@@ -1,13 +1,3 @@
-bioagents_id: qcmetrics
-description: The package provides a framework for generic quality control of data.
-  It permits to create, manage and visualise individual or sets of quality control
-  metrics and generate quality control reports in various formats.
-home: https://bioconductor.org/packages/3.12/bioc/html/qcmetrics.html
-identifiers:
-- bioagents:qcmetrics
-- doi:10.1038/nmeth.3252
-license: GPL-2
-license_file: /lib/R/share/licenses/GPL-2
-name: bioconductor-qcmetrics
-summary: A Framework for Quality Control
-version: 1.28.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:2d925277b89eb5a18aa4af69bb314c52592f7e7326daa5f73343aee05735c470
+size 530

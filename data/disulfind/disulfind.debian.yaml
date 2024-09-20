@@ -1,24 +1,3 @@
-description: '''disulfinder'' is for predicting the disulfide bonding state of cysteines
-  and their disulfide connectivity starting from sequence alone. Disulfide bridges
-  play a major role in the stabilization of the folding process for several proteins.
-  Prediction of disulfide bridges from sequence alone is therefore useful for the
-  study of structural and functional properties of specific proteins. In addition,
-  knowledge about the disulfide bonding state of cysteines may help the experimental
-  structure determination process and may be useful in other genomic annotation tasks.
-  . ''disulfinder'' predicts disulfide patterns in two computational stages: (1) the
-  disulfide bonding state of each cysteine is predicted by a BRNN-SVM binary classifier;
-  (2) cysteines that are known to participate in the formation of bridges are paired
-  by a Recursive Neural Network to obtain a connectivity pattern.'
-edam:
-  topics: null
-  version: unknown
-homepage: http://disulfind.dsi.unifi.it/
-identifiers:
-  bioagents: disulfind
-  debian: disulfinder
-  doi:
-  - 10.1093/nar/gkl266
-  omicagents: OMICS_04214
-  scicrunch: SCR_016072
-summary: cysteines disulfide bonding state and connectivity predictor
-version: 1.2.11
+version https://git-lfs.github.com/spec/v1
+oid sha256:d9f9c6ca342228c4a69dfbba84e8d55e27f2ef2116030b1d2ab497830b171b94
+size 1226

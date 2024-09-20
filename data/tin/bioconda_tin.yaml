@@ -1,15 +1,3 @@
-bioagents_id: tin
-description: The TIN package implements a set of agents for transcriptome instability
-  analysis based on exon expression profiles. Deviating exon usage is studied in the
-  context of splicing factors to analyse to what degree transcriptome instability
-  is correlated to splicing factor expression. In the transcriptome instability correlation
-  analysis, the data is compared to both random permutations of alternative splicing
-  scores and expression of random gene sets.
-home: https://bioconductor.org/packages/3.12/bioc/html/TIN.html
-identifiers:
-- bioagents:tin
-- doi:10.4137/CIN.S31363
-license: Artistic-2.0
-name: bioconductor-tin
-summary: Transcriptome instability analysis
-version: 1.22.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:7ad0fcac0c79d7eb7cbf125759885adec29dfd175dcad5a596945acf71bd61b3
+size 716

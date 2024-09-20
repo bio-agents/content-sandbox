@@ -1,18 +1,3 @@
-bioagents_id: igblast
-home: http://www.ncbi.nlm.nih.gov/projects/igblast/
-identifiers:
-- bioagents:igblast
-license: Public Domain and others
-license_file:
-- c++/include/misc/jsonwrapp/rapidjson10/license.txt
-- c++/include/misc/jsonwrapp/rapidjson11/license.txt
-- c++/include/util/bitset/license.txt
-- c++/scripts/projects/blast/LICENSE
-- c++/scripts/projects/igblast/LICENSE
-- c++/src/util/compress/bzip2/LICENSE
-- c++/src/util/lmdb/LICENSE
-- c++/src/util/lmdbxx/UNLICENSE
-- LICENSE
-name: igblast
-summary: A agent for analyzing immunoglobulin (IG) and T cell receptor (TR) sequences
-version: 1.15.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:b1df399cdd2afd14ed0b2f6f7131ff03550d07af053e6fff5bfa7699b9e82c5f
+size 599

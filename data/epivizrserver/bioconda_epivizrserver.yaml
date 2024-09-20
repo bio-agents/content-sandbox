@@ -1,12 +1,3 @@
-bioagents_id: epivizrserver
-description: This package provides objects to manage WebSocket connections to epiviz
-  apps. Other epivizr package use this infrastructure.
-home: https://bioconductor.org/packages/3.12/bioc/html/epivizrServer.html
-identifiers:
-- bioagents:epivizrserver
-- doi:10.1038/nmeth.3252
-license: MIT + file LICENSE
-license_file: LICENSE
-name: bioconductor-epivizrserver
-summary: WebSocket server infrastructure for epivizr apps and packages
-version: 1.18.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:e4ff0b98c6884d11473a8eff1287d5b8a27e59a026e6d0179e0d99afc49078a1
+size 476

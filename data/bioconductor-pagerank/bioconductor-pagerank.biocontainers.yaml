@@ -1,11 +1,3 @@
-description: Implemented temporal PageRank analysis as defined by Rozenshtein and
-  Gionis. Implemented multiplex PageRank as defined by Halu et al. Applied temporal
-  and multiplex PageRank in gene regulatory network analysis.
-home_url: https://bioconductor.org/packages/3.12/bioc/html/pageRank.html
-identifiers:
-- doi:10.18129/b9.bioc.pagerank
-keywords: []
-license: GPL-2.0
-manually_check: true
-name: bioconductor-pagerank
-total_pulls: 350
+version https://git-lfs.github.com/spec/v1
+oid sha256:6aec6efad38b72445f733ebf4369484e1c9e6acef42931e25eb71da70417ed7a
+size 442

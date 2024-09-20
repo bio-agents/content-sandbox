@@ -1,12 +1,3 @@
-description: This package implements analysis agents for DNA methylation data generated
-  using Nimblegen microarrays and the McrBC protocol. It finds differentially methylated
-  regions between samples, calculates percentage methylation estimates and includes
-  array quality assessment agents.
-home_url: https://bioconductor.org/packages/3.8/bioc/html/charm.html
-identifiers:
-- doi:10.18129/b9.bioc.charm
-keywords: []
-license: LGPL (>= 2)
-manually_check: true
-name: bioconductor-charm
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:07c66c73c2bc3aab23535ef3c8ca4c43c04e4a69cb493b4ca6ceb16f4eeef33a
+size 502

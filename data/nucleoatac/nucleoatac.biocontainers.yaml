@@ -1,27 +1,3 @@
-description: Python package for calling nucleosomes using ATAC-Seq data. Also includes
-  general scripts for working with paired-end ATAC-Seq data (or potentially other
-  paired-end data).
-home_url: https://github.com/GreenleafLab/NucleoATAC
-identifiers:
-- doi:10.1101/gr.192294.115
-keywords:
-- Cell Line
-- Chromatin
-- Chromatin Assembly and Disassembly
-- Chromosome Mapping
-- DNA, Fungal
-- Databases, Genetic
-- Gene Rearrangement
-- Humans
-- Nucleosomes
-- Promoter Regions, Genetic
-- Regulatory Sequences, Nucleic Acid
-- Saccharomyces cerevisiae
-- Schizosaccharomyces
-- Sequence Analysis, DNA
-- Transcription Factors
-- Transcription, Genetic
-license: MIT
-manually_check: true
-name: nucleoatac
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:9a14d01220da89e86f5f953c4a53669403ba360ab7e3847ee492dbf7523d5c39
+size 708

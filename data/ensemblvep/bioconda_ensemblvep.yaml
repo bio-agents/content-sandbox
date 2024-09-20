@@ -1,10 +1,3 @@
-bioagents_id: ensemblvep
-description: Query the Ensembl Variant Effect Predictor via the perl API.
-home: https://bioconductor.org/packages/3.12/bioc/html/ensemblVEP.html
-identifiers:
-- bioagents:ensemblvep
-- doi:10.1186/s13059-016-0974-4
-license: Artistic-2.0
-name: bioconductor-ensemblvep
-summary: R Interface to Ensembl Variant Effect Predictor
-version: 1.32.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:95b6b8a82f4bf8a5212bb475b7655383bc909be358f6c1059ec9eead05f58231
+size 363

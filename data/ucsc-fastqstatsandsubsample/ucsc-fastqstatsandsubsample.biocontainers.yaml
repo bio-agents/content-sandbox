@@ -1,21 +1,3 @@
-description: Go through a fastq file doing sanity checks and collecting stats
-home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
-identifiers:
-- doi:10.1093/bioinformatics/btq351
-- doi:10.1101/gr.229102
-- bioagents:UCSC_Genome_Browser_Utilities
-keywords:
-- California
-- Database Management Systems
-- Databases, Genetic
-- Gene Expression
-- Genes
-- Genome, Human
-- Humans
-- RNA, Messenger
-- Sequence Homology, Nucleic Acid
-- Universities
-license: Custom License
-manually_check: true
-name: ucsc-fastqstatsandsubsample
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:49d8cec7addc6fa8d8e2a1c192628a58a3769f160f0642cf4c2c6a794a34247b
+size 530

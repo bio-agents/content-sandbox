@@ -1,12 +1,3 @@
-bioagents_id: cardinal
-description: Implements statistical & computational agents for analyzing mass spectrometry
-  imaging datasets, including methods for efficient pre-processing, spatial segmentation,
-  and classification.
-home: https://bioconductor.org/packages/3.12/bioc/html/Cardinal.html
-identifiers:
-- bioagents:cardinal
-- usegalaxy-eu:cardinal_segmentations
-license: Artistic-2.0
-name: bioconductor-cardinal
-summary: A mass spectrometry imaging agentbox for statistical analysis
-version: 2.8.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:b28f57389a7e67f1d8eab92a55e8757e672fc27fa07e637cfa2abd76c61a6035
+size 503

@@ -1,19 +1,3 @@
-description: Free genome browser and annotation agent that allows visualisation of
-  sequence features, next generation data and the results of analyses within the context
-  of the sequence, and also its six-frame translation.
-home_url: http://www.sanger.ac.uk/science/agents/artemis
-identifiers:
-- bioagents:artemis
-- doi:10.1093/bioinformatics/btr703
-keywords:
-- Genome
-- High-Throughput Nucleotide Sequencing
-- Molecular Sequence Annotation
-- Transcriptome
-- Data visualisation
-- Genomics
-- Genetics
-license: GPL-3.0
-manually_check: true
-name: artemis
-total_pulls: 6646
+version https://git-lfs.github.com/spec/v1
+oid sha256:eb8e7adb8817e9bcf9da7f0eeea5ac6989e7db9843944193f782096285f73b21
+size 573

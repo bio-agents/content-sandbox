@@ -1,15 +1,3 @@
-bioagents_id: messina
-description: Messina is a collection of algorithms for constructing optimally robust
-  single-gene classifiers, and for identifying differential expression in the presence
-  of outliers or unknown sample subgroups.  The methods have application in identifying
-  lead features to develop into clinical tests (both diagnostic and prognostic), and
-  in identifying differential expression when a fraction of samples show unusual patterns
-  of expression.
-home: https://bioconductor.org/packages/3.12/bioc/html/messina.html
-identifiers:
-- bioagents:messina
-license: EPL (>= 1.0)
-name: bioconductor-messina
-summary: Single-gene classifiers and outlier-resistant detection of differential expression
-  for two-group and survival problems
-version: 1.26.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:8dc32cb1f11f449c4396adcc461acba902b5ccfb2dacd845efd989242bdf486d
+size 770

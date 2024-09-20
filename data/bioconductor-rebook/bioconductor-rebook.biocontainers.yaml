@@ -1,12 +1,3 @@
-description: Provides utilities to re-use content across chapters of a Bioconductor
-  book. This is mostly based on functionality developed while writing the OSCA book,
-  but generalized for potential use in other large books with heavy compute. Also
-  contains some functions to assist book deployment.
-home_url: https://bioconductor.org/packages/3.12/bioc/html/rebook.html
-identifiers:
-- doi:10.18129/b9.bioc.rebook
-keywords: []
-license: GPL-3.0
-manually_check: true
-name: bioconductor-rebook
-total_pulls: 106
+version https://git-lfs.github.com/spec/v1
+oid sha256:5912d824421c1f8a9524ebc9fbf93224a5f331e5339b6b4323fa3d1db84ef623
+size 512

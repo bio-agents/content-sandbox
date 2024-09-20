@@ -1,17 +1,3 @@
-description: Krona allows hierarchical data to be explored with zoomable pie charts.
-  Krona charts include support for several bioinformatics agents and raw data formats.
-  The charts can be viewed with a recent version of any major web browser.
-edam:
-  topics: null
-  version: unknown
-homepage: https://github.com/marbl/Krona
-identifiers:
-  bioconda: krona
-  bioagents: krona
-  debian: radiant
-  doi:
-  - 10.1186/1471-2105-12-385
-  omicagents: OMICS_01498
-  scicrunch: SCR_012785
-summary: explore hierarchical metagenomic data with zoomable pie charts
-version: 2.7.1
+version https://git-lfs.github.com/spec/v1
+oid sha256:9847763e71d3e6b3b4699c00779f013512a2cebc8146c6c799c05f42d3b79751
+size 569

@@ -1,13 +1,3 @@
-description: 'DEPRECATED. Do not start building new projects based on this package.
-  Cross-platform alternatives are the following packages: bigmemory (CRAN), ff (CRAN),
-  BufferedMatrix (Bioconductor). The main usage of it was inside the aroma.affymetrix
-  package. (The package currently provides a class representing a matrix where the
-  actual data is stored in a binary format on the local file system. This way the
-  size limit of the data is set by the file system and not the memory.)'
-home_url: https://github.com/HenrikBengtsson/R.huge
-identifiers: []
-keywords: []
-license: LGPL (>= 2.1)
-manually_check: true
-name: r-r.huge
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:a1d82d4ef17578f40c6b259084d2df46164b453800752ae7021c49a78468077d
+size 650

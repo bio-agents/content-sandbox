@@ -1,15 +1,3 @@
-bioagents_id: padog
-description: This package implements a general purpose gene set analysis method called
-  PADOG that downplays the importance of genes that apear often accross the sets of
-  genes to be analyzed. The package provides also a benchmark for gene set analysis
-  methods in terms of sensitivity and ranking using 24 public datasets from KEGGdzPathwaysGEO
-  package.
-home: https://bioconductor.org/packages/3.12/bioc/html/PADOG.html
-identifiers:
-- bioagents:padog
-- doi:10.1186/1471-2105-13-136
-license: GPL (>= 2)
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-padog
-summary: Pathway Analysis with Down-weighting of Overlapping Genes (PADOG)
-version: 1.32.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:4b1bdf5c6f66a607b895d5b2473eac6bf0cab9650b3cf4e5bb9104a9ca9b771a
+size 686

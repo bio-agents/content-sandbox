@@ -1,14 +1,3 @@
-description: Data package with per-exon and per-gene read counts of RNA-seq samples
-  of Pasilla knock-down by Brooks et al., Genome Research 2011.
-home_url: https://bioconductor.org/packages/3.8/data/experiment/html/pasilla.html
-identifiers:
-- doi:10.18129/b9.bioc.pasilla
-keywords:
-- RNA-Seq
-- Gene Expression
-- Transcriptome
-- Ortholog
-license: LGPL
-manually_check: true
-name: bioconductor-pasilla
-total_pulls: 3
+version https://git-lfs.github.com/spec/v1
+oid sha256:595012c333b0a093f6d4c9bcda1bcd901b211292785f6a36786351c238ac23b8
+size 416

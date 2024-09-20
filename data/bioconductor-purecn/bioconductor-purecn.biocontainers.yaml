@@ -1,15 +1,3 @@
-description: This package estimates tumor purity, copy number, loss of heterozygosity
-  (loh), and status of single nucleotide variants (snvs). it is designed for targeted
-  short read sequencing data, integrating well with standard somatic variant detection
-  pipelines and supporting for tumor samples without matching normal samples.
-home_url: http://bioconductor.org/packages/release/bioc/html/PureCN.html
-identifiers:
-- bioagents:purecn
-- doi:10.1186/s13029-016-0060-z
-keywords:
-- Sequencing
-- Genomics
-license: Artistic-2.0
-manually_check: true
-name: bioconductor-purecn
-total_pulls: 45
+version https://git-lfs.github.com/spec/v1
+oid sha256:9295fe55e754634f2f5eeb6abedd69f2f0d3799d86bc48a7b4d24d436dcac688
+size 593

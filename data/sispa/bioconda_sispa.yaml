@@ -1,12 +1,3 @@
-bioagents_id: sispa
-description: Sample Integrated Set Profile Analysis (SISPA) is a method designed to
-  define sample groups with similar gene set enrichment profiles.
-home: https://bioconductor.org/packages/3.12/bioc/html/SISPA.html
-identifiers:
-- bioagents:sispa
-- doi:10.1093/nar/gkv1503
-license: GPL-2
-license_file: /lib/R/share/licenses/GPL-2
-name: bioconductor-sispa
-summary: 'SISPA: Method for Sample Integrated Set Profile Analysis'
-version: 1.20.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:4c20392e610bd2849c8fcd23b9066b371aae32a778c7e22a5f6356e7eb84e537
+size 459

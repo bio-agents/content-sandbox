@@ -1,15 +1,3 @@
-description: Designed for association studies in nested association mapping (NAM)
-  panels, experimental and random panels. The method is described by Xavier et al.
-  (2015) <doi:10.1093/bioinformatics/btv448>. It includes agents for genome-wide associations
-  of multiple populations, marker quality control, population genetics analysis, genome-wide
-  prediction, solving mixed models and finding variance components through likelihood
-  and Bayesian methods.
-home_url: https://CRAN.R-project.org/package=NAM
-identifiers:
-- doi:10.1093/bioinformatics/btv448
-keywords:
-- Genetics
-license: GPL-3
-manually_check: true
-name: r-nam
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:7c7893e95a6228b0fda78d84e63dcbaf3d577c659a3d5dc58db25e4744c923ea
+size 644

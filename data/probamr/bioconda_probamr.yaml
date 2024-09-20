@@ -1,12 +1,3 @@
-bioagents_id: probamr
-description: Mapping PSMs back to genome. The package builds SAM file from shotgun
-  proteomics data The package also provides function to prepare annotation from GTF
-  file.
-home: https://bioconductor.org/packages/3.12/bioc/html/proBAMr.html
-identifiers:
-- bioagents:probamr
-- doi:10.1074/mcp.M115.052860
-license: Artistic-2.0
-name: bioconductor-probamr
-summary: Generating SAM file for PSMs in shotgun proteomics data
-version: 1.24.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:9240f77f608543fda9101a08b0683f3f578713d15d6450a807342430aa9e0f50
+size 458

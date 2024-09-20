@@ -1,21 +1,3 @@
-description: Takes a .agp file and .fa file and ensures that they are in synch
-home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
-identifiers:
-- doi:10.1093/bioinformatics/btq351
-- doi:10.1101/gr.229102
-- bioagents:UCSC_Genome_Browser_Utilities
-keywords:
-- California
-- Database Management Systems
-- Databases, Genetic
-- Gene Expression
-- Genes
-- Genome, Human
-- Humans
-- RNA, Messenger
-- Sequence Homology, Nucleic Acid
-- Universities
-license: Custom License
-manually_check: true
-name: ucsc-checkagpandfa
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:dba1b361cda051ae8c5c83f7f21c3c5d5a2fa0e6f8ecc12bc7faeb216a4d9414
+size 522

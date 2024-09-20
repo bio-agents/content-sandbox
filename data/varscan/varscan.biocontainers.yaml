@@ -1,17 +1,3 @@
-description: Varscan, an open source agent for variant detection that is compatible
-  with several short read align-ers.
-home_url: https://github.com/dkoboldt/varscan
-identifiers:
-- bioagents:varscan
-- doi:10.1093/bioinformatics/btp373
-keywords:
-- Computational Biology
-- Humans
-- Polymorphism, Single Nucleotide
-- Sequence Analysis, DNA
-- Sequencing
-- DNA polymorphism
-license: The Non-Profit Open Software License version 3.0 (NPOSL-3.0)
-manually_check: true
-name: varscan
-total_pulls: 3355
+version https://git-lfs.github.com/spec/v1
+oid sha256:71cbdc515986abc8398cb1a71c562b71eb6b2a5b88bb36b434bb73cf9c7aa2e2
+size 493

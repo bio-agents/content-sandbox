@@ -1,22 +1,3 @@
-description: A agent for assembling bacterial genomes from a combination of short (2nd
-  generation) and long (3rd generation) sequencing reads.
-home_url: https://github.com/rrwick/Unicycler
-identifiers:
-- bioagents:unicycler
-- doi:10.1371/JOURNAL.PCBI.1005595
-keywords:
-- Chromosome Mapping
-- Genome, Bacterial
-- High-Throughput Nucleotide Sequencing
-- Sequence Alignment
-- Sequence Analysis, DNA
-- User-Computer Interface
-- Microbiology
-- Genomics
-- Sequencing
-- Sequence assembly
-- Metagenome
-license: GPL-3.0
-manually_check: true
-name: unicycler
-total_pulls: 8295
+version https://git-lfs.github.com/spec/v1
+oid sha256:162a4e4473ec81e6e158f7f6efccca9ce03a997a1a0ad7f937f3c304391a475d
+size 568

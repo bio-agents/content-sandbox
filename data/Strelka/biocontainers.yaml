@@ -1,33 +1,3 @@
-softwares:
-  strelka:
-    labels:
-      about.documentation: https://github.com/Illumina/strelka/blob/master/docs/userGuide/README.md
-      about.home: https://github.com/Illumina/strelka
-      about.license: SPDX:GPL-3.0
-      about.license_file: https://github.com/Illumina/strelka/blob/master/LICENSE.txt
-      about.summary: Strelka calls somatic and germline small variants from mapped
-        sequencing reads
-      about.tags: Genomics
-      base_image: biocontainers:v1.0.0_cv4
-      extra.identifiers.bioagents: Strelka
-      software: strelka
-      software.version: 2.9.7
-      version: '2'
-    software: strelka
-    versions:
-    - labels:
-        about.documentation: https://github.com/Illumina/strelka/blob/master/docs/userGuide/README.md
-        about.home: https://github.com/Illumina/strelka
-        about.license: SPDX:GPL-3.0
-        about.license_file: https://github.com/Illumina/strelka/blob/master/LICENSE.txt
-        about.summary: Strelka calls somatic and germline small variants from mapped
-          sequencing reads
-        about.tags: Genomics
-        base_image: biocontainers:v1.0.0_cv4
-        extra.identifiers.bioagents: Strelka
-        software: strelka
-        software.version: 2.9.7
-        version: '2'
-      type: Container file
-      url: biocontainers/strelka:2.9.7-2
-      version: 2.9.7-2
+version https://git-lfs.github.com/spec/v1
+oid sha256:661fce3768f77cb0b2ef750eaa4d616af3c50a49830d3b692b44b55bde9fff48
+size 1335

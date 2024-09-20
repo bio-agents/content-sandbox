@@ -1,24 +1,3 @@
-description: Pal2nal converts a multiple sequence alignment of proteins and the corresponding
-  dna (or mrna) sequences into a codon alignment. synonymous (ks) and non-synonymous
-  (ka) substitution rates can be calculated.
-home_url: http://www.bork.embl.de/pal2nal/
-identifiers:
-- bioagents:pal2nal
-- doi:10.1093/nar/gkl315
-keywords:
-- Codon
-- Exons
-- Internet
-- Sequence Alignment
-- Sequence Analysis, DNA
-- Sequence Analysis, Protein
-- User-Computer Interface
-- Gene transcripts
-- DNA
-- Sequence analysis
-- Proteins
-- Gene expression
-license: GPL-2.0
-manually_check: true
-name: pal2nal
-total_pulls: 4882
+version https://git-lfs.github.com/spec/v1
+oid sha256:a3da78056c518faeae1a12e2475351e527eb17f90dff154e5c5ce3601b533a7a
+size 607

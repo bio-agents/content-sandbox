@@ -1,14 +1,3 @@
-bioagents_id: m3drop
-description: This package fits a Michaelis-Menten model to the pattern of dropouts
-  in single-cell RNASeq data. This model is used as a null to identify significantly
-  variable (i.e. differentially expressed) genes for use in downstream analysis, such
-  as clustering cells.
-home: https://bioconductor.org/packages/3.12/bioc/html/M3Drop.html
-identifiers:
-- bioagents:m3drop
-- doi:10.1002/1873-3468.12684
-license: GPL (>=2)
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-m3drop
-summary: Michaelis-Menten Modelling of Dropouts in single-cell RNASeq
-version: 1.16.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:751bd1fc720656c1f8f4b88325cb64580ae4210072cd94ea709fcd4963611665
+size 600

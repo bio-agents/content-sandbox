@@ -1,12 +1,3 @@
-description: MIA comprises a set of agents, libraries, and plug-ins for general purpose
-  2D and 3D gray scale image processing and basic handling of triangular meshes. The
-  libraries provide a basic infrastructure and generic algorithms, that can be specialized
-  by specifying the appropriate plug-ins. This package provides the Python-3 bindings.
-home_url: http://mia.sourceforge.net/
-identifiers:
-- doi:10.1186/1751-0473-8-20
-keywords: []
-license: GNU
-manually_check: true
-name: python-mia
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:21a4126b2eabe3960013c47cabaecdb42d2fc5f935c2391e31b5c2586f86c614
+size 510

@@ -1,14 +1,3 @@
-bioagents_id: cancerinsilico
-description: The CancerInSilico package provides an R interface for running mathematical
-  models of tumor progresson and generating gene expression data from the results.
-  This package has the underlying models implemented in C++ and the output and analysis
-  features implemented in R.
-home: https://bioconductor.org/packages/3.12/bioc/html/CancerInSilico.html
-identifiers:
-- bioagents:cancerinsilico
-- doi:10.1038/nmeth.3252
-license: GPL-2
-license_file: /lib/R/share/licenses/GPL-2
-name: bioconductor-cancerinsilico
-summary: An R interface for computational modeling of tumor progression
-version: 2.10.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:d9d0a00a483231a2361d0d42e57501b2ba8e23652c2c491ebd69d864af2b9cda
+size 637

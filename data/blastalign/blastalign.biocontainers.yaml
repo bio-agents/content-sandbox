@@ -1,21 +1,3 @@
-description: BlastAlign uses NCBI Blast to align nucleotide sequences that have large
-  indels or are otherwise difficult to align globally.
-home_url: http://evolve.zoo.ox.ac.uk/Evolve/Blastalign.html
-identifiers:
-- bioagents:blastalign
-- doi:10.1093/bioinformatics/bth459
-keywords:
-- Base Sequence
-- Information Storage and Retrieval
-- Internet
-- Molecular Sequence Data
-- National Institutes of Health (U.S.)
-- Sequence Alignment
-- Sequence Analysis, DNA
-- Sequence Homology, Nucleic Acid
-- United States
-- Sequences
-license: GNU GENERAL PUBLIC LICENSE
-manually_check: true
-name: blastalign
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:290ca34987301ea546b696f3c56e85c4aa9a6c23853a97ebf2b64a7f0ae776f5
+size 608

@@ -1,13 +1,3 @@
-bioagents_id: scran
-description: Implements miscellaneous functions for interpretation of single-cell
-  RNA-seq data. Methods are provided for assignment of cell cycle phase, detection
-  of highly variable and significantly correlated genes, identification of marker
-  genes, and other common tasks in routine single-cell analysis workflows.
-home: https://bioconductor.org/packages/3.12/bioc/html/scran.html
-identifiers:
-- bioagents:scran
-license: GPL-3
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-scran
-summary: Methods for Single-Cell RNA-Seq Data Analysis
-version: 1.18.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:77c74b366306c2ceb38ad0500c6dde9db2d729069a5a5857c9169d459be402ff
+size 592

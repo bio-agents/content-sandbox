@@ -1,12 +1,3 @@
-bioagents_id: cogps
-description: Gene Set Enrichment Analysis of P-value based statistics for outlier
-  gene detection in dataset merged from multiple studies
-home: https://bioconductor.org/packages/3.12/bioc/html/coGPS.html
-identifiers:
-- bioagents:cogps
-- doi:10.1038/nmeth.3252
-license: GPL-2
-license_file: /lib/R/share/licenses/GPL-2
-name: bioconductor-cogps
-summary: cancer outlier Gene Profile Sets
-version: 1.34.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:79f9edcbc1e51db0ccfa67aaabbadbba02f55e4ddf0ead7899ca8e6ff09c87ac
+size 421

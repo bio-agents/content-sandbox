@@ -1,11 +1,3 @@
-bioagents_id: chipcomp
-description: ChIPComp detects differentially bound sharp binding sites across multiple
-  conditions considering matching control.
-home: https://bioconductor.org/packages/3.12/bioc/html/ChIPComp.html
-identifiers:
-- bioagents:chipcomp
-license: GPL
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-chipcomp
-summary: Quantitative comparison of multiple ChIP-seq datasets
-version: 1.20.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:8b272bb4dc0154b4e3ffe5fb0290cb054d0cb240d7ad533e778b158997c70223
+size 418

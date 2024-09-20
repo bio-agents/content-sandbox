@@ -1,14 +1,3 @@
-bioagents_id: cand
-description: Functions to perform the CAnD test on a set of ancestry proportions.
-  For a particular ancestral subpopulation, a user will supply the estimated ancestry
-  proportion for each sample, and each chromosome or chromosomal segment of interest.
-  A p-value for each chromosome as well as an overall CAnD p-value will be returned
-  for each test. Plotting functions are also available.
-home: https://bioconductor.org/packages/3.12/bioc/html/CAnD.html
-identifiers:
-- bioagents:cand
-- doi:10.1534/genetics.115.184184
-license: Artistic-2.0
-name: bioconductor-cand
-summary: Perform Chromosomal Ancestry Differences (CAnD) Analyses
-version: 1.22.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:5028c32bd679f1bf03a62720c35f0fa2a3b5b03e298206faf96bcfb3ccf40697
+size 670

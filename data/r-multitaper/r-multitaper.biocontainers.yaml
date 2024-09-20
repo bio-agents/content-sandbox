@@ -1,12 +1,3 @@
-description: Implements multitaper spectral analysis using discrete prolate spheroidal
-  sequences (Slepians) and sine tapers. It includes an adaptive weighted multitaper
-  spectral estimate, a coherence estimate, Thomson's Harmonic F-test, and complex
-  demodulation. The Slepians sequences are generated efficiently using a tridiagonal
-  matrix solution, and jackknifed confidence intervals are available for most estimates.
-home_url: None
-identifiers: []
-keywords: []
-license: GPL-2|GPL-3
-manually_check: true
-name: r-multitaper
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:8fade35755ff0878259bf2aec789062572371de16d7b240dd7646f172123649f
+size 547

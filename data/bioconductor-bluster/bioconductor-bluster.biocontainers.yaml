@@ -1,13 +1,3 @@
-description: Wraps common clustering algorithms in an easily extended S4 framework.
-  Backends are implemented for hierarchical, k-means and graph-based clustering. Several
-  utilities are also provided to compare and evaluate clustering results.
-home_url: https://bioconductor.org/packages/3.12/bioc/html/bluster.html
-identifiers:
-- doi:10.18129/b9.bioc.bluster
-keywords:
-- Clustering
-- Transcriptomics
-license: GPL-3.0
-manually_check: true
-name: bioconductor-bluster
-total_pulls: 657
+version https://git-lfs.github.com/spec/v1
+oid sha256:bc47949a6e742da5ee39a69621c12f59ac3f7e70901977f04ab60b52bceb0712
+size 486

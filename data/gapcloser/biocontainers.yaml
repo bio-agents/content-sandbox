@@ -1,33 +1,3 @@
-softwares:
-  gapcloser:
-    labels:
-      about.documentation: http://soap.genomics.org.cn/gapcloser.html
-      about.home: http://soap.genomics.org.cn/gapcloser.html
-      about.license: SPDX:GPL-3.0-only
-      about.license_file: http://soap.genomics.org.cn/gapcloser.html
-      about.summary: A novel short-read assembly method that can build a de novo draft
-        assembly for the human-sized genomes
-      about.tags: Genomics
-      base_image: biocontainers:v1.0.0_cv4
-      extra.binaries: GapCloser
-      software: gapcloser
-      software.version: 1.12-r6
-      version: '3'
-    software: gapcloser
-    versions:
-    - labels:
-        about.documentation: http://soap.genomics.org.cn/gapcloser.html
-        about.home: http://soap.genomics.org.cn/gapcloser.html
-        about.license: SPDX:GPL-3.0-only
-        about.license_file: http://soap.genomics.org.cn/gapcloser.html
-        about.summary: A novel short-read assembly method that can build a de novo
-          draft assembly for the human-sized genomes
-        about.tags: Genomics
-        base_image: biocontainers:v1.0.0_cv4
-        extra.binaries: GapCloser
-        software: gapcloser
-        software.version: 1.12-r6
-        version: '3'
-      type: Container file
-      url: biocontainers/gapcloser:1.12-r6-3
-      version: 1.12-r6-3
+version https://git-lfs.github.com/spec/v1
+oid sha256:82dbf9a0478d8ae8113294ed4cd0adfe677b4f2c352b8a20fbf5b82716fdab21
+size 1309

@@ -1,33 +1,3 @@
-softwares:
-  ProteinProphet:
-    labels:
-      about.documentation: http://proteinprophet.sourceforge.net/
-      about.home: http://proteinprophet.sourceforge.net/
-      about.license: SPDX:GPL-2.0-only
-      about.license_file: http://proteinprophet.sourceforge.net/
-      about.summary: Protein inference for MS/MS analysis
-      about.tags: Proteomics
-      base_image: biocontainers:v1.0.0_cv4
-      extra.binaries: ProteinProphet
-      extra.identifiers.bioagents: proteinprophet
-      software: ProteinProphet
-      software.version: '201510131012'
-      version: '4'
-    software: ProteinProphet
-    versions:
-    - labels:
-        about.documentation: http://proteinprophet.sourceforge.net/
-        about.home: http://proteinprophet.sourceforge.net/
-        about.license: SPDX:GPL-2.0-only
-        about.license_file: http://proteinprophet.sourceforge.net/
-        about.summary: Protein inference for MS/MS analysis
-        about.tags: Proteomics
-        base_image: biocontainers:v1.0.0_cv4
-        extra.binaries: ProteinProphet
-        extra.identifiers.bioagents: proteinprophet
-        software: ProteinProphet
-        software.version: '201510131012'
-        version: '4'
-      type: Container file
-      url: biocontainers/ProteinProphet:201510131012-4
-      version: 201510131012-4
+version https://git-lfs.github.com/spec/v1
+oid sha256:43f15b147b6e7cecbdd83579ba3ec3350207ba9fa6e97999a69c657bfc3cac2c
+size 1300

@@ -1,22 +1,3 @@
-description: Comet is a command line agent that does MS/MS database search.
-home_url: http://comet-ms.sourceforge.net/
-identifiers:
-- doi:10.1007/s13361-015-1179-x
-- doi:10.1002/pmic.201200439
-- bioagents:comet
-keywords:
-- Amino Acid Sequence
-- Databases, Protein
-- Humans
-- Peptides
-- Proteins
-- Proteomics
-- Search Engine
-- Mass Spectrometry
-- Protein modifications
-- Mass spectra
-- Mass spectrometry
-license: Apache-2.0
-manually_check: true
-name: comet-ms
-total_pulls: 4
+version https://git-lfs.github.com/spec/v1
+oid sha256:65a7ddfae564455b317622b50570809c76c63ea8ee12ef52d9e310dd6719f6a2
+size 474

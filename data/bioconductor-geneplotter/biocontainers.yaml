@@ -1,29 +1,3 @@
-softwares:
-  bioconductor-geneplotter:
-    labels:
-      about.copyright: ' 2001 R. Gentelman and biocore'
-      about.home: https://bioconductor.org/packages/geneplotter/
-      about.license: Artistic-2.0
-      about.license_file: /usr/share/doc/bioconductor-geneplotter/copyright
-      about.summary: R package of functions for plotting genomic data
-      about.tags: ''
-      container: bioconductor-geneplotter
-      software: bioconductor-geneplotter
-      software.version: 1.52.0-2-deb
-      version: '1'
-    software: bioconductor-geneplotter
-    versions:
-    - labels:
-        about.copyright: ' 2001 R. Gentelman and biocore'
-        about.home: https://bioconductor.org/packages/geneplotter/
-        about.license: Artistic-2.0
-        about.license_file: /usr/share/doc/bioconductor-geneplotter/copyright
-        about.summary: R package of functions for plotting genomic data
-        about.tags: ''
-        container: bioconductor-geneplotter
-        software: bioconductor-geneplotter
-        software.version: 1.52.0-2-deb
-        version: '1'
-      type: Container file
-      url: biocontainers/bioconductor-geneplotter:1.52.0-2-deb-1
-      version: 1.52.0-2-deb-1
+version https://git-lfs.github.com/spec/v1
+oid sha256:b583e25b3be38d4b2b43bac3bf3ada9bb1af8ea4b223f3ea4b5b24a4b3ea048b
+size 1182

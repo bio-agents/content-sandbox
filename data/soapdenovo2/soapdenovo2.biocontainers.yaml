@@ -1,19 +1,3 @@
-description: Short-read assembly method to build de novo draft assembly
-home_url: http://soap.genomics.org.cn/soapdenovo.html
-identifiers:
-- bioagents:soapdenovo
-- doi:10.1101/gr.097261.109
-keywords:
-- African Continental Ancestry Group
-- Asian Continental Ancestry Group
-- Genome, Human
-- Human Genome Project
-- Humans
-- Oligonucleotide Array Sequence Analysis
-- Sequence Alignment
-- Sequence Analysis, DNA
-- Sequence assembly
-license: GPL-3.0+
-manually_check: true
-name: soapdenovo2
-total_pulls: 4826
+version https://git-lfs.github.com/spec/v1
+oid sha256:35a39d915033a6ecd7c661c5a80c8dc15de4b3339c524ed7f9e4b644c02dee6c
+size 503

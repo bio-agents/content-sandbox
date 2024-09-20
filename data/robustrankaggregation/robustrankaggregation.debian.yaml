@@ -1,15 +1,3 @@
-description: Methods for aggregating ranked lists, especially lists of genes. It implements
-  the Robust Rank Aggregation (Kolde et. al in preparation) and some other simple
-  algorithms for the task. RRA method uses a probabilistic model for aggregation that
-  is robust to noise and also facilitates the calculation of significance probabilities
-  for all the elements in the final ranking.
-edam:
-  topics: null
-  version: unknown
-homepage: https://cran.r-project.org/package=RobustRankAggreg
-identifiers:
-  bioagents: robustrankaggregation
-  debian: r-cran-robustrankaggreg
-  omicagents: OMICS_14405
-summary: Methods for robust rank aggregation
-version: '1.1'
+version https://git-lfs.github.com/spec/v1
+oid sha256:76e4b6a8f58cdf7e5b2816fd01aa0959df1bbe8564b5ffb48234004929683c71
+size 663

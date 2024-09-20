@@ -1,13 +1,3 @@
-bioagents_id: quasr
-description: This package provides a framework for the quantification and analysis
-  of Short Reads. It covers a complete workflow starting from raw sequence reads,
-  over creation of alignments and quality control plots, to the quantification of
-  genomic regions of interest.
-home: https://bioconductor.org/packages/3.12/bioc/html/QuasR.html
-identifiers:
-- bioagents:quasr
-license: GPL-2
-license_file: /lib/R/share/licenses/GPL-2
-name: bioconductor-quasr
-summary: Quantify and Annotate Short Reads in R
-version: 1.30.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:983a07af5a7b8ebbfb36b2fbea6f6fd6185b655e0a031874b18e61b4c1b2228b
+size 541

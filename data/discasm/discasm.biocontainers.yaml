@@ -1,12 +1,3 @@
-description: Discasm aims to extract reads that map to reference genomes in a discordant
-  fashion and optionally include reads that do not map to the genome at all, and perform
-  a de novo transcriptome assembly of these reads. discasm relies on the output from
-  star (as run via star-fusion), and supports de novo transcriptome assembly using
-  trinity or oases. - https://github.com/discasm/discasm/wiki
-home_url: https://github.com/DISCASM/DISCASM
-identifiers: []
-keywords: []
-license: BSD 3-Clause "New" or "Revised" License
-manually_check: true
-name: discasm
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:e2f6347a2dc6a6d99cf78a408acb95e7a60feb9824c1243d2d3a7636ca389586
+size 581

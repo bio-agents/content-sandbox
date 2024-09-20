@@ -1,24 +1,3 @@
-description: BICseq2-seg is for detecting CNVs based on the normalized data given
-  by BICseq2-norm.
-home_url: http://compbio.med.harvard.edu/BIC-seq/
-identifiers:
-- doi:10.1093/nar/gkw491
-keywords:
-- Base Composition
-- Bayes Theorem
-- Carrier Proteins
-- Chromatin Assembly and Disassembly
-- Colorectal Neoplasms
-- DNA Copy Number Variations
-- DNA-Binding Proteins
-- Genome, Human
-- Humans
-- Membrane Proteins
-- Neoplasm Proteins
-- Nucleoplasmins
-- Receptor, ErbB-2
-- Sequence Analysis, DNA
-license: Custom
-manually_check: true
-name: bicseq2-seg
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:186b0b15c9128f4dccb8b06484de59075022a794e139e4c490111e17bf317e55
+size 561

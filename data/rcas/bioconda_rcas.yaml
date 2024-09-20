@@ -1,18 +1,3 @@
-bioagents_id: rcas
-description: RCAS is an R/Bioconductor package designed as a generic reporting agent
-  for the functional analysis of transcriptome-wide regions of interest detected by
-  high-throughput experiments. Such transcriptomic regions could be, for instance,
-  signal peaks detected by CLIP-Seq analysis for protein-RNA interaction sites, RNA
-  modification sites (alias the epitranscriptome), CAGE-tag locations, or any other
-  collection of query regions at the level of the transcriptome. RCAS produces in-depth
-  annotation summaries and coverage profiles based on the distribution of the query
-  regions with respect to transcript features (exons, introns, 5'/3' UTR regions,
-  exon-intron boundaries, promoter regions). Moreover, RCAS can carry out functional
-  enrichment analyses and discriminative motif discovery.
-home: https://bioconductor.org/packages/3.12/bioc/html/RCAS.html
-identifiers:
-- bioagents:rcas
-license: Artistic-2.0
-name: bioconductor-rcas
-summary: RNA Centric Annotation System
-version: 1.16.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:5179e543a44ed40049780d3dee37a6f1a71aedfdcbd2c92dc9ab0dd9ef3a3adc
+size 1032

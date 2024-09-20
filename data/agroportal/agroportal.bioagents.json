@@ -1,27 +1,3 @@
-{
-    "additionDate": "2019-11-05T14:55:06Z",
-    "bioagentsCURIE": "bioagents:AgroPortal",
-    "bioagentsID": "AgroPortal",
-    "description": "Browser for ontologies for agricultural science based on NBCO BioPortal.",
-    "editPermission": {
-        "authors": [
-            "jonquet"
-        ],
-        "type": "group"
-    },
-    "homepage": "http://agroportal.lirmm.fr/",
-    "lastUpdate": "2022-11-29T23:15:07.404630Z",
-    "name": "AgroPortal",
-    "owner": "jonquet",
-    "topic": [
-        {
-            "term": "Agricultural science",
-            "uri": "http://edamontology.org/topic_3810"
-        },
-        {
-            "term": "Ontology and terminology",
-            "uri": "http://edamontology.org/topic_0089"
-        }
-    ],
-    "validated": 1
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:644e333124eb839d67b76e7e871b03fa8c850668483c7904c332c92e045b78d7
+size 763

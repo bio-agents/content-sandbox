@@ -1,22 +1,3 @@
-description: Contains data and functions that define and allow translation between
-  different chromosome sequence naming conventions (e.g., chr1 versus 1), including
-  a function that attempts to place sequence names in their natural, rather than lexicographic,
-  order.
-home_url: http://bioconductor.org/packages/release/bioc/html/GenomeInfoDb.html
-identifiers:
-- bioagents:genomeinfodb
-- doi:10.1038/nmeth.3252
-keywords:
-- Computational Biology
-- Gene Expression Profiling
-- Genomics
-- High-Throughput Screening Assays
-- Programming Languages
-- User-Computer Interface
-- Data management
-- Proteomics
-- Genetics
-license: Artistic-2.0
-manually_check: true
-name: bioconductor-genomeinfodb
-total_pulls: 13
+version https://git-lfs.github.com/spec/v1
+oid sha256:102f16c6fbc82bad17890c8c478f5c4a936ebc746a8ddbf4d2e0a0c44128ac00
+size 705

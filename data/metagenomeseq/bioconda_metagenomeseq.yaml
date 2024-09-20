@@ -1,14 +1,3 @@
-bioagents_id: metagenomeseq
-description: metagenomeSeq is designed to determine features (be it Operational Taxanomic
-  Unit (OTU), species, etc.) that are differentially abundant between two or more
-  groups of multiple samples. metagenomeSeq is designed to address the effects of
-  both normalization and under-sampling of microbial communities on disease association
-  detection and the testing of feature correlations.
-home: https://bioconductor.org/packages/3.12/bioc/html/metagenomeSeq.html
-identifiers:
-- bioagents:metagenomeseq
-- doi:10.1038/nmeth.2658
-license: Artistic-2.0
-name: bioconductor-metagenomeseq
-summary: Statistical analysis for sparse high-throughput sequencing
-version: 1.32.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:626ab24569bfd4f6986314ebe8d947e90072cbe733d49a16c8d801651ee33295
+size 700

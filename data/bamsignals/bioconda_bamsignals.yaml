@@ -1,13 +1,3 @@
-bioagents_id: bamsignals
-description: This package allows to efficiently obtain count vectors from indexed
-  bam files. It counts the number of reads in given genomic ranges and it computes
-  reads profiles and coverage profiles. It also handles paired-end data.
-home: https://bioconductor.org/packages/3.12/bioc/html/bamsignals.html
-identifiers:
-- bioagents:bamsignals
-- doi:10.1038/nmeth.3252
-license: GPL-2
-license_file: /lib/R/share/licenses/GPL-2
-name: bioconductor-bamsignals
-summary: Extract read count signals from bam files
-version: 1.22.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:18837047bfa67b465a653b9ddc9511ece7161db14aea60d320a25ed93f264c74
+size 549

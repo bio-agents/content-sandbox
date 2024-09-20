@@ -1,33 +1,3 @@
-softwares:
-  magicblast:
-    labels:
-      about.documentation: https://ncbi.github.io/magicblast/
-      about.home: https://github.com/ncbi/magicblast
-      about.license: SPDX:MIT
-      about.license_file: https://ncbi.github.io/magicblast/dev/copyright.html
-      about.summary: Magic-BLAST is a new agent for mapping large sets of next-generation
-        RNA or DNA sequencing runs against a whole genome or transcriptome
-      about.tags: BLAST
-      base_image: biocontainers:v1.0.0_cv4
-      extra.binaries: magicblast
-      software: magicblast
-      software.version: 1.3.0
-      version: '5'
-    software: magicblast
-    versions:
-    - labels:
-        about.documentation: https://ncbi.github.io/magicblast/
-        about.home: https://github.com/ncbi/magicblast
-        about.license: SPDX:MIT
-        about.license_file: https://ncbi.github.io/magicblast/dev/copyright.html
-        about.summary: Magic-BLAST is a new agent for mapping large sets of next-generation
-          RNA or DNA sequencing runs against a whole genome or transcriptome
-        about.tags: BLAST
-        base_image: biocontainers:v1.0.0_cv4
-        extra.binaries: magicblast
-        software: magicblast
-        software.version: 1.3.0
-        version: '5'
-      type: Container file
-      url: biocontainers/magicblast:1.3.0-5
-      version: 1.3.0-5
+version https://git-lfs.github.com/spec/v1
+oid sha256:6c82cbe869d227760497ae23d7262308221154a72759b087cffae6fe19d1de68
+size 1338

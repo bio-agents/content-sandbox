@@ -1,29 +1,3 @@
-softwares:
-  bioconductor-biocinstaller:
-    labels:
-      about.copyright: ' 2006-2016 Dan Tenenbaum and Biocore Team'
-      about.home: https://bioconductor.org/packages/BiocInstaller/
-      about.license: Artistic-2.0
-      about.license_file: /usr/share/doc/bioconductor-biocinstaller/copyright
-      about.summary: Install/Update Bioconductor and CRAN Packages
-      about.tags: ''
-      container: bioconductor-biocinstaller
-      software: bioconductor-biocinstaller
-      software.version: 1.24.0-1-deb
-      version: '1'
-    software: bioconductor-biocinstaller
-    versions:
-    - labels:
-        about.copyright: ' 2006-2016 Dan Tenenbaum and Biocore Team'
-        about.home: https://bioconductor.org/packages/BiocInstaller/
-        about.license: Artistic-2.0
-        about.license_file: /usr/share/doc/bioconductor-biocinstaller/copyright
-        about.summary: Install/Update Bioconductor and CRAN Packages
-        about.tags: ''
-        container: bioconductor-biocinstaller
-        software: bioconductor-biocinstaller
-        software.version: 1.24.0-1-deb
-        version: '1'
-      type: Container file
-      url: biocontainers/bioconductor-biocinstaller:1.24.0-1-deb-1
-      version: 1.24.0-1-deb-1
+version https://git-lfs.github.com/spec/v1
+oid sha256:7b2af38fb4ea3931ae98de303bda84649302c9da4ccbac17b63c080b7656ed8c
+size 1220

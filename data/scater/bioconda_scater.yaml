@@ -1,11 +1,3 @@
-bioagents_id: scater
-description: A collection of agents for doing various analyses of single-cell RNA-seq
-  gene expression data, with a focus on quality control and visualization.
-home: https://bioconductor.org/packages/3.12/bioc/html/scater.html
-identifiers:
-- bioagents:scater
-license: GPL-3
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-scater
-summary: Single-Cell Analysis Agentkit for Gene Expression Data in R
-version: 1.18.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:ff70ceec8b4a4ceda735ab17dbeb4e3583b9784a50a04fc4ddb1fa5e07bef91f
+size 449

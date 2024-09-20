@@ -1,20 +1,3 @@
-description: This agent performs multiple sequence alignments of nucleotide or amino
-  acid sequences.
-home_url: https://www.drive5.com/muscle/
-identifiers:
-- bioagents:muscle
-- doi:10.1093/nar/gkh340
-- doi:10.7490/f1000research.1114334.1
-- doi:10.1186/1471-2105-5-113
-keywords:
-- Cluster Analysis
-- Computational Biology
-- Phylogeny
-- Sequence Alignment
-- Software Design
-- Time Factors
-- Sequence analysis
-license: Other
-manually_check: true
-name: muscle
-total_pulls: 4918
+version https://git-lfs.github.com/spec/v1
+oid sha256:84c03d0f4da0fcf0fa0cc6a5d66f635753ead34005232da8d24075807ccfbefd
+size 475

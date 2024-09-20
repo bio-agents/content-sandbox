@@ -1,19 +1,3 @@
-description: Provides code for generating annotation packages and their databases.
-  packages produced are intended to be used with annotationdbi.
-home_url: http://bioconductor.org/packages/release/bioc/html/AnnotationForge.html
-identifiers:
-- bioagents:annotationforge
-- doi:10.1038/nmeth.3252
-keywords:
-- Computational Biology
-- Gene Expression Profiling
-- Genomics
-- High-Throughput Screening Assays
-- Programming Languages
-- User-Computer Interface
-- Data integration and warehousing
-- Database management
-license: Artistic-2.0
-manually_check: true
-name: bioconductor-annotationforge
-total_pulls: 3
+version https://git-lfs.github.com/spec/v1
+oid sha256:73977ab0f8d63c0921eb9f31c1ac1582cd5faded5fcd6826a86bec582f676b34
+size 603

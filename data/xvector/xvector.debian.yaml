@@ -1,12 +1,3 @@
-description: This BioConductor package provides memory efficient S4 classes for storing
-  sequences "externally" (behind an R external pointer, or on disk).
-edam:
-  topics: null
-  version: unknown
-homepage: https://bioconductor.org/packages/XVector/
-identifiers:
-  bioconda: bioconductor-xvector
-  bioagents: xvector
-  debian: r-bioc-xvector
-summary: BioConductor representation and manpulation of external sequences
-version: 0.30.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:14756dbc6c74700621e2cf866ed2ba678c27608744371fa376c90a25706ee10d
+size 433

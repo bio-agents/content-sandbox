@@ -1,22 +1,3 @@
-description: For ngs experiments using unique molecular identifiers (umis), molecules
-  that are lost entirely during sequencing cause under- estimation of the molecule
-  count, and amplification artifacts like pcr chimeras cause over-estimation. trumicount
-  corrects umi data for both types of errors, thus improving the accuracy of measured
-  molecule counts considerably.
-home_url: https://github.com/Cibiv/trumicount
-identifiers:
-- bioagents:trumicount
-- doi:10.1093/bioinformatics/bty283
-keywords:
-- High-Throughput Nucleotide Sequencing
-- Polymerase Chain Reaction
-- RNA
-- Sequence Analysis, RNA
-- Sequencing
-- RNA-seq
-- Biomarkers
-- RNA-Seq
-license: AGPL-3
-manually_check: true
-name: trumicount
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:074f83aa4df1f3bd675cbf11d7698c8491b3ae2d5fd7499a4e40346ce0e7b152
+size 718

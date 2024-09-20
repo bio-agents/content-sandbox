@@ -1,29 +1,3 @@
-softwares:
-  PyMol-Jupyter:
-    labels:
-      about.documentation: http://github.com/ocramz/jupyter-docker-pymol
-      about.home: http://github.com/ocramz/jupyter-docker-pymol
-      about.license: SPDX:MIT
-      about.license_file: https://github.com/ocramz/jupyter-docker-pymol/blob/master/LICENSE
-      about.summary: a portable way of interacting with PyMol via Jupyter notebook
-      about.tags: Proteomics
-      base_image: biocontainers:v1.0.0_cv4
-      software: PyMol-Jupyter
-      software.version: 1.0.0
-      version: '2'
-    software: PyMol-Jupyter
-    versions:
-    - labels:
-        about.documentation: http://github.com/ocramz/jupyter-docker-pymol
-        about.home: http://github.com/ocramz/jupyter-docker-pymol
-        about.license: SPDX:MIT
-        about.license_file: https://github.com/ocramz/jupyter-docker-pymol/blob/master/LICENSE
-        about.summary: a portable way of interacting with PyMol via Jupyter notebook
-        about.tags: Proteomics
-        base_image: biocontainers:v1.0.0_cv4
-        software: PyMol-Jupyter
-        software.version: 1.0.0
-        version: '2'
-      type: Container file
-      url: biocontainers/PyMol-Jupyter:1.0.0-2
-      version: 1.0.0-2
+version https://git-lfs.github.com/spec/v1
+oid sha256:e817e7b70372eb31776ff3212545d4e3d225a471acde0228db8f28718ba72551
+size 1201

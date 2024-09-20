@@ -1,15 +1,3 @@
-bioagents_id: simbindprofiles
-description: SimBindProfiles identifies common and unique binding regions in genome
-  tiling array data. This package does not rely on peak calling, but directly compares
-  binding profiles processed on the same array platform. It implements a simple threshold
-  approach, thus allowing retrieval of commonly and differentially bound regions between
-  datasets as well as events of compensation and increased binding.
-home: https://bioconductor.org/packages/3.12/bioc/html/SimBindProfiles.html
-identifiers:
-- bioagents:simbindprofiles
-- doi:10.1038/nmeth.3252
-license: GPL-3
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-simbindprofiles
-summary: Similar Binding Profiles
-version: 1.28.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:284bdc10c6923f8fdfaaba9d371313c7a72ba6a33e75340b51fae595b39317da
+size 732

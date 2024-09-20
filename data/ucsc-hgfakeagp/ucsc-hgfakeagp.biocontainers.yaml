@@ -1,21 +1,3 @@
-description: Create fake AGP file by looking at N's
-home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
-identifiers:
-- doi:10.1093/bioinformatics/btq351
-- doi:10.1101/gr.229102
-- bioagents:UCSC_Genome_Browser_Utilities
-keywords:
-- California
-- Database Management Systems
-- Databases, Genetic
-- Gene Expression
-- Genes
-- Genome, Human
-- Humans
-- RNA, Messenger
-- Sequence Homology, Nucleic Acid
-- Universities
-license: Custom License
-manually_check: true
-name: ucsc-hgfakeagp
-total_pulls: 34
+version https://git-lfs.github.com/spec/v1
+oid sha256:0895f5f786bf453b09a2e9a2c84dc19ee329f6cfe7ff91a460a98bb60b4bc432
+size 492

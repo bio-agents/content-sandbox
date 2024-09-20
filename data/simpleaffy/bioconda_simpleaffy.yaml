@@ -1,14 +1,3 @@
-bioagents_id: simpleaffy
-description: Provides high level functions for reading Affy .CEL files, phenotypic
-  data, and then computing simple things with it, such as t-tests, fold changes and
-  the like. Makes heavy use of the affy library. Also has some basic scatter plot
-  functions and mechanisms for generating high resolution journal figures...
-home: https://bioconductor.org/packages/3.12/bioc/html/simpleaffy.html
-identifiers:
-- bioagents:simpleaffy
-- doi:10.1093/bioinformatics/bti605
-license: GPL (>= 2)
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-simpleaffy
-summary: Very simple high level analysis of Affymetrix data
-version: 2.66.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:8c8304278a8a38aeefa2c561c4fa3d70df0f1242c4a6828e4bb0f63edff852ef
+size 662

@@ -1,21 +1,3 @@
-description: This package extends flowcore to provide functionality specific to bead
-  data. one of the goals of this package is to automate analysis of bead data for
-  the purpose of normalisation.
-home_url: http://bioconductor.org/packages/release/bioc/html/flowBeads.html
-identifiers:
-- bioagents:flowbeads
-- doi:10.1038/nmeth.3252
-keywords:
-- Computational Biology
-- Gene Expression Profiling
-- Genomics
-- High-Throughput Screening Assays
-- Programming Languages
-- User-Computer Interface
-- Laboratory techniques
-- Data management
-- Biophysics
-license: Artistic-2.0
-manually_check: true
-name: bioconductor-flowbeads
-total_pulls: 3
+version https://git-lfs.github.com/spec/v1
+oid sha256:6806759c67cc66d6ce09f669afecb45c7fbd9e0812bcf77706ad8da36d157bc2
+size 635

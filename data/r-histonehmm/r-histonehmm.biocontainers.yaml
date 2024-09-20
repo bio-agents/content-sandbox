@@ -1,11 +1,3 @@
-description: histoneHMM is a software to analyse ChIP-seq data of histone modifications
-  with broad genomic footprints like H3K27me3. It allows for calling modified regions
-  in single samples as well as for calling differentially modified regions in a comparison
-  of two samples
-home_url: http://histonehmm.molgen.mpg.de/
-identifiers: []
-keywords: []
-license: GPL
-manually_check: true
-name: r-histonehmm
-total_pulls: 3
+version https://git-lfs.github.com/spec/v1
+oid sha256:8be49aebd1771d375a44fa21cca89894515e0ff06d0dfd5bf13434f39953fb72
+size 422

@@ -1,35 +1,3 @@
-softwares:
-  danpos:
-    labels:
-      about.documentation: https://sites.google.com/site/danposdoc/home
-      about.home: https://sites.google.com/site/danposdoc/news
-      about.license: GPL-3.0
-      about.license_file: http://www.gnu.org/licenses/gpl-3.0.txt
-      about.summary: A agentkit for Dynamic Analysis of Nucleosome and Protein Occupancy
-        by Sequencing
-      about.tags: nucleosome
-      base_image: ubuntu:xenial
-      extra.binaries: danpos.py
-      extra.identifier.bioagents: https://bio.agents/danpos
-      software: danpos
-      software.version: 2.2.2
-      version: '3'
-    software: danpos
-    versions:
-    - labels:
-        about.documentation: https://sites.google.com/site/danposdoc/home
-        about.home: https://sites.google.com/site/danposdoc/news
-        about.license: GPL-3.0
-        about.license_file: http://www.gnu.org/licenses/gpl-3.0.txt
-        about.summary: A agentkit for Dynamic Analysis of Nucleosome and Protein Occupancy
-          by Sequencing
-        about.tags: nucleosome
-        base_image: ubuntu:xenial
-        extra.binaries: danpos.py
-        extra.identifier.bioagents: https://bio.agents/danpos
-        software: danpos
-        software.version: 2.2.2
-        version: '3'
-      type: Container file
-      url: biocontainers/danpos:2.2.2-3
-      version: 2.2.2-3
+version https://git-lfs.github.com/spec/v1
+oid sha256:0e15cb998fb3e3dd892484c5cc2f8497830c52fdda4e5095d2938b6c076b3742
+size 1330

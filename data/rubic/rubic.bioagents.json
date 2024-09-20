@@ -1,26 +1,3 @@
-{
-    "additionDate": "2021-04-22T14:45:22Z",
-    "bioagentsCURIE": "bioagents:rubic",
-    "bioagentsID": "rubic",
-    "description": "RUBIC detects recurrent copy number aberrations using copy number breaks, rather than recurrently amplified or deleted regions. This allows for a vastly simplified approach as recursive peak splitting procedures and repeated re-estimation of the background model are avoided. Furthermore, the false discovery rate is controlled on the level of called regions, rather than at the probe level.",
-    "editPermission": {
-        "type": "private"
-    },
-    "function": [
-        {
-            "operation": [
-                {
-                    "term": "Complex CNV detection",
-                    "uri": "http://edamontology.org/operation_3964"
-                }
-            ]
-        }
-    ],
-    "homepage": "https://github.com/NKI-CCB/RUBIC",
-    "lastUpdate": "2021-04-22T14:45:22Z",
-    "name": "rubic",
-    "owner": "leipzig",
-    "version": [
-        "v1.0.3"
-    ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:386d8b41d23229d4b08cb8bff7341d5eb35cc0d8eafaa0dd025951798fcabd9b
+size 1010

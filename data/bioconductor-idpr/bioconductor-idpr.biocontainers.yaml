@@ -1,14 +1,3 @@
-description: idpr aims to integrate agents for the computational analysis of intrinsically
-  disordered proteins (IDPs) within R. This package is used to identify known characteristics
-  of IDPs for a sequence of interest with easily reported and dynamic results. Additionally,
-  this package includes agents for IDP-based sequence analysis to be used in conjunction
-  with other R packages.
-home_url: https://bioconductor.org/packages/3.12/bioc/html/idpr.html
-identifiers:
-- doi:10.18129/b9.bioc.idpr
-keywords:
-- Proteomics
-license: LGPL-3.0
-manually_check: true
-name: bioconductor-idpr
-total_pulls: 366
+version https://git-lfs.github.com/spec/v1
+oid sha256:59a7ef543fb19b51e93cb9ad6227018d5becbdf068e5a78167b335b1195edd4b
+size 605

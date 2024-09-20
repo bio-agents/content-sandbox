@@ -1,13 +1,3 @@
-bioagents_id: rsamagents
-description: This package provides an interface to the 'samagents', 'bcfagents', and
-  'tabix' utilities for manipulating SAM (Sequence Alignment / Map), FASTA, binary
-  variant call (BCF) and compressed indexed tab-delimited (tabix) files.
-home: https://bioconductor.org/packages/3.12/bioc/html/Rsamagents.html
-identifiers:
-- bioagents:rsamagents
-- doi:10.1038/nmeth.3252
-license: Artistic-2.0 | file LICENSE
-license_file: LICENSE
-name: bioconductor-rsamagents
-summary: Binary alignment (BAM), FASTA, variant call (BCF), and tabix file import
-version: 2.6.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:defdcf0de69868c75e68e8fc473340f7ef431e426f6ce70b96ef71ddf8836069
+size 584

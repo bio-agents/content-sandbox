@@ -1,18 +1,3 @@
-description: This agent analyzes cell-based rnai screens, including quality assessment,
-  customizable normalization and statistical tests, leading to lists of significant
-  genes and biological processes.
-home_url: http://bioconductor.org/packages/release/bioc/html/RNAither.html
-identifiers:
-- bioagents:rnaither
-- doi:10.1093/bioinformatics/btp014
-keywords:
-- Computational Biology
-- Data Interpretation, Statistical
-- Gene Expression Profiling
-- RNA Interference
-- RNA, Small Interfering
-- Computer science
-license: Artistic-2.0
-manually_check: true
-name: bioconductor-rnaither
-total_pulls: 17
+version https://git-lfs.github.com/spec/v1
+oid sha256:dddbac5a9c0ffbe31b2a6d02acee0366a2759818c6650c1087841f0e109938a7
+size 598

@@ -1,22 +1,3 @@
-description: Agents to analyze genomic sequencing data from paired normal-tumor samples,
-  including cellularity and ploidy estimation; mutation and copy number (allele-specific
-  and total copy number) detection, quantification and visualization.
-home_url: https://bitbucket.org/sequenzaagents/
-identifiers:
-- doi:10.1093/annonc/mdu479
-keywords:
-- Alleles
-- Base Sequence
-- DNA Copy Number Variations
-- Exome
-- Gene Dosage
-- High-Throughput Nucleotide Sequencing
-- Humans
-- Mutation
-- Neoplasms
-- Polymorphism, Single Nucleotide
-- Sequence Analysis, DNA
-license: GPL-3
-manually_check: true
-name: r-sequenza
-total_pulls: 3
+version https://git-lfs.github.com/spec/v1
+oid sha256:883a292b7eb6509095640be91f50c4e1ca769cffc90bcda347c134f5cda57af5
+size 623

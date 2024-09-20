@@ -1,13 +1,3 @@
-description: dig2 is a simple but flexible in silico digester of protein sequences
-  in the FASTA format. It allows for almost any enzyme to be simulated, including
-  MS/MS enzymes to generate CID or ECD/ETD fragments.
-home_url: http://www.ms-utils.org/dig2/dig2.html
-identifiers:
-- bioagents:dig2
-keywords:
-- Proteomics
-- Protein Sequences
-license: GPL-3.0
-manually_check: true
-name: dig2
-total_pulls: 36
+version https://git-lfs.github.com/spec/v1
+oid sha256:66f9d193c3598999ffd06dc3a68e173d7e7746dd6643abf1c4de8565f4569718
+size 406

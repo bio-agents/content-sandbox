@@ -1,13 +1,3 @@
-description: Rnacode - analyze the protein coding potential in multiple sequence alignments
-  rnacode relies on evolutionary signatures including synonymous/conservative mutations
-  and conservation of the reading frame. it does not use any species specific sequence
-  characteristics whatsoever and does not use any machine learning techniques.
-home_url: https://github.com/ViennaRNA/RNAcode
-identifiers:
-- doi:10.1261/rna.2536111
-keywords:
-- Sequence Alignment
-license: Not available
-manually_check: true
-name: rnacode
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:376716345dbb692e64cb85d0966910098da84f11a4318f77ab27b93b741bacff
+size 536

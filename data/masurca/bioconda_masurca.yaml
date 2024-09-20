@@ -1,17 +1,3 @@
-bioagents_id: masurca
-home: http://masurca.blogspot.co.uk/
-identifiers:
-- bioagents:masurca
-- doi:10.1093/bioinformatics/btt476
-license: GPL-3.0-only
-license_family: GPL
-license_file: LICENSE.txt
-name: masurca
-summary: 'MaSuRCA (Maryland Super-Read Celera Assembler) genome assembly software.
-
-  MaSuRCA requires Illumina data, and supports third-generation PacBio/Nanopore
-
-  MinION reads for hybrid assembly.
-
-  '
-version: 3.4.2
+version https://git-lfs.github.com/spec/v1
+oid sha256:5ad2991fbd15dc7542613783aae06c53bf5c54ccfaa470d062b39216244322f1
+size 431

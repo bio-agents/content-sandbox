@@ -1,11 +1,3 @@
-description: The NHMMfdr package implements the non-homogeneous Hidden Markov Model
-  based FDR control as described in Kuan et al., 2011 for multiple comparison adjustment
-  under dependence. It allows for prior information to be incorporated in the model
-  to improve detection of significant tests.
-home_url: http://www.ams.sunysb.edu/~pfkuan/NHMMfdr/
-identifiers: []
-keywords: []
-license: GPL (>= 2)
-manually_check: true
-name: r-nhmmfdr
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:7e8ac23d9d1728a08dbea0e982a88e471d82e501014ef6ab300b6e319ad8359b
+size 456

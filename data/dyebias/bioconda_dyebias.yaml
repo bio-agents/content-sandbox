@@ -1,16 +1,3 @@
-bioagents_id: dyebias
-description: Many two-colour hybridizations suffer from a dye bias that is both gene-specific
-  and slide-specific. The former depends on the content of the nucleotide used for
-  labeling; the latter depends on the labeling percentage. The slide-dependency was
-  hitherto not recognized, and made addressing the artefact impossible.  Given a reasonable
-  number of dye-swapped pairs of hybridizations, or of same vs. same hybridizations,
-  both the gene- and slide-biases can be estimated and corrected using the GASSCO
-  method (Margaritis et al., Mol. Sys. Biol. 5:266 (2009), doi:10.1038/msb.2009.21)
-home: https://bioconductor.org/packages/3.12/bioc/html/dyebias.html
-identifiers:
-- bioagents:dyebias
-license: GPL-3
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-dyebias
-summary: The GASSCO method for correcting for slide-dependent gene-specific dye bias
-version: 1.50.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:732e9624012e13288df9194b49de5eeeb86f636352207b6525c7f8567764938c
+size 912

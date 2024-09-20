@@ -1,25 +1,3 @@
-description: A simple agent developed to compare, globally, all MS/MS spectra between
-  two datasets (in Mascot Generic Format or MGF).
-home_url: http://www.ms-utils.org/compareMS2.html
-identifiers:
-- bioagents:comparems2
-- doi:10.1002/rcm.6162
-- doi:10.1002/rcm.7494
-keywords:
-- Animals
-- Biomarkers
-- Chromatography, Liquid
-- Humans
-- Molecular Biology
-- Phylogeny
-- Mass Spectrometry
-- Proteomics
-- Metabolomics
-- Proteomics experiment
-- Mass spectra
-- Phylogenetics
-- Genetics
-license: GPL-3.0
-manually_check: true
-name: comparems2
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:61b560a74ad3d0ce32bee2c55e871f13f3d2e543314ba1ff31a640a9ba578fec
+size 551

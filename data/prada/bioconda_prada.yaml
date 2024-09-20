@@ -1,12 +1,3 @@
-bioagents_id: prada
-description: Agents for analysing and navigating data from high-throughput phenotyping
-  experiments based on cellular assays and fluorescent detection (flow cytometry (FACS),
-  high-content screening microscopy).
-home: https://bioconductor.org/packages/3.10/bioc/html/prada.html
-identifiers:
-- bioagents:prada
-license: LGPL
-license_file: /lib/R/share/licenses/LGPL-3
-name: bioconductor-prada
-summary: Data analysis for cell-based functional assays
-version: 1.62.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:7f49ad1b968c81ff52bf0cd88f96cbea5350c80b1aa2b4a5fc0befe2fce8bf7e
+size 485

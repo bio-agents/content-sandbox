@@ -1,36 +1,3 @@
-{
-    "additionDate": "2021-01-18T11:37:05Z",
-    "bioagentsCURIE": "bioagents:uemtomaton",
-    "bioagentsID": "uemtomaton",
-    "confidence_flag": "agent",
-    "description": "A Source-Available Platform to Aid in Start-up of Ultrafast Electron Microscopy Labs.\n\nAutomation framework for conducting ultrafast electron microscopy experiments. This project is best understood while using Visual Studio (2019).",
-    "editPermission": {
-        "type": "private"
-    },
-    "homepage": "https://github.com/CEMSFlannigan/UEMtomaton/releases/tag/v1.0",
-    "language": [
-        "C++"
-    ],
-    "lastUpdate": "2021-03-06T14:49:38Z",
-    "name": "UEMtomaton",
-    "owner": "zsmag19",
-    "publication": [
-        {
-            "doi": "10.26434/CHEMRXIV.13160717.V1"
-        }
-    ],
-    "topic": [
-        {
-            "term": "Electron microscopy",
-            "uri": "http://edamontology.org/topic_0611"
-        },
-        {
-            "term": "Physics",
-            "uri": "http://edamontology.org/topic_3318"
-        },
-        {
-            "term": "Probes and primers",
-            "uri": "http://edamontology.org/topic_0632"
-        }
-    ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:42ddbfdec6e70249c4edf619764118f628e55efa711553d30036b0b169aaa362
+size 1150

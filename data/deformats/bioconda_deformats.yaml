@@ -1,12 +1,3 @@
-bioagents_id: deformats
-description: Convert between different data formats used by differential gene expression
-  analysis agents.
-home: https://bioconductor.org/packages/3.12/bioc/html/DEFormats.html
-identifiers:
-- bioagents:deformats
-- doi:10.1038/nmeth.3252
-license: GPL-3
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-deformats
-summary: Differential gene expression data formats converter
-version: 1.18.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:b5b2ed9c3f2033d7f8aaa4b9edd53f7662d35a5bd30675cf33a503cff07304b8
+size 425

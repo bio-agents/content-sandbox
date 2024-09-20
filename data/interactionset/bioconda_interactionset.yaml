@@ -1,12 +1,3 @@
-bioagents_id: interactionset
-description: Provides the GInteractions, InteractionSet and ContactMatrix objects
-  and associated methods for storing and manipulating genomic interaction data from
-  Hi-C and ChIA-PET experiments.
-home: https://bioconductor.org/packages/3.12/bioc/html/InteractionSet.html
-identifiers:
-- bioagents:interactionset
-license: GPL-3
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-interactionset
-summary: Base Classes for Storing Genomic Interaction Data
-version: 1.18.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:aae34775e63a4b187965bee7b56385c4f174aa063dde61289375fde70518f0f6
+size 509

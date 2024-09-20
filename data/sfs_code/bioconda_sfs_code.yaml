@@ -1,18 +1,3 @@
-bioagents_id: sfs_code
-home: http://sfscode.sourceforge.net/SFS_CODE/index/index.html
-identifiers:
-- bioagents:sfs_code
-- doi:10.1093/bioinformatics/btn522
-license: file
-license_file: doc/LICENSE.txt
-name: sfs_code
-summary: "This article introduces a new forward population genetic simulation program\
-  \ that can efficiently generate samples from populations with complex demographic\
-  \ histories under various models of natural selection. The program (SFS_CODE) is\
-  \ highly flexible, allowing the user to simulate realistic genomic regions with\
-  \ several loci evolving according to a variety of mutation models (from simple to\
-  \ context-dependent), and allows for insertions and deletions. Each locus can be\
-  \ annotated as either coding or non-coding, sex-linked or autosomal, selected or\
-  \ neutral, and have an arbitrary linkage structure (from completely linked to independent).\
-  \ \xA9 The Author 2008. Published by Oxford University Press. All rights reserved."
-version: 20150910
+version https://git-lfs.github.com/spec/v1
+oid sha256:b1da47cd4c6760847aba059648b5a5c1ec8e59982b47a467ebc51e806868daa9
+size 1006

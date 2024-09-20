@@ -1,25 +1,3 @@
-description: Markov chain monte carlo software for simultaneous bayesian estimation
-  of alignment and phylogeny (and other parameters). it handles generic bayesian modeling
-  via probabilistic programming.
-home_url: http://www.bali-phy.org/
-identifiers:
-- bioagents:bali-phy
-- doi:10.1093/bioinformatics/btl175
-- doi:10.1080/10635150590947041
-- doi:10.1186/1471-2148-7-40
-- doi:10.1093/molbev/msu174
-keywords:
-- Bayes Theorem
-- Markov Chains
-- Models, Genetic
-- Models, Statistical
-- Mutation
-- Phylogeny
-- Selection, Genetic
-- Phylogenetics
-- Sequence analysis
-- Sequence Alignment
-license: GPL-2.0+
-manually_check: true
-name: bali-phy
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:6bd4f1025c99b89249f958d1df5c4285cd540601f1eb46721d5cf6b715c7e502
+size 653

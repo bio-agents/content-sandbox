@@ -1,18 +1,3 @@
-description: Base image for biodocker
-home_url: https://github.com/Biocontainers
-identifiers:
-- bioagents:biocontainers
-- doi:10.1093/bioinformatics/btx192
-keywords:
-- Computational Biology
-- Genomics
-- Metabolomics
-- Proteomics
-- Bioinformatics
-- Cheminformatics
-- Laboratory information management
-- Data management
-license: Apache-2.0
-manually_check: true
-name: biocontainers
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:e84c9ab37fafbed9dee3939c248c2287adc278a082b458a0c72123bbbb9d5af4
+size 394

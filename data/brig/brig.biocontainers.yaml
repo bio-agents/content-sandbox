@@ -1,18 +1,3 @@
-description: Brig is a cross-platform (windows/mac/unix) application that can display
-  circular comparisons between a large number of genomes, with a focus on handling
-  genome assembly data.
-home_url: http://brig.sourceforge.net/
-identifiers:
-- bioagents:brig
-- doi:10.1186/1471-2164-12-402
-keywords:
-- Computer Graphics
-- Genome, Archaeal
-- Genome, Bacterial
-- Genomics
-- User-Computer Interface
-- Comparative genomics
-license: GPL-3.0+
-manually_check: true
-name: brig
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:04d96387655dd96d7ca3dd684275885c5c4d6d8253869bc5a309179c14a5aded
+size 487

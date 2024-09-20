@@ -1,13 +1,3 @@
-bioagents_id: biovizbase
-description: The biovizBase package is designed to provide a set of utilities, color
-  schemes and conventions for genomic data. It serves as the base for various high-level
-  packages for biological data visualization. This saves development effort and encourages
-  consistency.
-home: https://bioconductor.org/packages/3.12/bioc/html/biovizBase.html
-identifiers:
-- bioagents:biovizbase
-- doi:10.1038/nmeth.3252
-license: Artistic-2.0
-name: bioconductor-biovizbase
-summary: Basic graphic utilities for visualization of genomic data.
-version: 1.38.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:610f23e6f6a1b10fa80538b6c0e485c2ed617bb328e6f87caff5b5082c00a15f
+size 573

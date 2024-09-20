@@ -1,22 +1,3 @@
-description: Detonate (de novo transcriptome rna-seq assembly with or without the
-  truth evaluation) consists of two component packages, rsem-eval and ref-eval.
-home_url: https://github.com/deweylab/detonate
-identifiers:
-- bioagents:detonate
-- doi:10.1186/s13059-014-0553-5
-keywords:
-- Animals
-- Computational Biology
-- Computer Simulation
-- Gene Expression Profiling
-- Sequence Analysis, RNA
-- Transcriptome
-- RNA
-- Assembly
-- RNA-seq
-- Sequences
-- RNA-Seq
-license: GPL
-manually_check: true
-name: detonate
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:7beb6fa36ae64798f236c1a018c8a4115f3fd3eb256ef4e08181686bba2f1853
+size 523

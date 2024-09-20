@@ -1,11 +1,3 @@
-bioagents_id: similarpeak
-description: This package calculates metrics which assign a level of similarity between
-  ChIP-Seq profiles.
-home: https://bioconductor.org/packages/3.12/bioc/html/similaRpeak.html
-identifiers:
-- bioagents:similarpeak
-- doi:10.1371/journal.pcbi.1004751
-license: Artistic-2.0
-name: bioconductor-similarpeak
-summary: Metrics to estimate a level of similarity between two ChIP-Seq profiles
-version: 1.22.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:9aadf274a7fc919c10ecab4b6ddb4f139aefc809a0d3084919c1f9137a482c4a
+size 429

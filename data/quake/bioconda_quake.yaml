@@ -1,11 +1,3 @@
-bioagents_id: quake
-home: http://www.cbcb.umd.edu/software/quake/
-identifiers:
-- doi:10.1186/gb-2010-11-11-r116
-- bioagents:quake
-license: Artistic-2.0
-license_file: LICENSE
-name: quake
-summary: Quake is a package to correct substitution sequencing errors in experiments
-  with deep coverage (e.g. >15X), specifically intended for Illumina sequencing reads
-version: 0.3.5
+version https://git-lfs.github.com/spec/v1
+oid sha256:ecf8f59e67dda2d45c4cb74b7db228b025f8423203e9abccbd30e44b544b4c77
+size 372

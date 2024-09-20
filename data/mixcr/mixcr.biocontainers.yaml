@@ -1,22 +1,3 @@
-description: MiXCR is a universal framework that processes big immunome data from
-  raw sequences to quantitated clonotypes. MiXCR efficiently handles paired- and single-end
-  reads, considers sequence quality, corrects PCR errors and identifies germline hypermutations.
-  The software supports both partial- and full-length profiling and employs all available
-  RNA or DNA information, including sequences upstream of V and downstream of J gene
-  segments.
-home_url: https://github.com/milaboratory/mixcr
-identifiers:
-- doi:10.1038/nmeth.3364
-keywords:
-- Adaptive Immunity
-- Animals
-- DNA
-- Gene Expression Regulation
-- Humans
-- Mice
-- RNA
-- RNA-Seq
-license: Free for Academics
-manually_check: true
-name: mixcr
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:b2c93b41eb9aca5a01cd3c47bec1b93a4a3f04a111ae1ae9dffcc813f13f49ae
+size 727

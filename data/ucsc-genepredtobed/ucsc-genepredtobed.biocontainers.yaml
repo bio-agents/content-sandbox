@@ -1,21 +1,3 @@
-description: Convert from genePred to bed format. Does not yet handle genePredExt
-home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
-identifiers:
-- doi:10.1093/bioinformatics/btq351
-- doi:10.1101/gr.229102
-- bioagents:UCSC_Genome_Browser_Utilities
-keywords:
-- California
-- Database Management Systems
-- Databases, Genetic
-- Gene Expression
-- Genes
-- Genome, Human
-- Humans
-- RNA, Messenger
-- Sequence Homology, Nucleic Acid
-- Universities
-license: Custom License
-manually_check: true
-name: ucsc-genepredtobed
-total_pulls: 30
+version https://git-lfs.github.com/spec/v1
+oid sha256:0850cf499cd1c6014837fe5007a9ba87b7b43b19319ab544b0b16f4d64da39d3
+size 526

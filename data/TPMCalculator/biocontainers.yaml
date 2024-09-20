@@ -1,31 +1,3 @@
-softwares:
-  TPMCalculator:
-    labels:
-      about.documentation: https://github.com/ncbi/TPMCalculator
-      about.home: https://github.com/ncbi/TPMCalculator
-      about.license_file: https://github.com/ncbi/TPMCalculator/blob/master/LICENSE
-      about.summary: This program calculates the TPM (Transcript per Millions) values
-        for the exons and introns from NGS RNA-Seq aligned reads (BAM files)
-      about.tags: RNA-seq
-      base_image: biocontainers:v1.0.0_cv4
-      extra.binaries: TPMCalculator
-      software: TPMCalculator
-      software.version: 0.0.1
-      version: '5'
-    software: TPMCalculator
-    versions:
-    - labels:
-        about.documentation: https://github.com/ncbi/TPMCalculator
-        about.home: https://github.com/ncbi/TPMCalculator
-        about.license_file: https://github.com/ncbi/TPMCalculator/blob/master/LICENSE
-        about.summary: This program calculates the TPM (Transcript per Millions) values
-          for the exons and introns from NGS RNA-Seq aligned reads (BAM files)
-        about.tags: RNA-seq
-        base_image: biocontainers:v1.0.0_cv4
-        extra.binaries: TPMCalculator
-        software: TPMCalculator
-        software.version: 0.0.1
-        version: '5'
-      type: Container file
-      url: biocontainers/TPMCalculator:0.0.1-5
-      version: 0.0.1-5
+version https://git-lfs.github.com/spec/v1
+oid sha256:496cf942b7d72a87595b78e56477793d8323cd96efd33c6ab2e81b2444a2174b
+size 1319

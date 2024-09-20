@@ -1,24 +1,3 @@
-description: A gene recommender algorithm to identify genes coexpressed with a query
-  set of genes
-home_url: https://bioconductor.org/packages/3.11/bioc/html/geneRecommender.html
-identifiers:
-- bioagents:generecommender
-- doi:10.1101/gr.1125403
-keywords:
-- Animals
-- Caenorhabditis elegans
-- Computational Biology
-- DNA, Helminth
-- Databases, Genetic
-- Gene Expression Profiling
-- Gene Expression Regulation
-- Genes, Helminth
-- Genes, Retinoblastoma
-- Oligonucleotide Array Sequence Analysis
-- RNA Interference
-- Genetics
-- Clustering
-license: GPL (>= 2)
-manually_check: true
-name: bioconductor-generecommender
-total_pulls: 5
+version https://git-lfs.github.com/spec/v1
+oid sha256:e559eb2224e6312fa92bb8682d63842c64b1542d0b903a3c428497fcd24cb3c3
+size 627

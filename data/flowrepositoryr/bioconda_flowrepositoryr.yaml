@@ -1,12 +1,3 @@
-bioagents_id: flowrepositoryr
-description: This package provides an interface to search and download data and annotations
-  from FlowRepository (flowrepository.org). It uses the FlowRepository programming
-  interface to communicate with a FlowRepository server.
-home: https://bioconductor.org/packages/3.12/bioc/html/FlowRepositoryR.html
-identifiers:
-- bioagents:flowrepositoryr
-- doi:10.1002/cyto.a.22106
-license: Artistic-2.0
-name: bioconductor-flowrepositoryr
-summary: FlowRepository R Interface
-version: 1.22.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:5433525126266c0d6ed79d25750431bcd9d45b8a594156af827b21548c2605b9
+size 515

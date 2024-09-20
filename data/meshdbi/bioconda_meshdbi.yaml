@@ -1,11 +1,3 @@
-bioagents_id: meshdbi
-description: The package is unified implementation of MeSH.db, MeSH.AOR.db, and MeSH.PCR.db
-  and also is interface to construct Gene-MeSH package (MeSH.XXX.eg.db). loadMeSHDbiPkg
-  import sqlite file and generate MeSH.XXX.eg.db.
-home: https://bioconductor.org/packages/3.12/bioc/html/MeSHDbi.html
-identifiers:
-- bioagents:meshdbi
-license: Artistic-2.0
-name: bioconductor-meshdbi
-summary: DBI to construct MeSH-related package from sqlite file
-version: 1.26.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:c9a9b8eda0f8c71d59109a83ec9ffcd74b18cbb0651ef646a87b439140ef1dd9
+size 482

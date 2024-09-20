@@ -1,13 +1,3 @@
-description: Multiqc plugin for bcbio report visualization.
-home_url: https://github.com/ewels/MultiQC
-identifiers:
-- doi:10.1093/bioinformatics/btw354
-keywords:
-- Computational Biology
-- High-Throughput Nucleotide Sequencing
-- Quality Control
-- RNA-Seq
-license: GNU General Public License v3.0
-manually_check: true
-name: multiqc-bcbio
-total_pulls: 3
+version https://git-lfs.github.com/spec/v1
+oid sha256:b1251ac580880587d95f2cbdc5ab16a57572537dfb6cd5a4bdfb94880203f420
+size 351

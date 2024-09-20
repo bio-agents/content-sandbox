@@ -1,13 +1,3 @@
-bioagents_id: hem
-description: This package fits heterogeneous error models for analysis of microarray
-  data
-home: https://bioconductor.org/packages/3.12/bioc/html/HEM.html
-identifiers:
-- bioagents:hem
-- doi:10.1093/bioinformatics/bth192
-license: GPL (>= 2)
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-hem
-summary: Heterogeneous error model for identification of differentially expressed
-  genes under multiple conditions
-version: 1.62.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:41b47d8c43d15d39c7ed17581f0c0d6b29fa6d0b6170bac0cac56f00cfea3033
+size 456

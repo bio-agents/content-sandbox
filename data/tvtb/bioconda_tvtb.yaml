@@ -1,14 +1,3 @@
-bioagents_id: tvtb
-description: The package provides S4 classes and methods to filter, summarise and
-  visualise genetic variation data stored in VCF files. In particular, the package
-  extends the FilterRules class (S4Vectors package) to define news classes of filter
-  rules applicable to the various slots of VCF objects. Functionalities are integrated
-  and demonstrated in a Shiny web-application, the Shiny Variant Explorer (tSVE).
-home: https://bioconductor.org/packages/3.12/bioc/html/TVTB.html
-identifiers:
-- bioagents:tvtb
-- doi:10.1038/nmeth.3252
-license: Artistic-2.0
-name: bioconductor-tvtb
-summary: 'TVTB: The VCF Agent Box'
-version: 1.16.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:19361954b9377ea6c687c8ffc21740a8c530823063529d4e05a4eab83ad9bd5c
+size 655

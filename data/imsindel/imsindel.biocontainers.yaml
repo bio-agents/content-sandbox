@@ -1,21 +1,3 @@
-description: An accurate intermediate-size indel detection agent incorporating de novo
-  assembly and gapped global-local alignment with split read analysis
-home_url: https://github.com/NCGG-MGC/IMSindel
-identifiers:
-- bioagents:imsindel
-- doi:10.1038/s41598-018-23978-z
-keywords:
-- Cell Line, Tumor
-- Computational Biology
-- DNA
-- Genome, Human
-- Humans
-- INDEL Mutation
-- Whole Exome Sequencing
-- Sequence assembly
-- Mapping
-- Sequence analysis
-license: MIT
-manually_check: true
-name: imsindel
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:b87891db5894f50f30773f6edd362512cdc8980a347681ce239866372a6fe165
+size 511

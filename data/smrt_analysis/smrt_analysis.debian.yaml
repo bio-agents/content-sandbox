@@ -1,18 +1,3 @@
-description: "SMRT\xAE Analysis is a powerful, open-source bioinformatics software\
-  \ suite available for analysis of DNA sequencing data from Pacific Biosciences\u2019\
-  \ SMRT technology. Users can choose from a variety of analysis protocols that utilize\
-  \ PacBio\xAE and third-party agents. Analysis protocols include de novo genome assembly,\
-  \ cDNA mapping, DNA base-modification detection, and long-amplicon analysis to determine\
-  \ phased consensus sequences. . This is a metapackage that depends on the components\
-  \ of SMRT Analysis."
-edam:
-  topics: null
-  version: unknown
-homepage: https://www.pacb.com/products-and-services/analytical-software/smrt-analysis/
-identifiers:
-  bioagents: smrt_analysis
-  debian: smrtanalysis
-  omicagents: OMICS_05142
-  scicrunch: SCR_002942
-summary: software suite for single molecule, real-time sequencing
-version: 0~20200227
+version https://git-lfs.github.com/spec/v1
+oid sha256:e86bd9d8e6d79706e00f2d80ae7f90214d78a877b8ef9bc9fa8aede9edb094ea
+size 883

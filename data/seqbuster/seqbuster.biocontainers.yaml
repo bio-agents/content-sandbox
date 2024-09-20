@@ -1,21 +1,3 @@
-description: Seqbuster, a web-based bioinformatic agent offering a custom analysis
-  of deep sequencing data at different levels, with special emphasis on the analysis
-  of mirna variants or isomirs and the discovering of new small rnas.
-home_url: https://github.com/lpantano/seqbuster
-identifiers:
-- bioagents:seqbuster
-- doi:10.1093/nar/gkp1127
-keywords:
-- Cell Differentiation
-- Computational Biology
-- Embryonic Stem Cells
-- Genetic Variation
-- Humans
-- MicroRNAs
-- Sequence Analysis, RNA
-- Transcriptomics
-- Functional, regulatory and non-coding RNA
-license: MIT
-manually_check: true
-name: seqbuster
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:6bf30b1de31856444b9b3b926898717d0081b706b9d976c3d9382b19b46844c1
+size 620

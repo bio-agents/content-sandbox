@@ -1,33 +1,3 @@
-description: 'A genotype network is a graph in which vertices represent genotypes
-  that have the same phenotype. this agent provides the following features: (i) the
-  construction of genotype networks for categorical and univariate phenotypes; (ii)
-  analyses of genotype network topology and how it relates to robustness and evolvability,
-  as well as analyses of genotype network topography and how it relates to the navigability
-  of a genotype network; (iii) multiple interactive visualizations.'
-home_url: http://ieu-genonets.uzh.ch
-identifiers:
-- bioagents:genonets
-- doi:10.1093/nar/gkw313
-keywords:
-- Amino Acid Sequence
-- Computer Graphics
-- DNA
-- Evolution, Molecular
-- Gene Expression Regulation
-- Gene Regulatory Networks
-- Genotype
-- Humans
-- Internet
-- Mutation
-- Phenotype
-- RNA
-- Selection, Genetic
-- User-Computer Interface
-- Viruses
-- Evolutionary biology
-- Systems biology
-- Transcription Factors
-license: MIT
-manually_check: true
-name: genonets
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:89c640062f10b0f7bcbfeecf2374492723a4bd80f1d25d938feb22132c83d850
+size 981

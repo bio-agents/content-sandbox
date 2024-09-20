@@ -1,13 +1,3 @@
-description: Provides basic utility functions for performing single-cell analyses,
-  focusing on simple normalization, quality control and data transformations. Also
-  provides some helper functions to assist development of other packages.
-home_url: https://bioconductor.org/packages/3.12/bioc/html/scuttle.html
-identifiers:
-- doi:10.18129/b9.bioc.scuttle
-keywords:
-- RNA-Seq
-- Transcriptomics
-license: GPL-3.0
-manually_check: true
-name: bioconductor-scuttle
-total_pulls: 635
+version https://git-lfs.github.com/spec/v1
+oid sha256:df6b9b45c351c4335d255ce5e1a101be0004e520bbfe5be1ca809ff4bb3c5ced
+size 476

@@ -1,11 +1,3 @@
-bioagents_id: annotationforge
-description: Provides code for generating Annotation packages and their databases.  Packages
-  produced are intended to be used with AnnotationDbi.
-home: https://bioconductor.org/packages/3.12/bioc/html/AnnotationForge.html
-identifiers:
-- bioagents:annotationforge
-- doi:10.1038/nmeth.3252
-license: Artistic-2.0
-name: bioconductor-annotationforge
-summary: Agents for building SQLite-based annotation data packages
-version: 1.32.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:cbb934a5bb6774732d134687c48a1154b84013467e9f03c0366ac181fe364d91
+size 460

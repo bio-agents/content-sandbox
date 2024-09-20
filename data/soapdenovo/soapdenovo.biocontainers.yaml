@@ -1,20 +1,3 @@
-description: Soapdenovo, a short read de novo assembly agent, is a package for assembling
-  short oligonucleotide into contigs and scaffolds.
-home_url: http://soap.genomics.org.cn/soapdenovo.html
-identifiers:
-- bioagents:soapdenovo
-- doi:10.1101/gr.097261.109
-keywords:
-- African Continental Ancestry Group
-- Asian Continental Ancestry Group
-- Genome, Human
-- Human Genome Project
-- Humans
-- Oligonucleotide Array Sequence Analysis
-- Sequence Alignment
-- Sequence Analysis, DNA
-- Sequence assembly
-license: GPL-3.0
-manually_check: true
-name: soapdenovo
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:a9113de30581bbaebcef0a450fd62532c06aa9c820ba8646594fce90a9cb037c
+size 568

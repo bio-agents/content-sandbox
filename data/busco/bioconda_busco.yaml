@@ -1,13 +1,3 @@
-bioagents_id: busco
-home: http://busco.ezlab.org/
-identifiers:
-- bioagents:busco
-- doi:10.1093/bioinformatics/btv351
-- usegalaxy-eu:busco
-license: MIT
-license_file: LICENSE
-name: busco
-summary: BUSCO provides measures for quantitative assessment of genome assembly, gene
-  set, and transcriptome completeness based on evolutionarily informed expectations
-  of gene content from near-universal single-copy orthologs selected from OrthoDB.
-version: 4.1.4
+version https://git-lfs.github.com/spec/v1
+oid sha256:6a03d27321aacec3ff2498d5a044daabb10b90a5a649a0a63436143887101b48
+size 453

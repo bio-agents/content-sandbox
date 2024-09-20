@@ -1,17 +1,3 @@
-bioagents_id: flowmap
-description: flowMap quantifies the similarity of cell populations across multiple
-  flow cytometry samples using a nonparametric multivariate statistical test. The
-  method is able to map cell populations of different size, shape, and proportion
-  across multiple flow cytometry samples. The algorithm can be incorporate in any
-  flow cytometry work flow that requires accurat quantification of similarity between
-  cell populations.
-home: https://bioconductor.org/packages/3.12/bioc/html/flowMap.html
-identifiers:
-- bioagents:flowmap
-- doi:10.1002/cyto.a.22735
-license: GPL (>=2)
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-flowmap
-summary: Mapping cell populations in flow cytometry data for cross-sample comparisons
-  using the Friedman-Rafsky Test
-version: 1.28.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:2d09b222888794f3c48bdb84818cfc90804a9e0e81c04d62ffaa9d657f4582bb
+size 808

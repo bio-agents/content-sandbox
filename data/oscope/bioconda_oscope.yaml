@@ -1,16 +1,3 @@
-bioagents_id: oscope
-description: 'Oscope is a statistical pipeline developed to identifying and recovering
-  the base cycle profiles of oscillating genes in an unsynchronized single cell RNA-seq
-  experiment. The Oscope pipeline includes three modules: a sine model module to search
-  for candidate oscillator pairs; a K-medoids clustering module to cluster candidate
-  oscillators into groups; and an extended nearest insertion module to recover the
-  base cycle order for each oscillator group.'
-home: https://bioconductor.org/packages/3.12/bioc/html/Oscope.html
-identifiers:
-- bioagents:oscope
-- doi:10.1038/nmeth.3549
-license: Artistic-2.0
-name: bioconductor-oscope
-summary: Oscope - A statistical pipeline for identifying oscillatory genes in unsynchronized
-  single cell RNA-seq
-version: 1.20.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:1cd9e0f99c74fc3511b4915d3f60a82fbc302334bfa1e4a743f06fd339dbb9f9
+size 802

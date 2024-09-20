@@ -1,15 +1,3 @@
-bioagents_id: philr
-description: PhILR is short for Phylogenetic Isometric Log-Ratio Transform. This package
-  provides functions for the analysis of compositional data (e.g., data representing
-  proportions of different variables/parts). Specifically this package allows analysis
-  of compositional data where the parts can be related through a phylogenetic tree
-  (as is common in microbiota survey data) and makes available the Isometric Log Ratio
-  transform built from the phylogenetic tree and utilizing a weighted reference measure.
-home: https://bioconductor.org/packages/3.12/bioc/html/philr.html
-identifiers:
-- bioagents:philr
-license: GPL-3
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-philr
-summary: Phylogenetic partitioning based ILR transform for metagenomics data
-version: 1.16.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:344ad31a4ab05ff5867d80bc092fdda9b05859513cdb9102cc11dad2aa30fd6c
+size 812

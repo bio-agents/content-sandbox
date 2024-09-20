@@ -1,29 +1,3 @@
-softwares:
-  cava:
-    labels:
-      about.documentation: http://www.well.ox.ac.uk/cava
-      about.home: http://www.well.ox.ac.uk/cava
-      about.license: SPDX:GPL-3.0
-      about.license_file: http://www.well.ox.ac.uk/cava
-      about.summary: lightweight, fast and flexible NGS variant annotation agent
-      about.tags: Genomics
-      base_image: biocontainers:v1.0.0_cv4
-      software: cava
-      software.version: 1.1.1
-      version: '2'
-    software: cava
-    versions:
-    - labels:
-        about.documentation: http://www.well.ox.ac.uk/cava
-        about.home: http://www.well.ox.ac.uk/cava
-        about.license: SPDX:GPL-3.0
-        about.license_file: http://www.well.ox.ac.uk/cava
-        about.summary: lightweight, fast and flexible NGS variant annotation agent
-        about.tags: Genomics
-        base_image: biocontainers:v1.0.0_cv4
-        software: cava
-        software.version: 1.1.1
-        version: '2'
-      type: Container file
-      url: biocontainers/cava:1.1.1-2
-      version: 1.1.1-2
+version https://git-lfs.github.com/spec/v1
+oid sha256:832d0d2279941e4ca2044ec193672b24fbefa988e144d22112e900d417ced759
+size 1018

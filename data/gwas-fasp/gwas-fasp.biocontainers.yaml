@@ -1,12 +1,3 @@
-description: Container image for gwas analysis workflow for ga4gh plenary 2020 fasp
-  demonstrator containging plink and custom scripts
-home_url: https://www.cog-genomics.org/plink2
-identifiers:
-- doi:10.1186/s13742-015-0047-8
-keywords:
-- Clustering
-- Genomics
-license: SPDX:GPL-3.0-or-later
-manually_check: true
-name: gwas-fasp
-total_pulls: 433
+version https://git-lfs.github.com/spec/v1
+oid sha256:430fa9dc29d5ae295bdcda106535de11892a2b13c288ee179afc5df9c11cb614
+size 346

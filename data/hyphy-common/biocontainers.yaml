@@ -1,29 +1,3 @@
-softwares:
-  hyphy-common:
-    labels:
-      about.copyright: 1997-2015 Sergei L Kosakovsky Pond <spond@ucsd.edu>
-      about.home: http://hyphy.org/
-      about.license: MIT
-      about.license_file: /usr/share/doc/hyphy-common/copyright
-      about.summary: Hypothesis testing using Phylogenies (common files)
-      about.tags: ''
-      container: hyphy-common
-      software: hyphy-common
-      software.version: 2.2.7dfsg-1-deb
-      version: '1'
-    software: hyphy-common
-    versions:
-    - labels:
-        about.copyright: 1997-2015 Sergei L Kosakovsky Pond <spond@ucsd.edu>
-        about.home: http://hyphy.org/
-        about.license: MIT
-        about.license_file: /usr/share/doc/hyphy-common/copyright
-        about.summary: Hypothesis testing using Phylogenies (common files)
-        about.tags: ''
-        container: hyphy-common
-        software: hyphy-common
-        software.version: 2.2.7dfsg-1-deb
-        version: '1'
-      type: Container file
-      url: biocontainers/hyphy-common:2.2.7dfsg-1-deb-1
-      version: 2.2.7dfsg-1-deb-1
+version https://git-lfs.github.com/spec/v1
+oid sha256:666a2d1c23d6bd3e39a09b2b28cef2df818aa27380ac73c9fe1b2126f43a2e33
+size 1054

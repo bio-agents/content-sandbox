@@ -1,22 +1,3 @@
-description: NanoSim is a fast and scalable read simulator that captures the technology-specific
-  features of ONT data, and allows for adjustments upon improvement of nanopore sequencing
-  technology.
-home_url: https://github.com/bcgsc/NanoSim
-identifiers:
-- bioagents:nanosim
-- doi:10.1093/gigascience/gix010
-keywords:
-- Computational Biology
-- Genomics
-- High-Throughput Nucleotide Sequencing
-- Sequence Analysis, DNA
-- Sequencing
-- Simulation experiment
-- Statistics and probability
-- RNA-Seq
-- Metagenome
-- Transcriptome
-license: GPL
-manually_check: true
-name: nanosim
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:598fdcf7c99b0e5c12653fc5adfb10716e1e92fbd955f66acef5b5614c58b416
+size 589

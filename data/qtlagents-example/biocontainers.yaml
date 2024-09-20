@@ -1,29 +1,3 @@
-softwares:
-  qtlagents-example:
-    labels:
-      about.copyright: 2016 Olivier Delaneau, Halit Ongen and Emmanouil T. Dermitzakis
-      about.home: https://qtlagents.github.io/qtlagents/
-      about.license: GPL-3+
-      about.license_file: /usr/share/doc/qtlagents-example/copyright
-      about.summary: Agent set for molecular QTL discovery and analysis - example
-      about.tags: ''
-      container: qtlagents-example
-      software: qtlagents-example
-      software.version: 1.1dfsg-1-deb
-      version: '1'
-    software: qtlagents-example
-    versions:
-    - labels:
-        about.copyright: 2016 Olivier Delaneau, Halit Ongen and Emmanouil T. Dermitzakis
-        about.home: https://qtlagents.github.io/qtlagents/
-        about.license: GPL-3+
-        about.license_file: /usr/share/doc/qtlagents-example/copyright
-        about.summary: Agent set for molecular QTL discovery and analysis - example
-        about.tags: ''
-        container: qtlagents-example
-        software: qtlagents-example
-        software.version: 1.1dfsg-1-deb
-        version: '1'
-      type: Container file
-      url: biocontainers/qtlagents-example:1.1dfsg-1-deb-1
-      version: 1.1dfsg-1-deb-1
+version https://git-lfs.github.com/spec/v1
+oid sha256:b801a257011e8a5c35258b65b033e6e86e81cdddf81dbda2f476ed43080e7554
+size 1181

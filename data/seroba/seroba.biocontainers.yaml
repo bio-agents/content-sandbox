@@ -1,26 +1,3 @@
-description: SeroBA is a k-mer based Pipeline to identify the Serotype from Illumina
-  NGS reads for given references.
-home_url: https://github.com/sanger-pathogens/seroba
-identifiers:
-- doi:10.1099/mgen.0.000186
-keywords:
-- Alleles
-- Child, Preschool
-- Databases, Genetic
-- Genes, Bacterial
-- High-Throughput Nucleotide Sequencing
-- Humans
-- Pneumococcal Infections
-- Polymorphism, Single Nucleotide
-- Sensitivity and Specificity
-- Serogroup
-- Serotyping
-- Streptococcus mitis
-- Streptococcus pneumoniae
-- Whole Genome Sequencing
-- Genomics
-- Whole genome sequencing
-license: GPL-3.0
-manually_check: true
-name: seroba
-total_pulls: 39
+version https://git-lfs.github.com/spec/v1
+oid sha256:24b0be261056639e0107af4142da0bd71bd14cec23e84aa28658a5c5eb49da98
+size 635

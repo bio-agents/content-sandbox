@@ -1,13 +1,3 @@
-bioagents_id: synergyfinder
-description: Efficient implementations for all the popular synergy scoring models
-  for drug combinations, including HSA, Loewe, Bliss and ZIP and visualization of
-  the synergy scores as either a two-dimensional or a three-dimensional interaction
-  surface over the dose matrix.
-home: https://bioconductor.org/packages/3.12/bioc/html/synergyfinder.html
-identifiers:
-- bioagents:synergyfinder
-- doi:10.1093/bioinformatics/btx162
-license: Mozilla Public License 2.0
-name: bioconductor-synergyfinder
-summary: Calculate and Visualize Synergy Scores for Drug Combinations
-version: 2.4.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:15ec98c6fa372f9d470b07e79ad91ba1997eb0aa6dfa1bf261e563e1375cd8ad
+size 611

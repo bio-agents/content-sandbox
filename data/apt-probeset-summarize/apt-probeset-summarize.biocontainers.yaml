@@ -1,11 +1,3 @@
-description: From Affymetrix Power Agents package. apt-probeset-summarize is program
-  for analyzing expression arrays including 3' IVT and exon arrays. Supports background
-  correction (MAS5,RMA), normalization (linear scaling, quantile, sketch), and summarization
-  (PLIER, RMA, MAS5) methods.
-home_url: https://downloads.thermofisher.com
-identifiers: []
-keywords: []
-license: GNU GENERAL PUBLIC LICENSE Version 2
-manually_check: true
-name: apt-probeset-summarize
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:22cee06e2035b3c3ace03198836e10acae5f312a601a58674461638a11a6f23d
+size 481

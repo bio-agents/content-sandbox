@@ -1,12 +1,3 @@
-bioagents_id: sigar
-description: Facilitates the joint analysis of high-throughput data from multiple
-  molecular levels. Contains functions for manipulation of objects, various analysis
-  types, and some visualization.
-home: https://bioconductor.org/packages/3.10/bioc/html/sigaR.html
-identifiers:
-- bioagents:sigar
-license: GPL (>= 2)
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-sigar
-summary: Statistics for Integrative Genomics Analyses in R
-version: 1.34.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:cc457d40bed16109e9c5e87cedb4f1f83961c274fe19cd7f271650c967c1119c
+size 479

@@ -1,33 +1,3 @@
-softwares:
-  pybedagents:
-    labels:
-      about.copyright: 2010-2015 Ryan Dale
-      about.home: https://daler.github.io/pybedagents/
-      about.license: GPL-2+
-      about.license_file: /usr/share/doc/pybedagents/copyright
-      about.summary: Python 3 wrapper around BEDAgents for bioinformatics work
-      about.tags: ''
-      base_image: biocontainers/biocontainers:vdebian-buster-backports_cv1
-      container: pybedagents
-      software: pybedagents
-      software.version: 0.8.0-1-deb-py3
-      upstream.version: 0.8.0
-      version: '1'
-    software: pybedagents
-    versions:
-    - labels:
-        about.copyright: 2010-2015 Ryan Dale
-        about.home: https://daler.github.io/pybedagents/
-        about.license: GPL-2+
-        about.license_file: /usr/share/doc/pybedagents/copyright
-        about.summary: Python 3 wrapper around BEDAgents for bioinformatics work
-        about.tags: ''
-        base_image: biocontainers/biocontainers:vdebian-buster-backports_cv1
-        container: pybedagents
-        software: pybedagents
-        software.version: 0.8.0-1-deb-py3
-        upstream.version: 0.8.0
-        version: '1'
-      type: Container file
-      url: biocontainers/pybedagents:0.8.0-1-deb-py3-1
-      version: 0.8.0-1-deb-py3-1
+version https://git-lfs.github.com/spec/v1
+oid sha256:953c2786a31b6fc3286fa802f5c1aa627133e343ac80c1b3b6af3aeab7138a95
+size 1251

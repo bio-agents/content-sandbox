@@ -1,13 +1,3 @@
-bioagents_id: beclear
-description: Provides functions to detect and correct for batch effects in DNA methylation
-  data. The core function is based on latent factor models and can also be used to
-  predict missing values in any other matrix containing real numbers.
-home: https://bioconductor.org/packages/3.12/bioc/html/BEclear.html
-identifiers:
-- bioagents:beclear
-- doi:10.1371/journal.pone.0159921
-license: GPL-3
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-beclear
-summary: Correction of batch effects in DNA methylation data
-version: 2.6.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:34b2f49cc1afa78008e7daf176fc3727690064ebd5ef051fffb4653ed1883e49
+size 562

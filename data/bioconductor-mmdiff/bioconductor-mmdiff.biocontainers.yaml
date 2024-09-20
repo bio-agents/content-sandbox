@@ -1,22 +1,3 @@
-description: This package detects statistically significant difference between read
-  enrichment profiles in different ChIP-Seq samples. To take advantage of shape differences
-  it uses Kernel methods (Maximum Mean Discrepancy, MMD).
-home_url: None
-identifiers:
-- doi:10.1186/1471-2164-14-826
-keywords:
-- Animals
-- Cell Line
-- Chromatin Immunoprecipitation
-- Computational Biology
-- Computer Simulation
-- Epigenomics
-- Histones
-- Humans
-- Mice
-- Sequence Analysis, DNA
-- Statistics, Nonparametric
-license: Artistic-2.0
-manually_check: true
-name: bioconductor-mmdiff
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:4078d880270e4706f4a6ff57e754d0ec6e1a199c09278d90442a0359cdb03237
+size 581

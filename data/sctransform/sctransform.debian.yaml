@@ -1,15 +1,3 @@
-description: A normalization method for single-cell UMI count data using a variance
-  stabilizing transformation. The transformation is based on a negative binomial regression
-  model with regularized parameters. As part of the same regression framework, this
-  package also provides functions for batch correction, and data correction. See Hafemeister
-  and Satija 2019 <doi:10.1101/576827> for more details.
-edam:
-  topics: null
-  version: unknown
-homepage: https://cran.r-project.org/package=sctransform
-identifiers:
-  bioagents: sctransform
-  debian: r-cran-sctransform
-  omicagents: OMICS_31041
-summary: Variance Stabilizing Transformations for Single Cell UMI Data
-version: 0.3.1
+version https://git-lfs.github.com/spec/v1
+oid sha256:7bf2225ca1af251e3902f7c92cd7d76fc32406e56d5cea869cde958c743fe31d
+size 686

@@ -1,19 +1,3 @@
-description: Pipeline for the simulation of RNA--ligand interaction kinetics as outlined
-  in Kuehnl et al. 2017.
-home_url: http://www.bioinf.uni-leipzig.de/~felix/
-identifiers:
-- doi:10.1186/s12859-017-1823-5
-keywords:
-- Dimerization
-- Kinetics
-- Ligands
-- Models, Theoretical
-- Nucleic Acid Conformation
-- Probability
-- RNA
-- Thermodynamics
-- Ortholog
-license: GPL-3.0
-manually_check: true
-name: kinsimriboswitch
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:84ea63107b0859103264f0512a0aae9571fbd9ddb99bae18f57a7c4b1219b929
+size 430

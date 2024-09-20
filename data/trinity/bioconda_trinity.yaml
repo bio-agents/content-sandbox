@@ -1,16 +1,3 @@
-bioagents_id: trinity
-dev_url: https://github.com/trinityrnaseq/trinityrnaseq/
-doc_url: https://github.com/trinityrnaseq/trinityrnaseq/wiki
-home: https://github.com/trinityrnaseq/trinityrnaseq/
-identifiers:
-- bioagents:trinity
-- doi:10.1038/nbt.1883
-- usegalaxy-eu:trinity
-license: BSD-3-Clause
-license_family: BSD
-license_file:
-- LICENSE
-- LICENSE.txt
-name: trinity
-summary: Trinity assembles transcript sequences from Illumina RNA-Seq data.
-version: 2.11.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:cfd3b777f50c10fcac6826472711f699bf645f8db75025da69a1e9bd16984f23
+size 459

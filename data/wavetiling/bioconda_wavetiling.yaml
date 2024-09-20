@@ -1,12 +1,3 @@
-bioagents_id: wavetiling
-description: This package is designed to conduct transcriptome analysis for tiling
-  arrays based on fast wavelet-based functional models.
-home: https://bioconductor.org/packages/3.10/bioc/html/waveTiling.html
-identifiers:
-- bioagents:wavetiling
-- doi:10.1186/1471-2105-13-234
-license: GPL (>=2)
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-wavetiling
-summary: Wavelet-Based Models for Tiling Array Transcriptome Analysis
-version: 1.28.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:d1be72c43ded55e1c068cdb0e2da88662b86e1bd00fd0a4622ea344b4915e950
+size 479

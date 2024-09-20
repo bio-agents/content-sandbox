@@ -1,16 +1,3 @@
-bioagents_id: chromdraw
-description: ChromDraw is a R package for drawing the schemes of karyotype(s) in the
-  linear and circular fashion. It is possible to visualized cytogenetic marsk on the
-  chromosomes. This agent has own input data format. Input data can be imported from
-  the GenomicRanges data structure. This package can visualized the data in the BED
-  file format. Here is requirement on to the first nine fields of the BED format.
-  Output files format are *.eps and *.svg.
-home: https://bioconductor.org/packages/3.12/bioc/html/chromDraw.html
-identifiers:
-- bioagents:chromdraw
-license: GPL-3
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-chromdraw
-summary: chromDraw is a R package for drawing the schemes of karyotypes in the linear
-  and circular fashion.
-version: 2.20.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:47bbd70f899bafd3696cf6e38257cece940583d7f2095429e8676637d675eacb
+size 805

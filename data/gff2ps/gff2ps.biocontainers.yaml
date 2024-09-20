@@ -1,19 +1,3 @@
-description: Program for visualizing annotations of genomic sequences. the program
-  takes the annotated features on a genomic sequence in gff format as input, and produces
-  a visual output in postscript. while it can be used in a very simple way, it also
-  allows for a great degree of customization through a number of options and/or customization
-  files.
-home_url: http://big.crg.cat/services/gff2ps
-identifiers:
-- bioagents:gff2ps
-- doi:10.1093/bioinformatics/16.8.743
-keywords:
-- Computational Biology
-- Genome
-- Sequence Analysis, DNA
-- Sequence Analysis, RNA
-- Nucleic acids
-license: GPL-3.0
-manually_check: true
-name: gff2ps
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:545c0d2478057dd168843b5b30f17e1e2480a63c57e7f9aa8fa6a8e98782c606
+size 650

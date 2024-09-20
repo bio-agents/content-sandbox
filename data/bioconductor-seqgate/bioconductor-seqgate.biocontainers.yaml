@@ -1,14 +1,3 @@
-description: Filtering of lowly expressed features (e.g. genes) is a common step before
-  performing statistical analysis, but an arbitrary threshold is generally chosen.
-  SeqGate implements a method that rationalize this step by the analysis of the distibution
-  of counts in replicate samples. The gate is the threshold above which sequenced
-  features can be considered as confidently quantified.
-home_url: https://bioconductor.org/packages/3.12/bioc/html/SeqGate.html
-identifiers:
-- doi:10.18129/b9.bioc.seqgate
-keywords:
-- Transcriptomics
-license: GPL (>= 2.0)
-manually_check: true
-name: bioconductor-seqgate
-total_pulls: 112
+version https://git-lfs.github.com/spec/v1
+oid sha256:db9abdb2e7092acfc5b0ca12a7b5bc8a8ba9a10d68dde42505a7383c9d48a6d3
+size 632

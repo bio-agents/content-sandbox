@@ -1,16 +1,3 @@
-description: 'This package compiles most information measures currently available:
-  mutual information, conditional mutual information, interaction information, partial
-  information decomposition and part mutual information. Using gene expression profile
-  data, all these estimators can be employed to quantify nonlinear dependence between
-  variables in biological regulatory network inference. The first estimator is used
-  to infer bivariate network while the last four estimators are dedicated to analyze
-  trivariate networks.'
-home_url: https://bioconductor.org/packages/3.12/bioc/html/Informeasure.html
-identifiers:
-- doi:10.18129/b9.bioc.informeasure
-keywords:
-- Gene Expression
-license: GPL-3.0
-manually_check: true
-name: bioconductor-informeasure
-total_pulls: 361
+version https://git-lfs.github.com/spec/v1
+oid sha256:0fa8a579350d27b11ea5d5381c87c69d6c6c453aff755da5181de6ba444a9ae2
+size 777

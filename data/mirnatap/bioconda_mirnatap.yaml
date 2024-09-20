@@ -1,15 +1,3 @@
-bioagents_id: mirnatap
-description: The package facilitates implementation of workflows requiring miRNA predictions,
-  it allows to integrate ranked miRNA target predictions from multiple sources available
-  online and aggregate them with various methods which improves quality of predictions
-  above any of the single sources. Currently predictions are available for Homo sapiens,
-  Mus musculus and Rattus norvegicus (the last one through homology translation).
-home: https://bioconductor.org/packages/3.12/bioc/html/miRNAtap.html
-identifiers:
-- bioagents:mirnatap
-- doi:10.1038/nmeth.3252
-license: GPL-2
-license_file: /lib/R/share/licenses/GPL-2
-name: bioconductor-mirnatap
-summary: 'miRNAtap: microRNA Targets - Aggregated Predictions'
-version: 1.24.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:4410d996c142fa9a3fe46b4f3a2e6e60de46e6b837c1f4ec5145bdd4d800a278
+size 756

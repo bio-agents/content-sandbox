@@ -1,12 +1,3 @@
-bioagents_id: chromplot
-description: Package designed to visualize genomic data along the chromosomes, where
-  the vertical chromosomes are sorted by number, with sex chromosomes at the end.
-home: https://bioconductor.org/packages/3.12/bioc/html/chromPlot.html
-identifiers:
-- bioagents:chromplot
-- doi:10.1093/bioinformatics/btw137
-license: GPL (>= 2)
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-chromplot
-summary: Global visualization agent of genomic data
-version: 1.18.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:91ac08fa8d1518b5ffcbf9b32d3b199c4aa8297c532eb388ab79f50172829278
+size 491

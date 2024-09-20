@@ -1,13 +1,3 @@
-bioagents_id: diffloop
-description: A suite of agents for subsetting, visualizing, annotating, and statistically
-  analyzing the results of one or more ChIA-PET experiments or other assays that infer
-  chromatin loops.
-home: https://bioconductor.org/packages/3.12/bioc/html/diffloop.html
-identifiers:
-- bioagents:diffloop
-- doi:10.1101/087338
-license: MIT + file LICENSE
-license_file: LICENSE
-name: bioconductor-diffloop
-summary: Identifying differential DNA loops from chromatin topology data
-version: 1.18.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:6ee2554c289554b63e4e58a28938628b11d15ca4fd032f714dea86a55a3ef5ca
+size 510

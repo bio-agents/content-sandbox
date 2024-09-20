@@ -1,15 +1,3 @@
-description: HG-CoLoR (Hybrid Graph for the error Correction of Long Reads) is a hybrid
-  method for the error correction of long reads that follows the main idea from NaS
-  to produce corrected long reads from assemblies of related accurate short reads.
-home_url: https://github.com/pierre-morisse/HG-CoLoR
-identifiers:
-- doi:10.1093/bioinformatics/bty521
-keywords:
-- Computational Biology
-- High-Throughput Nucleotide Sequencing
-- Nanopores
-- Sequence Analysis, DNA
-license: GPL
-manually_check: true
-name: hg-color
-total_pulls: 15
+version https://git-lfs.github.com/spec/v1
+oid sha256:476bbfd4800568427d7aaab83bb91dcaaa162cc42b6c676d93011d9f40239fc6
+size 533

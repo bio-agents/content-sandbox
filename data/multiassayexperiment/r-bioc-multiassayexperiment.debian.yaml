@@ -1,32 +1,3 @@
-package: r-bioc-multiassayexperiment
-distribution: debian
-release: sid
-component: main
-version: 1.16.0
-source: r-bioc-multiassayexperiment
-homepage: https://bioconductor.org/packages/MultiAssayExperiment/
-license: unknown
-blend: debian-med
-description_md5: 28c3ac7f2a5a7a8cb156de9549e0b027
-registries:
-- entry: OMICS_19308
-  name: OMICagents
-- entry: multiassayexperiment
-  name: bio.agents
-- entry: bioconductor-multiassayexperiment
-  name: conda:bioconda
-popcon:
-- insts: 9
-  olde: 9
-descr:
-- package: r-bioc-multiassayexperiment
-  description: Software for integrating multi-omics experiments in BioConductor
-  long_description: " MultiAssayExperiment harmonizes data management of\n multiple\
-    \ assays performed on an overlapping set of specimens. It provides a\n familiar\
-    \ Bioconductor user experience by extending concepts from\n SummarizedExperiment,\
-    \ supporting an open-ended mix of standard data classes\n for individual assays,\
-    \ and allowing subsetting by genomic ranges or rownames.\n"
-  release: sid
-  description_md5: 28c3ac7f2a5a7a8cb156de9549e0b027
-  license: unknown
-  blend: debian-med
+version https://git-lfs.github.com/spec/v1
+oid sha256:e85ee5f33ccb7670670bebdc85a514d9a23dd2afa1db2f1bbc73663e81589310
+size 1125

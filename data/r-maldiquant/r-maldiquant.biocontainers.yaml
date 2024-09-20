@@ -1,15 +1,3 @@
-description: A complete analysis pipeline for matrix-assisted laser desorption/ionization-time-of-flight
-  (MALDI-TOF) and other two-dimensional mass spectrometry data. In addition to commonly\nused
-  plotting and processing methods it includes distinctive features, namely baseline\nsubtraction
-  methods such as morphological filters (TopHat) or the statistics-sensitive\nnon-linear
-  iterative peak-clipping algorithm (SNIP), peak alignment using warping\nfunctions,
-  handling of replicated measurements as well as allowing spectra with\ndifferent
-  resolutions.
-home_url: None
-identifiers: []
-keywords:
-- Proteomics
-license: GPL (>= 3)
-manually_check: true
-name: r-maldiquant
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:52849939f373c64c88d507898af49336fb45ca2e559acf8d9811a3903d3f41ff
+size 696

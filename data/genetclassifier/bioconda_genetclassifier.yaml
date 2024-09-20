@@ -1,13 +1,3 @@
-bioagents_id: genetclassifier
-description: Comprehensive package to automatically train and validate a multi-class
-  SVM classifier based on gene expression data. Provides transparent selection of
-  gene markers, their coexpression networks, and an interface to query the classifier.
-home: https://bioconductor.org/packages/3.12/bioc/html/geNetClassifier.html
-identifiers:
-- bioagents:genetclassifier
-license: GPL (>= 2)
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-genetclassifier
-summary: Classify diseases and build associated gene networks using gene expression
-  profiles
-version: 1.30.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:821aae493259bf9b9b05b46d095319c45a48f682fa58f41003762bd2920cd638
+size 609

@@ -1,13 +1,3 @@
-bioagents_id: geoquery
-description: The NCBI Gene Expression Omnibus (GEO) is a public repository of microarray
-  data.  Given the rich and varied nature of this resource, it is only natural to
-  want to apply BioConductor agents to these data.  GEOquery is the bridge between
-  GEO and BioConductor.
-home: https://bioconductor.org/packages/3.12/bioc/html/GEOquery.html
-identifiers:
-- bioagents:geoquery
-license: GPL-2
-license_file: /lib/R/share/licenses/GPL-2
-name: bioconductor-geoquery
-summary: Get data from NCBI Gene Expression Omnibus (GEO)
-version: 2.58.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:39138ae3a8e8a7ec4a365c87232a59a84e868e0e07b8b5165b97ba1abff26d1c
+size 563

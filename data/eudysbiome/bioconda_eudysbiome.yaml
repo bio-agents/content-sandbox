@@ -1,17 +1,3 @@
-bioagents_id: eudysbiome
-description: eudysbiome a package that permits to annotate the differential genera
-  as harmful/harmless based on their ability to contribute to host diseases (as indicated
-  in literature) or unknown based on their ambiguous genus classification. Further,
-  the package statistically measures the eubiotic (harmless genera increase or harmful
-  genera decrease) or dysbiotic(harmless genera decrease or harmful genera increase)
-  impact of a given treatment or environmental change on the (gut-intestinal, GI)
-  microbiome in comparison to the microbiome of the reference condition.
-home: https://bioconductor.org/packages/3.12/bioc/html/eudysbiome.html
-identifiers:
-- bioagents:eudysbiome
-- doi:10.1186/s12918-016-0344-6
-license: GPL-2
-license_file: /lib/R/share/licenses/GPL-2
-name: bioconductor-eudysbiome
-summary: Cartesian plot and contingency test on 16S Microbial data
-version: 1.20.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:6ff80bc66293a6b78a339a3120f814a0456087f3cd8be5d38a711a3215132733
+size 918

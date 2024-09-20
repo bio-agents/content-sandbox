@@ -1,13 +1,3 @@
-bioagents_id: rnaseqcomp
-description: Several quantitative and visualized benchmarks for RNA-seq quantification
-  pipelines. Two-condition quantifications for genes, transcripts, junctions or exons
-  by each pipeline with necessary meta information should be organized into numeric
-  matrices in order to proceed the evaluation.
-home: https://bioconductor.org/packages/3.12/bioc/html/rnaseqcomp.html
-identifiers:
-- bioagents:rnaseqcomp
-license: GPL-3
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-rnaseqcomp
-summary: Benchmarks for RNA-seq Quantification Pipelines
-version: 1.20.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:135723f5315dc4945f749d05cdf1ed02fca603e9e4c7f27e2d024358e8c7d43d
+size 596

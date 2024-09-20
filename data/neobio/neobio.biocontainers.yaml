@@ -1,17 +1,3 @@
-description: Neobio is a java class library of computational biology algorithms. the
-  current version consists mainly of pairwise sequence alignment algorithms such as
-  the classical dynamic programming methods of needleman-wunsch and smith-waterman.
-home_url: http://neobio.sourceforge.net/
-identifiers:
-- bioagents:neobio
-keywords:
-- Biology
-- Computational biology
-- Algorithms
-- Sequence Alignment
-- Protein Structure
-- Protein Sequences
-license: GPL-2+
-manually_check: true
-name: neobio
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:dd5f86b8f610d541b7274e3dd38690cb6078eb71b51063b32251e63728b737ea
+size 509

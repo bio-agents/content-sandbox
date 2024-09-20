@@ -1,21 +1,3 @@
-{
-    "additionDate": "2023-08-28T11:48:44.064979Z",
-    "bioagentsCURIE": "bioagents:scNTImpute",
-    "bioagentsID": "scNTImpute",
-    "description": "scNTImpute is an imputation model for scRNA-seq data. It can accurately and efficiently identify dropout values and impute them precisely, which helps to improve downstream analyses of single-cell RNA sequencing data and more.",
-    "editPermission": {
-        "type": "private"
-    },
-    "homepage": "https://github.com/qiyueyang-7/scNTImpute.git",
-    "lastUpdate": "2023-08-28T11:57:06.443088Z",
-    "link": [
-        {
-            "type": [
-                "Repository"
-            ],
-            "url": "https://github.com/qiyueyang-7/scNTImpute.git"
-        }
-    ],
-    "name": "scNTImpute",
-    "owner": "QYY"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:58e9a405ad56ea15355347c3de05aabc77e7bcad82ee7379681adeca7d32a181
+size 773

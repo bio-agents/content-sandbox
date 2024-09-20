@@ -1,12 +1,3 @@
-bioagents_id: mlrho
-home: http://guanine.evolbio.mpg.de/mlRho/
-identifiers:
-- bioagents:mlRho
-- doi:10.1111/j.1365-294X.2009.04482.x
-license: file
-license_file: COPYING
-name: mlrho
-summary: Takes as input a file with assembled reads from a single diploid individual
-  and returns maximum likelihood estimates of the population mutation rate, , the
-  sequencing error , the zygosity correlation, and the population recombination rate.
-version: 2.9
+version https://git-lfs.github.com/spec/v1
+oid sha256:225a96eb92bf85a459e6ec9c3e91cef10ac8310b52e669c5282b4b0b09bad497
+size 447

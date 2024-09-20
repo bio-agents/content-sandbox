@@ -1,16 +1,3 @@
-bioagents_id: genomation
-description: A package for summary and annotation of genomic intervals. Users can
-  visualize and quantify genomic intervals over pre-defined functional regions, such
-  as promoters, exons, introns, etc. The genomic intervals represent regions with
-  a defined chromosome position, which may be associated with a score, such as aligned
-  reads from HT-seq experiments, TF binding sites, methylation scores, etc. The package
-  can use any tabular genomic feature data as long as it has minimal information on
-  the locations of genomic intervals. In addition, It can use BAM or BigWig files
-  as input.
-home: https://bioconductor.org/packages/3.12/bioc/html/genomation.html
-identifiers:
-- bioagents:genomation
-license: Artistic-2.0
-name: bioconductor-genomation
-summary: Summary, annotation and visualization of genomic data
-version: 1.22.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:2f96baa4e342546fe30c3385a187546c5254aad348dda78862c75be33b931ea2
+size 865

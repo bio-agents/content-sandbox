@@ -1,14 +1,3 @@
-description: 'PEER is a collection of Bayesian approaches to infer hidden determinants
-  and their effects from gene expression profiles using factor analysis methods. Applications
-  of PEER have (i) detected batch effects and experimental confounders (ii) increased
-  the number of expression QTL findings by threefold and (iii) allowed inference of
-  intermediate cellular traits, such as transcription factor or pathway activations.
-  This project offers an efficient and versatile C++ implementation of the underlying
-  algorithms with user-friendly interfaces to R and python. '
-home_url: https://github.com/PMBio/peer/
-identifiers: []
-keywords: []
-license: GPL 2.0
-manually_check: true
-name: r-peer
-total_pulls: 3
+version https://git-lfs.github.com/spec/v1
+oid sha256:08af82fc599c6e74946dcf34fc4c96c27c0bde402110ed24c86e73730868b78e
+size 720

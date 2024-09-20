@@ -1,22 +1,3 @@
-bioagents_id: twilight
-description: 'In a typical microarray setting with gene expression data observed under
-  two conditions, the local false discovery rate describes the probability that a
-  gene is not differentially expressed between the two conditions given its corrresponding
-  observed score or p-value level. The resulting curve of p-values versus local false
-  discovery rate offers an insight into the twilight zone between clear differential
-  and clear non-differential gene expression. Package ''twilight'' contains two main
-  functions: Function twilight.pval performs a two-condition test on differences in
-  means for a given input matrix or expression set and computes permutation based
-  p-values. Function twilight performs a stochastic downhill search to estimate local
-  false discovery rates and effect size distributions. The package further provides
-  means to filter for permutations that describe the null distribution correctly.
-  Using filtered permutations, the influence of hidden confounders could be diminished.'
-home: https://bioconductor.org/packages/3.12/bioc/html/twilight.html
-identifiers:
-- bioagents:twilight
-- doi:10.1093/bioinformatics/bti436
-license: GPL (>= 2)
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-twilight
-summary: Estimation of local false discovery rate
-version: 1.66.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:7340f5a94faf2e274e3e3020a0e99cf91308ae1d07d8d92551fa9eb3da8421d9
+size 1341

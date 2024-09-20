@@ -1,27 +1,3 @@
-softwares:
-  hyphygui:
-    labels:
-      about.home: http://hyphy.org/
-      about.license_file: /usr/share/doc/hyphygui/copyright
-      about.summary: Hypothesis testing using Phylogenies (GTK+ gui)
-      about.tags: uiagentkit::gtk
-      container: hyphygui
-      extra.binaries: /usr/bin/hyphygtk
-      software: hyphygui
-      software.version: 2.2.7dfsg-1b2-deb
-      version: '1'
-    software: hyphygui
-    versions:
-    - labels:
-        about.home: http://hyphy.org/
-        about.license_file: /usr/share/doc/hyphygui/copyright
-        about.summary: Hypothesis testing using Phylogenies (GTK+ gui)
-        about.tags: uiagentkit::gtk
-        container: hyphygui
-        extra.binaries: /usr/bin/hyphygtk
-        software: hyphygui
-        software.version: 2.2.7dfsg-1b2-deb
-        version: '1'
-      type: Container file
-      url: biocontainers/hyphygui:2.2.7dfsg-1b2-deb-1
-      version: 2.2.7dfsg-1b2-deb-1
+version https://git-lfs.github.com/spec/v1
+oid sha256:4d9e43a819f7c71e01da2aa1131a1f4d64a5518c8d26f0d8d4048aae5b54dea1
+size 922

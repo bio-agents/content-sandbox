@@ -1,14 +1,3 @@
-description: Smoothing algorithms allow to reduce artifacts from mesh generation,
-  but often degrade accuracy. The method described in the paper "Context-aware mesh
-  smoothing for biomedical applications" identifies staircase artifacts which result
-  from image inhomogeneities and binary segmentation in medical image data for subsequent
-  removal by adaptive mesh smoothing. Thus, context-aware smoothing enables to adaptively
-  smooth artifact areas, while non-artifact features can be preserved. This is a implementation
-  of this method in Cpp with Python bindings.
-home_url: https://github.com/tfmoraes/python-casmoothing
-identifiers: []
-keywords: []
-license: GPL
-manually_check: true
-name: python-casmoothing
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:f7b0b3bee3031ab48d53abc0ba1510549234c8e82ebc9ad931465db3f940ffe5
+size 733

@@ -1,17 +1,3 @@
-bioagents_id: reportingagents
-description: 'The ReportingAgents software package enables users to easily display
-  reports of analysis results generated from sources such as microarray and sequencing
-  data.  The package allows users to create HTML pages that may be viewed on a web
-  browser such as Safari, or in other formats readable by programs such as Excel.  Users
-  can generate tables with sortable and filterable columns, make and display plots,
-  and link table entries to other data sources such as NCBI or larger plots within
-  the HTML page.  Using the package, users can also produce a table of contents page
-  to link various reports together for a particular project that can be viewed in
-  a web browser.  For more examples, please visit our site: http:// research-pub.gene.com/ReportingAgents.'
-home: https://bioconductor.org/packages/3.12/bioc/html/ReportingAgents.html
-identifiers:
-- bioagents:reportingagents
-license: Artistic-2.0
-name: bioconductor-reportingagents
-summary: Agents for making reports in various formats
-version: 2.30.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:18a4d2227219f5520e418fc17fb9761b070b98659991c0e827e2119222430801
+size 1058

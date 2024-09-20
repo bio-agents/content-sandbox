@@ -1,17 +1,3 @@
-description: Perm (periodic seed mapping) uses periodic spaced seeds to significantly
-  improve mapping efficiency for large reference genomes when compared to state-of-the-art
-  programs.
-home_url: http://code.google.com/p/perm/
-identifiers:
-- bioagents:perm
-- doi:10.1093/bioinformatics/btp486
-keywords:
-- Base Sequence
-- Computational Biology
-- Molecular Sequence Data
-- Sequence Analysis, DNA
-- Genomics
-license: Apache-2.0
-manually_check: true
-name: perm
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:d7322b156b8c4c2c4e15c498721f5b7a2b9a1475fac78166ed3485096245ed6d
+size 475

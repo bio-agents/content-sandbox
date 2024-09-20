@@ -1,13 +1,3 @@
-{
-    "additionDate": "2023-09-05T12:59:35.939430Z",
-    "bioagentsCURIE": "bioagents:EAGS",
-    "bioagentsID": "EAGS",
-    "description": "EAGS is a smoothing approach for spatial transcriptome data with ultrahigh resolution. Through the principal component information of the profiling of gene expression and the personally identifiable information between cells, it uses a two-factor adaptive smoothing weight mechanism to determine the neighborhood relationship of cells. Then it uses the self-developed smoothing weight formula to calculate the smoothing contribution and recalculate the gene expression of each cell.",
-    "editPermission": {
-        "type": "private"
-    },
-    "homepage": "https://github.com/STOmics/EAGS",
-    "lastUpdate": "2023-09-05T12:59:57.572934Z",
-    "name": "Efficient and Adaptive Gaussian smoothing applied to high-resolved spatial transcriptomics",
-    "owner": "LvTongxuan"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:002b82f34d641fd73496c4b718182e6dd7217d75185748ded799796c14e8be39
+size 916

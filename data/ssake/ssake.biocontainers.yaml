@@ -1,24 +1,3 @@
-description: A program for assemblying short dna sequences. the program cycles through
-  sequence data stored in a hash table and progressively searches through a prefix
-  tree for the longest possible k-mer between any two sequencis.
-home_url: http://www.bcgsc.ca/platform/bioinfo/software/ssake
-identifiers:
-- bioagents:ssake
-- doi:10.1093/bioinformatics/btl629
-keywords:
-- Base Sequence
-- Chromosome Mapping
-- Contig Mapping
-- Molecular Sequence Data
-- Sequence Analysis, DNA
-- Sequencing
-- Sequence assembly
-- Proteomics
-- Genomics
-- RNA-Seq
-- Metagenome
-- Transcriptome
-license: GPL-2.0
-manually_check: true
-name: ssake
-total_pulls: 4806
+version https://git-lfs.github.com/spec/v1
+oid sha256:d3724d712c9667c38be4189aadb953f5760567a931799d0d2c0261245ac131c1
+size 643

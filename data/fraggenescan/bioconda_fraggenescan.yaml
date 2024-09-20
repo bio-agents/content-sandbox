@@ -1,16 +1,3 @@
-bioagents_id: fraggenescan
-description: 'FragGeneScan is an application for finding (fragmented) genes in short
-
-  reads. It can also be applied to predict prokaryotic genes in incomplete
-
-  assemblies or complete genomes.
-
-  '
-home: https://sourceforge.net/projects/fraggenescan/
-identifiers:
-- doi:10.1093/nar/gkq747
-- bioagents:fraggenescan
-license: BSD
-name: fraggenescan
-summary: FragGeneScan is an application for finding (fragmented) genes in short reads.
-version: 1.31
+version https://git-lfs.github.com/spec/v1
+oid sha256:9a1fd3044c24cf840e4a29d728ece0514798ccf807d942d1146c62b412f7461a
+size 477

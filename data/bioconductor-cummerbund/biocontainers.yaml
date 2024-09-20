@@ -1,29 +1,3 @@
-softwares:
-  bioconductor-cummerbund:
-    labels:
-      about.copyright: 2010-2016 Loyal A. Goff <lgoff@csail.mit.edu>
-      about.home: https://bioconductor.org/packages/cummeRbund/
-      about.license: Artistic-2.0
-      about.license_file: /usr/share/doc/bioconductor-cummerbund/copyright
-      about.summary: agent for analysis of Cufflinks RNA-Seq output
-      about.tags: ''
-      container: bioconductor-cummerbund
-      software: bioconductor-cummerbund
-      software.version: 2.16.0-2-deb
-      version: '1'
-    software: bioconductor-cummerbund
-    versions:
-    - labels:
-        about.copyright: 2010-2016 Loyal A. Goff <lgoff@csail.mit.edu>
-        about.home: https://bioconductor.org/packages/cummeRbund/
-        about.license: Artistic-2.0
-        about.license_file: /usr/share/doc/bioconductor-cummerbund/copyright
-        about.summary: agent for analysis of Cufflinks RNA-Seq output
-        about.tags: ''
-        container: bioconductor-cummerbund
-        software: bioconductor-cummerbund
-        software.version: 2.16.0-2-deb
-        version: '1'
-      type: Container file
-      url: biocontainers/bioconductor-cummerbund:2.16.0-2-deb-1
-      version: 2.16.0-2-deb-1
+version https://git-lfs.github.com/spec/v1
+oid sha256:9e3ff88263f5e7bee033b6c71a52d60840946fbe6c0feb03226a5ec015f0fb3b
+size 1193

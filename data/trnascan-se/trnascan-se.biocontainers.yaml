@@ -1,22 +1,3 @@
-description: tRNA detection in large-scale genome sequence
-home_url: http://lowelab.ucsc.edu/tRNAscan-SE/
-identifiers:
-- bioagents:trnascan-se
-- doi:10.1093/nar/gkw413
-keywords:
-- Base Sequence
-- Databases, Genetic
-- Genes, Fungal
-- Humans
-- Internet
-- Nucleic Acid Conformation
-- RNA, Transfer
-- Saccharomyces cerevisiae
-- User-Computer Interface
-- RNA
-- Genomics
-- Sequence analysis
-license: GPL-3.0
-manually_check: true
-name: trnascan-se
-total_pulls: 5
+version https://git-lfs.github.com/spec/v1
+oid sha256:77e16349d51f118909fa2a0ee9b792c31a132fef8546eb09ca51e4212e15c463
+size 456

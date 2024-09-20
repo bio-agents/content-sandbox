@@ -1,17 +1,3 @@
-description: The purpose of this package is to process and quantitatively analyse
-  millions of v-cdr3-j combination, called clonotypes, from multiple sequence libraries.
-home_url: http://bioconductor.org/packages/release/bioc/html/clonotypeR.html
-identifiers:
-- bioagents:clonotyper
-- doi:10.1093/bioinformatics/btt004
-keywords:
-- High-Throughput Nucleotide Sequencing
-- Humans
-- Receptors, Antigen, T-Cell, alpha-beta
-- Sequence Analysis, DNA
-- Immunology
-- Sequence analysis
-license: file LICENSE
-manually_check: true
-name: bioconductor-clonotyper
-total_pulls: 3
+version https://git-lfs.github.com/spec/v1
+oid sha256:4797fe01d9fc3e0adf5ceaeb3bbbfe49ca4eee8f1d77a208f8195e9b5d3f35ce
+size 566

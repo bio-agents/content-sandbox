@@ -1,26 +1,3 @@
-description: Analyze read length, phred scores and alphabet frequency and dna k-mers
-  on uncompressed and compressed fastq files.
-home_url: http://bioconductor.org/packages/release/bioc/html/seqAgents.html
-identifiers:
-- bioagents:belvu
-- doi:10.1186/1471-2105-6-108
-keywords:
-- Amino Acid Sequence
-- Biological Evolution
-- Calibration
-- Computational Biology
-- Computer Simulation
-- Evolution, Molecular
-- Likelihood Functions
-- Models, Statistical
-- Molecular Sequence Data
-- Monte Carlo Method
-- Pattern Recognition, Automated
-- Phylogeny
-- Sequence Analysis, Protein
-- Sequence Homology, Amino Acid
-- Proteins
-license: Artistic-2.0
-manually_check: true
-name: belvu
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:6df634980e1a6145acfc5145535079335cc9891fd247547617e3fb1f1aeff180
+size 685

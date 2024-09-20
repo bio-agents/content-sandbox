@@ -1,22 +1,3 @@
-description: Protein multiple aligner that automatically finds domain structures of
-  sequences with shuffled and repeated domain architectures.
-home_url: http://proda.stanford.edu/
-identifiers:
-- doi:10.1093/nar/gkl511
-- bioagents:proda
-keywords:
-- Computational Biology
-- Internet
-- Protein Structure, Tertiary
-- Repetitive Sequences, Amino Acid
-- Reproducibility of Results
-- Sequence Alignment
-- Sequence Analysis, Protein
-- Sequence analysis
-- Protein structure analysis
-- Protein folds and structural domains
-- Protein Sequences
-license: PD
-manually_check: true
-name: proda
-total_pulls: 4814
+version https://git-lfs.github.com/spec/v1
+oid sha256:3114249e1881bcbbcfd043ef405ce1db8141be621cececb8167ab82da3ca616b
+size 598

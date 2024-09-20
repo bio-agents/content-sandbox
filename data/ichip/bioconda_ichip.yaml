@@ -1,14 +1,3 @@
-bioagents_id: ichip
-description: Hidden Ising models are implemented to identify enriched genomic regions
-  in ChIP-chip data.  They can be used to analyze the data from multiple platforms
-  (e.g., Affymetrix, Agilent, and NimbleGen), and the data with single to multiple
-  replicates.
-home: https://bioconductor.org/packages/3.12/bioc/html/iChip.html
-identifiers:
-- bioagents:ichip
-- doi:10.1093/bioinformatics/btq032
-license: GPL (>= 2)
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-ichip
-summary: Bayesian Modeling of ChIP-chip Data Through Hidden Ising Models
-version: 1.44.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:2178f2d45ded2a6b13cdb5b238dd5307d746d09b21bc15a8a79f9059a44a9222
+size 595

@@ -1,22 +1,3 @@
-description: Zorro is an hybrid sequencing technology assembler. it takes to sets
-  of pre-assembled contigs and merge them into a more contiguous and consistent assembly.
-  the main caracteristic of zorro is the treatment before and after assembly to avoid
-  errors.
-home_url: https://sourceforge.net/projects/probmask/
-identifiers:
-- bioagents:zorro
-- doi:10.1186/s13059-017-1213-3
-keywords:
-- Chromosome Mapping
-- Contig Mapping
-- Eukaryota
-- Genome
-- High-Throughput Nucleotide Sequencing
-- Prokaryotic Cells
-- Sequence Analysis, DNA
-- Genomics
-- Sequence Alignment
-license: GPL-3.0
-manually_check: true
-name: zorro
-total_pulls: 44
+version https://git-lfs.github.com/spec/v1
+oid sha256:0d28fe1941a1ad38d4c5670f9f7c1916a4f840da500e6af70eafa128c0abbfe0
+size 636

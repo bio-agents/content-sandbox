@@ -1,11 +1,3 @@
-bioagents_id: pipmir
-home: https://ohlerlab.mdc-berlin.de/software/Pipeline_for_the_Identification_of_Plant_miRNAs_84/
-identifiers:
-- bioagents:pipmir
-- doi:10.1101/gr.123547.111
-license: PIPmiR is provided for academic use only, if you wish to use it in another
-  setting please contact Uwe Ohler.
-name: pipmir
-summary: We developed the PIPmiR algorithm to identify novel plant miRNA genes from
-  a combination of deep sequencing data and genomic features.
-version: 1.1
+version https://git-lfs.github.com/spec/v1
+oid sha256:cbd54ecc73a770200528e83308225136b94d41c931ba26095acb4631abc2bf38
+size 471

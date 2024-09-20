@@ -1,22 +1,3 @@
-description: The genome analysis agentkit (gatk) is a set of bioinformatic agents for
-  analyzing high-throughput sequencing (hts) and variant call format (vcf) data. the
-  agentkit is well established for germline short variant discovery from whole genome
-  and exome sequencing data. gatk4 expands functionality into copy number and somatic
-  analyses and offers pipeline scripts for workflows.
-home_url: https://software.broadinstitute.org/gatk/
-identifiers:
-- bioagents:gatk
-- doi:10.1101/gr.107524.110
-keywords:
-- Base Sequence
-- Genome
-- Genomics
-- Sequence Analysis, DNA
-- Sequence analysis
-- Genetic variation
-- Sequencing
-- Workflows
-license: Custom License
-manually_check: true
-name: gatk
-total_pulls: 347
+version https://git-lfs.github.com/spec/v1
+oid sha256:fccaa5973bdcf392175c3b2979ec47ff1f18045a912a36658e41dfc93196490c
+size 716

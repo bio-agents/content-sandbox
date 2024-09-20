@@ -1,29 +1,3 @@
-softwares:
-  ccmetagen:
-    labels:
-      about.documentation: https://github.com/vrmarcelino/CCMetagen/blob/master/README.md
-      about.home: https://github.com/vrmarcelino/CCMetagen
-      about.license: GPL-3.0+
-      about.license_file: https://github.com/vrmarcelino/CCMetagen/blob/master/LICENSE
-      about.summary: CCMetagen processes sequence alignments produced with KMA
-      base_image: python:3.7
-      extra.identifiers.bioagents: CCMetagen
-      software: ccmetagen
-      software.version: 1.1.5
-      version: '1'
-    software: ccmetagen
-    versions:
-    - labels:
-        about.documentation: https://github.com/vrmarcelino/CCMetagen/blob/master/README.md
-        about.home: https://github.com/vrmarcelino/CCMetagen
-        about.license: GPL-3.0+
-        about.license_file: https://github.com/vrmarcelino/CCMetagen/blob/master/LICENSE
-        about.summary: CCMetagen processes sequence alignments produced with KMA
-        base_image: python:3.7
-        extra.identifiers.bioagents: CCMetagen
-        software: ccmetagen
-        software.version: 1.1.5
-        version: '1'
-      type: Container file
-      url: biocontainers/ccmetagen:1.1.5-1
-      version: 1.1.5-1
+version https://git-lfs.github.com/spec/v1
+oid sha256:b444b1e5aa332e48bc40b1be8c640aa1d50ca6b4a2b5123e38b82b1a02c79ec8
+size 1189

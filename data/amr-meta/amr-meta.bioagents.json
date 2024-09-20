@@ -1,29 +1,3 @@
-{
-    "additionDate": "2022-02-21T22:38:14.119499Z",
-    "bioagentsCURIE": "bioagents:amr-meta",
-    "bioagentsID": "amr-meta",
-    "description": "a k-mer and metafeature approach to classify antimicrobial resistance from high-throughput short-read metagenomics data",
-    "editPermission": {
-        "type": "private"
-    },
-    "function": [
-        {
-            "operation": [
-                {
-                    "term": "Antimicrobial resistance prediction",
-                    "uri": "http://edamontology.org/operation_3482"
-                }
-            ]
-        }
-    ],
-    "homepage": "https://github.com/smarini/AMR-meta",
-    "lastUpdate": "2022-11-30T14:07:27.233708Z",
-    "name": "AMR-meta",
-    "owner": "simone.marini",
-    "topic": [
-        {
-            "term": "Metagenomics",
-            "uri": "http://edamontology.org/topic_3174"
-        }
-    ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:831b38c032986cc916bdae52514e4818d7e033a3c5d3c73e2add306a347502b6
+size 877

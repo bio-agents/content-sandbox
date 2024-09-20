@@ -1,11 +1,3 @@
-description: Links R to libsbml for SBML parsing, validating output, provides an S4
-  SBML DOM, converts SBML to R graph objects. Optionally links to the SBML ODE Solver
-  Library (SOSLib) for simulating models.
-home_url: https://bioconductor.org/packages/3.12/bioc/html/rsbml.html
-identifiers:
-- doi:10.18129/b9.bioc.rsbml
-keywords: []
-license: Artistic-2.0
-manually_check: true
-name: bioconductor-rsbml
-total_pulls: 432
+version https://git-lfs.github.com/spec/v1
+oid sha256:e403722d8cc4ff92e18afa25b2d88ad3647bfe4e5bde3adefca499b48ee2991a
+size 422

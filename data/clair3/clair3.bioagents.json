@@ -1,32 +1,3 @@
-{
-    "additionDate": "2022-10-26T10:15:39.347589Z",
-    "bioagentsCURIE": "bioagents:clair3",
-    "bioagentsID": "clair3",
-    "description": "Clair3 is a germline small variant caller for long-reads. Clair3 makes the best of two major method categories: pileup calling handles most variant candidates with speed, and full-alignment tackles complicated candidates to maximize precision and recall. Clair3 runs fast and has superior performance, especially at lower coverage. Clair3 is simple and modular for easy deployment and integration.",
-    "editPermission": {
-        "type": "private"
-    },
-    "function": [
-        {
-            "operation": [
-                {
-                    "term": "Variant calling",
-                    "uri": "http://edamontology.org/operation_3227"
-                }
-            ]
-        }
-    ],
-    "homepage": "https://github.com/HKU-BAL/Clair3",
-    "lastUpdate": "2022-10-26T10:15:39.350099Z",
-    "name": "Clair3",
-    "owner": "gallardoalba",
-    "topic": [
-        {
-            "term": "Molecular genetics",
-            "uri": "http://edamontology.org/topic_3321"
-        }
-    ],
-    "version": [
-        "0.1-r12"
-    ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:dd0ad67ff7c20d639005d394401b20c36a4734ad8d52c345ab8703e3861d1fe3
+size 1174

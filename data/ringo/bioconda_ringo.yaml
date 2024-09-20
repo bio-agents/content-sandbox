@@ -1,17 +1,3 @@
-bioagents_id: ringo
-description: The package Ringo facilitates the primary analysis of ChIP-chip data.
-  The main functionalities of the package are data read-in, quality assessment, data
-  visualisation and identification of genomic regions showing enrichment in ChIP-chip.
-  The package has functions to deal with two-color oligonucleotide microarrays from
-  NimbleGen used in ChIP-chip projects, but also contains more general functions for
-  ChIP-chip data analysis, given that the data is supplied as RGList (raw) or ExpressionSet
-  (pre- processed). The package employs functions from various other packages of the
-  Bioconductor project and provides additional ChIP-chip-specific and NimbleGen-specific
-  functionalities.
-home: https://bioconductor.org/packages/3.12/bioc/html/Ringo.html
-identifiers:
-- bioagents:ringo
-license: Artistic-2.0
-name: bioconductor-ringo
-summary: R Investigation of ChIP-chip Oligoarrays
-version: 1.54.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:07b97c3d547b686f8722b7425865c87365470180106a763ac0eb6ef709d40162
+size 939

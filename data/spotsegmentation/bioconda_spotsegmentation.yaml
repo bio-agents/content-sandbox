@@ -1,14 +1,3 @@
-bioagents_id: spotsegmentation
-description: Spot segmentation via model-based clustering and gridding for blocks
-  within microarray slides, as described in Li et al, Robust Model-Based Segmentation
-  of Microarray Images, Technical Report no. 473, Department of Statistics, University
-  of Washington.
-home: https://bioconductor.org/packages/3.10/bioc/html/spotSegmentation.html
-identifiers:
-- bioagents:spotsegmentation
-- doi:10.1093/bioinformatics/bti447
-license: GPL (>= 2)
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-spotsegmentation
-summary: Microarray Spot Segmentation and Gridding for Blocks of Microarray Spots
-version: 1.60.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:e394a8ffe1a99e6c427d94efbaf5d7cf395ac2f5f69dca5516050e64e55bea12
+size 654

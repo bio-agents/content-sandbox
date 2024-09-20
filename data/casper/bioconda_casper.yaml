@@ -1,13 +1,3 @@
-bioagents_id: casper
-description: Infer alternative splicing from paired-end RNA-seq data. The model is
-  based on counting paths across exons, rather than pairwise exon connections, and
-  estimates the fragment size and start distributions non-parametrically, which improves
-  estimation precision.
-home: https://bioconductor.org/packages/3.10/bioc/html/casper.html
-identifiers:
-- bioagents:casper
-license: GPL (>=2)
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-casper
-summary: Characterization of Alternative Splicing based on Paired-End Reads
-version: 2.20.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:b1ece87a3ad63b6e0b9e339231f08f96d73bdd25e0dc59a3b489dbb1184dfcdd
+size 578

@@ -1,35 +1,3 @@
-softwares:
-  interproscan:
-    labels:
-      about.documentation: https://github.com/ebi-pf-team/interproscan/wiki
-      about.home: https://www.ebi.ac.uk/interpro/interproscan.html
-      about.license: Apache-2.0
-      about.license_file: https://github.com/ebi-pf-team/interproscan/blob/dev/LICENSE
-      about.summary: Scan sequences against the InterPro protein signature databases.
-      about.tags: biology::nucleic, biology::protein, field::biology, field::biology:bioinformatics,
-        interface::commandline, role::program,:biological-sequence
-      base_image: ubuntu:16.04
-      extra.binaries: interproscan.sh
-      extra.identifier.bioagents: interproscan_4
-      software: interproscan
-      software.version: 5.30-69.0
-      version: '3'
-    software: interproscan
-    versions:
-    - labels:
-        about.documentation: https://github.com/ebi-pf-team/interproscan/wiki
-        about.home: https://www.ebi.ac.uk/interpro/interproscan.html
-        about.license: Apache-2.0
-        about.license_file: https://github.com/ebi-pf-team/interproscan/blob/dev/LICENSE
-        about.summary: Scan sequences against the InterPro protein signature databases.
-        about.tags: biology::nucleic, biology::protein, field::biology, field::biology:bioinformatics,
-          interface::commandline, role::program,:biological-sequence
-        base_image: ubuntu:16.04
-        extra.binaries: interproscan.sh
-        extra.identifier.bioagents: interproscan_4
-        software: interproscan
-        software.version: 5.30-69.0
-        version: '3'
-      type: Container file
-      url: biocontainers/interproscan:5.30-69.0-3
-      version: 5.30-69.0-3
+version https://git-lfs.github.com/spec/v1
+oid sha256:d3cf927ef1ccff05d1e7cd126c1855a1c5f8801494df67587f8752b6df195eb0
+size 1656

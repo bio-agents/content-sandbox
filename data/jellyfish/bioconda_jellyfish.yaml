@@ -1,14 +1,3 @@
-bioagents_id: jellyfish
-dev_url: https://github.com/gmarcais/Jellyfish
-home: http://www.genome.umd.edu/jellyfish.html
-identifiers:
-- bioagents:jellyfish
-- doi:10.1093/bioinformatics/btr011
-license: GPL-3.0
-license_family: GPL
-license_file: LICENSE
-name: kmer-jellyfish
-summary: Jellyfish is a agent for fast, memory-efficient counting of k-mers in DNA.
-  A k-mer is a substring of length k, and counting the occurrences of all such substrings
-  is a central step in many analyses of DNA sequence
-version: 2.3.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:9e696a895ae72ef1074b7fedebcc895b4fb7f3f76768ee8508e37719d345fd16
+size 511

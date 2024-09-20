@@ -1,22 +1,3 @@
-description: This package aims for the dna methylation data analysis and visualization.
-  a methygenoset class is defined to keep the chromosome location information together
-  with the data. the package also includes functions of estimating the methylation
-  levels from methy-seq data.
-home_url: http://bioconductor.org/packages/release/bioc/html/methyAnalysis.html
-identifiers:
-- bioagents:methyanalysis
-- doi:10.1038/nmeth.3252
-keywords:
-- Computational Biology
-- Gene Expression Profiling
-- Genomics
-- High-Throughput Screening Assays
-- Programming Languages
-- User-Computer Interface
-- DNA
-- Epigenetics
-- Methylated DNA immunoprecipitation
-license: Artistic-2.0
-manually_check: true
-name: bioconductor-methyanalysis
-total_pulls: 3
+version https://git-lfs.github.com/spec/v1
+oid sha256:1cbe2567ca61060fed580460e68d0f1734d62c881df583724aabc71545fa6a43
+size 738

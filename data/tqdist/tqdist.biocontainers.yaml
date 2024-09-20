@@ -1,14 +1,3 @@
-description: computes the triplet distance between rooted trees in O(n log n) time
-  and the quartet distance between unrooted trees in O(dn log n) time, where d degree
-  of the tree with the smallest degree.
-home_url: http://users-cs.au.dk/cstorm/software/tqdist/
-identifiers:
-- bioagents:tqdist
-- doi:10.1093/bioinformatics/btu157
-keywords:
-- Classification
-- Phylogeny
-license: GPL
-manually_check: true
-name: tqdist
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:0e19f62660e9a6c68351c991c59c786884a36896b4e15190279dc32664b9b5a3
+size 434

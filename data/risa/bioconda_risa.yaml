@@ -1,18 +1,3 @@
-bioagents_id: risa
-description: The Investigation / Study / Assay (ISA) tab-delimited format is a general
-  purpose framework with which to collect and communicate complex metadata (i.e. sample
-  characteristics, technologies used, type of measurements made) from experiments
-  employing a combination of technologies, spanning from traditional approaches to
-  high-throughput techniques. Risa allows to access metadata/data in ISA-Tab format
-  and build Bioconductor data structures. Currently, data generated from microarray,
-  flow cytometry and metabolomics-based (i.e. mass spectrometry) assays are supported.
-  The package is extendable and efforts are undergoing to support metadata associated
-  to proteomics assays.
-home: https://bioconductor.org/packages/3.12/bioc/html/Risa.html
-identifiers:
-- bioagents:risa
-license: LGPL
-license_file: /lib/R/share/licenses/LGPL-3
-name: bioconductor-risa
-summary: Converting experimental metadata from ISA-tab into Bioconductor data structures
-version: 1.32.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:baeca31fe1c91761ba26b5eab2ef44efa06a52c67278fb49b62c57ac96d4d5a0
+size 1006

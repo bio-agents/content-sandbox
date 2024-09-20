@@ -1,33 +1,3 @@
-package: cafagents
-distribution: debian
-release: sid
-component: non-free
-version: 2.0.3
-source: cafagents
-homepage: https://www.sanger.ac.uk/science/agents/caf
-license: unknown
-blend: debian-med
-description_md5: 4572e84506b4508911af8411e3cd9d5f
-registries:
-- entry: OMICS_24974
-  name: OMICagents
-- entry: CAFTOOLS
-  name: bio.agents
-popcon:
-- insts: 1
-  olde: 1
-descr:
-- package: cafagents
-  description: maintenance of DNA sequence assemblies
-  long_description: " This package contains code from different authors that allow\
-    \ sequence\n assemblies to be converted into formats such as CAF (Common Assembly\n\
-    \ Format) or GAP4.\n .\n CAF is a text format for describing sequence assemblies.\
-    \ It\n is acedb-compliant and is an extension of the ace-file format used\n earlier,\
-    \ but with support for base quality measures and a more extensive\n description\
-    \ of the Sequence data. CAF was designed during the Sanger\n sequencing era. Its\
-    \ modern-day successor is the SAM format, or its\n binary equivalents BAM and\
-    \ CRAM.\n"
-  release: sid
-  description_md5: 4572e84506b4508911af8411e3cd9d5f
-  license: unknown
-  blend: debian-med
+version https://git-lfs.github.com/spec/v1
+oid sha256:e56561b54417205e33fa3a2f518f68a5023e2793f8f34618f98bf6f891f92bd5
+size 1170

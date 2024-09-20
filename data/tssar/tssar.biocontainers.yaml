@@ -1,26 +1,3 @@
-description: TSSAR is a Web Service for predicting bacterial Transcription Start Sites
-  from dRNA-seq data.
-home_url: http://rna.tbi.univie.ac.at/TSSAR
-identifiers:
-- bioagents:tssar
-- doi:10.1186/1471-2105-15-89
-keywords:
-- Base Sequence
-- Databases, Nucleic Acid
-- Genome
-- Genomics
-- Helicobacter pylori
-- High-Throughput Nucleotide Sequencing
-- Humans
-- Sequence Analysis, RNA
-- Stenotrophomonas maltophilia
-- RNA-seq
-- Gene transcripts
-- Sequencing
-- Transcriptomics
-- RNA-Seq
-- Sequence Alignment
-license: GNU General Public License v2.0
-manually_check: true
-name: tssar
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:402493e741de4a74169f7018b31961ce3a13be280ce8849a6be12eaad8b612c3
+size 593

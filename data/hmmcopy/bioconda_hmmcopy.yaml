@@ -1,15 +1,3 @@
-bioagents_id: hmmcopy
-description: Corrects GC and mappability biases for readcounts (i.e. coverage) in
-  non-overlapping windows of fixed length for single whole genome samples, yielding
-  a rough estimate of copy number for furthur analysis.  Designed for rapid correction
-  of high coverage whole genome tumour and normal samples.
-home: https://bioconductor.org/packages/3.12/bioc/html/HMMcopy.html
-identifiers:
-- bioagents:hmmcopy
-- doi:10.1038/nmeth.3252
-license: GPL-3
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-hmmcopy
-summary: Copy number prediction with correction for GC and mappability bias for HTS
-  data
-version: 1.32.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:58ddc014a9f24f804156906143fdb4c6bf31b76c516b99ff83bb4e29dcaa8975
+size 651

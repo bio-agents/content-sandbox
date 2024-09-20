@@ -1,11 +1,3 @@
-description: This agent is able to receive multiple datasets (optionally with their
-  metadata) in a single query. as an extension of the galaxy-json-data-source agent
-  (https://github.com/mdshw5/galaxy-json-data-source), it allows to handle archives
-  (gz, bz2, tar, and zip) organizing their content in a collection.
-home_url: https://github.com/fabio-cumbo/galaxy-json-collect-data-source
-identifiers: []
-keywords: []
-license: BSD
-manually_check: true
-name: json_collect_data_source
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:6f0ee291c88b7fd361fa35e6c375cf904bfa1b94b5d790bd9905bd9ac1810bca
+size 502

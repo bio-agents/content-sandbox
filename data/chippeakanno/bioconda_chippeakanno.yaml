@@ -1,18 +1,3 @@
-bioagents_id: chippeakanno
-description: The package includes functions to retrieve the sequences around the peak,
-  obtain enriched Gene Ontology (GO) terms, find the nearest gene, exon, miRNA or
-  custom features such as most conserved elements and other transcription factor binding
-  sites supplied by users. Starting 2.0.5, new functions have been added for finding
-  the peaks with bi-directional promoters with summary statistics (peaksNearBDP),
-  for summarizing the occurrence of motifs in peaks (summarizePatternInPeaks) and
-  for adding other IDs to annotated peaks or enrichedGO (addGeneIDs). This package
-  leverages the biomaRt, IRanges, Biostrings, BSgenome, GO.db, multtest and stat packages.
-home: https://bioconductor.org/packages/3.12/bioc/html/ChIPpeakAnno.html
-identifiers:
-- bioagents:chippeakanno
-license: GPL (>= 2)
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-chippeakanno
-summary: Batch annotation of the peaks identified from either ChIP-seq, ChIP-chip
-  experiments or any experiments resulted in large number of chromosome ranges
-version: 3.24.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:e0b2c57aeafc1be816369287aa4621dd5e6f1fe22278f3ecec833963867a7c2a
+size 1090

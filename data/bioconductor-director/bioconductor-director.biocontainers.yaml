@@ -1,24 +1,3 @@
-description: R package designed to streamline the visualization of molecular effects
-  in regulatory cascades. it utilizes the r package htmlagents and a modified sankey
-  plugin of the javascript library d3 to provide a fast and easy, browser-enabled
-  solution to discovering potentially interesting downstream effects of regulatory
-  and/or co-expressed molecules. the diagrams are robust, interactive, and packaged
-  as highly-portable html files that eliminate the need for third-party software to
-  view.
-home_url: http://bioconductor.org/packages/release/bioc/html/Director.html
-identifiers:
-- bioagents:director
-- doi:10.1038/nmeth.3252
-keywords:
-- Computational Biology
-- Gene Expression Profiling
-- Genomics
-- High-Throughput Screening Assays
-- Programming Languages
-- User-Computer Interface
-- Data visualisation
-- Molecular interactions, pathways and networks
-license: GPL-3.0
-manually_check: true
-name: bioconductor-director
-total_pulls: 3
+version https://git-lfs.github.com/spec/v1
+oid sha256:bfe8d0feed47800d58791abdfa103b57cebd63e54ad5ce147d88cff6620bdd76
+size 953

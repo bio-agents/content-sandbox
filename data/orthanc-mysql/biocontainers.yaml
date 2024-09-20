@@ -1,35 +1,3 @@
-softwares:
-  orthanc-mysql:
-    labels:
-      about.copyright: 2012-2016 Sebastien Jodogne <s.jodogne@gmail.com>, University
-        Hospital of Liege (Belgium), and 2017-2019 Osimis S.A. (Belgium)
-      about.home: https://www.orthanc-server.com/static.php?page=mysql
-      about.license: AGPL-3
-      about.license_file: /usr/share/doc/orthanc-mysql/copyright
-      about.summary: Plugins to use MySQL or MariaDB as a database back-end to Orthanc
-      about.tags: ''
-      base_image: biocontainers/biocontainers:vdebian-buster-backports_cv1
-      container: orthanc-mysql
-      software: orthanc-mysql
-      software.version: 2.0-2-deb
-      upstream.version: '2.0'
-      version: '1'
-    software: orthanc-mysql
-    versions:
-    - labels:
-        about.copyright: 2012-2016 Sebastien Jodogne <s.jodogne@gmail.com>, University
-          Hospital of Liege (Belgium), and 2017-2019 Osimis S.A. (Belgium)
-        about.home: https://www.orthanc-server.com/static.php?page=mysql
-        about.license: AGPL-3
-        about.license_file: /usr/share/doc/orthanc-mysql/copyright
-        about.summary: Plugins to use MySQL or MariaDB as a database back-end to Orthanc
-        about.tags: ''
-        base_image: biocontainers/biocontainers:vdebian-buster-backports_cv1
-        container: orthanc-mysql
-        software: orthanc-mysql
-        software.version: 2.0-2-deb
-        upstream.version: '2.0'
-        version: '1'
-      type: Container file
-      url: biocontainers/orthanc-mysql:2.0-2-deb-1
-      version: 2.0-2-deb-1
+version https://git-lfs.github.com/spec/v1
+oid sha256:1d9c732942608ba505d3f96f7a102156226345c98bef248d1e8c268bac7996f7
+size 1525

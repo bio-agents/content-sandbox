@@ -1,14 +1,3 @@
-description: A short read assembler based on iterative de bruijn graph. it is developed
-  under 64-bit linux, but should be suitable for all unix-like system.
-home_url: https://github.com/loneknightpy/idba
-identifiers:
-- bioagents:idba
-- doi:10.1007/978-3-642-12683-3_28
-keywords:
-- Sequence assembly
-- RNA-Seq
-- Transcriptome
-license: GNU
-manually_check: true
-name: idba
-total_pulls: 8475
+version https://git-lfs.github.com/spec/v1
+oid sha256:7dcf16558f53824db7f9a62afec920ee609fd1aaa19514781e716226bb6e2336
+size 390

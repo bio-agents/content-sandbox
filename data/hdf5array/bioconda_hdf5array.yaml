@@ -1,16 +1,3 @@
-bioagents_id: hdf5array
-description: Implements the HDF5Array and TENxMatrix classes, 2 convenient and memory-efficient
-  array-like containers for on-disk representation of HDF5 datasets. HDF5Array is
-  for datasets that use the conventional (i.e. dense) HDF5 representation. TENxMatrix
-  is for datasets that use the HDF5-based sparse matrix representation from 10x Genomics
-  (e.g. the 1.3 Million Brain Cell Dataset). Both containers being DelayedArray extensions,
-  they support all operations supported by DelayedArray objects. These operations
-  can be either delayed or block-processed.
-home: https://bioconductor.org/packages/3.12/bioc/html/HDF5Array.html
-identifiers:
-- bioagents:hdf5array
-- doi:10.1038/nmeth.3252
-license: Artistic-2.0
-name: bioconductor-hdf5array
-summary: HDF5 backend for DelayedArray objects
-version: 1.18.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:ce0de3615549960cc19505aee4364cb84252e24cbac6d038b9b8da85f790bc22
+size 839

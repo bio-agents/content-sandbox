@@ -1,31 +1,3 @@
-softwares:
-  bioconductor-bsgenome:
-    labels:
-      about.copyright: ' 2006-2016 Herve Pages <hpages@fhcrc.org>'
-      about.home: https://bioconductor.org/packages/BSgenome/
-      about.license: Artistic-2.0
-      about.license_file: /usr/share/doc/bioconductor-bsgenome/copyright
-      about.summary: BioConductor infrastructure for Biostrings-based genome data
-        packages
-      about.tags: ''
-      container: bioconductor-bsgenome
-      software: bioconductor-bsgenome
-      software.version: 1.42.0-2-deb
-      version: '1'
-    software: bioconductor-bsgenome
-    versions:
-    - labels:
-        about.copyright: ' 2006-2016 Herve Pages <hpages@fhcrc.org>'
-        about.home: https://bioconductor.org/packages/BSgenome/
-        about.license: Artistic-2.0
-        about.license_file: /usr/share/doc/bioconductor-bsgenome/copyright
-        about.summary: BioConductor infrastructure for Biostrings-based genome data
-          packages
-        about.tags: ''
-        container: bioconductor-bsgenome
-        software: bioconductor-bsgenome
-        software.version: 1.42.0-2-deb
-        version: '1'
-      type: Container file
-      url: biocontainers/bioconductor-bsgenome:1.42.0-2-deb-1
-      version: 1.42.0-2-deb-1
+version https://git-lfs.github.com/spec/v1
+oid sha256:8627bc9f7ebef59642df2872790648dad36ca33d4ddc7f32cbdf0ec251be791c
+size 1231

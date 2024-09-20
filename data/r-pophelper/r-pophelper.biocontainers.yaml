@@ -1,14 +1,3 @@
-description: A set of useful functions for processing admixture proportion files from
-  the population structure analysis softwares STRUCTURE, TESS, ADMIXTURE, BAPS, fastSTRUCTURE
-  etc. The package contains functions to read runs, tabulate runs, summarise runs,
-  plot runs, estimate K using Evanno method, export clumpp files, export distruct
-  files and generate barplots.
-home_url: https://github.com/royfrancis/pophelper
-identifiers:
-- doi:10.1111/1755-0998.12509
-keywords:
-- Genetics
-license: GPL-3
-manually_check: true
-name: r-pophelper
-total_pulls: 5
+version https://git-lfs.github.com/spec/v1
+oid sha256:0e83ee63d3083a837f6a892db403125904d7d783ccd1f3aecbb9d2aacb1d22db
+size 559

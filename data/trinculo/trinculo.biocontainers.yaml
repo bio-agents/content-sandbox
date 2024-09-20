@@ -1,21 +1,3 @@
-description: A agentkit for carrying out genetic association for multi-category phenotypes.
-  implements multinomial and ordinal nassociation incorporating covariates, conditional
-  analysis,nempirical and non-emperical priors and fine-mapping.
-home_url: https://sourceforge.net/projects/trinculo/
-identifiers:
-- bioagents:trinculo
-- doi:10.1093/bioinformatics/btw075
-keywords:
-- Bayes Theorem
-- Genome-Wide Association Study
-- Humans
-- Logistic Models
-- Phenotype
-- Genetics
-- GWAS study
-- Pathology
-- Genotype and phenotype
-license: MIT
-manually_check: true
-name: trinculo
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:2521d0e9546ae8147a680bc6c339dbbfcba3dd5519611251a34d743b29401698
+size 590

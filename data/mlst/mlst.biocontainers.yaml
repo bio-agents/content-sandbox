@@ -1,20 +1,3 @@
-description: Multi locus sequence typing from an assembled genome or from a set of
-  reads.
-home_url: http://cge.cbs.dtu.dk/services/MLST/
-identifiers:
-- bioagents:mlst
-- doi:10.1128/JCM.06094-11
-keywords:
-- Bacteria
-- Bacterial Typing Techniques
-- Contig Mapping
-- Databases, Genetic
-- Genes, Bacterial
-- Genome, Bacterial
-- High-Throughput Nucleotide Sequencing
-- Multilocus Sequence Typing
-- Immunoproteins, genes and antigens
-license: Apache-2.0
-manually_check: true
-name: mlst
-total_pulls: 3476
+version https://git-lfs.github.com/spec/v1
+oid sha256:f5aecc254f16957661afca293a7d80a737c48e8f3395bb0e7e9565aded469768
+size 500

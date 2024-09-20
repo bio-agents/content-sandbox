@@ -1,18 +1,3 @@
-description: Biomaj is a workflow engine dedicated to data synchronization and processing.
-  the software automates the update cycle and the supervision of the locally mirrored
-  databank repository.
-home_url: http://biomaj.genouest.org/
-identifiers:
-- bioagents:biomaj
-- doi:10.1093/bioinformatics/btn325
-- doi:10.1186/s13742-015-0063-8
-keywords:
-- Automation
-- Computational Biology
-- Internet
-- User-Computer Interface
-- Data management
-license: AGPL-3.0
-manually_check: true
-name: biomaj
-total_pulls: 16
+version https://git-lfs.github.com/spec/v1
+oid sha256:8bad2e90875af560f0ef1cf300a98a732d3a794860062f95735e09556c490982
+size 508

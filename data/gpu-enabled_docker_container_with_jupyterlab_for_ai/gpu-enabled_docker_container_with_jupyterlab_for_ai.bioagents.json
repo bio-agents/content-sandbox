@@ -1,34 +1,3 @@
-{
-    "accessibility": "Open access",
-    "additionDate": "2022-06-30T08:09:50.148213Z",
-    "bioagentsCURIE": "bioagents:gpu-enabled_docker_container_with_jupyterlab_for_ai",
-    "bioagentsID": "gpu-enabled_docker_container_with_jupyterlab_for_ai",
-    "cost": "Free of charge",
-    "description": "An open-source, docker-based, and GPU-enabled jupyterlab notebook has been developed that can run on any compute infrastructure for rapid prototyping and developing end-to-end AI projects. In addition, with such a notebook, long-running AI model training programs can be executed remotely. Other features include GPU support for faster training, git integration for version control, the option of creating and executing pipelines of notebooks, and the availability of multiple dashboards for monitoring compute resources.",
-    "editPermission": {
-        "type": "private"
-    },
-    "homepage": "https://github.com/anuprulez/ml-jupyter-notebook",
-    "language": [
-        "Python"
-    ],
-    "lastUpdate": "2022-06-30T08:18:50.078326Z",
-    "license": "MIT",
-    "name": "GPU-enabled docker container with Jupyterlab for AI",
-    "operatingSystem": [
-        "Linux"
-    ],
-    "owner": "anuprulez",
-    "agentType": [
-        "Web service"
-    ],
-    "topic": [
-        {
-            "term": "Machine learning",
-            "uri": "http://edamontology.org/topic_3474"
-        }
-    ],
-    "version": [
-        "0.1"
-    ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:81cd005737fdad9399c71ae44b30185a9658e4a9719499e0ba6f9eca098416a0
+size 1428

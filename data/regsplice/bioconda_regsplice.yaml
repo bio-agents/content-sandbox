@@ -1,13 +1,3 @@
-bioagents_id: regsplice
-description: Statistical methods for detection of differential splicing (differential
-  exon usage) in RNA-seq and exon microarray data, using L1-regularization (lasso)
-  to improve power.
-home: https://bioconductor.org/packages/3.12/bioc/html/regsplice.html
-identifiers:
-- bioagents:regsplice
-- doi:10.1038/nmeth.3252
-license: MIT + file LICENSE
-license_file: LICENSE
-name: bioconductor-regsplice
-summary: L1-regularization based methods for detection of differential splicing
-version: 1.16.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:7ec5bc9015113b386460ed08086c52a5d41a04db6396635121402c5c7f03806e
+size 518

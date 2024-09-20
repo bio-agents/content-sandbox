@@ -1,12 +1,3 @@
-description: High-performing functions operating on rows and columns of matrices,
-  e.g. col / rowMedians(), col / rowRanks(), and col / rowSds().  Functions optimized
-  per data type and for subsetted calculations such that both memory usage and processing
-  time is minimized.  There are also optimized vector-based methods, e.g. binMeans(),
-  madDiff() and weightedMedians().
-home_url: None
-identifiers: []
-keywords: []
-license: Artistic-2.0
-manually_check: true
-name: r-matrixstats
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:e15358bd09935dedfcce53122ccedb8834db4b040f21cf0321db17f37b132732
+size 501

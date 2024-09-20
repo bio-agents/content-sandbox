@@ -1,14 +1,3 @@
-bioagents_id: structure
-home: https://web.stanford.edu/group/pritchardlab/structure.html
-identifiers:
-- bioagents:Structure
-license: MIT
-name: structure
-summary: The program structure is a free software package for using multi-locus genotype
-  data to investigate population structure. Its uses include inferring the presence
-  of distinct populations, assigning individuals to populations, studying hybrid zones,
-  identifying migrants and admixed individuals, and estimating population allele frequencies
-  in situations where many individuals are migrants or admixed. It can be applied
-  to most of the commonly-used genetic markers, including SNPS, microsatellites, RFLPs
-  and AFLPs.
-version: 2.3.4
+version https://git-lfs.github.com/spec/v1
+oid sha256:498d9e4d8e16c3d78e16fd8c05a852a890399758ac2e987d23959208e461b55e
+size 704

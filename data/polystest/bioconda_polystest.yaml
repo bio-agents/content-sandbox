@@ -1,16 +1,3 @@
-bioagents_id: polystest
-description: "PolySTest is a web service (shiny app) and command-line agent for statistical\
-  \ testing, data browsing and interactive visualization of quantitative omics data.\
-  \ It contains multiple statistical tests and a new method to incorporate missing\
-  \ values. \n"
-home: https://bitbucket.org/veitveit/polystest/src/master/
-identifiers:
-- bioagents:polystest
-- doi:10.1074/mcp.RA119.001777
-license: GPL (>=2)
-license_family: GPL
-license_file: LICENSE
-name: polystest
-summary: Interactive agent for statistical testing, data browsing and interactive visualization
-  of quantitative omics data
-version: 1.01
+version https://git-lfs.github.com/spec/v1
+oid sha256:a256223e55070207170ce7b5b9abee450cfd341e0e4822d15af58d559539b2e3
+size 644

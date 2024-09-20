@@ -1,11 +1,3 @@
-bioagents_id: crlmm
-description: Faster implementation of CRLMM specific to SNP 5.0 and 6.0 arrays, as
-  well as a copy number agent specific to 5.0, 6.0, and Illumina platforms.
-home: https://bioconductor.org/packages/3.12/bioc/html/crlmm.html
-identifiers:
-- bioagents:crlmm
-license: Artistic-2.0
-name: bioconductor-crlmm
-summary: Genotype Calling (CRLMM) and Copy Number Analysis agent for Affymetrix SNP
-  5.0 and 6.0 and Illumina arrays
-version: 1.48.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:d966b14635dee666cfbe099d397bb736e59317357331f3120a33ad75246ec323
+size 457

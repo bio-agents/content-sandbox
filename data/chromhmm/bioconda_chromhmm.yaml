@@ -1,11 +1,3 @@
-bioagents_id: chromhmm
-home: https://github.com/jernst98/ChromHMM
-identifiers:
-- bioagents:chromhmm
-license: GPLv3
-name: chromhmm
-summary: ChromHMM is software for learning and characterizing chromatin states. ChromHMM
-  can integrate multiple chromatin datasets such as ChIP-seq data of various histone
-  modifications to discover de novo the major re-occuring combinatorial and spatial
-  patterns of marks.
-version: 1.21
+version https://git-lfs.github.com/spec/v1
+oid sha256:fcfcc5d351e0609e4231b51dedc7500268c6dca977253e40ad2cabe5c473f267
+size 423

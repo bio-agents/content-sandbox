@@ -1,12 +1,3 @@
-bioagents_id: rnits
-description: R/Bioconductor package for normalization, curve registration and inference
-  in time course gene expression data.
-home: https://bioconductor.org/packages/3.12/bioc/html/Rnits.html
-identifiers:
-- bioagents:rnits
-- doi:10.1038/nmeth.3252
-license: GPL-3
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-rnits
-summary: R Normalization and Inference of Time Series data
-version: 1.24.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:7ebdecf1de22aa9cf6c565e5e23565c2bbb557b2dc35e5bd45072962434c5134
+size 426

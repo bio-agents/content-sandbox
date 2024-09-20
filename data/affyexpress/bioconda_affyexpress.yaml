@@ -1,13 +1,3 @@
-bioagents_id: affyexpress
-description: The purpose of this package is to provide a comprehensive and easy-to-use
-  agent for quality assessment and to identify differentially expressed genes in the
-  Affymetrix gene expression data.
-home: https://bioconductor.org/packages/3.12/bioc/html/AffyExpress.html
-identifiers:
-- bioagents:affyexpress
-- doi:10.1038/nmeth.3252
-license: LGPL
-license_file: /lib/R/share/licenses/LGPL-3
-name: bioconductor-affyexpress
-summary: Affymetrix Quality Assessment and Analysis Agent
-version: 1.56.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:89d19ac3d3a8a22de05e92519778ea13499dd8f0f7058fb4b7a37256f96af04c
+size 529

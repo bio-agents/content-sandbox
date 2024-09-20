@@ -1,25 +1,3 @@
-description: A agent for control-free copy number alteration (cna) and allelic imbalances
-  (loh) detection using deep-sequencing data, particularly useful for cancer studies.
-home_url: https://github.com/BoevaLab/FREEC
-identifiers:
-- bioagents:freec
-- doi:10.1093/bioinformatics/btq635
-keywords:
-- Base Composition
-- Cell Line, Tumor
-- Cytosine
-- DNA Copy Number Variations
-- Genomics
-- Guanine
-- High-Throughput Nucleotide Sequencing
-- Humans
-- Neoplasms
-- DNA structural variation
-- Oncology
-- Human genetics
-- Data mining
-- Whole genome sequencing
-license: GPL-2.0
-manually_check: true
-name: control-freec
-total_pulls: 3967
+version https://git-lfs.github.com/spec/v1
+oid sha256:971f92b982c0bd4fd6c8b4a277a0f7b546c2a1f3ada0db8edfdcf275cf34e7f7
+size 628

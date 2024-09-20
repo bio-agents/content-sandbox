@@ -1,17 +1,3 @@
-bioagents_id: methylumi
-description: This package provides classes for holding and manipulating Illumina methylation
-  data.  Based on eSet, it can contain MIAME information, sample information, feature
-  information, and multiple matrices of data.  An "intelligent" import function, methylumiR
-  can read the Illumina text files and create a MethyLumiSet. methylumIDAT can directly
-  read raw IDAT files from HumanMethylation27 and HumanMethylation450 microarrays.
-  Normalization, background correction, and quality control features for GoldenGate,
-  Infinium, and Infinium HD arrays are also included.
-home: https://bioconductor.org/packages/3.12/bioc/html/methylumi.html
-identifiers:
-- bioagents:methylumi
-- doi:10.1186/1471-2164-14-293
-license: GPL-2
-license_file: /lib/R/share/licenses/GPL-2
-name: bioconductor-methylumi
-summary: Handle Illumina methylation data
-version: 2.36.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:55cfac8ab348bdba4c03455c53574b4f053a2d9595bd79ccc904456c47dc94d3
+size 885

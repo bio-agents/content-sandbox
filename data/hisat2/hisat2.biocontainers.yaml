@@ -1,28 +1,3 @@
-description: Alignment program for mapping next-generation sequencing reads (both
-  dna and rna) to a population of human genomes (as well as to a single reference
-  genome).
-home_url: https://github.com/DaehwanKimLab/hisat2
-identifiers:
-- bioagents:HISAT2
-- doi:10.1038/nmeth.3317
-- doi:10.1038/nprot.2016.095
-- doi:10.1038/nmeth.4106
-- doi:10.1038/s41587-019-0201-4
-keywords:
-- Base Sequence
-- Benchmarking
-- Genetic Variation
-- Genome, Human
-- Genomics
-- Genotype
-- Humans
-- Reproducibility of Results
-- Sequence Analysis, DNA
-- Sequence Analysis, RNA
-- RNA-seq
-- Whole genome sequencing
-- Transcriptome
-license: GPL-3.0
-manually_check: true
-name: hisat2
-total_pulls: 9648
+version https://git-lfs.github.com/spec/v1
+oid sha256:b134bc56af2caf65cde1bd6643a3171127ee2d3a3b78c40d91d19d073c2b158f
+size 676

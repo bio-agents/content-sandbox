@@ -1,35 +1,3 @@
-package: rambo-k
-distribution: debian
-release: sid
-component: main
-version: '1.21'
-source: rambo-k
-homepage: http://rambok.sourceforge.net/
-license: unknown
-blend: debian-med
-description_md5: a05ed8471b33e5174a52d89ac988bf09
-registries:
-- entry: OMICS_10013
-  name: OMICagents
-- entry: RAMBO-K
-  name: bio.agents
-bib:
-- key: doi
-  value: 10.1371/journal.pone.0137896
-popcon:
-- insts: 38
-  olde: 31
-  recent: 1
-  vote: 6
-descr:
-- package: rambo-k
-  description: Read Assignment Method Based On K-mers
-  long_description: " RAMBO-K is a agent for rapid and sensitive removal of background\
-    \ sequences\n from Next Generation Sequencing data.\n .\n RAMBO-K is a reference-based\
-    \ agent for rapid and sensitive extraction of\n one organisms reads from a mixed\
-    \ dataset. It is based on a Markov chain\n implementation, which uses genomic\
-    \ characteristics of each reference to\n assign reads to the associated set.\n"
-  release: sid
-  description_md5: a05ed8471b33e5174a52d89ac988bf09
-  license: unknown
-  blend: debian-med
+version https://git-lfs.github.com/spec/v1
+oid sha256:68fa14a33e9de4d5e310d50c8a5f483651b96449c09c17bc107da8b542e076d2
+size 1039

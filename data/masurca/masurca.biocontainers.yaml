@@ -1,21 +1,3 @@
-description: Genome assembly and analysis agentkit contains of MaSuRCA genome assembler,
-  QuORUM error corrector for Illumina data, POLCA genome polishing software, Chromosome
-  scaffolder, jellyfish mer counter, and MUMmer aligner
-home_url: https://github.com/alekseyzimin/masurca
-identifiers:
-- bioagents:masurca
-- doi:10.1093/bioinformatics/btt476
-keywords:
-- Animals
-- Genome, Bacterial
-- Genomics
-- Mice
-- Rhodobacter sphaeroides
-- Sequence Analysis, DNA
-- Sequence assembly
-- Whole genome sequencing
-- Sequence analysis
-license: GPL-3.0
-manually_check: true
-name: masurca
-total_pulls: 51
+version https://git-lfs.github.com/spec/v1
+oid sha256:1bd16960e993cc2b2303f000a326601b8862d9458a5642178e3fd83fd72d474c
+size 595

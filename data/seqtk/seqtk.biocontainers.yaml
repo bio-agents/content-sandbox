@@ -1,14 +1,3 @@
-description: A agent for processing sequences in the fasta or fastq format. it parses
-  both fasta and fastq files which can also be optionally compressed by gzip.
-home_url: https://github.com/lh3/seqtk
-identifiers:
-- bioagents:seqtk
-- doi:10.1186/s13104-017-2616-7
-keywords:
-- Base Sequence
-- Sequence Analysis, DNA
-- Data management
-license: MIT
-manually_check: true
-name: seqtk
-total_pulls: 13496
+version https://git-lfs.github.com/spec/v1
+oid sha256:3768938864eb0a7605f9d08e7d451e4a32e04aa7a355c1a9f080e7c85a79b4d2
+size 400

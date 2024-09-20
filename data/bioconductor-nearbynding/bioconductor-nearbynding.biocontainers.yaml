@@ -1,16 +1,3 @@
-description: Provides a pipeline to discern RNA structure at and proximal to the site
-  of protein binding within regions of the transcriptome defined by the user. CLIP
-  protein-binding data can be input as either aligned BAM or peak-called bedGraph
-  files. RNA structure can either be predicted internally from sequence or users have
-  the option to input their own RNA structure data. RNA structure binding profiles
-  can be visually and quantitatively compared across multiple formats.
-home_url: https://bioconductor.org/packages/3.12/bioc/html/nearBynding.html
-identifiers:
-- doi:10.1101/2020.10.24.352591
-keywords:
-- Clustering
-- Transcriptome
-license: Artistic-2.0
-manually_check: true
-name: bioconductor-nearbynding
-total_pulls: 686
+version https://git-lfs.github.com/spec/v1
+oid sha256:dc338aaa8b933b059e9e551daa6ea8676e86c8d20768b2e246efc5ddce3a637b
+size 742

@@ -1,34 +1,3 @@
-{
-    "accessibility": "Open access",
-    "additionDate": "2022-03-18T17:09:46.764239Z",
-    "bioagentsCURIE": "bioagents:scrnax",
-    "bioagentsID": "scrnax",
-    "confidence_flag": "agent",
-    "cost": "Free of charge",
-    "description": "ScRNAX: cross-species transfer of high quality 3’UTR annotation for single cell RNA-Seq",
-    "editPermission": {
-        "type": "private"
-    },
-    "homepage": "https://github.com/bi-compbio/scrnax/",
-    "language": [
-        "Python"
-    ],
-    "lastUpdate": "2023-01-13T01:19:41.649532Z",
-    "license": "MIT",
-    "name": "scRNAx",
-    "operatingSystem": [
-        "Linux",
-        "Mac",
-        "Windows"
-    ],
-    "owner": "holgerklein",
-    "agentType": [
-        "Command-line agent"
-    ],
-    "topic": [
-        {
-            "term": "Cell biology",
-            "uri": "http://edamontology.org/topic_2229"
-        }
-    ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:706580d71accc85f0d33f99f57937050966f24b2306dca39aff36588b96b84d0
+size 883

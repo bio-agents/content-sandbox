@@ -1,14 +1,3 @@
-bioagents_id: webbioc
-description: An integrated web interface for doing microarray analysis using several
-  of the Bioconductor packages. It is intended to be deployed as a centralized bioinformatics
-  resource for use by many users. (Currently only Affymetrix oligonucleotide analysis
-  is supported.)
-home: https://bioconductor.org/packages/3.12/bioc/html/webbioc.html
-identifiers:
-- bioagents:webbioc
-- doi:10.1007/0-387-29362-0_18
-license: GPL (>= 2)
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-webbioc
-summary: Bioconductor Web Interface
-version: 1.62.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:8196ed2bb39933044f998bb841623bfa9740281d8dfb63e59fb42dba8be252ec
+size 577

@@ -1,20 +1,3 @@
-description: A thin wrapper around the sqlite database along with associated documentation.
-  access to the metadata associated with samples, platforms, and datasets much more
-  feasible.
-home_url: http://bioconductor.org/packages/release/bioc/html/GEOmetadb.html
-identifiers:
-- bioagents:geometadb
-- doi:10.1093/bioinformatics/btn520
-keywords:
-- Databases, Genetic
-- Gene Expression
-- Gene Expression Profiling
-- Information Storage and Retrieval
-- Oligonucleotide Array Sequence Analysis
-- User-Computer Interface
-- Microarray experiment
-- Data acquisition
-license: Artistic-2.0
-manually_check: true
-name: bioconductor-geometadb
-total_pulls: 5
+version https://git-lfs.github.com/spec/v1
+oid sha256:54f38b092ade2133e392bf4a3cdd90fc6adfd93644c46b171262fd3b79edee2a
+size 646

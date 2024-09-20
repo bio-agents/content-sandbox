@@ -1,13 +1,3 @@
-bioagents_id: rgreat
-description: This package makes GREAT (Genomic Regions Enrichment of Annotations Agent)
-  analysis automatic by constructing a HTTP POST request according to user's input
-  and automatically retrieving results from GREAT web server.
-home: https://bioconductor.org/packages/3.12/bioc/html/rGREAT.html
-identifiers:
-- bioagents:rgreat
-- doi:10.1038/nmeth.3252
-license: MIT + file LICENSE
-license_file: LICENSE
-name: bioconductor-rgreat
-summary: Client for GREAT Analysis
-version: 1.22.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:68d90c264bddda5cca4a3416eeba30486f2d11881b8fd22bf0812ff6c88eb7c1
+size 505

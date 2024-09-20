@@ -1,11 +1,3 @@
-description: Detects coding regions in dna sequences even if they are of low quality.
-  estscan.pm contains the perl part of the code that reads in the matrices file. the
-  c code that does the actual computation is located in estscan.c.
-home_url: http://estscan.sourceforge.net
-identifiers: []
-keywords:
-- Protein Sequences
-license: Not available
-manually_check: true
-name: perl-estscan2
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:aab259ae0615ef038209c63cf373d6c552589559908fd3c87c2c5a26b943a91d
+size 404

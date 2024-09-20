@@ -1,11 +1,3 @@
-description: Flipflop discovers which isoforms of a gene are expressed in a given
-  sample together with their abundances, based on RNA-Seq read data. It takes an alignment
-  file in SAM format as input. It can also discover transcripts from several samples
-  simultaneously, increasing statistical power.
-home_url: https://www.bioconductor.org/packages/release/bioc/html/flipflop.html
-identifiers: []
-keywords: []
-license: GPL-3
-manually_check: true
-name: bioconductor-flipflop
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:0a741cd1d70a83d53bf644fc37cf7b951937c93b80b1552b05c62c8b7811593d
+size 494

@@ -1,23 +1,3 @@
-{
-    "additionDate": "2019-11-06T11:04:10Z",
-    "bioagentsCURIE": "bioagents:fastxtend",
-    "bioagentsID": "fastxtend",
-    "description": "fastxtend is an extension of FASTX-Agentkit package. It provides four commands line agents for Short-Reads FASTA/FASTQ files preprocessing.",
-    "editPermission": {
-        "type": "private"
-    },
-    "homepage": "http://www.genoscope.cns.fr/externe/fastxtend/",
-    "lastUpdate": "2019-11-06T11:04:10Z",
-    "name": "fastxtend",
-    "owner": "jison",
-    "agentType": [
-        "Suite"
-    ],
-    "topic": [
-        {
-            "term": "Sequence analysis",
-            "uri": "http://edamontology.org/topic_0080"
-        }
-    ],
-    "validated": 1
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:22301e6713ab59f6984ab5d2c88e2213d8004b7ea634dfc158ed1423bad72ad9
+size 699

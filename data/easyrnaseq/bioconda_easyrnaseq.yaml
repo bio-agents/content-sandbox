@@ -1,11 +1,3 @@
-bioagents_id: easyrnaseq
-description: Calculates the coverage of high-throughput short-reads against a genome
-  of reference and summarizes it per feature of interest (e.g. exon, gene, transcript).
-  The data can be normalized as 'RPKM' or by the 'DESeq' or 'edgeR' package.
-home: https://bioconductor.org/packages/3.10/bioc/html/easyRNASeq.html
-identifiers:
-- bioagents:easyrnaseq
-license: Artistic-2.0
-name: bioconductor-easyrnaseq
-summary: Count summarization and normalization for RNA-Seq data
-version: 2.22.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:e85d3da238c025897b2a04fdef49afa73b39a2d9eee28484aa0b000a38d41325
+size 514

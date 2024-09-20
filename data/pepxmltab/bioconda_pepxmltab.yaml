@@ -1,12 +1,3 @@
-bioagents_id: pepxmltab
-description: Parsing pepXML files based one XML package. The package tries to handle
-  pepXML files generated from different softwares. The output will be a peptide-spectrum-matching
-  tabular file. The package also provide function to filter the PSMs based on FDR.
-home: https://bioconductor.org/packages/3.12/bioc/html/pepXMLTab.html
-identifiers:
-- bioagents:pepxmltab
-- doi:10.1038/nmeth.3252
-license: Artistic-2.0
-name: bioconductor-pepxmltab
-summary: Parsing pepXML files and filter based on peptide FDR.
-version: 1.24.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:b127ff1c78496dfe2776f82887efd7c58bdc53e7ac3bb5472462be2c418350b9
+size 550

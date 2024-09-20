@@ -1,30 +1,3 @@
-{
-    "additionDate": "2019-12-23T00:39:20Z",
-    "bioagentsCURIE": "bioagents:SMARTdenovo",
-    "bioagentsID": "SMARTdenovo",
-    "description": "Ultra-fast de novo assembler using long noisy reads",
-    "editPermission": {
-        "type": "private"
-    },
-    "function": [
-        {
-            "operation": [
-                {
-                    "term": "De-novo assembly",
-                    "uri": "http://edamontology.org/operation_0524"
-                }
-            ]
-        }
-    ],
-    "homepage": "https://github.com/ruanjue/smartdenovo",
-    "lastUpdate": "2022-11-30T13:34:11.402282Z",
-    "name": "SMARTdenovo",
-    "owner": "fruitshuang",
-    "topic": [
-        {
-            "term": "Sequence assembly",
-            "uri": "http://edamontology.org/topic_0196"
-        }
-    ],
-    "validated": 1
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ad33f214a5404a6fbb902a83f2ba02dcbf6d4ab4d40af25f8e2da3a52b15a506
+size 818

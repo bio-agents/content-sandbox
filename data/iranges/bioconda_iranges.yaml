@@ -1,13 +1,3 @@
-bioagents_id: iranges
-description: Provides efficient low-level and highly reusable S4 classes for storing,
-  manipulating and aggregating over annotated ranges of integers. Implements an algebra
-  of range operations, including efficient algorithms for finding overlaps and nearest
-  neighbors. Defines efficient list-like classes for storing, transforming and aggregating
-  large grouped data, i.e., collections of atomic vectors and DataFrames.
-home: https://bioconductor.org/packages/3.12/bioc/html/IRanges.html
-identifiers:
-- bioagents:iranges
-license: Artistic-2.0
-name: bioconductor-iranges
-summary: Foundation of integer range manipulation in Bioconductor
-version: 2.24.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:ed5831d389fadef59762a61c77d71c82c647c54478122873d6ad913cbc2c88e5
+size 680

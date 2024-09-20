@@ -1,21 +1,3 @@
-description: 'A simple and flexible way to generate Circos 2D track plot images for
-  genomic data visualization is implemented in this package. The types of plots include:
-  heatmap, histogram, lines, scatterplot, tiles and plot items for further decorations
-  include connector, link (lines and ribbons), and text (gene) label. All functions
-  require only R graphics package that comes with R base installation.  '
-home_url: None
-identifiers:
-- doi:10.1186/1471-2105-14-244
-keywords:
-- Animals
-- Computer Graphics
-- Gene Expression Profiling
-- Genome
-- Genomics
-- Image Processing, Computer-Assisted
-- Mice
-- Rats
-license: GPL (>= 2)
-manually_check: true
-name: r-rcircos
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:49dda1b208625caa590cf10badae6bf9c08f4ddb33752dd377d3cd04c9fe4c34
+size 689

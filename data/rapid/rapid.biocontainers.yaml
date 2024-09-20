@@ -1,21 +1,3 @@
-description: Read alignment, analysis, and differential pipeline (rapid) is a set
-  of agents for the alignment, and analysis of genomic regions with small rna clusters
-  derived from small rna sequencing data.
-home_url: https://github.com/SchulzLab/RAPID
-identifiers:
-- bioagents:rapid
-- doi:10.1016/j.bbapap.2013.05.022
-keywords:
-- Computational Biology
-- Databases, Protein
-- Humans
-- Proteins
-- Proteomics
-- Sequence Alignment
-- Protein disordered structure
-- Protein structure analysis
-- Sequence analysis
-license: MIT
-manually_check: true
-name: rapid
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:073f881139c41c8c15c64485603fad188de1baf07a84f574bd78aad574542c5b
+size 572

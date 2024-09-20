@@ -1,14 +1,3 @@
-bioagents_id: pcaexplorer
-description: This package provides functionality for interactive visualization of
-  RNA-seq datasets based on Principal Components Analysis. The methods provided allow
-  for quick information extraction and effective data exploration. A Shiny application
-  encapsulates the whole analysis.
-home: https://bioconductor.org/packages/3.12/bioc/html/pcaExplorer.html
-identifiers:
-- bioagents:pcaexplorer
-- doi:10.18547/gcb.2017.vol3.iss1.e39
-license: MIT + file LICENSE
-license_file: LICENSE
-name: bioconductor-pcaexplorer
-summary: Interactive Visualization of RNA-seq Data Using a Principal Components Approach
-version: 2.16.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:dc5b60d5cf5074eb559732a862911fe7f2e36426e39427e02bd8c7704e201a20
+size 649

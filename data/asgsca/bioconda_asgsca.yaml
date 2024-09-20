@@ -1,15 +1,3 @@
-bioagents_id: asgsca
-description: The package provides agents to model and test the association between
-  multiple genotypes and multiple traits, taking into account the prior biological
-  knowledge. Genes, and clinical pathways are incorporated in the model as latent
-  variables. The method is based on Generalized Structured Component Analysis (GSCA).
-home: https://bioconductor.org/packages/3.12/bioc/html/ASGSCA.html
-identifiers:
-- bioagents:asgsca
-- doi:10.1002/gepi.21872
-license: GPL-3
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-asgsca
-summary: Association Studies for multiple SNPs and multiple traits using Generalized
-  Structured Equation Models
-version: 1.24.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:77b1035217bb9a2d1bf1921aa0a85bde78cab8e482cee7a5aa7e93d8a8408210
+size 692

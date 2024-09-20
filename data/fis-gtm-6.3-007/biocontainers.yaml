@@ -1,33 +1,3 @@
-softwares:
-  fis-gtm-6.3-007:
-    labels:
-      about.copyright: 1987 - 2003 Sanchez Computer Associates
-      about.home: http://sourceforge.net/projects/fis-gtm
-      about.license: AGPL-3.0
-      about.license_file: /usr/share/doc/fis-gtm-6.3-007/copyright
-      about.summary: package for FIS-GT.M database
-      about.tags: uiagentkit::ncurses
-      base_image: biocontainers/biocontainers:vdebian-buster-backports_cv1
-      container: fis-gtm-6.3-007
-      software: fis-gtm-6.3-007
-      software.version: 6.3-007-1-deb
-      upstream.version: '6.3'
-      version: '1'
-    software: fis-gtm-6.3-007
-    versions:
-    - labels:
-        about.copyright: 1987 - 2003 Sanchez Computer Associates
-        about.home: http://sourceforge.net/projects/fis-gtm
-        about.license: AGPL-3.0
-        about.license_file: /usr/share/doc/fis-gtm-6.3-007/copyright
-        about.summary: package for FIS-GT.M database
-        about.tags: uiagentkit::ncurses
-        base_image: biocontainers/biocontainers:vdebian-buster-backports_cv1
-        container: fis-gtm-6.3-007
-        software: fis-gtm-6.3-007
-        software.version: 6.3-007-1-deb
-        upstream.version: '6.3'
-        version: '1'
-      type: Container file
-      url: biocontainers/fis-gtm-6.3-007:6.3-007-1-deb-1
-      version: 6.3-007-1-deb-1
+version https://git-lfs.github.com/spec/v1
+oid sha256:ee3614dcfc637f29e0853b47ed7e574490ab4d04104ea85d90fec9b1f18fb1bf
+size 1307

@@ -1,21 +1,3 @@
-description: Execute mysqldump using passwords from .hg.conf
-home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
-identifiers:
-- doi:10.1093/bioinformatics/btq351
-- doi:10.1101/gr.229102
-- bioagents:UCSC_Genome_Browser_Utilities
-keywords:
-- California
-- Database Management Systems
-- Databases, Genetic
-- Gene Expression
-- Genes
-- Genome, Human
-- Humans
-- RNA, Messenger
-- Sequence Homology, Nucleic Acid
-- Universities
-license: Custom License
-manually_check: true
-name: ucsc-hgsqldump
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:adec2fdda1579eb895ea836771f4971bac849ed224d07c7bd026a25b67aa45c6
+size 500

@@ -1,14 +1,3 @@
-bioagents_id: snagee
-description: Signal-to-Noise applied to Gene Expression Experiments. Signal-to-noise
-  ratios can be used as a proxy for quality of gene expression studies and samples.
-  The SNRs can be calculated on any gene expression data set as long as gene IDs are
-  available, no access to the raw data files is necessary. This allows to flag problematic
-  studies and samples in any public data set.
-home: https://bioconductor.org/packages/3.12/bioc/html/SNAGEE.html
-identifiers:
-- bioagents:snagee
-- doi:10.1371/journal.pone.0051013
-license: Artistic-2.0
-name: bioconductor-snagee
-summary: Signal-to-Noise applied to Gene Expression Experiments
-version: 1.30.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:e8c0bd41c6a40973573f7d1d24961b4cd3fee9710064d8716b1628bf58d89598
+size 674

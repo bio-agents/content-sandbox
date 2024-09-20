@@ -1,12 +1,3 @@
-bioagents_id: organismdbi
-description: The package enables a simple unified interface to several annotation
-  packages each of which has its own schema by taking advantage of the fact that each
-  of these packages implements a select methods.
-home: https://bioconductor.org/packages/3.12/bioc/html/OrganismDbi.html
-identifiers:
-- bioagents:organismdbi
-- doi:10.1038/nmeth.3252
-license: Artistic-2.0
-name: bioconductor-organismdbi
-summary: Software to enable the smooth interfacing of different database packages
-version: 1.32.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:6fc9dcb3f565a38795eafe662f62f959b672f6d96f1d8d24292df39ab24c9f1a
+size 528

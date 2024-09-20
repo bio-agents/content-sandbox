@@ -1,15 +1,3 @@
-bioagents_id: mapredictdsc
-description: This package implements the classification pipeline of the best overall
-  team (Team221) in the IMPROVER Diagnostic Signature Challenge. Additional functionality
-  is added to compare 27 combinations of data preprocessing, feature selection and
-  classifier types.
-home: https://bioconductor.org/packages/3.12/bioc/html/maPredictDSC.html
-identifiers:
-- bioagents:mapredictdsc
-- doi:10.1093/bioinformatics/btt492
-license: GPL-2
-license_file: /lib/R/share/licenses/GPL-2
-name: bioconductor-mapredictdsc
-summary: 'Phenotype prediction using microarray data: approach of the best overall
-  team in the IMPROVER Diagnostic Signature Challenge'
-version: 1.28.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:cf448bb50cd7f26507de2150482726e8efbae68b9a9b42915dad2e3b2ecc105e
+size 695

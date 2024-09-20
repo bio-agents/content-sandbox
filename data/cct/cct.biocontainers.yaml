@@ -1,20 +1,3 @@
-description: Cct (current comparative table) is a software package that you can install
-  and set-up on your own system to help you to maintain and search databases.
-home_url: http://sourceforge.net/projects/orb-cct
-identifiers:
-- bioagents:cct
-- doi:10.1093/nar/gki432
-keywords:
-- Computational Biology
-- Databases, Nucleic Acid
-- Databases, Protein
-- Genomics
-- Internet
-- User-Computer Interface
-- Database management
-- Proteins
-- Computational biology
-license: custom, see /usr/share/doc/cct/copyright
-manually_check: true
-name: cct
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:ef4870cf6952f1fad5e14f5b23b3a4dab21bf0069e4a94a46145a2e1947f3f9b
+size 552

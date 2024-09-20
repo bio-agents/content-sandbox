@@ -1,14 +1,3 @@
-description: MetFrag is a freely available software for the annotation of high precision
-  tandem mass spectra of metabolites which is a first and critical step for the identification
-  of a molecules structure. Candidate molecules of different databases are fragmented
-  in silico and matched against mass to charge values. A score calculated using the
-  fragment peak matches gives hints to the quality of the candidate spectrum assignment.
-home_url: https://github.com/phnmnl/container-metfrag-cli-batch
-identifiers: []
-keywords:
-- Mass spectra
-- Metabolomics
-license: Apache-2.0
-manually_check: true
-name: metfrag-cli-batch
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:1e91c6394ec4373890f528a3f7246ef6874796c35278238c770b1e31682bb9b8
+size 643

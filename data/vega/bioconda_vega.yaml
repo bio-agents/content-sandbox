@@ -1,13 +1,3 @@
-bioagents_id: vega
-description: Vega (Variational Estimator for Genomic Aberrations) is an algorithm
-  that adapts a very popular variational model (Mumford and Shah) used in image segmentation
-  so that chromosomal aberrant regions can be efficiently detected.
-home: https://bioconductor.org/packages/3.10/bioc/html/Vega.html
-identifiers:
-- bioagents:vega
-- doi:10.1093/bioinformatics/btq586
-license: GPL-2
-license_file: /lib/R/share/licenses/GPL-2
-name: bioconductor-vega
-summary: An R package for copy number data segmentation
-version: 1.34.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:2d27424656f76b23eb63d11eff54a1ee3a7ea491848ae73325136152117d289d
+size 546

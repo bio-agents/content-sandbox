@@ -1,31 +1,3 @@
-description: A agent for pairwise sequence alignment. it enables alignment for dna-dna
-  and dna-protein pairs and also gapped and ungapped alignment.
-home_url: http://www.ebi.ac.uk/%7Eguy/exonerate
-identifiers:
-- bioagents:exonerate
-- doi:10.1186/1471-2105-6-31
-keywords:
-- Artificial Intelligence
-- Automation
-- Computational Biology
-- Computer Simulation
-- DNA
-- DNA, Complementary
-- Databases, Factual
-- Genome
-- Humans
-- Information Storage and Retrieval
-- Mathematical Computing
-- Models, Biological
-- Models, Theoretical
-- RNA, Messenger
-- Sequence Alignment
-- Sequence Analysis, DNA
-- Sequence analysis
-- Sequence sites, features and motifs
-- Molecular interactions, pathways and networks
-- Genomics
-license: GPL-3.0
-manually_check: true
-name: exonerate
-total_pulls: 6008
+version https://git-lfs.github.com/spec/v1
+oid sha256:1a17d1cf5b4a8569d361967c92ac4f92f765cd4a6d3cb3749331fc8f59b0fb1b
+size 780

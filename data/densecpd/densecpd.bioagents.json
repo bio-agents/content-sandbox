@@ -1,36 +1,3 @@
-{
-    "additionDate": "2021-01-18T07:05:25Z",
-    "bioagentsCURIE": "bioagents:densecpd",
-    "bioagentsID": "densecpd",
-    "confidence_flag": "agent",
-    "description": "The DenseCPD server predicts the probabilities of 20 natural amino acids for each residue in a protein structure.",
-    "editPermission": {
-        "type": "private"
-    },
-    "homepage": "http://protein.org.cn/densecpd.html",
-    "lastUpdate": "2021-03-01T07:26:46Z",
-    "name": "DenseCPD",
-    "owner": "Kigaard",
-    "publication": [
-        {
-            "doi": "10.26434/CHEMRXIV.11626098.V1"
-        }
-    ],
-    "agentType": [
-        "Web application"
-    ],
-    "topic": [
-        {
-            "term": "Machine learning",
-            "uri": "http://edamontology.org/topic_3474"
-        },
-        {
-            "term": "Protein folding, stability and design",
-            "uri": "http://edamontology.org/topic_0130"
-        },
-        {
-            "term": "Small molecules",
-            "uri": "http://edamontology.org/topic_0154"
-        }
-    ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d683b56a8769bddd68981cb2ddad308438cd970d127fe2122d821eb8232b0be1
+size 1035

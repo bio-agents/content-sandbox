@@ -1,33 +1,3 @@
-softwares:
-  PeptideProphet:
-    labels:
-      about.documentation: http://peptideprophet.sourceforge.net/
-      about.home: http://peptideprophet.sourceforge.net/
-      about.license: SPDX:GPL-2.0-only
-      about.license_file: http://peptideprophet.sourceforge.net/
-      about.summary: Peptide assignment statistics and validation
-      about.tags: Proteomics
-      base_image: biocontainers:v1.0.0_cv4
-      extra.binaries: PeptideProphet
-      extra.identifiers.bioagents: peptideprophet
-      software: PeptideProphet
-      software.version: '201510131012'
-      version: '3'
-    software: PeptideProphet
-    versions:
-    - labels:
-        about.documentation: http://peptideprophet.sourceforge.net/
-        about.home: http://peptideprophet.sourceforge.net/
-        about.license: SPDX:GPL-2.0-only
-        about.license_file: http://peptideprophet.sourceforge.net/
-        about.summary: Peptide assignment statistics and validation
-        about.tags: Proteomics
-        base_image: biocontainers:v1.0.0_cv4
-        extra.binaries: PeptideProphet
-        extra.identifiers.bioagents: peptideprophet
-        software: PeptideProphet
-        software.version: '201510131012'
-        version: '3'
-      type: Container file
-      url: biocontainers/PeptideProphet:201510131012-3
-      version: 201510131012-3
+version https://git-lfs.github.com/spec/v1
+oid sha256:483c1ff728dd01cf8000a5825c8b79eb3bbaceb7df86adac57c2764a9d5ffec6
+size 1316

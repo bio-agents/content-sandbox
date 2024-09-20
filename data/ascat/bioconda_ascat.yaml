@@ -1,25 +1,3 @@
-bioagents_id: ascat
-dev_url: https://github.com/Crick-CancerGenomics/ascat
-home: https://www.crick.ac.uk/research/a-z-researchers/researchers-v-y/peter-van-loo/software/
-identifiers:
-- bioagents:ascat
-- doi:10.1073/pnas.1009843107
-license: GPL-3.0
-license_family: GPL
-name: ascat
-summary: 'ASCAT is a method to derive copy number profiles of tumour cells,
-
-  accounting for normal cell admixture and tumour aneuploidy (Figure 1).
-
-  ASCAT infers tumour purity (the fraction of tumour cells) and ploidy (the
-
-  amount of DNA per tumour cell, expressed as multiples of haploid genomes)
-
-  from SNP array or massively parallel sequencing data, and calculates
-
-  whole-genome allele-specific copy number profiles (the number of copies of
-
-  both parental alleles for all SNP loci across the genome).
-
-  '
-version: 2.5.2
+version https://git-lfs.github.com/spec/v1
+oid sha256:9ab8ad569d6a685b32b273458ea56a495d3342f27b6e321c77d3842596249be7
+size 816

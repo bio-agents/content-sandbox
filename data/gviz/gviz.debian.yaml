@@ -1,18 +1,3 @@
-description: Genomic data analyses requires integrated visualization of known genomic
-  information and new experimental data. Gviz uses the biomaRt and the rtracklayer
-  packages to perform live annotation queries to Ensembl and UCSC and translates this
-  to e.g. gene/transcript structures in viewports of the grid graphics package. This
-  results in genomic information plotted together with your data.
-edam:
-  topics: null
-  version: unknown
-homepage: https://bioconductor.org/packages/Gviz/
-identifiers:
-  bioconda: bioconductor-gviz
-  bioagents: gviz
-  debian: r-bioc-gviz
-  doi:
-  - 10.1093/bioinformatics/btp328
-  omicagents: OMICS_17191
-summary: Plotting data and annotation information along genomic coordinates
-version: 1.34.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:c20f8037f08f44dff36b68d4a994d7fc306190fed00ed47d816624b04c68bcf1
+size 738

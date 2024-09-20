@@ -1,29 +1,3 @@
-{
-    "additionDate": "2021-07-08T19:26:13Z",
-    "bioagentsCURIE": "bioagents:pizzly",
-    "bioagentsID": "pizzly",
-    "description": "Fast fusion detection using kallisto",
-    "editPermission": {
-        "type": "private"
-    },
-    "function": [
-        {
-            "operation": [
-                {
-                    "term": "Nucleic acid feature detection",
-                    "uri": "http://edamontology.org/operation_0415"
-                }
-            ]
-        }
-    ],
-    "homepage": "https://github.com/pmelsted/pizzly",
-    "lastUpdate": "2021-07-08T19:26:13Z",
-    "name": "Pizzly",
-    "owner": "leipzig",
-    "topic": [
-        {
-            "term": "Gene transcripts",
-            "uri": "http://edamontology.org/topic_3512"
-        }
-    ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:12a79e3f264ede87d48a7f6fcac392b20b923f6f543076a41d046586b800d997
+size 766

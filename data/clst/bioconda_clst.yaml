@@ -1,12 +1,3 @@
-bioagents_id: clst
-description: Package for modified nearest-neighbor classification based on calculation
-  of a similarity threshold distinguishing within-group from between-group comparisons.
-home: https://bioconductor.org/packages/3.12/bioc/html/clst.html
-identifiers:
-- bioagents:clst
-- doi:10.1038/nmeth.3252
-license: GPL-3
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-clst
-summary: Classification by local similarity threshold
-version: 1.38.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:a881e833001f4620dfa77dd5e310a13c1ad292426bbdfa6ac7afd63cb71c475a
+size 465

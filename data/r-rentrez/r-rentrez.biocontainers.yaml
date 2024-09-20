@@ -1,14 +1,3 @@
-description: Provides an R interface to the NCBI's EUtils API allowing users to search
-  databases like GenBank and PubMed, process the results of those searches and pull
-  data into their R sessions.
-home_url: http://github.com/ropensci/rentrez
-identifiers:
-- doi:10.5281/zenodo.32420
-keywords:
-- Genomics
-- Genetics
-- Protein Sequences
-license: MIT
-manually_check: true
-name: r-rentrez
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:9f553e0658e999244e9cfaf3615d95ff978eafae5ac79a53784bb8272974189f
+size 403

@@ -1,31 +1,3 @@
-softwares:
-  bioconductor-phyloseq:
-    labels:
-      about.copyright: 2013-2016 Paul J. McMurdie <mcmurdie@stanford.edu>
-      about.home: https://bioconductor.org/packages/phyloseq/
-      about.license: AGPL-3
-      about.license_file: /usr/share/doc/bioconductor-phyloseq/copyright
-      about.summary: GNU R handling and analysis of high-throughput microbiome census
-        data
-      about.tags: ''
-      container: bioconductor-phyloseq
-      software: bioconductor-phyloseq
-      software.version: 1.19.1-2-deb
-      version: '1'
-    software: bioconductor-phyloseq
-    versions:
-    - labels:
-        about.copyright: 2013-2016 Paul J. McMurdie <mcmurdie@stanford.edu>
-        about.home: https://bioconductor.org/packages/phyloseq/
-        about.license: AGPL-3
-        about.license_file: /usr/share/doc/bioconductor-phyloseq/copyright
-        about.summary: GNU R handling and analysis of high-throughput microbiome census
-          data
-        about.tags: ''
-        container: bioconductor-phyloseq
-        software: bioconductor-phyloseq
-        software.version: 1.19.1-2-deb
-        version: '1'
-      type: Container file
-      url: biocontainers/bioconductor-phyloseq:1.19.1-2-deb-1
-      version: 1.19.1-2-deb-1
+version https://git-lfs.github.com/spec/v1
+oid sha256:60e756180741362dd440c96937cf469ff0e21746777139ddfc1241436dbbdeba
+size 1233

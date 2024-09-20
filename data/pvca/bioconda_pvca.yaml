@@ -1,15 +1,3 @@
-bioagents_id: pvca
-description: This package contains the function to assess the batch sourcs by fitting
-  all "sources" as random effects including two-way interaction terms in the Mixed
-  Model(depends on lme4 package) to selected principal components, which were obtained
-  from the original data correlation matrix. This package accompanies the book "Batch
-  Effects and Noise in Microarray Experiements, chapter 12.
-home: https://bioconductor.org/packages/3.12/bioc/html/pvca.html
-identifiers:
-- bioagents:pvca
-- doi:10.1002/9780470685983.ch12
-license: LGPL (>= 2.0)
-license_file: /lib/R/share/licenses/LGPL-3
-name: bioconductor-pvca
-summary: Principal Variance Component Analysis (PVCA)
-version: 1.30.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:57adcb80b5b4764f9b185db865cadb15db79cfb6543f5804f2e843af5b1c934c
+size 709

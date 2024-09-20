@@ -1,18 +1,3 @@
-description: Search against FingerPRINTScan with a protein query sequence to identify
-  the closest matching PRINTS sequence motif fingerprints in a protein sequence.
-home_url: https://github.com/ebi-pf-team/interproscan
-identifiers:
-- bioagents:fingerprintscan
-- doi:10.1093/nar/28.1.225
-keywords:
-- Database Management Systems
-- Databases, Factual
-- Information Storage and Retrieval
-- Proteins
-- Gene and protein families
-- Sequence sites, features and motifs
-- Protein Sequences
-license: GPL-2.0
-manually_check: true
-name: fingerprintscan
-total_pulls: 669
+version https://git-lfs.github.com/spec/v1
+oid sha256:d2c3be8bb81cc79bcbe2ca951dc8ee37a36237d1de51e10d56b7ddb242a0c58b
+size 560

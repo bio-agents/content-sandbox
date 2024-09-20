@@ -1,18 +1,3 @@
-bioagents_id: rlmm
-description: 'A classification algorithm, based on a multi-chip, multi-SNP approach
-  for Affymetrix SNP arrays. Using a large training sample where the genotype labels
-  are known, this aglorithm will obtain more accurate classification results on new
-  data. RLMM is based on a robust, linear model and uses the Mahalanobis distance
-  for classification. The chip-to-chip non-biological variation is removed through
-  normalization. This model-based algorithm captures the similarities across genotype
-  groups and probes, as well as thousands other SNPs for accurate classification.
-  NOTE: 100K-Xba only at for now.'
-home: https://bioconductor.org/packages/3.12/bioc/html/RLMM.html
-identifiers:
-- bioagents:rlmm
-- doi:10.1093/bioinformatics/bti741
-license: LGPL (>= 2)
-license_file: /lib/R/share/licenses/LGPL-3
-name: bioconductor-rlmm
-summary: A Genotype Calling Algorithm for Affymetrix SNP Arrays
-version: 1.52.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:2f87c78471fc3433cbda6c1471099df7f0777a5058e32136e8cfe24bb27e4405
+size 939

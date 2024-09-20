@@ -1,13 +1,3 @@
-bioagents_id: genomicinteractions
-description: Utilities for handling genomic interaction data such as ChIA-PET or Hi-C,
-  annotating genomic features with interaction information, and producing plots and
-  summary statistics.
-home: https://bioconductor.org/packages/3.12/bioc/html/GenomicInteractions.html
-identifiers:
-- bioagents:genomicinteractions
-- doi:10.1186/s12864-015-2140-x
-license: GPL-3
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-genomicinteractions
-summary: Utilities for handling genomic interaction data
-version: 1.24.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:488a71656a02e2ed566eebd79ecb5bbf6a11e717ab7a21c60fea2095dad3b3f5
+size 553

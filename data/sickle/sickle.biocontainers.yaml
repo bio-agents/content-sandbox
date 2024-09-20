@@ -1,13 +1,3 @@
-description: A agent that uses sliding windows along with quality and length thresholds
-  to determine when quality is sufficiently low to trim the 3'-end of reads and also
-  determines when the quality is sufficiently high enough to trim the 5'-end of reads.
-home_url: https://github.com/najoshi/sickle
-identifiers:
-- bioagents:sickle
-keywords:
-- Data quality management
-license: MIT
-manually_check: true
-name: sickle
-no_doi: true
-total_pulls: 4818
+version https://git-lfs.github.com/spec/v1
+oid sha256:a206b7067cc79598781be2efc35afc8773e94a1199104d7137082ceb6ad6bba7
+size 450

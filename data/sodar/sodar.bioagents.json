@@ -1,32 +1,3 @@
-{
-    "additionDate": "2022-04-20T11:42:22.918417Z",
-    "bioagentsCURIE": "bioagents:sodar",
-    "bioagentsID": "sodar",
-    "cost": "Free of charge",
-    "description": "SODAR (system for omics data access and retrieval) is a software package for teh management of meta and mass data for (multi) omics experiments. Users can model their experiments using the ISA-tab (Investigation-Study-Assay) data model using SODAR's web based user interface. SODAR integrates with the the iRODS (integrated rules oriented data system) software for mass data management.",
-    "editPermission": {
-        "type": "private"
-    },
-    "homepage": "https://github.com/bihealth/sodar-server",
-    "language": [
-        "Python"
-    ],
-    "lastUpdate": "2022-04-20T11:44:20.080445Z",
-    "license": "MIT",
-    "maturity": "Mature",
-    "name": "SODAR",
-    "operatingSystem": [
-        "Linux",
-        "Mac"
-    ],
-    "owner": "holtgrewe",
-    "agentType": [
-        "Web application"
-    ],
-    "topic": [
-        {
-            "term": "Omics",
-            "uri": "http://edamontology.org/topic_3391"
-        }
-    ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c24df124ac5f2b858192c170db3d27196a39f1a028eeb3a4f3226224fd50a8f2
+size 1107

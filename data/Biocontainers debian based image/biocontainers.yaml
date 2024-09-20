@@ -1,34 +1,3 @@
-softwares:
-  Biocontainers debian based image:
-    labels:
-      about.documentation: https://github.com/BioContainers/specs/wiki
-      about.home: http://biocontainers.pro
-      base.image: debian:buster-backports
-      license: https://github.com/BioContainers/containers/blob/master/LICENSE
-      software: Biocontainers debian based image
-      software.version: debian-buster-backports
-      version: '1'
-    software: Biocontainers debian based image
-    versions:
-    - labels:
-        about.documentation: https://github.com/BioContainers/specs/wiki
-        about.home: http://biocontainers.pro
-        base.image: debian:buster-backports
-        license: https://github.com/BioContainers/containers/blob/master/LICENSE
-        software: Biocontainers debian based image
-        software.version: debian-buster-backports
-        version: '1'
-      type: Container file
-      url: biocontainers/Biocontainers debian based image:debian-buster-backports-1
-      version: debian-buster-backports-1
-    - labels:
-        about.documentation: https://github.com/BioContainers/specs/wiki
-        about.home: http://biocontainers.pro
-        base.image: debian:stable-backports
-        license: https://github.com/BioContainers/containers/blob/master/LICENSE
-        software: Biocontainers debian based image
-        software.version: debian-stretch-backports
-        version: '2'
-      type: Container file
-      url: biocontainers/Biocontainers debian based image:debian-stretch-backports-2
-      version: debian-stretch-backports-2
+version https://git-lfs.github.com/spec/v1
+oid sha256:57adcee75b909f35d94aa2bb35e05b026f8ce7c8243d5034cabfb258908af8c2
+size 1536

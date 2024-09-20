@@ -1,21 +1,3 @@
-description: In recent years a wealth of biological data has become available in public
-  data repositories. Easy access to these valuable data resources and firm integration
-  with data analysis is needed for comprehensive bioinformatics data analysis. biomaRt
-  provides an interface to a growing collection of databases implementing the BioMart
-  software suite (http://www.biomart.org). The package enables retrieval of large
-  amounts of data in a uniform way without the need to know the underlying database
-  schemas or write complex SQL queries. Examples of BioMart databases are Ensembl,
-  COSMIC, Uniprot, HGNC, Gramene, Wormbase and dbSNP mapped to Ensembl. These major
-  databases give biomaRt users direct access to a diverse set of data and enable a
-  wide range of powerful online queries from gene annotation to database mining.
-edam:
-  topics: null
-  version: unknown
-homepage: https://bioconductor.org/packages/biomaRt/
-identifiers:
-  bioagents: biomart
-  debian: r-bioc-biomart
-  doi:
-  - 10.1038/nprot.2009.97
-summary: GNU R Interface to BioMart databases (Ensembl, COSMIC, Wormbase and Gramene)
-version: 2.46.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:831356d6c1f3fc511dc964f0ffe80042bac255c042d3e90b0e73f2203445c42c
+size 1132

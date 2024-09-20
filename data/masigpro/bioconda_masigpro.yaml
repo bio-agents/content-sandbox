@@ -1,14 +1,3 @@
-bioagents_id: masigpro
-description: maSigPro is a regression based approach to find genes for which there
-  are significant gene expression profile differences between experimental groups
-  in time course microarray and RNA-Seq experiments.
-home: https://bioconductor.org/packages/3.12/bioc/html/maSigPro.html
-identifiers:
-- bioagents:masigpro
-- doi:10.1093/bioinformatics/btu333
-license: GPL (>= 2)
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-masigpro
-summary: Significant Gene Expression Profile Differences in Time Course Gene Expression
-  Data
-version: 1.62.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:da9cfa48fbc1c0b62e5785671fae3e38e9914c7221ab64921ffc6b1ff0eb8e90
+size 581

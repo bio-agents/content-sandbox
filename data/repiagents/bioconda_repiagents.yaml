@@ -1,13 +1,3 @@
-bioagents_id: repiagents
-description: Agents for the analysis of enrichment-based epigenomic data.  Features
-  include summarization and visualization of epigenomic data across promoters according
-  to gene expression context, finding regions of differential methylation/binding,
-  BayMeth for quantifying methylation etc.
-home: https://bioconductor.org/packages/3.12/bioc/html/Repiagents.html
-identifiers:
-- bioagents:repiagents
-license: LGPL (>= 2)
-license_file: /lib/R/share/licenses/LGPL-3
-name: bioconductor-repiagents
-summary: Epigenomic agents
-version: 1.36.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:4e4fa0dfb2053bd037c3140c691cbeaa035232cebfcca999dd58281059448587
+size 567

@@ -1,23 +1,3 @@
-description: This agent allows you to submit a genomic sequence and to recieve a prediction
-  of the nucleosomes positions on it,
-home_url: https://genie.weizmann.ac.il/software/nucleo_prediction.html
-identifiers:
-- bioagents:genie
-- doi:10.1093/nar/gkr246
-keywords:
-- Animals
-- Gene Expression Profiling
-- Genes
-- Genomics
-- Heart
-- Humans
-- Internet
-- MEDLINE
-- Mice
-- Models, Animal
-- Zebrafish
-- Data mining
-license: LGPLv2
-manually_check: true
-name: nucleosome_prediction
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:95a5fa989abe87bff998854295405b0e5daebce5e4286da5d29a13f50c4f6ecc
+size 492

@@ -1,12 +1,3 @@
-bioagents_id: inspect
-description: INSPEcT (INference of Synthesis, Processing and dEgradation rates from
-  Transcriptomic data) RNA-seq data in time-course experiments or steady-state conditions,
-  with or without the support of nascent RNA data.
-home: https://bioconductor.org/packages/3.12/bioc/html/INSPEcT.html
-identifiers:
-- bioagents:inspect
-license: GPL-2
-license_file: /lib/R/share/licenses/GPL-2
-name: bioconductor-inspect
-summary: Modeling RNA synthesis, processing and degradation with RNA-seq data
-version: 1.20.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:264896fd0983fa8d6f7ce59ad1479978fd1720fb39e02fe575890cef68bd2980
+size 527

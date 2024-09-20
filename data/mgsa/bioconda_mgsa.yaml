@@ -1,12 +1,3 @@
-bioagents_id: mgsa
-description: Model-based Gene Set Analysis (MGSA) is a Bayesian modeling approach
-  for gene set enrichment. The package mgsa implements MGSA and agents to use MGSA
-  together with the Gene Ontology.
-home: https://bioconductor.org/packages/3.12/bioc/html/mgsa.html
-identifiers:
-- bioagents:mgsa
-- doi:10.1093/nar/gkq045
-license: Artistic-2.0
-name: bioconductor-mgsa
-summary: Model-based gene set analysis
-version: 1.38.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:c15be907c9e53d15b3b7800df060713f197ee1a4755d6efaf8380a31e98bf1bd
+size 440

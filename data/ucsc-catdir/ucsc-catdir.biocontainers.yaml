@@ -1,21 +1,3 @@
-description: Concatenate files in directory to stdout.
-home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
-identifiers:
-- doi:10.1093/bioinformatics/btq351
-- doi:10.1101/gr.229102
-- bioagents:UCSC_Genome_Browser_Utilities
-keywords:
-- California
-- Database Management Systems
-- Databases, Genetic
-- Gene Expression
-- Genes
-- Genome, Human
-- Humans
-- RNA, Messenger
-- Sequence Homology, Nucleic Acid
-- Universities
-license: Custom License
-manually_check: true
-name: ucsc-catdir
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:59150833d57a0056a2edc2059ff361f1b6c7ca2c8032d13a719947e905903ca7
+size 491

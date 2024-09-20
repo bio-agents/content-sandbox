@@ -1,21 +1,3 @@
-description: Various agents operating over VCF files. Uses cyvcf2 and cython under
-  the hood for speed
-home_url: https://github.com/LUMC/vagents
-identifiers:
-- bioagents:vagents
-- doi:10.1093/bioinformatics/btr667
-keywords:
-- Genetic Variation
-- Genome, Human
-- High-Throughput Nucleotide Sequencing
-- Humans
-- Metabolic Networks and Pathways
-- Molecular Sequence Annotation
-- User-Computer Interface
-- Exome sequencing
-- Genotype and phenotype
-- Workflows
-license: MIT
-manually_check: true
-name: vagents
-total_pulls: 204
+version https://git-lfs.github.com/spec/v1
+oid sha256:78c3baf11929a37179199b5987008dbee11c316cea2d44a634a6f61cc15e0022
+size 523

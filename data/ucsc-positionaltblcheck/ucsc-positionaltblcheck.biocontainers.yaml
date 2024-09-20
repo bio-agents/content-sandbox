@@ -1,21 +1,3 @@
-description: Check that positional tables are sorted
-home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
-identifiers:
-- doi:10.1093/bioinformatics/btq351
-- doi:10.1101/gr.229102
-- bioagents:UCSC_Genome_Browser_Utilities
-keywords:
-- California
-- Database Management Systems
-- Databases, Genetic
-- Gene Expression
-- Genes
-- Genome, Human
-- Humans
-- RNA, Messenger
-- Sequence Homology, Nucleic Acid
-- Universities
-license: Custom License
-manually_check: true
-name: ucsc-positionaltblcheck
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:85a0d65b60a9b3900883845c665815983043fa52c5e1f6b649be982317a89bc0
+size 501

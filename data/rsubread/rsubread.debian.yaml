@@ -1,17 +1,3 @@
-description: Alignment, quantification and analysis of second and third generation
-  sequencing data. Includes functionality for read mapping, read counting, SNP calling,
-  structural variant detection and gene fusion discovery. . Can be applied to all
-  major sequencing techologies and to both short and long sequence reads.
-edam:
-  topics: null
-  version: unknown
-homepage: https://bioconductor.org/packages/Rsubread/
-identifiers:
-  bioconda: bioconductor-rsubread
-  bioagents: rsubread
-  debian: r-bioc-rsubread
-  doi:
-  - 10.1093/nar/gkz114
-  omicagents: OMICS_01255
-summary: Subread Sequence Alignment and Counting for R
-version: 2.4.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:bec6193f5fd95a8b8cf28ff7ec24b490ccd857367a6ad7f8f0ae62e518220521
+size 642

@@ -1,21 +1,3 @@
-description: Magic-blast is a new agent for mapping large sets of next-generation rna
-  or dna sequencing runs against a whole genome or transcriptome
-home_url: https://github.com/ncbi/magicblast
-identifiers:
-- bioagents:magicblast
-- doi:10.1186/s12859-019-2996-x
-keywords:
-- Base Sequence
-- Databases, Nucleic Acid
-- Humans
-- Introns
-- RNA
-- ROC Curve
-- Sequence Alignment
-- Sequence Analysis, RNA
-- Time Factors
-- RNA-Seq
-license: MIT
-manually_check: true
-name: magicblast
-total_pulls: 50
+version https://git-lfs.github.com/spec/v1
+oid sha256:7fc9d65fd6445234bef0ee914f0ca6bb3103d0f62dbbac9e88df15e684b7e102
+size 491

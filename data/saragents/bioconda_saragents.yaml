@@ -1,11 +1,3 @@
-bioagents_id: saragents
-description: "SARAgents provides R agents and an environment for the statistical \n\
-  analysis of RNA-Seq projects load and clean data, produce figures, \nperform statistical\
-  \ analysis/testing with DESeq2 or edgeR, export \nresults and create final report.\n"
-home: https://github.com/PF2-pasteur-fr/SARAgents
-identifiers:
-- bioagents:saragents
-license: GPL-2
-name: r-saragents
-summary: Statistical Analysis of RNA-Seq data
-version: 1.7.3
+version https://git-lfs.github.com/spec/v1
+oid sha256:0210235c01fc8856113b4ed857ab830cd4f3d089fb0e5f3b63d74f0c9fd64341
+size 468

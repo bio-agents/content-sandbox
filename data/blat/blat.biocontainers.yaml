@@ -1,21 +1,3 @@
-description: Blat is a bioinformatics software agent which performs rapid mrna/dna
-  and cross-species protein alignments
-home_url: https://users.soe.ucsc.edu/~kent/src/
-identifiers:
-- bioagents:blat
-- doi:10.1101/gr.229202
-keywords:
-- Animals
-- Computational Biology
-- DNA
-- Humans
-- Mice
-- Protein Biosynthesis
-- Proteins
-- RNA, Messenger
-- Sequence Alignment
-- Sequence analysis
-license: Apache-2.0
-manually_check: true
-name: blat
-total_pulls: 3322
+version https://git-lfs.github.com/spec/v1
+oid sha256:04c242a75517eec03f4c19be9bc0b49e961e35305e0396b6300db784623567fe
+size 452

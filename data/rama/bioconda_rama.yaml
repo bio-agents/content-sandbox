@@ -1,14 +1,3 @@
-bioagents_id: rama
-description: Robust estimation of cDNA microarray intensities with replicates. The
-  package uses a Bayesian hierarchical model for the robust estimation. Outliers are
-  modeled explicitly using a t-distribution, and the model also addresses classical
-  issues such as design effects, normalization, transformation, and nonconstant variance.
-home: https://bioconductor.org/packages/3.12/bioc/html/rama.html
-identifiers:
-- bioagents:rama
-- doi:10.1198/016214505000001096
-license: GPL (>= 2)
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-rama
-summary: Robust Analysis of MicroArrays
-version: 1.64.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:0b27107467b0039b16f9a395d0144de577e2d02b1b32090532cf4eef15f3b2c1
+size 631

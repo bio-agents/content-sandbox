@@ -1,18 +1,3 @@
-description: Routines to handle family data with a pedigree object. The initial purpose
-  was to create correlation structures that describe family relationships such as
-  kinship and identity-by-descent, which can be used to model family data in mixed
-  effects models, such as in the coxme function.
-home_url: https://CRAN.R-project.org/package=kinship2
-identifiers:
-- doi:10.1159/000363105
-keywords:
-- Female
-- Genetic Linkage
-- Humans
-- Male
-- Pedigree
-- Programming Languages
-license: GPL-2.
-manually_check: true
-name: r-kinship2
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:82db188ad685e3b1f2ab50125329d0c345bf9871d156e52044c9eb2ebd8181fd
+size 550

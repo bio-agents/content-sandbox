@@ -1,25 +1,3 @@
-description: Agent for accurate dissection of genome-wide allele-specific copy number
-  in tumors. it accounts for normal cell admixture and tumor aneuploidy in the analysis
-  of snp array data from cancer samples. it allows analysis of illumina and affymetrix
-  snp array data of tumor samples (with or without matching germline samples).
-home_url: https://github.com/Crick-CancerGenomics/ascat
-identifiers:
-- bioagents:ascat
-- doi:10.1073/pnas.1009843107
-keywords:
-- Alleles
-- Breast Neoplasms
-- Carcinoma
-- Female
-- Gene Dosage
-- Genes, Neoplasm
-- Genome, Human
-- Humans
-- Ploidies
-- Oncology
-- Genomics
-- Human genetics
-license: GPL-3.0
-manually_check: true
-name: ascat
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:5867fe44065b9c1ba399d3f323b70e97afd41d22ea54bac464af8b95fadf5785
+size 689

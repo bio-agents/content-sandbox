@@ -1,14 +1,3 @@
-bioagents_id: pcot2
-description: PCOT2 is a permutation-based method for investigating changes in the
-  activity of multi-gene networks. It utilizes inter-gene correlation information
-  to detect significant alterations in gene network activities. Currently it can be
-  applied to two-sample comparisons.
-home: https://bioconductor.org/packages/3.12/bioc/html/pcot2.html
-identifiers:
-- bioagents:pcot2
-- doi:10.1038/nmeth.3252
-license: GPL (>= 2)
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-pcot2
-summary: Principal Coordinates and Hotelling's T-Square method
-version: 1.58.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:c6e860c6484acda6b0e9299b3c86fefc5fb5f18bfbb98a7d97b11a82b1c4196a
+size 593

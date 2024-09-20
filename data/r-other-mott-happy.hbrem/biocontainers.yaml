@@ -1,29 +1,3 @@
-softwares:
-  r-other-mott-happy.hbrem:
-    labels:
-      about.copyright: ' Richard Mott <Richard.Mott@well.ox.ac.uk>'
-      about.home: http://www.well.ox.ac.uk/happy/happyR.shtml
-      about.license: GPL-2+
-      about.license_file: /usr/share/doc/r-other-mott-happy.hbrem/copyright
-      about.summary: GNU R package for fine-mapping complex diseases
-      about.tags: ''
-      container: r-other-mott-happy.hbrem
-      software: r-other-mott-happy.hbrem
-      software.version: 2.4-1-deb
-      version: '1'
-    software: r-other-mott-happy.hbrem
-    versions:
-    - labels:
-        about.copyright: ' Richard Mott <Richard.Mott@well.ox.ac.uk>'
-        about.home: http://www.well.ox.ac.uk/happy/happyR.shtml
-        about.license: GPL-2+
-        about.license_file: /usr/share/doc/r-other-mott-happy.hbrem/copyright
-        about.summary: GNU R package for fine-mapping complex diseases
-        about.tags: ''
-        container: r-other-mott-happy.hbrem
-        software: r-other-mott-happy.hbrem
-        software.version: 2.4-1-deb
-        version: '1'
-      type: Container file
-      url: biocontainers/r-other-mott-happy.hbrem:2.4-1-deb-1
-      version: 2.4-1-deb-1
+version https://git-lfs.github.com/spec/v1
+oid sha256:d184d76ede157ed468cc79abe840a8746f67d0506c90b59fe546f616e3a3299d
+size 1174

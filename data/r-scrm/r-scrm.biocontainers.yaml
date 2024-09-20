@@ -1,13 +1,3 @@
-description: A coalescent simulator that allows the rapid simulation of biological
-  sequences under neutral models of evolution. Different to other coalescent based
-  simulations, it has an optional approximation parameter that allows for high accuracy
-  while maintaining a linear run time cost for long sequences. It is optimized for
-  simulating massive data sets as produced by Next- Generation Sequencing technologies
-  for up to several thousand sequences.
-home_url: None
-identifiers: []
-keywords: []
-license: GPL (>= 3)
-manually_check: true
-name: r-scrm
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:a001438a02797bb712ee06cbfe5ddaac0828b82a3c81d2df5f41b52dd2451d82
+size 577

@@ -1,22 +1,3 @@
-{
-    "additionDate": "2021-06-16T14:52:41Z",
-    "bioagentsCURIE": "bioagents:maestroweb",
-    "bioagentsID": "maestroweb",
-    "description": "MAESTRO-web is web interface to MAESTRO, a Multi AgEnt STability pRedictiOn agent for calculating changes in unfolding free energy upon point mutation. MAESTRO is structure based, which means that the 3-d structure of the wild type is required. It is able to predict single- and multi-point in monomeric and multimeric proteins. In addition, MAESTROweb provides mutation sensitivity profiles, a scanner for the most (de)stabilizing mutations and potential S-S bonds sites.",
-    "editPermission": {
-        "type": "private"
-    },
-    "homepage": "https://pbwww.services.came.sbg.ac.at/maestro/web",
-    "lastUpdate": "2021-06-16T14:55:08Z",
-    "name": "MAESTROweb",
-    "owner": "lacknerpeter",
-    "agentType": [
-        "Web service"
-    ],
-    "topic": [
-        {
-            "term": "Computational biology",
-            "uri": "http://edamontology.org/topic_3307"
-        }
-    ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7a15909c053d41e976bd478a449429cd79fec208808c49d1a1fef6cc95258b90
+size 1035

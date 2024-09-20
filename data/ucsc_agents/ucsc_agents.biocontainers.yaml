@@ -1,22 +1,3 @@
-description: Subset of UCSC agents required by agents and converters distributed with
-  Galaxy.
-home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
-identifiers:
-- doi:10.1093/bioinformatics/btq351
-- doi:10.1101/gr.229102
-- bioagents:UCSC_Genome_Browser_Utilities
-keywords:
-- California
-- Database Management Systems
-- Databases, Genetic
-- Gene Expression
-- Genes
-- Genome, Human
-- Humans
-- RNA, Messenger
-- Sequence Homology, Nucleic Acid
-- Universities
-license: Custom License
-manually_check: true
-name: ucsc_agents
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:b224af0625ed1298ff197bc1f4c9c2f1ffc723786603a56aa745f9418167acf4
+size 532

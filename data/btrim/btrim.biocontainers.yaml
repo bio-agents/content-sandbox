@@ -1,16 +1,3 @@
-description: This agent is made to remove tips (short dead ends) from a compacted de
-  Bruijn graph and more generally to remove sequencing errors. Used in Bcool a short
-  read corrector
-home_url: https://github.com/Malfoy/BTRIM
-identifiers:
-- bioagents:btrim
-- doi:10.1016/j.ygeno.2011.05.009
-- doi:abs/1711.03336
-keywords:
-- High-Throughput Nucleotide Sequencing
-- Sequence Analysis, DNA
-- Sequence analysis
-license: AGPL-3.0
-manually_check: true
-name: btrim
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:26433273f36af581eecf3825f99d8db91d716108aa83de51d98b3b408c50d666
+size 476

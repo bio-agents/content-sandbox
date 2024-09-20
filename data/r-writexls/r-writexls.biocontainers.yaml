@@ -1,11 +1,3 @@
-description: 'Cross-platform Perl based R function to create Excel 2003 (XLS) and
-  Excel 2007 (XLSX) files from one or more data frames. Each data frame will be written
-  to a separate named worksheet in the Excel spreadsheet. The worksheet name will
-  be the name of the data frame it contains or can be specified by the user. '
-home_url: None
-identifiers: []
-keywords: []
-license: GPL (>= 2)
-manually_check: true
-name: r-writexls
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:6f5a01fb4cfbc55b7ed64fcebb23a8c05127a79b0ca7f157315281c50c469b7e
+size 448

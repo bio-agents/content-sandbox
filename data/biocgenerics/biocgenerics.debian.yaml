@@ -1,15 +1,3 @@
-description: S4 generic functions needed by many other Bioconductor packages. . Bioconductor
-  provides agents for the analysis and comprehension of high-throughput genomic data.
-  Bioconductor uses the R statistical programming language, and is open source and
-  open development.
-edam:
-  topics: null
-  version: unknown
-homepage: https://bioconductor.org/packages/BiocGenerics/
-identifiers:
-  bioagents: biocgenerics
-  debian: r-bioc-biocgenerics
-  doi:
-  - 10.1038/nmeth.3252
-summary: generic functions for Bioconductor
-version: 0.36.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:b90a713258f5977ff5e23f87f9ef5a1eea110c750da6e2a5c70a888d70baca4c
+size 539

@@ -1,14 +1,3 @@
-bioagents_id: bacon
-description: Bacon can be used to remove inflation and bias often observed in epigenome-
-  and transcriptome-wide association studies. To this end bacon constructs an empirical
-  null distribution using a Gibbs Sampling algorithm by fitting a three-component
-  normal mixture on z-scores.
-home: https://bioconductor.org/packages/3.12/bioc/html/bacon.html
-identifiers:
-- bioagents:bacon
-license: GPL (>= 2)
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-bacon
-summary: Controlling bias and inflation in association studies using the empirical
-  null distribution
-version: 1.18.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:0fa8294091c59b8687f2ffea863eecadca7e0db7ca8a1ebf21982850b90fdd91
+size 612

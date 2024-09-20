@@ -1,21 +1,3 @@
-description: "Portable and easily configurable genome annotation pipeline. it\u2019\
-  s purpose is to allow smaller eukaryotic and prokaryotic genome projects to independently\
-  \ annotate their genomes and to create genome databases."
-home_url: http://www.yandell-lab.org/software/maker.html
-identifiers:
-- bioagents:maker
-- doi:10.1101/gr.6743907
-keywords:
-- Animals
-- Databases, Nucleic Acid
-- Genome, Helminth
-- Sequence Analysis, DNA
-- Turbellaria
-- Genomics
-- DNA
-- Sequence analysis
-- Genetics
-license: Artistic-2.0
-manually_check: true
-name: maker
-total_pulls: 37
+version https://git-lfs.github.com/spec/v1
+oid sha256:8a9f6591187ae9855c8445dd3f4facb555214482be06c9af9f6868512226423b
+size 574

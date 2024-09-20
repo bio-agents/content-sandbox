@@ -1,12 +1,3 @@
-bioagents_id: clomial
-description: Clomial fits binomial distributions to counts obtained from Next Gen
-  Sequencing data of multiple samples of the same tumor. The trained parameters can
-  be interpreted to infer the clonal structure of the tumor.
-home: https://bioconductor.org/packages/3.12/bioc/html/Clomial.html
-identifiers:
-- bioagents:clomial
-license: GPL (>= 2)
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-clomial
-summary: Infers clonal composition of a tumor
-version: 1.26.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:fd0360b979f8b275ba42a97733d3a4c59051dcf835a9c120dd25c0e76213d433
+size 501

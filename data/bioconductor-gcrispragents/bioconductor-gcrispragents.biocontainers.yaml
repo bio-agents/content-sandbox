@@ -1,22 +1,3 @@
-description: Set of agents for evaluating pooled high-throughput screening experiments,
-  typically employing crispr/cas9 or shrna expression cassettes. contains methods
-  for interrogating library and cassette behavior within an experiment, identifying
-  differentially abundant cassettes, aggregating signals to identify candidate targets
-  for empirical validation, hypothesis testing, and comprehensive reporting.
-home_url: http://bioconductor.org/packages/release/bioc/html/gCrisprAgents.html
-identifiers:
-- bioagents:gcrispragents
-- doi:10.1038/nmeth.3252
-keywords:
-- Computational Biology
-- Gene Expression Profiling
-- Genomics
-- High-Throughput Screening Assays
-- Programming Languages
-- User-Computer Interface
-- Compound libraries and screening
-- Genetics
-license: Artistic-2.0
-manually_check: true
-name: bioconductor-gcrispragents
-total_pulls: 5
+version https://git-lfs.github.com/spec/v1
+oid sha256:c7e18b2711bb05012588179d784ea1c3906598638c44edae7164bb85633e222c
+size 857

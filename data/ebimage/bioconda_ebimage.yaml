@@ -1,15 +1,3 @@
-bioagents_id: ebimage
-description: EBImage provides general purpose functionality for image processing and
-  analysis. In the context of (high-throughput) microscopy-based cellular assays,
-  EBImage offers agents to segment cells and extract quantitative cellular descriptors.
-  This allows the automation of such tasks using the R programming language and facilitates
-  the use of other agents in the R environment for signal processing, statistical modeling,
-  machine learning and visualization with image data.
-home: https://bioconductor.org/packages/3.12/bioc/html/EBImage.html
-identifiers:
-- bioagents:ebimage
-license: LGPL
-license_file: /lib/R/share/licenses/LGPL-3
-name: bioconductor-ebimage
-summary: Image processing and analysis agentbox for R
-version: 4.32.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:4aa8e4b3a70392902351485d991c8e13198add26077e610b17f02bf1c0c310df
+size 770

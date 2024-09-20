@@ -1,17 +1,3 @@
-description: Phenome Wide Association Studies (PheWAS) - Functions to perform Phenome
-  Wide Association Studies (PheWAS). These functions include the conversion of ICD9
-  codes to PheWAS codes (v1.2), statistical analysis, and plotting.
-home_url: https://github.com/PheWAS/PheWAS
-identifiers:
-- doi:10.1093/bioinformatics/btu197
-keywords:
-- Data Interpretation, Statistical
-- Genetic Association Studies
-- Genetic Variation
-- Humans
-- Multiple Sclerosis
-- Phenotype
-license: GPL-3.0
-manually_check: true
-name: r-phewas
-total_pulls: 4
+version https://git-lfs.github.com/spec/v1
+oid sha256:0bcfa8ecca77524aaa315b3a5dacdac7dd0711c41f10290e8f20bd11e1b7f825
+size 535

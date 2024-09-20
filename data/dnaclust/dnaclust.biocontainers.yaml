@@ -1,18 +1,3 @@
-description: Agent for clustering millions of short dna sequences
-home_url: http://dnaclust.sourceforge.net/
-identifiers:
-- bioagents:dnaclust
-- doi:10.1186/1471-2105-12-271
-keywords:
-- Cluster Analysis
-- Genetic Markers
-- Phylogeny
-- Sequence Alignment
-- Sequence Analysis, DNA
-- Sequences
-- DNA
-- Clustering
-license: custom, see /usr/share/doc/dnaclust/copyright
-manually_check: true
-name: dnaclust
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:8cd046c93227b85157b6a701289779f0024fb53e6ab1fae428863a9ceb870b55
+size 416

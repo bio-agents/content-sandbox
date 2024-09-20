@@ -1,23 +1,3 @@
-description: This is a software that can be used to analyze Tn-Seq datasets. It includes
-  various statistical calculations of essentiality of genes or genomic regions (including
-  conditional essentiality between 2 conditions). These methods were developed and
-  tested as a collaboration between the Sassetti lab (UMass) and the Ioerger lab (Texas
-  A&M) . TRANSIT is capable of analyzing TnSeq libraries constructed with Himar1 or
-  Tn5 datasets. . TRANSIT assumes you have already done pre-processing of raw sequencing
-  files (.fastq) and extracted read counts into a .wig formatted file. The .wig file
-  should contain the counts at all sites where an insertion could take place (including
-  sites with no reads). For Himar1 datasets this is all TA sites in the genome. For
-  Tn5 datasets this would be all nucleotides in the genome.
-edam:
-  topics: null
-  version: unknown
-homepage: http://saclab.tamu.edu/essentiality/transit/
-identifiers:
-  bioconda: transit
-  bioagents: transit
-  debian: tnseq-transit
-  doi:
-  - 10.1371/journal.pcbi.1004401
-  omicagents: OMICS_10215
-summary: statistical calculations of essentiality of genes or genomic regions
-version: 3.2.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:254a13f61ae041cdda643abbef745851104611bff2df6baff27be6a5ff7ebf31
+size 1172

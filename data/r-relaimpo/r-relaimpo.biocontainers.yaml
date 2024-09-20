@@ -1,13 +1,3 @@
-description: Provides several metrics for assessing relative importance in linear
-  models. These can be printed, plotted and bootstrapped. The recommended metric is
-  lmg, which provides a decomposition of the model explained variance into non-negative
-  contributions. There is a version of this package available that additionally provides
-  a new and also recommended metric called pmvd. If you are a non-US user, you can
-  download this extended version from Ulrike Groempings web site.
-home_url: https://cran.r-project.org/package=relaimpo
-identifiers: []
-keywords: []
-license: GPL-2.0
-manually_check: true
-name: r-relaimpo
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:6deaa7bd01b00d66fcf2a303214e0e098dc1433cef723a4586749ee56725f1af
+size 645

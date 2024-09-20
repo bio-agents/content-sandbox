@@ -1,13 +1,3 @@
-bioagents_id: helloranges
-description: Translates bedagents command-line invocations to R code calling functions
-  from the Bioconductor *Ranges infrastructure. This is intended to educate novice
-  Bioconductor users and to compare the syntax and semantics of the two frameworks.
-home: https://bioconductor.org/packages/3.12/bioc/html/HelloRanges.html
-identifiers:
-- bioagents:helloranges
-- doi:10.1038/nmeth.3252
-license: GPL (>= 2)
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-helloranges
-summary: Introduce *Ranges to bedagents users
-version: 1.16.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:de82972e2a9b2158c9bb1ccbf84ac41a0d54582a2ed49618e3ad1ee7a29a5c39
+size 569

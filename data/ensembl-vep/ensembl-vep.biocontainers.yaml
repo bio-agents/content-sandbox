@@ -1,20 +1,3 @@
-description: The Ensembl Variant Effect Predictor predicts the functional effects
-  of genomic variants
-home_url: https://github.com/Ensembl/ensembl-vep
-identifiers:
-- bioagents:ensemblvep
-- doi:10.1186/s13059-016-0974-4
-keywords:
-- Computational Biology
-- Databases, Nucleic Acid
-- Genetic Variation
-- Genomics
-- Humans
-- Internet
-- Molecular Sequence Annotation
-- Bioinformatics
-- Genetic variation
-license: Apache-2.0
-manually_check: true
-name: ensembl-vep
-total_pulls: 330
+version https://git-lfs.github.com/spec/v1
+oid sha256:86daad69658a0b74050d1642769dab9514d907c6525c6cdcf72fb26b7ba73f30
+size 477

@@ -1,11 +1,3 @@
-bioagents_id: primer3
-home: https://github.com/primer3-org/primer3
-identifiers:
-- bioagents:primer3
-- doi:10.1093/nar/gks596
-license: GPLv2
-license_file: LICENSE
-name: primer3
-summary: Design PCR primers from DNA sequence. From mispriming libraries to sequence
-  quality data to the generation of internal oligos, primer3 does it.
-version: 2.5.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:384815a346ba1d0ee9b022f159d89a36c575d6ddc14692800dfb7b93dda8db52
+size 346

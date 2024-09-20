@@ -1,12 +1,3 @@
-description: Agents for analyzing R expressions or blocks of code and determining the
-  dependencies between them. It focuses on R scripts, but can be used on the bodies
-  of functions. There are many facilities including the ability to summarize or get
-  a high-level view of code, determining dependencies between variables, code improvement
-  suggestions.
-home_url: https://github.com/duncantl/CodeDepends
-identifiers: []
-keywords: []
-license: GPL-3
-manually_check: true
-name: r-codedepends
-total_pulls: 110
+version https://git-lfs.github.com/spec/v1
+oid sha256:143df655073bab26c66451927f18f5dc72780e5d63bcc7984069dfe202d723ce
+size 511

@@ -1,12 +1,3 @@
-bioagents_id: rnaseqmap
-description: The rnaSeqMap library provides classes and functions to analyze the RNA-sequencing
-  data using the coverage profiles in multiple samples at a time
-home: https://bioconductor.org/packages/3.10/bioc/html/rnaSeqMap.html
-identifiers:
-- bioagents:rnaseqmap
-- doi:10.1186/1471-2105-12-200
-license: GPL-2
-license_file: /lib/R/share/licenses/GPL-2
-name: bioconductor-rnaseqmap
-summary: rnaSeq secondary analyses
-version: 2.44.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:0e7d8939e22dde1efca58340ca2a15726c03f730f13f862a5bdecd9715458223
+size 458

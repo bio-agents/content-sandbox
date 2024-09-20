@@ -1,12 +1,3 @@
-description: Short-read assembler based on a de bruijn graph, capable of assembling
-  a human genome on a desktop computer in a day.
-home_url: http://minia.genouest.org/
-identifiers:
-- bioagents:minia
-- doi:10.1186/1748-7188-9-2
-keywords:
-- Sequence assembly
-license: CECILL-2.0
-manually_check: true
-name: minia
-total_pulls: 5855
+version https://git-lfs.github.com/spec/v1
+oid sha256:9faa820c5d63ee00b88c8510f6610ab01ac8ca1b252216f83fa09c8d60009d90
+size 330

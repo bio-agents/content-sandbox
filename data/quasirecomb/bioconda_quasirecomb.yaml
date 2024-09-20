@@ -1,16 +1,3 @@
-bioagents_id: quasirecomb
-description: "QuasiRecomb presents a jumping hidden Markov model that describes the\
-  \ generation of the viral quasispecies and a method to infer its parameters by analysing\
-  \ next generation sequencing data. It offers an implementation of the EM algorithm\
-  \ to find maximum a posteriori estimates of the model parameters and a method to\
-  \ estimate the distribution of viral strains in the quasispecies. \n"
-home: https://github.com/cbg-ethz/QuasiRecomb
-identifiers:
-- bioagents:QuasiRecomb
-- doi:10.1089/cmb.2012.0232
-license: GNU GPLv3
-license_family: GPL3
-license_file: COPYING
-name: quasirecomb
-summary: Software of Inference of Quasispecies subjected to Recombination
-version: 1.2
+version https://git-lfs.github.com/spec/v1
+oid sha256:d397c446c8afaa6d2c543993c25c73d2515af36af86ee59b3f44b646e32403ee
+size 723

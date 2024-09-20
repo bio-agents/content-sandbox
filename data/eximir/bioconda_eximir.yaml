@@ -1,14 +1,3 @@
-bioagents_id: eximir
-description: This package contains functions for reading raw data in ImaGene TXT format
-  obtained from Exiqon miRCURY LNA arrays, annotating them with appropriate GAL files,
-  and normalizing them using a spike-in probe-based method. Other platforms and data
-  formats are also supported.
-home: https://bioconductor.org/packages/3.12/bioc/html/ExiMiR.html
-identifiers:
-- bioagents:eximir
-- doi:10.1186/1756-0500-7-302
-license: GPL-2
-license_file: /lib/R/share/licenses/GPL-2
-name: bioconductor-eximir
-summary: R functions for the normalization of Exiqon miRNA array data
-version: 2.32.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:f75f2431bfecdad2e4cbf8e190b28c58534128036aaf2a8677f365325c4ff9b1
+size 609

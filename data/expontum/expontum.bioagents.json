@@ -1,34 +1,3 @@
-{
-    "additionDate": "2023-08-25T21:07:00.868670Z",
-    "bioagentsCURIE": "bioagents:expontum",
-    "bioagentsID": "expontum",
-    "collectionID": [
-        "COVID-19"
-    ],
-    "cost": "Free of charge",
-    "description": "Helps researchers quickly find knowledge gaps and identify what research projects have been completed before.",
-    "editPermission": {
-        "type": "private"
-    },
-    "function": [
-        {
-            "operation": [
-                {
-                    "term": "Database search",
-                    "uri": "http://edamontology.org/operation_2421"
-                },
-                {
-                    "term": "Text mining",
-                    "uri": "http://edamontology.org/operation_0306"
-                }
-            ]
-        }
-    ],
-    "homepage": "https://www.expontum.com/",
-    "lastUpdate": "2023-08-25T21:07:00.872382Z",
-    "name": "Expontum",
-    "owner": "ryansaenz915",
-    "agentType": [
-        "Web application"
-    ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:00e725f0333b506691b86b3dd048b5bf9953bad19078c0eec63bc954eb04fa1f
+size 980

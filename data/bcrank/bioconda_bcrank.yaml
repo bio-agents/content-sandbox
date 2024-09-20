@@ -1,12 +1,3 @@
-bioagents_id: bcrank
-description: Functions and classes for de novo prediction of transcription factor
-  binding consensus by heuristic search
-home: https://bioconductor.org/packages/3.12/bioc/html/BCRANK.html
-identifiers:
-- bioagents:bcrank
-- doi:10.1093/nar/gkp381
-license: GPL-2
-license_file: /lib/R/share/licenses/GPL-2
-name: bioconductor-bcrank
-summary: Predicting binding site consensus from ranked DNA sequences
-version: 1.52.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:aae422eda0fe614cd466319f5479e2fa9c855c1b9e364c9b011ffdfec30a45e7
+size 435

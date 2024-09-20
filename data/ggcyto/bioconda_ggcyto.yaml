@@ -1,13 +1,3 @@
-bioagents_id: ggcyto
-description: With the dedicated fortify method implemented for flowSet, ncdfFlowSet
-  and GatingSet classes, both raw and gated flow cytometry data can be plotted directly
-  with ggplot. ggcyto wrapper and some customed layers also make it easy to add gates
-  and population statistics to the plot.
-home: https://bioconductor.org/packages/3.12/bioc/html/ggcyto.html
-identifiers:
-- bioagents:ggcyto
-- doi:10.1038/nmeth.3252
-license: Artistic-2.0
-name: bioconductor-ggcyto
-summary: Visualize Cytometry data with ggplot
-version: 1.18.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:2d6d56fe7e901a2c0df8fefb5fbed3de001b40e058cf01512f8ca080e2ff4840
+size 554

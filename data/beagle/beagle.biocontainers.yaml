@@ -1,19 +1,3 @@
-description: Beagle is a software package that performs genotype calling, genotype
-  phasing, imputation of ungenotyped markers, and identity-by-descent segment detection.
-home_url: https://faculty.washington.edu/browning/beagle/beagle.html
-identifiers:
-- bioagents:BEAGLE
-- doi:10.1086/521987
-- doi:10.1016/j.ajhg.2018.07.015
-keywords:
-- Computational Biology
-- Genome, Human
-- Genome-Wide Association Study
-- Haplotypes
-- Humans
-- Population genetics
-- Clustering
-license: GPL-3.0
-manually_check: true
-name: beagle
-total_pulls: 6629
+version https://git-lfs.github.com/spec/v1
+oid sha256:15c4e5a1e0977d18d589fb1bf89cc6284dca40325658f9af4b3aff19a65379b9
+size 535

@@ -1,14 +1,3 @@
-bioagents_id: girafe
-description: The package 'girafe' deals with the genome-level representation of aligned
-  reads from next-generation sequencing data. It contains an object class for enabling
-  a detailed description of genome intervals with aligned reads and functions for
-  comparing, visualising, exporting and working with such intervals and the aligned
-  reads. As such, the package interacts with and provides a link between the packages
-  ShortRead, IRanges and genomeIntervals.
-home: https://bioconductor.org/packages/3.12/bioc/html/girafe.html
-identifiers:
-- bioagents:girafe
-license: Artistic-2.0
-name: bioconductor-girafe
-summary: Genome Intervals and Read Alignments for Functional Exploration
-version: 1.42.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:1af68e5084c4918f77bb62f1dd529e446681a8c2944ac7eeb448341efb1ccbcf
+size 726

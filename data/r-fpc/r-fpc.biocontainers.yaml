@@ -1,19 +1,3 @@
-description: 'Various methods for clustering and cluster validation. Fixed point clustering.
-  Linear regression clustering. Clustering by merging Gaussian mixture components.
-  Symmetric and asymmetric discriminant projections for visualisation of the separation
-  of groupings. Cluster validation statistics for distance based clustering including
-  corrected Rand index. Cluster-wise cluster stability assessment. Methods for estimation
-  of the number of clusters: Calinski-Harabasz, Tibshirani and Walther''s prediction
-  strength, Fang and Wang''s bootstrap stability. Gaussian/multinomial mixture fitting
-  for mixed continuous/categorical variables. Variable-wise statistics for cluster
-  interpretation. DBSCAN clustering. Interface functions for many clustering methods
-  implemented in R, including estimating the number of clusters with kmeans, pam and
-  clara. Modality diagnosis for Gaussian mixtures.'
-home_url: https://CRAN.R-project.org/package=fpc
-identifiers: []
-keywords:
-- Clustering
-license: GPL
-manually_check: true
-name: r-fpc
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:8bda86d62c8bd2ca18f010aa7dc4c2cf0ce6923bfebb38b86be4c5b246b060ef
+size 1066

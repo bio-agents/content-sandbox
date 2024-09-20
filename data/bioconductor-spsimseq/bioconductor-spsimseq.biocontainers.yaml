@@ -1,16 +1,3 @@
-description: SPsimSeq uses a specially designed exponential family for density estimation
-  to constructs the distribution of gene expression levels from a given real RNA sequencing
-  data (single-cell or bulk), and subsequently simulates a new dataset from the estimated
-  marginal distributions using Gaussian-copulas to retain the dependence between genes.
-  It allows simulation of multiple groups and batches with any required sample size
-  and library size.
-home_url: https://bioconductor.org/packages/3.12/bioc/html/SPsimSeq.html
-identifiers:
-- doi:10.18129/b9.bioc.spsimseq
-keywords:
-- RNA-Seq
-- Gene Expression
-license: GPL-2.0
-manually_check: true
-name: bioconductor-spsimseq
-total_pulls: 116
+version https://git-lfs.github.com/spec/v1
+oid sha256:41b494de5bdaac889caa02245a0152bad9e4e558f95fb8760084c45993c7dfa3
+size 703

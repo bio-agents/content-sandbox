@@ -1,21 +1,3 @@
-description: Search a crtree indexed bed file and print all items that overlap query.
-home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
-identifiers:
-- doi:10.1093/bioinformatics/btq351
-- doi:10.1101/gr.229102
-- bioagents:UCSC_Genome_Browser_Utilities
-keywords:
-- California
-- Database Management Systems
-- Databases, Genetic
-- Gene Expression
-- Genes
-- Genome, Human
-- Humans
-- RNA, Messenger
-- Sequence Homology, Nucleic Acid
-- Universities
-license: Custom License
-manually_check: true
-name: ucsc-crtreesearchbed
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:0327d5b2ebbda4db0a04f804905b056f76300db74bcadf959fd3708761a2c6d1
+size 531

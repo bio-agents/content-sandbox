@@ -1,27 +1,3 @@
-{
-    "additionDate": "2021-07-06T17:17:07Z",
-    "bioagentsCURIE": "bioagents:eautils",
-    "bioagentsID": "eautils",
-    "description": "Command-line agents for processing biological sequencing data. Barcode demultiplexing, adapter trimming, etc. Primarily written to support an Illumina based pipeline - but should work with any FASTQs.",
-    "editPermission": {
-        "type": "private"
-    },
-    "function": [
-        {
-            "operation": [
-                {
-                    "term": "Sequence merging",
-                    "uri": "http://edamontology.org/operation_0232"
-                },
-                {
-                    "term": "Sequence trimming",
-                    "uri": "http://edamontology.org/operation_3192"
-                }
-            ]
-        }
-    ],
-    "homepage": "http://expressionanalysis.github.io/ea-utils/",
-    "lastUpdate": "2021-07-06T17:17:07Z",
-    "name": "Eautils",
-    "owner": "leipzig"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:39a215ad42dfe8f08558fdf06830ef4357dcb1fa1912417d34a5b4577ee124b6
+size 946

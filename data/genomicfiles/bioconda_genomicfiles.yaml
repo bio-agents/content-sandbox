@@ -1,12 +1,3 @@
-bioagents_id: genomicfiles
-description: This package provides infrastructure for parallel computations distributed
-  'by file' or 'by range'. User defined MAPPER and REDUCER functions provide added
-  flexibility for data combination and manipulation.
-home: https://bioconductor.org/packages/3.12/bioc/html/GenomicFiles.html
-identifiers:
-- bioagents:genomicfiles
-- doi:10.1038/nmeth.3252
-license: Artistic-2.0
-name: bioconductor-genomicfiles
-summary: Distributed computing by file or by range
-version: 1.26.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:f6ef057f7fa18ef1e61f3254488ae3eb3458ff071f671ba9928723efce8ec46b
+size 508

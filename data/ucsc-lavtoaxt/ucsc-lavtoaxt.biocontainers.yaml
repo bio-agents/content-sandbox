@@ -1,21 +1,3 @@
-description: Convert blastz lav file to an axt file (which includes sequence)
-home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
-identifiers:
-- doi:10.1093/bioinformatics/btq351
-- doi:10.1101/gr.229102
-- bioagents:UCSC_Genome_Browser_Utilities
-keywords:
-- California
-- Database Management Systems
-- Databases, Genetic
-- Gene Expression
-- Genes
-- Genome, Human
-- Humans
-- RNA, Messenger
-- Sequence Homology, Nucleic Acid
-- Universities
-license: Custom License
-manually_check: true
-name: ucsc-lavtoaxt
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:2d1ddca9888db9974949777387cc481a17fc837a48687945bd6c7000115d9907
+size 516

@@ -1,27 +1,3 @@
-description: Ibdseq is a software program for detecting segments of identity-by-descent
-  (ibd) and homozygosity-by-descent (hbd) in unphased genetic sequence data.
-home_url: http://faculty.washington.edu/browning/ibdseq.html
-identifiers:
-- bioagents:IBDseq
-- doi:10.1016/j.ajhg.2013.09.014
-keywords:
-- Alleles
-- Cohort Studies
-- Europe
-- European Continental Ancestry Group
-- Gene Frequency
-- Genetics, Population
-- Genotype
-- Homozygote
-- Humans
-- Lod Score
-- Models, Genetic
-- Polymorphism, Single Nucleotide
-- Probability
-- Sequence Analysis, DNA
-- Mapping
-- Genetics
-license: Apache v2.0
-manually_check: true
-name: ibdseq
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:db4763a4d67d1635e9989f1dcd0b2301dd5d0fc1744e6885d9f2dfdc0c4182c5
+size 642

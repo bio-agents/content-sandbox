@@ -1,12 +1,3 @@
-bioagents_id: summarizedexperiment
-description: The SummarizedExperiment container contains one or more assays, each
-  represented by a matrix-like object of numeric or other mode. The rows typically
-  represent genomic ranges of interest and the columns represent samples.
-home: https://bioconductor.org/packages/3.12/bioc/html/SummarizedExperiment.html
-identifiers:
-- bioagents:summarizedexperiment
-- doi:10.1038/nmeth.3252
-license: Artistic-2.0
-name: bioconductor-summarizedexperiment
-summary: SummarizedExperiment container
-version: 1.20.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:659b1069afa3596e18d592a5fb0cf5a00f4a63476965fb89391d84ae609866a5
+size 544

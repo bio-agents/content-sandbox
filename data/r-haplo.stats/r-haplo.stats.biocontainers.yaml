@@ -1,12 +1,3 @@
-description: 'lRoutines for the analysis of indirectly measured haplotypes. The statistical
-  methods assume that all subjects are unrelated and that haplotypes are ambiguous
-  (due to unknown linkage phase of the genetic markers). The main functions are: haplo.em(),
-  haplo.glm(), haplo.score(), and haplo.power(); all of which have detailed examples
-  in the vignette.'
-home_url: http://www.mayo.edu/research/labs/statistical-genetics-genetic-epidemiology/software
-identifiers: []
-keywords: []
-license: GPL (>= 2)
-manually_check: true
-name: r-haplo.stats
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:25675486b9642bb4beaaff9945ac47443bbd225ad9a2f307e5e714f0d2afca7a
+size 573

@@ -1,16 +1,3 @@
-description: A agent that postprocesses whole genome alignment (for two or more genomes)
-  and produces coarse-grained synteny blocks.
-home_url: https://github.com/fenderglass/maf2synteny
-identifiers:
-- doi:10.1101/gr.236273.118
-keywords:
-- Animals
-- Contig Mapping
-- Mice
-- Reference Standards
-- Whole Genome Sequencing
-- Genomics
-license: BSD
-manually_check: true
-name: maf2synteny
-total_pulls: 563
+version https://git-lfs.github.com/spec/v1
+oid sha256:410d10257f37ad0a261892bb04add0f8d2db0b27faba165334a3d3ff27947dbf
+size 401

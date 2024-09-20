@@ -1,15 +1,3 @@
-description: The main function kcca implements a general framework for k-centroids
-  cluster analysis supporting arbitrary distance measures and centroid computation.
-  Further cluster methods include hard competitive learning, neural gas, and QT clustering.
-  There are numerous visualization methods for cluster results (neighborhood graphs,
-  convex cluster hulls, barcharts of centroids, ...), and bootstrap methods for the
-  analysis of cluster stability.
-home_url: https://CRAN.R-project.org/package=flexclust
-identifiers: []
-keywords:
-- Clustering
-- Cluster Analysis
-license: GPL-2
-manually_check: true
-name: r-flexclust
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:b28e41802f4270ae73795ef2073d1f1d8a9d650ab0f6d0f66ee25a8f9d733aaf
+size 643

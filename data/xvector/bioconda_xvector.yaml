@@ -1,11 +1,3 @@
-bioagents_id: xvector
-description: Provides memory efficient S4 classes for storing sequences "externally"
-  (e.g. behind an R external pointer, or on disk).
-home: https://bioconductor.org/packages/3.12/bioc/html/XVector.html
-identifiers:
-- bioagents:xvector
-- doi:10.1038/nmeth.3252
-license: Artistic-2.0
-name: bioconductor-xvector
-summary: Foundation of external vector representation and manipulation in Bioconductor
-version: 0.30.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:604d8985b35cc4b55b72dd46a12a875832313f6a05e59b31d2d810ce77da4b89
+size 436

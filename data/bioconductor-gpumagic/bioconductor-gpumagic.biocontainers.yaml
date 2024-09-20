@@ -1,12 +1,3 @@
-description: The package aims to help users write openCL code with little or no effort.
-  It is able to compile an user-defined R function and run it on a device such as
-  a CPU or a GPU. The user can also write and run their openCL code directly by calling
-  .kernel function.
-home_url: https://bioconductor.org/packages/3.12/bioc/html/gpuMagic.html
-identifiers:
-- doi:10.18129/b9.bioc.gpumagic
-keywords: []
-license: GPL-3.0
-manually_check: true
-name: bioconductor-gpumagic
-total_pulls: 485
+version https://git-lfs.github.com/spec/v1
+oid sha256:7aaed84e893b4429abdda235c9589d386c3f58fb333c2b55d274ea172cf9e818
+size 492

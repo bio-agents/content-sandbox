@@ -1,14 +1,3 @@
-bioagents_id: cellnoptr
-description: This package does optimisation of boolean logic networks of signalling
-  pathways based on a previous knowledge network and a set of data upon perturbation
-  of the nodes in the network.
-home: https://bioconductor.org/packages/3.12/bioc/html/CellNOptR.html
-identifiers:
-- bioagents:cellnoptr
-- doi:10.1186/1752-0509-6-133
-license: GPL-3
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-cellnoptr
-summary: Training of boolean logic models of signalling networks using prior knowledge
-  networks and perturbation data
-version: 1.36.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:dc7ce508f43290c0784f07161be249e347f2d3a429aa41c93742956859b40d31
+size 581

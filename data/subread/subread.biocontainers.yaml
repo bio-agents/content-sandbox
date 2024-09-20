@@ -1,33 +1,3 @@
-description: Subread is a general-purpose read aligner which can be used to map both
-  genomic dna-seq reads and rna-seq reads. it uses a new mapping paradigm called seed-and-vote
-  to achieve fast, accurate and scalable read mapping. it automatically determines
-  if a read should be globally or locally aligned, therefore particularly powerful
-  in mapping rna-seq reads. it supports indel detection and can map reads with both
-  fixed and variable lengths.
-home_url: http://subread.sourceforge.net/
-identifiers:
-- bioagents:subread
-- doi:10.1093/nar/gkt214
-- doi:10.1038/nmeth.4106
-keywords:
-- Benchmarking
-- Computer Simulation
-- Exons
-- Genome, Human
-- Humans
-- Introns
-- Molecular Sequence Annotation
-- Plasmodium falciparum
-- Polymorphism, Genetic
-- RNA Splicing
-- Sequence Alignment
-- Sequence Analysis, RNA
-- Sequencing
-- Mapping
-- Whole genome sequencing
-- RNA-seq
-- RNA-Seq
-license: GPL-3.0
-manually_check: true
-name: subread
-total_pulls: 6438
+version https://git-lfs.github.com/spec/v1
+oid sha256:cc041b74ff2fe54c2d809504f84be9823c1a685ffd936bb93eebd1cf0d901f4e
+size 955

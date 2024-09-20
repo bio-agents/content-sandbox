@@ -1,13 +1,3 @@
-bioagents_id: ctsge
-description: Methodology for supervised clustering of potentially many predictor variables,
-  such as genes etc., in time series datasets Provides functions that help the user
-  assigning genes to predefined set of model profiles.
-home: https://bioconductor.org/packages/3.12/bioc/html/ctsGE.html
-identifiers:
-- bioagents:ctsge
-- doi:10.1093/bioinformatics/btx116
-license: GPL-2
-license_file: /lib/R/share/licenses/GPL-2
-name: bioconductor-ctsge
-summary: Clustering of Time Series Gene Expression data
-version: 1.16.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:8271daa390d7e139d89d82d09655bbebe8956b9bdc8fb70f74ef4a9b34ce5d4f
+size 538

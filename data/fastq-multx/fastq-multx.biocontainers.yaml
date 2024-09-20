@@ -1,10 +1,3 @@
-description: Demultiplexes a fastq. Capable of auto-determining barcode id's based
-  on a master set fields. Keeps multiple reads in-sync during demultiplexing. Can
-  verify that the reads are in-sync as well, and fail if they're not.
-home_url: https://github.com/brwnj/fastq-multx
-identifiers: []
-keywords: []
-license: MIT
-manually_check: true
-name: fastq-multx
-total_pulls: 1
+version https://git-lfs.github.com/spec/v1
+oid sha256:88895b157af9e978973692122a77ea7bafab502765773f4cecdb6a4625342406
+size 378

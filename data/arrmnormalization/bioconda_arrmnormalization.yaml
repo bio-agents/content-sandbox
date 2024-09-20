@@ -1,11 +1,3 @@
-bioagents_id: arrmnormalization
-description: Perform the Adaptive Robust Regression method (ARRm) for the normalization
-  of methylation data from the Illumina Infinium HumanMethylation 450k assay.
-home: https://bioconductor.org/packages/3.12/bioc/html/ARRmNormalization.html
-identifiers:
-- bioagents:arrmnormalization
-- doi:10.1186/s13059-014-0503-2
-license: Artistic-2.0
-name: bioconductor-arrmnormalization
-summary: Adaptive Robust Regression normalization for Illumina methylation data
-version: 1.30.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:85aa5048a4db1e34a64f12660ae71570de6e291fcf352e410408a021d7f91f2f
+size 506

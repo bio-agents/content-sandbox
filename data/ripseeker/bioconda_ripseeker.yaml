@@ -1,15 +1,3 @@
-bioagents_id: ripseeker
-description: Infer and discriminate RIP peaks from RIP-seq alignments using two-state
-  HMM with negative binomial emission probability. While RIPSeeker is specifically
-  tailored for RIP-seq data analysis, it also provides a suite of bioinformatics agents
-  integrated within this self-contained software package comprehensively addressing
-  issues ranging from post-alignments processing to visualization and annotation.
-home: https://bioconductor.org/packages/3.10/bioc/html/RIPSeeker.html
-identifiers:
-- bioagents:ripseeker
-license: GPL-2
-license_file: /lib/R/share/licenses/GPL-2
-name: bioconductor-ripseeker
-summary: 'RIPSeeker: a statistical package for identifying protein-associated transcripts
-  from RIP-seq experiments'
-version: 1.26.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:22fc2321d08b748a7c172b981b38ec15f5320d5e10ed64797bd211aa6b52adfa
+size 772

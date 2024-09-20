@@ -1,12 +1,3 @@
-bioagents_id: chromvar
-description: Determine variation in chromatin accessibility across sets of annotations
-  or peaks. Designed primarily for single-cell or sparse chromatin accessibility data,
-  e.g. from scATAC-seq or sparse bulk ATAC or DNAse-seq experiments.
-home: https://bioconductor.org/packages/3.12/bioc/html/chromVAR.html
-identifiers:
-- bioagents:chromvar
-license: MIT + file LICENSE
-license_file: LICENSE
-name: bioconductor-chromvar
-summary: Chromatin Variation Across Regions
-version: 1.12.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:f877d3e368fa59054d165f0c6aa1d80dffbc05c64f2a7c81a3bdfea71ccdcdd9
+size 507

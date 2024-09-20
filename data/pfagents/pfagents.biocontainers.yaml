@@ -1,30 +1,3 @@
-description: The pfagents are a collection of programs to build, calibrate, and search
-  biological sequences with generalized profiles. generalized profiles are an extension
-  of position specific scoring matrices by including position specific scores for
-  insertions and deletions. they correspond to a matrix representation of a multiple
-  sequence alignment that can be used to search distant homologous sequences and precisely
-  align sequences to the model.
-home_url: https://github.com/sib-swiss/pfagents3
-identifiers:
-- bioagents:pfagents
-- doi:10.1002/pro.5560030118
-keywords:
-- Amino Acid Sequence
-- Globins
-- Heat-Shock Proteins
-- Molecular Sequence Data
-- Proto-Oncogene Proteins pp60(c-src)
-- Sensitivity and Specificity
-- Sequence Analysis
-- Sequence Homology
-- Sequence analysis
-- Proteomics
-- Sequence sites, features and motifs
-- Protein structural motifs and surfaces
-- Protein folds and structural domains
-- Clustering
-- Sequence Alignment
-license: custom, see /usr/share/doc/pfagents/copyright
-manually_check: true
-name: pfagents
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:8e347164c3457222a055f14c71e2192b691de0ed274b7eb7ea1d3fb483e6521d
+size 1066

@@ -1,31 +1,3 @@
-description: Infers cell type-specific expression based on co-expression similarity
-  with known cell type marker genes. can make accurate predictions using publicly
-  available expression data, even when a cell type has not been isolated before.
-home_url: http://bioconductor.org/packages/release/bioc/html/CellMapper.html
-identifiers:
-- bioagents:cellmapper
-- doi:10.1186/s13059-016-1062-5
-keywords:
-- Animals
-- Brain
-- Caco-2 Cells
-- Cell Line
-- Cells, Cultured
-- Computational Biology
-- Endothelial Cells
-- Gene Expression Profiling
-- Genetic Predisposition to Disease
-- Genome-Wide Association Study
-- Hematopoietic Stem Cells
-- Humans
-- Immune System
-- Mice, Inbred C57BL
-- Neurons
-- Polymorphism, Single Nucleotide
-- Reproducibility of Results
-- Spleen
-- Gene expression
-license: Artistic-2.0
-manually_check: true
-name: bioconductor-cellmapper
-total_pulls: 3
+version https://git-lfs.github.com/spec/v1
+oid sha256:ad8d148381def6c332de88ceaaa3a227a2ed41e78a52469d3cd8e0f8172c4d6d
+size 866

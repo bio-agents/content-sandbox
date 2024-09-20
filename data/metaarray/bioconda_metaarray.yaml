@@ -1,14 +1,3 @@
-bioagents_id: metaarray
-description: '1) Data transformation for meta-analysis of microarray Data: Transformation
-  of gene expression data to signed probability scale (MCMC/EM methods) 2) Combined
-  differential expression on raw scale: Weighted Z-score after stabilizing mean-variance
-  relation within platform'
-home: https://bioconductor.org/packages/3.10/bioc/html/metaArray.html
-identifiers:
-- bioagents:metaarray
-- doi:10.1186/1471-2105-8-364
-license: LGPL-2
-license_file: /lib/R/share/licenses/LGPL-2
-name: bioconductor-metaarray
-summary: Integration of Microarray Data for Meta-analysis
-version: 1.64.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:f4fa7f911a505d5eb1d62017e2dcc8b6bd02a54c10da5333d05194da445be444
+size 612

@@ -1,20 +1,3 @@
-description: This package provides an interface to search and download data and annotations
-  from flowrepository (flowrepository.org). it uses the flowrepository programming
-  interface to communicate with a flowrepository server.
-home_url: http://bioconductor.org/packages/release/bioc/html/FlowRepositoryR.html
-identifiers:
-- bioagents:flowrepositoryr
-- doi:10.1002/cyto.a.22106
-keywords:
-- Access to Information
-- Databases as Topic
-- Flow Cytometry
-- Humans
-- Information Dissemination
-- Online Systems
-- Peer Review, Research
-- Cell biology
-license: Artistic-2.0
-manually_check: true
-name: bioconductor-flowrepositoryr
-total_pulls: 3
+version https://git-lfs.github.com/spec/v1
+oid sha256:fde6d243ce166f22e8be3a61f7e6c52aaab1562a8c6d383eb1b87b515e746b9a
+size 640

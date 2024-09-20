@@ -1,15 +1,3 @@
-bioagents_id: rain
-description: 'This package uses non-parametric methods to detect rhythms in time series.
-  It deals with outliers, missing values and is optimized for time series comprising
-  10-100 measurements. As it does not assume expect any distinct waveform it is optimal
-  or detecting oscillating behavior (e.g. circadian or cell cycle) in e.g. genome-
-  or proteome-wide biological measurements such as: micro arrays, proteome mass spectrometry,
-  or metabolome measurements.'
-home: https://bioconductor.org/packages/3.12/bioc/html/rain.html
-identifiers:
-- bioagents:rain
-license: GPL-2
-license_file: /lib/R/share/licenses/GPL-2
-name: bioconductor-rain
-summary: Rhythmicity Analysis Incorporating Non-parametric Methods
-version: 1.24.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:6259d1e3311d01da8facaeaf9b348ba44292a66763494c4dd82ab719a7dc1c3c
+size 748

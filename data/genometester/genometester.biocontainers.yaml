@@ -1,20 +1,3 @@
-description: Analyse whether pcr primers have excessive number of binding sites in
-  large genomes, how many pcr products would be amplified in the reaction and where
-  are they located.
-home_url: http://bioinfo.ut.ee/genometester
-identifiers:
-- bioagents:genometester
-- doi:10.1186/1471-2105-7-172
-keywords:
-- Base Sequence
-- Binding Sites
-- DNA Primers
-- Genome, Human
-- Humans
-- Molecular Sequence Data
-- Polymerase Chain Reaction
-- Sequence analysis
-license: GPL-3.0+
-manually_check: true
-name: genometester
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:0626a3da6e39ecf7c741f44a350fe1a2bbd277f87445bb5936b903f258ebe6bc
+size 527

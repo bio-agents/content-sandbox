@@ -1,12 +1,3 @@
-bioagents_id: bubbletree
-description: CNV analysis in groups of tumor samples.
-home: https://bioconductor.org/packages/3.12/bioc/html/BubbleTree.html
-identifiers:
-- bioagents:bubbletree
-- doi:10.1093/nar/gkv1102
-license: LGPL (>= 3)
-license_file: /lib/R/share/licenses/LGPL-3
-name: bioconductor-bubbletree
-summary: 'BubbleTree: an intuitive visualization to elucidate tumoral aneuploidy and
-  clonality in somatic mosaicism using next generation sequencing data'
-version: 2.20.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:439ab86eb9e2048472ff2d278b8ffd7ce5f066787734a800e8c48d5418598d85
+size 479

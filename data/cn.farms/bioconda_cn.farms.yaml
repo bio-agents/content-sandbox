@@ -1,13 +1,3 @@
-bioagents_id: cn.farms
-description: This package implements the cn.FARMS algorithm for copy number variation
-  (CNV) analysis. cn.FARMS allows to analyze the most common Affymetrix (250K-SNP6.0)
-  array types, supports high-performance computing using snow and ff.
-home: https://bioconductor.org/packages/3.12/bioc/html/cn.farms.html
-identifiers:
-- bioagents:cn.farms
-- doi:10.1093/nar/gkr197
-license: LGPL (>= 2.0)
-license_file: /lib/R/share/licenses/LGPL-3
-name: bioconductor-cn.farms
-summary: cn.FARMS - factor analysis for copy number estimation
-version: 1.38.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:b0c38cb98be35b411ee3922704078be58b83025996f3c391d1462cf72ce43dc7
+size 566

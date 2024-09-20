@@ -1,12 +1,3 @@
-bioagents_id: marray
-description: Class definitions for two-color spotted microarray data. Fuctions for
-  data input, diagnostic plots, normalization and quality checking.
-home: https://bioconductor.org/packages/3.12/bioc/html/marray.html
-identifiers:
-- bioagents:marray
-- doi:10.1007/0-387-21679-0_3
-license: LGPL
-license_file: /lib/R/share/licenses/LGPL-3
-name: bioconductor-marray
-summary: Exploratory analysis for two-color spotted microarray data
-version: 1.68.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:ded50b13c5c4c12cc7983ae944e79274438c443dce8f175a9a702140db9362d7
+size 468

@@ -1,12 +1,3 @@
-bioagents_id: mantelcorr
-description: Computes Mantel cluster correlations from a (p x n) numeric data matrix
-  (e.g. microarray gene-expression data).
-home: https://bioconductor.org/packages/3.12/bioc/html/MantelCorr.html
-identifiers:
-- bioagents:mantelcorr
-- doi:10.1038/nmeth.3252
-license: GPL (>= 2)
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-mantelcorr
-summary: Compute Mantel Cluster Correlations
-version: 1.60.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:2839a57e530d8c5ed09aeb4504c29bd55d84018a58c84c5a835f9bad45ff90c2
+size 437

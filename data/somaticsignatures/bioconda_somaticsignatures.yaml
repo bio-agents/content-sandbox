@@ -1,13 +1,3 @@
-bioagents_id: somaticsignatures
-description: The SomaticSignatures package identifies mutational signatures of single
-  nucleotide variants (SNVs).  It provides a infrastructure related to the methodology
-  described in Nik-Zainal (2012, Cell), with flexibility in the matrix decomposition
-  algorithms.
-home: https://bioconductor.org/packages/3.12/bioc/html/SomaticSignatures.html
-identifiers:
-- bioagents:somaticsignatures
-license: MIT + file LICENSE
-license_file: LICENSE
-name: bioconductor-somaticsignatures
-summary: Somatic Signatures
-version: 2.26.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:3f454990b07fe04fa13c17406d20aab96d77b8ed1ce629ff40a878727dc237b9
+size 556

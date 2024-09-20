@@ -1,14 +1,3 @@
-bioagents_id: derfinder
-description: This package provides functions for annotation-agnostic differential
-  expression analysis of RNA-seq data. Two implementations of the DER Finder approach
-  are included in this package (1) single base-level F-statistics and (2) DER identification
-  at the expressed regions-level. The DER Finder approach can also be used to identify
-  differentially bounded ChIP-seq peaks.
-home: https://bioconductor.org/packages/3.12/bioc/html/derfinder.html
-identifiers:
-- bioagents:derfinder
-license: Artistic-2.0
-name: bioconductor-derfinder
-summary: Annotation-agnostic differential expression analysis of RNA-seq data at base-pair
-  resolution via the DER Finder approach
-version: 1.24.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:e00bec428495afc9bae1a892ab28a32cbbcbb917a7c69f85f25875c736057811
+size 717

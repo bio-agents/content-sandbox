@@ -1,16 +1,3 @@
-bioagents_id: paircompviz
-description: This package provides visualization of the results from the multiple
-  (i.e. pairwise) comparison tests such as pairwise.t.test, pairwise.prop.test or
-  pairwise.wilcox.test. The groups being compared are visualized as nodes in Hasse
-  diagram. Such approach enables very clear and vivid depiction of which group is
-  significantly greater than which others, especially if comparing a large number
-  of groups.
-home: https://bioconductor.org/packages/3.12/bioc/html/paircompviz.html
-identifiers:
-- bioagents:paircompviz
-- doi:10.1038/nmeth.3252
-license: GPL (>=3.0)
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-paircompviz
-summary: Multiple comparison test visualization
-version: 1.28.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:bf4d74d4772db2a440ebf1f638b0ad059b9f62027690b034b334011e425adfa9
+size 742

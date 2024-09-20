@@ -1,13 +1,3 @@
-bioagents_id: santa
-description: This package provides methods for measuring the strength of association
-  between a network and a phenotype. It does this by measuring clustering of the phenotype
-  across the network (Knet). Vertices can also be individually ranked by their strength
-  of association with high-weight vertices (Knode).
-home: https://bioconductor.org/packages/3.10/bioc/html/SANTA.html
-identifiers:
-- bioagents:santa
-license: GPL (>= 2)
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-santa
-summary: Spatial Analysis of Network Associations
-version: 2.24.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:e521e62e0788e04e01ed611f20b2ea466b79673bb45fe6447266582645f4a21e
+size 586

@@ -1,13 +1,3 @@
-description: Differential Evolution (DE) stochastic algorithms for global optimization
-  of problems with and without constraints. The aim is to curate a collection of its
-  state-of-the-art variants that (1) do not sacrifice simplicity of design, (2) are
-  essentially tuning-free, and (3) can be efficiently implemented directly in the
-  R language. Currently, it only provides an implementation of the 'jDE' algorithm
-home_url: None
-identifiers:
-- doi:10.1109/TEVC.2006.872133
-keywords: []
-license: GPL (>= 2)
-manually_check: true
-name: r-deoptimr
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:8f7ee0b5057eb7d1cd1481fdfeb7e9b91ba601f65681af53088c8220dcc07062
+size 566

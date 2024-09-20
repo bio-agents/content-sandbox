@@ -1,28 +1,3 @@
-description: Utilities to process, organize and explore protein structure, sequence
-  and dynamics data. Features include the ability to read and write structure, sequence
-  and dynamic trajectory data, perform sequence and structure database searches, data
-  summaries, atom selection, alignment, superposition, rigid core identification,
-  clustering, torsion analysis, distance matrix analysis, structure and sequence conservation
-  analysis, normal mode analysis, principal component analysis of heterogeneous structure
-  data, and correlation network analysis from normal mode and molecular dynamics data.
-  In addition, various utility functions are provided to enable the statistical and
-  graphical power of the R environment to work with biological sequence and structural
-  data. Please refer to the URLs below for more information.
-home_url: None
-identifiers:
-- doi:10.1093/bioinformatics/btl461
-keywords:
-- Amino Acid Sequence
-- Computer Simulation
-- Internet
-- Models, Chemical
-- Models, Molecular
-- Molecular Sequence Data
-- Protein Conformation
-- Proteins
-- Sequence Analysis, Protein
-- User-Computer Interface
-license: GPL (>= 2)
-manually_check: true
-name: r-bio3d
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:a635ee5f6cd448b9e65c19648858c134ad6977b6bb15b9514d5717ca090a84f6
+size 1196

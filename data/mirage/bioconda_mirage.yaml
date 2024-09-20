@@ -1,11 +1,3 @@
-bioagents_id: mirage
-description: The package contains functions for inferece of target gene regulation
-  by miRNA, based on only target gene expression profile.
-home: https://bioconductor.org/packages/3.12/bioc/html/MiRaGE.html
-identifiers:
-- bioagents:mirage
-license: GPL
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-mirage
-summary: MiRNA Ranking by Gene Expression
-version: 1.32.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:265f56434ab0b6a237b2350a1db5093df663ca4e5f9b3a6fcc959ace1b016a76
+size 400

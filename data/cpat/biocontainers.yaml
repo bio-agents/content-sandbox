@@ -1,33 +1,3 @@
-softwares:
-  cpat:
-    labels:
-      about.documentation: http://rna-cpat.sourceforge.net/
-      about.home: http://rna-cpat.sourceforge.net/
-      about.license: SPDX:GPL-2.0+
-      about.license_file: http://rna-cpat.sourceforge.net/#license
-      about.summary: Coding Potential Assessment Agent
-      about.tags: field::biology, field::biology:bioinformatics, rna
-      base_image: biocontainers:v1.0.0_cv4
-      extra.binaries: cpat.py
-      extra.identifiers.bioagents: cpat
-      software: cpat
-      software.version: 1.2.4
-      version: '2'
-    software: cpat
-    versions:
-    - labels:
-        about.documentation: http://rna-cpat.sourceforge.net/
-        about.home: http://rna-cpat.sourceforge.net/
-        about.license: SPDX:GPL-2.0+
-        about.license_file: http://rna-cpat.sourceforge.net/#license
-        about.summary: Coding Potential Assessment Agent
-        about.tags: field::biology, field::biology:bioinformatics, rna
-        base_image: biocontainers:v1.0.0_cv4
-        extra.binaries: cpat.py
-        extra.identifiers.bioagents: cpat
-        software: cpat
-        software.version: 1.2.4
-        version: '2'
-      type: Container file
-      url: biocontainers/cpat:1.2.4-2
-      version: 1.2.4-2
+version https://git-lfs.github.com/spec/v1
+oid sha256:6443dd24d11ce69c708b8e67d7cc3f07bcc581c000d7d119eb025b463ac2c402
+size 1230

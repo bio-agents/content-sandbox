@@ -1,19 +1,3 @@
-bioagents_id: kmc
-description: 'K-mer Counter is a utility designed for counting k-mers (sequences
-
-  of consecutive k symbols) in a set of reads from genome sequencing
-
-  projects.
-
-  '
-home: http://sun.aei.polsl.pl/kmc/
-identifiers:
-- bioagents:KMC
-- doi:10.1093/bioinformatics/btx304
-license: GPL3
-license_family: GPL3
-license_file: /gpl-3.0.txt
-name: kmc
-summary: Agents for efficient k-mer counting and filtering of reads based on k-mer
-  content
-version: 3.1.2rc1
+version https://git-lfs.github.com/spec/v1
+oid sha256:808ed1617b27770734f7e8fc9401e347dba1b633995576d4d18ae5ea66d31017
+size 470

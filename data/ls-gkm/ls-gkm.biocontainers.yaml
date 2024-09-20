@@ -1,18 +1,3 @@
-description: gkm-SVM, a sequence-based method for predicting regulatory DNA elements,
-  is a useful agent for studying gene regulatory mechanisms. In continuous efforts
-  to improve the method, new software, LS-GKM, is introduced. It offers much better
-  scalability and provides further advanced gapped k-mer based kernel functions. As
-  a result, LS-GKM achieves considerably higher accuracy than the original gkm-SVM.
-home_url: https://github.com/Dongwon-Lee/lsgkm
-identifiers:
-- doi:10.1093/bioinformatics/btw142
-keywords:
-- Chromatin Immunoprecipitation
-- DNA
-- Gene Regulatory Networks
-- Humans
-- Support Vector Machine
-license: GPL-3.0
-manually_check: true
-name: ls-gkm
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:5a6c32e2c8ad9a37637d484c10aa3e1718b55a3b6609a623abf87df2beb44e9a
+size 692

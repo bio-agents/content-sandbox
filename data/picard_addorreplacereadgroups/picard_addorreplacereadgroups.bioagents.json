@@ -1,13 +1,3 @@
-{
-    "additionDate": "2021-04-21T22:59:58Z",
-    "bioagentsCURIE": "bioagents:picard_addorreplacereadgroups",
-    "bioagentsID": "picard_addorreplacereadgroups",
-    "description": "Assigns all the reads in a file to a single new read-group. This agent accepts INPUT BAM and SAM files or URLs from the Global Alliance for Genomics and Health (GA4GH).",
-    "editPermission": {
-        "type": "private"
-    },
-    "homepage": "https://gatk.broadinstitute.org/hc/en-us/articles/360037226472-AddOrReplaceReadGroups-Picard-",
-    "lastUpdate": "2021-04-21T22:59:58Z",
-    "name": "picard_AddOrReplaceReadGroups",
-    "owner": "leipzig"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e6455413a8e18c7a541614679431d32abfa81f78b418fa959a22370632d82841
+size 636

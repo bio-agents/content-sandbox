@@ -1,12 +1,3 @@
-description: A cross-platform r framework that facilitates processing of any number
-  of affymetrix microarray samples regardless of computer system.  the only parameter
-  that limits the number of chips that can be processed is the amount of available
-  disk space.  the aroma framework has successfully been used in studies to process
-  tens of thousands of arrays.  this package has actively been used since 2006.
-home_url: https://github.com/HenrikBengtsson/aroma.affymetrix
-identifiers: []
-keywords: []
-license: LGPL (>= 2.1)
-manually_check: true
-name: r-aroma.affymetrix
-total_pulls: 3
+version https://git-lfs.github.com/spec/v1
+oid sha256:a646bb92ee93e30467ae567f884ba81931ae696ebdfe335344c50382beb8ac3f
+size 592

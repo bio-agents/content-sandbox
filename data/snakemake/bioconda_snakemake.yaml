@@ -1,14 +1,3 @@
-bioagents_id: snakemake
-description: "Snakemake is a workflow management system that aims to reduce the complexity\
-  \ of creating \nworkflows by providing a fast and comfortable execution environment,\
-  \ together with a clean \nand modern specification language in python style. Snakemake\
-  \ workflows are essentially Python \nscripts extended by declarative code to define\
-  \ rules. Rules describe how to create output \nfiles from input files.\n"
-home: https://snakemake.github.io
-identifiers:
-- doi:10.1093/bioinformatics/bts480
-- bioagents:Snakemake
-license: MIT
-name: snakemake
-summary: A popular workflow management system aiming at full in-silico reproducibility.
-version: 5.30.1
+version https://git-lfs.github.com/spec/v1
+oid sha256:f30f637cbe5f94da483cf2389dd7a04913bbba3e137558f2246dcb718f792562
+size 695

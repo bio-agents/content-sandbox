@@ -1,21 +1,3 @@
-description: Gui program that allows users to interact with the assembly graphs made
-  by de novo assemblers such as velvet, spades, megahit and others. it visualises
-  assembly graphs, with connections, using graph layout algorithms.
-home_url: https://github.com/rrwick/Bandage
-identifiers:
-- doi:10.1093/bioinformatics/btv383
-- bioagents:bandage
-keywords:
-- Chromosome Mapping
-- Computational Biology
-- Computer Graphics
-- Genome, Bacterial
-- Genome, Human
-- Genomics
-- Humans
-- Sequence Analysis, DNA
-- Sequence assembly
-license: GPL-3.0
-manually_check: true
-name: bandage
-total_pulls: 9835
+version https://git-lfs.github.com/spec/v1
+oid sha256:5a38277f53f0cc008df22112aed37170205b1450b6439989e18d19bc5576684c
+size 594

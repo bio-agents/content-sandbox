@@ -1,29 +1,3 @@
-softwares:
-  bioconductor-affy:
-    labels:
-      about.copyright: ' 2006-2016 Rafael A. Irizarry <rafa@jhu.edu>,'
-      about.home: https://bioconductor.org/packages/affy/
-      about.license: Artistic-2.0
-      about.license_file: /usr/share/doc/bioconductor-affy/copyright
-      about.summary: BioConductor methods for Affymetrix Oligonucleotide Arrays
-      about.tags: ''
-      container: bioconductor-affy
-      software: bioconductor-affy
-      software.version: 1.52.0-1-deb
-      version: '1'
-    software: bioconductor-affy
-    versions:
-    - labels:
-        about.copyright: ' 2006-2016 Rafael A. Irizarry <rafa@jhu.edu>,'
-        about.home: https://bioconductor.org/packages/affy/
-        about.license: Artistic-2.0
-        about.license_file: /usr/share/doc/bioconductor-affy/copyright
-        about.summary: BioConductor methods for Affymetrix Oligonucleotide Arrays
-        about.tags: ''
-        container: bioconductor-affy
-        software: bioconductor-affy
-        software.version: 1.52.0-1-deb
-        version: '1'
-      type: Container file
-      url: biocontainers/bioconductor-affy:1.52.0-1-deb-1
-      version: 1.52.0-1-deb-1
+version https://git-lfs.github.com/spec/v1
+oid sha256:fb36a1f90bdc6145c16232e1d921d15a13b4c8e66c940fa81e9a23974e0b6806
+size 1155

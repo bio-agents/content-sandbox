@@ -1,29 +1,3 @@
-softwares:
-  bioconductor-altcdfenvs:
-    labels:
-      about.copyright: ' 2006-2016 Laurent Gautier <lgautier@gmail.com>'
-      about.home: https://bioconductor.org/packages/altcdfenvs/
-      about.license: Artistic-2.0
-      about.license_file: /usr/share/doc/bioconductor-altcdfenvs/copyright
-      about.summary: BioConductor alternative CDF environments
-      about.tags: ''
-      container: bioconductor-altcdfenvs
-      software: bioconductor-altcdfenvs
-      software.version: 1-2.36.0-1-deb
-      version: '1'
-    software: bioconductor-altcdfenvs
-    versions:
-    - labels:
-        about.copyright: ' 2006-2016 Laurent Gautier <lgautier@gmail.com>'
-        about.home: https://bioconductor.org/packages/altcdfenvs/
-        about.license: Artistic-2.0
-        about.license_file: /usr/share/doc/bioconductor-altcdfenvs/copyright
-        about.summary: BioConductor alternative CDF environments
-        about.tags: ''
-        container: bioconductor-altcdfenvs
-        software: bioconductor-altcdfenvs
-        software.version: 1-2.36.0-1-deb
-        version: '1'
-      type: Container file
-      url: biocontainers/bioconductor-altcdfenvs:1-2.36.0-1-deb-1
-      version: 1-2.36.0-1-deb-1
+version https://git-lfs.github.com/spec/v1
+oid sha256:6718630758c4a63deaca20c8bfc95216a351653b4248c158495000b570d11b28
+size 1199

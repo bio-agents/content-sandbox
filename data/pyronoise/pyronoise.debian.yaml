@@ -1,32 +1,3 @@
-description: 'AmpliconNoise is a package of applications to clean up high-throughput
-  sequence data. It consists of three main parts: . Pyronoise - does flowgram-based
-  clustering to spot misreads SeqNoise - removes PCR point mutations Perseus - removes
-  PCR chimeras without the need for a set of reference sequences . Previously there
-  was a standalone "Pyronoise" by the same authors and this package includes an updated
-  version. There is also a "Denoiser" in Qiime which is related but distinct.'
-edam:
-  scopes:
-  - function:
-    - Sequencing quality control
-    input:
-    - data: Sequence trace
-      formats:
-      - SFF
-    name: summary
-    output:
-    - data: Sequence
-      formats:
-      - FASTA
-  topics:
-  - Sequencing
-  version: unknown
-homepage: https://github.com/lanzen/ampliconnoise
-identifiers:
-  bioagents: pyronoise
-  debian: ampliconnoise
-  doi:
-  - 10.1186/1471-2105-12-38
-  omicagents: OMICS_01112
-  scicrunch: SCR_007814
-summary: removal of noise from 454 sequenced PCR amplicons
-version: '1.29'
+version https://git-lfs.github.com/spec/v1
+oid sha256:6293f4e7269bfb0a3e3d6bc466d95f8cc06147af9d7a32fad5802a4ea0e736f7
+size 1029

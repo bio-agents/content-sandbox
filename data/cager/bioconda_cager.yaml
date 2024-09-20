@@ -1,13 +1,3 @@
-bioagents_id: cager
-description: Preprocessing of CAGE sequencing data, identification and normalization
-  of transcription start sites and downstream analysis of transcription start sites
-  clusters (promoters).
-home: https://bioconductor.org/packages/3.12/bioc/html/CAGEr.html
-identifiers:
-- bioagents:cager
-license: GPL-3
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-cager
-summary: Analysis of CAGE (Cap Analysis of Gene Expression) sequencing data for precise
-  mapping of transcription start sites and promoterome mining
-version: 1.32.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:d7043cbad02a0081c57ed434d386deccb7684a1133103b4be250619ecc413072
+size 558

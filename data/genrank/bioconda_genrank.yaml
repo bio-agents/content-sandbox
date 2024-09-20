@@ -1,12 +1,3 @@
-bioagents_id: genrank
-description: Methods for ranking genes based on convergent evidence obtained from
-  multiple independent evidence layers. This package adapts three methods that are
-  popular for meta-analysis.
-home: https://bioconductor.org/packages/3.10/bioc/html/GenRank.html
-identifiers:
-- bioagents:genrank
-- doi:10.12688/f1000research.11223.1
-license: Artistic-2.0
-name: bioconductor-genrank
-summary: Candidate gene prioritization based on convergent evidence
-version: 1.14.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:3aff034d1ff52905386f5f024ab732551b2a845626b2fb9534072c5efe45f35d
+size 487

@@ -1,11 +1,3 @@
-bioagents_id: bac
-description: This package uses a Bayesian hierarchical model to detect enriched regions
-  from ChIP-chip experiments
-home: https://bioconductor.org/packages/3.12/bioc/html/BAC.html
-identifiers:
-- bioagents:bac
-- doi:10.1111/j.1541-0420.2007.00899.x
-license: Artistic-2.0
-name: bioconductor-bac
-summary: Bayesian Analysis of Chip-chip experiment
-version: 1.50.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:7d7e6e485e16efdbc008cbba9ba1149f3d76d879bc21808cb95ec657153c1ab9
+size 379

@@ -1,14 +1,3 @@
-bioagents_id: rnainteract
-description: RNAinteract estimates genetic interactions from multi-dimensional read-outs
-  like features extracted from images. The screen is assumed to be performed in multi-well
-  plates or similar designs. Starting from a list of features (e.g. cell number, area,
-  fluorescence intensity) per well, genetic interactions are estimated. The packages
-  provides functions for reporting interacting gene pairs, plotting heatmaps and double
-  RNAi plots. An HTML report can be written for quality control and analysis.
-home: https://bioconductor.org/packages/3.10/bioc/html/RNAinteract.html
-identifiers:
-- bioagents:rnainteract
-license: Artistic-2.0
-name: bioconductor-rnainteract
-summary: Estimate Pairwise Interactions from multidimensional features
-version: 1.34.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:1a5f2c83930d5e2b723817e9e794a8229c0d9ecba571121c04ae2a0c57233659
+size 793

@@ -1,22 +1,3 @@
-description: GenomeThreader is a software agent to compute gene structure predictions.
-  The gene structure predictions are calculated using a similarity-based approach
-  where additional cDNA/EST and/or protein sequences are used to predict gene structures
-  via spliced alignments.
-home_url: http://genomethreader.org/
-identifiers:
-- bioagents:genomethreader
-- doi:10.1016/j.infsof.2005.09.005
-keywords:
-- Gene structure
-- Structure prediction
-- Genomics
-- Metagenomics
-- RNA-Seq
-- Genetics
-- Transcriptome
-- Protein Sequences
-- Ortholog
-license: ISC
-manually_check: true
-name: genomethreader
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:d1c9c0f811007f0d8c4c6e526d01043821a5ea353927195c4638aa318d7d344c
+size 610

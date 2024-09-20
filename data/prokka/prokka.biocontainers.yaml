@@ -1,20 +1,3 @@
-description: Software agent to annotate bacterial, archaeal and viral genomes quickly
-  and produce standards-compliant output files.
-home_url: https://github.com/tseemann/prokka
-identifiers:
-- bioagents:prokka
-- doi:10.1093/bioinformatics/btu153
-keywords:
-- Genome, Bacterial
-- Genomics
-- Molecular Sequence Annotation
-- Sequence Analysis, DNA
-- Model organisms
-- Virology
-- Proteomics
-- Peptides
-- Metagenome
-license: GPL-2.0
-manually_check: true
-name: prokka
-total_pulls: 4236
+version https://git-lfs.github.com/spec/v1
+oid sha256:6d666716594f444cb2927aeb0625add81d7d8a5fd12075014fec73967c520475
+size 480

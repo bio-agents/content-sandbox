@@ -1,13 +1,3 @@
-bioagents_id: starank
-description: Detecting all relevant variables from a data set is challenging, especially
-  when only few samples are available and data is noisy. Stability ranking provides
-  improved variable rankings of increased robustness using resampling or subsampling.
-home: https://bioconductor.org/packages/3.10/bioc/html/staRank.html
-identifiers:
-- bioagents:starank
-- doi:10.1093/bioinformatics/bts192
-license: GPL
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-starank
-summary: Stability Ranking
-version: 1.28.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:9ae84bdad86ede94648658e2be7f6face77a667afb769e39f2eb9238c036442b
+size 543

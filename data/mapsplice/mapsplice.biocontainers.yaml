@@ -1,20 +1,3 @@
-description: MapSplice is a software for mapping RNA-seq data to reference genome
-  for splice junction discovery that depends only on reference genome, and not on
-  any further annotations.
-home_url: http://www.netlab.uky.edu/p/bioinfo/MapSplice2
-identifiers:
-- bioagents:mapsplice
-- doi:10.1093/nar/gkq622
-keywords:
-- Alternative Splicing
-- Breast Neoplasms
-- Female
-- Gene Expression Profiling
-- Humans
-- RNA Splice Sites
-- Sequence Analysis, RNA
-- RNA-Seq
-license: Custom
-manually_check: true
-name: mapsplice
-total_pulls: 1
+version https://git-lfs.github.com/spec/v1
+oid sha256:ef4218619156a9b32bc9482cc0db7517e9e4af07c0fcd38bb8bf342a1d6d175e
+size 528

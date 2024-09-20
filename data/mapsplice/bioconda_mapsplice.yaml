@@ -1,11 +1,3 @@
-bioagents_id: mapsplice
-home: http://www.netlab.uky.edu/p/bioinfo/MapSplice2
-identifiers:
-- bioagents:mapsplice
-license: Custom
-license_file: Copyright.txt
-name: mapsplice
-summary: MapSplice is a software for mapping RNA-seq data to reference genome for
-  splice junction discovery that depends only on reference genome, and not on any
-  further annotations.
-version: 2.2.1
+version https://git-lfs.github.com/spec/v1
+oid sha256:3f76ffc708c9015e40bc7f0518d20349ed145a90dba7f3dbd51960ea57532c69
+size 374

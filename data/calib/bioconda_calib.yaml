@@ -1,14 +1,3 @@
-bioagents_id: calib
-description: This package contains functions for normalizing spotted microarray data,
-  based on a physically motivated calibration model. The model parameters and error
-  distributions are estimated from external control spikes.
-home: https://bioconductor.org/packages/3.10/bioc/html/CALIB.html
-identifiers:
-- bioagents:calib
-- doi:10.1093/bioinformatics/btm159
-license: LGPL
-license_file: /lib/R/share/licenses/LGPL-3
-name: bioconductor-calib
-summary: Calibration model for estimating absolute expression levels from microarray
-  data
-version: 1.52.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:804a213d23947cfc424259943601c7180eeaf30ea0d3dbda79920d6f8e34de79
+size 573

@@ -1,13 +1,3 @@
-bioagents_id: genomictuples
-description: GenomicTuples defines general purpose containers for storing genomic
-  tuples. It aims to provide functionality for tuples of genomic co-ordinates that
-  are analogous to those available for genomic ranges in the GenomicRanges Bioconductor
-  package.
-home: https://bioconductor.org/packages/3.12/bioc/html/GenomicTuples.html
-identifiers:
-- bioagents:genomictuples
-- doi:10.21105/joss.00020
-license: Artistic-2.0
-name: bioconductor-genomictuples
-summary: Representation and Manipulation of Genomic Tuples
-version: 1.24.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:34f9d1fe22e5b0a1f0232702d6c3784193062d68596ecbccc8c776d69267a6f7
+size 561

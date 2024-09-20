@@ -1,22 +1,3 @@
-description: Filter bed file, restricting to only ones that match chrom/start/ends
-  specified in restrict.bed file.
-home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
-identifiers:
-- doi:10.1093/bioinformatics/btq351
-- doi:10.1101/gr.229102
-- bioagents:UCSC_Genome_Browser_Utilities
-keywords:
-- California
-- Database Management Systems
-- Databases, Genetic
-- Gene Expression
-- Genes
-- Genome, Human
-- Humans
-- RNA, Messenger
-- Sequence Homology, Nucleic Acid
-- Universities
-license: Custom License
-manually_check: true
-name: ucsc-bedrestricttopositions
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:38f3fa41c90a4ec2c0c69232a1c23f0954b66165c74e8a8d3f8cdae08cbc7886
+size 569

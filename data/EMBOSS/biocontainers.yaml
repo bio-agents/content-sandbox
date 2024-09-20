@@ -1,31 +1,3 @@
-softwares:
-  emboss:
-    labels:
-      about.documentation: http://emboss.sourceforge.net/docs/
-      about.home: http://emboss.sourceforge.net/what/
-      about.license: SPDX:GPL-3.0
-      about.license_file: http://emboss.sourceforge.net/licence/
-      about.summary: software analysis package
-      about.tags: Proteomics
-      base_image: biocontainers:v1.0.0_cv4
-      extra.identifiers.bioagents: EMBOSS
-      software: emboss
-      software.version: 6.5.7
-      version: '2'
-    software: emboss
-    versions:
-    - labels:
-        about.documentation: http://emboss.sourceforge.net/docs/
-        about.home: http://emboss.sourceforge.net/what/
-        about.license: SPDX:GPL-3.0
-        about.license_file: http://emboss.sourceforge.net/licence/
-        about.summary: software analysis package
-        about.tags: Proteomics
-        base_image: biocontainers:v1.0.0_cv4
-        extra.identifiers.bioagents: EMBOSS
-        software: emboss
-        software.version: 6.5.7
-        version: '2'
-      type: Container file
-      url: biocontainers/emboss:6.5.7-2
-      version: 6.5.7-2
+version https://git-lfs.github.com/spec/v1
+oid sha256:b5c38f9d53c6ad8c3e855a1ae678368b86ee309fc513a0bfdba188b20c4d92db
+size 1092

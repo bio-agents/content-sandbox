@@ -1,24 +1,3 @@
-description: Phast (phage search agent) is a web server designed to rapidly and accurately
-  identify, annotate and graphically display prophage sequences within bacterial genomes
-  or plasmids. phast also generates downloadable, high quality, interactive graphics
-  that display all identified prophage components in both circular and linear genomic
-  views.
-home_url: http://phast.wishartlab.com/
-identifiers:
-- bioagents:phast
-- doi:10.1093/nar/gkr485
-keywords:
-- Databases, Genetic
-- Genome, Bacterial
-- Internet
-- Molecular Sequence Annotation
-- Prophages
-- Sequence Analysis, DNA
-- Protein interaction experiment
-- Sequencing
-- Molecular interactions, pathways and networks
-- Genomics
-license: BSD-3-clause
-manually_check: true
-name: phast
-total_pulls: 6303
+version https://git-lfs.github.com/spec/v1
+oid sha256:853575053731a978de8bbda270e2eda5fa55f9bb3193f42227be50ac45ac47ec
+size 764

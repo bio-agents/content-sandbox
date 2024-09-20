@@ -1,27 +1,3 @@
-softwares:
-  hyphy-mpi:
-    labels:
-      about.home: http://hyphy.org/
-      about.license_file: /usr/share/doc/hyphy-mpi/copyright
-      about.summary: Hypothesis testing using Phylogenies (MPI version)
-      about.tags: ''
-      container: hyphy-mpi
-      extra.binaries: /usr/bin/hyphympi
-      software: hyphy-mpi
-      software.version: 2.2.7dfsg-1b2-deb
-      version: '1'
-    software: hyphy-mpi
-    versions:
-    - labels:
-        about.home: http://hyphy.org/
-        about.license_file: /usr/share/doc/hyphy-mpi/copyright
-        about.summary: Hypothesis testing using Phylogenies (MPI version)
-        about.tags: ''
-        container: hyphy-mpi
-        extra.binaries: /usr/bin/hyphympi
-        software: hyphy-mpi
-        software.version: 2.2.7dfsg-1b2-deb
-        version: '1'
-      type: Container file
-      url: biocontainers/hyphy-mpi:2.2.7dfsg-1b2-deb-1
-      version: 2.2.7dfsg-1b2-deb-1
+version https://git-lfs.github.com/spec/v1
+oid sha256:e897a9e53093522465828d307e8a246f16150522fdfd3423dacfc1f7b7a07fcb
+size 911

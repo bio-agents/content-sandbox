@@ -1,14 +1,3 @@
-description: Performs gene set analysis based on GSZ scoring function and asymptotic
-  p-value. It is different from GSZ in that it implements asymptotic p-values instead
-  of empirical p-values. Asymptotic p-values are calculated by fitting suitable distribution
-  model to the null distribution. Unlike empirical p-values, resolution of asymptotic
-  p-values are independent of the number of permutations and hence requires considerably
-  fewer permutations. In addition, this package allows gene set analysis with seven
-  other popular gene set analysis methods.
-home_url: https://CRAN.R-project.org/package=mGSZ
-identifiers: []
-keywords: []
-license: GPL (>= 2)
-manually_check: true
-name: r-mgsz
-total_pulls: 5
+version https://git-lfs.github.com/spec/v1
+oid sha256:5e6f0da8f50754585b5f08c1f4d3cbbb3475fb4394d7c481187f2fdcdc888ab9
+size 714

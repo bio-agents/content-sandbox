@@ -1,14 +1,3 @@
-description: This BioConductor package provides routines for parsing Affymetrix data
-  files based upon file format information. Primary focus is on accessing the CEL
-  and CDF file formats.
-edam:
-  topics: null
-  version: unknown
-homepage: https://bioconductor.org/packages/affyio/
-identifiers:
-  bioconda: bioconductor-affyio
-  bioagents: affyio
-  debian: r-bioc-affyio
-  omicagents: OMICS_29381
-summary: BioConductor agents for parsing Affymetrix data files
-version: 1.60.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:5427a9b4f6bdb15f7e5bd68eb2c01b7b57093d7ed2777d06f7b703560d11d431
+size 477

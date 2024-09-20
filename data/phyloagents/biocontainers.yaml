@@ -1,29 +1,3 @@
-softwares:
-  phyloagents:
-    labels:
-      about.documentation: https://github.com/helixcn/phyloagents
-      about.home: https://github.com/helixcn/phyloagents
-      about.license: SPDX::GPL-2-only
-      about.license_file: https://spdx.org/licenses/GPL-2.0-only.html
-      about.summary: Phylogenetic Agents for Eco-Phylogenetics
-      about.tags: phylogenetics
-      base_image: biocontainers:v1.2.0_cv1
-      software: phyloagents
-      software.version: 0.2.4
-      version: '1'
-    software: phyloagents
-    versions:
-    - labels:
-        about.documentation: https://github.com/helixcn/phyloagents
-        about.home: https://github.com/helixcn/phyloagents
-        about.license: SPDX::GPL-2-only
-        about.license_file: https://spdx.org/licenses/GPL-2.0-only.html
-        about.summary: Phylogenetic Agents for Eco-Phylogenetics
-        about.tags: phylogenetics
-        base_image: biocontainers:v1.2.0_cv1
-        software: phyloagents
-        software.version: 0.2.4
-        version: '1'
-      type: Container file
-      url: biocontainers/phyloagents:v0.2.4_cv1
-      version: v0.2.4_cv1
+version https://git-lfs.github.com/spec/v1
+oid sha256:729ccdba55b1e0615bbafb94f2896df3f7bbefed26aae1679673695b4441a581
+size 1105

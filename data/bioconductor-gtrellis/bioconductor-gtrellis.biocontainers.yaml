@@ -1,22 +1,3 @@
-description: Visualize genomic data conditioned by genomic categories (e.g. chromosomes).
-  for each genomic category, multiple dimensional data which are represented as tracks
-  describe different features from different aspects. this package provides high flexibility
-  to arrange genomic categories and to add self-defined graphics in the plot.
-home_url: http://bioconductor.org/packages/release/bioc/html/gtrellis.html
-identifiers:
-- bioagents:gtrellis
-- doi:10.1186/s12859-016-1051-4
-keywords:
-- Computer Graphics
-- Databases, Genetic
-- Genome, Human
-- Genomics
-- Humans
-- Models, Theoretical
-- Sequence Alignment
-- Omics
-- Sequencing
-license: GPL-2.0
-manually_check: true
-name: bioconductor-gtrellis
-total_pulls: 3
+version https://git-lfs.github.com/spec/v1
+oid sha256:f20e33e35b883cd7b7f9f7fc863cc58dc22ba36db58f2db24a1ca5c9765fa6cf
+size 721

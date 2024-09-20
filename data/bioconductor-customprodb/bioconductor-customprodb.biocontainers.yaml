@@ -1,25 +1,3 @@
-description: Generate customized protein database from ngs data, with a focus on rna-seq
-  data, for proteomics search
-home_url: https://bioconductor.org/packages/3.11/bioc/html/customProDB.html
-identifiers:
-- doi:10.18129/b9.bioc.customprodb
-- bioagents:customprodb
-- doi:10.1093/bioinformatics/btt543
-keywords:
-- Biomarkers, Tumor
-- Colonic Neoplasms
-- Databases, Protein
-- Genomics
-- High-Throughput Nucleotide Sequencing
-- Humans
-- Peptide Fragments
-- Proteins
-- Proteomics
-- Data integration and warehousing
-- RNA-Seq
-- Sequencing
-- Mass spectrometry
-license: Artistic-2.0
-manually_check: true
-name: bioconductor-customprodb
-total_pulls: 3
+version https://git-lfs.github.com/spec/v1
+oid sha256:4021446e90fa95d590b90b720b34e98ad1fefb6c60084c54e93e5a1c6b78855f
+size 645

@@ -1,16 +1,3 @@
-bioagents_id: path2ppi
-description: Package to predict protein-protein interaction (PPI) networks in target
-  organisms for which only a view information about PPIs is available. Path2PPI predicts
-  PPI networks based on sets of proteins which can belong to a certain pathway from
-  well-established model organisms. It helps to combine and transfer information of
-  a certain pathway or biological process from several reference organisms to one
-  target organism. Path2PPI only depends on the sequence similarity of the involved
-  proteins.
-home: https://bioconductor.org/packages/3.12/bioc/html/Path2PPI.html
-identifiers:
-- bioagents:path2ppi
-license: GPL (>= 2)
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-path2ppi
-summary: Prediction of pathway-related protein-protein interaction networks
-version: 1.20.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:3f129a19e6d1a800bf49979b6de5ff3fae339d9d5c636fdb47cac601a8aa1afb
+size 828

@@ -1,18 +1,3 @@
-description: The open-source software which is a widely used application for pcr primer
-  design that includes more accurate thermodynamic models and the ability to use lowercase
-  masked template sequences.
-home_url: https://github.com/primer3-org
-identifiers:
-- bioagents:primer3
-- doi:10.1093/nar/gks596
-keywords:
-- DNA Primers
-- Internet
-- Polymerase Chain Reaction
-- Thermodynamics
-- User-Computer Interface
-- Probes and primers
-license: GPL-2+
-manually_check: true
-name: primer3
-total_pulls: 4847
+version https://git-lfs.github.com/spec/v1
+oid sha256:b793ebc95c1b566fde19fb50344d71bb0c0e76460079fa4b703e42464c6c61a6
+size 503

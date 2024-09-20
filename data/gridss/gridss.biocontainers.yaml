@@ -1,14 +1,3 @@
-description: A high-speed next-gen sequencing structural variation caller. it calls
-  variants based on alignment-guided positional de bruijn graph breakpoint assembly,
-  split read, and read pair evidence.
-home_url: https://github.com/PapenfussLab/gridss
-identifiers:
-- bioagents:gridss
-- doi:10.1101/110387
-keywords:
-- Structural genomics
-- DNA structural variation
-license: GPL-3.0
-manually_check: true
-name: gridss
-total_pulls: 22
+version https://git-lfs.github.com/spec/v1
+oid sha256:994a0cd148e9b4f4b456b0a645911426efd36e4692be9ec58d538e990a31afbe
+size 435

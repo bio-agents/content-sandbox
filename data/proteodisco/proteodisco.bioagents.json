@@ -1,30 +1,3 @@
-{
-    "additionDate": "2021-10-22T16:07:04.778091Z",
-    "bioagentsCURIE": "bioagents:proteodisco",
-    "bioagentsID": "proteodisco",
-    "description": "An R-based open-source software termed ProteoDisco that allows for flexible incorporation of genomic variants, fusion-genes and (aberrant) transcriptomic variants from standardized formats into protein variant sequences. ProteoDisco allows for a flexible step-by-step workflow allowing for in-depth customization to suit a myriad of research approaches in the field of proteogenomics, on all organisms for which a reference genome and transcript annotations are available.",
-    "editPermission": {
-        "type": "private"
-    },
-    "homepage": "https://github.com/ErasmusMC-CCBC/ProteoDisco/",
-    "language": [
-        "R"
-    ],
-    "lastUpdate": "2021-10-22T16:10:53.752949Z",
-    "name": "ProteoDisco",
-    "owner": "harmen",
-    "publication": [
-        {
-            "doi": "10.1101/2021.09.17.460755"
-        }
-    ],
-    "agentType": [
-        "Bioinformatics portal"
-    ],
-    "topic": [
-        {
-            "term": "Omics",
-            "uri": "http://edamontology.org/topic_3391"
-        }
-    ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:966d538c5ddd1f99e63da3317e75a9fd4be3bb5f7c04d173f8cf2932e6f089ed
+size 1169

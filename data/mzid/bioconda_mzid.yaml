@@ -1,15 +1,3 @@
-bioagents_id: mzid
-description: A parser for mzIdentML files implemented using the XML package. The parser
-  tries to be general and able to handle all types of mzIdentML files with the drawback
-  of having less 'pretty' output than a vendor specific parser. Please contact the
-  maintainer with any problems and supply an mzIdentML file so the problems can be
-  fixed quickly.
-home: https://bioconductor.org/packages/3.12/bioc/html/mzID.html
-identifiers:
-- bioagents:mzid
-- doi:10.1038/nmeth.3252
-license: GPL (>= 2)
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-mzid
-summary: An mzIdentML parser for R
-version: 1.28.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:316c478671f4290475550d54c8108e70e3da529ff9e69c1c466b16088ff5d6cf
+size 635

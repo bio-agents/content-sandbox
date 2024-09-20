@@ -1,12 +1,3 @@
-bioagents_id: cnvgsa
-description: This package is intended to facilitate gene-set association with rare
-  CNVs in case-control studies.
-home: https://bioconductor.org/packages/3.12/bioc/html/cnvGSA.html
-identifiers:
-- bioagents:cnvgsa
-- doi:10.1038/nmeth.3252
-license: LGPL
-license_file: /lib/R/share/licenses/LGPL-3
-name: bioconductor-cnvgsa
-summary: Gene Set Analysis of (Rare) Copy Number Variants
-version: 1.34.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:08b7ab68197237ce2533a10ae41cb4f09a5af73e9a6d30c5ab28872124477ae9
+size 417

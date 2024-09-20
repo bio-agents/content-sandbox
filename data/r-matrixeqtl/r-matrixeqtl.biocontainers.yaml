@@ -1,22 +1,3 @@
-description: Matrix eQTL is designed for fast eQTL analysis on large datasets. Matrix
-  eQTL can test for association between genotype and gene expression using linear
-  regression with either additive or ANOVA genotype effects. The models can include
-  covariates to account for factors as population stratification, gender, and clinical
-  variables. It also supports models with heteroscedastic and/or correlated errors,
-  false discovery rate estimation and separate treatment of local (cis) and distant
-  (trans) eQTLs.
-home_url: https://cran.r-project.org/package=MatrixEQTL
-identifiers:
-- doi:10.1093/bioinformatics/bts163
-keywords:
-- Cystic Fibrosis
-- Gene Expression
-- Genotype
-- Humans
-- Models, Genetic
-- Polymorphism, Single Nucleotide
-- Quantitative Trait Loci
-license: LGPL-3.0
-manually_check: true
-name: r-matrixeqtl
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:c421f52c7516a8e63d39475113e1165c98e1ab7d671660bd635862459e594eb4
+size 846

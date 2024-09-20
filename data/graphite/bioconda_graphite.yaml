@@ -1,11 +1,3 @@
-bioagents_id: graphite
-description: Graph objects from pathway topology derived from Biocarta, HumanCyc,
-  KEGG, NCI, Panther, PathBank, PharmGKB, Reactome and SMPDB databases.
-home: https://bioconductor.org/packages/3.12/bioc/html/graphite.html
-identifiers:
-- bioagents:graphite
-license: AGPL-3
-license_file: /lib/R/share/licenses/AGPL-3
-name: bioconductor-graphite
-summary: GRAPH Interaction from pathway Topological Environment
-version: 1.36.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:a575ec023d7fc8e79e172094642b21bc8cf26072746a63aa8f748418ad2f7503
+size 447

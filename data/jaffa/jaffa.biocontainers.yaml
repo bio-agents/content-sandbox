@@ -1,15 +1,3 @@
-description: Jaffa is a multi-step pipeline that takes either raw rna-seq reads, or
-  pre-assembled transcripts then searches\nfor gene fusions. this package contains
-  the wrappers jaffa-direct, jaffa-assembly, and jaffa-hybrid. you can pass the \"refseq\"
-  parameter in the environment variables jaffa_ref_base. otherwise, pass any paramters\nto
-  the wrappers as you would to the bpipe jaffa_{method} call in the manual.
-home_url: https://github.com/Oshlack/JAFFA
-identifiers:
-- doi:10.1186/s13073-015-0167-x
-keywords:
-- RNA-Seq
-- Transcriptome
-license: free software
-manually_check: true
-name: jaffa
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:853140d5d72f398c60dede9cbbb8feda011564b59b1383f4e86d2ae8ee8a665d
+size 620

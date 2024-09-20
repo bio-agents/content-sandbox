@@ -1,12 +1,3 @@
-bioagents_id: rtrmui
-description: This package provides a web interface to compute transcriptional regulatory
-  modules with rTRM.
-home: https://bioconductor.org/packages/3.12/bioc/html/rTRMui.html
-identifiers:
-- bioagents:rtrmui
-- doi:10.1038/nmeth.3252
-license: GPL-3
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-rtrmui
-summary: A shiny user interface for rTRM
-version: 1.28.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:f44fd316893b502cbdb747dbcb3d1e1b0e1d6f440c84c67fd5c58451dd8732c2
+size 395

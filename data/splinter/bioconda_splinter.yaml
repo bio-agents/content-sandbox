@@ -1,13 +1,3 @@
-bioagents_id: splinter
-description: Provides agents to analyze alternative splicing sites, interpret outcomes
-  based on sequence information, select and design primers for site validiation and
-  give visual representation of the event to guide downstream experiments.
-home: https://bioconductor.org/packages/3.12/bioc/html/SPLINTER.html
-identifiers:
-- bioagents:splinter
-- doi:10.1038/nmeth.3252
-license: GPL-2
-license_file: /lib/R/share/licenses/GPL-2
-name: bioconductor-splinter
-summary: Splice Interpreter of Transcripts
-version: 1.16.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:e81b0d473a76d458e1ddd3d128b14116f6d5f7ebc511f253640bfb92455e5fe7
+size 541

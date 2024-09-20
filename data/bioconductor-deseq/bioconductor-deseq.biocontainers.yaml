@@ -1,28 +1,3 @@
-description: Differential gene expression analysis based on the negative binomial
-  distribution
-home_url: https://bioconductor.org/packages/3.11/bioc/html/DESeq.html
-identifiers:
-- bioagents:deseq
-- doi:10.1186/gb-2010-11-10-r106
-- doi:10.7490/f1000research.1114334.1
-keywords:
-- Animals
-- Binomial Distribution
-- Chromatin Immunoprecipitation
-- Computational Biology
-- Drosophila
-- Gene Expression Profiling
-- High-Throughput Nucleotide Sequencing
-- Linear Models
-- Models, Genetic
-- Saccharomyces cerevisiae
-- Sequence Analysis, RNA
-- Stem Cells
-- Tissue Culture Techniques
-- Gene expression
-- RNA-Seq
-- Gene Expression
-license: GPL-3.0
-manually_check: true
-name: bioconductor-deseq
-total_pulls: 4
+version https://git-lfs.github.com/spec/v1
+oid sha256:b5a903fec5ded260efb3b5e2a1cdf7d60a594910c70b3eb8eb1bf064a6828a0a
+size 701

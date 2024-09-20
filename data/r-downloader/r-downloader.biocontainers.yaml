@@ -1,12 +1,3 @@
-description: Provides a wrapper for the download.file function, making it possible
-  to download files over HTTPS on Windows, Mac OS X, and other Unix-like platforms.
-  The RCurl package provides this functionality (and much more) but can be difficult
-  to install because it must be compiled with external dependencies. This package
-  has no external dependencies, so it is much easier to install.
-home_url: https://cran.rstudio.com/web/packages/downloader/index.html
-identifiers: []
-keywords: []
-license: GPL-2
-manually_check: true
-name: r-downloader
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:3af0377b63c734e708d9906357f6a4e204be8bd91c8bcc93a491b9f0a3f00e70
+size 568

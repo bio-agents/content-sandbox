@@ -1,31 +1,3 @@
-{
-    "accessibility": "Open access",
-    "additionDate": "2022-12-16T11:33:54.873500Z",
-    "bioagentsCURIE": "bioagents:rmlst_api",
-    "bioagentsID": "rmlst_api",
-    "confidence_flag": "agent",
-    "cost": "Free of charge",
-    "description": "Run rmlst API through python script for species identification of a bacterial assembly.",
-    "editPermission": {
-        "type": "private"
-    },
-    "homepage": "https://github.com/domenico-simone/rmlst_api",
-    "language": [
-        "Python"
-    ],
-    "lastUpdate": "2023-05-01T18:47:43.771137Z",
-    "license": "MIT",
-    "name": "rmlst_api",
-    "operatingSystem": [
-        "Linux",
-        "Mac",
-        "Windows"
-    ],
-    "owner": "domenico.simone",
-    "agentType": [
-        "Command-line agent"
-    ],
-    "version": [
-        "0.1.3"
-    ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:24cc73d80439ea6df58eb225d33545f7980615d091aad176cdbe4e9221d57f12
+size 807

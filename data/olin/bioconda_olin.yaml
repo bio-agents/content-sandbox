@@ -1,11 +1,3 @@
-bioagents_id: olin
-description: Functions for normalisation of two-color microarrays by optimised local
-  regression and for detection of artefacts in microarray data
-home: https://bioconductor.org/packages/3.12/bioc/html/OLIN.html
-identifiers:
-- bioagents:olin
-license: GPL-2
-license_file: /lib/R/share/licenses/GPL-2
-name: bioconductor-olin
-summary: Optimized local intensity-dependent normalisation of two-color microarrays
-version: 1.68.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:79433825acb6bae4c05efa85180965e2a8314386e04c35b9889b5721f5dfc213
+size 443

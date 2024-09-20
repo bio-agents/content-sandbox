@@ -1,11 +1,3 @@
-description: Mounting a Google Cloud bucket to a local directory. The files in the
-  bucket can be viewed and read as if they are locally stored. For using the package,
-  you need to install GCSDokan on Windows or gcsfuse on Linux and MacOs.
-home_url: https://bioconductor.org/packages/3.12/bioc/html/GCSFilesystem.html
-identifiers:
-- doi:10.18129/b9.bioc.gcsfilesystem
-keywords: []
-license: GPL (>= 2)
-manually_check: true
-name: bioconductor-gcsfilesystem
-total_pulls: 355
+version https://git-lfs.github.com/spec/v1
+oid sha256:ef4c36af155ac05e02876bd04c7d8f4a24ef3ac8ba637c82e731cb2203102f6a
+size 474

@@ -1,14 +1,3 @@
-bioagents_id: multidataset
-description: Implementation of the BRGE's (Bioinformatic Research Group in Epidemiology
-  from Center for Research in Environmental Epidemiology) MultiDataSet and ResultSet.
-  MultiDataSet is designed for integrating multi omics data sets and ResultSet is
-  a container for omics results. This package contains base classes for MEAL and rexposome
-  packages.
-home: https://bioconductor.org/packages/3.12/bioc/html/MultiDataSet.html
-identifiers:
-- bioagents:multidataset
-license: file LICENSE
-license_file: LICENSE
-name: bioconductor-multidataset
-summary: Implementation of MultiDataSet and ResultSet
-version: 1.18.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:acbec3643945b5043e50cff3ad22d24f25cd6bcf10875c82d64d6f741e6edd40
+size 643

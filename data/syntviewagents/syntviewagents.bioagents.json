@@ -1,29 +1,3 @@
-{
-    "additionDate": "2019-02-15T14:23:59Z",
-    "bioagentsCURIE": "bioagents:SynTViewAgents",
-    "bioagentsID": "SynTViewAgents",
-    "collectionID": [
-        "SynTViewAgents "
-    ],
-    "description": "Specific agents for pre-processing datas in order to use them in SynTView.",
-    "editPermission": {
-        "type": "private"
-    },
-    "homepage": "https://bioweb.pasteur.fr/packages/pack@SynTViewAgents@0.0.1",
-    "language": [
-        "Python"
-    ],
-    "lastUpdate": "2019-02-15T14:23:59Z",
-    "name": "SynTViewAgents",
-    "owner": "jison",
-    "agentType": [
-        "Command-line agent"
-    ],
-    "topic": [
-        {
-            "term": "Sequence analysis",
-            "uri": "http://edamontology.org/topic_0080"
-        }
-    ],
-    "validated": 1
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:503b8f3abc3cece658f919655f4282468637b13b89700db177df89502365cbcc
+size 773

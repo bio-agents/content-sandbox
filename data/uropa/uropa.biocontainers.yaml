@@ -1,22 +1,3 @@
-description: Uropa (universal robust peak annotator) is a command line based agent,
-  intended for genomic region annotation from e.g. peak calling. it detects the most
-  appropriate annotation by taking parameters such as feature type, anchor, direction
-  and strand into account.\nfurthermore, it allows filtering for gtf attribute values,
-  e.g. protein_coding.
-home_url: https://github.molgen.mpg.de/loosolab/UROPA
-identifiers:
-- bioagents:uropa
-- doi:10.1038/s41598-017-02464-y
-keywords:
-- Animals
-- Computational Biology
-- Genome
-- Genomics
-- Humans
-- Molecular Sequence Annotation
-- Sequencing
-- ChIP-seq
-license: MIT
-manually_check: true
-name: uropa
-total_pulls: 2
+version https://git-lfs.github.com/spec/v1
+oid sha256:bb9d7a2e7298a7fb1c5a01b3c92ee7cb0a2c0d53f8992e77d342856114596df6
+size 673

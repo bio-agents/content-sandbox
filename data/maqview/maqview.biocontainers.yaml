@@ -1,13 +1,3 @@
-description: Graphical read alignment viewer. it is specifically designed for the
-  maq alignment file and allows visualization of the mismatches, base qualities and
-  mapping qualities. maqview is nothing fancy as consed or gap, but just a simple
-  viewer for visualizing what happens in a particular region.
-home_url: http://maq.sourceforge.net/maqview.shtml
-identifiers:
-- bioagents:maqview
-keywords:
-- Data visualisation
-license: GPL-3.0
-manually_check: true
-name: maqview
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:ee8ced8823a1997494cab8f9407b377ed435909bee2d9342bc55b5b8bf464890
+size 492

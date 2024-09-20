@@ -1,14 +1,3 @@
-bioagents_id: cghnormaliter
-description: Normalization and centralization of array comparative genomic hybridization
-  (aCGH) data. The algorithm uses an iterative procedure that effectively eliminates
-  the influence of imbalanced copy numbers. This leads to a more reliable assessment
-  of copy number alterations (CNAs).
-home: https://bioconductor.org/packages/3.12/bioc/html/CGHnormaliter.html
-identifiers:
-- bioagents:cghnormaliter
-- doi:10.1186/1471-2164-10-401
-license: GPL (>= 3)
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-cghnormaliter
-summary: Normalization of array CGH data with imbalanced aberrations.
-version: 1.44.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:d2cfcbfdbe2abce82adfb89a6d14054dd26d7e8aae855a15c1f176dea483e450
+size 649

@@ -1,12 +1,3 @@
-description: A mapping pipeline for hic interaction data. performs independent mapping
-  on each end of the interaction pair and removes commonly found artefacts.
-home_url: http://www.bioinformatics.babraham.ac.uk/projects/hicup/
-identifiers:
-- bioagents:hicup
-- doi:10.12688/f1000research.7334.1
-keywords:
-- Epigenomics
-license: GPL-3.0
-manually_check: true
-name: hicup
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:0c3e6c65fbdb9bbeb6487b022f4efd2a1ff09ffcacb8be5d4352c89baed2a50e
+size 386

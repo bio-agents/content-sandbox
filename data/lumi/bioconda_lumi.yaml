@@ -1,14 +1,3 @@
-bioagents_id: lumi
-description: The lumi package provides an integrated solution for the Illumina microarray
-  data analysis. It includes functions of Illumina BeadStudio (GenomeStudio) data
-  input, quality control, BeadArray-specific variance stabilization, normalization
-  and gene annotation at the probe level. It also includes the functions of processing
-  Illumina methylation microarrays, especially Illumina Infinium methylation microarrays.
-home: https://bioconductor.org/packages/3.12/bioc/html/lumi.html
-identifiers:
-- bioagents:lumi
-license: LGPL (>= 2)
-license_file: /lib/R/share/licenses/LGPL-3
-name: bioconductor-lumi
-summary: BeadArray Specific Methods for Illumina Methylation and Expression Microarrays
-version: 2.42.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:740eb75c01a2d11f2df445f06c6e738c71ad265e9b75e7edda7cf2d7a6b36e93
+size 738

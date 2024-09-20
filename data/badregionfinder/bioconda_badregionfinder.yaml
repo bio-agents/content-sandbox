@@ -1,15 +1,3 @@
-bioagents_id: badregionfinder
-description: BadRegionFinder is a package for identifying regions with a bad, acceptable
-  and good coverage in sequence alignment data available as bam files. The whole genome
-  may be considered as well as a set of target regions. Various visual and textual
-  types of output are available.
-home: https://bioconductor.org/packages/3.12/bioc/html/BadRegionFinder.html
-identifiers:
-- bioagents:badregionfinder
-- doi:10.1038/nmeth.3252
-license: LGPL-3
-license_file: /lib/R/share/licenses/LGPL-3
-name: bioconductor-badregionfinder
-summary: 'BadRegionFinder: an R/Bioconductor package for identifying regions with
-  bad coverage'
-version: 1.18.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:158b80b4eebbe8585f26b21428eb140e02200333d99dcad396ca10100a5e2436
+size 673

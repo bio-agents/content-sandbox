@@ -1,24 +1,3 @@
-description: This package installs the command line agents of the bcbio-nextgen agentkit
-  implementing best-practice pipelines for fully automated high throughput sequencing
-  analysis. . A high-level configuration file specifies inputs and analysis parameters
-  to drive a parallel pipeline that handles distributed execution, idempotent processing
-  restarts and safe transactional steps. The project contributes a shared community
-  resource that handles the data processing component of sequencing analysis, providing
-  researchers with more time to focus on the downstream biology. . This package builds
-  and having it in Debian unstable helps the Debian developers to synchronize their
-  efforts. But unless a series of external dependencies are not installed manually,
-  amongst which for instance is the agent mosdepth for which much of the nim and go
-  libraries still need to be brought to Debian to make it compile, or also vienna-rna,
-  the functionality of bcbio in Debian is only a shadow of itself. Please use the
-  official distribution of bcbio for the time being, which means "use conda".
-edam:
-  topics: null
-  version: unknown
-homepage: https://github.com/bcbio/bcbio-nextgen
-identifiers:
-  bioconda: bcbio-nextgen
-  bioagents: bcbio-nextgen
-  debian: bcbio
-  omicagents: OMICS_01121
-summary: agentkit for analysing high-throughput sequencing data
-version: 1.2.4
+version https://git-lfs.github.com/spec/v1
+oid sha256:abc34927d507a109e474dea741b3b206e91c4d2c6459bac9533f73742e3703ce
+size 1385

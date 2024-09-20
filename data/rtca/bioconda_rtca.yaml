@@ -1,15 +1,3 @@
-bioagents_id: rtca
-description: Import, analyze and visualize data from Roche(R) xCELLigence RTCA systems.
-  The package imports real-time cell electrical impedance data into R. As an alternative
-  to commercial software shipped along the system, the Bioconductor package RTCA provides
-  several unique transformation (normalization) strategies and various visualization
-  agents.
-home: https://bioconductor.org/packages/3.12/bioc/html/RTCA.html
-identifiers:
-- bioagents:rtca
-- doi:10.1016/j.compbiolchem.2013.12.004
-license: LGPL-3
-license_file: /lib/R/share/licenses/LGPL-3
-name: bioconductor-rtca
-summary: Open-source agentkit to analyse data from xCELLigence System (RTCA)
-version: 1.42.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:5baba7f1ecc5e00040808ac1c94d1abb8dd71450a55073cd5b4ee30576f2ee30
+size 693

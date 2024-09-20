@@ -1,16 +1,3 @@
-bioagents_id: teqc
-description: Target capture experiments combine hybridization-based (in solution or
-  on microarrays) capture and enrichment of genomic regions of interest (e.g. the
-  exome) with high throughput sequencing of the captured DNA fragments. This package
-  provides functionalities for assessing and visualizing the quality of the target
-  enrichment process, like specificity and sensitivity of the capture, per-target
-  read coverage and so on.
-home: https://bioconductor.org/packages/3.12/bioc/html/TEQC.html
-identifiers:
-- bioagents:teqc
-- doi:10.1093/bioinformatics/btr122
-license: GPL (>= 2)
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-teqc
-summary: Quality control for target capture experiments
-version: 4.12.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:e284f5417122b6505802c176a0c4ae59122ca1fe47ecfce1a0c9f0ded3ef29ab
+size 751

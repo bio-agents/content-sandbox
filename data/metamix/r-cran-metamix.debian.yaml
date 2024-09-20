@@ -1,34 +1,3 @@
-package: r-cran-metamix
-distribution: debian
-release: sid
-component: main
-version: '0.3'
-source: r-cran-metamix
-homepage: https://cran.r-project.org/package=metaMix
-license: unknown
-blend: debian-med
-description_md5: 9f51ca1b979fb77ee86077f0f70ab8bf
-registries:
-- entry: OMICS_09072
-  name: OMICagents
-- entry: metaMix
-  name: bio.agents
-bib:
-- key: doi
-  value: 10.1093/bioinformatics/btv317
-popcon:
-- insts: 50
-  olde: 42
-  recent: 2
-  vote: 6
-descr:
-- package: r-cran-metamix
-  description: GNU R bayesian mixture analysis for metagenomic community profiling
-  long_description: " Resolves complex metagenomic mixtures by analysing deep sequencing\n\
-    \ data, using a mixture model based approach. The use of parallel Monte\n Carlo\
-    \ Markov chains for the exploration of the species space enables\n the identification\
-    \ of the set of species more likely to contribute to\n the mixture.\n"
-  release: sid
-  description_md5: 9f51ca1b979fb77ee86077f0f70ab8bf
-  license: unknown
-  blend: debian-med
+version https://git-lfs.github.com/spec/v1
+oid sha256:783f8db0826f7cfdc8e2395a385b1b1c0a08cc1b8668c4d492d36d91277036d3
+size 1011

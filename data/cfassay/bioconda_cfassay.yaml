@@ -1,13 +1,3 @@
-bioagents_id: cfassay
-description: The package provides functions for calculation of linear-quadratic cell
-  survival curves and for ANOVA of experimental 2-way designs along with the colony
-  formation assay.
-home: https://bioconductor.org/packages/3.12/bioc/html/CFAssay.html
-identifiers:
-- bioagents:cfassay
-- doi:10.1186/s13014-015-0529-y
-license: LGPL
-license_file: /lib/R/share/licenses/LGPL-3
-name: bioconductor-cfassay
-summary: Statistical analysis for the Colony Formation Assay
-version: 1.24.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:6100c6961d3f5d4d8a224ab42d8ec19ecfbd65b64a18d10c5399c5367df60175
+size 504

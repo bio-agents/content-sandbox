@@ -1,15 +1,3 @@
-anchor_agent: bioconductor-tpp
-description: Analyze thermal proteome profiling (tpp) experiments with varying temperatures
-  (tr) or compound concentrations (ccr).
-home_url: https://bioconductor.org/packages/TPP/
-identifiers:
-- bioagents:tpp
-- doi:10.18129/b9.bioc.tpp
-keywords:
-- Proteomics
-- Drug discovery
-- Proteomics experiment
-license: Artistic-2.0
-manually_check: true
-name: tpp
-total_pulls: 8530
+version https://git-lfs.github.com/spec/v1
+oid sha256:a72a1886e11e41c39d6cc94b0da42a99daa064dc890822e5c14a564c581bd0e0
+size 404

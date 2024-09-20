@@ -1,10 +1,3 @@
-bioagents_id: pysam
-home: https://github.com/pysam-developers/pysam
-identifiers:
-- bioagents:pysam
-- doi:10.1093/bioinformatics/btp352
-license: MIT
-name: pysam
-summary: Pysam is a python module for reading and manipulating Samfiles. It is a lightweight
-  wrapper of the samagents C-API. Pysam also includes an interface for tabix.
-version: 0.16.0.1
+version https://git-lfs.github.com/spec/v1
+oid sha256:37ef9f9a71073b40705a429d4a5ce8dec16ee1d49613819a0ead1bd727e0fc1e
+size 349

@@ -1,18 +1,3 @@
-description: TFBSAgents is a package for the analysis and manipulation of transcription
-  factor binding sites. It includes matrices conversion between Position Frequency
-  Matirx (PFM), Position Weight Matirx (PWM) and Information Content Matrix (ICM).
-  It can also scan putative TFBS from sequence/alignment, query JASPAR database and
-  provides a wrapper of de novo motif discovery software.
-edam:
-  topics: null
-  version: unknown
-homepage: https://bioconductor.org/packages/TFBSAgents/
-identifiers:
-  bioconda: bioconductor-tfbsagents
-  bioagents: tfbsagents
-  debian: r-bioc-tfbsagents
-  doi:
-  - 10.1093/bioinformatics/btw024
-  omicagents: OMICS_11082
-summary: GNU R Transcription Factor Binding Site (TFBS) Analysis
-version: 1.28.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:ca7fe8c5fc1481f581a325d57fb6dd2ffd1d6e52dc5661477f566a1506f7e9a4
+size 741

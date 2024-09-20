@@ -1,14 +1,3 @@
-bioagents_id: sourmash
-dev_url: https://github.com/dib-lab/sourmash
-doc_url: https://sourmash.readthedocs.io/
-home: https://github.com/dib-lab/sourmash
-identifiers:
-- bioagents:sourmash
-- doi:10.21105/joss.00027
-- doi:10.12688/f1000research.19675.1
-license: BSD-3-Clause
-license_family: BSD
-license_file: LICENSE
-name: sourmash
-summary: Compute and compare MinHash signatures for DNA data sets.
-version: 3.5.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:9ba7629e93de9e776efa0406043e10043fd15193f4b18febf7617f50b60f38f1
+size 410

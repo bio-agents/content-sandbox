@@ -1,22 +1,3 @@
-description: Ms-gf+ is a new ms/ms database search agent that is sensitive (it identifies
-  more peptides than other database search agents and as many peptides as spectral
-  library search agents) and universal (works well for diverse types of spectra, different
-  configurations of ms instruments and different experimental protocols).
-home_url: https://github.com/sangtaekim/msgfplus/
-identifiers:
-- bioagents:MSGFplus
-- doi:10.1021/pr400937n
-- doi:10.1038/ncomms6277
-keywords:
-- Peptides
-- Proteomics
-- Search Engine
-- Mass Spectrometry
-- Proteomics experiment
-- Protein expression
-- Small molecules
-- Mass spectra
-license: Custom License
-manually_check: true
-name: msgf_plus
-total_pulls: 36
+version https://git-lfs.github.com/spec/v1
+oid sha256:19d1e20b2a63c8fe96d38d65f9a24d0c65f39c44bd368bfa539c222e897deab3
+size 696

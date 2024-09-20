@@ -1,31 +1,3 @@
-softwares:
-  diffexpir:
-    labels:
-      about.documentation: https://github.com/r78v10a07/DiffExpIR
-      about.home: https://github.com/r78v10a07/DiffExpIR
-      about.license: SPDX:MIT
-      about.license_file: https://github.com/r78v10a07/DiffExpIR
-      about.summary: Differentially expressed intron retention
-      about.tags: RNA-seq
-      base_image: biocontainers:v1.0.0_cv4
-      extra.binaries: diffexpIR
-      software: diffexpir
-      software.version: 0.0.1
-      version: '5'
-    software: diffexpir
-    versions:
-    - labels:
-        about.documentation: https://github.com/r78v10a07/DiffExpIR
-        about.home: https://github.com/r78v10a07/DiffExpIR
-        about.license: SPDX:MIT
-        about.license_file: https://github.com/r78v10a07/DiffExpIR
-        about.summary: Differentially expressed intron retention
-        about.tags: RNA-seq
-        base_image: biocontainers:v1.0.0_cv4
-        extra.binaries: diffexpIR
-        software: diffexpir
-        software.version: 0.0.1
-        version: '5'
-      type: Container file
-      url: biocontainers/diffexpir:0.0.1-5
-      version: 0.0.1-5
+version https://git-lfs.github.com/spec/v1
+oid sha256:59b35df31df4c91a418abf242d170ebf2aa17a20c7d6a295300229cd24f0c891
+size 1117

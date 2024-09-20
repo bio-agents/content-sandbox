@@ -1,13 +1,3 @@
-bioagents_id: lapmix
-description: Laplace mixture modelling of microarray experiments. A hierarchical Bayesian
-  approach is used, and the hyperparameters are estimated using empirical Bayes. The
-  main purpose is to identify differentially expressed genes.
-home: https://bioconductor.org/packages/3.12/bioc/html/lapmix.html
-identifiers:
-- bioagents:lapmix
-- doi:10.1093/biostatistics/kxj032
-license: GPL (>= 2)
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-lapmix
-summary: Laplace Mixture Model in Microarray Experiments
-version: 1.56.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:d2051993ad77ab068d70bbb8d2899eca392a14545dcba1258335bf9a3c5fe00a
+size 553

@@ -1,14 +1,3 @@
-bioagents_id: ibh
-description: This package contains methods for calculating Interaction Based Homogeneity
-  to evaluate fitness of gene lists to an interaction network which is useful for
-  evaluation of clustering results and gene list analysis. BioGRID interactions are
-  used in the calculation. The user can also provide their own interactions.
-home: https://bioconductor.org/packages/3.12/bioc/html/ibh.html
-identifiers:
-- bioagents:ibh
-- doi:10.1038/nmeth.3252
-license: GPL (>= 2)
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-ibh
-summary: Interaction Based Homogeneity for Evaluating Gene Lists
-version: 1.38.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:721ad90a7fe38e9d7fb40d22f58ca16611a4532bb778edc9d43ee698959a67af
+size 634

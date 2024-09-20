@@ -1,10 +1,3 @@
-bioagents_id: ruvseq
-description: This package implements the remove unwanted variation (RUV) methods of
-  Risso et al. (2014) for the normalization of RNA-Seq read counts between samples.
-home: https://bioconductor.org/packages/3.12/bioc/html/RUVSeq.html
-identifiers:
-- bioagents:ruvseq
-license: Artistic-2.0
-name: bioconductor-ruvseq
-summary: Remove Unwanted Variation from RNA-Seq Data
-version: 1.24.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:211d0774673ed2cb4003a6ed8b2f7f0b8c53c1e24c546dd44e37a1d4c91ff661
+size 405

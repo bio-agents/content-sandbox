@@ -1,11 +1,3 @@
-bioagents_id: hitc
-description: The HiTC package was developed to explore high-throughput 'C' data such
-  as 5C or Hi-C. Dedicated R classes as well as standard methods for quality controls,
-  normalization, visualization, and further analysis are also provided.
-home: https://bioconductor.org/packages/3.12/bioc/html/HiTC.html
-identifiers:
-- bioagents:hitc
-license: Artistic-2.0
-name: bioconductor-hitc
-summary: High Throughput Chromosome Conformation Capture analysis
-version: 1.34.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:e0afc6c6bea67476490efa8fe7cd0f0ad2bf1e121516989e86a51152728f0595
+size 486

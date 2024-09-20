@@ -1,17 +1,3 @@
-description: fqtrim is a versatile stand-alone utility that can be used to trim adapters,
-  poly-A tails, terminal unknown bases (Ns) and low quality 3' regions in reads from
-  high-throughput next-generation sequencing machines.
-home_url: https://ccb.jhu.edu/software/fqtrim/
-identifiers:
-- bioagents:fqtrim
-- doi:10.5281/zenodo.593893
-keywords:
-- DNA
-- Nucleic acid sites, features and motifs
-- RNA-Seq
-- Genetics
-- Transcriptome
-license: Artistic License 2.0
-manually_check: true
-name: fqtrim
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:6f0b43f757bf3684a895a35e29b85d196d894017262da6cce66d77e14deedd60
+size 511

@@ -1,11 +1,3 @@
-bioagents_id: mira
-home: https://sourceforge.net/p/mira-assembler/wiki/Home/
-identifiers:
-- bioagents:mira
-license: GNU General Public License v2 or later (GPLv2+)
-license_file: LICENCE
-name: mira
-summary: MIRA is a whole genome shotgun and EST sequence assembler for Sanger, 454,
-  Solexa (Illumina), IonTorrent data and PacBio (the later at the moment only CCS
-  and error-corrected CLR reads)
-version: 4.0.2
+version https://git-lfs.github.com/spec/v1
+oid sha256:ea2934288d8dfa509120926cae683969ea62488fa710dcba7aa4cf9a42ad73bc
+size 411

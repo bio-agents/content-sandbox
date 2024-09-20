@@ -1,31 +1,3 @@
-softwares:
-  falcon-ms:
-    labels:
-      about.documentation: https://github.com/bittremieux/falcon/blob/main/README.md
-      about.home: https://github.com/bittremieux/falcon
-      about.license: BSD-3-Clause
-      about.license_file: https://github.com/bittremieux/falcon/blob/main/LICENSE.txt
-      about.summary: Large-scale tandem mass spectrum clustering using fast nearest
-        neighbor searching
-      base_image: python:3
-      maintainer: =olivier.sallou@irisa.fr
-      software: falcon-ms
-      software.version: 0.1.3
-      version: '1'
-    software: falcon-ms
-    versions:
-    - labels:
-        about.documentation: https://github.com/bittremieux/falcon/blob/main/README.md
-        about.home: https://github.com/bittremieux/falcon
-        about.license: BSD-3-Clause
-        about.license_file: https://github.com/bittremieux/falcon/blob/main/LICENSE.txt
-        about.summary: Large-scale tandem mass spectrum clustering using fast nearest
-          neighbor searching
-        base_image: python:3
-        maintainer: =olivier.sallou@irisa.fr
-        software: falcon-ms
-        software.version: 0.1.3
-        version: '1'
-      type: Container file
-      url: biocontainers/falcon-ms:v0.1.3_cv1
-      version: v0.1.3_cv1
+version https://git-lfs.github.com/spec/v1
+oid sha256:24d4a5888ba2afd4d86879ff682502156b42fa665079f0dc3dd93e0a7e884f38
+size 1243

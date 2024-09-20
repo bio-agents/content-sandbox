@@ -1,19 +1,3 @@
-description: CONUS is an implementation of simple stochastic context-free grammars
-  for RNA secondary structure analysis.CONUS developed for exploring the consequences
-  of different single sequence SCFG designs in predicting RNA secondary structure.
-home_url: http://eddylab.org/software/conus/
-identifiers:
-- bioagents:CONUS
-- doi:10.1186/1471-2105-5-71
-keywords:
-- Computational Biology
-- Models, Statistical
-- Nucleic Acid Conformation
-- Predictive Value of Tests
-- RNA
-- Stochastic Processes
-- Structure analysis
-license: file
-manually_check: true
-name: conus
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:bc94be2c8a10ce787452909cf3dd7997aa24cfa869219bc75b8be670722d488b
+size 581

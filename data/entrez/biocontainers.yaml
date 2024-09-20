@@ -1,31 +1,3 @@
-softwares:
-  entrez-direct:
-    labels:
-      License_file: = https://ncbi.github.io/magicblast/
-      about.documentation: https://ncbi.github.io/magicblast/
-      about.home: https://github.com/ncbi/magicblast
-      about.summary: Entrez Direct (EDirect) is an advanced method for accessing the
-        NCBI's set of interconnected Entrez databases
-      about.tags: BLAST
-      base_image: biocontainers:v1.0.0_cv4
-      extra.identifiers.bioagents: entrez
-      software: entrez-direct
-      software.version: 7.50.20171103
-      version: '5'
-    software: entrez-direct
-    versions:
-    - labels:
-        License_file: = https://ncbi.github.io/magicblast/
-        about.documentation: https://ncbi.github.io/magicblast/
-        about.home: https://github.com/ncbi/magicblast
-        about.summary: Entrez Direct (EDirect) is an advanced method for accessing
-          the NCBI's set of interconnected Entrez databases
-        about.tags: BLAST
-        base_image: biocontainers:v1.0.0_cv4
-        extra.identifiers.bioagents: entrez
-        software: entrez-direct
-        software.version: 7.50.20171103
-        version: '5'
-      type: Container file
-      url: biocontainers/entrez-direct:7.50.20171103-5
-      version: 7.50.20171103-5
+version https://git-lfs.github.com/spec/v1
+oid sha256:057d149dd7fa7e2d58985a36ffee233cf1ae82c8daebacb7e4c4ebe362211ce6
+size 1245

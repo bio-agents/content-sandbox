@@ -1,14 +1,3 @@
-bioagents_id: rsubread
-description: Alignment, quantification and analysis of RNA sequencing data (including
-  both bulk RNA-seq and scRNA-seq) and DNA sequenicng data (including ATAC-seq, ChIP-seq,
-  WGS, WES etc). Includes functionality for read mapping, read counting, SNP calling,
-  structural variant detection and gene fusion discovery. Can be applied to all major
-  sequencing techologies and to both short and long sequence reads.
-home: https://bioconductor.org/packages/3.12/bioc/html/Rsubread.html
-identifiers:
-- bioagents:rsubread
-license: GPL (>=3)
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-rsubread
-summary: Mapping, quantification and variant analysis of sequencing data
-version: 2.4.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:70f100b738571e62da1e01a0f93818707ee5b7b069d304fa5466616672950180
+size 719

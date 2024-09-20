@@ -1,15 +1,3 @@
-bioagents_id: gofunction
-description: The GO-function package provides a agent to address the redundancy that
-  result from the GO structure or multiple annotation genes and derive biologically
-  relevant functions from the statistically significant functions based on some intuitive
-  assumption and statistical testing.
-home: https://bioconductor.org/packages/3.10/bioc/html/GOFunction.html
-identifiers:
-- bioagents:gofunction
-- doi:10.1093/bib/bbr041
-license: GPL (>= 2)
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-gofunction
-summary: 'GO-function: deriving biologcially relevant functions from statistically
-  significant functions'
-version: 1.34.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:1b425214610b737cb27b7b4a053a0825ffbcf3cc2c2f84f0988d28e471b35e82
+size 670

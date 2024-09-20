@@ -1,33 +1,3 @@
-softwares:
-  consensuscore2:
-    labels:
-      about.copyright: ''
-      about.home: https://github.com/PacificBiosciences/unanimity
-      about.license: BSD-3-Clause-PacBio
-      about.license_file: /usr/share/doc/consensuscore2/copyright
-      about.summary: generate consensus sequences for PacBio data -- Python 2
-      about.tags: ''
-      base_image: biocontainers/biocontainers:vdebian-buster-backports_cv1
-      container: consensuscore2
-      software: consensuscore2
-      software.version: 3.3.0dfsg-2.1-deb-py2
-      upstream.version: 3.3.0
-      version: '1'
-    software: consensuscore2
-    versions:
-    - labels:
-        about.copyright: ''
-        about.home: https://github.com/PacificBiosciences/unanimity
-        about.license: BSD-3-Clause-PacBio
-        about.license_file: /usr/share/doc/consensuscore2/copyright
-        about.summary: generate consensus sequences for PacBio data -- Python 2
-        about.tags: ''
-        base_image: biocontainers/biocontainers:vdebian-buster-backports_cv1
-        container: consensuscore2
-        software: consensuscore2
-        software.version: 3.3.0dfsg-2.1-deb-py2
-        upstream.version: 3.3.0
-        version: '1'
-      type: Container file
-      url: biocontainers/consensuscore2:3.3.0dfsg-2.1-deb-py2-1
-      version: 3.3.0dfsg-2.1-deb-py2-1
+version https://git-lfs.github.com/spec/v1
+oid sha256:e8b6d3ef69a3586ac5bce7060e5aadca83e901338568d560f98317a4118bf020
+size 1314

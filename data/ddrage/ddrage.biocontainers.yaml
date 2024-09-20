@@ -1,16 +1,3 @@
-description: Simulator for ddradseq (double digest restriction site associated dna
-  sequencing) datasets. generates reads (fastq format) that can be analyzed and validated
-  using a ground truth file (yaml).
-home_url: https://bitbucket.org/genomeinformatics/rage
-identifiers:
-- doi:10.1111/1755-0998.12743
-keywords:
-- Computer Simulation
-- Datasets as Topic
-- Models, Genetic
-- Models, Theoretical
-- Sequence Analysis
-license: MIT
-manually_check: true
-name: ddrage
-total_pulls: 4
+version https://git-lfs.github.com/spec/v1
+oid sha256:e7151dd4367ea141a30db32f4eddbb809d9a0b5cec1744ec2c740c630d8c3c6e
+size 481

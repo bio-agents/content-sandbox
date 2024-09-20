@@ -1,11 +1,3 @@
-bioagents_id: codelink
-description: This package facilitates reading, preprocessing and manipulating Codelink
-  microarray data. The raw data must be exported as text file using the Codelink software.
-home: https://bioconductor.org/packages/3.12/bioc/html/codelink.html
-identifiers:
-- bioagents:codelink
-license: GPL-2
-license_file: /lib/R/share/licenses/GPL-2
-name: bioconductor-codelink
-summary: Manipulation of Codelink microarray data
-version: 1.58.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:dd1246f4aa9bae03eafe924f7162519aad3896976ef0ba48bfe32c3b0d27268f
+size 455

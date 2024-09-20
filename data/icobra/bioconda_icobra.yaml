@@ -1,12 +1,3 @@
-bioagents_id: icobra
-description: This package provides functions for calculation and visualization of
-  performance metrics for evaluation of ranking and binary classification (assignment)
-  methods. It also contains a shiny application for interactive exploration of results.
-home: https://bioconductor.org/packages/3.12/bioc/html/iCOBRA.html
-identifiers:
-- bioagents:icobra
-license: GPL (>=2)
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-icobra
-summary: Comparison and Visualization of Ranking and Assignment Methods
-version: 1.18.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:89d6ecde787fae2ebe726c8497155ce5862171b1b6829e536a82eb2d47a580e7
+size 552

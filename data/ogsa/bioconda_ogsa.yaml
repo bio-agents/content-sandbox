@@ -1,13 +1,3 @@
-bioagents_id: ogsa
-description: OGSA provides a global estimate of pathway deregulation in cancer subtypes
-  by integrating the estimates of significance for individual pathway members that
-  have been identified by outlier analysis.
-home: https://bioconductor.org/packages/3.10/bioc/html/OGSA.html
-identifiers:
-- bioagents:ogsa
-- doi:10.1109/TCBB.2013.153
-license: GPL (== 2)
-license_file: /lib/R/share/licenses/GPL-2
-name: bioconductor-ogsa
-summary: Outlier Gene Set Analysis
-version: 1.16.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:43ab8ffc6786a266ad019f117b01e1be89736acdab275995fbb6fb5e967c7b46
+size 494

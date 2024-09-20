@@ -1,11 +1,3 @@
-bioagents_id: cellmapper
-description: Infers cell type-specific expression based on co-expression similarity
-  with known cell type marker genes. Can make accurate predictions using publicly
-  available expression data, even when a cell type has not been isolated before.
-home: https://bioconductor.org/packages/3.12/bioc/html/CellMapper.html
-identifiers:
-- bioagents:cellmapper
-license: Artistic-2.0
-name: bioconductor-cellmapper
-summary: Predict genes expressed selectively in specific cell types
-version: 1.16.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:046c4656b737ac9a29a3aa38995ef4a262662f76c5f980ed6700553efbffb823
+size 515

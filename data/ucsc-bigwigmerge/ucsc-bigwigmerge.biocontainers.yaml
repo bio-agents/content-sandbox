@@ -1,21 +1,3 @@
-description: Merge together multiple bigwigs into a single output bedgraph.
-home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
-identifiers:
-- doi:10.1093/bioinformatics/btq351
-- doi:10.1101/gr.229102
-- bioagents:UCSC_Genome_Browser_Utilities
-keywords:
-- California
-- Database Management Systems
-- Databases, Genetic
-- Gene Expression
-- Genes
-- Genome, Human
-- Humans
-- RNA, Messenger
-- Sequence Homology, Nucleic Acid
-- Universities
-license: Custom License
-manually_check: true
-name: ucsc-bigwigmerge
-total_pulls: 2
+version https://git-lfs.github.com/spec/v1
+oid sha256:f8837e108faaa50b4daab17c66b66450f145b93094c87821161af967457635c0
+size 517

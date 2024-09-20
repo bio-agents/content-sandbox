@@ -1,9 +1,3 @@
-bioagents_id: fastqc
-home: http://www.bioinformatics.babraham.ac.uk/projects/fastqc/
-identifiers:
-- bioagents:fastqc
-- usegalaxy-eu:fastqc
-license: GPL >=3
-name: fastqc
-summary: A quality control agent for high throughput sequence data.
-version: 0.11.9
+version https://git-lfs.github.com/spec/v1
+oid sha256:1d61fcb1e474b61ab0b3c33c02b802857d4f90f04eeda4b1b2799d478a1769ad
+size 253

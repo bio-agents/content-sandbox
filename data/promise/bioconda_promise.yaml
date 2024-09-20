@@ -1,13 +1,3 @@
-bioagents_id: promise
-description: 'A general agent to identify genomic features with a specific biologically
-  interesting pattern of associations with multiple endpoint variables as described
-  in Pounds et. al. (2009) Bioinformatics 25: 2013-2019'
-home: https://bioconductor.org/packages/3.12/bioc/html/PROMISE.html
-identifiers:
-- bioagents:promise
-- doi:10.1093/bioinformatics/btp357
-license: GPL (>= 2)
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-promise
-summary: PRojection Onto the Most Interesting Statistical Evidence
-version: 1.42.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:fa576a0e0f9e7e81fb7ddba81ad6f32172880b9244efc4fb8c82771325c258cd
+size 560

@@ -1,25 +1,3 @@
-description: 'IQ-TREE is a very efficient maximum likelihood phylogenetic software
-  with following key features among others: . * A novel fast and effective stochastic
-  algorithm to estimate maximum likelihood trees. IQ-TREE outperforms both RAxML and
-  PhyML in terms of likelihood while requiring similar amount of computing time (see
-  Nguyen et al., 2015) * An ultrafast bootstrap approximation to assess branch supports
-  (see Minh et al., 2013). * A wide range of substitution models for binary, DNA,
-  protein, codon, and morphological alignments. * Ultrafast model selection for all
-  data types, 10 to 100 times faster than jModelTest and ProtTest. * Finding best
-  partition scheme like PartitionFinder. * Partitioned models with mixed data types
-  for phylogenomic (multi- gene) alignments, allowing for separate, proportional,
-  or joint branch lengths among genes. * Supporting the phylogenetic likelihod library
-  (PLL) (see Flouri et al., 2014)'
-edam:
-  topics: null
-  version: unknown
-homepage: http://www.cibiv.at/software/iqtree/
-identifiers:
-  bioconda: iqtree
-  bioagents: iq-tree
-  debian: iqtree
-  doi:
-  - 10.1093/molbev/msu300
-  omicagents: OMICS_11543
-summary: efficient phylogenetic software by maximum likelihood
-version: 1.6.12
+version https://git-lfs.github.com/spec/v1
+oid sha256:a64b7d6073c8d478ad6f3f4bd11af84622cf3acbd7ca6a6581e2b25b3efc63b0
+size 1258

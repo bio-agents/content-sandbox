@@ -1,35 +1,3 @@
-softwares:
-  soapaligner:
-    labels:
-      about.copyright: 2004 Wong Chi Kwong
-      about.home: http://soap.genomics.org.cn/soapaligner.html
-      about.license: GPL-3.0+
-      about.license_file: /usr/share/doc/soapaligner/copyright
-      about.summary: aligner of short reads of next generation sequencers
-      about.tags: ''
-      base_image: biocontainers/biocontainers:vdebian-buster-backports_cv1
-      container: soapaligner
-      extra.binaries: /usr/bin/soap
-      software: soapaligner
-      software.version: 2.20-3-deb
-      upstream.version: '2.20'
-      version: '1'
-    software: soapaligner
-    versions:
-    - labels:
-        about.copyright: 2004 Wong Chi Kwong
-        about.home: http://soap.genomics.org.cn/soapaligner.html
-        about.license: GPL-3.0+
-        about.license_file: /usr/share/doc/soapaligner/copyright
-        about.summary: aligner of short reads of next generation sequencers
-        about.tags: ''
-        base_image: biocontainers/biocontainers:vdebian-buster-backports_cv1
-        container: soapaligner
-        extra.binaries: /usr/bin/soap
-        software: soapaligner
-        software.version: 2.20-3-deb
-        upstream.version: '2.20'
-        version: '1'
-      type: Container file
-      url: biocontainers/soapaligner:2.20-3-deb-1
-      version: 2.20-3-deb-1
+version https://git-lfs.github.com/spec/v1
+oid sha256:6ad4d64404696d62ce408fa9e505d4fa43fdc580b034ad7a961aa4b9c2c23ae5
+size 1317

@@ -1,20 +1,3 @@
-description: Mindthegap performs detection and assembly of dna insertion variants
-  in ngs read datasets with respect to a reference genome.
-home_url: https://github.com/GATB/MindTheGap
-identifiers:
-- bioagents:mindthegap
-- doi:10.1093/bioinformatics/btu545
-keywords:
-- Animals
-- Caenorhabditis elegans
-- Genome
-- Humans
-- Mutagenesis, Insertional
-- Sequence Analysis, DNA
-- Genetic variation
-- Genomics
-- Metagenomics
-license: AGPL-3.0-only
-manually_check: true
-name: mindthegap
-total_pulls: 24
+version https://git-lfs.github.com/spec/v1
+oid sha256:a6ef41a4d3e784d7a3338dccaa4ef7d3970d6962d945d9808c9eec36b771138f
+size 496

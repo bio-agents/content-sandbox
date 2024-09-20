@@ -1,21 +1,3 @@
-description: Convert from fastq to fasta format.
-home_url: http://hgdownload.cse.ucsc.edu/admin/exe/
-identifiers:
-- doi:10.1093/bioinformatics/btq351
-- doi:10.1101/gr.229102
-- bioagents:UCSC_Genome_Browser_Utilities
-keywords:
-- California
-- Database Management Systems
-- Databases, Genetic
-- Gene Expression
-- Genes
-- Genome, Human
-- Humans
-- RNA, Messenger
-- Sequence Homology, Nucleic Acid
-- Universities
-license: Custom License
-manually_check: true
-name: ucsc-fastqtofa
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:dfb339c503f4645f9dd85dd7dc8a8a2d584d84fd6dc5fd52db8c1bbf4ba3f303
+size 488

@@ -1,21 +1,3 @@
-description: Graphical agent for visualization and diagnostics of mcmc (markov chain
-  monte carlo) output. it can read output files from mrbayesand beast.
-home_url: https://github.com/beast-dev/tracer
-identifiers:
-- bioagents:tracer
-- doi:10.1093/molbev/mss075
-- doi:10.1093/sysbio/syy032
-keywords:
-- Bayes Theorem
-- Evolution, Molecular
-- Markov Chains
-- Models, Genetic
-- Monte Carlo Method
-- Phylogeny
-- Data visualisation
-- Phylogenetics
-- Genetics
-license: LGPLv2.1
-manually_check: true
-name: tracer
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:873eaafd8da0c55bccd5672d77f8200ee4aa367a4201761882ee532a27adbd94
+size 521

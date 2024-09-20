@@ -1,14 +1,3 @@
-bioagents_id: r4rna
-description: A package for RNA basepair analysis, including the visualization of basepairs
-  as arc diagrams for easy comparison and annotation of sequence and structure.  Arc
-  diagrams can additionally be projected onto multiple sequence alignments to assess
-  basepair conservation and covariation, with numerical methods for computing statistics
-  for each.
-home: https://bioconductor.org/packages/3.12/bioc/html/R4RNA.html
-identifiers:
-- bioagents:r4rna
-license: GPL-3
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-r4rna
-summary: An R package for RNA visualization and analysis
-version: 1.18.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:84d39305b675a50d0489822e938fd15b9fcaf9b8d55049ff571eb2fe268c9af3
+size 634

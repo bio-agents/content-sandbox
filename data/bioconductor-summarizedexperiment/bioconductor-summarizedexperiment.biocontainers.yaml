@@ -1,25 +1,3 @@
-description: This software contains one or more assays, each represented by a matrix-like
-  object of numeric or other mode. the rows typically represent genomic ranges of
-  interest and the columns represent samples.
-home_url: http://bioconductor.org/packages/release/bioc/html/SummarizedExperiment.html
-identifiers:
-- bioagents:summarizedexperiment
-- doi:10.1038/nmeth.3252
-keywords:
-- Computational Biology
-- Gene Expression Profiling
-- Genomics
-- High-Throughput Screening Assays
-- Programming Languages
-- User-Computer Interface
-- Microarray experiment
-- Sequencing
-- Clustering
-- Proteomics
-- Metabolomics
-- Genetics
-- Transcriptome
-license: Artistic-2.0
-manually_check: true
-name: bioconductor-summarizedexperiment
-total_pulls: 11
+version https://git-lfs.github.com/spec/v1
+oid sha256:233eb143bb1606c4864c52e5ea6149aafd1cb04b0cf0e84d9362842adac631a0
+size 738

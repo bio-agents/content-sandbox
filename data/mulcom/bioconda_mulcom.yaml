@@ -1,12 +1,3 @@
-bioagents_id: mulcom
-description: Identification of differentially expressed genes and false discovery
-  rate (FDR) calculation by Multiple Comparison test.
-home: https://bioconductor.org/packages/3.12/bioc/html/Mulcom.html
-identifiers:
-- bioagents:mulcom
-- doi:10.1186/1471-2105-12-382
-license: GPL-2
-license_file: /lib/R/share/licenses/GPL-2
-name: bioconductor-mulcom
-summary: Calculates Mulcom test
-version: 1.40.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:f3ffc54f7e4cc26e05e32f1d9667ce27edb88d6d86ab8e326f2c0d85fa6365e0
+size 418

@@ -1,12 +1,3 @@
-bioagents_id: sangerseqr
-description: This package contains several agents for analyzing Sanger Sequencing data
-  files in R, including reading .scf and .ab1 files, making basecalls and plotting
-  chromatograms.
-home: https://bioconductor.org/packages/3.12/bioc/html/sangerseqR.html
-identifiers:
-- bioagents:sangerseqr
-license: GPL-2
-license_file: /lib/R/share/licenses/GPL-2
-name: bioconductor-sangerseqr
-summary: Agents for Sanger Sequencing Data in R
-version: 1.26.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:0e99f52ebe2d9e01191fa695eefc42a6a1d57dbfc70e238ebc7b8d5d9e5da660
+size 470

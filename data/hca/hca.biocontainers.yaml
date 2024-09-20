@@ -1,26 +1,3 @@
-description: Human cell atlas data storage system command line interface. this repository
-  is a command line interface (cli) and python library (api) for interacting with
-  the data coordination platform (dcp) of the human cell atlas (hca). currently the
-  hca package supports interaction with the upload service and data storage service
-  (dss) for services such as uploading, downloading, and querying data.
-home_url: https://github.com/HumanCellAtlas/dcp-cli
-identifiers:
-- bioagents:hca
-- doi:10.1007/s000180050082
-keywords:
-- Amino Acid Sequence
-- Chemical Phenomena
-- Chemistry, Physical
-- Humans
-- Models, Molecular
-- Molecular Sequence Data
-- Molecular Structure
-- Proteins
-- Sequence Analysis
-- alpha 1-Antitrypsin
-- Proteomics
-- Protein secondary structure
-license: Apache-2.0
-manually_check: true
-name: hca
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:f93abb57163d50066cc7ae94f383818f2e1d3b6ef016f79a577db13763f8a476
+size 835

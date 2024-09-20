@@ -1,13 +1,3 @@
-description: A set of wrappers for individual components of the monocle3 package.
-  functions r packages are hard to call when building workflows outside of r, so this
-  package adds a set of simple wrappers with robust argument parsing. intermediate
-  steps are currently monocle3 r objects, but the ultimate objective is to have language-agnostic
-  intermediate formats allowing composite workflows using a variety of software packages.
-home_url: https://github.com/ebi-gene-expression-group/monocle-scripts
-identifiers: []
-keywords:
-- Clustering
-license: Apache-2.0
-manually_check: true
-name: monocle3-cli
-total_pulls: 15
+version https://git-lfs.github.com/spec/v1
+oid sha256:d1a4c70578e083fbf61dffd951eb57e82f2e16cf75709c209f7a7c3271082b0c
+size 625

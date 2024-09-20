@@ -1,33 +1,3 @@
-description: Mea was developed as part of the lab class "Bioinformatik von RNA- und
-  Proteinstrukturen (Praktikum, Modul 10-202-2208)". The package predicts maximum
-  expected accuracy (MEA) RNA secondary structures from dot plots of RNAs while correcting
-  the score in dependence of base pair span. Furthermore, it provides agents to evaluate
-  predictions and optimize parameters.
-home_url: http://www.bioinf.uni-leipzig.de/Software/mea/
-identifiers:
-- bioagents:mea
-- doi:10.1186/s12864-018-4835-2
-keywords:
-- Alleles
-- Animals
-- Chromatin Immunoprecipitation
-- CpG Islands
-- DNA Methylation
-- Epigenesis, Genetic
-- Epigenomics
-- Gene Expression Profiling
-- Germ Cells
-- Humans
-- INDEL Mutation
-- Mice
-- Mice, Inbred C57BL
-- Mice, Inbred DBA
-- Sequence Analysis, DNA
-- Sequence Analysis, RNA
-- Transcription Initiation Site
-- Methylated DNA immunoprecipitation
-- ChIP-seq
-license: GPL-3.0
-manually_check: true
-name: mea
-total_pulls: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:9588a77719c18ebb192fd1323932dd31ee3c1a672cdda4e16990a66337701b89
+size 940

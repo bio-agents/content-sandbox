@@ -1,12 +1,3 @@
-bioagents_id: maanova
-description: Analysis of N-dye Micro Array experiment using mixed model effect. Containing
-  analysis of variance, permutation and bootstrap, cluster and consensus tree.
-home: https://bioconductor.org/packages/3.12/bioc/html/maanova.html
-identifiers:
-- bioagents:maanova
-- doi:10.1007/0-387-21679-0_14
-license: GPL (>= 2)
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-maanova
-summary: Agents for analyzing Micro Array experiments
-version: 1.60.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:a385288a42820eb32e9ea16771989faed7b9c895a487859855b609cc28dd9b93
+size 483

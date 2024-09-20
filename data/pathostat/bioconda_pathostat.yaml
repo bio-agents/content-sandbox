@@ -1,15 +1,3 @@
-bioagents_id: pathostat
-description: The purpose of this package is to perform Statistical Microbiome Analysis
-  on metagenomics results from sequencing data samples. In particular, it supports
-  analyses on the PathoScope generated report files. PathoStat provides various functionalities
-  including Relative Abundance charts, Diversity estimates and plots, tests of Differential
-  Abundance, Time Series visualization, and Core OTU analysis.
-home: https://bioconductor.org/packages/3.12/bioc/html/PathoStat.html
-identifiers:
-- bioagents:pathostat
-- doi:10.1038/nmeth.3252
-license: GPL (>= 2)
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-pathostat
-summary: PathoStat Statistical Microbiome Analysis Package
-version: 1.16.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:e7dc23adea3059b490f9bb1cfb04ebeffef43df7edb536fd1ab05b5d96491643
+size 741

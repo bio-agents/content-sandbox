@@ -1,35 +1,3 @@
-{
-    "additionDate": "2022-11-03T11:56:51.957978Z",
-    "bioagentsCURIE": "bioagents:virhunter",
-    "bioagentsID": "virhunter",
-    "description": "VirHunter is a deep learning method that uses Convolutional Neural Networks (CNNs) and a Random Forest Classifier to identify viruses in sequencing datasets. More precisely, VirHunter classifies previously assembled contigs as viral, host, and bacterial (contamination).",
-    "editPermission": {
-        "type": "private"
-    },
-    "function": [
-        {
-            "operation": [
-                {
-                    "term": "Sequence classification",
-                    "uri": "http://edamontology.org/operation_2995"
-                }
-            ]
-        }
-    ],
-    "homepage": "https://github.com/cbib/virhunter",
-    "lastUpdate": "2022-11-03T11:56:51.960519Z",
-    "name": "VirHunter",
-    "owner": "gallardoalba",
-    "agentType": [
-        "Command-line agent"
-    ],
-    "topic": [
-        {
-            "term": "Virology",
-            "uri": "http://edamontology.org/topic_0781"
-        }
-    ],
-    "version": [
-        "1.0.0"
-    ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e796c8a5acba17275bbe3204f6a5d467ba77e137f4589f8f12fdb1697dbc7a2f
+size 1107

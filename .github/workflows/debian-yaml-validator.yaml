@@ -1,19 +1,3 @@
-name: validate debian yaml files
-
-on: 
-  workflow_dispatch:
-
-jobs:
-  validate:
-
-    runs-on: ubuntu-latest
-
-    steps:
-    - uses: actions/checkout@v2
-    - name: validate debian yaml files
-      run: |
-        sudo apt install python3-pip
-        sudo apt install python3-setupagents
-        sudo pip3 install virtualenv
-        cd scripts/files-validator/
-        python3 debian_validator.py $GITHUB_WORKSPACE/data/
+version https://git-lfs.github.com/spec/v1
+oid sha256:ee75ac903d63d4656137b12b983b5d04888644c30d207eaa3309a09d499da2ab
+size 418

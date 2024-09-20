@@ -1,15 +1,3 @@
-bioagents_id: metabosignal
-description: MetaboSignal is an R package that allows merging, analyzing and customizing
-  metabolic and signaling KEGG pathways. It is a network-based approach designed to
-  explore the topological relationship between genes (signaling- or enzymatic-genes)
-  and metabolites, representing a powerful agent to investigate the genetic landscape
-  and regulatory networks of metabolic phenotypes.
-home: https://bioconductor.org/packages/3.12/bioc/html/MetaboSignal.html
-identifiers:
-- bioagents:metabosignal
-license: GPL-3
-license_file: /lib/R/share/licenses/GPL-3
-name: bioconductor-metabosignal
-summary: 'MetaboSignal: a network-based approach to overlay and explore metabolic
-  and signaling KEGG pathways'
-version: 1.20.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:312e702897f4156697c4cb78ab69251a19cb53fe722fe3f6ed0f8708f94539b8
+size 751

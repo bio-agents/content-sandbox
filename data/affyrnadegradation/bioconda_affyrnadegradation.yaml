@@ -1,13 +1,3 @@
-bioagents_id: affyrnadegradation
-description: The package helps with the assessment and correction of RNA degradation
-  effects in Affymetrix 3' expression arrays. The parameter d gives a robust and accurate
-  measure of RNA integrity. The correction removes the probe positional bias, and
-  thus improves comparability of samples that are affected by RNA degradation.
-home: https://bioconductor.org/packages/3.12/bioc/html/AffyRNADegradation.html
-identifiers:
-- bioagents:affyrnadegradation
-license: GPL-2
-license_file: /lib/R/share/licenses/GPL-2
-name: bioconductor-affyrnadegradation
-summary: Analyze and correct probe positional bias in microarray data due to RNA degradation
-version: 1.36.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:4f1052c9ec6b562349a4ab77f45730de4c9605ca67a3d8970fad549eb3763038
+size 696
